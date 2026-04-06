@@ -1399,5 +1399,124 @@
       14,
       6
     ]
+  },
+  {
+    "slug": "human-ai-collaboration-performance",
+    "title_ja": "人間-AI協働とパフォーマンス",
+    "title_en": "Human-AI Collaboration and Performance",
+    "description": "人間とAIが協力して作業を行う際のパフォーマンス向上・相補性・信頼構築のダイナミクスを研究する分野",
+    "related_sources": [
+      2,
+      3,
+      6,
+      15,
+      17
+    ]
+  },
+  {
+    "slug": "ai-developer-productivity",
+    "title_ja": "AIによる開発者生産性への影響",
+    "title_en": "AI Impact on Developer Productivity",
+    "description": "AIアシスタントやコーディングツールがソフトウェアエンジニアの生産性・開発速度・品質に与える影響を定量的に測定する研究領域",
+    "related_sources": [
+      4,
+      5,
+      10,
+      13
+    ]
+  },
+  {
+    "slug": "ai-workflow-automation-ux",
+    "title_ja": "AIワークフロー自動化とユーザー体験",
+    "title_en": "AI Workflow Automation and User Experience",
+    "description": "業務プロセスへのAI統合がワークフロー効率化・ユーザー体験・サービスパフォーマンスに与える効果を分析する研究分野",
+    "related_sources": [
+      1,
+      11,
+      12
+    ]
+  },
+  {
+    "slug": "ai-psychological-effects-work",
+    "title_ja": "AI利用が仕事の意味・自己効力感に与える心理的影響",
+    "title_en": "Psychological Effects of AI Use on Work Meaning and Self-Efficacy",
+    "description": "AIへの依存度や協働スタイルが労働者の自己効力感・オーナーシップ・仕事の意味づけに与える心理的影響を検討する研究",
+    "related_sources": [
+      14,
+      6,
+      3
+    ]
+  },
+  {
+    "slug": "llm-alignment-trust-sycophancy",
+    "title_ja": "LLMのアライメント・信頼・迎合性",
+    "title_en": "LLM Alignment, Trust, and Sycophancy",
+    "description": "大規模言語モデルの迎合的挙動・ユーザーへの説明提供・フィードバック帰属が人間の信頼と意思決定に与える影響を扱う研究領域",
+    "related_sources": [
+      19,
+      21,
+      9,
+      15
+    ]
+  },
+  {
+    "slug": "ai-ethics-and-governance",
+    "title_ja": "AI倫理とガバナンス",
+    "title_en": "AI Ethics and Governance",
+    "description": "AIシステムの倫理原則、ガイドライン、および公共信頼に基づくガバナンス体制の構築と評価に関する研究領域。",
+    "related_sources": [
+      6,
+      15,
+      26,
+      12
+    ]
+  },
+  {
+    "slug": "digital-divide-and-ai-adoption",
+    "title_ja": "デジタルデバイドとAI導入格差",
+    "title_en": "Digital Divide and AI Adoption Inequality",
+    "description": "AIの普及が教育機関や世代間・地域間にもたらすアクセス・スキル・成果の不平等に関する社会的問題。",
+    "related_sources": [
+      17,
+      18,
+      19,
+      5
+    ]
+  },
+  {
+    "slug": "epistemic-authority-and-algorithmic-truth",
+    "title_ja": "認識論的権威とアルゴリズム的真実",
+    "title_en": "Epistemic Authority and Algorithmic Truth",
+    "description": "AIおよびアルゴリズムシステムが知識の生産・検証・権威付けを再構成し、民主的な知識体制に与える影響。",
+    "related_sources": [
+      12,
+      23,
+      7,
+      13
+    ]
+  },
+  {
+    "slug": "hybrid-human-ai-society",
+    "title_ja": "ハイブリッド人間AI社会",
+    "title_en": "Hybrid Human-AI Society",
+    "description": "人間とAIエージェントが共存する社会システムにおける創造性・多様性・制度形成・社会シミュレーションの研究。",
+    "related_sources": [
+      21,
+      20,
+      13,
+      3
+    ]
+  },
+  {
+    "slug": "technology-acceptance-and-ai-resilience",
+    "title_ja": "技術受容とAIレジリエンス",
+    "title_en": "Technology Acceptance and AI-Enabled Resilience",
+    "description": "組織や個人がAIを受容・活用するプロセス、および企業のディスラプション耐性へのAI導入効果に関する実証的研究。",
+    "related_sources": [
+      5,
+      9,
+      10,
+      16
+    ]
   }
 ]
