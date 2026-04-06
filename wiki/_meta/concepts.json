@@ -1177,5 +1177,111 @@
       7,
       6
     ]
+  },
+  {
+    "slug": "ai-decision-authority-restructuring",
+    "title_ja": "AI組み込みによる意思決定権限の再編",
+    "title_en": "AI-Embedded Restructuring of Decision Authority",
+    "description": "組織においてAIが意思決定の策定・実行・監視に関与することで、従来の管理理論が前提とする人間中心の権限構造が根本的に変容する現象。",
+    "related_sources": [
+      2,
+      6
+    ]
+  },
+  {
+    "slug": "computational-rational-user-modeling",
+    "title_ja": "計算論的合理性に基づくユーザーモデリング",
+    "title_en": "Computational-Rational User Modeling",
+    "description": "認知的制約と偏ったビリーフのもとで最適行動をとるエージェントを形式化し、潜在的な認知限界とバイアス状態を受動的観察から推定するフレームワーク。",
+    "related_sources": [
+      4
+    ]
+  },
+  {
+    "slug": "cognitive-offloading-vs-debt",
+    "title_ja": "認知的オフローディング対認知的負債",
+    "title_en": "Cognitive Offloading vs. Cognitive Debt",
+    "description": "LLM（大規模言語モデル）利用時に観察される神経活動の低下が、病的な認知能力の衰退（認知的負債）なのか、適応的な認知資源の外部化（認知的オフローディング）なのかを巡る論争。",
+    "related_sources": [
+      5
+    ]
+  },
+  {
+    "slug": "ai-anthropomorphism-advice-taking",
+    "title_ja": "AIの擬人化とアドバイス受容",
+    "title_en": "AI Anthropomorphism and Advice-Taking Behavior",
+    "description": "AIに人間的特性を付与する擬人化の度合いと、アドバイスの調節焦点（促進・予防）が、ユーザーのAIアドバイス受容行動に与える影響を分析する研究領域。",
+    "related_sources": [
+      3,
+      7
+    ]
+  },
+  {
+    "slug": "agi-governance-digital-nudging",
+    "title_ja": "デジタルナッジングによるAGIガバナンス",
+    "title_en": "AGI Governance through Smart Digital Nudging",
+    "description": "行動経済学のナッジ理論をシステム・文化フレームワークと統合し、汎用人工知能（AGI）の社会的ガバナンスを戦略的予見の観点から設計するアプローチ。",
+    "related_sources": [
+      1,
+      9
+    ]
+  },
+  {
+    "slug": "embodied-cognition",
+    "title_ja": "身体化された認知",
+    "title_en": "Embodied Cognition",
+    "description": "認知や意識は身体的・感覚運動的経験に根ざしており、抽象的な記号処理だけでは説明できないという理論的立場。",
+    "related_sources": [
+      3,
+      8,
+      14
+    ]
+  },
+  {
+    "slug": "ai-alignment-and-moral-agency",
+    "title_ja": "AIアラインメントと道徳的エージェンシー",
+    "title_en": "AI Alignment and Moral Agency",
+    "description": "AIシステムが人間の価値観・倫理規範に沿って行動することを保証するための理論的・技術的課題と、AIへの道徳的責任帰属の問題。",
+    "related_sources": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "slug": "consciousness-and-recursive-self-modeling",
+    "title_ja": "意識と再帰的自己モデリング",
+    "title_en": "Consciousness and Recursive Self-Modeling",
+    "description": "意識は情報処理システムが自己の状態を再帰的に表現・更新することによって創発するという構造的理論。",
+    "related_sources": [
+      9,
+      10,
+      1
+    ]
+  },
+  {
+    "slug": "llm-capabilities-and-limits",
+    "title_ja": "大規模言語モデルの能力と限界",
+    "title_en": "Capabilities and Limits of Large Language Models",
+    "description": "GPT-3等の大規模言語モデルが示す人間的テキスト生成能力の性質を分析し、汎用知能との違いや医療・教育などへの応用可能性と限界を論じる研究領域。",
+    "related_sources": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "slug": "situated-knowledge-and-epistemology",
+    "title_ja": "状況的知識と認識論",
+    "title_en": "Situated Knowledge and Epistemology",
+    "description": "知識は普遍的・中立的ではなく、特定の視点・文脈・権力関係に埋め込まれているという認識論的立場と、AIが知識生産に与える影響。",
+    "related_sources": [
+      5,
+      11,
+      12,
+      13
+    ]
   }
 ]
