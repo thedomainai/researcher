@@ -33,7 +33,7 @@ def call_claude(system_prompt, user_prompt, max_tokens=4096):
             "content-type": "application/json",
         },
         json={
-            "model": "claude-sonnet-4-20250514",
+            "model": "claude-sonnet-4-6",
             "max_tokens": max_tokens,
             "system": system_prompt,
             "messages": [{"role": "user", "content": user_prompt}],
@@ -51,16 +51,21 @@ print("=" * 60)
 print("Step 4: raw → wiki コンパイル")
 print("=" * 60)
 
-# インデックス読み込み
+# インデックス読み込み（未コンパイルのみ対象）
 index_path = os.path.join(RAW, "index.jsonl")
 with open(index_path, "r", encoding="utf-8") as f:
     index = [json.loads(line) for line in f if line.strip()]
 
-print(f"\n  インデックス: {len(index)}件")
+pending = [e for e in index if not e.get("wiki_compiled")]
+print(f"\n  インデックス: {len(index)}件（未コンパイル: {len(pending)}件）")
+
+if not pending:
+    print("  ✅ 全件コンパイル済み。終了します。")
+    sys.exit(0)
 
 # 各rawファイルの要約を作成（全文はトークン過多なので冒頭を使う）
 raw_summaries = []
-for entry in index:
+for entry in pending:
     filepath = os.path.join(RAW, entry["file"])
     if os.path.exists(filepath):
         with open(filepath, "r", encoding="utf-8") as f:
@@ -192,57 +197,51 @@ for concept in concepts:
 
         print(f"  ✅ 保存: concepts/{slug}.md ({len(article)}文字)")
 
+        # コンパイル済みフラグをindex.jsonlに反映
+        compiled_titles = {s["title"] for s in raw_summaries if raw_summaries.index(s) + 1 in related_indices}
+        updated_index = []
+        for e in index:
+            if e["title"] in compiled_titles:
+                e = {**e, "wiki_compiled": True, "wiki_slug": slug}
+            updated_index.append(e)
+        index = updated_index
+
     except Exception as e:
         print(f"  ❌ エラー [{slug}]: {e}")
 
 # ============================================================
-# Phase 3: wikiインデックス生成
+# Phase 3: メタデータ更新 + index.jsonl 書き戻し
 # ============================================================
 print("\n" + "-" * 40)
-print("Phase 3: wikiインデックス生成")
+print("Phase 3: メタデータ更新")
 print("-" * 40)
 
-index_md = """# Wiki インデックス
-
-このwikiは、raw/に取り込んだAI/ML関連の記事・論文からLLMによって自動生成されたものです。
-
-## コンセプト一覧
-
-"""
-for concept in concepts:
-    index_md += f"- [[{concept['slug']}|{concept['title_ja']}]] — {concept['description']}\n"
-
-index_md += f"""
-## 統計
-
-- ソース数: {len(index)}件（記事: {sum(1 for e in index if e['type']=='article')}、論文: {sum(1 for e in index if e['type']=='paper')}）
-- コンセプト数: {len(concepts)}件
-- 最終更新: {__import__('datetime').datetime.now().strftime('%Y-%m-%d %H:%M')}
-
-## rawソース一覧
-
-"""
-for entry in index:
-    if entry["type"] == "article":
-        index_md += f"- 📄 [{entry['title']}]({entry['url']}) by {entry['author']}\n"
-    else:
-        index_md += f"- 📝 {entry['title']} ({entry.get('categories', '')})\n"
-
-wiki_index_path = os.path.join(WIKI, "index.md")
-with open(wiki_index_path, "w", encoding="utf-8") as f:
-    f.write(index_md)
-
-# メタデータ保存
+# _meta/concepts.json に今回のコンセプトをマージ（既存を保持）
 meta_path = os.path.join(WIKI_META, "concepts.json")
-with open(meta_path, "w", encoding="utf-8") as f:
-    json.dump(concepts, f, ensure_ascii=False, indent=2)
+existing_concepts = []
+if os.path.exists(meta_path):
+    with open(meta_path, "r", encoding="utf-8") as f:
+        existing_concepts = json.load(f)
 
-print(f"  ✅ wiki/index.md 生成")
-print(f"  ✅ wiki/_meta/concepts.json 保存")
+existing_slugs = {c["slug"] for c in existing_concepts}
+merged_concepts = existing_concepts + [c for c in concepts if c["slug"] not in existing_slugs]
+
+with open(meta_path, "w", encoding="utf-8") as f:
+    json.dump(merged_concepts, f, ensure_ascii=False, indent=2)
+
+print(f"  ✅ wiki/_meta/concepts.json 更新（{len(merged_concepts)}件）")
+
+# index.jsonl に wiki_compiled フラグを書き戻し
+with open(index_path, "w", encoding="utf-8") as f:
+    for e in index:
+        f.write(json.dumps(e, ensure_ascii=False) + "\n")
+
+compiled_count = sum(1 for e in index if e.get("wiki_compiled"))
+print(f"  ✅ raw/index.jsonl 更新（コンパイル済み: {compiled_count}/{len(index)}件）")
+print("  ℹ️  wiki/index.md は手動管理のため上書きしません")
 
 print("\n" + "=" * 60)
 print("パイプライン完了!")
 print("=" * 60)
-print(f"  wiki/index.md       — ウィキのインデックス")
 print(f"  wiki/concepts/*.md  — コンセプト別記事 {len(concepts)}件")
 print(f"  wiki/_meta/         — メタデータ")
