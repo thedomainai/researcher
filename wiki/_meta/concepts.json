@@ -1703,5 +1703,85 @@
       24,
       20
     ]
+  },
+  {
+    "slug": "human-ai-collaboration-productivity",
+    "title_ja": "人間-AI協働による生産性向上",
+    "title_en": "Human-AI Collaboration for Productivity Enhancement",
+    "description": "AIツールが知識労働者やソフトウェア開発者の生産性に与える影響を実証的に測定・分析する研究領域",
+    "related_sources": [
+      4,
+      5,
+      6,
+      13
+    ]
+  },
+  {
+    "slug": "ai-automation-workflow",
+    "title_ja": "AIによるワークフロー自動化",
+    "title_en": "AI-Driven Workflow Automation",
+    "description": "エンタープライズ環境においてAIがITサポートや業務プロセスを自動化し、サービス品質を向上させる取り組み",
+    "related_sources": [
+      1,
+      10,
+      11,
+      18
+    ]
+  },
+  {
+    "slug": "human-ai-trust-complementarity",
+    "title_ja": "人間-AI間の信頼と相補性",
+    "title_en": "Human-AI Trust and Complementarity",
+    "description": "AIと人間が互いの強みを補完し合うチームを形成するための信頼構築・整合性設計に関する研究",
+    "related_sources": [
+      3,
+      15,
+      17,
+      14
+    ]
+  },
+  {
+    "slug": "ai-explainability-decision-making",
+    "title_ja": "AI説明可能性と意思決定支援",
+    "title_en": "AI Explainability and Decision Support",
+    "description": "AIが提供する説明の種類やユーザー特性が意思決定の質・信頼・パフォーマンスに与える影響の研究",
+    "related_sources": [
+      15,
+      19,
+      9
+    ]
+  },
+  {
+    "slug": "ai-cognitive-augmentation",
+    "title_ja": "AIによる認知拡張",
+    "title_en": "AI-Enabled Cognitive Augmentation",
+    "description": "AIを活用して人間の記憶・知識管理・学習能力を拡張するシステムやフレームワークの設計と評価",
+    "related_sources": [
+      11,
+      12,
+      22,
+      7
+    ]
+  },
+  {
+    "slug": "multi-agent-system-trust-security",
+    "title_ja": "マルチエージェントシステムにおける信頼・セキュリティ",
+    "title_en": "Trust and Security in Multi-Agent Systems",
+    "description": "自律AIエージェントが連携するシステムにおける委任チェーンの検証、アイデンティティ、責任、信頼の設計と保証に関する研究領域。",
+    "related_sources": [
+      4,
+      14
+    ]
+  },
+  {
+    "slug": "agentic-ai-collaborative-systems",
+    "title_ja": "エージェンティックAIと協調システム",
+    "title_en": "Agentic AI and Collaborative Systems",
+    "description": "自律的に行動・推論・協調するAIエージェントを複数組み合わせたシステムの設計と応用。推薦システムや無線ネットワークなど幅広い分野への展開が進む。",
+    "related_sources": [
+      6,
+      7,
+      2
+    ]
   }
 ]
