@@ -1623,5 +1623,85 @@
       18,
       22
     ]
+  },
+  {
+    "slug": "cognitive-biomarkers-and-privacy",
+    "title_ja": "認知バイオマーカーとプライバシー",
+    "title_en": "Cognitive Biomarkers and Privacy",
+    "description": "人間とAIの相互作用から生成される認知・生体的痕跡（反応潜時、判断パターン等）が新たなプライバシーリスクを生み出すという概念。",
+    "related_sources": [
+      1
+    ]
+  },
+  {
+    "slug": "brain-computer-interfaces",
+    "title_ja": "ブレイン・コンピュータ・インターフェース",
+    "title_en": "Brain-Computer Interfaces",
+    "description": "超音波や電磁気的手法を用いて脳と機械を直接接続し、認知能力（注意・学習・信頼等）を拡張・制御する技術。",
+    "related_sources": [
+      3
+    ]
+  },
+  {
+    "slug": "ai-language-brain-alignment",
+    "title_ja": "AIと脳の言語表現の収束",
+    "title_en": "Convergence of AI and Brain Language Representations",
+    "description": "人工ニューラル言語モデルと人間の脳が言語構造（統語・意味）に対して類似した表現を自発的に形成するという現象。",
+    "related_sources": [
+      5,
+      19
+    ]
+  },
+  {
+    "slug": "ai-ethics-and-moral-agency",
+    "title_ja": "AIの倫理と道徳的エージェント性",
+    "title_en": "AI Ethics and Moral Agency",
+    "description": "LLMが道徳的判断を模倣できるかという問いに対し、分散道徳認知の概念から人間とAIの協働による倫理的意思決定を再考する枠組み。",
+    "related_sources": [
+      7,
+      11
+    ]
+  },
+  {
+    "slug": "higher-order-brain-networks",
+    "title_ja": "高次脳ネットワーク",
+    "title_en": "Higher-Order Brain Networks",
+    "description": "ペアワイズグラフを超えたトポロジカル信号処理によって脳の機能的相互作用を高次元で解析するマルチモーダルな脳コネクトミクス手法。",
+    "related_sources": [
+      6
+    ]
+  },
+  {
+    "slug": "human-ai-collaboration-decision-making",
+    "title_ja": "人間とAIの協調的意思決定",
+    "title_en": "Human-AI Collaboration in Decision Making",
+    "description": "AIが意思決定支援を提供する際の人間との協調メカニズムで、信頼校正・認知負荷・透明性・ユーザー要件との整合を扱う研究領域。",
+    "related_sources": [
+      12,
+      15,
+      11,
+      14
+    ]
+  },
+  {
+    "slug": "natural-language-interaction-data-exploration",
+    "title_ja": "自然言語インタラクションによるデータ探索",
+    "title_en": "Natural Language Interaction for Data Exploration",
+    "description": "自然言語処理とHCIを融合し、ユーザーが自然言語でデータを問い合わせ・探索・可視化できる人間中心のインターフェース設計アプローチ。",
+    "related_sources": [
+      10,
+      7
+    ]
+  },
+  {
+    "slug": "ai-ethics-consent-privacy",
+    "title_ja": "AIにおける倫理・同意・プライバシー",
+    "title_en": "AI Ethics, Consent, and Privacy",
+    "description": "AIシステムが個人データを処理する時代におけるユーザー同意メカニズム・制御権・アルゴリズム的公正性に関する倫理的・設計的課題。",
+    "related_sources": [
+      21,
+      24,
+      20
+    ]
   }
 ]
