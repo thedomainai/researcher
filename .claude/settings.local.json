@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 tools/fetch.py watch --dry-run --domain neuroscience --since 2026-03-01)",
+      "Bash(python3 tools/fetch.py explore --domain neuroscience --depth 1 --limit 10 --dry-run)",
+      "Bash(git mv:*)"
+    ]
+  }
+}
