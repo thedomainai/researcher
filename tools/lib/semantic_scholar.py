@@ -30,21 +30,29 @@ class SemanticScholarClient:
             h["x-api-key"] = self.api_key
         return h
 
-    def _request(self, url, params=None):
-        # type: (str, Optional[Dict]) -> Optional[Dict]
+    def _request(self, url, params=None, _retries=3):
+        # type: (str, Optional[Dict], int) -> Optional[Dict]
+        import time as _time
         self.rl.wait_sync(url)
         if params is None:
             params = {}
-        try:
-            r = httpx.get(url, params=params, headers=self._headers(), timeout=30)
-            if r.status_code == 200:
-                return r.json()
-            else:
-                print("      S2 %d: %s" % (r.status_code, url[:80]))
-                return None
-        except Exception as e:
-            print("      S2 error: %s" % e)
-            return None
+        for attempt in range(_retries):
+            try:
+                r = httpx.get(url, params=params, headers=self._headers(), timeout=30)
+                if r.status_code == 200:
+                    return r.json()
+                elif r.status_code == 429:
+                    wait = 5 * (attempt + 1)
+                    print("      S2 429 (rate limit) — waiting %ds..." % wait)
+                    _time.sleep(wait)
+                else:
+                    print("      S2 %d: %s" % (r.status_code, url[:80]))
+                    return None
+            except Exception as e:
+                print("      S2 error: %s" % e)
+                if attempt < _retries - 1:
+                    _time.sleep(3)
+        return None
 
     def search(self, query, limit=20, min_citations=50):
         # type: (str, int, int) -> List[Dict]
