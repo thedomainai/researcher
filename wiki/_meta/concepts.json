@@ -1283,5 +1283,121 @@
       12,
       13
     ]
+  },
+  {
+    "slug": "mixed-initiative-visual-analytics",
+    "title_ja": "混合主導型ビジュアル分析",
+    "title_en": "Mixed-Initiative Visual Analytics",
+    "description": "人間とAIが対等なパートナーとして協調してデータ分析を行うシステムの設計・評価フレームワーク",
+    "related_sources": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "slug": "human-ai-interaction-design",
+    "title_ja": "人間-AI インタラクション設計",
+    "title_en": "Human-AI Interaction Design",
+    "description": "AI システムと人間の効果的な協調を実現するためのインターフェース設計・評価の原則と手法",
+    "related_sources": [
+      5,
+      6,
+      12,
+      15,
+      18
+    ]
+  },
+  {
+    "slug": "explainable-ai-xai",
+    "title_ja": "説明可能なAI（XAI）",
+    "title_en": "Explainable AI (XAI)",
+    "description": "AIの意思決定過程をユーザーが理解・検証・修正できるよう透明性と説明可能性を提供する技術・手法",
+    "related_sources": [
+      7,
+      9
+    ]
+  },
+  {
+    "slug": "ai-decision-support-systems",
+    "title_ja": "AI意思決定支援システム",
+    "title_en": "AI Decision Support Systems",
+    "description": "医療・ビジネスなど様々な領域において人間の意思決定を支援するAIシステムの設計と応用",
+    "related_sources": [
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "slug": "generative-ai-in-education",
+    "title_ja": "教育における生成AI活用",
+    "title_en": "Generative AI in Education",
+    "description": "生成AIチャットボットやエージェントを活用した学習支援・問題解決・論文執筆への影響と設計",
+    "related_sources": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "slug": "ai-explainability-interpretability",
+    "title_ja": "AIの説明可能性と解釈可能性",
+    "title_en": "AI Explainability and Interpretability",
+    "description": "ブラックボックスモデルの内部ロジックを人間が理解できるよう説明・解釈する手法とその重要性。",
+    "related_sources": [
+      1,
+      8,
+      9
+    ]
+  },
+  {
+    "slug": "ai-ethics-governance",
+    "title_ja": "AI倫理とガバナンス",
+    "title_en": "AI Ethics and Governance",
+    "description": "AIの開発・運用における倫理原則の策定、社会的リスク管理、および多国間のガバナンス枠組みの構築。",
+    "related_sources": [
+      2,
+      3,
+      4,
+      25
+    ]
+  },
+  {
+    "slug": "algorithmic-bias-fairness",
+    "title_ja": "アルゴリズムバイアスと公平性",
+    "title_en": "Algorithmic Bias and Fairness",
+    "description": "AIアルゴリズムが人種・性別等の属性に基づいて不公平な結果をもたらす問題とその是正方法。",
+    "related_sources": [
+      5,
+      7,
+      18,
+      20
+    ]
+  },
+  {
+    "slug": "ai-legal-liability-personhood",
+    "title_ja": "AIの法的責任と法人格",
+    "title_en": "AI Legal Liability and Legal Personhood",
+    "description": "AIシステムが引き起こす損害に対する責任帰属の枠組みと、AIに法的人格を付与する可能性についての法的議論。",
+    "related_sources": [
+      10,
+      11,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "slug": "ai-regulation-frameworks",
+    "title_ja": "AI規制フレームワーク",
+    "title_en": "AI Regulation Frameworks",
+    "description": "各国・地域におけるAIの開発・利用を規律する法的規制モデルとリスクベースアプローチの比較研究。",
+    "related_sources": [
+      12,
+      13,
+      14,
+      6
+    ]
   }
 ]
