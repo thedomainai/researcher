@@ -5,27 +5,32 @@ import json, os, html as html_mod
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WIKI = os.path.join(BASE, "wiki", "concepts")
 OUT = os.path.join(BASE, "wiki", "reader.html")
+META_FILE = os.path.join(BASE, "wiki", "_meta", "concepts.json")
 
-META = [
-  {"slug":"adaptive-intelligence-emergence","t":"適応知能創発","tier":1},
-  {"slug":"predictive-processing-architecture","t":"予測処理アーキテクチャ","tier":1},
-  {"slug":"sociotechnical-assemblage","t":"社会技術アセンブリ","tier":1},
-  {"slug":"distributed-cognitive-load","t":"分散認知負荷","tier":2},
-  {"slug":"algorithmic-transparency-paradox","t":"アルゴリズム透明性パラドックス","tier":2},
-  {"slug":"dynamic-capability-amplification","t":"動的能力増幅","tier":2},
-  {"slug":"prospect-guided-ai-adoption","t":"プロスペクト誘導AI導入","tier":2},
-  {"slug":"niche-construction-dynamics","t":"ニッチ構築ダイナミクス","tier":2},
-  {"slug":"autopoietic-system-maintenance","t":"自己創出システム維持","tier":2},
-  {"slug":"multi-scale-governance-architecture","t":"多層ガバナンスアーキテクチャ","tier":2},
-  {"slug":"embodied-interaction-design","t":"身体化相互作用設計","tier":2},
-  {"slug":"cultural-intelligence-hybridization","t":"文化知能ハイブリッド化","tier":2},
-  {"slug":"jagged-frontier-analysis","t":"ジャグド境界分析","tier":3},
-  {"slug":"sociotechnical-transition-pathways","t":"社会技術転換経路","tier":3},
-  {"slug":"ambidextrous-organization-model","t":"両利き組織モデル","tier":3},
-  {"slug":"path-dependent-ai-evolution","t":"経路依存AI進化","tier":3},
-  {"slug":"situated-knowledge-validation","t":"状況知識検証","tier":3},
-  {"slug":"technological-determinism-resistance","t":"技術決定論抵抗","tier":3},
-]
+# concepts.json から動的に META を構築
+raw_meta = json.load(open(META_FILE, encoding="utf-8")) if os.path.exists(META_FILE) else []
+meta_by_slug = {m["slug"]: m for m in raw_meta}
+
+# wiki/concepts/ 内の全 .md ファイルを列挙し、concepts.json にない記事も取り込む
+all_slugs = sorted(
+    f[:-3] for f in os.listdir(WIKI) if f.endswith(".md")
+)
+
+META = []
+for slug in all_slugs:
+    if slug in meta_by_slug:
+        m = meta_by_slug[slug]
+        META.append({"slug": slug, "t": m.get("title_ja", slug), "tier": m.get("tier", 2)})
+    else:
+        # concepts.json にない場合はファイルの先頭 H1 からタイトルを取得
+        fp = os.path.join(WIKI, slug + ".md")
+        title = slug
+        with open(fp, encoding="utf-8") as f:
+            for line in f:
+                if line.startswith("# "):
+                    title = line[2:].strip()
+                    break
+        META.append({"slug": slug, "t": title, "tier": 2})
 
 articles = {}
 for m in META:
@@ -83,7 +88,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Hiragino Sans',sans-serif;bac
 .ab code{background:rgba(255,255,255,.06);padding:1px 5px;border-radius:3px;font-size:13px;color:#c0c0e0}
 </style></head><body>
 <div id="list">
-<div class="hdr"><h1>AI Native Wiki</h1><div class="sub">17分野 × 18コンセプト</div></div>
+<div class="hdr"><h1>AI Native Wiki</h1><div class="sub">15分野 × """ + str(len(META)) + """コンセプト</div></div>
 <div class="nav" id="nav"></div>
 <div class="cards" id="cards"></div>
 </div>
