@@ -2,7 +2,14 @@
 Step 4: raw/ → wiki/ コンパイル
 raw/のインデックスと記事内容を読み、コンセプト別のwiki記事を生成する
 Claude APIを使用
+
+Usage:
+    python tools/pipeline_compile.py [--domain DOMAIN] [--limit N]
+
+    --domain : 特定の分野のみ処理（例: neuroscience, ai_governance）
+    --limit  : 1回の実行で処理する論文数上限（デフォルト: 30）
 """
+import argparse
 import json
 import os
 import sys
@@ -17,6 +24,11 @@ WIKI_META = os.path.join(WIKI, "_meta")
 
 os.makedirs(WIKI_CONCEPTS, exist_ok=True)
 os.makedirs(WIKI_META, exist_ok=True)
+
+parser = argparse.ArgumentParser(description="Compile raw papers into wiki articles")
+parser.add_argument("--domain", default=None, help="Filter by domain (e.g. neuroscience)")
+parser.add_argument("--limit", type=int, default=30, help="Max papers to process per run (default: 30)")
+args = parser.parse_args()
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 if not ANTHROPIC_API_KEY:
@@ -57,11 +69,20 @@ with open(index_path, "r", encoding="utf-8") as f:
     index = [json.loads(line) for line in f if line.strip()]
 
 pending = [e for e in index if not e.get("wiki_compiled")]
-print(f"\n  インデックス: {len(index)}件（未コンパイル: {len(pending)}件）")
+if args.domain:
+    pending = [e for e in pending if e.get("domain") == args.domain]
+    print(f"\n  インデックス: {len(index)}件（未コンパイル: {len(pending)}件, domain={args.domain}）")
+else:
+    print(f"\n  インデックス: {len(index)}件（未コンパイル: {len(pending)}件）")
 
 if not pending:
     print("  ✅ 全件コンパイル済み。終了します。")
     sys.exit(0)
+
+# 1回あたりの処理上限
+if len(pending) > args.limit:
+    print(f"  ℹ️  上限 {args.limit} 件に絞って処理します（残り {len(pending) - args.limit} 件は次回以降）")
+    pending = pending[: args.limit]
 
 # 各rawファイルの要約を作成（全文はトークン過多なので冒頭を使う）
 raw_summaries = []
@@ -197,8 +218,8 @@ for concept in concepts:
 
         print(f"  ✅ 保存: concepts/{slug}.md ({len(article)}文字)")
 
-        # コンパイル済みフラグをindex.jsonlに反映
-        compiled_titles = {s["title"] for s in raw_summaries if raw_summaries.index(s) + 1 in related_indices}
+        # コンパイル済みフラグをindex.jsonlに反映（1-based index を 0-based に変換）
+        compiled_titles = {raw_summaries[i]["title"] for i in range(len(raw_summaries)) if (i + 1) in related_indices}
         updated_index = []
         for e in index:
             if e["title"] in compiled_titles:
