@@ -480,5 +480,170 @@
     "related_sources": [
       3
     ]
+  },
+  {
+    "slug": "cognitive-load-theory",
+    "title_ja": "認知負荷理論",
+    "title_en": "Cognitive Load Theory",
+    "description": "ワーキングメモリの限界を考慮し、学習効率を最大化するための教授設計理論。",
+    "related_sources": [
+      2,
+      3,
+      7
+    ]
+  },
+  {
+    "slug": "self-regulated-learning",
+    "title_ja": "自己調整学習",
+    "title_en": "Self-Regulated Learning",
+    "description": "学習者が認知・メタ認知・動機づけ・感情を自律的に制御しながら学ぶプロセスのモデル群。",
+    "related_sources": [
+      1,
+      15
+    ]
+  },
+  {
+    "slug": "metacognition",
+    "title_ja": "メタ認知",
+    "title_en": "Metacognition",
+    "description": "自己の思考・学習プロセスを監視・制御する高次認知能力に関する理論的枠組み。",
+    "related_sources": [
+      4,
+      15
+    ]
+  },
+  {
+    "slug": "situated-cognition",
+    "title_ja": "状況的認知",
+    "title_en": "Situated Cognition",
+    "description": "知識は活動・文脈・文化に埋め込まれており、状況と切り離せないとする認知理論。",
+    "related_sources": [
+      5,
+      6
+    ]
+  },
+  {
+    "slug": "human-ai-collaborative-cognition",
+    "title_ja": "人間とAIの協調認知",
+    "title_en": "Human-AI Collaborative Cognition",
+    "description": "AIが人間の認知プロセスを拡張・分散・支援する協調的問題解決の枠組み。",
+    "related_sources": [
+      8,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "slug": "prospect-theory",
+    "title_ja": "プロスペクト理論",
+    "title_en": "Prospect Theory",
+    "description": "リスク下の意思決定において、人々が利得と損失を非対称に評価するという行動経済学の基礎理論",
+    "related_sources": [
+      1,
+      11,
+      5
+    ]
+  },
+  {
+    "slug": "algorithm-aversion",
+    "title_ja": "アルゴリズム忌避",
+    "title_en": "Algorithm Aversion",
+    "description": "アルゴリズムが誤りを犯した後に人々が合理的判断なくアルゴリズムの使用を避ける傾向",
+    "related_sources": [
+      2,
+      10,
+      13,
+      14
+    ]
+  },
+  {
+    "slug": "human-ai-trust",
+    "title_ja": "AIへの信頼",
+    "title_en": "Human Trust in Artificial Intelligence",
+    "description": "人間がAIによる自動意思決定システムに対して抱く信頼感とその形成要因",
+    "related_sources": [
+      6,
+      12,
+      4
+    ]
+  },
+  {
+    "slug": "interpretable-machine-learning",
+    "title_ja": "解釈可能な機械学習",
+    "title_en": "Interpretable Machine Learning",
+    "description": "機械学習モデルの出力や意思決定プロセスを人間が理解・説明可能にする技術的アプローチ",
+    "related_sources": [
+      7,
+      8
+    ]
+  },
+  {
+    "slug": "digital-nudging",
+    "title_ja": "デジタルナッジング",
+    "title_en": "Digital Nudging",
+    "description": "オンライン・デジタル環境において選択アーキテクチャを設計し人々の行動変容を促す介入手法",
+    "related_sources": [
+      9,
+      15,
+      3
+    ]
+  },
+  {
+    "slug": "complex-adaptive-systems",
+    "title_ja": "複雑適応系",
+    "title_en": "Complex Adaptive Systems",
+    "description": "多数の要素が相互作用し、環境への適応を通じて創発的な振る舞いを示す複雑なシステムの理論的枠組み。",
+    "related_sources": [
+      1,
+      2,
+      4,
+      8
+    ]
+  },
+  {
+    "slug": "self-organization-emergence",
+    "title_ja": "自己組織化と創発",
+    "title_en": "Self-Organization and Emergence",
+    "description": "外部からの設計なしに、局所的な相互作用から大域的なパターンや秩序が自発的に生じるプロセス。",
+    "related_sources": [
+      3,
+      7,
+      8,
+      10
+    ]
+  },
+  {
+    "slug": "feedback-loops-system-dynamics",
+    "title_ja": "フィードバックループとシステムダイナミクス",
+    "title_en": "Feedback Loops and System Dynamics",
+    "description": "システム内部のフィードバック構造が時間的ダイナミクスや政策抵抗を生み出すメカニズムの研究。",
+    "related_sources": [
+      4,
+      12,
+      15
+    ]
+  },
+  {
+    "slug": "ai-human-cognitive-interaction",
+    "title_ja": "AIと人間の認知的相互作用",
+    "title_en": "AI-Human Cognitive Interaction",
+    "description": "AIシステムが人間の認知・行動・精神的健康に与える相互影響と、適応的インタフェース設計の研究。",
+    "related_sources": [
+      5,
+      9,
+      11,
+      12,
+      15
+    ]
+  },
+  {
+    "slug": "autonomous-navigation-robotics",
+    "title_ja": "自律ナビゲーションとロボティクス",
+    "title_en": "Autonomous Navigation and Robotics",
+    "description": "非構造化環境における視覚センサや画像処理を用いたロボットの自律的経路計画と軌道制御の技術。",
+    "related_sources": [
+      6
+    ]
   }
 ]
