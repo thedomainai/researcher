@@ -1,69 +1,65 @@
 # Wiki インデックス — AI Native 社会・組織・システム設計
 
-このwikiは、17の学問分野から収集した論文・記事をLLMによってコンセプト別に構造化したナレッジベースです。`fetch_latest.py`により毎日自動で最新論文が追加されます。
+このwikiは17の学問分野から収集した論文・記事をLLMによってコンセプト別に構造化したナレッジベースです。
+`fetch_latest.py`により毎日自動で最新論文が追加され、`compile_wiki.py`でwikiが更新されます。
 
-## コンセプト記事
+## Tier 1: 不変原理
 
-### 基礎科学
-- [[test-time-compute|テスト時計算と推論の拡張]] — System 1/2とLLMの推論時計算配分
-- [[predictive-coding|予測符号化]] — 脳とAIの「予測→誤差→更新」原理
-- [[cognitive-load|認知的負荷理論]] — 人間の情報処理容量の制約とAIによる認知オフロード
-- [[attention-mechanisms|アテンション機構と操舵可能性]] — AIの注意をどう制御するか
+_AGI時代でも成立する構造的原理。対象（人間/AI/組織）を入れ替えても成立する。_
 
-### 人間科学
-- [[self-determination-theory|自己決定理論]] — 自律性・有能感・関係性の根本欲求（被引用38,917）
-- [[reward-hacking|報酬ハッキングとGoodhart's Law]] — 指標最適化が意図を裏切るメカニズム
+- [[adaptive-intelligence-emergence|適応知能創発]] — 知能は個体内ではなく環境との相互作用から創発する分散プロセスとして機能する (cognitive_science, complexity_science, evolutionary_biology)
+- [[predictive-processing-architecture|予測処理アーキテクチャ]] — 知能システムは予測誤差最小化による階層的情報処理として組織化される (neuroscience, cognitive_science, ai_governance)
+- [[sociotechnical-assemblage|社会技術アセンブリ]] — 人間とAIは固定的システムではなく動的な関係性パターンとして共進化する (sociology, anthropology, hci)
 
-### 社会科学
-- [[social-construction|社会的構成主義]] — AIが生成する情報が「現実」を構成するプロセス
-- [[human-ai-collaboration|人間-AI協働]] — 協働の実証研究と生産性への影響
+## Tier 2: 設計原理
 
-### 設計科学
-- [[coding-agents|エージェントアーキテクチャ]] — LLM+ハーネスのシステム設計原理
-- [[resilience-engineering|レジリエンスエンジニアリング]] — 複雑系における安全性と適応能力
-- [[interaction-awareness|インタラクション認識]] — AIが対話の文脈を理解する能力
+_AI Nativeなシステムの設計に直接使える原理。_
 
-## 分野別ソースマップ
+- [[distributed-cognitive-load|分散認知負荷]] — 認知負荷を人間-AI間で最適分散することで全体パフォーマンスを向上させる (cognitive_science, human_ai_collaboration, psychology)
+- [[algorithmic-transparency-paradox|アルゴリズム透明性パラドックス]] — AI説明可能性の向上が必ずしも信頼や有用性の向上をもたらさない現象 (law, behavioral_economics, hci)
+- [[dynamic-capability-amplification|動的能力増幅]] — AIが組織の適応能力と学習能力を構造的に増幅する原理 (organization_science, economics, complexity_science)
+- [[embodied-interaction-design|身体化相互作用設計]] — 物理的・感覚的身体性を統合したAI-人間協働インターフェース設計 (hci, cognitive_science, neuroscience)
+- [[multi-scale-governance-architecture|多層ガバナンスアーキテクチャ]] — 個人から社会まで複数スケールでAIリスクと価値を調整する統合ガバナンス (ai_governance, law, sociology)
+- [[niche-construction-dynamics|ニッチ構築ダイナミクス]] — AIシステムが環境を改変し、それが新たな選択圧を生む共進化プロセス (evolutionary_biology, economics, complexity_science)
+- [[prospect-guided-ai-adoption|プロスペクト誘導AI導入]] — 認知バイアスを考慮したAI技術受容と意思決定支援システム設計 (behavioral_economics, psychology, hci)
+- [[autopoietic-system-maintenance|自己創出システム維持]] — AIシステムが自律的に境界と組織を維持・再生産する原理 (complexity_science, systems_engineering, philosophy)
+- [[cultural-intelligence-hybridization|文化知能ハイブリッド化]] — 人間の文化的知能とAIの計算能力を融合した新たな認知アーキテクチャ (anthropology, cognitive_science, human_ai_collaboration)
 
-| 分野 | 論文数 | 代表論文（被引用数） |
-|---|---|---|
-| 脳科学 | 39 | Free Energy Principle — Friston (6,860) |
-| 認知科学 | 33 | Situated Cognition — Brown et al. (12,892) |
-| 複雑系科学 | 35 | Adaptation in Natural and Artificial Systems — Holland (35,555) |
-| 心理学 | 30 | Self-Determination Theory — Deci & Ryan (38,917) |
-| 行動経済学 | 28 | Prospect Theory — Kahneman & Tversky (46,176) |
-| 法学 | 28 | Dissecting Racial Bias in Algorithms (5,641) |
-| 組織科学 | 26 | Dynamic Capabilities — Teece et al. (34,015) |
-| HCI | 26 | Mixed-Initiative Interaction (38) |
-| 社会学 | 26 | Reassembling the Social — Latour (14,916) |
-| 人間-AI協働 | 25 | Navigating the Jagged Frontier — BCG/Harvard (631) |
-| AIガバナンス | 25 | Global Landscape of AI Ethics Guidelines (2,368) |
-| 哲学 | 21 | An Introduction to Cybernetics — Ashby (7,186) |
-| 経済学 | 20 | Skill Content of Technological Change — Autor (2,628) |
-| システム工学 | 17 | Resilience Engineering SR群 |
-| 進化生物学 | 14 | Niche Construction — Odling-Smee (2,396) |
-| 技術史 | 12 | Sociotechnical Transition Pathways (4,912) |
-| 人類学 | 11 | Interpretation of Cultures — Geertz (20,907) |
-| RSS記事 | 9 | Lilian Weng, Sebastian Raschka 他 |
+## Tier 3: 分析枠組み
+
+_AI時代の変化を理解するための分析フレームワーク。_
+
+- [[jagged-frontier-analysis|ジャグド境界分析]] — AIの能力境界が不規則で予測困難な形で拡張する現象の分析枠組み (economics, human_ai_collaboration, complexity_science)
+- [[sociotechnical-transition-pathways|社会技術転換経路]] — AI導入による社会システムの段階的変容過程を分析するフレームワーク (history_of_technology, sociology, economics)
+- [[ambidextrous-organization-model|両利き組織モデル]] — AI時代の探索と活用の同時実行による組織適応メカニズム分析 (organization_science, economics, complexity_science)
+- [[path-dependent-ai-evolution|経路依存AI進化]] — 初期条件と歴史的経路がAIシステム発展を制約する現象の分析枠組み (sociology, economics, history_of_technology)
+- [[situated-knowledge-validation|状況知識検証]] — 文脈に埋め込まれた知識の妥当性をAI時代に検証する認識論的枠組み (philosophy, cognitive_science, anthropology)
+- [[technological-determinism-resistance|技術決定論抵抗]] — AI発展が社会を一方向的に決定するという仮定に対抗する分析枠組み (sociology, philosophy, anthropology)
 
 ## 統計
 
 - 論文数: 416
 - 記事数: 9
-- 合計: 425
+- コンセプト数: 18 (Tier1: 3, Tier2: 9, Tier3: 6)
 - 対象分野: 17
-- wikiコンセプト記事: 11
-- 自動取得: 毎日6:00 (launchd)
-- 最終更新: 2026-04-06
+- 最終コンパイル: 2026-04-06 21:50
 
-## アーキテクチャ
+## 分野別ソース数
 
-```
-[OpenAlex API] ──┐                    ┌──→ wiki/concepts/*.md
-                 ├→ fetch_latest.py →│
-[arXiv API] ─────┘     ↓             └──→ wiki/index.md
-                  raw/papers/{domain}/
-[RSS feeds] ─────→ raw/articles/
-                        ↓
-                  raw/index.jsonl
-```
+- neuroscience: 39
+- complexity_science: 35
+- cognitive_science: 33
+- psychology: 30
+- behavioral_economics: 28
+- law: 28
+- hci: 26
+- organization_science: 26
+- sociology: 26
+- ai_governance: 25
+- human_ai_collaboration: 25
+- philosophy: 21
+- economics: 20
+- systems_engineering: 17
+- evolutionary_biology: 14
+- history_of_technology: 12
+- anthropology: 11

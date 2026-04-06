@@ -1,0 +1,110 @@
+ロード完了: 論文 416 | 記事 9
+============================================================
+Phase 1: コンセプト抽出
+  論文: 416 | 記事: 9
+============================================================
+  Claude APIでコンセプト抽出中...
+  18個のコンセプトを抽出:
+    ★ [adaptive-intelligence-emergence] 適応知能創発
+      → cognitive_science, complexity_science, evolutionary_biology
+    ★ [predictive-processing-architecture] 予測処理アーキテクチャ
+      → neuroscience, cognitive_science, ai_governance
+    ★ [sociotechnical-assemblage] 社会技術アセンブリ
+      → sociology, anthropology, hci
+    ◇ [distributed-cognitive-load] 分散認知負荷
+      → cognitive_science, human_ai_collaboration, psychology
+    ◇ [algorithmic-transparency-paradox] アルゴリズム透明性パラドックス
+      → law, behavioral_economics, hci
+    ◇ [dynamic-capability-amplification] 動的能力増幅
+      → organization_science, economics, complexity_science
+    ◇ [embodied-interaction-design] 身体化相互作用設計
+      → hci, cognitive_science, neuroscience
+    ◇ [multi-scale-governance-architecture] 多層ガバナンスアーキテクチャ
+      → ai_governance, law, sociology
+    ◇ [niche-construction-dynamics] ニッチ構築ダイナミクス
+      → evolutionary_biology, economics, complexity_science
+    ◇ [prospect-guided-ai-adoption] プロスペクト誘導AI導入
+      → behavioral_economics, psychology, hci
+    ◇ [autopoietic-system-maintenance] 自己創出システム維持
+      → complexity_science, systems_engineering, philosophy
+    ◇ [cultural-intelligence-hybridization] 文化知能ハイブリッド化
+      → anthropology, cognitive_science, human_ai_collaboration
+    △ [jagged-frontier-analysis] ジャグド境界分析
+      → economics, human_ai_collaboration, complexity_science
+    △ [sociotechnical-transition-pathways] 社会技術転換経路
+      → history_of_technology, sociology, economics
+    △ [ambidextrous-organization-model] 両利き組織モデル
+      → organization_science, economics, complexity_science
+    △ [path-dependent-ai-evolution] 経路依存AI進化
+      → sociology, economics, history_of_technology
+    △ [situated-knowledge-validation] 状況知識検証
+      → philosophy, cognitive_science, anthropology
+    △ [technological-determinism-resistance] 技術決定論抵抗
+      → sociology, philosophy, anthropology
+
+============================================================
+Phase 2: wiki記事生成
+============================================================
+
+  [1/18] 適応知能創発 (adaptive-intelligence-emergence)
+    ✅ 保存: concepts/adaptive-intelligence-emergence.md (3195文字)
+
+  [2/18] 予測処理アーキテクチャ (predictive-processing-architecture)
+    ✅ 保存: concepts/predictive-processing-architecture.md (3007文字)
+
+  [3/18] 社会技術アセンブリ (sociotechnical-assemblage)
+    ✅ 保存: concepts/sociotechnical-assemblage.md (3319文字)
+
+  [4/18] 分散認知負荷 (distributed-cognitive-load)
+    ✅ 保存: concepts/distributed-cognitive-load.md (2921文字)
+
+  [5/18] アルゴリズム透明性パラドックス (algorithmic-transparency-paradox)
+    ✅ 保存: concepts/algorithmic-transparency-paradox.md (2920文字)
+
+  [6/18] 動的能力増幅 (dynamic-capability-amplification)
+    ✅ 保存: concepts/dynamic-capability-amplification.md (3170文字)
+
+  [7/18] 身体化相互作用設計 (embodied-interaction-design)
+    ✅ 保存: concepts/embodied-interaction-design.md (3983文字)
+
+  [8/18] 多層ガバナンスアーキテクチャ (multi-scale-governance-architecture)
+    ✅ 保存: concepts/multi-scale-governance-architecture.md (3028文字)
+
+  [9/18] ニッチ構築ダイナミクス (niche-construction-dynamics)
+    ✅ 保存: concepts/niche-construction-dynamics.md (3345文字)
+
+  [10/18] プロスペクト誘導AI導入 (prospect-guided-ai-adoption)
+    ✅ 保存: concepts/prospect-guided-ai-adoption.md (2952文字)
+
+  [11/18] 自己創出システム維持 (autopoietic-system-maintenance)
+    ✅ 保存: concepts/autopoietic-system-maintenance.md (2789文字)
+
+  [12/18] 文化知能ハイブリッド化 (cultural-intelligence-hybridization)
+    ✅ 保存: concepts/cultural-intelligence-hybridization.md (2758文字)
+
+  [13/18] ジャグド境界分析 (jagged-frontier-analysis)
+    ✅ 保存: concepts/jagged-frontier-analysis.md (3088文字)
+
+  [14/18] 社会技術転換経路 (sociotechnical-transition-pathways)
+    ✅ 保存: concepts/sociotechnical-transition-pathways.md (2891文字)
+
+  [15/18] 両利き組織モデル (ambidextrous-organization-model)
+    ✅ 保存: concepts/ambidextrous-organization-model.md (3409文字)
+
+  [16/18] 経路依存AI進化 (path-dependent-ai-evolution)
+    ✅ 保存: concepts/path-dependent-ai-evolution.md (3333文字)
+
+  [17/18] 状況知識検証 (situated-knowledge-validation)
+    ✅ 保存: concepts/situated-knowledge-validation.md (2726文字)
+
+  [18/18] 技術決定論抵抗 (technological-determinism-resistance)
+    ✅ 保存: concepts/technological-determinism-resistance.md (3303文字)
+
+============================================================
+Phase 3: wikiインデックス生成
+============================================================
+  ✅ wiki/index.md 更新
+
+============================================================
+コンパイル完了!
+============================================================

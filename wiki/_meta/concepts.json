@@ -1,37 +1,484 @@
 [
   {
-    "slug": "test-time-compute",
-    "title_ja": "テスト時計算と推論の拡張",
-    "title_en": "Test-Time Compute and Extended Reasoning",
-    "description": "LLMが推論時に計算資源を適応的に配分し出力品質を向上させるアプローチ",
-    "related_sources": ["why-we-think", "batched-contextual-reinforcement"]
+    "slug": "adaptive-intelligence-emergence",
+    "title_ja": "適応知能創発",
+    "title_en": "Adaptive Intelligence Emergence",
+    "tier": 1,
+    "description": "知能は個体内ではなく環境との相互作用から創発する分散プロセスとして機能する",
+    "related_domains": [
+      "cognitive_science",
+      "complexity_science",
+      "evolutionary_biology"
+    ],
+    "key_sources": [
+      "Whatever next? Predictive brains",
+      "Adaptation in Natural and Artificial Systems",
+      "Situated Cognition"
+    ]
   },
   {
-    "slug": "reward-hacking",
-    "title_ja": "報酬ハッキング",
-    "title_en": "Reward Hacking",
-    "description": "RLエージェントが報酬関数の欠陥を利用する問題。Goodhart's Lawの具体的発現",
-    "related_sources": ["reward-hacking-in-reinforcement-learning"]
+    "slug": "predictive-processing-architecture",
+    "title_ja": "予測処理アーキテクチャ",
+    "title_en": "Predictive Processing Architecture",
+    "tier": 1,
+    "description": "知能システムは予測誤差最小化による階層的情報処理として組織化される",
+    "related_domains": [
+      "neuroscience",
+      "cognitive_science",
+      "ai_governance"
+    ],
+    "key_sources": [
+      "The free-energy principle",
+      "Predictive coding in neuropsychiatric disorders"
+    ]
   },
   {
-    "slug": "coding-agents",
-    "title_ja": "コーディングエージェントのアーキテクチャ",
-    "title_en": "Coding Agent Architecture",
-    "description": "LLMをエージェントハーネスで包みモデル単体を超える性能を実現するシステム設計",
-    "related_sources": ["components-of-a-coding-agent"]
+    "slug": "sociotechnical-assemblage",
+    "title_ja": "社会技術アセンブリ",
+    "title_en": "Sociotechnical Assemblage",
+    "tier": 1,
+    "description": "人間とAIは固定的システムではなく動的な関係性パターンとして共進化する",
+    "related_domains": [
+      "sociology",
+      "anthropology",
+      "hci"
+    ],
+    "key_sources": [
+      "Reassembling the Social",
+      "Actor-network-theory",
+      "Rethinking hybridity"
+    ]
   },
   {
-    "slug": "attention-mechanisms",
-    "title_ja": "アテンション機構の変種",
-    "title_en": "Attention Mechanism Variants",
-    "description": "Transformerの中核であるアテンション機構の効率化・操舵可能性に関する設計空間",
-    "related_sources": ["a-visual-guide-to-attention-variants-in-modern-llms", "steerable-visual-representations"]
+    "slug": "distributed-cognitive-load",
+    "title_ja": "分散認知負荷",
+    "title_en": "Distributed Cognitive Load",
+    "tier": 2,
+    "description": "認知負荷を人間-AI間で最適分散することで全体パフォーマンスを向上させる",
+    "related_domains": [
+      "cognitive_science",
+      "human_ai_collaboration",
+      "psychology"
+    ],
+    "key_sources": [
+      "Cognitive Load Theory",
+      "Mental Models in Human-AI Interaction"
+    ]
   },
   {
-    "slug": "interaction-awareness",
-    "title_ja": "LLMのインタラクション認識",
-    "title_en": "Interaction Awareness in LLMs",
-    "description": "LLMがインタラクションの文脈を理解する能力。タスク精度とは独立した次元",
-    "related_sources": ["beyond-the-assistant-turn"]
+    "slug": "algorithmic-transparency-paradox",
+    "title_ja": "アルゴリズム透明性パラドックス",
+    "title_en": "Algorithmic Transparency Paradox",
+    "tier": 2,
+    "description": "AI説明可能性の向上が必ずしも信頼や有用性の向上をもたらさない現象",
+    "related_domains": [
+      "law",
+      "behavioral_economics",
+      "hci"
+    ],
+    "key_sources": [
+      "Algorithm aversion",
+      "Opening the Black Box",
+      "Slave to the Algorithm"
+    ]
+  },
+  {
+    "slug": "dynamic-capability-amplification",
+    "title_ja": "動的能力増幅",
+    "title_en": "Dynamic Capability Amplification",
+    "tier": 2,
+    "description": "AIが組織の適応能力と学習能力を構造的に増幅する原理",
+    "related_domains": [
+      "organization_science",
+      "economics",
+      "complexity_science"
+    ],
+    "key_sources": [
+      "Dynamic capabilities",
+      "AI as Structural Amplifier",
+      "Artificial Intelligence, Automation, and Work"
+    ]
+  },
+  {
+    "slug": "embodied-interaction-design",
+    "title_ja": "身体化相互作用設計",
+    "title_en": "Embodied Interaction Design",
+    "tier": 2,
+    "description": "物理的・感覚的身体性を統合したAI-人間協働インターフェース設計",
+    "related_domains": [
+      "hci",
+      "cognitive_science",
+      "neuroscience"
+    ],
+    "key_sources": [
+      "How the Body Shapes the Mind",
+      "The data-driven voice-body",
+      "Embodied Digital Therapists"
+    ]
+  },
+  {
+    "slug": "multi-scale-governance-architecture",
+    "title_ja": "多層ガバナンスアーキテクチャ",
+    "title_en": "Multi-scale Governance Architecture",
+    "tier": 2,
+    "description": "個人から社会まで複数スケールでAIリスクと価値を調整する統合ガバナンス",
+    "related_domains": [
+      "ai_governance",
+      "law",
+      "sociology"
+    ],
+    "key_sources": [
+      "NIST AI Risk Management Framework",
+      "AI4People",
+      "The global landscape of AI ethics"
+    ]
+  },
+  {
+    "slug": "niche-construction-dynamics",
+    "title_ja": "ニッチ構築ダイナミクス",
+    "title_en": "Niche Construction Dynamics",
+    "tier": 2,
+    "description": "AIシステムが環境を改変し、それが新たな選択圧を生む共進化プロセス",
+    "related_domains": [
+      "evolutionary_biology",
+      "economics",
+      "complexity_science"
+    ],
+    "key_sources": [
+      "Niche Construction",
+      "The Secret of Our Success",
+      "Technological transitions"
+    ]
+  },
+  {
+    "slug": "prospect-guided-ai-adoption",
+    "title_ja": "プロスペクト誘導AI導入",
+    "title_en": "Prospect-Guided AI Adoption",
+    "tier": 2,
+    "description": "認知バイアスを考慮したAI技術受容と意思決定支援システム設計",
+    "related_domains": [
+      "behavioral_economics",
+      "psychology",
+      "hci"
+    ],
+    "key_sources": [
+      "Prospect Theory",
+      "Algorithm aversion",
+      "In AI we trust"
+    ]
+  },
+  {
+    "slug": "autopoietic-system-maintenance",
+    "title_ja": "自己創出システム維持",
+    "title_en": "Autopoietic System Maintenance",
+    "tier": 2,
+    "description": "AIシステムが自律的に境界と組織を維持・再生産する原理",
+    "related_domains": [
+      "complexity_science",
+      "systems_engineering",
+      "philosophy"
+    ],
+    "key_sources": [
+      "Humberto Maturana and Francisco Varela",
+      "The Santiago School of Cognition"
+    ]
+  },
+  {
+    "slug": "cultural-intelligence-hybridization",
+    "title_ja": "文化知能ハイブリッド化",
+    "title_en": "Cultural Intelligence Hybridization",
+    "tier": 2,
+    "description": "人間の文化的知能とAIの計算能力を融合した新たな認知アーキテクチャ",
+    "related_domains": [
+      "anthropology",
+      "cognitive_science",
+      "human_ai_collaboration"
+    ],
+    "key_sources": [
+      "The Interpretation of Cultures",
+      "EXPANDED INTELLIGENCE",
+      "From the Biological Human to the Digital Human"
+    ]
+  },
+  {
+    "slug": "jagged-frontier-analysis",
+    "title_ja": "ジャグド境界分析",
+    "title_en": "Jagged Frontier Analysis",
+    "tier": 3,
+    "description": "AIの能力境界が不規則で予測困難な形で拡張する現象の分析枠組み",
+    "related_domains": [
+      "economics",
+      "human_ai_collaboration",
+      "complexity_science"
+    ],
+    "key_sources": [
+      "Navigating the Jagged Technological Frontier",
+      "Crashing Waves vs. Rising Tides"
+    ]
+  },
+  {
+    "slug": "sociotechnical-transition-pathways",
+    "title_ja": "社会技術転換経路",
+    "title_en": "Sociotechnical Transition Pathways",
+    "tier": 3,
+    "description": "AI導入による社会システムの段階的変容過程を分析するフレームワーク",
+    "related_domains": [
+      "history_of_technology",
+      "sociology",
+      "economics"
+    ],
+    "key_sources": [
+      "Typology of sociotechnical transition pathways",
+      "Technological revolutions and financial capital"
+    ]
+  },
+  {
+    "slug": "ambidextrous-organization-model",
+    "title_ja": "両利き組織モデル",
+    "title_en": "Ambidextrous Organization Model",
+    "tier": 3,
+    "description": "AI時代の探索と活用の同時実行による組織適応メカニズム分析",
+    "related_domains": [
+      "organization_science",
+      "economics",
+      "complexity_science"
+    ],
+    "key_sources": [
+      "Organizational Ambidexterity",
+      "Exploration vs. Exploitation",
+      "The Interplay Between Exploration and Exploitation"
+    ]
+  },
+  {
+    "slug": "path-dependent-ai-evolution",
+    "title_ja": "経路依存AI進化",
+    "title_en": "Path-Dependent AI Evolution",
+    "tier": 3,
+    "description": "初期条件と歴史的経路がAIシステム発展を制約する現象の分析枠組み",
+    "related_domains": [
+      "sociology",
+      "economics",
+      "history_of_technology"
+    ],
+    "key_sources": [
+      "Increasing Returns, Path Dependence",
+      "Technological Revolutions and Financial Capital"
+    ]
+  },
+  {
+    "slug": "situated-knowledge-validation",
+    "title_ja": "状況知識検証",
+    "title_en": "Situated Knowledge Validation",
+    "tier": 3,
+    "description": "文脈に埋め込まれた知識の妥当性をAI時代に検証する認識論的枠組み",
+    "related_domains": [
+      "philosophy",
+      "cognitive_science",
+      "anthropology"
+    ],
+    "key_sources": [
+      "Situated Knowledges",
+      "Situated Cognition and the Culture of Learning"
+    ]
+  },
+  {
+    "slug": "technological-determinism-resistance",
+    "title_ja": "技術決定論抵抗",
+    "title_en": "Technological Determinism Resistance",
+    "tier": 3,
+    "description": "AI発展が社会を一方向的に決定するという仮定に対抗する分析枠組み",
+    "related_domains": [
+      "sociology",
+      "philosophy",
+      "anthropology"
+    ],
+    "key_sources": [
+      "Social Construction of Reality",
+      "Decolonial AI",
+      "Actor-network-theory"
+    ]
+  },
+  {
+    "slug": "neuroplasticity",
+    "title_ja": "神経可塑性",
+    "title_en": "Neuroplasticity",
+    "description": "脳が内外の刺激に応じて構造と機能を再編成する動的プロセスであり、学習・言語習得・腫瘍からの回復など多様な文脈で研究されている",
+    "related_sources": [
+      1,
+      3
+    ]
+  },
+  {
+    "slug": "inter-brain-synchronization",
+    "title_ja": "脳間同期",
+    "title_en": "Inter-Brain Synchronization (IBS)",
+    "description": "複数人が音楽活動などの社会的インタラクションを行う際に生じる脳波の同期現象で、ハイパースキャニング技術により計測される",
+    "related_sources": [
+      2
+    ]
+  },
+  {
+    "slug": "predictive-coding",
+    "title_ja": "予測符号化",
+    "title_en": "Predictive Coding",
+    "description": "脳が感覚入力を事前の予測と照合して処理するという理論的枠組みであり、音楽知覚や感情反応のメカニズムを説明するために用いられる",
+    "related_sources": [
+      5
+    ]
+  },
+  {
+    "slug": "value-based-decision-making",
+    "title_ja": "価値に基づく意思決定",
+    "title_en": "Value-Based Decision Making",
+    "description": "報酬と嫌悪シグナルを処理する前頭前皮質・扁桃体・線条体などの神経回路が、コストとベネフィットを評価して行動を選択する計算論的プロセス",
+    "related_sources": [
+      4
+    ]
+  },
+  {
+    "slug": "multisensory-learning",
+    "title_ja": "マルチセンソリー学習",
+    "title_en": "Multisensory Learning",
+    "description": "複数の感覚モダリティを統合した学習アプローチであり、神経教育学的観点から成人の第二言語習得や多文化教育における認知適応を促進するとされる",
+    "related_sources": [
+      1
+    ]
+  },
+  {
+    "slug": "free-energy-principle",
+    "title_ja": "自由エネルギー原理",
+    "title_en": "Free Energy Principle",
+    "description": "脳の働きを自由エネルギーの最小化として統一的に説明するFristonの理論的枠組み",
+    "related_sources": [
+      2,
+      3
+    ]
+  },
+  {
+    "slug": "transdiagnostic-neuropsychiatry",
+    "title_ja": "トランスダイアグノスティック神経精神医学",
+    "title_en": "Transdiagnostic Neuropsychiatry",
+    "description": "統合失調症スペクトラムなど複数の神経精神疾患を横断的に比較・分析するアプローチ",
+    "related_sources": [
+      1
+    ]
+  },
+  {
+    "slug": "prosocial-moral-decision-making",
+    "title_ja": "向社会的道徳的意思決定の神経基盤",
+    "title_en": "Neural Basis of Prosocial Moral Decision-Making",
+    "description": "向社会的行動における道徳的動機づけと意思決定を支える神経メカニズムの研究",
+    "related_sources": [
+      4
+    ]
+  },
+  {
+    "slug": "biological-foundation-model",
+    "title_ja": "生物学的基盤モデル",
+    "title_en": "Biological Foundation Model",
+    "description": "全生命領域のゲノム配列を大規模に学習し、遺伝的変異の機能的影響予測やゲノム設計を可能にするAIモデル",
+    "related_sources": [
+      5
+    ]
+  },
+  {
+    "slug": "predictive-coding-neuropsychiatric-disorders",
+    "title_ja": "神経精神疾患における予測符号化",
+    "title_en": "Predictive Coding in Neuropsychiatric Disorders",
+    "description": "統合失調症スペクトラムなどの神経精神疾患において、健常者と比較した予測符号化メカニズムの差異を行動・神経画像・電気生理学的に検討する研究領域。",
+    "related_sources": [
+      1
+    ]
+  },
+  {
+    "slug": "ai-in-surgical-systems",
+    "title_ja": "外科手術におけるAI活用",
+    "title_en": "AI in Surgical Systems",
+    "description": "コンピュータビジョン・デジタルツイン・自律タスク実行などのAI技術を手術室に統合し、リアルタイム意思決定と個別化ワークフローを実現する取り組み。",
+    "related_sources": [
+      1
+    ]
+  },
+  {
+    "slug": "ai-driven-devsecops",
+    "title_ja": "AI駆動のDevSecOpsセキュリティ",
+    "title_en": "AI-Driven DevSecOps Security",
+    "description": "CI/CDパイプラインにAIを統合し、脆弱性検出・異常監視・予測リスクスコアリングによってクラウドネイティブ環境のセキュリティを強化するフレームワーク。",
+    "related_sources": [
+      2
+    ]
+  },
+  {
+    "slug": "human-computer-interaction-neural-plasticity",
+    "title_ja": "ヒューマンコンピュータインタラクションと神経可塑性",
+    "title_en": "Human-Computer Interaction and Neural Plasticity",
+    "description": "HCIが脳の神経可塑性に与える影響を標準化された報告ガイドラインで体系的に評価・記録するための研究枠組み。",
+    "related_sources": [
+      3
+    ]
+  },
+  {
+    "slug": "continual-graph-learning",
+    "title_ja": "継続的グラフ学習",
+    "title_en": "Continual Graph Learning",
+    "description": "グラフ構造データに対して過去の知識を保持しながら新たなタスクや分布変化に継続的に適応する機械学習手法の体系的調査。",
+    "related_sources": [
+      4
+    ]
+  },
+  {
+    "slug": "non-human-semantic-intelligence",
+    "title_ja": "非人間的意味生成知性",
+    "title_en": "Non-Human Semantic Intelligence",
+    "description": "植物・菌類・生物システムを意味的労働の担い手として認識し、分散型アーキテクチャ内における非人間的サイン生成を理論化する概念的枠組み。",
+    "related_sources": [
+      5
+    ]
+  },
+  {
+    "slug": "ai-medical-image-diagnosis",
+    "title_ja": "AIによる医療画像診断",
+    "title_en": "AI-Based Medical Image Diagnosis",
+    "description": "機械学習・深層学習を用いてMRI等の医療画像から脳腫瘍などの異常を検出・分類する技術。",
+    "related_sources": [
+      1
+    ]
+  },
+  {
+    "slug": "llm-based-embodied-robot-cognition",
+    "title_ja": "LLMを用いた身体的ロボット認知",
+    "title_en": "LLM-Based Embodied Robot Cognition",
+    "description": "大規模言語モデルをロボットの認知アーキテクチャの中核として活用し、計画立案・実行推論・環境適応を実現するアプローチ。",
+    "related_sources": [
+      4
+    ]
+  },
+  {
+    "slug": "embodied-cognition-and-perception",
+    "title_ja": "身体的認知と知覚の自己組織化",
+    "title_en": "Embodied Cognition and Self-Organizing Perception",
+    "description": "知覚は静的な内部表現ではなく、身体・環境・行動の動的な相互作用を通じて自己組織化されるという認知科学・AIの統合的視点。",
+    "related_sources": [
+      5,
+      4
+    ]
+  },
+  {
+    "slug": "ai-decision-support-in-education",
+    "title_ja": "教育における意思決定支援AI",
+    "title_en": "AI-Supported Decision Making in Education",
+    "description": "学校ガバナンスや集合的意思決定プロセスにAIを分析・構造化ツールとして統合し、透明性と参加型合意形成を促進するモデル。",
+    "related_sources": [
+      2
+    ]
+  },
+  {
+    "slug": "impulsivity-measurement-and-prediction",
+    "title_ja": "衝動性の計測と予測",
+    "title_en": "Measurement and Prediction of Impulsivity",
+    "description": "AI生成映像等を活用した実験タスクにより、リスク行動選択における衝動性の多面的な構成要素（不安・動機・暗黙知アクセス）を定量化する手法。",
+    "related_sources": [
+      3
+    ]
   }
 ]

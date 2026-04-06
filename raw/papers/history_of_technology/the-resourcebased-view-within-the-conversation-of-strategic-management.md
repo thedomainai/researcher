@@ -1,0 +1,16 @@
+---
+title: "The resource‐based view within the conversation of strategic management"
+authors: "Joseph T. Mahoney, J. Rajendran Pandian"
+year: 1992
+citations: 3386
+domain: "history_of_technology"
+source: "seed"
+---
+
+# The resource‐based view within the conversation of strategic management
+
+Joseph T. Mahoney, J. Rajendran Pandian (1992) cited:3386
+
+## Abstract
+
+Abstract The resource‐based approach is an emerging framework that has stimulated discussion between scholars from three research perspectives. First, the resource‐based theory incorporates traditional strategy insights concerning a firm's distinctive competencies and heterogeneous capabilities. The resource‐based approach also provides value‐added theoretical propositions that are testable within the diversification strategy literature. Second, the resource‐based view fits comfortably within the organizational economics paradigm. Third, the resource‐based view is complementary to industrial organization research. The resource‐based view provides a framework for increasing dialogue between scholars from these important research areas within the conversation of strategic management. Resource‐based studies that give simultaneous attention to each of these research programs are suggested.

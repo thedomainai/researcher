@@ -1,0 +1,78 @@
+# 両利き組織モデル
+
+## 概要
+
+両利き組織モデル（Ambidextrous Organization Model）は、組織が探索（exploration）と活用（exploitation）という相反する活動を同時に実行する能力を分析する理論的枠組みである。AI Native時代において、この概念は特に重要な意味を持つ。AIシステムの急速な進歩と変化に対応するには、既存の知識や技術を効率的に活用しながら、同時に新たな可能性を探索し続ける組織能力が不可欠だからである。
+
+従来の組織論では、探索と活用は資源配分上のトレードオフ関係にあると考えられてきた。しかし、AI時代の複雑で不確実な環境では、この二つを統合的に実現する「両利きの組織能力」こそが持続的な競争優位の源泉となる。特に、AIの導入が既存業務の自動化（活用）と新たなビジネスモデルの創造（探索）の両方を要求する現代において、この理論的枠組みは組織設計の中核的指針となる。
+
+## 理論的背景
+
+### 探索と活用の概念的基礎
+
+March（1991）によって体系化された探索と活用の概念は、組織学習の二つの基本的モードを表している。探索は「変化、実験、遊び、柔軟性、発見、革新」に関わる活動であり、活用は「改良、選択、生産、効率性、選定、実装」に関わる活動である。
+
+He & Wong（2004）の実証研究は、両者のバランスが企業パフォーマンスに正の効果をもたらすことを示した。しかし、Gupta et al.（2006）が指摘するように、探索と活用の関係性（連続体か直交軸か）や、バランス達成の方法論については議論が続いている。
+
+### 動的能力としての両利き性
+
+Teece et al.（1997）の動的能力論と接続すると、両利き性は組織が環境変化に適応する高次の能力として理解できる。Eisenhardt & Martin（2000）は、動的能力を「プロダクト開発、戦略的意思決定、アライアンス形成」といった具体的なプロセスとして特定化し、これらのプロセスが探索と活用の統合を可能にすることを示した。
+
+### 組織レベルでの実現メカニズム
+
+Raisch et al.（2009）は、組織両利き性の実現に関する四つの中心的な議論を整理した：
+
+1. **分化対統合**: 専門部門による分化か、統合的アプローチか
+2. **個人対組織レベル**: どの階層で両利き性を実現するか
+3. **静的対動的視点**: 同時実行か時間的切り替えか
+4. **内部対外部**: 組織内能力か外部連携か
+
+これらの議論は、AI導入における組織設計の基本的な選択肢を提供している。
+
+## AI Nativeな設計への示唆
+
+### 1. AI導入におけるタスク配分パラドックスへの対応
+
+Ahn（2026）が指摘するタスク配分パラドックス（TAP）は、AI能力の向上が人間の認知負荷を同じ方向に増大させる現象である。両利き組織モデルの視点から、この問題は探索と活用の不適切な分離に起因すると理解できる。
+
+**設計原理**: AIを活用タスクに特化させ、人間を探索タスクに集中させる分化戦略を取りつつ、両者の統合メカニズムを組織に埋め込む。具体的には、AI-人間ペアリングにおいて、AIの効率性向上（活用）と人間の創造的問題解決（探索）を循環的に接続する組織プロセスを設計する。
+
+### 2. ポスト・ジョブ経済における組織再編
+
+Xausa Bosak（2026）とHan（2026）が描く労働の未来では、従来の職務中心の組織構造が変化する。両利き組織モデルは、この変化に対する適応戦略を提供する。
+
+**設計原理**: 固定的な職務（job）から流動的なプロジェクト（work）への移行を支援する組織構造を設計する。探索フェーズでは人間の創造性を最大化し、活用フェーズではAIの効率性を最大化する、動的な役割配分メカニズムを構築する。
+
+### 3. システム思考による統合的アプローチ
+
+Sterman（2002）のシステム・ダイナミクス理論と接続すると、両利き性は組織内の循環的因果関係として理解できる。AI Nativeな組織では、技術系統と人間系統の相互作用を設計する必要がある。
+
+**設計原理**: 探索で得られた洞察が活用プロセスを改善し、活用で得られた効率性が新たな探索を可能にする、自己強化的な組織サイクルを設計する。これには、学習ループの可視化とフィードバック機構の組み込みが不可欠である。
+
+### 4. 複雑適応系としての組織設計
+
+Holland（1992）の複雑適応系理論を援用すると、AI Native組織は環境変化に自律的に適応するシステムとして設計できる。Go（2026）の「未知の領域」概念は、この自律適応が最も重要となる領域を示している。
+
+**設計原理**: 組織構成員とAIシステムが共進化する学習環境を設計する。探索活動から創発する新たなパターンを活用プロセスに統合する自動化機構を組み込み、組織全体の適応能力を向上させる。
+
+## 分野横断的な接続
+
+両利き組織モデルは、以下の概念と密接に関連している：
+
+- [[dynamic-capabilities]]: 組織の変化適応能力の理論的基盤
+- [[complex-adaptive-systems]]: 自己組織化と創発的学習のメカニズム
+- [[ai-human-collaboration-patterns]]: AI-人間協働における役割分担の原理
+- [[organizational-learning-loops]]: 探索・活用サイクルの具体的実装
+- [[system-dynamics-modeling]]: 組織内循環プロセスの可視化・設計手法
+- [[innovation-management-systems]]: 創造性と効率性の統合メカニズム
+- [[post-job-economy-adaptation]]: 労働変化への組織的対応戦略
+
+## 参考ソース
+
+- Dynamic Capabilities and Strategic Management (raw/organization_science/teece1997_dynamic_capabilities.md)
+- Exploration vs. Exploitation: An Empirical Test of the Ambidexterity Hypothesis (raw/organization_science/he2004_ambidexterity_test.md)  
+- The Interplay Between Exploration and Exploitation (raw/organization_science/gupta2006_exploration_exploitation.md)
+- Organizational Ambidexterity: Balancing Exploitation and Exploration for Sustained Performance (raw/organization_science/raisch2009_organizational_ambidexterity.md)
+- Why Your AI Agent Can't Make Money: The Real Reason AI Cost-Cutting Fails (raw/economics/ahn2026_ai_cost_cutting.md)
+- System Dynamics: Systems Thinking and Modeling for a Complex World (raw/complexity_science/sterman2002_system_dynamics.md)
+- Adaptation in Natural and Artificial Systems (raw/complexity_science/holland1992_adaptation.md)
