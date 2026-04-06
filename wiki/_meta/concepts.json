@@ -1783,5 +1783,37 @@
       7,
       2
     ]
+  },
+  {
+    "slug": "ai-language-models-and-human-cognition",
+    "title_ja": "AIと人間の言語・認知の収束表現",
+    "title_en": "Convergent Representations in AI and Human Cognition",
+    "description": "人工ニューラルネットワークと人間の脳が言語構造や情報スループットに関して類似した表現を自発的に発達させるという、計算論的神経科学の知見。",
+    "related_sources": [
+      5,
+      19
+    ]
+  },
+  {
+    "slug": "intelligent-healthcare-ai-systems",
+    "title_ja": "インテリジェント医療AIシステム",
+    "title_en": "Intelligent Healthcare AI Systems",
+    "description": "スマートホスピタルにおけるAI駆動型医療、プライバシー保護分散デジタルヘルス、生医学的エンティティ認識など、医療分野へのAI応用に関する研究群。",
+    "related_sources": [
+      4,
+      9,
+      16
+    ]
+  },
+  {
+    "slug": "human-machine-interaction",
+    "title_ja": "ヒューマン・マシン・インタラクション",
+    "title_en": "Human-Machine Interaction",
+    "description": "インテリジェントオートメーションやロボットと人間の協調において、ジェスチャー制御・状況認識・権限配分などを含む相互作用の設計と評価。",
+    "related_sources": [
+      10,
+      11,
+      12
+    ]
   }
 ]
