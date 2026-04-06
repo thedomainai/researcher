@@ -1,0 +1,22 @@
+---
+title: "From High-Dimensional Spaces to Verifiable ODD Coverage for Safety-Critical AI-based Systems"
+authors: "Thomas Stefani, Johann Maximilian Christensen, Elena Hoemann, Frank Köster, Sven Hallerbach"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "systems_engineering"
+fetched: "2026-04-06T13:20:48.159778"
+doi: "https://doi.org/10.48550/arxiv.2604.02198"
+openalex_id: "https://openalex.org/W7148791934"
+source_api: "openalex"
+---
+
+# From High-Dimensional Spaces to Verifiable ODD Coverage for Safety-Critical AI-based Systems
+
+**著者**: Thomas Stefani, Johann Maximilian Christensen, Elena Hoemann, Frank Köster, Sven Hallerbach
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: システム工学
+
+## Abstract
+
+While Artificial Intelligence (AI) offers transformative potential for operational performance, its deployment in safety-critical domains such as aviation requires strict adherence to rigorous certification standards. Current EASA guidelines mandate demonstrating complete coverage of the AI/ML constituent's Operational Design Domain (ODD) -- a requirement that demands proof that no critical gaps exist within defined operational boundaries. However, as systems operate within high-dimensional parameter spaces, existing methods struggle to provide the scalability and formal grounding necessary to satisfy the completeness criterion. Currently, no standardized engineering method exists to bridge the gap between abstract ODD definitions and verifiable evidence. This paper addresses this void by proposing a method that integrates parameter discretization, constraint-based filtering, and criticality-based dimension reduction into a structured, multi-step ODD coverage verification process. Grounded in gathered simulation data from prior research on AI-based mid-air collision avoidance research, this work demonstrates a systematic engineering approach to defining and achieving coverage metrics that satisfy EASA's demand for completeness. Ultimately, this method enables the validation of ODD coverage in higher dimensions, advancing a Safety-by-Design approach while complying with EASA's standards.

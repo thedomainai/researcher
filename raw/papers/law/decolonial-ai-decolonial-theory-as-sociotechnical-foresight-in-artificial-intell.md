@@ -1,0 +1,23 @@
+---
+title: "Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence"
+authors: "Shakir Mohamed, Marie-Thérèse Png, William Isaac"
+year: 2020
+citations: 644
+paper_type: "primary"
+tier: 1
+domain: "law"
+domain_label: "法学"
+doi: "https://doi.org/10.1007/s13347-020-00405-8"
+openalex_id: "https://openalex.org/W3041968715"
+---
+
+# Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence
+
+**著者**: Shakir Mohamed, Marie-Thérèse Png, William Isaac
+**年**: 2020 | **被引用数**: 644
+**タイプ**: primary | **Tier**: 1
+**分野**: 法学
+
+## Abstract
+
+Abstract This paper explores the important role of critical science, and in particular of post-colonial and decolonial theories, in understanding and shaping the ongoing advances in artificial intelligence. Artificial intelligence (AI) is viewed as amongst the technological advances that will reshape modern societies and their relations. While the design and deployment of systems that continually adapt holds the promise of far-reaching positive change, they simultaneously pose significant risks, especially to already vulnerable peoples. Values and power are central to this discussion. Decolonial theories use historical hindsight to explain patterns of power that shape our intellectual, political, economic, and social world. By embedding a decolonial critical approach within its technical practice, AI communities can develop foresight and tactics that can better align research and technology development with established ethical principles, centring vulnerable peoples who continue to bear the brunt of negative impacts of innovation and scientific progress. We highlight problematic applications that are instances of coloniality, and using a decolonial lens, submit three tactics that can form a decolonial field of artificial intelligence: creating a critical technical practice of AI, seeking reverse tutelage and reverse pedagogies, and the renewal of affective and political communities. The years ahead will usher in a wave of new scientific breakthroughs and technologies driven by AI research, making it incumbent upon AI communities to strengthen the social contract through ethical foresight and the multiplicity of intellectual perspectives available to us, ultimately supporting future technologies that enable greater well-being, with the goal of beneficence and justice for all.

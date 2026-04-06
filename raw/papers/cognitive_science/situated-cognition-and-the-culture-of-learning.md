@@ -1,0 +1,15 @@
+---
+title: "Situated Cognition and the Culture of Learning"
+authors: "John Seely Brown, Allan Collins, Paul Duguid"
+year: 1989
+citations: 12892
+domain: "cognitive_science"
+---
+
+# Situated Cognition and the Culture of Learning
+
+John Seely Brown, Allan Collins, Paul Duguid (1989) cited:12892
+
+## Abstract
+
+Many teaching practices implicitly assume that conceptual knowledge can be abstracted from the situations in which it is learned and used. This article argues that this assumption inevitably limits the effectiveness of such practices. Drawing on recent research into cognition as it is manifest in everyday activity, the authors argue that knowledge is situated, being in part a product of the activity, context, and culture in which it is developed and used. They discuss how this view of knowledge affects our understanding of learning, and they note that conventional schooling too often ignores the influence of school culture on what is learned in school. As an alternative to conventional practices, they propose cognitive apprenticeship (Collins, Brown, &amp; Newman, in press), which honors the situated nature of knowledge. They examine two examples of mathematics instruction that exhibit certain key features of this approach to teaching.

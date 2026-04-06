@@ -1,0 +1,42 @@
+# 自己決定理論（Self-Determination Theory）
+
+## 概要
+
+自己決定理論（SDT）は、Deci & Ryan（2000）が提唱した動機づけの包括的理論である。人間には3つの基本的心理欲求があり、これらの充足が内発的動機づけ、ウェルビーイング、最適なパフォーマンスの基盤となる。
+
+被引用数38,917（心理学で最も影響力のある理論の一つ）。
+
+## 3つの基本的心理欲求
+
+- **自律性（Autonomy）**: 自分の行動が自己決定的であるという感覚。外部から強制されるのではなく、自ら選択しているという経験
+- **有能感（Competence）**: 環境と効果的に相互作用し、望む結果を生み出せるという感覚
+- **関係性（Relatedness）**: 他者とつながり、ケアし合い、所属しているという感覚
+
+## AI Nativeな設計への示唆
+
+### Tier 1（不変原理）としての位置づけ
+
+SDTの3欲求は人間の神経生物学的基盤に根ざしており、AGI時代にも消滅しない制約である。したがって：
+
+**自律性の設計問題**: AIがより多くの判断を代行するほど、人間の自律性感覚は低下するリスクがある。AI nativeなシステムは「AIが決める」のではなく「AIが選択肢を構造化し、人間が決める」設計が必要。
+
+**有能感のパラドックス**: AIが仕事を代行すると、人間は「自分がやった」という有能感を得られない。一方、AIの支援で以前できなかったことが可能になれば、有能感は向上する。この設計上のトレードオフは、タスクのどの部分をAIに委任し、どの部分を人間が担当するかの分界点設計に直結する。
+
+**関係性とAI**: AIエージェントとの「関係性」は、人間同士の関係性の代替にはならない（心理的欲求の充足という意味で）。AI nativeな組織は、AIによる効率化で生まれた時間を人間同士の関係性構築に振り向ける設計が望ましい。
+
+### 組織設計への応用
+
+- **自律性支援型マネジメント**: AIがルーチンを自動化した後、人間に残るのは判断・創造・対人関係。これらは本質的に自律性が高い業務であり、SDTの観点からはポジティブな変化
+- **有能感のリデザイン**: 「コードを書く能力」から「AIと協働してシステムを設計する能力」へ。有能感の源泉が変わる
+- **チーム設計**: AIエージェントをチームメンバーとして組み込む際、人間メンバーの関係性欲求を阻害しない配置
+
+## 関連概念
+
+- [[cognitive-load]] — 認知的負荷の管理は有能感の前提条件
+- [[reward-hacking]] — 外発的動機づけ（報酬最適化）vs. 内発的動機づけのトレードオフ
+- [[human-ai-collaboration]] — 協働設計における主体性の確保
+
+## 参考ソース
+
+- Deci, E. L., & Ryan, R. M. (2000). "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being." (cited: 38,917) — `raw/papers/psychology/self-determination-theory-and-the-facilitation-of-intrinsic-motivation-social-.md`
+- Ryan, R. M., & Deci, E. L. (2017). "Self-Determination Theory: Basic Psychological Needs in Motivation, Development, and Wellness" (cited: 7,869) — `raw/papers/psychology/self-determination-theory-basic-psychological-needs-in-motivation-development-a.md`

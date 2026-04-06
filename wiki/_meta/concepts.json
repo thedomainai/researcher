@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "test-time-compute",
+    "title_ja": "テスト時計算と推論の拡張",
+    "title_en": "Test-Time Compute and Extended Reasoning",
+    "description": "LLMが推論時に計算資源を適応的に配分し出力品質を向上させるアプローチ",
+    "related_sources": ["why-we-think", "batched-contextual-reinforcement"]
+  },
+  {
+    "slug": "reward-hacking",
+    "title_ja": "報酬ハッキング",
+    "title_en": "Reward Hacking",
+    "description": "RLエージェントが報酬関数の欠陥を利用する問題。Goodhart's Lawの具体的発現",
+    "related_sources": ["reward-hacking-in-reinforcement-learning"]
+  },
+  {
+    "slug": "coding-agents",
+    "title_ja": "コーディングエージェントのアーキテクチャ",
+    "title_en": "Coding Agent Architecture",
+    "description": "LLMをエージェントハーネスで包みモデル単体を超える性能を実現するシステム設計",
+    "related_sources": ["components-of-a-coding-agent"]
+  },
+  {
+    "slug": "attention-mechanisms",
+    "title_ja": "アテンション機構の変種",
+    "title_en": "Attention Mechanism Variants",
+    "description": "Transformerの中核であるアテンション機構の効率化・操舵可能性に関する設計空間",
+    "related_sources": ["a-visual-guide-to-attention-variants-in-modern-llms", "steerable-visual-representations"]
+  },
+  {
+    "slug": "interaction-awareness",
+    "title_ja": "LLMのインタラクション認識",
+    "title_en": "Interaction Awareness in LLMs",
+    "description": "LLMがインタラクションの文脈を理解する能力。タスク精度とは独立した次元",
+    "related_sources": ["beyond-the-assistant-turn"]
+  }
+]

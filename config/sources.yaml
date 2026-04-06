@@ -1,0 +1,543 @@
+# =============================================================================
+# AI Native 社会・組織・システム設計のための研究情報源
+# =============================================================================
+# 目的: AGI時代に示唆を与える不変原理・構造的知見を収集する
+# 対象: Tier 1論文、システマティックレビュー、メタアナリシス
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# ティア分類フィルタ
+# ---------------------------------------------------------------------------
+# 取得した論文をLLMが自動分類するための基準
+tier_classification:
+  # Tier 1: 不変原理 — AGI時代でもそのまま適用可能な構造的原理
+  tier1:
+    label: "不変原理"
+    description: "対象（人間/AI/組織）を入れ替えても成立する構造的原理・メカニズム"
+    filters:
+      # 抽象度テスト: 具体的な対象を除去しても知見が成立するか
+      abstraction_test: true
+      # 制約不変テスト: 依拠する制約がAGI時代にも存続するか
+      constraint_invariance_test: true
+      # メカニズムテスト: 「なぜ」を説明しているか（「何が起きたか」ではなく）
+      mechanism_test: true
+    # 存続する制約の例（これらに依拠する知見はTier 1候補）
+    invariant_constraints:
+      - "情報の不完全性（全知は物理的に不可能）"
+      - "計算資源の有限性（AIも無限ではない）"
+      - "因果関係の不可逆性（時間は一方向）"
+      - "複数主体間の利害の不一致"
+      - "複雑系における創発と予測不可能性"
+      - "エントロピー増大と秩序維持のコスト"
+
+  # Tier 2: 消滅制約の分析 — AI時代に外れる制約とその効果の研究
+  tier2:
+    label: "消滅制約の分析"
+    description: "AI時代に外れる制約を特定し、その除去が何を引き起こすかを推論するための材料"
+    # 消滅する制約の例
+    vanishing_constraints:
+      - "人間のワーキングメモリ容量（7±2）"
+      - "1日24時間の労働時間制約"
+      - "言語の壁"
+      - "情報伝達の遅延（組織階層の伝言ゲーム）"
+      - "専門知識の属人性"
+      - "人間の注意資源の有限性"
+
+  # Tier 3: スキップ — 取得しない
+  tier3:
+    label: "スキップ"
+    description: "特定条件下の現象記述、手法レベルの最適化研究"
+    skip_indicators:
+      - "特定UIでのA/Bテスト結果"
+      - "特定ナッジの効果測定"
+      - "経験則的な数値（管理スパン等）のみを報告"
+      - "再現困難な単一実験の結果報告"
+
+# ---------------------------------------------------------------------------
+# 論文タイプフィルタ
+# ---------------------------------------------------------------------------
+paper_type_filter:
+  # 取得対象とする論文タイプ
+  include:
+    - "systematic_review"     # システマティックレビュー
+    - "meta_analysis"         # メタアナリシス
+    - "tier1_primary"         # Tier 1判定されたプライマリ研究
+    - "seminal_paper"         # 分野を定義した重要論文（被引用数上位）
+    - "theoretical_framework" # 理論的フレームワークを提案する論文
+  # 除外
+  exclude:
+    - "case_study_single"     # 単一ケーススタディ
+    - "tool_benchmark"        # ツール/ベンチマーク比較のみ
+    - "incremental_improvement" # 既存手法の微小改善
+
+# ---------------------------------------------------------------------------
+# 分野別検索クエリ（15分野 × Semantic Scholar + arXiv）
+# ---------------------------------------------------------------------------
+research_domains:
+
+  # ===== 基礎科学 =====
+
+  neuroscience:
+    label: "脳科学"
+    core_question: "人間の脳はAIとどう共存できるか"
+    arxiv_categories: ["q-bio.NC"]
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "predictive coding brain systematic review"
+        - "working memory attention neuroscience meta-analysis"
+        - "decision making neural basis reward review"
+        - "neuroplasticity tool use brain adaptation review"
+        - "social brain hypothesis meta-analysis"
+        - "embodied cognition review"
+      seminal:
+        - "free energy principle Friston"
+        - "predictive processing Clark"
+        - "Dunbar social brain"
+    min_citations: 100
+    priority: "high"
+
+  cognitive_science:
+    label: "認知科学"
+    core_question: "人間の思考はAIでどう拡張/変容するか"
+    arxiv_categories: ["cs.HC", "cs.AI"]
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "dual process theory systematic review"
+        - "cognitive load theory meta-analysis"
+        - "distributed cognition review"
+        - "metacognition calibration systematic review"
+        - "cognitive bias catalog meta-analysis"
+        - "mental models situation awareness review"
+      seminal:
+        - "Kahneman thinking fast slow dual process"
+        - "Hutchins distributed cognition"
+        - "Sweller cognitive load theory"
+        - "Sapir Whorf linguistic relativity"
+    min_citations: 200
+    priority: "high"
+
+  complexity_science:
+    label: "複雑系科学"
+    core_question: "AI+人間の系はどんな創発的振る舞いをするか"
+    arxiv_categories: ["nlin.AO", "cs.MA"]
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "complex adaptive systems review"
+        - "emergence self-organization systematic review"
+        - "cybernetics requisite variety Ashby"
+        - "systems thinking leverage points review"
+        - "autopoiesis Maturana Varela review"
+        - "multi-agent systems emergent behavior review"
+      seminal:
+        - "Ashby requisite variety law"
+        - "Meadows leverage points systems"
+        - "Holland complex adaptive systems"
+        - "Kauffman origins of order"
+    min_citations: 150
+    priority: "critical"
+
+  # ===== 人間科学 =====
+
+  psychology:
+    label: "心理学"
+    core_question: "個人のウェルビーイングと主体性をどう維持するか"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "self-determination theory meta-analysis"
+        - "flow theory optimal experience systematic review"
+        - "self-efficacy Bandura meta-analysis"
+        - "trust in automation systematic review"
+        - "automation complacency meta-analysis"
+        - "creativity AI collaboration review"
+        - "identity role theory work automation review"
+      seminal:
+        - "Deci Ryan self-determination theory"
+        - "Csikszentmihalyi flow"
+        - "Bandura self-efficacy"
+        - "Lee See trust in automation"
+    min_citations: 200
+    priority: "high"
+
+  behavioral_economics:
+    label: "行動経済学"
+    core_question: "AIが介在する意思決定をどう設計すべきか"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "prospect theory meta-analysis"
+        - "nudge theory systematic review"
+        - "bounded rationality review"
+        - "algorithm aversion appreciation systematic review"
+        - "default effect meta-analysis"
+        - "information cascades herding systematic review"
+        - "hyperbolic discounting present bias meta-analysis"
+      seminal:
+        - "Kahneman Tversky prospect theory"
+        - "Thaler Sunstein nudge"
+        - "Simon bounded rationality"
+        - "Dietvorst algorithm aversion"
+    min_citations: 300
+    priority: "high"
+
+  evolutionary_biology:
+    label: "進化生物学・文化進化"
+    core_question: "人間-AI共進化の長期ダイナミクスは何か"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "cultural evolution review"
+        - "gene-culture coevolution systematic review"
+        - "niche construction review"
+        - "memetics cultural transmission systematic review"
+        - "technological evolution review"
+      seminal:
+        - "Richerson Boyd cultural evolution"
+        - "Dawkins selfish gene meme"
+        - "Odling-Smee niche construction"
+        - "Henrich secret of our success"
+    min_citations: 100
+    priority: "medium"
+
+  # ===== 社会科学 =====
+
+  sociology:
+    label: "社会学"
+    core_question: "社会制度・権力構造はどう再編されるか"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "institutional theory systematic review"
+        - "actor-network theory ANT review"
+        - "trust social systems Luhmann review"
+        - "digital divide inequality systematic review"
+        - "sociology of work automation review"
+        - "social construction technology SCOT review"
+        - "network society Castells review"
+      seminal:
+        - "Luhmann trust social systems"
+        - "Latour actor-network theory"
+        - "Castells network society"
+        - "Weber bureaucracy rationalization"
+        - "Berger Luckmann social construction reality"
+    min_citations: 200
+    priority: "high"
+
+  economics:
+    label: "経済学"
+    core_question: "生産・分配・成長のメカニズムはどう変わるか"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "task-based framework automation labor review"
+        - "general purpose technology systematic review"
+        - "AI labor market impact meta-analysis"
+        - "platform economics systematic review"
+        - "complementarity substitution AI labor review"
+        - "endogenous growth theory innovation review"
+      seminal:
+        - "Autor task-based framework"
+        - "Acemoglu AI labor automation"
+        - "Brynjolfsson AI productivity"
+        - "GPTs are GPTs Eloundou"
+        - "Bresnahan Trajtenberg general purpose technology"
+    min_citations: 200
+    priority: "high"
+
+  organization_science:
+    label: "組織科学"
+    core_question: "AI native組織のアーキテクチャは何か"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "organizational routines systematic review"
+        - "dynamic capabilities meta-analysis"
+        - "ambidexterity exploration exploitation meta-analysis"
+        - "team cognition shared mental models systematic review"
+        - "knowledge management AI systematic review"
+        - "organizational design review"
+      seminal:
+        - "Teece dynamic capabilities"
+        - "March exploration exploitation"
+        - "Nelson Winter evolutionary theory"
+        - "Nonaka knowledge creation"
+        - "Feldman Pentland organizational routines"
+    min_citations: 200
+    priority: "critical"
+
+  anthropology:
+    label: "人類学"
+    core_question: "AI時代の人間の文化・意味世界はどうなるか"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "technology anthropology review"
+        - "organizational ethnography systematic review"
+        - "digital anthropology review"
+        - "ritual symbolic interaction workplace review"
+      seminal:
+        - "Suchman human-machine reconfigurations"
+        - "Ingold making anthropology"
+        - "Geertz interpretation of cultures"
+    min_citations: 100
+    priority: "medium"
+
+  # ===== 規範科学 =====
+
+  philosophy:
+    label: "哲学"
+    core_question: "AIの存在論的地位と倫理的前提は何か"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "philosophy of mind consciousness AI review"
+        - "epistemology AI knowledge review"
+        - "action theory agency AI review"
+        - "political philosophy AI justice review"
+        - "value alignment AI ethics systematic review"
+        - "artificial agency moral responsibility review"
+      seminal:
+        - "Floridi information philosophy"
+        - "Dennett consciousness explained"
+        - "Bratman shared agency"
+        - "Rawls theory of justice"
+        - "Frankfurt free will moral responsibility"
+    min_citations: 100
+    priority: "high"
+
+  law:
+    label: "法学"
+    core_question: "AI nativeな社会の法的基盤をどう設計するか"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "AI legal personhood systematic review"
+        - "algorithmic accountability law review"
+        - "AI liability tort law review"
+        - "intellectual property AI generated content review"
+        - "AI administrative law public decision making review"
+        - "contract law autonomous agents review"
+      seminal:
+        - "EU AI Act analysis"
+        - "NIST AI risk management framework"
+        - "Solove privacy law"
+    min_citations: 50
+    priority: "high"
+
+  # ===== 設計科学 =====
+
+  hci:
+    label: "HCI・デザイン"
+    core_question: "人間-AIの接触面をどう設計するか"
+    arxiv_categories: ["cs.HC"]
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "human-AI interaction design systematic review"
+        - "explainable AI XAI user study meta-analysis"
+        - "mixed-initiative interaction review"
+        - "CSCW AI collaboration systematic review"
+        - "human-AI trust calibration systematic review"
+        - "AI decision support system review"
+      seminal:
+        - "Shneiderman human-centered AI"
+        - "Amershi guidelines human-AI interaction"
+        - "Horvitz principles mixed-initiative"
+    min_citations: 100
+    priority: "high"
+
+  systems_engineering:
+    label: "システム工学・サイバネティクス"
+    core_question: "AI nativeな系の制御・安定性をどう担保するか"
+    arxiv_categories: ["cs.MA", "cs.SY"]
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "multi-agent systems coordination review"
+        - "sociotechnical systems design systematic review"
+        - "resilience engineering systematic review"
+        - "human-automation interaction review"
+        - "safety critical AI systems review"
+        - "feedback control systems AI review"
+      seminal:
+        - "Wiener cybernetics"
+        - "Hollnagel resilience engineering"
+        - "Rasmussen safety management"
+        - "Leveson system safety"
+    min_citations: 100
+    priority: "critical"
+
+  # ===== 歴史的文脈 =====
+
+  history_of_technology:
+    label: "技術史・経済史"
+    core_question: "過去の汎用技術革命からの教訓は何か"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "industrial revolution labor impact review"
+        - "general purpose technology historical review"
+        - "printing revolution knowledge review"
+        - "internet organizational change systematic review"
+        - "technological unemployment historical review"
+      seminal:
+        - "Mokyr gifts of Athena"
+        - "Perez technological revolutions"
+        - "Chandler visible hand"
+        - "Eisenstein printing revolution"
+    min_citations: 100
+    priority: "medium"
+
+# ---------------------------------------------------------------------------
+# 人間-AI協働（分野横断の重点テーマ）
+# ---------------------------------------------------------------------------
+cross_cutting_themes:
+  human_ai_collaboration:
+    label: "人間-AI協働"
+    description: "複数分野を横断する最重要テーマ"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "human-AI collaboration systematic review"
+        - "centaur model cyborg model AI review"
+        - "AI augmentation knowledge work meta-analysis"
+        - "AI productivity impact randomized controlled trial"
+        - "complementarity human AI decision making review"
+      seminal:
+        - "Brynjolfsson generative AI productivity"
+        - "Dell'Acqua navigating jagged frontier"
+        - "Noy Zhang ChatGPT productivity"
+    priority: "critical"
+
+  ai_governance:
+    label: "AIガバナンス"
+    description: "AI nativeな社会の統治メカニズム"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "AI governance framework systematic review"
+        - "algorithmic fairness bias meta-analysis"
+        - "AI safety alignment systematic review"
+        - "responsible AI systematic review"
+    priority: "critical"
+
+# ---------------------------------------------------------------------------
+# 既存の技術ソース（維持）
+# ---------------------------------------------------------------------------
+rss_feeds:
+  - url: "https://blog.google/technology/ai/rss/"
+    name: "Google AI Blog"
+    category: "research_lab"
+    poll_interval_hours: 12
+
+  - url: "https://openai.com/blog/rss.xml"
+    name: "OpenAI Blog"
+    category: "research_lab"
+    poll_interval_hours: 12
+
+  - url: "https://lilianweng.github.io/index.xml"
+    name: "Lilian Weng"
+    category: "researcher_blog"
+    poll_interval_hours: 24
+
+  - url: "https://jalammar.github.io/feed.xml"
+    name: "Jay Alammar"
+    category: "researcher_blog"
+    poll_interval_hours: 24
+
+  - url: "https://magazine.sebastianraschka.com/feed"
+    name: "Sebastian Raschka"
+    category: "researcher_blog"
+    poll_interval_hours: 24
+
+  - url: "https://huyenchip.com/feed.xml"
+    name: "Chip Huyen"
+    category: "researcher_blog"
+    poll_interval_hours: 24
+
+  - url: "https://eugeneyan.com/feed.xml"
+    name: "Eugene Yan"
+    category: "researcher_blog"
+    poll_interval_hours: 24
+
+  - url: "https://karpathy.github.io/feed.xml"
+    name: "Andrej Karpathy"
+    category: "researcher_blog"
+    poll_interval_hours: 24
+
+  - url: "https://www.reddit.com/r/MachineLearning/.rss"
+    name: "r/MachineLearning"
+    category: "community"
+    poll_interval_hours: 6
+
+arxiv:
+  categories:
+    - "cs.AI"
+    - "cs.LG"
+    - "cs.CL"
+    - "cs.CV"
+    - "cs.HC"     # Human-Computer Interaction（追加）
+    - "cs.MA"     # Multi-Agent Systems（追加）
+    - "cs.SY"     # Systems and Control（追加）
+    - "stat.ML"
+    - "q-bio.NC"  # Neurons and Cognition（追加）
+    - "econ.GN"   # General Economics（追加）
+  max_results_per_poll: 50
+  poll_interval_hours: 12
+
+github:
+  topics:
+    - "machine-learning"
+    - "deep-learning"
+    - "large-language-models"
+    - "transformers"
+    - "diffusion-models"
+    - "multi-agent-systems"  # 追加
+    - "human-ai-interaction" # 追加
+  min_stars: 100
+  poll_interval_hours: 24
+
+# ---------------------------------------------------------------------------
+# 自動発見
+# ---------------------------------------------------------------------------
+discovery:
+  enabled: true
+  domain_link_threshold: 3
+  auto_category: "discovered"
+
+# ---------------------------------------------------------------------------
+# レート制限
+# ---------------------------------------------------------------------------
+rate_limits:
+  "arxiv.org": 3.0
+  "api.github.com": 0.72
+  "api.semanticscholar.org": 1.0
+  "api.openalex.org": 0.5
+  "reddit.com": 2.0
+  _default: 1.5
+
+# ---------------------------------------------------------------------------
+# 品質フィルタリング
+# ---------------------------------------------------------------------------
+quality:
+  freshness_half_life_days: 365
+  min_relevance_score: 0.3
+
+  # Tier 1 判定に使用するLLMプロンプトテンプレート
+  tier_classification_prompt: |
+    以下の論文について、AI nativeな社会・組織・システム設計への有用性を評価してください。
+
+    タイトル: {title}
+    アブストラクト: {abstract}
+
+    以下の3つのテストを適用してください:
+
+    1. 抽象度テスト: この知見から具体的な対象（人間、現在の技術、現在の制度）を除去しても成立するか？
+    2. 制約不変テスト: この知見が依拠している制約条件は、AGI時代にも存続するか？
+    3. メカニズムテスト: この研究は「なぜ」を説明しているか、それとも「何が起きたか」を記述しているだけか？
+
+    分類:
+    - Tier 1（不変原理）: 3テスト全てを満たす
+    - Tier 2（消滅制約の分析）: テスト2で「消滅する制約」に依拠するが、その制約の構造的分析として価値がある
+    - Tier 3（スキップ）: 条件依存的な現象記述または手法レベルの最適化
+
+    JSON形式で回答:
+    {"tier": 1|2|3, "reasoning": "判定理由", "key_insight": "核心的知見の1行要約"}
+
+  # 論文タイプ判定キーワード
+  paper_type_detection:
+    systematic_review:
+      title_keywords: ["systematic review", "scoping review", "literature review", "survey"]
+      abstract_keywords: ["PRISMA", "systematic search", "inclusion criteria", "excluded studies"]
+    meta_analysis:
+      title_keywords: ["meta-analysis", "meta analysis", "quantitative synthesis"]
+      abstract_keywords: ["effect size", "pooled estimate", "heterogeneity", "forest plot", "random effects"]
+    seminal:
+      min_citations: 500
+      min_influential_citations: 50  # Semantic Scholar の influential citations

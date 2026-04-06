@@ -1,0 +1,22 @@
+---
+title: "Convergent Representations of Linguistic Constructions in Human and Artificial Neural Systems"
+authors: "Pegah Ramezani, Thomas Kinfe, Andreas Maier, Achim Schilling, Patrick Krauss"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "neuroscience"
+fetched: "2026-04-06T13:19:05.606515"
+arxiv_id: "http://arxiv.org/abs/2603.29617v1"
+source_api: "arxiv"
+categories: "q-bio.NC, cs.AI, cs.CL"
+---
+
+# Convergent Representations of Linguistic Constructions in Human and Artificial Neural Systems
+
+**著者**: Pegah Ramezani, Thomas Kinfe, Andreas Maier, Achim Schilling, Patrick Krauss
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: 脳科学
+
+## Abstract
+
+Understanding how the brain processes linguistic constructions is a central challenge in cognitive neuroscience and linguistics. Recent computational studies show that artificial neural language models spontaneously develop differentiated representations of Argument Structure Constructions (ASCs), generating predictions about when and how construction-level information emerges during processing. The present study tests these predictions in human neural activity using electroencephalography (EEG). Ten native English speakers listened to 200 synthetically generated sentences across four construction types (transitive, ditransitive, caused-motion, resultative) while neural responses were recorded. Analyses using time-frequency methods, feature extraction, and machine learning classification revealed construction-specific neural signatures emerging primarily at sentence-final positions, where argument structure becomes fully disambiguated, and most prominently in the alpha band. Pairwise classification showed reliable differentiation, especially between ditransitive and resultative constructions, while other pairs overlapped. Crucially, the temporal emergence and similarity structure of these effects mirror patterns in recurrent and transformer-based language models, where constructional representations arise during integrative processing stages. These findings support the view that linguistic constructions are neurally encoded as distinct form-meaning mappings, in line with Construction Grammar, and suggest convergence between biological and artificial systems on similar representational solutions. More broadly, this convergence is consistent with the idea that learning systems discover stable regions within an underlying representational landscape - recently termed a Platonic representational space - that constrains the emergence of efficient linguistic abstractions.
