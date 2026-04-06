@@ -645,5 +645,64 @@
     "related_sources": [
       6
     ]
+  },
+  {
+    "slug": "automation-augmentation-paradox",
+    "title_ja": "自動化・拡張パラドックス",
+    "title_en": "Automation-Augmentation Paradox",
+    "description": "AIが人間の業務を代替する「自動化」と人間とAIが協働する「拡張」は相互依存的であり、どちらか一方を強調しすぎると負の結果を招くというパラドックス的緊張関係。",
+    "related_sources": [
+      1,
+      10,
+      11
+    ]
+  },
+  {
+    "slug": "self-determination-theory-ai",
+    "title_ja": "自己決定理論とAI",
+    "title_en": "Self-Determination Theory and AI",
+    "description": "自律性・有能感・関係性の3つの基本心理欲求を軸とする自己決定理論をAI利用・教育・観光などの文脈に適用し、内発的動機づけや行動意図を説明する理論的枠組み。",
+    "related_sources": [
+      4,
+      5,
+      7,
+      9
+    ]
+  },
+  {
+    "slug": "ai-self-efficacy",
+    "title_ja": "AI自己効力感",
+    "title_en": "AI Self-Efficacy",
+    "description": "バンデューラの自己効力感理論をAI活用場面に応用し、AIツールの使用が学習者・教師・学生の自信や達成感に与える影響を探る概念。",
+    "related_sources": [
+      6,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "slug": "llm-in-education",
+    "title_ja": "大規模言語モデルの教育応用",
+    "title_en": "Large Language Models in Education",
+    "description": "ChatGPTなどのLLMを教育場面に導入する際の機会（個別最適化・学習支援）と課題（依存・倫理・評価）を多角的に検討する研究領域。",
+    "related_sources": [
+      2,
+      8,
+      9,
+      12
+    ]
+  },
+  {
+    "slug": "human-ai-collaboration",
+    "title_ja": "人間とAIの協働",
+    "title_en": "Human-AI Collaboration",
+    "description": "人間とAIシステムが創造性・意思決定・業務遂行を共同で行う枠組みであり、信頼・制約設計・エージェンシーのバランスが重要課題となる。",
+    "related_sources": [
+      1,
+      3,
+      10,
+      15
+    ]
   }
 ]
