@@ -819,5 +819,363 @@
       12,
       14
     ]
+  },
+  {
+    "slug": "generative-conversational-ai",
+    "title_ja": "生成的会話AI",
+    "title_en": "Generative Conversational AI",
+    "description": "ChatGPTに代表される、人間と区別困難なテキストを生成するAIツールの機会・課題・倫理的含意",
+    "related_sources": [
+      1,
+      10
+    ]
+  },
+  {
+    "slug": "technological-revolutions-financial-capital",
+    "title_ja": "技術革命と金融資本",
+    "title_en": "Technological Revolutions and Financial Capital",
+    "description": "技術革命がバブルと黄金期のダイナミクスを通じて金融資本とどのように相互作用するかを分析する理論的枠組み",
+    "related_sources": [
+      2,
+      3
+    ]
+  },
+  {
+    "slug": "knowledge-economy-historical-origins",
+    "title_ja": "知識経済の歴史的起源",
+    "title_en": "Historical Origins of the Knowledge Economy",
+    "description": "産業革命以降の技術・科学知識の蓄積がいかに経済成長と知識経済の基盤を形成したかを論じる経済史的視点",
+    "related_sources": [
+      4,
+      5
+    ]
+  },
+  {
+    "slug": "ai-labor-transformation",
+    "title_ja": "AIと労働変革",
+    "title_en": "AI and the Transformation of Labor",
+    "description": "AIと自動化が雇用構造・労働形態・経済活動の分散化に与える影響と歴史的技術革命との比較考察",
+    "related_sources": [
+      10,
+      1
+    ]
+  },
+  {
+    "slug": "technological-revolutions-and-financial-capital",
+    "title_ja": "技術革命と金融資本",
+    "title_en": "Technological Revolutions and Financial Capital",
+    "description": "Carlota Pérezによる、技術革命がバブルと黄金期のサイクルを経て経済・社会を変革するダイナミクスの理論的枠組み。",
+    "related_sources": [
+      2,
+      3
+    ]
+  },
+  {
+    "slug": "ai-and-future-of-work",
+    "title_ja": "AIと労働の未来",
+    "title_en": "AI and the Future of Work",
+    "description": "AI・ロボティクスの普及が雇用構造を変容させ、中央集権的な雇用創出から個人主導の分散型経済活動へシフトするという議論。",
+    "related_sources": [
+      10,
+      1
+    ]
+  },
+  {
+    "slug": "artificial-intelligence-security",
+    "title_ja": "人工知能と安全保障",
+    "title_en": "Artificial Intelligence and Security",
+    "description": "AI・機械学習技術が国際安全保障・戦略研究・多領域戦争に与える影響と応用",
+    "related_sources": [
+      1
+    ]
+  },
+  {
+    "slug": "blockchain-public-procurement",
+    "title_ja": "ブロックチェーンと公共調達",
+    "title_en": "Blockchain Technology in Public Procurement",
+    "description": "透明性・公正競争・合法性の原則に基づく公共調達システムへのブロックチェーン技術の国際的適用事例",
+    "related_sources": [
+      3
+    ]
+  },
+  {
+    "slug": "geofence-warrants-fourth-amendment",
+    "title_ja": "ジオフェンス令状と憲法修正第4条",
+    "title_en": "Geofence Warrants and the Fourth Amendment",
+    "description": "位置情報に基づく捜査技術の憲法的合法性と、プライバシー保護との緊張関係",
+    "related_sources": [
+      4
+    ]
+  },
+  {
+    "slug": "digital-privacy-location-data",
+    "title_ja": "デジタルプライバシーと位置情報",
+    "title_en": "Digital Privacy and Location Data",
+    "description": "デジタルマッピング・位置追跡技術における個人のプライバシー期待権と第三者理論の適用",
+    "related_sources": [
+      4
+    ]
+  },
+  {
+    "slug": "technology-governance-legal-framework",
+    "title_ja": "テクノロジーガバナンスと法的枠組み",
+    "title_en": "Technology Governance and Legal Frameworks",
+    "description": "ブロックチェーン・AI・ジオフェンシング等の新興技術に対する国際的・国内的規制・法整備の動向",
+    "related_sources": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "slug": "cognitive-externalization",
+    "title_ja": "認知の外部化",
+    "title_en": "Cognitive Externalization",
+    "description": "人間の認知能力が書記・印刷・AIなどの外部技術システムへと段階的に移譲されてきたプロセスを説明する理論的枠組み。",
+    "related_sources": [
+      3,
+      4
+    ]
+  },
+  {
+    "slug": "digital-human-identity",
+    "title_ja": "デジタル人間のアイデンティティ",
+    "title_en": "Digital Human Identity",
+    "description": "身体的・社会的属性に代わり、デジタル空間・個人データ・アルゴリズムによってアイデンティティが再定義される現象。",
+    "related_sources": [
+      2,
+      6
+    ]
+  },
+  {
+    "slug": "human-ai-assemblage",
+    "title_ja": "人間とAIのアサンブラージュ",
+    "title_en": "Human-AI Assemblage",
+    "description": "人間とAIの関係を固定的なシステムではなく、異種要素・実践・関係が動的に絡み合うアサンブラージュとして捉える文化人類学的アプローチ。",
+    "related_sources": [
+      5,
+      7
+    ]
+  },
+  {
+    "slug": "ai-and-labor-value",
+    "title_ja": "AIと労働価値論",
+    "title_en": "AI and Labor Theory of Value",
+    "description": "AIおよびデジタルプラットフォームの台頭がマルクス的労働価値論に与える挑戦と、AIを不変資本として位置づける理論的拡張。",
+    "related_sources": [
+      8,
+      1
+    ]
+  },
+  {
+    "slug": "algorithmic-transparency",
+    "title_ja": "アルゴリズムの透明性",
+    "title_en": "Algorithmic Transparency",
+    "description": "組織や共同体がアルゴリズムシステムを社会技術的文脈の中で可視化・説明可能にするための実践的・組織的営みとしての透明性。",
+    "related_sources": [
+      7,
+      5
+    ]
+  },
+  {
+    "slug": "resilience-engineering",
+    "title_ja": "レジリエンスエンジニアリング",
+    "title_en": "Resilience Engineering",
+    "description": "高リスク産業における予期しない障害や事故に対してシステムが適応・回復する能力を設計・評価するための工学的アプローチ",
+    "related_sources": [
+      1,
+      2,
+      3,
+      4,
+      13
+    ]
+  },
+  {
+    "slug": "agentic-ai",
+    "title_ja": "エージェンティックAI",
+    "title_en": "Agentic AI",
+    "description": "自律性・推論・適応学習を組み合わせ、複数ステップのタスクを自律的に遂行できる目標指向型AIシステム",
+    "related_sources": [
+      5,
+      7
+    ]
+  },
+  {
+    "slug": "safety-critical-ai",
+    "title_ja": "安全クリティカルAI",
+    "title_en": "Safety-Critical AI",
+    "description": "航空・医療・自動運転など人命に関わる領域で利用されるAIシステムの認証・検証・信頼性確保に関する研究領域",
+    "related_sources": [
+      8,
+      9,
+      15
+    ]
+  },
+  {
+    "slug": "human-ai-interaction",
+    "title_ja": "ヒューマンAIインタラクション",
+    "title_en": "Human-AI Interaction",
+    "description": "人間とAI・自動化システム間の協調・制御・認知的負荷・状況認識を研究するインターフェース設計の分野",
+    "related_sources": [
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "slug": "sociotechnical-systems",
+    "title_ja": "社会技術システム",
+    "title_en": "Sociotechnical Systems",
+    "description": "技術的インフラと社会・組織・人間的要因の相互作用を統合的に分析・設計するシステム工学のアプローチ",
+    "related_sources": [
+      6,
+      7,
+      10
+    ]
+  },
+  {
+    "slug": "niche-construction",
+    "title_ja": "ニッチ構築",
+    "title_en": "Niche Construction",
+    "description": "生物が自らの環境を改変することで進化的フィードバックを生み出すプロセスを説明する進化生物学の概念。",
+    "related_sources": [
+      1,
+      7,
+      10
+    ]
+  },
+  {
+    "slug": "cultural-evolution-and-human-cognition",
+    "title_ja": "文化進化と人間の認知",
+    "title_en": "Cultural Evolution and Human Cognition",
+    "description": "文化が人間の進化・知性・社会行動を駆動するメカニズムを探求する学際的研究領域。",
+    "related_sources": [
+      2,
+      3
+    ]
+  },
+  {
+    "slug": "human-ai-coevolution",
+    "title_ja": "人間とAIの共進化",
+    "title_en": "Human-AI Coevolution",
+    "description": "人間とAIシステムが相互に適応・変容し合う共進化的関係とそのガバナンス設計を扱う概念。",
+    "related_sources": [
+      6,
+      3
+    ]
+  },
+  {
+    "slug": "ai-as-knowledge-medium",
+    "title_ja": "知識メディアとしてのAI",
+    "title_en": "AI as a Knowledge Medium",
+    "description": "AIが口承・印刷・デジタルに続く新たな知識伝達・生産メディアとして文化や教育を変革するという概念。",
+    "related_sources": [
+      4,
+      5
+    ]
+  },
+  {
+    "slug": "plastisphere-and-antimicrobial-resistance",
+    "title_ja": "プラスチスフィアと薬剤耐性",
+    "title_en": "Plastisphere and Antimicrobial Resistance",
+    "description": "プラスチック表面に形成される微生物ニッチ（プラスチスフィア）が病原菌の定着・耐性遺伝子の水平伝播を促進するメカニズム。",
+    "related_sources": [
+      7,
+      1
+    ]
+  },
+  {
+    "slug": "ai-augmented-decision-making",
+    "title_ja": "AI支援意思決定",
+    "title_en": "AI-Augmented Decision Making",
+    "description": "AIが人間の意思決定プロセスを支援・強化する一方で、自動化への過信（オートメーション・コンプレイセンシー）などのリスクを伴う意思決定フレームワーク",
+    "related_sources": [
+      6,
+      7,
+      12
+    ]
+  },
+  {
+    "slug": "generative-ai-in-creative-domains",
+    "title_ja": "創造的領域における生成AI",
+    "title_en": "Generative AI in Creative Domains",
+    "description": "ゲーム開発・教育・コンテンツ制作など創造性が求められる分野での生成AIの活用と、その影響・課題を探求する研究領域",
+    "related_sources": [
+      2,
+      13,
+      11
+    ]
+  },
+  {
+    "slug": "ai-governance-and-risk-management",
+    "title_ja": "AIガバナンスとリスク管理",
+    "title_en": "AI Governance and Risk Management",
+    "description": "大規模言語モデルや自律システムの応答・動作を制御し、リスクとユーティリティのバランスを取るための枠組みと手法",
+    "related_sources": [
+      7,
+      12
+    ]
+  },
+  {
+    "slug": "ai-applications-in-sustainability",
+    "title_ja": "持続可能性分野へのAI応用",
+    "title_en": "AI Applications in Sustainability",
+    "description": "グリーンファイナンス・持続可能な観光・環境リスク評価など、持続可能な社会の実現に向けてAIを活用する国際的な取り組みと政策的含意",
+    "related_sources": [
+      3,
+      4
+    ]
+  },
+  {
+    "slug": "ai-automation-labor-market",
+    "title_ja": "AIによる労働市場の自動化",
+    "title_en": "AI Automation and Labor Market",
+    "description": "AIが労働市場のタスクを自動化するプロセスとその経済的影響を分析する研究領域",
+    "related_sources": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "slug": "skill-biased-technological-change",
+    "title_ja": "スキル偏向型技術変化",
+    "title_en": "Skill-Biased Technological Change",
+    "description": "技術革新が高スキル労働者と低スキル労働者に異なる影響を与えるメカニズムを説明する経済理論",
+    "related_sources": [
+      2,
+      1
+    ]
+  },
+  {
+    "slug": "generative-ai-productivity",
+    "title_ja": "生成AIと生産性",
+    "title_en": "Generative AI and Productivity",
+    "description": "生成AIがテキスト・画像・コードなどの創造的コンテンツ生成を通じて産業横断的に生産性を変革する現象",
+    "related_sources": [
+      10,
+      11,
+      4
+    ]
+  },
+  {
+    "slug": "ai-scientific-research-reorganization",
+    "title_ja": "AIによる科学研究の再編",
+    "title_en": "AI-Driven Reorganization of Scientific Research",
+    "description": "AI導入が研究プロセス・チーム構造・資源配分を変化させ科学的成果に影響を与えるメカニズム",
+    "related_sources": [
+      8,
+      14
+    ]
+  },
+  {
+    "slug": "ai-technology-adoption-firms",
+    "title_ja": "企業におけるAI技術の採用と普及",
+    "title_en": "AI Technology Adoption and Diffusion in Firms",
+    "description": "企業がML・テキストマイニング・自動化等の多様なAI技術を業務機能に導入する実態と普及パターン",
+    "related_sources": [
+      7,
+      6
+    ]
   }
 ]
