@@ -704,5 +704,120 @@
       10,
       15
     ]
+  },
+  {
+    "slug": "ai-risk-management-framework",
+    "title_ja": "AIリスク管理フレームワーク",
+    "title_en": "AI Risk Management Framework",
+    "description": "NISTのAI RMFを中心とした、AIシステムのリスクを体系的に識別・評価・軽減するための構造化されたアプローチ。",
+    "related_sources": [
+      1,
+      3,
+      8
+    ]
+  },
+  {
+    "slug": "ai-ethics-guidelines",
+    "title_ja": "AI倫理ガイドライン",
+    "title_en": "AI Ethics Guidelines",
+    "description": "透明性・公正性・無危害・責任・プライバシーを中心に、世界各地の機関が策定するAIの倫理的原則と指針の体系。",
+    "related_sources": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "slug": "algorithmic-fairness-and-bias-detection",
+    "title_ja": "アルゴリズム的公正性とバイアス検出",
+    "title_en": "Algorithmic Fairness and Bias Detection",
+    "description": "自動意思決定システムにおける差別的偏りを統計的・因果的・モデルベース手法で検出・軽減するための理論と実践。",
+    "related_sources": [
+      7,
+      8,
+      10
+    ]
+  },
+  {
+    "slug": "ai-transparency-and-explainability",
+    "title_ja": "AIの透明性と説明可能性",
+    "title_en": "AI Transparency and Explainability",
+    "description": "ブラックボックスとされるAIシステムの内部動作を解釈・説明可能にし、市民や政策立案者による監査・説明責任を実現する取り組み。",
+    "related_sources": [
+      10,
+      15
+    ]
+  },
+  {
+    "slug": "ai-governance-regulation",
+    "title_ja": "AI規制とガバナンス政策",
+    "title_en": "AI Regulation and Governance Policy",
+    "description": "AIシステムの開発・利用を社会的・法的に規律するための国際的・国内的な政策枠組みと規制アプローチ。",
+    "related_sources": [
+      5,
+      6,
+      9,
+      13
+    ]
+  },
+  {
+    "slug": "dynamic-capabilities",
+    "title_ja": "ダイナミック・ケイパビリティ",
+    "title_en": "Dynamic Capabilities",
+    "description": "組織が変化する環境に適応するために内外の能力を統合・構築・再構成する能力であり、持続的競争優位の源泉となる戦略的フレームワーク。",
+    "related_sources": [
+      1,
+      6,
+      8,
+      9
+    ]
+  },
+  {
+    "slug": "organizational-ambidexterity",
+    "title_ja": "組織的両利き経営",
+    "title_en": "Organizational Ambidexterity",
+    "description": "探索（Exploration）と活用（Exploitation）という相反する活動を同時にバランスよく行うことで、持続的なパフォーマンスを実現する組織能力。",
+    "related_sources": [
+      2,
+      4,
+      5,
+      13,
+      14
+    ]
+  },
+  {
+    "slug": "exploration-vs-exploitation",
+    "title_ja": "探索と活用のトレードオフ",
+    "title_en": "Exploration vs. Exploitation",
+    "description": "組織学習における新知識の探索と既存知識の活用という二つの根本的アプローチ間のトレードオフと、そのバランスが企業業績に与える影響。",
+    "related_sources": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "slug": "ai-and-dynamic-capabilities",
+    "title_ja": "AIとダイナミック・ケイパビリティの融合",
+    "title_en": "AI-Enhanced Dynamic Capabilities",
+    "description": "人工知能の導入が組織のセンシング・サイジング・再構成プロセスを変革し、ダイナミック・ケイパビリティのマイクロ基盤を再定義する新たな研究領域。",
+    "related_sources": [
+      7,
+      8,
+      9,
+      15
+    ]
+  },
+  {
+    "slug": "ai-knowledge-management",
+    "title_ja": "AIを活用した知識管理",
+    "title_en": "AI-Based Knowledge Management",
+    "description": "機械学習・自然言語処理などのAI技術を活用して、組織における知識の創造・保存・検索・共有・活用を高度化・効率化するフレームワーク。",
+    "related_sources": [
+      10,
+      11,
+      12,
+      14
+    ]
   }
 ]
