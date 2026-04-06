@@ -49,16 +49,16 @@ AI駆動型外科手術の変革（AI-Driven Surgical Transformation）とは、
 
 ## 関連概念
 
-- [[ロボット外科手術（Robotic Surgery）]]
-- [[外科手術AIアシスタント（Surgical AI Assistant）]]
-- [[デジタルツイン（Digital Twin）]]
-- [[コンピュータビジョン（Computer Vision）]]
-- [[テレメディシン（Telemedicine）]]
-- [[手術データサイエンス（Surgical Data Science）]]
-- [[マルチモーダル学習（Multimodal Learning）]]
-- [[説明可能なAI（Explainable AI / XAI）]]
-- [[医療AIの倫理（Ethics of Medical AI）]]
-- [[クラウドヘルスケア（Cloud Healthcare）]]
+- ロボット外科手術（Robotic Surgery）
+- 外科手術AIアシスタント（Surgical AI Assistant）
+- デジタルツイン（Digital Twin）
+- コンピュータビジョン（Computer Vision）
+- テレメディシン（Telemedicine）
+- 手術データサイエンス（Surgical Data Science）
+- マルチモーダル学習（Multimodal Learning）
+- 説明可能なAI（Explainable AI / XAI）
+- 医療AIの倫理（Ethics of Medical AI）
+- クラウドヘルスケア（Cloud Healthcare）
 
 ---
 

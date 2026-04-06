@@ -58,16 +58,16 @@ AIモデルがデプロイメント前にリスクスコアを算出し、セキ
 
 ## 関連概念
 
-- [[DevSecOps]]
-- [[CI/CDパイプライン]]
-- [[機械学習による脆弱性検出]]
-- [[異常検知 (Anomaly Detection)]]
-- [[クラウドネイティブセキュリティ]]
-- [[シフトレフトセキュリティ]]
-- [[予測的リスク分析]]
-- [[Infrastructure as Code (IaC)]]
-- [[ゼロトラストセキュリティ]]
-- [[MLSecOps]]
+- DevSecOps
+- CI/CDパイプライン
+- 機械学習による脆弱性検出
+- 異常検知 (Anomaly Detection)
+- クラウドネイティブセキュリティ
+- シフトレフトセキュリティ
+- 予測的リスク分析
+- Infrastructure as Code (IaC)
+- ゼロトラストセキュリティ
+- MLSecOps
 
 ---
 

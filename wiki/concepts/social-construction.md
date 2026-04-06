@@ -36,7 +36,7 @@ Berger & Luckmann（1966）の『現実の社会的構成』は、日常的な�
 
 ## 関連概念
 
-- [[cultural-evolution]] — 文化的知識の伝達と社会的構成の関係
+- cultural-evolution — 文化的知識の伝達と社会的構成の関係
 - [[interaction-awareness]] — AIの社会的文脈理解の限界
 - [[reward-hacking]] — 指標の社会的構成とGoodhart's Law
 

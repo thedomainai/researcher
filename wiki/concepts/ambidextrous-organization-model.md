@@ -59,20 +59,20 @@ Holland（1992）の複雑適応系理論を援用すると、AI Native組織は
 
 両利き組織モデルは、以下の概念と密接に関連している：
 
-- [[dynamic-capabilities]]: 組織の変化適応能力の理論的基盤
-- [[complex-adaptive-systems]]: 自己組織化と創発的学習のメカニズム
-- [[ai-human-collaboration-patterns]]: AI-人間協働における役割分担の原理
-- [[organizational-learning-loops]]: 探索・活用サイクルの具体的実装
-- [[system-dynamics-modeling]]: 組織内循環プロセスの可視化・設計手法
-- [[innovation-management-systems]]: 創造性と効率性の統合メカニズム
-- [[post-job-economy-adaptation]]: 労働変化への組織的対応戦略
+- dynamic-capabilities: 組織の変化適応能力の理論的基盤
+- complex-adaptive-systems: 自己組織化と創発的学習のメカニズム
+- ai-human-collaboration-patterns: AI-人間協働における役割分担の原理
+- organizational-learning-loops: 探索・活用サイクルの具体的実装
+- system-dynamics-modeling: 組織内循環プロセスの可視化・設計手法
+- innovation-management-systems: 創造性と効率性の統合メカニズム
+- post-job-economy-adaptation: 労働変化への組織的対応戦略
 
 ## 参考ソース
 
-- Dynamic Capabilities and Strategic Management (raw/organization_science/teece1997_dynamic_capabilities.md)
-- Exploration vs. Exploitation: An Empirical Test of the Ambidexterity Hypothesis (raw/organization_science/he2004_ambidexterity_test.md)  
-- The Interplay Between Exploration and Exploitation (raw/organization_science/gupta2006_exploration_exploitation.md)
-- Organizational Ambidexterity: Balancing Exploitation and Exploration for Sustained Performance (raw/organization_science/raisch2009_organizational_ambidexterity.md)
-- Why Your AI Agent Can't Make Money: The Real Reason AI Cost-Cutting Fails (raw/economics/ahn2026_ai_cost_cutting.md)
-- System Dynamics: Systems Thinking and Modeling for a Complex World (raw/complexity_science/sterman2002_system_dynamics.md)
-- Adaptation in Natural and Artificial Systems (raw/complexity_science/holland1992_adaptation.md)
+- Dynamic Capabilities and Strategic Management (（パス未確認）)
+- Exploration vs. Exploitation: An Empirical Test of the Ambidexterity Hypothesis (（パス未確認）)  
+- The Interplay Between Exploration and Exploitation (（パス未確認）)
+- Organizational Ambidexterity: Balancing Exploitation and Exploration for Sustained Performance (（パス未確認）)
+- Why Your AI Agent Can't Make Money: The Real Reason AI Cost-Cutting Fails (（パス未確認）)
+- System Dynamics: Systems Thinking and Modeling for a Complex World (（パス未確認）)
+- Adaptation in Natural and Artificial Systems (（パス未確認）)

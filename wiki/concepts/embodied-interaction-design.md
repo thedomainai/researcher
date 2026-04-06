@@ -66,14 +66,14 @@ Panaderoの自己調整学習モデルを身体化相互作用に適用し、認
 
 身体化相互作用設計は、以下の概念と密接に関連している：
 
-- [[mixed-initiative-systems]]: 人間とAIが対等なパートナーとして協働するシステム設計
-- [[predictive-processing]]: 予測的情報処理に基づく認知アーキテクチャ
-- [[situated-learning]]: 文脈依存的な学習環境の設計
-- [[multimodal-interfaces]]: 複数の感覚モダリティを統合したユーザーインターフェース
-- [[cognitive-load-management]]: 人間の認知的制約を考慮したシステム設計
-- [[neuroplasticity-design]]: 神経可塑性を活用した適応的学習システム
-- [[social-synchronization]]: 社会的相互作用における同期メカニズム
-- [[grounding-theory]]: システムの安定性と効果性を保証する基盤理論
+- mixed-initiative-systems: 人間とAIが対等なパートナーとして協働するシステム設計
+- predictive-processing: 予測的情報処理に基づく認知アーキテクチャ
+- situated-learning: 文脈依存的な学習環境の設計
+- multimodal-interfaces: 複数の感覚モダリティを統合したユーザーインターフェース
+- cognitive-load-management: 人間の認知的制約を考慮したシステム設計
+- neuroplasticity-design: 神経可塑性を活用した適応的学習システム
+- social-synchronization: 社会的相互作用における同期メカニズム
+- grounding-theory: システムの安定性と効果性を保証する基盤理論
 
 これらの概念との統合により、より包括的で効果的なAI-人間協働システムの設計が可能となる。
 

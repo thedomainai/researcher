@@ -42,16 +42,16 @@
 
 ## 関連概念
 
-- [[予測符号化（Predictive Coding）]]
-- [[自由エネルギー原理（Free Energy Principle）]]
-- [[統合失調症の神経生物学]]
-- [[自閉スペクトラム症（ASD）の認知モデル]]
-- [[予測誤差（Prediction Error）]]
-- [[感覚処理と精神疾患]]
-- [[計算論的精神医学（Computational Psychiatry）]]
-- [[神経発達障害（Neurodevelopmental Disorders）]]
-- [[神経変性疾患（Neurodegenerative Disorders）]]
-- [[RDoC（Research Domain Criteria）]]
+- 予測符号化（Predictive Coding）
+- 自由エネルギー原理（Free Energy Principle）
+- 統合失調症の神経生物学
+- 自閉スペクトラム症（ASD）の認知モデル
+- 予測誤差（Prediction Error）
+- 感覚処理と精神疾患
+- 計算論的精神医学（Computational Psychiatry）
+- 神経発達障害（Neurodevelopmental Disorders）
+- 神経変性疾患（Neurodegenerative Disorders）
+- RDoC（Research Domain Criteria）
 
 ---
 

@@ -75,17 +75,17 @@
 
 ## 関連概念
 
-- [[継続的学習（Continual Learning）]]
-- [[グラフニューラルネットワーク（Graph Neural Networks）]]
-- [[破滅的忘却（Catastrophic Forgetting）]]
-- [[転移学習（Transfer Learning）]]
-- [[メタ学習（Meta-Learning）]]
-- [[知識蒸留（Knowledge Distillation）]]
-- [[動的グラフ（Dynamic Graph）]]
-- [[ノード分類（Node Classification）]]
-- [[リンク予測（Link Prediction）]]
-- [[グラフ分類（Graph Classification）]]
-- [[弾性重み固定（Elastic Weight Consolidation）]]
+- 継続的学習（Continual Learning）
+- グラフニューラルネットワーク（Graph Neural Networks）
+- 破滅的忘却（Catastrophic Forgetting）
+- 転移学習（Transfer Learning）
+- メタ学習（Meta-Learning）
+- 知識蒸留（Knowledge Distillation）
+- 動的グラフ（Dynamic Graph）
+- ノード分類（Node Classification）
+- リンク予測（Link Prediction）
+- グラフ分類（Graph Classification）
+- 弾性重み固定（Elastic Weight Consolidation）
 
 ---
 

@@ -53,22 +53,22 @@ Grounding Theory（2026）で示されるように、高い能力を持つAIシ�
 
 社会技術アセンブリは、AI Native社会設計の中核的概念として、複数の関連概念と密接に関連する：
 
-- [[cognitive-externalization]] - 認知機能の外在化プロセス
-- [[mixed-initiative-systems]] - 人間とAIの協働設計
-- [[cultural-embedding]] - 技術の文化的文脈への埋め込み
-- [[adaptive-governance]] - 動的なガバナンス構造
-- [[path-dependence]] - 技術発展の経路依存性
-- [[actor-network-theory]] - 社会技術ネットワーク理論
-- [[grounding-theory]] - システムの接地理論
-- [[anthropological-phase-shifts]] - 人類学的発展段階
+- cognitive-externalization - 認知機能の外在化プロセス
+- mixed-initiative-systems - 人間とAIの協働設計
+- cultural-embedding - 技術の文化的文脈への埋め込み
+- adaptive-governance - 動的なガバナンス構造
+- path-dependence - 技術発展の経路依存性
+- actor-network-theory - 社会技術ネットワーク理論
+- grounding-theory - システムの接地理論
+- anthropological-phase-shifts - 人類学的発展段階
 
 これらの概念群は相互に関連し合い、AI Native社会における人間と技術の共進化的関係を多角的に理解するための理論的フレームワークを構成する。
 
 ## 参考ソース
 
-- "Reassembling the Social" - Bruno Latour (2005) `[raw/sociology/latour_2005_reassembling.pdf]`
-- "Rethinking hybridity: From hybrid systems to assemblages" - Lukas Griessl et al. (2026) `[raw/anthropology/griessl_2026_rethinking.pdf]`
-- "Anthropological Phase Shifts and the Evolution of Human Intelligence" - David Matta (2026) `[raw/anthropology/matta_2026_anthropological.pdf]`
-- "A Design Space for Intelligent Agents in Mixed-Initiative Visual Analytics" - Tobias Stähle et al. (2025) `[raw/hci/stahle_2025_design.pdf]`
-- "Grounding Theory: A Systems-Engineering Framework" - sophia-0 (2026) `[raw/hci/sophia_2026_grounding.pdf]`
-- "Increasing Returns, Path Dependence, and the Study of Politics" - Paul Pierson (2000) `[raw/sociology/pierson_2000_increasing.pdf]`
+- "Reassembling the Social" - Bruno Latour (2005) `[（パス未確認）]`
+- "Rethinking hybridity: From hybrid systems to assemblages" - Lukas Griessl et al. (2026) `[（パス未確認）]`
+- "Anthropological Phase Shifts and the Evolution of Human Intelligence" - David Matta (2026) `[（パス未確認）]`
+- "A Design Space for Intelligent Agents in Mixed-Initiative Visual Analytics" - Tobias Stähle et al. (2025) `[（パス未確認）]`
+- "Grounding Theory: A Systems-Engineering Framework" - sophia-0 (2026) `[（パス未確認）]`
+- "Increasing Returns, Path Dependence, and the Study of Politics" - Paul Pierson (2000) `[（パス未確認）]`

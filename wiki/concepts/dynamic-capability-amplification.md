@@ -57,11 +57,11 @@ AIが組織構造そのものを環境変化に応じて最適化：
 
 動的能力増幅は以下のAI Native設計概念と密接に関連する：
 
-- **[[adaptive-intelligence]]**: 環境変化への適応メカニズムの技術的基盤
+- **adaptive-intelligence**: 環境変化への適応メカニズムの技術的基盤
 - **[[human-ai-collaboration]]**: 人間とAIの協働による能力増幅の実現
-- **[[emergent-workflow-design]]**: 動的な組織プロセスの設計原理
-- **[[cognitive-load-balancing]]**: 人間の認知負荷を最適化した設計
-- **[[organizational-learning-acceleration]]**: 学習プロセスの高速化手法
+- **emergent-workflow-design**: 動的な組織プロセスの設計原理
+- **cognitive-load-balancing**: 人間の認知負荷を最適化した設計
+- **organizational-learning-acceleration**: 学習プロセスの高速化手法
 
 これらの概念群との統合により、AI Native組織の包括的な設計フレームワークが形成される。
 

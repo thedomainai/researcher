@@ -61,12 +61,12 @@ AI Nativeな知識検証システムは、以下の設計原理に基づく必�
 
 状況知識検証は以下のコンセプトと密接に関連している：
 
-- [[embodied_cognition]]：身体化された認知理論との統合により、AIの物理的実装環境も検証対象となる
-- [[human_ai_collaboration]]：人間-AI協働システムにおける知識統合と検証メカニズム
-- [[algorithmic_transparency]]：アルゴリズムの透明性向上による状況的検証の実現
-- [[cultural_adaptation]]：多文化環境におけるAIシステムの知識検証
-- [[context_aware_systems]]：文脈認識システムとの技術的統合
-- [[epistemological_pluralism]]：多元的認識論に基づく検証フレームワーク
+- embodied_cognition：身体化された認知理論との統合により、AIの物理的実装環境も検証対象となる
+- human_ai_collaboration：人間-AI協働システムにおける知識統合と検証メカニズム
+- algorithmic_transparency：アルゴリズムの透明性向上による状況的検証の実現
+- cultural_adaptation：多文化環境におけるAIシステムの知識検証
+- context_aware_systems：文脈認識システムとの技術的統合
+- epistemological_pluralism：多元的認識論に基づく検証フレームワーク
 
 ## 参考ソース
 

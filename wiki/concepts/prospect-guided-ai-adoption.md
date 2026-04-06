@@ -65,17 +65,17 @@ AIシステムのエラーを「学習機会」として再フレーミング：
 プロスペクト誘導AI導入は以下のコンセプトと密接に関連する：
 
 - **[[human-ai-collaboration]]**：Mixed-Initiative設計における協働パターン
-- **[[explainable-ai]]**：透明性と説明可能性の要求
-- **[[behavioral-design]]**：認知バイアスを考慮した設計手法
-- **[[trust-calibration]]**：適切な信頼レベルの構築
-- **[[adaptive-automation]]**：段階的自動化レベル調整
-- **[[cognitive-load-management]]**：人間の認知負荷への配慮
+- **explainable-ai**：透明性と説明可能性の要求
+- **behavioral-design**：認知バイアスを考慮した設計手法
+- **trust-calibration**：適切な信頼レベルの構築
+- **adaptive-automation**：段階的自動化レベル調整
+- **cognitive-load-management**：人間の認知負荷への配慮
 
 また、実装レベルでは：
 
-- **[[user-experience-design]]**：認知バイアスを考慮したUI/UX
-- **[[change-management]]**：組織レベルでの技術導入戦略
-- **[[performance-measurement]]**：価値実証のための指標設計
+- **user-experience-design**：認知バイアスを考慮したUI/UX
+- **change-management**：組織レベルでの技術導入戦略
+- **performance-measurement**：価値実証のための指標設計
 
 ## 参考ソース
 

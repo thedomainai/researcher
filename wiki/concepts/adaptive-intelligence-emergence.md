@@ -54,10 +54,10 @@ Eisenhardt & Martin（2000）の動的能力理論に基づき、AIシステム�
 
 適応知能創発は、AI Native設計における他の重要概念と密接に関連している：
 
-- [[collective_intelligence_orchestration]]：集合知能の調整は、個々のエージェントの適応知能が相互作用して創発する集合的現象
-- [[human_ai_symbiotic_evolution]]：人間とAIの共進化は、相互の適応的学習を通じた知能の共創発プロセス
-- [[contextual_ethics_adaptation]]：文脈適応的倫理は、環境との相互作用から倫理的判断能力が創発することを前提とする
-- [[emergent_governance_patterns]]：創発的ガバナンスは、適応知能を持つエージェント間の相互作用から統治構造が創発する現象
+- collective_intelligence_orchestration：集合知能の調整は、個々のエージェントの適応知能が相互作用して創発する集合的現象
+- human_ai_symbiotic_evolution：人間とAIの共進化は、相互の適応的学習を通じた知能の共創発プロセス
+- contextual_ethics_adaptation：文脈適応的倫理は、環境との相互作用から倫理的判断能力が創発することを前提とする
+- emergent_governance_patterns：創発的ガバナンスは、適応知能を持つエージェント間の相互作用から統治構造が創発する現象
 
 これらの概念は相互に強化し合い、AI Nativeな社会システムの設計において包括的なフレームワークを形成する。
 

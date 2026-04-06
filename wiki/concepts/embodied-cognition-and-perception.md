@@ -56,16 +56,16 @@ Leisman らの研究（2026）は、知覚が以下の要素の有機的な絡�
 
 ## 関連概念
 
-- [[身体的認知（Embodied Cognition）]]
-- [[エナクティビズム（Enactivism）]]
-- [[アフォーダンス理論（Affordance Theory）]]
-- [[自己組織化システム（Self-Organizing Systems）]]
-- [[大規模言語モデル（Large Language Models）]]
-- [[認知ロボティクス（Cognitive Robotics）]]
-- [[自閉症スペクトラム障害（Autism Spectrum Disorder）]]
-- [[予測符号化（Predictive Coding）]]
-- [[感覚統合（Sensory Integration）]]
-- [[動的システム理論（Dynamical Systems Theory）]]
+- 身体的認知（Embodied Cognition）
+- エナクティビズム（Enactivism）
+- アフォーダンス理論（Affordance Theory）
+- 自己組織化システム（Self-Organizing Systems）
+- 大規模言語モデル（Large Language Models）
+- 認知ロボティクス（Cognitive Robotics）
+- 自閉症スペクトラム障害（Autism Spectrum Disorder）
+- 予測符号化（Predictive Coding）
+- 感覚統合（Sensory Integration）
+- 動的システム理論（Dynamical Systems Theory）
 
 ---
 

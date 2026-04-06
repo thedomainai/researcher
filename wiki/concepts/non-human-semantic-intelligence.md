@@ -47,15 +47,15 @@ Botanical Effective Actは、非人間的意味生成知性を以下の段階的
 
 ## 関連概念
 
-- [[生物記号論（Biosemiotics）]]
-- [[分散認知（Distributed Cognition）]]
-- [[植物神経生物学（Plant Neurobiology）]]
-- [[菌糸ネットワーク（Mycelial Network）]]
-- [[記号過程（Semiosis）]]
-- [[意味労働（Semantic Labor）]]
-- [[非人間中心主義（Non-anthropocentrism）]]
-- [[分散的文学建築（Distributed Literary Architecture）]]
-- [[Underwater Construction Authority]]
+- 生物記号論（Biosemiotics）
+- 分散認知（Distributed Cognition）
+- 植物神経生物学（Plant Neurobiology）
+- 菌糸ネットワーク（Mycelial Network）
+- 記号過程（Semiosis）
+- 意味労働（Semantic Labor）
+- 非人間中心主義（Non-anthropocentrism）
+- 分散的文学建築（Distributed Literary Architecture）
+- Underwater Construction Authority
 
 ---
 
@@ -64,4 +64,4 @@ Botanical Effective Actは、非人間的意味生成知性を以下の段階的
 - Lee Sharks, "THE BOTANICAL EFFECTIVE ACT: Extending Semantic Labor Recognition to Plants, Fungi, and Biological Intelligence" (2026)
   - DOI: https://doi.org/10.5281/zenodo.19155999
   - OpenAlex ID: https://openalex.org/W7140037336
-  - ファイルパス: `raw/THE_BOTANICAL_EFFECTIVE_ACT.md`
+  - ファイルパス: （パス未確認）

@@ -46,21 +46,21 @@ AI governance領域では、NIST AI Risk Management Frameworkの実装におい�
 
 予測処理アーキテクチャは以下のコンセプトと深く関連している：
 
-- [[hierarchical-learning-systems]]：階層的学習システムの理論的基盤
+- hierarchical-learning-systems：階層的学習システムの理論的基盤
 - [[attention-mechanisms]]：注意機構の神経科学的基礎
-- [[self-regulated-learning]]：自己調整学習の認知的メカニズム
-- [[cognitive-load-optimization]]：認知負荷最適化の原理
-- [[risk-prediction-systems]]：リスク予測システムの設計思想
-- [[multi-agent-coordination]]：マルチエージェント協調の理論的枠組み
-- [[situated-cognition]]：状況的認知の実装原理
-- [[bayesian-inference-systems]]：ベイジアン推論システムの基礎
+- self-regulated-learning：自己調整学習の認知的メカニズム
+- cognitive-load-optimization：認知負荷最適化の原理
+- risk-prediction-systems：リスク予測システムの設計思想
+- multi-agent-coordination：マルチエージェント協調の理論的枠組み
+- situated-cognition：状況的認知の実装原理
+- bayesian-inference-systems：ベイジアン推論システムの基礎
 
-また、[[reward-shaping]]や[[hallucination-detection]]といった具体的な技術課題においても、予測処理の観点から統一的なアプローチが可能となる。
+また、reward-shapingやhallucination-detectionといった具体的な技術課題においても、予測処理の観点から統一的なアプローチが可能となる。
 
 ## 参考ソース
 
-- Friston, Karl J. "The free-energy principle: a unified brain theory?" (raw/neuroscience_6860_friston_2010.pdf)
-- Clark, Andy. "Whatever next? Predictive brains, situated agents, and the future of cognitive science" (raw/cognitive_science_5693_clark_2013.pdf)
-- Brown, John Seely, et al. "Situated Cognition and the Culture of Learning" (raw/cognitive_science_12892_brown_1989.pdf)
-- Jobin, Anna, et al. "Artificial Intelligence: the global landscape of ethics guidelines" (raw/ai_governance_2368_jobin_2019.pdf)
-- Panadero, Ernesto. "A Review of Self-regulated Learning: Six Models and Four Directions for Research" (raw/cognitive_science_2336_panadero_2017.pdf)
+- Friston, Karl J. "The free-energy principle: a unified brain theory?" (（パス未確認）)
+- Clark, Andy. "Whatever next? Predictive brains, situated agents, and the future of cognitive science" (（パス未確認）)
+- Brown, John Seely, et al. "Situated Cognition and the Culture of Learning" (（パス未確認）)
+- Jobin, Anna, et al. "Artificial Intelligence: the global landscape of ethics guidelines" (（パス未確認）)
+- Panadero, Ernesto. "A Review of Self-regulated Learning: Six Models and Four Directions for Research" (（パス未確認）)

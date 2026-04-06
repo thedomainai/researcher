@@ -47,14 +47,14 @@
 
 ## 関連概念
 
-- [[予測符号化 (Predictive Coding)]]
-- [[能動的推論 (Active Inference)]]
-- [[変分ベイズ推論 (Variational Bayes)]]
-- [[ベイズ脳仮説 (Bayesian Brain Hypothesis)]]
-- [[階層的生成モデル (Hierarchical Generative Model)]]
-- [[計算論的精神医学 (Computational Psychiatry)]]
-- [[マルコフブランケット (Markov Blanket)]]
-- [[予測誤差最小化 (Prediction Error Minimization)]]
+- 予測符号化 (Predictive Coding)
+- 能動的推論 (Active Inference)
+- 変分ベイズ推論 (Variational Bayes)
+- ベイズ脳仮説 (Bayesian Brain Hypothesis)
+- 階層的生成モデル (Hierarchical Generative Model)
+- 計算論的精神医学 (Computational Psychiatry)
+- マルコフブランケット (Markov Blanket)
+- 予測誤差最小化 (Prediction Error Minimization)
 
 ---
 
@@ -62,5 +62,5 @@
 
 | タイトル | 著者 | 年 |
 |---|---|---|
-| [The free-energy principle: a rough guide to the brain?](raw/friston_2009_free_energy_rough_guide.md) | Karl J. Friston | 2009 |
-| [The free-energy principle: a unified brain theory?](raw/friston_2010_free_energy_unified_theory.md) | Karl J. Friston | 2010 |
+| [The free-energy principle: a rough guide to the brain?](（パス未確認）) | Karl J. Friston | 2009 |
+| [The free-energy principle: a unified brain theory?](（パス未確認）) | Karl J. Friston | 2010 |

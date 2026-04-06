@@ -54,12 +54,12 @@ Stähle et al.（2025）によるMixed-Initiative Visual Analytics研究では�
 
 アルゴリズム透明性パラドックスは、AI Native社会設計における複数の重要概念と密接に関連している：
 
-- [[cognitive-bias-amplification]]：透明性が人間の認知バイアスを増幅するメカニズム
-- [[trust-calibration]]：AIシステムへの適切な信頼レベルの調整方法
+- cognitive-bias-amplification：透明性が人間の認知バイアスを増幅するメカニズム
+- trust-calibration：AIシステムへの適切な信頼レベルの調整方法
 - [[human-ai-collaboration]]：効果的な人間-AI協働のための設計原理
-- [[algorithmic-accountability]]：説明責任と透明性の適切なバランス
-- [[adaptive-interface-design]]：ユーザーに応じて動的に調整されるインターフェース設計
-- [[contextual-ai-ethics]]：文脈に依存したAI倫理の実装方法
+- algorithmic-accountability：説明責任と透明性の適切なバランス
+- adaptive-interface-design：ユーザーに応じて動的に調整されるインターフェース設計
+- contextual-ai-ethics：文脈に依存したAI倫理の実装方法
 
 これらの概念との統合により、透明性パラドックスを回避し、真に有用で信頼できるAI Native システムの設計が可能になる。
 

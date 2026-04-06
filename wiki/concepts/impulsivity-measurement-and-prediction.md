@@ -53,16 +53,16 @@ Ma ら（2026）は、これらの問題に対処するため、**Risky Social C
 
 ## 関連概念
 
-- [[衝動性 (Impulsivity)]]
-- [[遅延割引 (Delay Discounting)]]
-- [[リスク行動 (Risk-taking Behavior)]]
-- [[意思決定 (Decision-making)]]
-- [[暗黙的認知処理 (Implicit Cognitive Processing)]]
-- [[注意欠如・多動症 (ADHD)]]
-- [[感情制御 (Emotion Regulation)]]
-- [[プライミング効果 (Priming Effect)]]
-- [[生態学的妥当性 (Ecological Validity)]]
-- [[事前登録研究 (Pre-registered Research)]]
+- 衝動性 (Impulsivity)
+- 遅延割引 (Delay Discounting)
+- リスク行動 (Risk-taking Behavior)
+- 意思決定 (Decision-making)
+- 暗黙的認知処理 (Implicit Cognitive Processing)
+- 注意欠如・多動症 (ADHD)
+- 感情制御 (Emotion Regulation)
+- プライミング効果 (Priming Effect)
+- 生態学的妥当性 (Ecological Validity)
+- 事前登録研究 (Pre-registered Research)
 
 ---
 

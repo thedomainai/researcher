@@ -48,14 +48,14 @@ AIによる医療画像診断は高い可能性を示す一方で、以下のよ
 
 ## 関連概念
 
-- [[機械学習（Machine Learning）]]
-- [[深層学習（Deep Learning）]]
-- [[畳み込みニューラルネットワーク（CNN）]]
-- [[MRI画像解析]]
-- [[脳腫瘍診断]]
-- [[コンピュータ支援診断（CAD）]]
-- [[医療AIの倫理と規制]]
-- [[説明可能なAI（XAI）]]
+- 機械学習（Machine Learning）
+- 深層学習（Deep Learning）
+- 畳み込みニューラルネットワーク（CNN）
+- MRI画像解析
+- 脳腫瘍診断
+- コンピュータ支援診断（CAD）
+- 医療AIの倫理と規制
+- 説明可能なAI（XAI）
 
 ---
 
@@ -63,6 +63,6 @@ AIによる医療画像診断は高い可能性を示す一方で、以下のよ
 
 | タイトル | パス |
 |----------|------|
-| Brain Tumor Detection using AI | `raw/Brain_Tumor_Detection_using_AI.md` |
+| Brain Tumor Detection using AI | （パス未確認） |
 
 > Varad Panchal, Aryan Taur. "Brain Tumor Detection using AI." *IJCOPE*, 2026. DOI: [https://doi.org/10.55041/ijcope.v2i4.023](https://doi.org/10.55041/ijcope.v2i4.023)

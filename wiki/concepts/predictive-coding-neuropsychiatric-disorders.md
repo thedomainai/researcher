@@ -64,16 +64,16 @@
 
 ## 関連概念
 
-- [[予測符号化 (Predictive Coding)]]
-- [[自由エネルギー原理 (Free Energy Principle)]]
-- [[予測誤差 (Prediction Error)]]
-- [[ベイズ脳仮説 (Bayesian Brain Hypothesis)]]
-- [[統合失調症の神経科学 (Neuroscience of Schizophrenia)]]
-- [[自閉スペクトラム症の認知神経科学 (Cognitive Neuroscience of ASD)]]
-- [[ミスマッチ陰性波 (Mismatch Negativity, MMN)]]
-- [[トランスダイアグノスティックアプローチ (Transdiagnostic Approach)]]
-- [[ドーパミンと報酬予測誤差 (Dopamine and Reward Prediction Error)]]
-- [[Research Domain Criteria (RDoC)]]
+- 予測符号化 (Predictive Coding)
+- 自由エネルギー原理 (Free Energy Principle)
+- 予測誤差 (Prediction Error)
+- ベイズ脳仮説 (Bayesian Brain Hypothesis)
+- 統合失調症の神経科学 (Neuroscience of Schizophrenia)
+- 自閉スペクトラム症の認知神経科学 (Cognitive Neuroscience of ASD)
+- ミスマッチ陰性波 (Mismatch Negativity, MMN)
+- トランスダイアグノスティックアプローチ (Transdiagnostic Approach)
+- ドーパミンと報酬予測誤差 (Dopamine and Reward Prediction Error)
+- Research Domain Criteria (RDoC)
 
 ---
 

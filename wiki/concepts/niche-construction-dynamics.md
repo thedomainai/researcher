@@ -64,14 +64,14 @@ AIシステムは孤立したものではなく、より大きなエコシステ
 
 ニッチ構築ダイナミクスは以下の概念と深く関連している：
 
-- [[adaptive-feedback-loops]]: 環境変化に応じたシステムの自己調整メカニズム
-- [[emergent-intelligence]]: システム間相互作用から生まれる集合知
-- [[human-ai-coevolution]]: 人間とAIの相互適応プロセス
-- [[system-resilience-design]]: 予期せぬ変化に対するシステムの頑健性
-- [[complexity-navigation]]: 複雑系における意思決定と制御
-- [[stakeholder-ecosystem-dynamics]]: 多様な利害関係者間の相互作用パターン
+- adaptive-feedback-loops: 環境変化に応じたシステムの自己調整メカニズム
+- emergent-intelligence: システム間相互作用から生まれる集合知
+- human-ai-coevolution: 人間とAIの相互適応プロセス
+- system-resilience-design: 予期せぬ変化に対するシステムの頑健性
+- complexity-navigation: 複雑系における意思決定と制御
+- stakeholder-ecosystem-dynamics: 多様な利害関係者間の相互作用パターン
 
-また、マクロレベルでは[[ai-native-governance]]や[[technological-sovereignty]]といった社会システム設計の概念とも密接に関わっている。
+また、マクロレベルではai-native-governanceやtechnological-sovereigntyといった社会システム設計の概念とも密接に関わっている。
 
 ## 参考ソース
 

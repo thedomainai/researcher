@@ -67,13 +67,13 @@ David Autor、Frank Levy、Richard Murnaneの研究「The Skill Content of Recen
 
 経路依存AI進化は、以下のコンセプトと密接な関係を持つ：
 
-- [[sociotechnical-systems]]: AI進化の社会技術的側面を理解する基盤
-- [[technology-acceptance-model]]: AI技術の採用パターンと経路形成の関係
-- [[innovation-diffusion]]: AI技術の普及過程における経路依存性
-- [[organizational-learning]]: AI能力の蓄積と組織的経路依存の関係
-- [[platform-economics]]: AIプラットフォームにおけるネットワーク効果と lock-in
-- [[skill-biased-technical-change]]: AI進歩による労働市場への差別的影響
-- [[technological-paradigms]]: AI技術パラダイムの遷移と経路依存性
+- sociotechnical-systems: AI進化の社会技術的側面を理解する基盤
+- technology-acceptance-model: AI技術の採用パターンと経路形成の関係
+- innovation-diffusion: AI技術の普及過程における経路依存性
+- organizational-learning: AI能力の蓄積と組織的経路依存の関係
+- platform-economics: AIプラットフォームにおけるネットワーク効果と lock-in
+- skill-biased-technical-change: AI進歩による労働市場への差別的影響
+- technological-paradigms: AI技術パラダイムの遷移と経路依存性
 
 ## 参考ソース
 

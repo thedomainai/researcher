@@ -73,16 +73,16 @@ Verharen らは、価値ベース意思決定の枠組みを用いて、**物質
 
 ## 関連概念
 
-- [[報酬学習 (Reward Learning)]]
-- [[強化学習 (Reinforcement Learning)]]
-- [[ドーパミンと報酬予測誤差 (Dopamine and Reward Prediction Error)]]
-- [[神経経済学 (Neuroeconomics)]]
-- [[動機づけ (Motivation)]]
-- [[コスト–ベネフィット分析 (Cost-Benefit Analysis)]]
-- [[前頭前皮質 (Prefrontal Cortex)]]
-- [[線条体 (Striatum)]]
-- [[物質依存症 (Substance Addiction)]]
-- [[計算論的神経科学 (Computational Neuroscience)]]
+- 報酬学習 (Reward Learning)
+- 強化学習 (Reinforcement Learning)
+- ドーパミンと報酬予測誤差 (Dopamine and Reward Prediction Error)
+- 神経経済学 (Neuroeconomics)
+- 動機づけ (Motivation)
+- コスト–ベネフィット分析 (Cost-Benefit Analysis)
+- 前頭前皮質 (Prefrontal Cortex)
+- 線条体 (Striatum)
+- 物質依存症 (Substance Addiction)
+- 計算論的神経科学 (Computational Neuroscience)
 
 ---
 

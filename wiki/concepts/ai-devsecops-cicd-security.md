@@ -84,20 +84,20 @@ AI統合DevSecOpsを実現するにあたり、以下の課題にも留意が必
 
 ## 関連概念
 
-- [[DevSecOps]]
-- [[CI/CDパイプライン]]
-- [[脆弱性検出と静的解析 (SAST/DAST)]]
-- [[異常検知と機械学習]]
-- [[クラウドネイティブセキュリティ]]
-- [[Shift-Left Security]]
-- [[ゼロトラストアーキテクチャ]]
-- [[MLOpsとAIパイプライン管理]]
-- [[コンテナセキュリティ (Kubernetes)]]
-- [[リスクベースセキュリティテスト]]
+- DevSecOps
+- CI/CDパイプライン
+- 脆弱性検出と静的解析 (SAST/DAST)
+- 異常検知と機械学習
+- クラウドネイティブセキュリティ
+- Shift-Left Security
+- ゼロトラストアーキテクチャ
+- MLOpsとAIパイプライン管理
+- コンテナセキュリティ (Kubernetes)
+- リスクベースセキュリティテスト
 
 ---
 
 ## 参考ソース
 
 - Achref Rhouma, *"Integrating AI into DevSecOps: Enhancing CI/CD Security with Intelligent Automation"*, 2026. DOI: [https://doi.org/10.5281/zenodo.19091838](https://doi.org/10.5281/zenodo.19091838)
-  - ファイルパス: `raw/integrating_ai_devsecops_rhouma_2026.md`
+  - ファイルパス: （パス未確認）

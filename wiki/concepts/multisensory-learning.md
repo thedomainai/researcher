@@ -46,16 +46,16 @@ Chengら（2024）による系統的レビューは、音楽活動における�
 
 ## 関連概念
 
-- [[神経可塑性（Neuroplasticity）]]
-- [[神経教育学（Neuroeducation）]]
-- [[第二言語習得（Second Language Acquisition）]]
-- [[実行機能（Executive Function）]]
-- [[脳間同期（Inter-Brain Synchronization）]]
-- [[ハイパースキャニング（Hyperscanning）]]
-- [[音楽認知（Music Cognition）]]
-- [[多文化教育（Multicultural Education）]]
-- [[ワーキングメモリ（Working Memory）]]
-- [[感覚統合（Sensory Integration）]]
+- 神経可塑性（Neuroplasticity）
+- 神経教育学（Neuroeducation）
+- 第二言語習得（Second Language Acquisition）
+- 実行機能（Executive Function）
+- 脳間同期（Inter-Brain Synchronization）
+- ハイパースキャニング（Hyperscanning）
+- 音楽認知（Music Cognition）
+- 多文化教育（Multicultural Education）
+- ワーキングメモリ（Working Memory）
+- 感覚統合（Sensory Integration）
 
 ---
 

@@ -66,12 +66,12 @@ AIシステムを既存制度に埋め込む際の指針：
 
 社会技術転換経路は、他の重要な概念と密接に関連します：
 
-- [[human_ai_collaboration_patterns]]：人間とAIの協調パターンの進化を理解する基盤
-- [[sociotechnical_system_design]]：システム設計の社会的次元を統合する視点
-- [[ai_governance_frameworks]]：AI統治の制度設計に転換理論の洞察を適用
-- [[technology_acceptance_models]]：技術受容の動学的プロセスの理解
-- [[network_effects_platforms]]：プラットフォーム経済におけるネットワーク効果と転換経路
-- [[institutional_innovation_patterns]]：制度革新の段階的プロセスとの接続
+- human_ai_collaboration_patterns：人間とAIの協調パターンの進化を理解する基盤
+- sociotechnical_system_design：システム設計の社会的次元を統合する視点
+- ai_governance_frameworks：AI統治の制度設計に転換理論の洞察を適用
+- technology_acceptance_models：技術受容の動学的プロセスの理解
+- network_effects_platforms：プラットフォーム経済におけるネットワーク効果と転換経路
+- institutional_innovation_patterns：制度革新の段階的プロセスとの接続
 
 これらの概念との統合により、AI Nativeな社会システムの包括的設計が可能になります。
 

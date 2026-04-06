@@ -73,12 +73,12 @@ AIシステムは以下の自己診断機能を組み込むべきである：
 
 自己創出システム維持は、AI Native設計の他の重要概念と密接に関連している：
 
-- [[adaptive-system-evolution]] - 自己創出的維持は適応進化の基盤を提供
-- [[distributed-intelligence-networks]] - 分散システムにおける自律性の実現
-- [[human-ai-collaborative-frameworks]] - 人間との協調における境界維持
-- [[emergent-behavior-management]] - 創発的行動の制御と誘導
-- [[ethical-constraint-embedding]] - 倫理的制約の内部化と維持
-- [[resilience-driven-architecture]] - レジリエンス向上のための自己修復機能
+- adaptive-system-evolution - 自己創出的維持は適応進化の基盤を提供
+- distributed-intelligence-networks - 分散システムにおける自律性の実現
+- human-ai-collaborative-frameworks - 人間との協調における境界維持
+- emergent-behavior-management - 創発的行動の制御と誘導
+- ethical-constraint-embedding - 倫理的制約の内部化と維持
+- resilience-driven-architecture - レジリエンス向上のための自己修復機能
 
 この原理は特に、大規模なAIエコシステムにおいて個々のエージェントが自律性を保持しながら全体の調和を実現する上で、核となる設計思想となる。
 

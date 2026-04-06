@@ -49,15 +49,15 @@
 
 ## 関連概念
 
-- [[多感覚学習 (Multisensory Learning)]]
-- [[第二言語習得 (Second Language Acquisition)]]
-- [[神経教育学 (Neuroeducation)]]
-- [[実行機能 (Executive Function)]]
-- [[コネクトーム (Connectome)]]
-- [[シナプス可塑性 (Synaptic Plasticity)]]
-- [[認知的適応 (Cognitive Adaptation)]]
-- [[脳腫瘍 (Brain Tumor)]]
-- [[人工知能と神経科学 (AI and Neuroscience)]]
+- 多感覚学習 (Multisensory Learning)
+- 第二言語習得 (Second Language Acquisition)
+- 神経教育学 (Neuroeducation)
+- 実行機能 (Executive Function)
+- コネクトーム (Connectome)
+- シナプス可塑性 (Synaptic Plasticity)
+- 認知的適応 (Cognitive Adaptation)
+- 脳腫瘍 (Brain Tumor)
+- 人工知能と神経科学 (AI and Neuroscience)
 
 ---
 

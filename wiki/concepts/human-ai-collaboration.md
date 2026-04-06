@@ -39,8 +39,8 @@ IT支援における人間-AI協働のシステマティックレビューは、
 ## 関連概念
 
 - [[self-determination-theory]] — 協働設計における人間の主体性確保
-- [[cognitive-load]] — 協働のインターフェース設計における認知的負荷管理
-- [[mixed-initiative]] — 主導権の動的交代のデザインパターン
+- cognitive-load — 協働のインターフェース設計における認知的負荷管理
+- mixed-initiative — 主導権の動的交代のデザインパターン
 - [[coding-agents]] — ソフトウェア開発における人間-AI協働の最前線
 
 ## 参考ソース

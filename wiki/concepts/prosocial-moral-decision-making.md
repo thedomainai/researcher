@@ -41,14 +41,14 @@
 
 ## 関連概念
 
-- [[向社会的行動 (Prosocial Behavior)]]
-- [[道徳的判断 (Moral Judgment)]]
-- [[共感 (Empathy)]]
-- [[神経倫理学 (Neuroethics)]]
-- [[社会的意思決定 (Social Decision-Making)]]
-- [[前頭前皮質 (Prefrontal Cortex)]]
-- [[感情と認知の統合 (Emotion-Cognition Integration)]]
-- [[道徳的動機づけ (Moral Motivation)]]
+- 向社会的行動 (Prosocial Behavior)
+- 道徳的判断 (Moral Judgment)
+- 共感 (Empathy)
+- 神経倫理学 (Neuroethics)
+- 社会的意思決定 (Social Decision-Making)
+- 前頭前皮質 (Prefrontal Cortex)
+- 感情と認知の統合 (Emotion-Cognition Integration)
+- 道徳的動機づけ (Moral Motivation)
 
 ---
 

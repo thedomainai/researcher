@@ -32,11 +32,11 @@ SDTの3欲求は人間の神経生物学的基盤に根ざしており、AGI時�
 
 ## 関連概念
 
-- [[cognitive-load]] — 認知的負荷の管理は有能感の前提条件
+- cognitive-load — 認知的負荷の管理は有能感の前提条件
 - [[reward-hacking]] — 外発的動機づけ（報酬最適化）vs. 内発的動機づけのトレードオフ
 - [[human-ai-collaboration]] — 協働設計における主体性の確保
 
 ## 参考ソース
 
-- Deci, E. L., & Ryan, R. M. (2000). "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being." (cited: 38,917) — `raw/papers/psychology/self-determination-theory-and-the-facilitation-of-intrinsic-motivation-social-.md`
-- Ryan, R. M., & Deci, E. L. (2017). "Self-Determination Theory: Basic Psychological Needs in Motivation, Development, and Wellness" (cited: 7,869) — `raw/papers/psychology/self-determination-theory-basic-psychological-needs-in-motivation-development-a.md`
+- Deci, E. L., & Ryan, R. M. (2000). "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being." (cited: 38,917) — （パス未確認）
+- Ryan, R. M., & Deci, E. L. (2017). "Self-Determination Theory: Basic Psychological Needs in Motivation, Development, and Wellness" (cited: 7,869) — （パス未確認）

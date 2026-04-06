@@ -49,16 +49,16 @@ Shaji らが提案するアーキテクチャでは、**エージェント型LLM
 
 ## 関連概念
 
-- [[大規模言語モデル (Large Language Models)]]
-- [[認知ロボットアーキテクチャ (Cognitive Robot Architecture)]]
-- [[エージェント型AI (Agentic AI)]]
-- [[エピソードメモリ (Episodic Memory)]]
-- [[ワーキングメモリ (Working Memory)]]
-- [[ロボット計画立案 (Robot Task Planning)]]
-- [[身体性認知 (Embodied Cognition)]]
-- [[実行リカバリー (Execution Recovery)]]
-- [[自然言語処理 (Natural Language Processing)]]
-- [[ヒューマンロボットインタラクション (Human-Robot Interaction)]]
+- 大規模言語モデル (Large Language Models)
+- 認知ロボットアーキテクチャ (Cognitive Robot Architecture)
+- エージェント型AI (Agentic AI)
+- エピソードメモリ (Episodic Memory)
+- ワーキングメモリ (Working Memory)
+- ロボット計画立案 (Robot Task Planning)
+- 身体性認知 (Embodied Cognition)
+- 実行リカバリー (Execution Recovery)
+- 自然言語処理 (Natural Language Processing)
+- ヒューマンロボットインタラクション (Human-Robot Interaction)
 
 ---
 
