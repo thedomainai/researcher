@@ -1518,5 +1518,110 @@
       10,
       16
     ]
+  },
+  {
+    "slug": "multi-agent-reinforcement-learning",
+    "title_ja": "マルチエージェント強化学習",
+    "title_en": "Multi-Agent Reinforcement Learning",
+    "description": "複数の自律エージェントが協調・競争しながら最適方策を学習する強化学習の枠組み。Byzantine耐性、公平性、エネルギー市場設計など多様な応用が研究されている。",
+    "related_sources": [
+      3,
+      5,
+      8,
+      13
+    ]
+  },
+  {
+    "slug": "multi-agent-system-security-and-trust",
+    "title_ja": "マルチエージェントシステムのセキュリティと信頼",
+    "title_en": "Security and Trust in Multi-Agent Systems",
+    "description": "複数のAIエージェントが連携する系において、委任チェーンの検証・アイデンティティ・責任・信頼を担保するための形式的フレームワークと設計原則。",
+    "related_sources": [
+      4,
+      14
+    ]
+  },
+  {
+    "slug": "complex-network-dynamics",
+    "title_ja": "複雑ネットワークのダイナミクス",
+    "title_en": "Complex Network Dynamics",
+    "description": "多層ネットワーク・次数相関・同期現象などを扱い、物理・生物・社会システムにおける創発的挙動や情報伝播を解析する複雑系科学の中核領域。",
+    "related_sources": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "slug": "agentic-ai-and-llm-applications",
+    "title_ja": "エージェント型AIとLLM応用",
+    "title_en": "Agentic AI and LLM Applications",
+    "description": "大規模言語モデルを基盤とした自律エージェントが、推薦システム・ハードウェア検証・無線ネットワーク協調など多様なタスクへ応用される新興パラダイム。",
+    "related_sources": [
+      6,
+      7,
+      16
+    ]
+  },
+  {
+    "slug": "human-ai-cognitive-interaction",
+    "title_ja": "人間とAIの認知的相互作用",
+    "title_en": "Human-AI Cognitive Interaction",
+    "description": "AIシステムとの対話が人間の認知プロセス（メンタルモデル、認知負荷、エージェンシー感覚）に与える影響を研究する領域",
+    "related_sources": [
+      8,
+      13,
+      14,
+      10
+    ]
+  },
+  {
+    "slug": "ai-in-education",
+    "title_ja": "教育におけるAI活用",
+    "title_en": "AI in Education",
+    "description": "チャットボット・インテリジェントチュータリング・RAGシステム等のAI技術をオンライン教育や学習支援に応用する研究領域",
+    "related_sources": [
+      7,
+      12,
+      13,
+      16,
+      17,
+      20
+    ]
+  },
+  {
+    "slug": "ai-ethics-trust-transparency",
+    "title_ja": "AIの倫理・信頼・透明性",
+    "title_en": "AI Ethics, Trust, and Transparency",
+    "description": "AIシステムの透明性確保、ユーザーの信頼形成、データ共有行動、倫理的・法的規制に関する研究領域",
+    "related_sources": [
+      2,
+      3,
+      16,
+      22
+    ]
+  },
+  {
+    "slug": "ai-business-process-transformation",
+    "title_ja": "AIによるビジネスプロセス変革",
+    "title_en": "AI-Driven Business Process Transformation",
+    "description": "AIが組織のビジネスプロセス・意思決定・採用活動・起業家的機会認識にもたらす正負両面の影響を分析する研究領域",
+    "related_sources": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "slug": "ai-mental-health-emotional-support",
+    "title_ja": "AIによるメンタルヘルス支援と感情的相互作用",
+    "title_en": "AI for Mental Health and Emotional Support",
+    "description": "会話エージェントや感情認識AIを活用したメンタルヘルスケア・情緒的サポート・コンパニオンAIの有効性と倫理的課題を扱う研究領域",
+    "related_sources": [
+      9,
+      11,
+      18,
+      22
+    ]
   }
 ]
