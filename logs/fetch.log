@@ -284,3 +284,138 @@ fetch_latest.py — 2026-04-07 06:00
   ai_governance: 1
   law: 1
 ============================================================
+/Users/yuta/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+============================================================
+fetch_latest.py — 2026-04-08 06:00
+対象: 全分野 | since: 2026-04-07
+既存: 422 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] Intelligent Network System: Service Provisioning Using ...
+
+[心理学] (psychology)
+  + [OA:PR] Mathematical Modeling of Trust Calibration for Human–Au...
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  + [OA:PR] AI Powered Failure Mode and Effect Analysis in Safety C...
+  + [OA:PR] The Necessity of a Holistic Safety Evaluation Framework...
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 4件
+  complexity_science: 1
+  psychology: 1
+  systems_engineering: 2
+============================================================
+============================================================
+fetch_latest.py — 2026-04-08 06:00
+対象: 全分野 | since: 2026-04-07
+既存: 422 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] AI-Enhanced Functional Safety in ADAS Controllers: Pred...
+  + [OA:PR] From OpenAI and Anthropic to Governed AI Infrastructure...
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  + [OA:PR] Can AI Simulate a Whole City?...
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  + [OA:PR] Mathematical Modeling of Trust Calibration for Human–Au...
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] Toward Holistic AI GRC: An Objective-Driven Framework f...
+
+[RSS記事]
+
+============================================================
+新規取得: 5件
+  ai_governance: 1
+  complexity_science: 2
+  sociology: 1
+  systems_engineering: 1
+============================================================
