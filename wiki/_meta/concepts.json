@@ -1996,5 +1996,223 @@
       10,
       12
     ]
+  },
+  {
+    "slug": "participatory-culture-media-literacy",
+    "title_ja": "参加型文化とメディアリテラシー",
+    "title_en": "Participatory Culture and Media Literacy",
+    "description": "デジタル時代における市民の能動的なメディア参加と、それに必要なリテラシー教育の枠組みに関する概念。",
+    "related_sources": [
+      1,
+      6
+    ]
+  },
+  {
+    "slug": "path-dependence-increasing-returns",
+    "title_ja": "経路依存性と収穫逓増",
+    "title_en": "Path Dependence and Increasing Returns",
+    "description": "過去の選択が現在の選択肢を制約し、特定の経路からの離脱をほぼ不可能にする社会・政治プロセスのダイナミクス。",
+    "related_sources": [
+      2
+    ]
+  },
+  {
+    "slug": "actor-network-theory-social-assembly",
+    "title_ja": "アクターネットワーク理論と社会の再組み立て",
+    "title_en": "Actor-Network Theory and Reassembling the Social",
+    "description": "「社会」を固定した実体としてではなく、人間・非人間アクターの動的な連結・組み立てのプロセスとして捉える理論的枠組み。",
+    "related_sources": [
+      3
+    ]
+  },
+  {
+    "slug": "trust-complexity-reduction",
+    "title_ja": "信頼と社会的複雑性の縮減",
+    "title_en": "Trust as Reduction of Social Complexity",
+    "description": "信頼をコミュニケーション媒体として捉え、社会システムが過剰な複雑性に対処するためのメカニズムとして機能するという概念。",
+    "related_sources": [
+      4
+    ]
+  },
+  {
+    "slug": "ai-deepfakes-misinformation-framing",
+    "title_ja": "AIディープフェイクと偽情報フレーミング",
+    "title_en": "AI Deepfakes and Misinformation Framing",
+    "description": "紛争・戦争文脈においてAI生成ディープフェイクが生み出す政治的・社会的脅威と、グローバルメディアによるその枠組み付けの分析。",
+    "related_sources": [
+      6,
+      1
+    ]
+  },
+  {
+    "slug": "human-ai-interaction-extreme-environments",
+    "title_ja": "極限環境における人間とAIのインタラクション",
+    "title_en": "Human-AI Interaction in Extreme Environments",
+    "description": "宇宙・極地・集中治療室などの孤立・閉鎖・極限環境における人間とAIシステムの心理的・倫理的・設計的側面を扱う研究領域。",
+    "related_sources": [
+      2,
+      3
+    ]
+  },
+  {
+    "slug": "voice-based-ai-clinical-decision-support",
+    "title_ja": "音声ベースAIによる臨床意思決定支援",
+    "title_en": "Voice-based AI for Clinical Decision Support",
+    "description": "低リソース環境において多言語音声認識とLLMを組み合わせ、電子医療記録の生成や臨床リスクアラートを実現するモバイルAIシステム。",
+    "related_sources": [
+      5
+    ]
+  },
+  {
+    "slug": "ai-feedback-attribution-learning",
+    "title_ja": "AIフィードバック帰属と学習行動",
+    "title_en": "AI vs. Human Feedback Attribution in Learning",
+    "description": "学習者がフィードバックの発信源（AIか人間か）をどのように認識するかが、学習行動や課題への取り組みに与える影響を検討する研究。",
+    "related_sources": [
+      8
+    ]
+  },
+  {
+    "slug": "llm-driven-npc-social-coordination",
+    "title_ja": "LLM駆動NPCによる社会的協調アーキテクチャ",
+    "title_en": "LLM-driven NPC Social Coordination Architecture",
+    "description": "ゲーム世界において大規模言語モデルを活用しながら計算コストを抑え、制御可能な社会的振る舞いを実現する階層型NPCアーキテクチャ。",
+    "related_sources": [
+      7
+    ]
+  },
+  {
+    "slug": "online-platform-reciprocity-engagement",
+    "title_ja": "オンラインプラットフォームにおける互恵性とエンゲージメント",
+    "title_en": "Generalized Reciprocity and Platform Engagement",
+    "description": "Stack Overflowなどの知識共有プラットフォームにおいて、助けを受けた経験が他者への貢献行動を促進する一般化互恵メカニズムの実証的研究。",
+    "related_sources": [
+      6
+    ]
+  },
+  {
+    "slug": "agi-governance-smart-nudging",
+    "title_ja": "スマートデジタルナッジングによるAGIガバナンス",
+    "title_en": "AGI Governance through Smart Digital Nudging",
+    "description": "行動経済学のナッジ理論をデジタル環境に応用し、システム・文化的フレームワークを通じて人工汎用知能（AGI）の行動を戦略的に誘導・統治するアプローチ。",
+    "related_sources": [
+      1,
+      9
+    ]
+  },
+  {
+    "slug": "cognitive-architecture-memory-consciousness",
+    "title_ja": "認知アーキテクチャと記憶・意識モデリング",
+    "title_en": "Cognitive Architecture for Memory and Consciousness Modeling",
+    "description": "人間の記憶と意識を計算論的に模倣するための認知アーキテクチャの設計と神経科学的基盤。",
+    "related_sources": [
+      1,
+      3
+    ]
+  },
+  {
+    "slug": "edge-ai-distributed-trustworthy",
+    "title_ja": "エッジAIの分散・信頼性・スケーラビリティ",
+    "title_en": "Distributed, Trustworthy and Scalable AI at the Edge",
+    "description": "エッジデバイス上で動作する分散型・信頼性の高い効率的なAIシステムの構築と標準化に向けた取り組み。",
+    "related_sources": [
+      9
+    ]
+  },
+  {
+    "slug": "conversational-agent-embodied-interaction",
+    "title_ja": "身体的インタラクションを考慮した会話エージェント",
+    "title_en": "Conversational Agent with Embodied Interaction Awareness",
+    "description": "物理的な手作業や触覚フィードバックを認識し、ユーザーの実践的学習を支援する対話型AIエージェントの設計。",
+    "related_sources": [
+      7,
+      5
+    ]
+  },
+  {
+    "slug": "neurolinguistic-morphosyntactic-processing",
+    "title_ja": "神経言語学的形態統語処理と言語変化",
+    "title_en": "Neurolinguistic Morphosyntactic Processing and Language Change",
+    "description": "ERP計測を用いて個人の言語産出パターンと統語処理の神経生理学的関係を解明する研究領域。",
+    "related_sources": [
+      6
+    ]
+  },
+  {
+    "slug": "ai-sensemaking-human-agency",
+    "title_ja": "AIセンスメイキングと人間のエージェンシー",
+    "title_en": "AI Sensemaking and Human Sense of Agency",
+    "description": "AIシステムとのインタラクションにおいてユーザーがいかに意味を形成し、主体感を維持・喪失するかを探る研究。",
+    "related_sources": [
+      10,
+      5
+    ]
+  },
+  {
+    "slug": "ai-driven-job-displacement",
+    "title_ja": "AIによる雇用喪失と経済的自律性",
+    "title_en": "AI-Driven Job Displacement and Economic Sovereignty",
+    "description": "AIの普及により従来の雇用構造が変容し、個人が経済的自律性を構築するための戦略（知識製品、スケーラブルサービス、自動化など）が求められている。",
+    "related_sources": [
+      1
+    ]
+  },
+  {
+    "slug": "ai-precision-agriculture",
+    "title_ja": "AI駆動型精密農業",
+    "title_en": "AI-Driven Precision Agriculture",
+    "description": "AIとUAVリモートセンシング（LiDAR・マルチスペクトル）を組み合わせた精密農業により、劣化した農地の生産性回復と経済的リターンを実現する手法。",
+    "related_sources": [
+      2
+    ]
+  },
+  {
+    "slug": "ai-language-learning-tools",
+    "title_ja": "AI言語学習ツール",
+    "title_en": "AI Tools for Language Learning",
+    "description": "インテリジェントチュータリングシステムやチャットボットなどのAIツールが、専門分野（経済学）の英語教育においてパーソナライズ学習と語学力向上に貢献する。",
+    "related_sources": [
+      3,
+      4
+    ]
+  },
+  {
+    "slug": "llm-epistemic-risk-governance",
+    "title_ja": "大規模言語モデルの認識論的リスクガバナンス",
+    "title_en": "Epistemic Risk Governance in Large Language Models",
+    "description": "高等教育でのLLM活用において、ハルシネーションや偏向・情報の真正性など認識論的リスクを管理するためのポリシー・ガバナンス枠組みの必要性。",
+    "related_sources": [
+      5
+    ]
+  },
+  {
+    "slug": "llm-product-evaluation-practices",
+    "title_ja": "LLM製品の評価実践と結果・実行可能性ギャップ",
+    "title_en": "LLM Product Evaluation and Results-Actionability Gap",
+    "description": "LLM搭載製品の評価において、収集した評価データを具体的な改善行動に結びつけられない「結果・実行可能性ギャップ」という新たな課題が実務現場で生じている。",
+    "related_sources": [
+      6
+    ]
+  },
+  {
+    "slug": "ai-driven-automation-and-workforce-transformation",
+    "title_ja": "AI自動化と労働力変革",
+    "title_en": "AI-Driven Automation and Workforce Transformation",
+    "description": "AIによる業務自動化が雇用・スキル要件・人事管理に与える影響と、労働者が自動化リスクに対処するための戦略。",
+    "related_sources": [
+      5,
+      6
+    ]
+  },
+  {
+    "slug": "cognitive-extension-and-ai",
+    "title_ja": "認知拡張としてのAI",
+    "title_en": "AI as Cognitive Extension",
+    "description": "Clarkの拡張マインド論に基づき、AIを単なるツールではなく人間の認知能力を補完・拡張するプロステティック（補助装置）として捉える概念。",
+    "related_sources": [
+      3,
+      7,
+      12
+    ]
   }
 ]
