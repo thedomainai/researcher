@@ -2214,5 +2214,296 @@
       7,
       12
     ]
+  },
+  {
+    "slug": "voice-ai-low-resource-healthcare",
+    "title_ja": "低リソース環境向け音声AIヘルスケアシステム",
+    "title_en": "Voice-based AI System for Low-resource Healthcare",
+    "description": "多言語音声認識とLLMを統合し、リソースが限られた医療現場での電子カルテ生成と臨床意思決定支援を実現するシステム。",
+    "related_sources": [
+      5
+    ]
+  },
+  {
+    "slug": "ai-feedback-source-attribution-education",
+    "title_ja": "AIフィードバックのソース帰属と学習行動",
+    "title_en": "AI Feedback Source Attribution in Education",
+    "description": "同一内容のフィードバックがAI由来か人間由来かという帰属の違いが、学習者の行動・信頼・学習効果に与える影響の研究。",
+    "related_sources": [
+      8
+    ]
+  },
+  {
+    "slug": "humanoid-robot-facial-interaction",
+    "title_ja": "ヒューマノイドロボットの顔表情インタラクション",
+    "title_en": "Humanoid Animatronic Face for Human-Robot Interaction",
+    "description": "コンピュータビジョンと機械学習を組み合わせ、人間の表情を認識してリアルタイムに応答するAI統合ヒューマノイドアニマトロニクスフェイスの設計と開発。",
+    "related_sources": [
+      3
+    ]
+  },
+  {
+    "slug": "ai-driven-job-displacement-economic-sovereignty",
+    "title_ja": "AI時代の雇用代替と経済的自立",
+    "title_en": "AI-Driven Job Displacement and Economic Sovereignty",
+    "description": "AIによる雇用の喪失という社会変化に対し、知識製品・自動化・コミュニティ構築などの戦略を通じて個人が経済的自立を確立するアプローチ。",
+    "related_sources": [
+      1
+    ]
+  },
+  {
+    "slug": "ai-precision-agriculture-uav-remote-sensing",
+    "title_ja": "AI駆動型精密農業とUAVリモートセンシング",
+    "title_en": "AI-Driven Precision Agriculture with UAV Remote Sensing",
+    "description": "AIによる灌漑スケジューリングとLiDAR搭載UAVを用いたマルチスペクトルデータ取得により、劣化農地における生産性と経済的リターンを最大化する技術手法。",
+    "related_sources": [
+      2
+    ]
+  },
+  {
+    "slug": "ai-tools-language-learning-education",
+    "title_ja": "AI ツールを活用した専門英語教育",
+    "title_en": "AI Tools for Specialized Language Learning in Education",
+    "description": "インテリジェントチュータリングシステムや適応型学習プラットフォームなどのAIツールを活用し、経済英語など専門語学教育の個別化と学習効率を向上させる取り組み。",
+    "related_sources": [
+      3,
+      4
+    ]
+  },
+  {
+    "slug": "epistemic-risk-llm-higher-education",
+    "title_ja": "高等教育における大規模言語モデルの認識論的リスクとガバナンス",
+    "title_en": "Epistemic Risk and Governance of LLMs in Higher Education",
+    "description": "LLMの高等教育への統合に伴うハルシネーション・バイアス・解釈の多様性喪失などの認識論的リスクを特定し、UNESCOやEUなどの国際的政策枠組みに基づくガバナンス方策を分析する研究。",
+    "related_sources": [
+      5
+    ]
+  },
+  {
+    "slug": "llm-product-evaluation-results-actionability-gap",
+    "title_ja": "LLM製品評価における結果・実行可能性ギャップ",
+    "title_en": "Results-Actionability Gap in LLM Product Evaluation",
+    "description": "LLM搭載製品を評価する実務者が、評価データを収集しても具体的な改善策に変換できない「結果・実行可能性ギャップ」という新たな課題と、それに対処する評価実践の類型。",
+    "related_sources": [
+      6
+    ]
+  },
+  {
+    "slug": "llm-personalization",
+    "title_ja": "LLMパーソナライゼーション",
+    "title_en": "LLM Personalization",
+    "description": "大規模言語モデルを個別ユーザーのニーズや文脈に合わせて適応・カスタマイズする技術",
+    "related_sources": [
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "slug": "federated-learning",
+    "title_ja": "連合学習",
+    "title_en": "Federated Learning",
+    "description": "生データを共有せずに複数の組織・デバイス間で協調してモデルを訓練する分散機械学習手法",
+    "related_sources": [
+      4
+    ]
+  },
+  {
+    "slug": "ai-feedback-attribution",
+    "title_ja": "AIフィードバック帰属",
+    "title_en": "AI Feedback Attribution",
+    "description": "フィードバックの発信源がAIか人間かという帰属の違いが学習者の行動や認識に与える影響",
+    "related_sources": [
+      5,
+      1
+    ]
+  },
+  {
+    "slug": "llm-multi-agent-interaction",
+    "title_ja": "LLMベースマルチエージェント相互作用",
+    "title_en": "LLM-based Multi-Agent Interaction",
+    "description": "複数のLLMエージェントが相互に通信・協調してタスクを遂行するシステムとその研究基盤",
+    "related_sources": [
+      6,
+      2
+    ]
+  },
+  {
+    "slug": "human-ai-interaction-sense-of-agency",
+    "title_ja": "ヒューマンAIインタラクションと主体感",
+    "title_en": "Human-AI Interaction and Sense of Agency",
+    "description": "AIアシスタントやスウォームUIがユーザーの主体感・自律性に与える影響を研究する分野。",
+    "related_sources": [
+      5,
+      7,
+      10
+    ]
+  },
+  {
+    "slug": "neurolinguistics-morphosyntactic-processing",
+    "title_ja": "神経言語学と形態統語処理",
+    "title_en": "Neurolinguistics and Morphosyntactic Processing",
+    "description": "ERPなどの神経生理学的手法を用いて、言語の文法変異や形態統語処理の個人差を分析する研究。",
+    "related_sources": [
+      6
+    ]
+  },
+  {
+    "slug": "post-covid-neurocognitive-autoimmune",
+    "title_ja": "ポストCOVID神経認知機能障害と自己免疫",
+    "title_en": "Post-COVID Neurocognitive Dysfunction and Autoimmunity",
+    "description": "SARS-CoV-2感染後に生じる認知障害の背景にある自己抗体（抗VGLUT2抗体）などの自己免疫メカニズムの解明。",
+    "related_sources": [
+      8
+    ]
+  },
+  {
+    "slug": "ai-corporate-governance",
+    "title_ja": "AIによるコーポレートガバナンス",
+    "title_en": "AI-Driven Corporate Governance",
+    "description": "人工知能を活用して企業の意思決定・コンプライアンス・監視機能を自動化・高度化するガバナンスの新形態。",
+    "related_sources": [
+      1,
+      6
+    ]
+  },
+  {
+    "slug": "generative-ai-intellectual-property",
+    "title_ja": "生成AIと知的財産権",
+    "title_en": "Generative AI and Intellectual Property",
+    "description": "AIが生成したコンテンツや発明に対する著作権・特許権の帰属および法的保護に関する法学的課題。",
+    "related_sources": [
+      2,
+      4
+    ]
+  },
+  {
+    "slug": "ai-generated-code-detection",
+    "title_ja": "AI生成コード検出",
+    "title_en": "AI-Generated Code Detection",
+    "description": "AIが自動生成したソースコードを識別・検出するための技術的手法とその品質・セキュリティ上の意義。",
+    "related_sources": [
+      3
+    ]
+  },
+  {
+    "slug": "blockchain-financial-regulation",
+    "title_ja": "ブロックチェーンと金融規制",
+    "title_en": "Blockchain and Financial Regulation",
+    "description": "分散型台帳技術を基盤とするDeFiやスマートコントラクト等の金融イノベーションに対する法規制上の課題と対応。",
+    "related_sources": [
+      5
+    ]
+  },
+  {
+    "slug": "global-ai-governance-legitimacy",
+    "title_ja": "グローバルAIガバナンスと正当性",
+    "title_en": "Global AI Governance and Legitimacy",
+    "description": "国際的なAI規制文書における安全性・人間中心性・公平性などの規範的合意の形成と正当化プロセス。",
+    "related_sources": [
+      8
+    ]
+  },
+  {
+    "slug": "generative-ml-professional-work",
+    "title_ja": "専門職業務における生成的機械学習",
+    "title_en": "Generative Machine Learning in Professional Work",
+    "description": "生成AIが専門職の業務や専門サービス企業の組織構造・専門知識のあり方に与える影響と理論的枠組み。",
+    "related_sources": [
+      1,
+      4
+    ]
+  },
+  {
+    "slug": "ai-governance-algorithmic-inequality",
+    "title_ja": "アルゴリズムによるガバナンスと不平等",
+    "title_en": "AI Governance and Algorithmic Inequality",
+    "description": "企業リーダーによるAI採用における利用実態・障壁・不平等を分析し、アルゴリズムを通じたガバナンスの課題を検討する。",
+    "related_sources": [
+      6,
+      1
+    ]
+  },
+  {
+    "slug": "llm-hardware-verification",
+    "title_ja": "LLMを活用したハードウェア検証",
+    "title_en": "LLM-Based Hardware Verification",
+    "description": "大規模言語モデルを用いたテストベンチ自動生成によるアジャイルハードウェア検証のカバレッジ向上手法。",
+    "related_sources": [
+      3
+    ]
+  },
+  {
+    "slug": "machine-affect-theory",
+    "title_ja": "機械アフェクト理論",
+    "title_en": "Machine Affect Theory",
+    "description": "意識やクオリアを前提とせず、計算アーキテクチャ内の構造的・非感覚的変調として機械の情動を再概念化する理論的枠組み。",
+    "related_sources": [
+      5
+    ]
+  },
+  {
+    "slug": "digital-political-polarization",
+    "title_ja": "デジタル環境における政治的分極化",
+    "title_en": "Digital Political Polarization",
+    "description": "プラットフォームのインセンティブとマルチチャネルマーケティング手法が政治的言説の分極化とポピュリズム助長に利用されるメカニズム。",
+    "related_sources": [
+      2
+    ]
+  },
+  {
+    "slug": "game-engine-democratization",
+    "title_ja": "ゲームエンジンによる開発の民主化",
+    "title_en": "Game Engine Democratization",
+    "description": "ゲームエンジンが技術・経済的障壁を低下させ、インディー開発者を含む幅広い開発者がゲーム制作に参入できるようにした現象。",
+    "related_sources": [
+      1
+    ]
+  },
+  {
+    "slug": "queering-robotics-ethics",
+    "title_ja": "ロボット設計におけるクィア倫理",
+    "title_en": "Queering Robotics Ethics",
+    "description": "性的ロボットのヘテロ規範的・家父長的設計を批判し、クィア理論と新唯物論から多様性を超えた倫理的再構築を探求する研究領域。",
+    "related_sources": [
+      2
+    ]
+  },
+  {
+    "slug": "causality-based-iot-self-adaptation",
+    "title_ja": "因果性に基づくIoT自律適応",
+    "title_en": "Causality-Based IoT Self-Adaptation",
+    "description": "因果推論を活用して自律的なIoTシステムが環境変化に自己適応するアーキテクチャフレームワーク。",
+    "related_sources": [
+      3
+    ]
+  },
+  {
+    "slug": "nlp-claims-corpus",
+    "title_ja": "NLP論文クレームコーパス",
+    "title_en": "NLP Claims Corpus",
+    "description": "NLP研究論文から主張・クレームを抽出・整理したコーパスの構築と探索的分析に関する研究。",
+    "related_sources": [
+      4
+    ]
+  },
+  {
+    "slug": "entrepreneurial-digilantism",
+    "title_ja": "起業家的デジタル自警主義",
+    "title_en": "Entrepreneurial Digilantism",
+    "description": "スキャムベイティングに代表される、オンライン詐欺対策活動がコンテンツ収益化と結びついた新たなデジタル自警行為の形態。",
+    "related_sources": [
+      5
+    ]
+  },
+  {
+    "slug": "ai-deepfakes-media-framing",
+    "title_ja": "AIディープフェイクとメディアフレーミング",
+    "title_en": "AI Deepfakes and Media Framing",
+    "description": "紛争状況下においてAI生成の偽情報（ディープフェイク）がグローバルなニュースメディアによってどのように行為者・脅威・解決策の観点からフレーミングされるかに関する研究。",
+    "related_sources": [
+      6,
+      7
+    ]
   }
 ]
