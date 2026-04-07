@@ -1815,5 +1815,186 @@
       11,
       12
     ]
+  },
+  {
+    "slug": "ai-language-models-and-neural-alignment",
+    "title_ja": "AIと人間の言語表現の収束",
+    "title_en": "Convergence of AI and Human Linguistic Representations",
+    "description": "大規模言語モデルが人間の脳と類似した言語構造表現を自発的に発達させるという現象と、その生物学的スループット制約に起因するメカニズム。",
+    "related_sources": [
+      5,
+      19
+    ]
+  },
+  {
+    "slug": "smart-healthcare-ai-systems",
+    "title_ja": "スマートヘルスケアにおけるAIシステム",
+    "title_en": "AI Systems in Smart Healthcare Ecosystems",
+    "description": "医療現場へのAI・クラウドエッジ基盤・プライバシー保護技術を統合したスマートホスピタルエコシステムの設計と政策的含意。",
+    "related_sources": [
+      4,
+      9
+    ]
+  },
+  {
+    "slug": "human-ai-advice-taking-behavior",
+    "title_ja": "人間のAIアドバイス受容行動",
+    "title_en": "Human AI Advice-Taking Behavior",
+    "description": "AIの擬人化や助言の性質が、特にクライシス状況における人間のAIアドバイス受け入れ行動にどう影響するかを分析する概念。",
+    "related_sources": [
+      3,
+      7
+    ]
+  },
+  {
+    "slug": "cognitive-offloading-ai",
+    "title_ja": "AIによる認知的オフローディング",
+    "title_en": "Cognitive Offloading via AI",
+    "description": "LLMなどのAIツールを使用することで人間の認知負荷が外部化される現象を、認知的負債と適応的オフローディングの観点から評価する概念。",
+    "related_sources": [
+      5
+    ]
+  },
+  {
+    "slug": "agi-governance-nudging",
+    "title_ja": "スマートデジタルナッジングによるAGIガバナンス",
+    "title_en": "AGI Governance through Smart Digital Nudging",
+    "description": "行動経済学的なナッジング手法とシステム・文化フレームワークを組み合わせて、人工汎用知能（AGI）のガバナンスを戦略的に設計する概念。",
+    "related_sources": [
+      1,
+      9
+    ]
+  },
+  {
+    "slug": "human-ai-teaming-and-collaboration",
+    "title_ja": "人間とAIのチーミングと協働",
+    "title_en": "Human-AI Teaming and Collaboration",
+    "description": "AIエージェントがチームメンバーとして機能し、人間とAIが協調してタスクを遂行する際の調整・信頼・認知的相互作用のあり方。",
+    "related_sources": [
+      2,
+      7
+    ]
+  },
+  {
+    "slug": "ai-as-cognitive-extension",
+    "title_ja": "AIによる認知拡張",
+    "title_en": "AI as Cognitive Extension",
+    "description": "AIを単なるツールや自律的エージェントとしてではなく、人間の思考・認知を拡張するプロステティック（補完装置）として捉えるフレームワーク。",
+    "related_sources": [
+      3,
+      7
+    ]
+  },
+  {
+    "slug": "ai-in-human-resource-management",
+    "title_ja": "HRMにおけるAI活用と労働への影響",
+    "title_en": "AI in Human Resource Management and Workforce Impact",
+    "description": "採用・評価・エンゲージメントなどHR業務へのAI導入がもたらす効率化の恩恵と、雇用変容・倫理・プライバシーに関する課題。",
+    "related_sources": [
+      5,
+      6
+    ]
+  },
+  {
+    "slug": "responsible-ai-governance",
+    "title_ja": "責任あるAIガバナンス",
+    "title_en": "Responsible AI Governance",
+    "description": "生成AI時代における企業倫理・認識論的リスク管理・組織設計を通じて、AIの透明性・公正性・信頼性を制度的に担保するための枠組み。",
+    "related_sources": [
+      8,
+      9
+    ]
+  },
+  {
+    "slug": "organizational-innovation-and-creativity",
+    "title_ja": "組織におけるイノベーションと創造性",
+    "title_en": "Organizational Innovation and Creativity",
+    "description": "個人・チーム・組織の各レベルでのアイデア生成から実装に至る創造性とイノベーションのプロセスを統合的に捉える理論的枠組み。",
+    "related_sources": [
+      1,
+      7
+    ]
+  },
+  {
+    "slug": "generative-ai-applications",
+    "title_ja": "生成AIの応用",
+    "title_en": "Generative AI Applications",
+    "description": "生成AIをゲーム開発・教育・金融・観光など多様な領域に応用する実践的取り組みと研究動向。",
+    "related_sources": [
+      3,
+      4,
+      13
+    ]
+  },
+  {
+    "slug": "llm-governance-risk",
+    "title_ja": "大規模言語モデルのガバナンスとリスク管理",
+    "title_en": "LLM Governance and Risk Management",
+    "description": "大規模言語モデルの出力リスクを制御しつつ有用性を最適化するためのフレームワークと governance 手法。",
+    "related_sources": [
+      6,
+      7,
+      12
+    ]
+  },
+  {
+    "slug": "automation-complacency",
+    "title_ja": "自動化コンプレイサンシー（自動化への過信）",
+    "title_en": "Automation Complacency",
+    "description": "AIや自動化システムへの過度な依存により人間の批判的検証能力が低下する現象と、その対策フレームワーク。",
+    "related_sources": [
+      6,
+      7,
+      9
+    ]
+  },
+  {
+    "slug": "alignment-tax",
+    "title_ja": "アライメント税（能力劣化コスト）",
+    "title_en": "Alignment Tax",
+    "description": "AIの安全性アライメント（RLHF等）が、モデルの推論能力や自己表現を抑制する副作用として生じるトレードオフ。",
+    "related_sources": [
+      2,
+      13
+    ]
+  },
+  {
+    "slug": "corporate-ai-governance",
+    "title_ja": "企業主導のAIガバナンス",
+    "title_en": "Corporate AI Governance",
+    "description": "AI企業が自社モデルの価値観・倫理規範を定める「憲法」的文書を策定することの民主的正統性と構造的欠陥に関する議論。",
+    "related_sources": [
+      4,
+      1
+    ]
+  },
+  {
+    "slug": "agentic-ai-memory-control",
+    "title_ja": "エージェントAIにおける記憶・制御・検証",
+    "title_en": "Agentic AI: Memory, Control, and Verifiability",
+    "description": "自律的に行動するAIエージェントが部分観測・遅延・監視下で記憶・制御・行動検証を統合して機能するための設計原則。",
+    "related_sources": [
+      6
+    ]
+  },
+  {
+    "slug": "ai-assisted-software-development",
+    "title_ja": "AI支援ソフトウェア開発",
+    "title_en": "AI-Assisted Software Development",
+    "description": "コーディングモデルを活用したユニットテスト自動生成やリファクタリングなど、AI補助による開発ワークフロー効率化の実践と限界。",
+    "related_sources": [
+      7
+    ]
+  },
+  {
+    "slug": "ai-policy-integration",
+    "title_ja": "AIと政策・規制統合",
+    "title_en": "AI Integration in Policy and Regulation",
+    "description": "水管理・金融包摂・広告安全性など現実の規制・政策領域にAIを適用する際の方法論的厳密性・倫理的影響・ガバナンス上の課題。",
+    "related_sources": [
+      3,
+      10,
+      12
+    ]
   }
 ]
