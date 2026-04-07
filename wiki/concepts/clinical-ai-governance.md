@@ -1,0 +1,94 @@
+# 臨床AIガバナンス
+
+## 概要
+
+**臨床AIガバナンス（Clinical AI Governance）**とは、医療現場における人工知能システムの開発・導入・運用を適切に管理・監督するための枠組み・方針・プロセスの総体を指す。特に**臨床意思決定支援（Clinical Decision Support, CDS）** システムにAIが活用される場面では、患者安全・医療品質・説明責任の確保が不可欠であり、AIの動作を継続的に評価・追跡・制御する仕組みが求められる。
+
+臨床AIガバナンスが重要視される背景には、以下の課題がある。
+
+- **文脈的異質性（contextual heterogeneity）**：患者ごとに異なる臨床背景により、単一のAIモデルが全ての状況に最適とは限らない
+- **非対称なコスト構造（asymmetric cost structures）**：誤診や見逃しによる患者被害と過剰診断のコストが非対称であり、単純な精度最大化だけでは不十分
+- **監査可能性（auditability）**：規制・倫理・法的要件を満たすため、AIの判断根拠と動作履歴を追跡できる必要がある
+
+---
+
+## 詳細
+
+### FHIR-ネイティブガバナンスフレームワーク
+
+Borges（2026）が提案する**FHIRネイティブ適応型ガバナンスフレームワーク**は、臨床AIのデプロイメント時ガバナンスを実装するためのモジュール型・シミュレーションベースの設計を採用している。このフレームワークの主な特徴は以下の通りである。
+
+#### 1. 逐次的意思決定プロセスとしてのAI展開
+
+臨床AIの導入を**逐次的意思決定問題（sequential decision process）**として定式化することで、患者の文脈に応じた**適応的モデル選択（adaptive model selection）**が可能となる。単一モデルを静的に運用するのではなく、状況に応じて最適なモデルを動的に切り替えることで、多様な患者群に対応する。
+
+#### 2. 不確実性下での意思決定戦略
+
+不確実性を伴う逐次的な選択に対して、以下の探索戦略が実装されている。
+
+| 戦略 | 説明 |
+|------|------|
+| **ε-グリーディ（Epsilon-Greedy）** | 一定確率でランダムに探索し、残りは既知の最良モデルを活用するバランス戦略 |
+| **上側信頼限界（Upper Confidence Bound, UCB）** | 不確実性が高いモデルを積極的に評価することで、長期的な性能向上を図る戦略 |
+
+これらは強化学習・バンディット問題の手法を臨床AIのモデル選択に応用したものである。
+
+#### 3. HL7 FHIR R4による監査証跡の実現
+
+フレームワークはHL7 FHIR（Fast Healthcare Interoperability Resources）R4規格をデータ層として採用し、AIの判断履歴を**FHIRネイティブな監査アーティファクト**として記録・保持する。利用されるFHIRリソースには以下が含まれる。
+
+- **Patient**（患者情報）
+- **Encounter**（受診・遭遇情報）
+- **Condition**（病態・診断情報）
+- **Observation**（観察・検査値）
+
+このアプローチにより、AIの動作が既存の医療情報インフラと統合された形で追跡可能となり、規制当局や医療機関による監査が容易になる。
+
+#### 4. コスト認識型ガバナンスポリシー
+
+フレームワークの中核に位置するのが、**文脈認識・コスト認識型のガバナンスポリシー**である。これは単なる精度評価を超えて、誤りの種類ごとに異なるコスト（例：偽陰性による見逃しのリスクと偽陽性による不要な介入のコスト）を考慮した上で、最適なモデル選択を行う仕組みである。
+
+---
+
+## 臨床AIガバナンスの構成要素まとめ
+
+```
+臨床AIガバナンス
+├── 適応的モデル選択（Adaptive Model Selection）
+│   ├── ε-グリーディ戦略
+│   └── UCB戦略
+├── 監査可能性（Auditability）
+│   └── HL7 FHIR R4 監査アーティファクト
+├── コスト認識型ポリシー
+│   └── 非対称コスト構造への対応
+└── 文脈的ガバナンス
+    └── 患者ごとの異質性への適応
+```
+
+---
+
+## 関連概念
+
+- [[臨床意思決定支援システム (Clinical Decision Support System)]]
+- [[HL7 FHIR (Fast Healthcare Interoperability Resources)]]
+- [[医療AIの説明可能性 (Explainable AI in Healthcare)]]
+- [[逐次的意思決定 (Sequential Decision Making)]]
+- [[バンディット問題 (Multi-Armed Bandit Problem)]]
+- [[医療情報インターオペラビリティ (Healthcare Interoperability)]]
+- [[AIモデル監査 (AI Model Auditing)]]
+- [[強化学習 (Reinforcement Learning)]]
+- [[医療規制・コンプライアンス (Healthcare Regulatory Compliance)]]
+
+---
+
+## 参考ソース
+
+| タイトル | 著者 | 年 | DOI |
+|----------|------|----|-----|
+| Adaptive FHIR-Native AI Governance for Clinical Decision Support - v1.0 – Manuscript Release | MS Julian Borges MD | 2026 | [10.5281/zenodo.18356746](https://doi.org/10.5281/zenodo.18356746) |
+
+> **ファイルパス**: `raw/adaptive-fhir-native-ai-governance-for-clinical-decision-support-v10-manuscript-release.md`
+
+---
+
+*この記事は2026年時点の研究成果に基づいており、臨床AIガバナンスの分野は急速に発展しているため、最新の規制動向・実装標準については各国の医療当局および標準化団体の情報を参照されたい。*

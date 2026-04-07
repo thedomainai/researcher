@@ -2505,5 +2505,201 @@
       6,
       7
     ]
+  },
+  {
+    "slug": "ai-driven-labor-displacement",
+    "title_ja": "AIによる労働市場の変容と経済的自立戦略",
+    "title_en": "AI-Driven Labor Displacement and Economic Sovereignty",
+    "description": "AIの普及によって従来の雇用モデルが崩壊しつつある中、知的財産・知識製品・自動化などを活用した新たな経済的自立の戦略を模索する研究領域。",
+    "related_sources": [
+      1
+    ]
+  },
+  {
+    "slug": "ai-tools-in-language-education",
+    "title_ja": "AI活用語学教育",
+    "title_en": "AI Tools in Language Education",
+    "description": "インテリジェント・チュータリングシステムやチャットボットなどのAIツールを経済英語教育に統合し、個別最適化学習と語学力向上を実現する教育手法。",
+    "related_sources": [
+      3,
+      4
+    ]
+  },
+  {
+    "slug": "algorithmic-governance-ai-adoption",
+    "title_ja": "アルゴリズムによるガバナンスとAI採用",
+    "title_en": "Algorithmic Governance and AI Adoption",
+    "description": "ビジネスリーダーや組織がアルゴリズム・AIを活用してガバナンスを行う際の利用実態・障壁・不平等。",
+    "related_sources": [
+      6,
+      1
+    ]
+  },
+  {
+    "slug": "ai-entrepreneurial-subjectivity",
+    "title_ja": "AIスタートアップにおける起業家的主体性",
+    "title_en": "Entrepreneurial Subjectivity in AI Start-ups",
+    "description": "AIスタートアップ創業者やVC投資家がテクノ楽観主義と投機的価値観を通じて自己形成を行うプロセスの民族誌的考察。",
+    "related_sources": [
+      4,
+      6
+    ]
+  },
+  {
+    "slug": "ai-intellectual-property-copyright",
+    "title_ja": "AI生成コンテンツと知的財産権",
+    "title_en": "AI-Generated Content and Intellectual Property",
+    "description": "生成AIが作成したコンテンツの著作権帰属・発明者認定・権利保護に関する法的課題と枠組み。",
+    "related_sources": [
+      2,
+      4
+    ]
+  },
+  {
+    "slug": "human-provenance-attribution-framework",
+    "title_ja": "人間起源の帰属・来歴管理フレームワーク",
+    "title_en": "Human Provenance and Attribution Framework in AI Systems",
+    "description": "AI拡張環境において人間による発案・貢献を識別・記録・証明するための構造化された来歴管理システム（暗号ハッシュ等を活用）。",
+    "related_sources": [
+      4
+    ]
+  },
+  {
+    "slug": "global-ai-regulation-governance",
+    "title_ja": "グローバルAI規制とガバナンス",
+    "title_en": "Global AI Regulation and Governance",
+    "description": "国際的なAIガバナンス文書における安全性・人間中心・公平性などの規範的合意形成と正当性構築の動向。",
+    "related_sources": [
+      1,
+      8
+    ]
+  },
+  {
+    "slug": "clinical-ai-governance",
+    "title_ja": "臨床AIガバナンス",
+    "title_en": "Clinical AI Governance",
+    "description": "医療現場におけるAIシステムの展開・監査・意思決定を管理するフレームワークと規制方針。",
+    "related_sources": [
+      4
+    ]
+  },
+  {
+    "slug": "ai-adoption-in-hospitality",
+    "title_ja": "ホスピタリティ産業におけるAI導入",
+    "title_en": "AI Adoption in Hospitality Industry",
+    "description": "ホテル・観光業界でのAI・サービスロボット導入が企業収益やステークホルダー行動に与える影響の分析。",
+    "related_sources": [
+      5
+    ]
+  },
+  {
+    "slug": "statistical-decision-making-in-medical-research",
+    "title_ja": "医学研究における統計的意思決定",
+    "title_en": "Statistical Decision-Making in Medical Research",
+    "description": "有意性検定と信頼区間の比較を通じて、臨床意思決定における統計情報の価値と誤用を評価する研究領域。",
+    "related_sources": [
+      1
+    ]
+  },
+  {
+    "slug": "sequential-decision-making-under-uncertainty",
+    "title_ja": "不確実性下での逐次意思決定",
+    "title_en": "Sequential Decision-Making Under Uncertainty",
+    "description": "ε-グリーディやUCBなどの戦略を用いて、不確実な環境での最適な意思決定を行う強化学習的アプローチ。",
+    "related_sources": [
+      4,
+      5
+    ]
+  },
+  {
+    "slug": "interface-design-and-environmental-impact",
+    "title_ja": "インターフェースデザインと環境影響",
+    "title_en": "Interface Design and Environmental Impact",
+    "description": "UIデザインの選択がユーザー使用量の増加を通じて間接的に引き起こす環境負荷を評価する研究。",
+    "related_sources": [
+      3
+    ]
+  },
+  {
+    "slug": "queering-sex-robots",
+    "title_ja": "セックスロボットのクィア化",
+    "title_en": "Queering Sex Robots",
+    "description": "クィア・ラカン精神分析とニューマテリアリズムを用いたセックスロボットのデザイン倫理と多様性の哲学的考察。",
+    "related_sources": [
+      2
+    ]
+  },
+  {
+    "slug": "entrepreneurial-digilantism-scambaiting",
+    "title_ja": "起業家的デジタル自警行為としてのスキャムベイティング",
+    "title_en": "Entrepreneurial Digilantism and Scambaiting",
+    "description": "YouTubeなどのプラットフォームを舞台に収益化と詐欺対抗が融合した新たなデジタル自警活動の形態。",
+    "related_sources": [
+      5
+    ]
+  },
+  {
+    "slug": "deterministic-vs-probabilistic-ai",
+    "title_ja": "決定論的AIと確率論的AIのパラダイム対比",
+    "title_en": "Deterministic vs Probabilistic AI Paradigm",
+    "description": "Big Dataによる確率的近似から、Small Dataによる決定論的正確性へのパラダイムシフトを提唱するアプローチ。",
+    "related_sources": [
+      1
+    ]
+  },
+  {
+    "slug": "cognitive-bias-detection",
+    "title_ja": "認知バイアス検出システム",
+    "title_en": "Cognitive Bias Detection System",
+    "description": "ルールベースのバイアスプロファイリングと重み付き信頼スコアリングを用いて人間の意思決定における認知バイアスを検出・可視化する手法。",
+    "related_sources": [
+      2
+    ]
+  },
+  {
+    "slug": "ontology-for-educational-support",
+    "title_ja": "教育支援システムのためのオントロジー",
+    "title_en": "Ontology for Educational Support Systems",
+    "description": "教師のコンテキスト情報を構造化・形式化し、教育支援システムに活用するためのサステナブルなオントロジー設計。",
+    "related_sources": [
+      3
+    ]
+  },
+  {
+    "slug": "ontological-status-of-ai-generated-creativity",
+    "title_ja": "AI生成コンテンツの存在論的地位",
+    "title_en": "Ontological Status of AI-Generated Creativity",
+    "description": "AIが生成する音楽・芸術作品の創造性と主体性の欠如という逆説を哲学的・技術的に分析するフレームワーク。",
+    "related_sources": [
+      4
+    ]
+  },
+  {
+    "slug": "algorithm-auditing-and-bias",
+    "title_ja": "アルゴリズム監査とAIバイアス",
+    "title_en": "Algorithm Auditing and AI Bias",
+    "description": "ユーザー主導のアルゴリズム監査プロセスを通じて、画像キャプションモデルにおけるジェンダーバイアスなどAIシステムの偏りを発見・分析する手法。",
+    "related_sources": [
+      5
+    ]
+  },
+  {
+    "slug": "multi-agent-systems",
+    "title_ja": "マルチエージェントシステム",
+    "title_en": "Multi-Agent Systems",
+    "description": "複数のAIエージェントが相互作用・協調することで複雑なタスクを解決するシステムアーキテクチャ。",
+    "related_sources": [
+      5
+    ]
+  },
+  {
+    "slug": "ai-assisted-research-evaluation",
+    "title_ja": "AI支援研究評価",
+    "title_en": "AI-Assisted Research Evaluation",
+    "description": "LLMなどのAI技術を活用して科学論文の品質・研究倫理・再現性などを自動評価する手法。",
+    "related_sources": [
+      3,
+      1
+    ]
   }
 ]
