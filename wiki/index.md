@@ -38,28 +38,29 @@ _AI時代の変化を理解するための分析フレームワーク。_
 
 ## 統計
 
-- 論文数: 416
+- 論文数: 433
 - 記事数: 9
-- コンセプト数: 18 (Tier1: 3, Tier2: 9, Tier3: 6)
+- コンパイル済み: 369 / 442（未処理: 73）
+- コンセプト記事数: 263（ユニーク slug: 156）
 - 対象分野: 17
-- 最終コンパイル: 2026-04-06 21:50
+- 最終更新: 2026-04-08
 
 ## 分野別ソース数
 
-- neuroscience: 39
-- complexity_science: 35
+- neuroscience: 40
+- complexity_science: 38
 - cognitive_science: 33
-- psychology: 30
+- psychology: 31
+- law: 29
 - behavioral_economics: 28
-- law: 28
+- ai_governance: 27
+- sociology: 27
 - hci: 26
 - organization_science: 26
-- sociology: 26
-- ai_governance: 25
 - human_ai_collaboration: 25
 - philosophy: 21
 - economics: 20
-- systems_engineering: 17
+- systems_engineering: 20
 - evolutionary_biology: 14
 - history_of_technology: 12
 - anthropology: 11
