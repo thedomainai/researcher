@@ -31,12 +31,20 @@ researcher/
 │   └── index.jsonl           # メタデータインデックス
 ├── wiki/                     # LLMがコンパイルしたウィキ
 │   ├── concepts/             # コンセプト別記事
+│   ├── graph/                # 知識グラフ explorer UI
+│   │   └── index.html
 │   ├── index.md              # ウィキインデックス
+│   ├── reader.html           # 静的HTMLリーダー
+│   ├── graph.html            # graph/index.html へのリダイレクト
 │   └── _meta/                # メタデータ
+│       ├── concepts.json
+│       ├── backlinks.json
+│       └── concepts-graph.json
 ├── tools/                    # スクリプト群
+│   ├── build_graph.py        # ★ 明示的ナレッジグラフ生成
+│   ├── build_graph_ui.py     # ★ ナレッジグラフ explorer 生成
+│   ├── build_reader.py       # 静的HTMLリーダー生成
 │   ├── fetch_latest.py       # ★ 最新論文の継続的取得（メインモジュール）
-│   ├── pipeline_ingest.py    # RSS/arXivの初回取得
-│   ├── rate_limiter.py       # レート制限
 │   └── ...
 ├── config/
 │   ├── sources.yaml          # 分野定義・フィルタ設定
@@ -67,7 +75,52 @@ python3 tools/fetch_latest.py --dry-run
 python3 tools/fetch_latest.py --no-rss
 ```
 
+### ナレッジグラフの生成
+
+```bash
+# concepts-graph.json / backlinks.json を生成
+python3 tools/build_graph.py
+
+# 整合性チェックのみ（ファイルは書かない）
+python3 tools/build_graph.py --check
+
+# 未解決参照や不正ソース参照もエラー扱いにする
+python3 tools/build_graph.py --check --strict
+```
+
+### Reader の生成
+
+```bash
+# graph メタデータを使って静的 reader.html を更新
+python3 tools/build_reader.py
+```
+
+### Graph Explorer の生成
+
+```bash
+# graph/index.html を生成
+python3 tools/build_graph_ui.py
+```
+
+### compile パイプライン
+
+```bash
+# full compile
+source .env && python3 tools/compile_wiki.py
+
+# graph メタデータだけ再生成
+python3 tools/compile_wiki.py --phase 5
+
+# reader だけ再生成
+python3 tools/compile_wiki.py --phase 6
+
+# graph explorer だけ再生成
+python3 tools/compile_wiki.py --phase 7
+```
+
 ### 自動実行の設定（launchd）
+
+`launchd` を推奨します。`cron` と同時に設定すると二重実行になります。
 
 ```bash
 # plistをLaunchAgentsにコピー
@@ -87,6 +140,8 @@ launchctl unload ~/Library/LaunchAgents/com.researcher.fetch-latest.plist
 ```
 
 ### cron の場合
+
+`launchd` を使わない場合のみ設定してください。両方を有効にしないでください。
 
 ```bash
 crontab -e
@@ -126,6 +181,11 @@ crontab -e
 [RSS feeds] ──────────────────→ raw/articles/
 
 raw/ ──→ [LLM compile] ──→ wiki/concepts/*.md ──→ wiki/index.md
+                                │
+                                ├──→ wiki/_meta/backlinks.json
+                                ├──→ wiki/_meta/concepts-graph.json
+                                ├──→ wiki/reader.html
+                                └──→ wiki/graph/index.html
 ```
 
 ## 依存パッケージ

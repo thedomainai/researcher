@@ -38,3 +38,5 @@ Thumbs.db
 *.proposed
 *.backup
 .env
+.claude/state/verification-required
+logs/fetch_latest.lock

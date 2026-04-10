@@ -20,6 +20,8 @@ cronの設定例:
 """
 
 import argparse
+import atexit
+import fcntl
 import json
 import os
 import re
@@ -39,6 +41,7 @@ RAW_ARTICLES = os.path.join(BASE, "raw", "articles")
 INDEX_PATH = os.path.join(BASE, "raw", "index.jsonl")
 STATE_PATH = os.path.join(BASE, "config", "fetch_state.json")
 LOG_DIR = os.path.join(BASE, "logs")
+LOCK_PATH = os.path.join(LOG_DIR, "fetch_latest.lock")
 os.makedirs(LOG_DIR, exist_ok=True)
 
 OA_BASE = "https://api.openalex.org/works"
@@ -552,6 +555,32 @@ def fetch_rss(since, existing_hashes, dry_run=False):
 
 
 # ============================================================
+# 実行ロック
+# ============================================================
+def acquire_run_lock():
+    lock_file = open(LOCK_PATH, "a+", encoding="utf-8")
+    try:
+        fcntl.flock(lock_file.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        lock_file.close()
+        return None
+
+    lock_file.seek(0)
+    lock_file.truncate()
+    lock_file.write(f"{os.getpid()}\n")
+    lock_file.flush()
+
+    def _release():
+        try:
+            fcntl.flock(lock_file.fileno(), fcntl.LOCK_UN)
+        finally:
+            lock_file.close()
+
+    atexit.register(_release)
+    return lock_file
+
+
+# ============================================================
 # メイン
 # ============================================================
 def main():
@@ -561,6 +590,12 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="取得せず確認のみ")
     parser.add_argument("--no-rss", action="store_true", help="RSS取得をスキップ")
     args = parser.parse_args()
+
+    lock = acquire_run_lock()
+    if lock is None:
+        print(f"fetch_latest.py — {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+        print("別の fetch_latest.py が実行中のためスキップします。")
+        return
 
     state = load_state()
     since = args.since or state.get(

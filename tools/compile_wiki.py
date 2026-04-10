@@ -5,11 +5,17 @@ compile_wiki.py — raw/ → wiki/ コンパイルパイプライン（v2: バ�
 修正点:
   - Phase 2: LLMに実在するスラッグリストとソースパスを渡す
   - Phase 4: バリデーション — 壊れたリンクと不正確なパスを検出・除去
+  - Phase 5: backlinks.json / concepts-graph.json を生成
+  - Phase 6: graphメタデータ込みで reader.html を生成
+  - Phase 7: graph explorer UI を生成
   - プロンプトに「存在しないものを生成しない」制約を明示
 
 使い方:
   source .env && python3 tools/compile_wiki.py
   source .env && python3 tools/compile_wiki.py --phase 4   # バリデーションのみ
+  python3 tools/compile_wiki.py --phase 5                  # graphメタデータのみ
+  python3 tools/compile_wiki.py --phase 6                  # reader再生成のみ
+  python3 tools/compile_wiki.py --phase 7                  # graph explorer再生成のみ
 """
 
 import argparse
@@ -21,6 +27,9 @@ import time
 from datetime import datetime
 
 import httpx
+from build_graph_ui import build_graph_ui
+from build_reader import build_reader
+from lib.knowledge_graph import load_concept_graph_inputs, resolve_target, write_graph_artifacts
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw")
@@ -332,12 +341,17 @@ def phase3_generate_index(concepts, papers, articles):
         d = p["domain"]
         domain_stats[d] = domain_stats.get(d, 0) + 1
 
-    tiers = {1: [], 2: [], 3: []}
+    tiers = {1: [], 2: [], 3: [], "untiered": []}
     for c in concepts:
-        tiers[c["tier"]].append(c)
+        tier = c.get("tier")
+        if tier in (1, 2, 3):
+            tiers[tier].append(c)
+        else:
+            tiers["untiered"].append(c)
 
     index_md = "# Wiki インデックス — AI Native 社会・組織・システム設計\n\n"
     index_md += "このwikiは17の学問分野から収集した論文・記事をLLMによってコンセプト別に構造化したナレッジベースです。\n\n"
+    index_md += "[Knowledge Atlas](graph/index.html) | [Article Reader](reader.html)\n\n"
 
     tier_labels = {1: "Tier 1: 不変原理", 2: "Tier 2: 設計原理", 3: "Tier 3: 分析枠組み"}
     for tier_num in [1, 2, 3]:
@@ -345,8 +359,19 @@ def phase3_generate_index(concepts, papers, articles):
             continue
         index_md += f"## {tier_labels[tier_num]}\n\n"
         for c in tiers[tier_num]:
-            domains_str = ", ".join(c["related_domains"][:3])
-            index_md += f"- [[{c['slug']}|{c['title_ja']}]] — {c['description']} ({domains_str})\n"
+            domains_str = ", ".join((c.get("related_domains") or [])[:3]) or "domain未設定"
+            title = c.get("title_ja") or c.get("title") or c["slug"]
+            description = c.get("description") or "説明未設定"
+            index_md += f"- [[{c['slug']}|{title}]] — {description} ({domains_str})\n"
+        index_md += "\n"
+
+    if tiers["untiered"]:
+        index_md += "## Untiered / Legacy Concepts\n\n"
+        for c in tiers["untiered"]:
+            domains_str = ", ".join((c.get("related_domains") or [])[:3]) or "domain未設定"
+            title = c.get("title_ja") or c.get("title") or c["slug"]
+            description = c.get("description") or "説明未設定"
+            index_md += f"- [[{c['slug']}|{title}]] — {description} ({domains_str})\n"
         index_md += "\n"
 
     index_md += f"## 統計\n\n"
@@ -372,6 +397,10 @@ def phase4_validate(concepts):
     for fn in os.listdir(WIKI_CONCEPTS):
         if fn.endswith(".md"):
             valid_slugs.add(fn.replace(".md", ""))
+    concept_nodes, alias_index = load_concept_graph_inputs(
+        wiki_concepts_dir=WIKI_CONCEPTS,
+        concepts_meta_path=os.path.join(WIKI_META, "concepts.json"),
+    )
 
     # 実在するrawファイルパスを収集
     existing_raw = set()
@@ -383,6 +412,7 @@ def phase4_validate(concepts):
 
     total_fixed = 0
     total_broken_links = 0
+    total_normalized_links = 0
     total_bad_paths = 0
 
     for fn in sorted(os.listdir(WIKI_CONCEPTS)):
@@ -395,21 +425,30 @@ def phase4_validate(concepts):
 
         # 1. 壊れた[[リンク]]を修正
         def fix_link(match):
-            nonlocal total_broken_links
-            full = match.group(0)
-            slug_part = match.group(1)
-            if slug_part in valid_slugs:
-                return full  # OK
-            # 壊れたリンク → プレーンテキストに変換
-            total_broken_links += 1
-            # [[slug|label]] → label, [[slug]] → slug
-            if "|" in full:
-                label = full.split("|")[1].rstrip("]]")
-                return label
-            else:
-                return slug_part
+            nonlocal total_broken_links, total_normalized_links
+            target = match.group(1).strip()
+            label = match.group(2).strip() if match.group(2) else target
 
-        content = re.sub(r'\[\[([^\]|]+?)(?:\|[^\]]+?)?\]\]', fix_link, content)
+            if target in valid_slugs:
+                if match.group(2):
+                    return f"[[{target}|{label}]]"
+                return f"[[{target}]]"
+
+            resolved_slug, resolved, _, _, _ = resolve_target(
+                target,
+                concept_nodes=concept_nodes,
+                alias_index=alias_index,
+            )
+            if resolved and resolved_slug:
+                total_normalized_links += 1
+                if label == resolved_slug:
+                    return f"[[{resolved_slug}]]"
+                return f"[[{resolved_slug}|{label}]]"
+
+            total_broken_links += 1
+            return label
+
+        content = re.sub(r'\[\[([^\]|]+?)(?:\|([^\]]+?))?\]\]', fix_link, content)
 
         # 2. 不正確なソースパスの行を修正
         # raw/xxx/yyy.md or raw/xxx/yyy.pdf 形式のパスをチェック
@@ -454,9 +493,56 @@ def phase4_validate(concepts):
             total_fixed += 1
 
     print(f"  壊れたリンク修正: {total_broken_links}")
+    print(f"  slug正規化: {total_normalized_links}")
     print(f"  不正確パス修正: {total_bad_paths}")
     print(f"  修正されたファイル: {total_fixed}")
     print(f"  ✅ バリデーション完了")
+
+
+# ============================================================
+# Phase 5: 明示的ナレッジグラフ生成
+# ============================================================
+def phase5_build_graph():
+    print("\n" + "=" * 60)
+    print("Phase 5: 明示的ナレッジグラフ生成")
+    print("=" * 60)
+
+    graph, _ = write_graph_artifacts(base_dir=BASE)
+    summary = graph["summary"]
+    print(f"  concepts: {summary['resolved_nodes']}")
+    print(f"  unresolved refs: {summary['unresolved_nodes']}")
+    print(f"  edges: {summary['edges']}")
+    print(f"  link mentions: {summary['link_mentions']}")
+    print(f"  valid source refs: {summary['valid_source_refs']}")
+    print(f"  invalid source refs: {summary['invalid_source_refs']}")
+    print("  ✅ wiki/_meta/backlinks.json 更新")
+    print("  ✅ wiki/_meta/concepts-graph.json 更新")
+
+
+# ============================================================
+# Phase 6: Reader生成
+# ============================================================
+def phase6_build_reader():
+    print("\n" + "=" * 60)
+    print("Phase 6: Reader生成")
+    print("=" * 60)
+
+    result = build_reader()
+    print(f"  ✅ wiki/reader.html 更新 ({result['size']} bytes)")
+    print(f"  記事数: {result['articles']}")
+
+
+# ============================================================
+# Phase 7: Graph Explorer生成
+# ============================================================
+def phase7_build_graph_ui():
+    print("\n" + "=" * 60)
+    print("Phase 7: Graph Explorer生成")
+    print("=" * 60)
+
+    result = build_graph_ui()
+    print(f"  ✅ {os.path.relpath(result['path'], BASE)} 更新 ({result['size']} bytes)")
+    print(f"  ✅ {os.path.relpath(result['legacy_path'], BASE)} 更新")
 
 
 # ============================================================
@@ -464,7 +550,7 @@ def phase4_validate(concepts):
 # ============================================================
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--phase", type=int, help="実行するフェーズ (1, 2, 3, or 4)")
+    parser.add_argument("--phase", type=int, help="実行するフェーズ (1-7)")
     args = parser.parse_args()
 
     papers = load_all_papers()
@@ -485,6 +571,15 @@ def main():
 
     if args.phase is None or args.phase == 4:
         phase4_validate(concepts)
+
+    if args.phase is None or args.phase == 5:
+        phase5_build_graph()
+
+    if args.phase is None or args.phase == 6:
+        phase6_build_reader()
+
+    if args.phase is None or args.phase == 7:
+        phase7_build_graph_ui()
 
     print("\n" + "=" * 60)
     print("完了!")
