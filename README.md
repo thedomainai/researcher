@@ -33,6 +33,7 @@ researcher/
 │   ├── concepts/             # コンセプト別記事
 │   ├── graph/                # 知識グラフ explorer UI
 │   │   └── index.html
+│   ├── index.html            # Workspace index UI
 │   ├── index.md              # ウィキインデックス
 │   ├── reader.html           # 静的HTMLリーダー
 │   ├── graph.html            # graph/index.html へのリダイレクト
@@ -43,6 +44,7 @@ researcher/
 ├── tools/                    # スクリプト群
 │   ├── build_graph.py        # ★ 明示的ナレッジグラフ生成
 │   ├── build_graph_ui.py     # ★ ナレッジグラフ explorer 生成
+│   ├── build_index_ui.py     # ★ workspace index UI 生成
 │   ├── build_reader.py       # 静的HTMLリーダー生成
 │   ├── fetch_latest.py       # ★ 最新論文の継続的取得（メインモジュール）
 │   └── ...
@@ -95,12 +97,28 @@ python3 tools/build_graph.py --check --strict
 python3 tools/build_reader.py
 ```
 
+### Workspace Index の生成
+
+```bash
+# workspace index の index.html を生成
+python3 tools/build_index_ui.py
+```
+
 ### Graph Explorer の生成
 
 ```bash
 # graph/index.html を生成
 python3 tools/build_graph_ui.py
 ```
+
+### ローカルで確認する
+
+```bash
+# wiki/ を localhost:8000 で配信
+python3 tools/serve_wiki.py
+```
+
+このサーバーは標準エラーが切れていても応答できるようにしてあり、アクセスログは `logs/local-server.log` に追記されます。
 
 ### compile パイプライン
 
@@ -116,6 +134,9 @@ python3 tools/compile_wiki.py --phase 6
 
 # graph explorer だけ再生成
 python3 tools/compile_wiki.py --phase 7
+
+# workspace index だけ再生成
+python3 tools/compile_wiki.py --phase 8
 ```
 
 ### 自動実行の設定（launchd）
