@@ -1,0 +1,18 @@
+---
+title: "My Workflow for Understanding LLM Architectures"
+author: "Sebastian Raschka"
+url: "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms"
+published: "Sat, 18 Apr 2026 11:24:36 GMT"
+fetched: "2026-04-19T06:02:46.361053"
+source_type: "rss_article"
+---
+
+# My Workflow for Understanding LLM Architectures
+
+My Workflow for Understanding LLM Architectures
+A learning-oriented workflow for understanding new open-weight model releases
+Many people asked me over the past months to share my workflow for how I come up with the LLM architecture sketches and drawings in my articles, talks, and the [LLM-Gallery](https://sebastianraschka.com/llm-architecture-gallery/). So I thought it would be useful to document the process I usually follow.
+The short version is that I usually start with the official technical reports, but these days, papers are often less detailed than they used to be, especially for most open-weight models from industry labs.
+The good part is that if the weights are shared on the Hugging Face Model Hub and the model is supported in the Python [transformers](https://github.com/huggingface/transformers) library, we can usually inspect the config file and the reference implementation directly to get more information about the architecture details. And “working” code doesn’t lie.
+I should also say that this is mainly a workflow for open-weight models. It doesn’t really apply to models like ChatGPT, Claude, or Gemini, where the weights and details are proprietary.
+Also, this is intentionally a fairly manual process. You could automate parts of it. But if the goal is to learn how these architectures work, then doing a few of these by hand is, in my opinion, still one of the best exercises.
