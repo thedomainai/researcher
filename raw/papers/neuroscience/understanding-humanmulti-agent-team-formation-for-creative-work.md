@@ -1,0 +1,22 @@
+---
+title: "Understanding Human–Multi-Agent Team Formation for Creative Work"
+authors: "Hyunseung Lim, Dasom Choi, S.W. Nam, Bogoan Kim, Hwajung Hong"
+year: 2026
+citations: 1
+paper_type: "primary"
+domain: "neuroscience"
+fetched: "2026-04-14T06:00:10.385923"
+doi: "https://doi.org/10.1145/3772318.3791166"
+openalex_id: "https://openalex.org/W7125214387"
+source_api: "openalex"
+---
+
+# Understanding Human–Multi-Agent Team Formation for Creative Work
+
+**著者**: Hyunseung Lim, Dasom Choi, S.W. Nam, Bogoan Kim, Hwajung Hong
+**年**: 2026 | **被引用数**: 1
+**タイプ**: primary | **分野**: 脳科学
+
+## Abstract
+
+Team-based collaboration is a cornerstone of modern creative work. Recent advances in generative AI open possibilities for humans to collaborate with multiple AI agents in distinct roles to address complex creative workflows. Yet, how to form Human-Multi-Agent Teams (HMATs) is underexplored, especially given that inter-agent interactions increase complexity and the risk of unexpected behaviors. In this exploratory study, we aim to understand how to form HMATs for creative work using CrafTeam, a technology probe that allows users to form and collaborate with their teams. We conducted a study with 12 design practitioners, in which participants iterated through a three-step cycle: forming HMATs, ideating with their teams, and reflecting on their teams' ideation. Our findings reveal that while participants initially attempted autonomous team operations, they ultimately adopted team formations in which they directly orchestrated agents. We discuss design considerations for HMAT formation that humans can effectively orchestrate multiple agents.
