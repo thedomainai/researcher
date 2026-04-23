@@ -376,6 +376,40 @@ research_domains:
     min_citations: 100
     priority: "medium"
 
+  # ===== AI技術原理 =====
+
+  ai_ml:
+    label: "AI・機械学習"
+    core_question: "AIシステムの動作原理と構造的限界は何か"
+    arxiv_categories: ["cs.AI", "cs.LG", "cs.CL", "cs.NE", "stat.ML"]
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "transformer attention mechanism survey"
+        - "large language model capabilities limitations review"
+        - "reinforcement learning from human feedback survey"
+        - "neural scaling laws review"
+        - "emergent capabilities large language models review"
+        - "multi-agent reinforcement learning survey"
+        - "foundation models survey"
+        - "in-context learning review"
+      seminal:
+        - "Attention is All You Need Vaswani transformer"
+        - "Sutton Barto reinforcement learning introduction"
+        - "Goodfellow deep learning textbook"
+        - "GPT-3 Brown language models few-shot learners"
+        - "Kaplan scaling laws neural language models"
+        - "Wei emergent abilities large language models"
+        - "Ouyang instructGPT RLHF"
+        - "Minsky perceptrons neural networks"
+        - "Rumelhart backpropagation learning representations"
+        - "LeCun convolutional neural networks"
+    min_citations: 500
+    priority: "critical"
+    # このドメインのTier判定補足:
+    # - ベンチマーク比較・特定モデルの性能評価 → Tier 3（スキップ）
+    # - アーキテクチャの動作原理・スケーリング則・創発現象 → Tier 1候補
+    # - 現行モデルの限界・失敗モード・バイアスの構造分析 → Tier 2候補
+
 # ---------------------------------------------------------------------------
 # 人間-AI協働（分野横断の重点テーマ）
 # ---------------------------------------------------------------------------
