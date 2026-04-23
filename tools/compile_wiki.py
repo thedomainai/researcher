@@ -8,6 +8,7 @@ compile_wiki.py — raw/ → wiki/ コンパイルパイプライン（v2: バ�
   - Phase 5: backlinks.json / concepts-graph.json を生成
   - Phase 6: graphメタデータ込みで reader.html を生成
   - Phase 7: graph explorer UI を生成
+  - Phase 8: workspace index UI を生成
   - プロンプトに「存在しないものを生成しない」制約を明示
 
 使い方:
@@ -16,6 +17,7 @@ compile_wiki.py — raw/ → wiki/ コンパイルパイプライン（v2: バ�
   python3 tools/compile_wiki.py --phase 5                  # graphメタデータのみ
   python3 tools/compile_wiki.py --phase 6                  # reader再生成のみ
   python3 tools/compile_wiki.py --phase 7                  # graph explorer再生成のみ
+  python3 tools/compile_wiki.py --phase 8                  # workspace index再生成のみ
 """
 
 import argparse
@@ -27,6 +29,7 @@ import time
 from datetime import datetime
 
 import httpx
+from build_index_ui import build_index_ui
 from build_graph_ui import build_graph_ui
 from build_reader import build_reader
 from lib.knowledge_graph import load_concept_graph_inputs, resolve_target, write_graph_artifacts
@@ -546,11 +549,24 @@ def phase7_build_graph_ui():
 
 
 # ============================================================
+# Phase 8: Workspace Index生成
+# ============================================================
+def phase8_build_index_ui():
+    print("\n" + "=" * 60)
+    print("Phase 8: Workspace Index生成")
+    print("=" * 60)
+
+    result = build_index_ui()
+    print(f"  ✅ {os.path.relpath(result['path'], BASE)} 更新 ({result['size']} bytes)")
+    print(f"  記事数: {result['articles']}")
+
+
+# ============================================================
 # メイン
 # ============================================================
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--phase", type=int, help="実行するフェーズ (1-7)")
+    parser.add_argument("--phase", type=int, help="実行するフェーズ (1-8)")
     args = parser.parse_args()
 
     papers = load_all_papers()
@@ -580,6 +596,9 @@ def main():
 
     if args.phase is None or args.phase == 7:
         phase7_build_graph_ui()
+
+    if args.phase is None or args.phase == 8:
+        phase8_build_index_ui()
 
     print("\n" + "=" * 60)
     print("完了!")
