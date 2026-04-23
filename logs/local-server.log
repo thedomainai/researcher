@@ -1,0 +1,11 @@
+Serving /Users/yuta/workspace/projects/researcher/wiki at http://127.0.0.1:8012
+Serving /Users/yuta/workspace/projects/researcher/wiki at http://127.0.0.1:8000
+127.0.0.1 - - [20/Apr/2026 19:59:16] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2026 19:59:38] "HEAD /graph/ HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2026 19:59:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2026 19:59:43] code 404, message File not found
+127.0.0.1 - - [20/Apr/2026 19:59:43] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [20/Apr/2026 20:00:02] "GET /graph/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2026 20:02:13] "GET /reader.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2026 20:02:56] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [20/Apr/2026 21:27:58] "GET / HTTP/1.1" 200 -
