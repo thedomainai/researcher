@@ -5,6 +5,22 @@
 AI Native 社会・組織・システム設計のための研究知識ベースを自律構築するデーモンエージェント。
 ユーザーは Obsidian で知識ベースを閲覧し、LLM に質問を投げるだけ。
 
+## UI 仕様の位置づけ
+
+プロダクト全体仕様とは別に、workspace UI の目的と各画面要素の責務は
+[`docs/workspace-ui-spec.md`](/Users/yuta/workspace/projects/researcher/docs/workspace-ui-spec.md)
+で定義する。
+
+意図は「何を置くか」ではなく、「その要素がユーザーの何を達成するために存在するか」を明文化することにある。
+
+`Knowledge Atlas` の panel 単位の詳細仕様は
+[`docs/knowledge-atlas-page-spec.md`](/Users/yuta/workspace/projects/researcher/docs/knowledge-atlas-page-spec.md)
+で管理する。
+
+`Article Reader` の panel 単位の詳細仕様は
+[`docs/article-reader-page-spec.md`](/Users/yuta/workspace/projects/researcher/docs/article-reader-page-spec.md)
+で管理する。
+
 ## 確定事項
 
 | 項目 | 決定 |
