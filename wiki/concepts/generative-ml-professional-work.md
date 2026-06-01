@@ -45,15 +45,15 @@ Faulconbridgeら（2026）が提示するリサーチアジェンダは以下の
 
 ## 関連概念
 
-- [[専門知識とAI（Expertise and Artificial Intelligence）]]
-- [[専門職サービスファーム（Professional Service Firms）]]
-- [[アルゴリズム的意思決定（Algorithmic Decision-Making）]]
-- [[デジタルトランスフォーメーションと組織（Digital Transformation and Organizations）]]
-- [[起業家的主体性（Entrepreneurial Subjectivity）]]
-- [[テクノ楽観主義（Techno-optimism）]]
-- [[投機的価値（Speculative Value）]]
-- [[知識集約型産業（Knowledge-Intensive Industries）]]
-- [[大規模言語モデル（Large Language Models）]]
+- 専門知識とAI（Expertise and Artificial Intelligence）
+- 専門職サービスファーム（Professional Service Firms）
+- アルゴリズム的意思決定（Algorithmic Decision-Making）
+- デジタルトランスフォーメーションと組織（Digital Transformation and Organizations）
+- 起業家的主体性（Entrepreneurial Subjectivity）
+- テクノ楽観主義（Techno-optimism）
+- 投機的価値（Speculative Value）
+- 知識集約型産業（Knowledge-Intensive Industries）
+- 大規模言語モデル（Large Language Models）
 
 ---
 

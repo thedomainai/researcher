@@ -51,14 +51,14 @@ Smolicらの事例研究（2026）では、コーディングモデルを用い�
 
 ## 関連概念
 
-- [[ユニットテスト（Unit Testing）]]
-- [[テスト駆動開発（Test-Driven Development, TDD）]]
-- [[コードリファクタリング（Code Refactoring）]]
-- [[最小実行可能プロダクト（MVP）]]
-- [[技術的負債（Technical Debt）]]
-- [[大規模言語モデル（Large Language Models, LLM）]]
-- [[AIコーディングアシスタント（AI Coding Assistant）]]
-- [[継続的インテグレーション（CI/CD）]]
+- ユニットテスト（Unit Testing）
+- テスト駆動開発（Test-Driven Development, TDD）
+- コードリファクタリング（Code Refactoring）
+- 最小実行可能プロダクト（MVP）
+- 技術的負債（Technical Debt）
+- 大規模言語モデル（Large Language Models, LLM）
+- AIコーディングアシスタント（AI Coding Assistant）
+- 継続的インテグレーション（CI/CD）
 
 ---
 

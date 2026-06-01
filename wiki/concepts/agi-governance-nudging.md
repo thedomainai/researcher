@@ -55,16 +55,16 @@ Zhang et al.（2026）は、AGIガバナンスにおける**人間とAIの協働
 
 ## 関連概念
 
-- [[人工汎用知能（AGI）]]
-- [[ナッジ理論]]
-- [[AIガバナンス]]
-- [[行動経済学]]
-- [[チョイス・アーキテクチャ]]
-- [[戦略的先見性（Strategic Foresight）]]
-- [[デジタル民主主義]]
-- [[人間とAIの協働（Human-AI Collaboration）]]
-- [[AIリスク管理]]
-- [[倫理的AI設計]]
+- 人工汎用知能（AGI）
+- ナッジ理論
+- AIガバナンス
+- 行動経済学
+- チョイス・アーキテクチャ
+- 戦略的先見性（Strategic Foresight）
+- デジタル民主主義
+- [[human-ai-collaboration|人間とAIの協働（Human-AI Collaboration）]]
+- AIリスク管理
+- 倫理的AI設計
 
 ---
 

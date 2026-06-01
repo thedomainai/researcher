@@ -64,16 +64,16 @@ Whitmer（2026）の研究は、収束の根本的なメカニズムに迫る理
 
 ## 関連概念
 
-- [[大規模言語モデル (Large Language Models)]]
-- [[項構造構文 (Argument Structure Constructions)]]
-- [[脳波解析 (EEG Analysis)]]
-- [[情報理論と言語 (Information Theory and Language)]]
-- [[認知神経科学 (Cognitive Neuroscience)]]
-- [[ニューラル言語処理 (Neural Language Processing)]]
-- [[構文論 (Syntax)]]
-- [[シャノンエントロピー (Shannon Entropy)]]
-- [[ワーキングメモリ (Working Memory)]]
-- [[計算論的言語学 (Computational Linguistics)]]
+- 大規模言語モデル (Large Language Models)
+- 項構造構文 (Argument Structure Constructions)
+- 脳波解析 (EEG Analysis)
+- 情報理論と言語 (Information Theory and Language)
+- 認知神経科学 (Cognitive Neuroscience)
+- ニューラル言語処理 (Neural Language Processing)
+- 構文論 (Syntax)
+- シャノンエントロピー (Shannon Entropy)
+- ワーキングメモリ (Working Memory)
+- 計算論的言語学 (Computational Linguistics)
 
 ---
 

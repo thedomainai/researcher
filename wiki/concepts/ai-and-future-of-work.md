@@ -51,15 +51,15 @@ Hanはさらに、AI文明への移行が「雇用創出の仕組み」そのも
 
 ## 関連概念
 
-- [[生成AI（Generative AI）]]
-- [[自動化と雇用（Automation and Employment）]]
-- [[ChatGPT]]
-- [[AIと教育]]
-- [[デジタルプラットフォーム経済]]
-- [[技術的失業（Technological Unemployment）]]
-- [[人間とAIの協働（Human-AI Collaboration）]]
-- [[AIガバナンスと政策]]
-- [[第四次産業革命]]
+- 生成AI（Generative AI）
+- 自動化と雇用（Automation and Employment）
+- ChatGPT
+- AIと教育
+- デジタルプラットフォーム経済
+- 技術的失業（Technological Unemployment）
+- [[human-ai-collaboration|人間とAIの協働（Human-AI Collaboration）]]
+- AIガバナンスと政策
+- 第四次産業革命
 
 ---
 

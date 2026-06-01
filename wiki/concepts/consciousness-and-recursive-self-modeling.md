@@ -43,15 +43,15 @@ W. Ross Ashby（1956）の**サイバネティクス入門**は、自己組織�
 
 ## 関連概念
 
-- [[統合情報理論（Integrated Information Theory）]]
-- [[グローバルワークスペース理論（Global Workspace Theory）]]
-- [[予測処理（Predictive Processing）]]
-- [[高次表現モデル（Higher-Order Representational Models）]]
-- [[サイバネティクス（Cybernetics）]]
-- [[人工知能における意識（Consciousness in Artificial Intelligence）]]
-- [[自己参照と自己組織化（Self-Reference and Self-Organization）]]
-- [[情報統合（Informational Integration）]]
-- [[認知の多重基盤論（Multiple Realizability of Cognition）]]
+- 統合情報理論（Integrated Information Theory）
+- グローバルワークスペース理論（Global Workspace Theory）
+- 予測処理（Predictive Processing）
+- 高次表現モデル（Higher-Order Representational Models）
+- サイバネティクス（Cybernetics）
+- 人工知能における意識（Consciousness in Artificial Intelligence）
+- 自己参照と自己組織化（Self-Reference and Self-Organization）
+- 情報統合（Informational Integration）
+- 認知の多重基盤論（Multiple Realizability of Cognition）
 
 ---
 

@@ -71,15 +71,15 @@ Whitmerはこの収束の原因として「熱力学的コストのバシン（t
 
 ## 関連概念
 
-- [[項構造構文（Argument Structure Constructions）]]
-- [[神経言語学（Neurolinguistics）]]
-- [[脳波（EEG）と言語処理]]
-- [[大規模言語モデル（Large Language Models）]]
-- [[情報理論と言語エントロピー]]
-- [[認知的制約と言語構造]]
-- [[構成主義的言語学（Construction Grammar）]]
-- [[ワーキングメモリと言語処理]]
-- [[AIの解釈可能性（AI Interpretability）]]
+- 項構造構文（Argument Structure Constructions）
+- 神経言語学（Neurolinguistics）
+- 脳波（EEG）と言語処理
+- 大規模言語モデル（Large Language Models）
+- 情報理論と言語エントロピー
+- 認知的制約と言語構造
+- 構成主義的言語学（Construction Grammar）
+- ワーキングメモリと言語処理
+- AIの解釈可能性（AI Interpretability）
 
 ---
 

@@ -61,14 +61,14 @@ Whitmer（2026）は、より根本的な問いを立てている。なぜ大規
 
 ## 関連概念
 
-- [[論証構造構文（Argument Structure Constructions）]]
-- [[脳波（EEG）と言語処理]]
-- [[大規模言語モデル（Large Language Models）]]
-- [[情報理論と言語エントロピー]]
-- [[構文論（Constructional Grammar）]]
-- [[ワーキングメモリと認知スループット]]
-- [[神経言語学（Neurolinguistics）]]
-- [[シャノンエントロピーと自然言語]]
+- 論証構造構文（Argument Structure Constructions）
+- 脳波（EEG）と言語処理
+- 大規模言語モデル（Large Language Models）
+- 情報理論と言語エントロピー
+- 構文論（Constructional Grammar）
+- ワーキングメモリと認知スループット
+- 神経言語学（Neurolinguistics）
+- シャノンエントロピーと自然言語
 
 ---
 

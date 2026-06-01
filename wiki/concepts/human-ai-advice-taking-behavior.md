@@ -53,16 +53,16 @@ Serez（2026）の研究は、デジタル市場における**感情的共鳴（
 
 ## 関連概念
 
-- [[AIの擬人化（AI Anthropomorphism）]]
-- [[調節焦点理論（Regulatory Focus Theory）]]
-- [[感情的共鳴（Emotional Resonance）]]
-- [[消費者行動（Consumer Behavior）]]
-- [[アドバイス受容（Advice Taking）]]
-- [[人間とAIの信頼（Human-AI Trust）]]
-- [[意思決定支援システム（Decision Support System）]]
-- [[行動経済学（Behavioral Economics）]]
-- [[アルゴリズム的意思決定（Algorithmic Decision-Making）]]
-- [[危機状況における意思決定（Crisis Decision-Making）]]
+- AIの擬人化（AI Anthropomorphism）
+- 調節焦点理論（Regulatory Focus Theory）
+- 感情的共鳴（Emotional Resonance）
+- 消費者行動（Consumer Behavior）
+- アドバイス受容（Advice Taking）
+- [[human-ai-trust|人間とAIの信頼（Human-AI Trust）]]
+- 意思決定支援システム（Decision Support System）
+- 行動経済学（Behavioral Economics）
+- アルゴリズム的意思決定（Algorithmic Decision-Making）
+- 危機状況における意思決定（Crisis Decision-Making）
 
 ---
 

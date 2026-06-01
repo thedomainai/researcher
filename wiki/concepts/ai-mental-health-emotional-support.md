@@ -53,14 +53,14 @@ AIによる支援は従来の心理療法に取って代わるものとして捉
 
 ## 関連概念
 
-- [[感情認識・感情推定 (Emotion Recognition and Affective Computing)]]
-- [[会話エージェントと対話システム (Conversational Agents and Dialogue Systems)]]
-- [[マルチモーダルAI (Multimodal AI)]]
-- [[AIの倫理・公平性・安全性 (AI Ethics, Fairness, and Safety)]]
-- [[デジタルヘルスと医療AI (Digital Health and Medical AI)]]
-- [[高齢者とAI (AI for Older Adults)]]
-- [[ヒューマンコンピュータインタラクション (Human-Computer Interaction)]]
-- [[AIによる偏見・差別とバイアス (AI Bias and Discrimination)]]
+- 感情認識・感情推定 (Emotion Recognition and Affective Computing)
+- 会話エージェントと対話システム (Conversational Agents and Dialogue Systems)
+- マルチモーダルAI (Multimodal AI)
+- AIの倫理・公平性・安全性 (AI Ethics, Fairness, and Safety)
+- デジタルヘルスと医療AI (Digital Health and Medical AI)
+- 高齢者とAI (AI for Older Adults)
+- ヒューマンコンピュータインタラクション (Human-Computer Interaction)
+- AIによる偏見・差別とバイアス (AI Bias and Discrimination)
 
 ---
 

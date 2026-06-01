@@ -51,13 +51,13 @@ S-TCO のような教育オントロジーは、以下のような機能を果�
 
 ## 関連概念
 
-- [[コンテキストアウェアシステム（Context-Aware Systems）]]
-- [[知識表現とオントロジー工学（Knowledge Representation and Ontology Engineering）]]
-- [[適応型学習システム（Adaptive Learning Systems）]]
-- [[インテリジェント教育システム（Intelligent Tutoring Systems）]]
-- [[認知科学と教育（Cognitive Science in Education）]]
-- [[セマンティックウェブ（Semantic Web）]]
-- [[学習者モデリング（Learner Modeling）]]
+- コンテキストアウェアシステム（Context-Aware Systems）
+- 知識表現とオントロジー工学（Knowledge Representation and Ontology Engineering）
+- 適応型学習システム（Adaptive Learning Systems）
+- インテリジェント教育システム（Intelligent Tutoring Systems）
+- 認知科学と教育（Cognitive Science in Education）
+- セマンティックウェブ（Semantic Web）
+- 学習者モデリング（Learner Modeling）
 
 ---
 

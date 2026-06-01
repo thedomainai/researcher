@@ -43,14 +43,14 @@ Cosmin Angheluta（2026）は、この現象を **「起業家的デジタル自
 
 ## 関連概念
 
-- [[デジタル自警行為 (Digilantism)]]
-- [[スキャムベイティング (Scambaiting)]]
-- [[ドラマトゥルギー分析 (Dramaturgical Analysis)]]
-- [[象徴的相互作用論 (Symbolic Interactionism)]]
-- [[コンテンツ経済・クリエイターエコノミー (Creator Economy)]]
-- [[オンライン詐欺対策 (Online Fraud Prevention)]]
-- [[グラウンデッドセオリー (Grounded Theory)]]
-- [[Erving Goffman]]
+- デジタル自警行為 (Digilantism)
+- スキャムベイティング (Scambaiting)
+- ドラマトゥルギー分析 (Dramaturgical Analysis)
+- 象徴的相互作用論 (Symbolic Interactionism)
+- コンテンツ経済・クリエイターエコノミー (Creator Economy)
+- オンライン詐欺対策 (Online Fraud Prevention)
+- グラウンデッドセオリー (Grounded Theory)
+- Erving Goffman
 
 ---
 

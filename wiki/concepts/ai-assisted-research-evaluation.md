@@ -53,13 +53,13 @@ AI評価システムの実用化には、その**妥当性検証（Validation）
 
 ## 関連概念
 
-- [[大規模言語モデル（Large Language Models）]]
-- [[人間-AI協働（Human-AI Collaboration）]]
-- [[責任ある研究実践（Responsible Research Practices）]]
-- [[ピアレビュー自動化（Automated Peer Review）]]
-- [[研究再現性（Research Reproducibility）]]
-- [[系統的レビュー（Systematic Review）]]
-- [[科学的報告ガイドライン（Scientific Reporting Guidelines）]]
+- 大規模言語モデル（Large Language Models）
+- [[human-ai-collaboration|人間-AI協働（Human-AI Collaboration）]]
+- 責任ある研究実践（Responsible Research Practices）
+- ピアレビュー自動化（Automated Peer Review）
+- 研究再現性（Research Reproducibility）
+- 系統的レビュー（Systematic Review）
+- 科学的報告ガイドライン（Scientific Reporting Guidelines）
 
 ---
 

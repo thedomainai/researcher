@@ -50,16 +50,16 @@ Sandstedt ら（2026）による研究は、**文法的微変異**（grammatical
 
 ## 関連概念
 
-- [[事象関連電位（ERP）]]
-- [[形態統語一致（Morphosyntactic Agreement）]]
-- [[言語変化と社会言語学]]
-- [[方言と神経処理（Dialect and Neural Processing）]]
-- [[文処理のオンライン測定]]
-- [[ノルウェー語の分詞一致]]
-- [[言語の微変異（Linguistic Microvariation）]]
-- [[個人差と言語処理]]
-- [[予測的符号化と言語（Predictive Coding in Language）]]
-- [[産出と理解の相互作用]]
+- 事象関連電位（ERP）
+- 形態統語一致（Morphosyntactic Agreement）
+- 言語変化と社会言語学
+- 方言と神経処理（Dialect and Neural Processing）
+- 文処理のオンライン測定
+- ノルウェー語の分詞一致
+- 言語の微変異（Linguistic Microvariation）
+- 個人差と言語処理
+- 予測的符号化と言語（Predictive Coding in Language）
+- 産出と理解の相互作用
 
 ---
 

@@ -59,16 +59,16 @@ Guzmán-Pando らの研究（2026）は、医療分野における具体的な�
 
 ## 関連概念
 
-- [[説明可能なAI（Explainable AI）]]
-- [[自動化バイアス（Automation Bias）]]
-- [[信頼キャリブレーション（Trust Calibration）]]
-- [[ユーザーインターフェース設計（UI/UX Design）]]
-- [[AI意思決定支援システム（AI Decision Support System）]]
-- [[技術受容モデル（Technology Acceptance Model）]]
-- [[認知負荷理論（Cognitive Load Theory）]]
-- [[ヒューマン・コンピュータ・インタラクション（HCI）]]
-- [[オートメーション・バイアス（Automation Bias）]]
-- [[機械学習の医療応用（Machine Learning in Healthcare）]]
+- 説明可能なAI（Explainable AI）
+- 自動化バイアス（Automation Bias）
+- 信頼キャリブレーション（Trust Calibration）
+- ユーザーインターフェース設計（UI/UX Design）
+- [[ai-decision-support-systems|AI意思決定支援システム（AI Decision Support System）]]
+- 技術受容モデル（Technology Acceptance Model）
+- [[cognitive-load-theory|認知負荷理論（Cognitive Load Theory）]]
+- ヒューマン・コンピュータ・インタラクション（HCI）
+- オートメーション・バイアス（Automation Bias）
+- 機械学習の医療応用（Machine Learning in Healthcare）
 
 ---
 

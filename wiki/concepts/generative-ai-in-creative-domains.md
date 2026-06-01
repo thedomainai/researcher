@@ -70,16 +70,16 @@ Lin（2026）の三研究からなる学位論文は、EFL（外国語として�
 
 ## 関連概念
 
-- [[生成AI（Generative AI）]]
-- [[創造性と人工知能（Creativity and AI）]]
-- [[ヒューマン・コンピュータ・インタラクション（HCI）]]
-- [[協働学習（Collaborative Learning）]]
-- [[AIを活用した教育（AI-Enhanced Education）]]
-- [[ゲームスタディーズ（Game Studies）]]
-- [[EFLライティング教育（EFL Writing Pedagogy）]]
-- [[視点取得（Perspective-Taking）]]
-- [[大規模言語モデル（Large Language Models）]]
-- [[質的研究統合（Qualitative Research Synthesis）]]
+- 生成AI（Generative AI）
+- 創造性と人工知能（Creativity and AI）
+- ヒューマン・コンピュータ・インタラクション（HCI）
+- 協働学習（Collaborative Learning）
+- AIを活用した教育（AI-Enhanced Education）
+- ゲームスタディーズ（Game Studies）
+- EFLライティング教育（EFL Writing Pedagogy）
+- 視点取得（Perspective-Taking）
+- 大規模言語モデル（Large Language Models）
+- 質的研究統合（Qualitative Research Synthesis）
 
 ---
 

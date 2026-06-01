@@ -56,14 +56,14 @@ Song, Li, Yu（2026）は、医療用チャットボットが患者の記録・�
 
 ## 関連概念
 
-- [[プライバシー・バイ・デザイン (Privacy by Design)]]
-- [[個人識別情報 (Personally Identifiable Information, PII)]]
-- [[医療AI倫理 (Medical AI Ethics)]]
-- [[人間とAIのインタラクション (Human-AI Interaction)]]
-- [[データ最小化原則 (Data Minimization)]]
-- [[インフォームドコンセントとデジタルデータ (Informed Consent and Digital Data)]]
-- [[感情AIと感情認識 (Affective AI and Emotion Recognition)]]
-- [[ニューロライツ (Neurorights)]]
+- プライバシー・バイ・デザイン (Privacy by Design)
+- 個人識別情報 (Personally Identifiable Information, PII)
+- 医療AI倫理 (Medical AI Ethics)
+- [[human-ai-interaction|人間とAIのインタラクション (Human-AI Interaction)]]
+- データ最小化原則 (Data Minimization)
+- インフォームドコンセントとデジタルデータ (Informed Consent and Digital Data)
+- 感情AIと感情認識 (Affective AI and Emotion Recognition)
+- ニューロライツ (Neurorights)
 
 ---
 

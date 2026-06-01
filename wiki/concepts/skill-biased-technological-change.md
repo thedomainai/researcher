@@ -68,15 +68,15 @@ SBTCは広く支持される理論だが、いくつかの批判・代替仮説�
 
 ## 関連概念
 
-- [[労働市場の極化（Job Polarization）]]
-- [[自動化と雇用（Automation and Employment）]]
-- [[人工知能と労働（Artificial Intelligence and Labor）]]
-- [[賃金不平等（Wage Inequality）]]
-- [[ルーティン化仮説（Routine-Biased Technological Change）]]
-- [[人的資本理論（Human Capital Theory）]]
-- [[タスクベースモデル（Task-Based Model）]]
-- [[教育プレミアム（Education Premium）]]
-- [[テクノロジーと格差（Technology and Inequality）]]
+- 労働市場の極化（Job Polarization）
+- 自動化と雇用（Automation and Employment）
+- 人工知能と労働（Artificial Intelligence and Labor）
+- 賃金不平等（Wage Inequality）
+- ルーティン化仮説（Routine-Biased Technological Change）
+- 人的資本理論（Human Capital Theory）
+- タスクベースモデル（Task-Based Model）
+- 教育プレミアム（Education Premium）
+- テクノロジーと格差（Technology and Inequality）
 
 ---
 

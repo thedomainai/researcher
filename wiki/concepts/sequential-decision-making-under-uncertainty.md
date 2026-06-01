@@ -72,17 +72,17 @@ Di Zhu による研究（2030）は、ホスピタリティおよび観光産業
 
 ## 関連概念
 
-- [[強化学習（Reinforcement Learning）]]
-- [[マルコフ決定過程（Markov Decision Process）]]
-- [[バンディット問題（Multi-Armed Bandit Problem）]]
-- [[探索と活用のトレードオフ（Exploration-Exploitation Tradeoff）]]
-- [[ベイズ最適化（Bayesian Optimization）]]
-- [[進化的ゲーム理論（Evolutionary Game Theory）]]
-- [[文脈バンディット（Contextual Bandit）]]
-- [[臨床意思決定支援（Clinical Decision Support）]]
-- [[AI ガバナンス（AI Governance）]]
-- [[FHIR（Fast Healthcare Interoperability Resources）]]
-- [[行動経済学（Behavioral Economics）]]
+- 強化学習（Reinforcement Learning）
+- マルコフ決定過程（Markov Decision Process）
+- バンディット問題（Multi-Armed Bandit Problem）
+- [[exploration-vs-exploitation|探索と活用のトレードオフ（Exploration-Exploitation Tradeoff）]]
+- ベイズ最適化（Bayesian Optimization）
+- 進化的ゲーム理論（Evolutionary Game Theory）
+- 文脈バンディット（Contextual Bandit）
+- 臨床意思決定支援（Clinical Decision Support）
+- AI ガバナンス（AI Governance）
+- FHIR（Fast Healthcare Interoperability Resources）
+- 行動経済学（Behavioral Economics）
 
 ---
 

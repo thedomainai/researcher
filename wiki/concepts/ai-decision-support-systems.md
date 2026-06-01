@@ -68,16 +68,16 @@ AI-DSSの設計において、展開対象となる環境の制約を考慮す�
 
 ## 関連概念
 
-- [[電子医療記録 (Electronic Medical Records)]]
-- [[大規模言語モデル (Large Language Models)]]
-- [[自動音声認識 (Automatic Speech Recognition)]]
-- [[アンサンブル学習 (Ensemble Learning)]]
-- [[説明可能なAI (Explainable AI)]]
-- [[Human-Computer Interaction (HCI)]]
-- [[母子保健 (Maternal Healthcare)]]
-- [[医療AIの公平性 (Fairness in Medical AI)]]
-- [[プロンプトエンジニアリング (Prompt Engineering)]]
-- [[臨床リスク予測 (Clinical Risk Prediction)]]
+- 電子医療記録 (Electronic Medical Records)
+- 大規模言語モデル (Large Language Models)
+- 自動音声認識 (Automatic Speech Recognition)
+- アンサンブル学習 (Ensemble Learning)
+- 説明可能なAI (Explainable AI)
+- Human-Computer Interaction (HCI)
+- 母子保健 (Maternal Healthcare)
+- 医療AIの公平性 (Fairness in Medical AI)
+- プロンプトエンジニアリング (Prompt Engineering)
+- 臨床リスク予測 (Clinical Risk Prediction)
 
 ---
 

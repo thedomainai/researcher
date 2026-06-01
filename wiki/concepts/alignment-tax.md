@@ -44,16 +44,16 @@ Microsoft社の**Tay**（2016年公開後すぐに問題発言を繰り返した
 
 ## 関連概念
 
-- [[RLHF（人間のフィードバックによる強化学習）]]
-- [[AIアライメント]]
-- [[破滅的忘却（Catastrophic Forgetting）]]
-- [[迎合性（Sycophancy）]]
-- [[ジェイルブレイク（Jailbreaking）]]
-- [[アブリタレーション（Abliteration）]]
-- [[大規模言語モデル（LLM）]]
-- [[AIガバナンス]]
-- [[AIセーフティ]]
-- [[ファインチューニング]]
+- RLHF（人間のフィードバックによる強化学習）
+- AIアライメント
+- 破滅的忘却（Catastrophic Forgetting）
+- 迎合性（Sycophancy）
+- ジェイルブレイク（Jailbreaking）
+- アブリタレーション（Abliteration）
+- 大規模言語モデル（LLM）
+- AIガバナンス
+- AIセーフティ
+- ファインチューニング
 
 ---
 

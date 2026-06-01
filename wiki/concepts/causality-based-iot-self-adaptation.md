@@ -64,15 +64,15 @@ CRAFTERの主要な特徴として以下が挙げられる：
 
 ## 関連概念
 
-- [[自律適応システム（Self-Adaptive Systems）]]
-- [[因果推論（Causal Inference）]]
-- [[IoTアーキテクチャ（IoT Architecture）]]
-- [[MAPE-Kフィードバックループ]]
-- [[エッジコンピューティング（Edge Computing）]]
-- [[根本原因分析（Root Cause Analysis）]]
-- [[機械学習によるシステム管理（AIOps）]]
-- [[分散システム（Distributed Systems）]]
-- [[デジタルツイン（Digital Twin）]]
+- 自律適応システム（Self-Adaptive Systems）
+- 因果推論（Causal Inference）
+- IoTアーキテクチャ（IoT Architecture）
+- MAPE-Kフィードバックループ
+- エッジコンピューティング（Edge Computing）
+- 根本原因分析（Root Cause Analysis）
+- 機械学習によるシステム管理（AIOps）
+- 分散システム（Distributed Systems）
+- デジタルツイン（Digital Twin）
 
 ---
 

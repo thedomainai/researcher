@@ -49,18 +49,18 @@ MARLは実用的なエネルギーシステムにも応用されている。Ren 
 
 ## 関連概念
 
-- [[強化学習（Reinforcement Learning）]]
-- [[マルコフ決定過程（Markov Decision Process）]]
-- [[分散型部分観測マルコフ決定過程（DEC-POMDP）]]
-- [[Q学習（Q-Learning）]]
-- [[ビザンチン耐性（Byzantine Fault Tolerance）]]
-- [[コモンズの悲劇（Tragedy of the Commons）]]
-- [[多目的最適化（Multi-objective Optimization）]]
-- [[ピア・ツー・ピアエネルギー取引（P2P Energy Trading）]]
-- [[マイクログリッド（Microgrid）]]
-- [[進化ゲーム理論（Evolutionary Game Theory）]]
-- [[分散最適化（Distributed Optimization）]]
-- [[複雑適応系（Complex Adaptive Systems）]]
+- 強化学習（Reinforcement Learning）
+- マルコフ決定過程（Markov Decision Process）
+- 分散型部分観測マルコフ決定過程（DEC-POMDP）
+- Q学習（Q-Learning）
+- ビザンチン耐性（Byzantine Fault Tolerance）
+- コモンズの悲劇（Tragedy of the Commons）
+- 多目的最適化（Multi-objective Optimization）
+- ピア・ツー・ピアエネルギー取引（P2P Energy Trading）
+- マイクログリッド（Microgrid）
+- 進化ゲーム理論（Evolutionary Game Theory）
+- 分散最適化（Distributed Optimization）
+- [[complex-adaptive-systems|複雑適応系（Complex Adaptive Systems）]]
 
 ---
 

@@ -47,14 +47,14 @@ Sutherland・Tanweer（2026）は、大規模な天文学的サーベイプロ�
 
 ## 関連概念
 
-- [[ハイブリッドシステム (Hybrid Human-AI System)]]
-- [[社会技術的アサンブラージュ (Sociotechnical Assemblage)]]
-- [[アルゴリズムの透明性 (Algorithmic Transparency)]]
-- [[科学技術研究 (Science and Technology Studies)]]
-- [[アクターネットワーク理論 (Actor-Network Theory)]]
-- [[エスノグラフィーとAI研究]]
-- [[人間-AI協働 (Human-AI Collaboration)]]
-- [[アルゴリズムの説明可能性 (Explainability)]]
+- ハイブリッドシステム (Hybrid Human-AI System)
+- [[sociotechnical-assemblage|社会技術的アサンブラージュ (Sociotechnical Assemblage)]]
+- [[algorithmic-transparency|アルゴリズムの透明性 (Algorithmic Transparency)]]
+- 科学技術研究 (Science and Technology Studies)
+- アクターネットワーク理論 (Actor-Network Theory)
+- エスノグラフィーとAI研究
+- [[human-ai-collaboration|人間-AI協働 (Human-AI Collaboration)]]
+- アルゴリズムの説明可能性 (Explainability)
 
 ---
 

@@ -54,14 +54,14 @@ AI言語学習ツールは、その機能や用途に応じて以下のように
 
 ## 関連概念
 
-- [[適応型学習（Adaptive Learning）]]
-- [[自然言語処理（Natural Language Processing）]]
-- [[インテリジェント・チュータリング・システム（ITS）]]
-- [[特殊目的英語（English for Specific Purposes）]]
-- [[自己主導型学習（Self-directed Learning）]]
-- [[教育工学（Educational Technology）]]
-- [[チャットボット（Chatbot）]]
-- [[パーソナライズド学習（Personalized Learning）]]
+- 適応型学習（Adaptive Learning）
+- 自然言語処理（Natural Language Processing）
+- インテリジェント・チュータリング・システム（ITS）
+- 特殊目的英語（English for Specific Purposes）
+- 自己主導型学習（Self-directed Learning）
+- 教育工学（Educational Technology）
+- チャットボット（Chatbot）
+- パーソナライズド学習（Personalized Learning）
 
 ---
 

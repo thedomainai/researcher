@@ -36,16 +36,16 @@ Rodríguez Blanco & Attencourt（2026）は、ビジネスリーダーによるA
 
 ## 関連概念
 
-- [[テクノ楽観主義 (Techno-Optimism)]]
-- [[金融化 (Financialization)]]
-- [[投機的価値 (Speculative Value)]]
-- [[民族誌的研究 (Ethnographic Research)]]
-- [[AIガバナンス (AI Governance)]]
-- [[アルゴリズム経営 (Algorithmic Management)]]
-- [[スタートアップ文化 (Startup Culture)]]
-- [[ベンチャーキャピタル (Venture Capital)]]
-- [[デジタル経済 (Digital Economy)]]
-- [[自己形成実践 (Self-Making Practices)]]
+- テクノ楽観主義 (Techno-Optimism)
+- 金融化 (Financialization)
+- 投機的価値 (Speculative Value)
+- 民族誌的研究 (Ethnographic Research)
+- AIガバナンス (AI Governance)
+- アルゴリズム経営 (Algorithmic Management)
+- スタートアップ文化 (Startup Culture)
+- ベンチャーキャピタル (Venture Capital)
+- デジタル経済 (Digital Economy)
+- 自己形成実践 (Self-Making Practices)
 
 ---
 

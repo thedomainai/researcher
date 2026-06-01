@@ -60,16 +60,16 @@ Rakesh Agrawal（2026）が提案する**Enterprise Digital Brain**は、企業�
 
 ## 関連概念
 
-- [[人間-AI協働（Human-AI Collaboration）]]
-- [[ITサービスマネジメント（ITSM）]]
-- [[ナレッジマネジメント]]
-- [[認知拡張（Cognitive Augmentation）]]
-- [[エンタープライズAI]]
-- [[ユーザーインターフェース設計]]
-- [[マルチモーダルAIシステム]]
-- [[エピソード記憶と情報検索]]
-- [[AIガバナンス]]
-- [[デジタルトランスフォーメーション（DX）]]
+- [[human-ai-collaboration|人間-AI協働（Human-AI Collaboration）]]
+- ITサービスマネジメント（ITSM）
+- ナレッジマネジメント
+- 認知拡張（Cognitive Augmentation）
+- エンタープライズAI
+- ユーザーインターフェース設計
+- マルチモーダルAIシステム
+- エピソード記憶と情報検索
+- AIガバナンス
+- デジタルトランスフォーメーション（DX）
 
 ---
 

@@ -34,14 +34,14 @@ Westling & Bjurling（2026）はこの構造を「**不和の配当（discord di
 
 ## 関連概念
 
-- [[エコーチェンバー（Echo Chamber）]]
-- [[フィルターバブル（Filter Bubble）]]
-- [[ポピュリズムとデジタルメディア]]
-- [[ケンブリッジ・アナリティカ事件]]
-- [[プラットフォーム資本主義（Platform Capitalism）]]
-- [[公共圏（Public Sphere）]]
-- [[マイクロターゲティング（Microtargeting）]]
-- [[複雑系科学と社会現象]]
+- エコーチェンバー（Echo Chamber）
+- フィルターバブル（Filter Bubble）
+- ポピュリズムとデジタルメディア
+- ケンブリッジ・アナリティカ事件
+- プラットフォーム資本主義（Platform Capitalism）
+- 公共圏（Public Sphere）
+- マイクロターゲティング（Microtargeting）
+- 複雑系科学と社会現象
 
 ---
 
@@ -49,4 +49,4 @@ Westling & Bjurling（2026）はこの構造を「**不和の配当（discord di
 
 | タイトル | 著者 | 年 |
 |---|---|---|
-| [Challenging the discord dividend](raw/challenging_the_discord_dividend.md) | Carina Westling, O. Bjurling | 2026 |
+| [Challenging the discord dividend](（パス未確認）) | Carina Westling, O. Bjurling | 2026 |

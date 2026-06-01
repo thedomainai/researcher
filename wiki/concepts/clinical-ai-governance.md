@@ -69,15 +69,15 @@ Borges（2026）が提案する**FHIRネイティブ適応型ガバナンスフ�
 
 ## 関連概念
 
-- [[臨床意思決定支援システム (Clinical Decision Support System)]]
-- [[HL7 FHIR (Fast Healthcare Interoperability Resources)]]
-- [[医療AIの説明可能性 (Explainable AI in Healthcare)]]
-- [[逐次的意思決定 (Sequential Decision Making)]]
-- [[バンディット問題 (Multi-Armed Bandit Problem)]]
-- [[医療情報インターオペラビリティ (Healthcare Interoperability)]]
-- [[AIモデル監査 (AI Model Auditing)]]
-- [[強化学習 (Reinforcement Learning)]]
-- [[医療規制・コンプライアンス (Healthcare Regulatory Compliance)]]
+- 臨床意思決定支援システム (Clinical Decision Support System)
+- HL7 FHIR (Fast Healthcare Interoperability Resources)
+- 医療AIの説明可能性 (Explainable AI in Healthcare)
+- 逐次的意思決定 (Sequential Decision Making)
+- バンディット問題 (Multi-Armed Bandit Problem)
+- 医療情報インターオペラビリティ (Healthcare Interoperability)
+- AIモデル監査 (AI Model Auditing)
+- 強化学習 (Reinforcement Learning)
+- 医療規制・コンプライアンス (Healthcare Regulatory Compliance)
 
 ---
 
@@ -87,7 +87,7 @@ Borges（2026）が提案する**FHIRネイティブ適応型ガバナンスフ�
 |----------|------|----|-----|
 | Adaptive FHIR-Native AI Governance for Clinical Decision Support - v1.0 – Manuscript Release | MS Julian Borges MD | 2026 | [10.5281/zenodo.18356746](https://doi.org/10.5281/zenodo.18356746) |
 
-> **ファイルパス**: `raw/adaptive-fhir-native-ai-governance-for-clinical-decision-support-v10-manuscript-release.md`
+> **ファイルパス**: （パス未確認）
 
 ---
 

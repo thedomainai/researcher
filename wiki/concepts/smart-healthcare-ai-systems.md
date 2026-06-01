@@ -44,15 +44,15 @@
 
 ## 関連概念
 
-- [[連合学習 (Federated Learning)]]
-- [[エッジコンピューティングと医療IoT]]
-- [[生物医学固有表現認識 (Biomedical NER)]]
-- [[大規模言語モデル (Large Language Models)]]
-- [[電子カルテと医療情報システム]]
-- [[ブロックチェーンと医療データ管理]]
-- [[プライバシー保護型機械学習]]
-- [[書誌計量分析 (Bibliometric Analysis)]]
-- [[クラウドコンピューティングと医療インフラ]]
+- [[federated-learning|連合学習 (Federated Learning)]]
+- エッジコンピューティングと医療IoT
+- 生物医学固有表現認識 (Biomedical NER)
+- 大規模言語モデル (Large Language Models)
+- 電子カルテと医療情報システム
+- ブロックチェーンと医療データ管理
+- プライバシー保護型機械学習
+- 書誌計量分析 (Bibliometric Analysis)
+- クラウドコンピューティングと医療インフラ
 
 ---
 

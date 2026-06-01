@@ -44,14 +44,14 @@ COCOAは以下のような応用・研究に寄与することが期待される
 
 ## 関連概念
 
-- [[引数マイニング（Argument Mining）]]
-- [[科学的主張検証（Scientific Claim Verification）]]
-- [[アノテーションコーパス]]
-- [[自然言語処理（NLP）]]
-- [[過大主張検出（Overclaiming Detection）]]
-- [[再現性危機（Reproducibility Crisis）]]
-- [[情報抽出（Information Extraction）]]
-- [[科学的言説分析]]
+- 引数マイニング（Argument Mining）
+- 科学的主張検証（Scientific Claim Verification）
+- アノテーションコーパス
+- 自然言語処理（NLP）
+- 過大主張検出（Overclaiming Detection）
+- 再現性危機（Reproducibility Crisis）
+- 情報抽出（Information Extraction）
+- 科学的言説分析
 
 ---
 

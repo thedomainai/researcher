@@ -32,15 +32,15 @@ Mohammadzadehら（2026）の研究は、**ユーザー主導型アルゴリズ�
 
 ## 関連概念
 
-- [[AIバイアス（AI Bias）]]
-- [[公平性と機械学習（Fairness in Machine Learning）]]
-- [[説明可能なAI（Explainable AI / XAI）]]
-- [[センスメイキング（Sensemaking）]]
-- [[ヒューマン・コンピュータ・インタラクション（HCI）]]
-- [[画像キャプション生成（Image Captioning）]]
-- [[AI倫理（AI Ethics）]]
-- [[データバイアスとトレーニングデータ（Data Bias and Training Data）]]
-- [[ユーザー中心設計（User-Centered Design）]]
+- AIバイアス（AI Bias）
+- 公平性と機械学習（Fairness in Machine Learning）
+- [[explainable-ai-xai|説明可能なAI（Explainable AI / XAI）]]
+- センスメイキング（Sensemaking）
+- ヒューマン・コンピュータ・インタラクション（HCI）
+- 画像キャプション生成（Image Captioning）
+- AI倫理（AI Ethics）
+- データバイアスとトレーニングデータ（Data Bias and Training Data）
+- ユーザー中心設計（User-Centered Design）
 
 ---
 

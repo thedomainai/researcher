@@ -62,16 +62,16 @@ Sterman が強調するのは、**複雑系における政策抵抗（policy res
 
 ## 関連概念
 
-- [[遺伝的アルゴリズム (Genetic Algorithms)]]
-- [[システムダイナミクス (System Dynamics)]]
-- [[創発 (Emergence)]]
-- [[自己組織化 (Self-Organization)]]
-- [[動的能力 (Dynamic Capabilities)]]
-- [[資源ベース理論 (Resource-Based View)]]
-- [[非線形力学系 (Nonlinear Dynamical Systems)]]
-- [[マルチエージェントシステム (Multi-Agent Systems)]]
-- [[ゲーム理論 (Game Theory)]]
-- [[パス依存性 (Path Dependency)]]
+- 遺伝的アルゴリズム (Genetic Algorithms)
+- システムダイナミクス (System Dynamics)
+- 創発 (Emergence)
+- 自己組織化 (Self-Organization)
+- [[dynamic-capabilities|動的能力 (Dynamic Capabilities)]]
+- 資源ベース理論 (Resource-Based View)
+- 非線形力学系 (Nonlinear Dynamical Systems)
+- [[multi-agent-systems|マルチエージェントシステム (Multi-Agent Systems)]]
+- ゲーム理論 (Game Theory)
+- パス依存性 (Path Dependency)
 
 ---
 
@@ -79,7 +79,7 @@ Sterman が強調するのは、**複雑系における政策抵抗（policy res
 
 | タイトル | 著者 | 年 |
 |---|---|---|
-| [Adaptation in Natural and Artificial Systems](raw/holland_1992_adaptation.md) | John H. Holland | 1992 |
-| [Dynamic capabilities: what are they?](raw/eisenhardt_martin_2000_dynamic.md) | Kathleen M. Eisenhardt, Jeffrey A. Martin | 2000 |
-| [System Dynamics: Systems Thinking and Modeling for a Complex World](raw/sterman_2002_system.md) | John D. Sterman | 2002 |
-| [Re-emergence of Dominant Coordination Frames Following Global Collapse](raw/seol_2026_reemergence.md) | Bin Seol | 2026 |
+| [Adaptation in Natural and Artificial Systems](（パス未確認）) | John H. Holland | 1992 |
+| [Dynamic capabilities: what are they?](（パス未確認）) | Kathleen M. Eisenhardt, Jeffrey A. Martin | 2000 |
+| [System Dynamics: Systems Thinking and Modeling for a Complex World](（パス未確認）) | John D. Sterman | 2002 |
+| [Re-emergence of Dominant Coordination Frames Following Global Collapse](（パス未確認）) | Bin Seol | 2026 |

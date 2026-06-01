@@ -47,14 +47,14 @@ Andy Clark（2013）は、異なる切り口から状況的認知の問題に接
 
 ## 関連概念
 
-- [[認知的徒弟制 (Cognitive Apprenticeship)]]
-- [[実践共同体 (Communities of Practice)]]
-- [[分散認知 (Distributed Cognition)]]
-- [[具現化された認知 (Embodied Cognition)]]
-- [[予測符号化 (Predictive Coding)]]
-- [[拡張された心 (Extended Mind)]]
-- [[文脈依存学習 (Context-Dependent Learning)]]
-- [[社会文化的学習理論 (Sociocultural Learning Theory)]]
+- 認知的徒弟制 (Cognitive Apprenticeship)
+- 実践共同体 (Communities of Practice)
+- 分散認知 (Distributed Cognition)
+- [[embodied-cognition|具現化された認知 (Embodied Cognition)]]
+- [[predictive-coding|予測符号化 (Predictive Coding)]]
+- 拡張された心 (Extended Mind)
+- 文脈依存学習 (Context-Dependent Learning)
+- 社会文化的学習理論 (Sociocultural Learning Theory)
 
 ---
 
@@ -63,9 +63,9 @@ Andy Clark（2013）は、異なる切り口から状況的認知の問題に接
 1. **Situated Cognition and the Culture of Learning**
    - 著者: John Seely Brown, Allan Collins, Paul Duguid（1989）
    - 被引用数: 12,892
-   - `raw/situated_cognition_culture_of_learning.md`
+   - （パス未確認）
 
 2. **Whatever next? Predictive brains, situated agents, and the future of cognitive science**
    - 著者: Andy Clark（2013）
    - 被引用数: 5,693
-   - `raw/whatever_next_predictive_brains_clark.md`
+   - （パス未確認）

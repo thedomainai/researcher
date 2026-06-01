@@ -71,16 +71,16 @@ Silambarasan & Shivaraj（2026）は、AI/MLシステムの大規模展開にお
 
 ## 関連概念
 
-- [[安全管理システム (Safety Management System)]]
-- [[リスクアセスメント (Risk Assessment)]]
-- [[フォールトトレランス (Fault Tolerance)]]
-- [[Natech事故 (Natural-Hazard-Triggered Technological Accidents)]]
-- [[信頼性工学 (Reliability Engineering)]]
-- [[MLOps]]
-- [[社会技術システム (Socio-Technical Systems)]]
-- [[ハードウェアトラストエンジニアリング (Hardware Trust Engineering)]]
-- [[冗長性設計 (Redundancy Design)]]
-- [[組織学習 (Organizational Learning)]]
+- 安全管理システム (Safety Management System)
+- リスクアセスメント (Risk Assessment)
+- フォールトトレランス (Fault Tolerance)
+- Natech事故 (Natural-Hazard-Triggered Technological Accidents)
+- 信頼性工学 (Reliability Engineering)
+- MLOps
+- [[sociotechnical-systems|社会技術システム (Socio-Technical Systems)]]
+- ハードウェアトラストエンジニアリング (Hardware Trust Engineering)
+- 冗長性設計 (Redundancy Design)
+- 組織学習 (Organizational Learning)
 
 ---
 

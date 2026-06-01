@@ -45,14 +45,14 @@ Griessl, Bareither & Vepřek（2026）は、人間とAIが関わる「ハイブ�
 
 ## 関連概念
 
-- [[説明可能なAI（Explainable AI / XAI）]]
-- [[アルゴリズムのアカウンタビリティ]]
-- [[社会技術システム（Sociotechnical System）]]
-- [[アセンブラージュ理論]]
-- [[ハイブリッド人間-AIシステム]]
-- [[データガバナンス]]
-- [[科学技術社会論（STS）]]
-- [[グラウンデッド・セオリー]]
+- [[explainable-ai-xai|説明可能なAI（Explainable AI / XAI）]]
+- アルゴリズムのアカウンタビリティ
+- [[sociotechnical-systems|社会技術システム（Sociotechnical System）]]
+- アセンブラージュ理論
+- ハイブリッド人間-AIシステム
+- データガバナンス
+- 科学技術社会論（STS）
+- グラウンデッド・セオリー
 
 ---
 

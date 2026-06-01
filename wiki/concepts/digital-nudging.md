@@ -71,16 +71,16 @@ Hernandez（2026）の研究では、**人工汎用知能（AGI: Artificial Gene
 
 ## 関連概念
 
-- [[ナッジ理論]]
-- [[チョイスアーキテクチャ]]
-- [[リバタリアン・パターナリズム]]
-- [[行動経済学]]
-- [[人工知能倫理]]
-- [[AIガバナンス]]
-- [[サービスロボット]]
-- [[推薦システム]]
-- [[ユーザーインターフェース設計]]
-- [[人工汎用知能 (AGI)]]
+- ナッジ理論
+- チョイスアーキテクチャ
+- リバタリアン・パターナリズム
+- 行動経済学
+- 人工知能倫理
+- AIガバナンス
+- サービスロボット
+- 推薦システム
+- ユーザーインターフェース設計
+- 人工汎用知能 (AGI)
 
 ---
 
@@ -88,6 +88,6 @@ Hernandez（2026）の研究では、**人工汎用知能（AGI: Artificial Gene
 
 | タイトル | 著者・年 |
 |----------|---------|
-| [Nudge and the Manipulation of Choice](raw/nudge_and_the_manipulation_of_choice.md) | Pelle Guldborg Hansen, Andreas Maaløe Jespersen (2013) |
-| [Governing Artificial General Intelligence through Smart Digital Nudging: A Systems-Culture Framework for Strategic Foresight (Appendices)](raw/governing_agi_smart_digital_nudging_appendices.md) | JESUS HERNANDEZ (2026) |
-| [Brave new world: service robots in the frontline](raw/brave_new_world_service_robots_frontline.md) | Jochen Wirtz et al. (2018) |
+| [Nudge and the Manipulation of Choice](（パス未確認）) | Pelle Guldborg Hansen, Andreas Maaløe Jespersen (2013) |
+| [Governing Artificial General Intelligence through Smart Digital Nudging: A Systems-Culture Framework for Strategic Foresight (Appendices)](（パス未確認）) | JESUS HERNANDEZ (2026) |
+| [Brave new world: service robots in the frontline](（パス未確認）) | Jochen Wirtz et al. (2018) |

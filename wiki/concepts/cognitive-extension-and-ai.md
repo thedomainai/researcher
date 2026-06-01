@@ -81,14 +81,14 @@ AIが「一時的な情報処理装置」から「継続的に学習・蓄積す
 
 ## 関連概念
 
-- [[拡張心理論 (Extended Mind Thesis)]]
-- [[分散認知 (Distributed Cognition)]]
-- [[ヒューマン・AIインタラクション (Human-AI Interaction)]]
-- [[AIエージェント (AI Agent)]]
-- [[Tools for Thought]]
-- [[知識管理 (Knowledge Management)]]
-- [[認知的オフローディング (Cognitive Offloading)]]
-- [[人間拡張 (Human Augmentation)]]
+- 拡張心理論 (Extended Mind Thesis)
+- 分散認知 (Distributed Cognition)
+- [[human-ai-interaction|ヒューマン・AIインタラクション (Human-AI Interaction)]]
+- AIエージェント (AI Agent)
+- Tools for Thought
+- 知識管理 (Knowledge Management)
+- 認知的オフローディング (Cognitive Offloading)
+- 人間拡張 (Human Augmentation)
 
 ---
 

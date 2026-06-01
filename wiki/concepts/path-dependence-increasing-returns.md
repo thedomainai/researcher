@@ -48,15 +48,15 @@ Piersonは、収穫逓増プロセスが政治分析において以下の重要�
 
 ## 関連概念
 
-- [[歴史的制度論 (Historical Institutionalism)]]
-- [[断絶均衡 (Punctuated Equilibrium)]]
-- [[制度変化 (Institutional Change)]]
-- [[ロックイン効果 (Lock-in Effect)]]
-- [[偶発性 (Contingency)]]
-- [[ポジティブ・フィードバック (Positive Feedback)]]
-- [[収穫逓増 (Increasing Returns)]]
-- [[技術変化と制度 (Technology and Institutions)]]
-- [[比較歴史分析 (Comparative Historical Analysis)]]
+- 歴史的制度論 (Historical Institutionalism)
+- 断絶均衡 (Punctuated Equilibrium)
+- 制度変化 (Institutional Change)
+- ロックイン効果 (Lock-in Effect)
+- 偶発性 (Contingency)
+- ポジティブ・フィードバック (Positive Feedback)
+- 収穫逓増 (Increasing Returns)
+- 技術変化と制度 (Technology and Institutions)
+- 比較歴史分析 (Comparative Historical Analysis)
 
 ---
 

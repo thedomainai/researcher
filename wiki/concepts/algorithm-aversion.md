@@ -49,14 +49,14 @@ Dietvorst ら（2018）は、アルゴリズム忌避を軽減する効果的な
 
 ## 関連概念
 
-- [[自動化バイアス（Automation Bias）]]
-- [[人間とAIの協働（Human-AI Collaboration）]]
-- [[アルゴリズムへの過信（Algorithm Appreciation）]]
-- [[意思決定支援システム（Decision Support Systems）]]
-- [[行動経済学（Behavioral Economics）]]
-- [[信頼（Trust in AI）]]
-- [[選択アーキテクチャ（Choice Architecture）]]
-- [[過信バイアス（Overconfidence Bias）]]
+- 自動化バイアス（Automation Bias）
+- [[human-ai-collaboration|人間とAIの協働（Human-AI Collaboration）]]
+- アルゴリズムへの過信（Algorithm Appreciation）
+- 意思決定支援システム（Decision Support Systems）
+- 行動経済学（Behavioral Economics）
+- 信頼（Trust in AI）
+- 選択アーキテクチャ（Choice Architecture）
+- 過信バイアス（Overconfidence Bias）
 
 ---
 

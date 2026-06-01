@@ -54,16 +54,16 @@ Chiang（2026）は、デジタルコミュニケーションにおけるAIの�
 
 ## 関連概念
 
-- [[人間-AI協働（Human-AI Collaboration）]]
-- [[説明可能なAI（Explainable AI / XAI）]]
-- [[大規模言語モデル（Large Language Models / LLMs）]]
-- [[AI追従性（AI Sycophancy）]]
-- [[Human-AI Complementarity]]
-- [[パーソナライズドAI（Personalized AI）]]
-- [[AI整合性（AI Alignment）]]
-- [[信頼できるAI（Trustworthy AI）]]
-- [[認知的個人差（Individual Differences in Cognition）]]
-- [[LLM-as-a-Judge]]
+- [[human-ai-collaboration|人間-AI協働（Human-AI Collaboration）]]
+- [[explainable-ai-xai|説明可能なAI（Explainable AI / XAI）]]
+- 大規模言語モデル（Large Language Models / LLMs）
+- AI追従性（AI Sycophancy）
+- Human-AI Complementarity
+- パーソナライズドAI（Personalized AI）
+- AI整合性（AI Alignment）
+- 信頼できるAI（Trustworthy AI）
+- 認知的個人差（Individual Differences in Cognition）
+- LLM-as-a-Judge
 
 ---
 

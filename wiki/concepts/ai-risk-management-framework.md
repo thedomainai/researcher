@@ -78,15 +78,15 @@ Noori（2026）は、NIST AI RMF 1.0およびEU AI Actとの規制的整合性�
 
 ## 関連概念
 
-- [[責任あるAI（Responsible AI）]]
-- [[AIガバナンス]]
-- [[顔認識技術]]
-- [[アルゴリズム的公平性]]
-- [[EU AI Act]]
-- [[社会技術的リスク（Sociotechnical Risk）]]
-- [[成熟度モデル（Maturity Model）]]
-- [[公平性監査（Fairness Audit）]]
-- [[NISTサイバーセキュリティフレームワーク]]
+- 責任あるAI（Responsible AI）
+- AIガバナンス
+- 顔認識技術
+- アルゴリズム的公平性
+- EU AI Act
+- 社会技術的リスク（Sociotechnical Risk）
+- 成熟度モデル（Maturity Model）
+- 公平性監査（Fairness Audit）
+- NISTサイバーセキュリティフレームワーク
 
 ---
 

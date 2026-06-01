@@ -64,14 +64,14 @@ Serhiienko & Lysenko（2026）は、AIが高等教育における英語教授・
 
 ## 関連概念
 
-- [[知識グラフ（Knowledge Graph）]]
-- [[デジタル文化遺産（Digital Cultural Heritage）]]
-- [[教育におけるAI（AI in Education）]]
-- [[マルチモーダルAI（Multimodal AI）]]
-- [[知識解放（Knowledge Liberation）]]
-- [[ハイブリッド学習モデル（Hybrid Learning Model）]]
-- [[大学図書館とデジタル化（University Library and Digitisation）]]
-- [[知識表現（Knowledge Representation）]]
+- 知識グラフ（Knowledge Graph）
+- デジタル文化遺産（Digital Cultural Heritage）
+- [[ai-in-education|教育におけるAI（AI in Education）]]
+- マルチモーダルAI（Multimodal AI）
+- 知識解放（Knowledge Liberation）
+- ハイブリッド学習モデル（Hybrid Learning Model）
+- 大学図書館とデジタル化（University Library and Digitisation）
+- 知識表現（Knowledge Representation）
 
 ---
 

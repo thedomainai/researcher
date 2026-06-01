@@ -71,18 +71,18 @@ Bispo らが提案するマルチモーダルフレームワークは、**トポ
 
 ## 関連概念
 
-- [[脳コネクトミクス (Brain Connectomics)]]
-- [[トポロジカルデータ解析 (Topological Data Analysis)]]
-- [[単体複体 (Simplicial Complex)]]
-- [[Hodge理論 (Hodge Theory)]]
-- [[グラフ信号処理 (Graph Signal Processing)]]
-- [[拡散MRI (Diffusion MRI)]]
-- [[安静時fMRI (Resting-State fMRI)]]
-- [[機能的結合性 (Functional Connectivity)]]
-- [[構造的結合性 (Structural Connectivity)]]
-- [[高次相互作用 (Higher-Order Interactions)]]
-- [[スペクトルグラフ理論 (Spectral Graph Theory)]]
-- [[離散外微分幾何学 (Discrete Exterior Calculus)]]
+- 脳コネクトミクス (Brain Connectomics)
+- トポロジカルデータ解析 (Topological Data Analysis)
+- 単体複体 (Simplicial Complex)
+- Hodge理論 (Hodge Theory)
+- グラフ信号処理 (Graph Signal Processing)
+- 拡散MRI (Diffusion MRI)
+- 安静時fMRI (Resting-State fMRI)
+- 機能的結合性 (Functional Connectivity)
+- 構造的結合性 (Structural Connectivity)
+- 高次相互作用 (Higher-Order Interactions)
+- スペクトルグラフ理論 (Spectral Graph Theory)
+- 離散外微分幾何学 (Discrete Exterior Calculus)
 
 ---
 

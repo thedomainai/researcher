@@ -59,16 +59,16 @@ Geiger（2026）によるメタ分析的な批判的レビューは、MIT研究�
 
 ## 関連概念
 
-- [[認知負荷理論]]
-- [[生成効果]]
-- [[望ましい困難]]
-- [[自動化バイアス]]
-- [[拡張認知]]
-- [[Human-AI Interaction]]
-- [[大規模言語モデル（LLM）]]
-- [[メタ認知]]
-- [[テクノロジーと記憶]]
-- [[行動経済学]]
+- [[cognitive-load-theory|認知負荷理論]]
+- 生成効果
+- 望ましい困難
+- 自動化バイアス
+- 拡張認知
+- [[human-ai-interaction|Human-AI Interaction]]
+- 大規模言語モデル（LLM）
+- [[metacognition|メタ認知]]
+- テクノロジーと記憶
+- 行動経済学
 
 ---
 
@@ -79,7 +79,7 @@ Geiger（2026）によるメタ分析的な批判的レビューは、MIT研究�
 | Kognitive Auslagerung oder kognitive Schuld? (Cognitive Offloading vs. Debt) | Geiger, Lukas | 2026 | [10.5281/zenodo.19056970](https://doi.org/10.5281/zenodo.19056970) |
 | Your Brain on ChatGPT（参照元論文） | Kos'myna et al. | 2025 | — |
 
-**ファイルパス（内部参照用）**: `raw/Geiger_2026_Kognitive_Auslagerung_oder_kognitive_Schuld.md`
+**ファイルパス（内部参照用）**: （パス未確認）
 
 ---
 

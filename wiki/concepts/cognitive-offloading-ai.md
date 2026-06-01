@@ -41,14 +41,14 @@ Geiger（2026）の分析によれば、単純に「AIを使うこと」の問�
 
 ## 関連概念
 
-- [[認知的負債 (Cognitive Debt)]]
-- [[認知負荷理論 (Cognitive Load Theory)]]
-- [[生成効果 (Generation Effect)]]
-- [[望ましい困難 (Desirable Difficulties)]]
-- [[自動化コンプレイサンシー (Automation Complacency)]]
-- [[大規模言語モデル (Large Language Model)]]
-- [[拡張認知 (Extended Cognition)]]
-- [[ヒューマン・AI協働 (Human-AI Collaboration)]]
+- 認知的負債 (Cognitive Debt)
+- [[cognitive-load-theory|認知負荷理論 (Cognitive Load Theory)]]
+- 生成効果 (Generation Effect)
+- 望ましい困難 (Desirable Difficulties)
+- [[automation-complacency|自動化コンプレイサンシー (Automation Complacency)]]
+- 大規模言語モデル (Large Language Model)
+- 拡張認知 (Extended Cognition)
+- [[human-ai-collaboration|ヒューマン・AI協働 (Human-AI Collaboration)]]
 
 ---
 

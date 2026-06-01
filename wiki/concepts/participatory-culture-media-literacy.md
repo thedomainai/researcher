@@ -60,15 +60,15 @@ Jenkinsの研究は、従来のメディアリテラシー教育が読み解き�
 
 ## 関連概念
 
-- [[デジタルリテラシー]]
-- [[情報リテラシー]]
-- [[フェイクニュースと誤情報]]
-- [[ディープフェイクと合成メディア]]
-- [[集合的知性]]
-- [[メディアフレーミング理論]]
-- [[デジタル市民性]]
-- [[AIと情報倫理]]
-- [[ソーシャルメディアと世論形成]]
+- デジタルリテラシー
+- 情報リテラシー
+- フェイクニュースと誤情報
+- ディープフェイクと合成メディア
+- 集合的知性
+- メディアフレーミング理論
+- デジタル市民性
+- AIと情報倫理
+- ソーシャルメディアと世論形成
 
 ---
 
@@ -76,9 +76,9 @@ Jenkinsの研究は、従来のメディアリテラシー教育が読み解き�
 
 1. **Confronting the Challenges of Participatory Culture: Media Education for the 21st Century**
    Henry Jenkins (2006)
-   `raw/Jenkins_2006_Confronting_the_Challenges_of_Participatory_Culture.md`
+   （パス未確認）
 
 2. **Artificial intelligence, deepfakes, and wars: How global news media frame actors, threats, and solutions in 19 countries**
    Taufiq Ahmad, Rauf Arif, Muhammad Ittefaq, SeYeon Park (2026)
    DOI: [https://doi.org/10.1177/17506352261424826](https://doi.org/10.1177/17506352261424826)
-   `raw/Ahmad_et_al_2026_AI_deepfakes_wars_global_news_media.md`
+   （パス未確認）

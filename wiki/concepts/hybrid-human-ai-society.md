@@ -56,16 +56,16 @@ Zajkoはこれらの問題を踏まえ、社会学はポストヒューマン的
 
 ## 関連概念
 
-- [[生成AI（Generative AI）]]
-- [[ソーシャルネットワーク分析]]
-- [[集合知（Collective Intelligence）]]
-- [[マルチエージェントシステム]]
-- [[アクターネットワーク理論（ANT）]]
-- [[ポストヒューマン]]
-- [[AIガバナンス]]
-- [[社会シミュレーション]]
-- [[デジタル社会学]]
-- [[人間とAIの協働（Human-AI Collaboration）]]
+- 生成AI（Generative AI）
+- ソーシャルネットワーク分析
+- 集合知（Collective Intelligence）
+- [[multi-agent-systems|マルチエージェントシステム]]
+- アクターネットワーク理論（ANT）
+- ポストヒューマン
+- AIガバナンス
+- 社会シミュレーション
+- デジタル社会学
+- [[human-ai-collaboration|人間とAIの協働（Human-AI Collaboration）]]
 
 ---
 

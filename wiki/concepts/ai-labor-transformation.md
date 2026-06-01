@@ -44,14 +44,14 @@ Dwivedi et al.（2023）は、生成AIの影響を単一の学問領域では捉
 
 ## 関連概念
 
-- [[生成AI（Generative AI）]]
-- [[自動化と雇用（Automation and Employment）]]
-- [[デジタルプラットフォーム経済]]
-- [[技術革命と経済史]]
-- [[AI倫理]]
-- [[フューチャー・オブ・ワーク（Future of Work）]]
-- [[生産性拡張技術]]
-- [[ギグエコノミー]]
+- 生成AI（Generative AI）
+- 自動化と雇用（Automation and Employment）
+- デジタルプラットフォーム経済
+- 技術革命と経済史
+- AI倫理
+- フューチャー・オブ・ワーク（Future of Work）
+- 生産性拡張技術
+- ギグエコノミー
 
 ---
 

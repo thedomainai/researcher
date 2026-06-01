@@ -50,14 +50,14 @@ Langの論文が提示する中心的な主張は、ジオフェンス令状を�
 
 ## 関連概念
 
-- [[憲法修正第4条（Fourth Amendment）]]
-- [[第三者法理（Third-Party Doctrine）]]
-- [[Carpenter v. United States]]
-- [[一般令状（General Warrant）]]
-- [[デジタル・プライバシー（Digital Privacy）]]
-- [[位置情報データ（Location Data）]]
-- [[令状の特定性要件（Particularity Requirement）]]
-- [[監視技術と法規制（Surveillance Technology and Law）]]
+- 憲法修正第4条（Fourth Amendment）
+- 第三者法理（Third-Party Doctrine）
+- Carpenter v. United States
+- 一般令状（General Warrant）
+- デジタル・プライバシー（Digital Privacy）
+- 位置情報データ（Location Data）
+- 令状の特定性要件（Particularity Requirement）
+- 監視技術と法規制（Surveillance Technology and Law）
 
 ---
 

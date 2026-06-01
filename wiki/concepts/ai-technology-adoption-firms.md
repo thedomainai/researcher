@@ -48,18 +48,18 @@ Singh & Vasa（2026）は、AIの発展をイノベーション、計算能力�
 
 ## 関連概念
 
-- [[汎用目的技術（General-Purpose Technology）]]
-- [[機械学習（Machine Learning）]]
-- [[テキストマイニング（Text Mining）]]
-- [[デジタルトランスフォーメーション（DX）]]
-- [[イノベーションの普及（Diffusion of Innovation）]]
-- [[企業の生産性とデジタル化]]
-- [[産業政策とAI規制]]
-- [[計算インフラとAI競争力]]
+- 汎用目的技術（General-Purpose Technology）
+- 機械学習（Machine Learning）
+- テキストマイニング（Text Mining）
+- デジタルトランスフォーメーション（DX）
+- イノベーションの普及（Diffusion of Innovation）
+- 企業の生産性とデジタル化
+- 産業政策とAI規制
+- 計算インフラとAI競争力
 
 ---
 
 ## 参考ソース
 
-- Calvino, F., & Fontanelli, L. (2026). *Decoding AI: an early look at how French firms use AI*. `raw/decoding_ai_french_firms_calvino_fontanelli_2026.md`
-- Singh, S., & Vasa, L. (2026). *Global Artificial Intelligence Development Across Innovation Computation Industrial Power and Societal Impact*. `raw/global_ai_development_singh_vasa_2026.md`
+- Calvino, F., & Fontanelli, L. (2026). *Decoding AI: an early look at how French firms use AI*. （パス未確認）
+- Singh, S., & Vasa, L. (2026). *Global Artificial Intelligence Development Across Innovation Computation Industrial Power and Societal Impact*. （パス未確認）

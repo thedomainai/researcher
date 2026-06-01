@@ -49,18 +49,18 @@ LLMをハードウェア検証に活用することで、以下の効果が期�
 
 ## 関連概念
 
-- [[大規模言語モデル（LLM）]]
-- [[テストベンチ自動生成]]
-- [[コードカバレッジ]]
-- [[機能検証（Functional Verification）]]
-- [[アジャイルハードウェア開発]]
-- [[RTL設計（Register Transfer Level）]]
-- [[EDA（Electronic Design Automation）]]
-- [[自然言語処理（NLP）]]
-- [[LLMによるコード生成]]
+- 大規模言語モデル（LLM）
+- テストベンチ自動生成
+- コードカバレッジ
+- 機能検証（Functional Verification）
+- アジャイルハードウェア開発
+- RTL設計（Register Transfer Level）
+- EDA（Electronic Design Automation）
+- 自然言語処理（NLP）
+- LLMによるコード生成
 
 ---
 
 ## 参考ソース
 
-- Wan, G.-W., Su, S., Zhang, J., Wong, Sam, Zaak, & Xing, M. (2026). **ChatTest: Coverage-Enhanced Testbench Generation for Agile Hardware Verification with LLMs**. `raw/ChatTest_Coverage-Enhanced_Testbench_Generation_for_Agile_Hardware_Verification_with_LLMs.md`
+- Wan, G.-W., Su, S., Zhang, J., Wong, Sam, Zaak, & Xing, M. (2026). **ChatTest: Coverage-Enhanced Testbench Generation for Agile Hardware Verification with LLMs**. （パス未確認）

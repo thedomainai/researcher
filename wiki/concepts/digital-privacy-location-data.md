@@ -42,14 +42,14 @@ Langの論文は、ジオフェンス令状もCarpenter判決の論理に基づ�
 
 ## 関連概念
 
-- [[第四修正条項 (Fourth Amendment)]]
-- [[第三者の法理 (Third-Party Doctrine)]]
-- [[Carpenter v. United States]]
-- [[ジオフェンシング (Geofencing)]]
-- [[令状の特定性 (Particularity Requirement)]]
-- [[監視技術と法規制 (Surveillance Technology and Law)]]
-- [[位置情報サービス (Location-Based Services)]]
-- [[デジタル証拠 (Digital Evidence)]]
+- 第四修正条項 (Fourth Amendment)
+- 第三者の法理 (Third-Party Doctrine)
+- Carpenter v. United States
+- ジオフェンシング (Geofencing)
+- 令状の特定性 (Particularity Requirement)
+- 監視技術と法規制 (Surveillance Technology and Law)
+- 位置情報サービス (Location-Based Services)
+- デジタル証拠 (Digital Evidence)
 
 ---
 

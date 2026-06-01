@@ -52,15 +52,15 @@ Ooi & Periasamy（2026）は、先進国における高齢化社会の課題に�
 
 ## 関連概念
 
-- [[大規模言語モデル (LLM)]]
-- [[自律エージェント (Autonomous Agent)]]
-- [[強化学習 (Reinforcement Learning)]]
-- [[マルチエージェントシステム (Multi-Agent System)]]
-- [[自動機械学習 (AutoML)]]
-- [[AIガバナンス (AI Governance)]]
-- [[社会技術システム (Sociotechnical System)]]
-- [[デジタルヘルス (Digital Health)]]
-- [[DevOps / AIOps]]
+- 大規模言語モデル (LLM)
+- 自律エージェント (Autonomous Agent)
+- 強化学習 (Reinforcement Learning)
+- [[multi-agent-systems|マルチエージェントシステム (Multi-Agent System)]]
+- 自動機械学習 (AutoML)
+- AIガバナンス (AI Governance)
+- [[sociotechnical-systems|社会技術システム (Sociotechnical System)]]
+- デジタルヘルス (Digital Health)
+- DevOps / AIOps
 
 ---
 

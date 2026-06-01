@@ -58,17 +58,17 @@ Mohammadzadeh の研究（2026）は、「摩擦（Friction）のデザイン」
 
 ## 関連概念
 
-- [[主体感（Sense of Agency）]]
-- [[ヒューマン・コンピュータ・インタラクション（HCI）]]
-- [[会話型AIエージェント（Conversational Agent）]]
-- [[Wizard-of-Oz手法]]
-- [[センスメイキング（Sensemaking）]]
-- [[オートエスノグラフィ（Autoethnography）]]
-- [[スウォームUI（Swarm UI）]]
-- [[摩擦のデザイン（Friction Design）]]
-- [[AIリテラシーとクリティカルシンキング]]
-- [[身体性インタラクション（Embodied Interaction）]]
-- [[自己効力感とAI支援]]
+- 主体感（Sense of Agency）
+- ヒューマン・コンピュータ・インタラクション（HCI）
+- 会話型AIエージェント（Conversational Agent）
+- Wizard-of-Oz手法
+- センスメイキング（Sensemaking）
+- オートエスノグラフィ（Autoethnography）
+- スウォームUI（Swarm UI）
+- 摩擦のデザイン（Friction Design）
+- AIリテラシーとクリティカルシンキング
+- 身体性インタラクション（Embodied Interaction）
+- 自己効力感とAI支援
 
 ---
 

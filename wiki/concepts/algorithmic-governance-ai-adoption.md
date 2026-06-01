@@ -48,14 +48,14 @@ Faulconbridgeら（2026）は、生成的機械学習（生成AI）が**専門�
 
 ## 関連概念
 
-- [[生成的機械学習（Generative Machine Learning）]]
-- [[専門職労働とデジタル変革（Professional Work and Digital Transformation）]]
-- [[アルゴリズム的意思決定（Algorithmic Decision-Making）]]
-- [[AIと組織変革（AI and Organizational Change）]]
-- [[デジタル不平等（Digital Inequality）]]
-- [[プロフェッショナル・サービス・ファーム（Professional Service Firms）]]
-- [[複雑系科学（Complexity Science）]]
-- [[AIガバナンス（AI Governance）]]
+- 生成的機械学習（Generative Machine Learning）
+- 専門職労働とデジタル変革（Professional Work and Digital Transformation）
+- アルゴリズム的意思決定（Algorithmic Decision-Making）
+- AIと組織変革（AI and Organizational Change）
+- デジタル不平等（Digital Inequality）
+- プロフェッショナル・サービス・ファーム（Professional Service Firms）
+- 複雑系科学（Complexity Science）
+- AIガバナンス（AI Governance）
 
 ---
 

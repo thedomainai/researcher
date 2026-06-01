@@ -48,17 +48,17 @@ JSSが示すように、AI安全保障研究においては理論的基盤・研
 
 ## 関連概念
 
-- [[人工知能 (Artificial Intelligence)]]
-- [[機械学習 (Machine Learning)]]
-- [[国際安全保障 (International Security)]]
-- [[大国間競争 (Great Power Competition)]]
-- [[マルチドメイン戦争 (Multi-Domain Warfare)]]
-- [[テロリズムと対テロ対策 (Terrorism and Counterterrorism)]]
-- [[核安全保障 (Nuclear Security)]]
-- [[インテリジェンス研究 (Intelligence Studies)]]
-- [[サイバーセキュリティ (Cybersecurity)]]
-- [[ディープフェイクと偽情報 (Deepfake and Disinformation)]]
-- [[戦略的安全保障研究 (Strategic Security Studies)]]
+- 人工知能 (Artificial Intelligence)
+- 機械学習 (Machine Learning)
+- 国際安全保障 (International Security)
+- 大国間競争 (Great Power Competition)
+- マルチドメイン戦争 (Multi-Domain Warfare)
+- テロリズムと対テロ対策 (Terrorism and Counterterrorism)
+- 核安全保障 (Nuclear Security)
+- インテリジェンス研究 (Intelligence Studies)
+- サイバーセキュリティ (Cybersecurity)
+- ディープフェイクと偽情報 (Deepfake and Disinformation)
+- 戦略的安全保障研究 (Strategic Security Studies)
 
 ---
 

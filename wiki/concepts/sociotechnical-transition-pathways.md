@@ -49,14 +49,14 @@ GeelsとSchotが提示した類型では、ニッチの発達状況とランド�
 
 ## 関連概念
 
-- [[マルチレベル・パースペクティブ (Multi-Level Perspective)]]
-- [[戦略的ニッチ・マネジメント (Strategic Niche Management)]]
-- [[イノベーション・システム (Innovation Systems)]]
-- [[脱炭素化移行 (Decarbonization Transition)]]
-- [[デジタル・トランスフォーメーション (Digital Transformation)]]
-- [[技術レジーム (Technological Regime)]]
-- [[ランドスケープ圧力 (Landscape Pressure)]]
-- [[持続可能な移行 (Sustainability Transitions)]]
+- マルチレベル・パースペクティブ (Multi-Level Perspective)
+- 戦略的ニッチ・マネジメント (Strategic Niche Management)
+- イノベーション・システム (Innovation Systems)
+- 脱炭素化移行 (Decarbonization Transition)
+- デジタル・トランスフォーメーション (Digital Transformation)
+- 技術レジーム (Technological Regime)
+- ランドスケープ圧力 (Landscape Pressure)
+- 持続可能な移行 (Sustainability Transitions)
 
 ---
 

@@ -79,17 +79,17 @@ Jonas の責任倫理理論を理論的基盤とし、Marriottホテルチェー
 
 ## 関連概念
 
-- [[Constitutional AI（憲法的AI）]]
-- [[4E認知（Embodied, Embedded, Enacted, Extended Cognition）]]
-- [[徳倫理学（Virtue Ethics）]]
-- [[責任の空白（Responsibility Gap）]]
-- [[委任された道徳性（Delegated Morality）]]
-- [[拡張された道徳性（Extended Morality）]]
-- [[情報圏（Infosphere）]]
-- [[AIガバナンス（AI Governance）]]
-- [[自律型AIシステム（Autonomous AI Systems）]]
-- [[道徳的コンプライアンス（Moral Compliance）]]
-- [[AIリスク管理（AI Risk Management）]]
+- Constitutional AI（憲法的AI）
+- 4E認知（Embodied, Embedded, Enacted, Extended Cognition）
+- 徳倫理学（Virtue Ethics）
+- 責任の空白（Responsibility Gap）
+- 委任された道徳性（Delegated Morality）
+- 拡張された道徳性（Extended Morality）
+- 情報圏（Infosphere）
+- AIガバナンス（AI Governance）
+- 自律型AIシステム（Autonomous AI Systems）
+- 道徳的コンプライアンス（Moral Compliance）
+- AIリスク管理（AI Risk Management）
 
 ---
 

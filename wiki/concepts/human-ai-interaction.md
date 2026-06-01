@@ -77,16 +77,16 @@ Mielkeらは、ロボット運動をジェスチャーで直接制御するシ�
 
 ## 関連概念
 
-- [[自動化レベル分類 (Levels of Automation)]]
-- [[ヒューマンロボットインタラクション (Human-Robot Interaction)]]
-- [[状況認識 (Situation Awareness)]]
-- [[適応的自動化 (Adaptive Automation)]]
-- [[インテリジェントチュータリングシステム (Intelligent Tutoring System)]]
-- [[ジェスチャー認識 (Gesture Recognition)]]
-- [[自動運転 (Autonomous Driving)]]
-- [[医療AIシステム (Medical AI Systems)]]
-- [[ワークロード管理 (Workload Management)]]
-- [[ヒューマンファクター (Human Factors)]]
+- 自動化レベル分類 (Levels of Automation)
+- ヒューマンロボットインタラクション (Human-Robot Interaction)
+- 状況認識 (Situation Awareness)
+- 適応的自動化 (Adaptive Automation)
+- インテリジェントチュータリングシステム (Intelligent Tutoring System)
+- ジェスチャー認識 (Gesture Recognition)
+- 自動運転 (Autonomous Driving)
+- 医療AIシステム (Medical AI Systems)
+- ワークロード管理 (Workload Management)
+- ヒューマンファクター (Human Factors)
 
 ---
 

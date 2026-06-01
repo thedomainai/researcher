@@ -63,16 +63,16 @@ Dindler ら（2026）は、PDアプローチがAIのユートピアとディス�
 
 ## 関連概念
 
-- [[AIの倫理 (AI Ethics)]]
-- [[生成AI (Generative AI)]]
-- [[組織設計 (Organizational Design)]]
-- [[認識論的リスク (Epistemic Risk)]]
-- [[参加型設計 (Participatory Design)]]
-- [[アルゴリズムの公平性 (Algorithmic Fairness)]]
-- [[透明性と説明可能性 (Transparency and Explainability)]]
-- [[データプライバシー (Data Privacy)]]
-- [[AIの信頼性 (AI Trustworthiness)]]
-- [[デジタルガバナンス (Digital Governance)]]
+- AIの倫理 (AI Ethics)
+- 生成AI (Generative AI)
+- 組織設計 (Organizational Design)
+- 認識論的リスク (Epistemic Risk)
+- 参加型設計 (Participatory Design)
+- アルゴリズムの公平性 (Algorithmic Fairness)
+- 透明性と説明可能性 (Transparency and Explainability)
+- データプライバシー (Data Privacy)
+- AIの信頼性 (AI Trustworthiness)
+- デジタルガバナンス (Digital Governance)
 
 ---
 

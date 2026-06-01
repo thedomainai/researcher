@@ -70,15 +70,15 @@ AIと人間チームの協働が増す中で、こうしたチームダイナミ
 
 ## 関連概念
 
-- [[マルチエージェントシステム (Multi-Agent Systems)]]
-- [[大規模言語モデル (Large Language Models)]]
-- [[推薦システム (Recommender Systems)]]
-- [[セマンティック通信 (Semantic Communication)]]
-- [[統合学習・通信 (Integrated Learning and Communication)]]
-- [[ファウンデーションモデル (Foundation Models)]]
-- [[複雑系科学 (Complexity Science)]]
-- [[チームダイナミクス (Team Dynamics)]]
-- [[創発 (Emergence)]]
+- [[multi-agent-systems|マルチエージェントシステム (Multi-Agent Systems)]]
+- 大規模言語モデル (Large Language Models)
+- 推薦システム (Recommender Systems)
+- セマンティック通信 (Semantic Communication)
+- 統合学習・通信 (Integrated Learning and Communication)
+- ファウンデーションモデル (Foundation Models)
+- 複雑系科学 (Complexity Science)
+- チームダイナミクス (Team Dynamics)
+- 創発 (Emergence)
 
 ---
 

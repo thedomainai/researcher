@@ -63,16 +63,16 @@ SCRATフレームワークはAIガバナンスの文脈で特に重要な意義�
 
 ## 関連概念
 
-- [[エージェントAI（Agentic AI）]]
-- [[確率的制御（Stochastic Control）]]
-- [[検索拡張生成（Retrieval-Augmented Generation, RAG）]]
-- [[部分観測マルコフ決定過程（POMDP）]]
-- [[AIアライメント（AI Alignment）]]
-- [[説明可能なAI（Explainable AI, XAI）]]
-- [[AIガバナンス（AI Governance）]]
-- [[散在貯蔵（Scatter-Hoarding）]]
-- [[強化学習（Reinforcement Learning）]]
-- [[監査可能なAIシステム（Auditable AI Systems）]]
+- [[agentic-ai|エージェントAI（Agentic AI）]]
+- 確率的制御（Stochastic Control）
+- 検索拡張生成（Retrieval-Augmented Generation, RAG）
+- 部分観測マルコフ決定過程（POMDP）
+- AIアライメント（AI Alignment）
+- [[explainable-ai-xai|説明可能なAI（Explainable AI, XAI）]]
+- AIガバナンス（AI Governance）
+- 散在貯蔵（Scatter-Hoarding）
+- 強化学習（Reinforcement Learning）
+- 監査可能なAIシステム（Auditable AI Systems）
 
 ---
 

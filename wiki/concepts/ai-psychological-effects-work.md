@@ -44,13 +44,13 @@ Krakowski et al.（2022）は、チェスという制御された競技環境を
 
 ## 関連概念
 
-- [[人間-AI協働（Human-AI Collaboration）]]
-- [[AIによるナレッジワーカーの生産性変容]]
-- [[ジャギード・テクノロジカル・フロンティア（Jagged Technological Frontier）]]
-- [[AIと競争優位の変容]]
-- [[オートメーションによるスキル陳腐化]]
-- [[仕事の自律性と内発的動機づけ]]
-- [[センタウル型ワーキング（Centaur Working）]]
+- [[human-ai-collaboration|人間-AI協働（Human-AI Collaboration）]]
+- AIによるナレッジワーカーの生産性変容
+- ジャギード・テクノロジカル・フロンティア（Jagged Technological Frontier）
+- AIと競争優位の変容
+- オートメーションによるスキル陳腐化
+- 仕事の自律性と内発的動機づけ
+- センタウル型ワーキング（Centaur Working）
 
 ---
 

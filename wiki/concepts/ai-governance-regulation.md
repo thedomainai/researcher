@@ -52,16 +52,16 @@ AIガバナンスは一国内にとどまらず、国際的な法的枠組みと
 
 ## 関連概念
 
-- [[アルゴリズム倫理（Algorithmic Ethics）]]
-- [[責任あるAI（Responsible AI）]]
-- [[AI倫理フレームワーク（AI Ethics Framework）]]
-- [[デジタルガバナンス（Digital Governance）]]
-- [[公共政策とテクノロジー（Public Policy and Technology）]]
-- [[国際テクノロジー法（International Technology Law）]]
-- [[予測的警察活動（Predictive Policing）]]
-- [[アルゴリズム的意思決定（Algorithmic Decision-Making）]]
-- [[データプライバシーと保護（Data Privacy and Protection）]]
-- [[テクノロジーと人権（Technology and Human Rights）]]
+- アルゴリズム倫理（Algorithmic Ethics）
+- 責任あるAI（Responsible AI）
+- AI倫理フレームワーク（AI Ethics Framework）
+- デジタルガバナンス（Digital Governance）
+- 公共政策とテクノロジー（Public Policy and Technology）
+- 国際テクノロジー法（International Technology Law）
+- 予測的警察活動（Predictive Policing）
+- アルゴリズム的意思決定（Algorithmic Decision-Making）
+- データプライバシーと保護（Data Privacy and Protection）
+- テクノロジーと人権（Technology and Human Rights）
 
 ---
 

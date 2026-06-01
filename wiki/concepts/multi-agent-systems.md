@@ -41,13 +41,13 @@ LLMベースのマルチエージェントシステムは、人間-AI協働研�
 
 ## 関連概念
 
-- [[大規模言語モデル (Large Language Model)]]
-- [[人間-AI協働 (Human-AI Collaboration)]]
-- [[自律エージェント (Autonomous Agent)]]
-- [[エージェントアーキテクチャ (Agent Architecture)]]
-- [[自然言語処理 (Natural Language Processing)]]
-- [[分散人工知能 (Distributed Artificial Intelligence)]]
-- [[強化学習 (Reinforcement Learning)]]
+- 大規模言語モデル (Large Language Model)
+- [[human-ai-collaboration|人間-AI協働 (Human-AI Collaboration)]]
+- 自律エージェント (Autonomous Agent)
+- エージェントアーキテクチャ (Agent Architecture)
+- 自然言語処理 (Natural Language Processing)
+- 分散人工知能 (Distributed Artificial Intelligence)
+- 強化学習 (Reinforcement Learning)
 
 ---
 
@@ -55,4 +55,4 @@ LLMベースのマルチエージェントシステムは、人間-AI協働研�
 
 | タイトル | ファイルパス |
 |----------|-------------|
-| APOLLO: an open platform for LLM-based multi-agent interaction research | `raw/APOLLO_an_open_platform_for_LLM-based_multi-agent_interaction_research.md` |
+| APOLLO: an open platform for LLM-based multi-agent interaction research | （パス未確認） |

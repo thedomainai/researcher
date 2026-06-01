@@ -54,14 +54,14 @@ AIが提供するアシスタンスの度合いが高まるほど、ユーザー
 
 ## 関連概念
 
-- [[Human-Computer Interaction (HCI)]]
-- [[説明可能なAI (Explainable AI / XAI)]]
-- [[人間中心AI設計 (Human-Centered AI Design)]]
-- [[認知負荷理論 (Cognitive Load Theory)]]
-- [[自律性と信頼 (Autonomy and Trust in AI)]]
-- [[マルチエージェントシステム (Multi-Agent Systems)]]
-- [[反省的実践 (Reflective Practice)]]
-- [[ユーザーエクスペリエンス (User Experience / UX)]]
+- Human-Computer Interaction (HCI)
+- [[explainable-ai-xai|説明可能なAI (Explainable AI / XAI)]]
+- 人間中心AI設計 (Human-Centered AI Design)
+- [[cognitive-load-theory|認知負荷理論 (Cognitive Load Theory)]]
+- 自律性と信頼 (Autonomy and Trust in AI)
+- [[multi-agent-systems|マルチエージェントシステム (Multi-Agent Systems)]]
+- 反省的実践 (Reflective Practice)
+- ユーザーエクスペリエンス (User Experience / UX)
 
 ---
 

@@ -51,14 +51,14 @@ Salvatoが提示する実証的根拠は、以下の三層で構成される。
 
 ## 関連概念
 
-- [[拡張心テーゼ (Extended Mind Thesis)]]
-- [[分散認知 (Distributed Cognition)]]
-- [[ヒューマン・AI協働 (Human-AI Collaboration)]]
-- [[認知的補綴 (Cognitive Prosthetics)]]
-- [[Tools for Thought]]
-- [[文脈認識型AI (Context-aware AI)]]
-- [[組織学習 (Organizational Learning)]]
-- [[知識管理 (Knowledge Management)]]
+- 拡張心テーゼ (Extended Mind Thesis)
+- 分散認知 (Distributed Cognition)
+- [[human-ai-collaboration|ヒューマン・AI協働 (Human-AI Collaboration)]]
+- 認知的補綴 (Cognitive Prosthetics)
+- Tools for Thought
+- 文脈認識型AI (Context-aware AI)
+- 組織学習 (Organizational Learning)
+- 知識管理 (Knowledge Management)
 
 ---
 

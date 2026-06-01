@@ -53,14 +53,14 @@ Reddy et al.（2026）は、HRM（人的資源管理）の観点から、自動�
 
 ## 関連概念
 
-- [[検証萎縮（Verification Atrophy）]]
-- [[ヒューマン・イン・ザ・ループ（Human-in-the-Loop）]]
-- [[AIガバナンス（AI Governance）]]
-- [[アルゴリズム嫌悪（Algorithm Aversion）]]
-- [[認知的負荷（Cognitive Load）]]
-- [[自律システム（Autonomous Systems）]]
-- [[ハイブリッド意思決定モデル]]
-- [[AIリスク管理]]
+- 検証萎縮（Verification Atrophy）
+- ヒューマン・イン・ザ・ループ（Human-in-the-Loop）
+- AIガバナンス（AI Governance）
+- [[algorithm-aversion|アルゴリズム嫌悪（Algorithm Aversion）]]
+- 認知的負荷（Cognitive Load）
+- 自律システム（Autonomous Systems）
+- ハイブリッド意思決定モデル
+- AIリスク管理
 
 ---
 

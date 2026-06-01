@@ -51,14 +51,14 @@ Qiu & Cheng（2026）が特に着目したのが、**名詞化（nominalisation�
 
 ## 関連概念
 
-- [[AI倫理と規範形成]]
-- [[安全保障化言説（Securitisation）]]
-- [[国際人権フレームワークとAI]]
-- [[アルゴリズム的公平性（Algorithmic Fairness）]]
-- [[法言語学と政策テキスト分析]]
-- [[社会記号論（Sociosemiotics）]]
-- [[マルチステークホルダー・ガバナンス]]
-- [[AIの説明責任と透明性]]
+- AI倫理と規範形成
+- 安全保障化言説（Securitisation）
+- 国際人権フレームワークとAI
+- アルゴリズム的公平性（Algorithmic Fairness）
+- 法言語学と政策テキスト分析
+- 社会記号論（Sociosemiotics）
+- マルチステークホルダー・ガバナンス
+- AIの説明責任と透明性
 
 ---
 

@@ -66,16 +66,16 @@ Shen Jiang（2026）は、AI生成音楽を例にとり、AIコンテンツの�
 
 ## 関連概念
 
-- [[P-創造性とH-創造性]]
-- [[身体化認知と人工知能]]
-- [[アートワールド理論]]
-- [[カント美学と自律性]]
-- [[Transformerアーキテクチャ]]
-- [[大規模言語モデルの創造性]]
-- [[ヒューマン・イン・ザ・ループ（HITL）]]
-- [[著作権とAI生成コンテンツ]]
-- [[プラグマティズム美学]]
-- [[協働的創造性（Co-creativity）]]
+- P-創造性とH-創造性
+- 身体化認知と人工知能
+- アートワールド理論
+- カント美学と自律性
+- Transformerアーキテクチャ
+- 大規模言語モデルの創造性
+- ヒューマン・イン・ザ・ループ（HITL）
+- 著作権とAI生成コンテンツ
+- プラグマティズム美学
+- 協働的創造性（Co-creativity）
 
 ---
 
@@ -83,6 +83,6 @@ Shen Jiang（2026）は、AI生成音楽を例にとり、AIコンテンツの�
 
 | タイトル | 著者 | 年 | パス |
 |----------|------|----|------|
-| The Ontological Status of AI-Generated Music: From Stylistic Mimicry to Collaborative Agency | Shen Jiang | 2026 | `raw/the_ontological_status_of_ai_generated_music.md` |
+| The Ontological Status of AI-Generated Music: From Stylistic Mimicry to Collaborative Agency | Shen Jiang | 2026 | （パス未確認） |
 
 > **注記**: 本記事は上記一次資料の要旨（Abstract）に基づいて作成されている。要旨末尾が「Recursive Emb」で切断されており、「存在論的足場」フレームワークの第四次元（Recursive Embedding）の詳細については全文参照が推奨される。DOI: [https://doi.org/10.17613/qde6b-n9s67](https://doi.org/10.17613/qde6b-n9s67)

@@ -48,14 +48,14 @@
 
 ## 関連概念
 
-- [[デジタル自警主義 (Digilantism)]]
-- [[スキャムベイティング (Scambaiting)]]
-- [[象徴的相互作用論 (Symbolic Interactionism)]]
-- [[演劇論的分析 (Dramaturgical Analysis)]]
-- [[グラウンデッド・セオリー (Grounded Theory)]]
-- [[オンライン詐欺対策 (Online Fraud Prevention)]]
-- [[コンテンツマネタイズ (Content Monetisation)]]
-- [[市民的正義活動 (Civic Justice)]]
+- デジタル自警主義 (Digilantism)
+- スキャムベイティング (Scambaiting)
+- 象徴的相互作用論 (Symbolic Interactionism)
+- 演劇論的分析 (Dramaturgical Analysis)
+- グラウンデッド・セオリー (Grounded Theory)
+- オンライン詐欺対策 (Online Fraud Prevention)
+- コンテンツマネタイズ (Content Monetisation)
+- 市民的正義活動 (Civic Justice)
 
 ---
 

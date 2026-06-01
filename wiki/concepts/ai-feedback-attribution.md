@@ -53,15 +53,15 @@ Aman et al.（2025）による人間-AI協働研究のシステマティック�
 
 ## 関連概念
 
-- [[人間-AI協働]]
-- [[大規模言語モデル（LLM）]]
-- [[AIへの信頼（AI Trust）]]
-- [[自動化バイアス（Automation Bias）]]
-- [[知覚された信頼性（Perceived Credibility）]]
-- [[インテリジェント・チュータリングシステム（ITS）]]
-- [[フィードバックのタイミング（Feedback Timing）]]
-- [[コンピューティング教育（Computing Education）]]
-- [[ヒューマン-コンピュータインタラクション（HCI）]]
+- [[human-ai-collaboration|人間-AI協働]]
+- 大規模言語モデル（LLM）
+- [[human-ai-trust|AIへの信頼（AI Trust）]]
+- 自動化バイアス（Automation Bias）
+- 知覚された信頼性（Perceived Credibility）
+- インテリジェント・チュータリングシステム（ITS）
+- フィードバックのタイミング（Feedback Timing）
+- コンピューティング教育（Computing Education）
+- ヒューマン-コンピュータインタラクション（HCI）
 
 ---
 

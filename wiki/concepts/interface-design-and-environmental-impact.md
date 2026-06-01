@@ -56,18 +56,18 @@ Beignon, Tabard, Maudet（2026）による研究は、メッセージングア�
 
 ## 関連概念
 
-- [[ダークパターン (Dark Patterns)]]
-- [[サステナブルHCI (Sustainable HCI)]]
-- [[デジタルソブリエティ (Digital Sobriety)]]
-- [[ライフサイクルアセスメント (Life Cycle Assessment)]]
-- [[行動経済学とナッジ (Behavioral Economics and Nudge)]]
-- [[デジタル技術の環境フットプリント (Environmental Footprint of Digital Technology)]]
-- [[利用強度とリバウンド効果 (Usage Intensity and Rebound Effect)]]
-- [[ユーザーエクスペリエンスと倫理設計 (UX and Ethical Design)]]
+- ダークパターン (Dark Patterns)
+- サステナブルHCI (Sustainable HCI)
+- デジタルソブリエティ (Digital Sobriety)
+- ライフサイクルアセスメント (Life Cycle Assessment)
+- 行動経済学とナッジ (Behavioral Economics and Nudge)
+- デジタル技術の環境フットプリント (Environmental Footprint of Digital Technology)
+- 利用強度とリバウンド効果 (Usage Intensity and Rebound Effect)
+- ユーザーエクスペリエンスと倫理設計 (UX and Ethical Design)
 
 ---
 
 ## 参考ソース
 
 - Beignon, A., Tabard, A., & Maudet, N. (2026). *Comment les choix de design d'interface mène à des effets environnementaux indirects par l'intensification des usages: Une évaluation environnementale empirique des applications de messagerie*. ACM. https://doi.org/10.1145/3772318.3790305  
-  ファイルパス: `raw/Comment_les_choix_de_design_dinterface_mène_à_des_effets_environnementaux_indirects_par_lintensification_des_usages.md`
+  ファイルパス: （パス未確認）

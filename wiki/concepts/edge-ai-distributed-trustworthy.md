@@ -51,16 +51,16 @@ dAIEDGEは単なる研究プロジェクトにとどまらず、欧州全体の�
 
 ## 関連概念
 
-- [[フェデレーテッドラーニング（Federated Learning）]]
-- [[エッジコンピューティング]]
-- [[モデル圧縮と量子化]]
-- [[差分プライバシー]]
-- [[ハードウェアセキュリティとAI]]
-- [[説明可能AI（XAI）]]
-- [[継続学習（Continual Learning）]]
-- [[ニューラルアーキテクチャ探索（NAS）]]
-- [[IoTとAIの統合]]
-- [[Horizon Europe（EU研究プログラム）]]
+- [[federated-learning|フェデレーテッドラーニング（Federated Learning）]]
+- エッジコンピューティング
+- モデル圧縮と量子化
+- 差分プライバシー
+- ハードウェアセキュリティとAI
+- [[explainable-ai-xai|説明可能AI（XAI）]]
+- 継続学習（Continual Learning）
+- ニューラルアーキテクチャ探索（NAS）
+- IoTとAIの統合
+- Horizon Europe（EU研究プログラム）
 
 ---
 
@@ -70,4 +70,4 @@ dAIEDGEは単なる研究プロジェクトにとどまらず、欧州全体の�
 |---|---|---|
 | Multi-Partner project: dAIEDGE - A network of excellence for distributed, trustworthy, efficient and scalable AI at the edge | A. Pagani, José Miguel García Cano, Haralampos‐G. Stratigopoulos, Aysajan Abidin, Mhd Rashed Al Koutayni | 2026 |
 
-**ファイルパス**: `raw/W7125086513.md`
+**ファイルパス**: （パス未確認）

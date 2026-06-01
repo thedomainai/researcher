@@ -56,16 +56,16 @@
 
 ## 関連概念
 
-- [[マイクロプラスチック（Microplastics）]]
-- [[ナノプラスチック（Nanoplastics）]]
-- [[薬剤耐性（Antimicrobial Resistance）]]
-- [[水平遺伝子転移（Horizontal Gene Transfer）]]
-- [[抗生物質耐性遺伝子（Antibiotic Resistance Genes）]]
-- [[バイオフィルム（Biofilm）]]
-- [[ニッチ構築（Niche Construction）]]
-- [[病原体（Pathogen）]]
-- [[環境マイクロバイオーム（Environmental Microbiome）]]
-- [[共進化（Coevolution）]]
+- マイクロプラスチック（Microplastics）
+- ナノプラスチック（Nanoplastics）
+- 薬剤耐性（Antimicrobial Resistance）
+- 水平遺伝子転移（Horizontal Gene Transfer）
+- 抗生物質耐性遺伝子（Antibiotic Resistance Genes）
+- バイオフィルム（Biofilm）
+- [[niche-construction|ニッチ構築（Niche Construction）]]
+- 病原体（Pathogen）
+- 環境マイクロバイオーム（Environmental Microbiome）
+- 共進化（Coevolution）
 
 ---
 

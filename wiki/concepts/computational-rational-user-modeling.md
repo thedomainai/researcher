@@ -63,15 +63,15 @@ Zhuらは、明示的かつパラメータ化された認知プロセスを持�
 
 ## 関連概念
 
-- [[限定合理性（Bounded Rationality）]]
-- [[認知バイアス（Cognitive Bias）]]
-- [[逐次意思決定（Sequential Decision-Making）]]
-- [[信念更新（Belief Updating）]]
-- [[行動経済学（Behavioral Economics）]]
-- [[人間-AIコラボレーション（Human-AI Collaboration）]]
-- [[インバース強化学習（Inverse Reinforcement Learning）]]
-- [[部分観測マルコフ決定過程（POMDP）]]
-- [[ユーザーモデリング（User Modeling）]]
+- 限定合理性（Bounded Rationality）
+- 認知バイアス（Cognitive Bias）
+- 逐次意思決定（Sequential Decision-Making）
+- 信念更新（Belief Updating）
+- 行動経済学（Behavioral Economics）
+- [[human-ai-collaboration|人間-AIコラボレーション（Human-AI Collaboration）]]
+- インバース強化学習（Inverse Reinforcement Learning）
+- 部分観測マルコフ決定過程（POMDP）
+- ユーザーモデリング（User Modeling）
 
 ---
 

@@ -69,15 +69,15 @@ Obermeyer et al.（2019年）の研究も、商業アルゴリズムの提供企
 
 ## 関連概念
 
-- [[機械学習と差別（Machine Learning and Discrimination）]]
-- [[説明可能なAI（Explainable AI / XAI）]]
-- [[データ倫理（Data Ethics）]]
-- [[プロキシ変数とバイアス（Proxy Variables and Bias）]]
-- [[アルゴリズムの透明性と説明責任（Algorithmic Transparency and Accountability）]]
-- [[公平性指標（Fairness Metrics）]]
-- [[医療AIの倫理（Ethics of AI in Healthcare）]]
-- [[AIガバナンス（AI Governance）]]
-- [[社会技術システム（Sociotechnical Systems）]]
+- 機械学習と差別（Machine Learning and Discrimination）
+- [[explainable-ai-xai|説明可能なAI（Explainable AI / XAI）]]
+- データ倫理（Data Ethics）
+- プロキシ変数とバイアス（Proxy Variables and Bias）
+- アルゴリズムの透明性と説明責任（Algorithmic Transparency and Accountability）
+- 公平性指標（Fairness Metrics）
+- 医療AIの倫理（Ethics of AI in Healthcare）
+- AIガバナンス（AI Governance）
+- [[sociotechnical-systems|社会技術システム（Sociotechnical Systems）]]
 
 ---
 

@@ -66,21 +66,21 @@ Gloeckle et al.（2026）による**自動教科書形式化**の事例は、AI�
 
 ## 関連概念
 
-- [[人間-AI協働]]
-- [[大規模言語モデル（LLM）]]
-- [[マルチエージェントシステム]]
-- [[ITサービスマネジメント]]
-- [[ソフトウェア品質保証]]
-- [[エンタープライズナレッジマネジメント]]
-- [[自動定理証明]]
-- [[AIガバナンス]]
-- [[認知的自動化]]
+- [[human-ai-collaboration|人間-AI協働]]
+- 大規模言語モデル（LLM）
+- [[multi-agent-systems|マルチエージェントシステム]]
+- ITサービスマネジメント
+- ソフトウェア品質保証
+- エンタープライズナレッジマネジメント
+- 自動定理証明
+- AIガバナンス
+- 認知的自動化
 
 ---
 
 ## 参考ソース
 
-1. Rakibul Hasan, "A Systematic Review of Human-AI Collaboration in IT Support Services: Enhancing User Experience and Workflow Automation" (2025) — `raw/b03174f36835a0d3f37c22475bd26047081058c1.md`
-2. Andrii Shaliev, "Development of Quality Assurance Standards for the Industrialization of Software Applications Prototyped Using Intelligent Assistants" (2026) — `raw/openalex_W7140354002.md`
-3. Rakesh Agrawal, "Enterprise Digital Brain: An AI-Augmented System for Knowledge Organization and Cognitive Productivity" (2026) — `raw/openalex_W7139127947.md`
-4. Fabian Gloeckle et al., "Automatic Textbook Formalization" (2026) — `raw/arxiv_2604.03071.md`
+1. Rakibul Hasan, "A Systematic Review of Human-AI Collaboration in IT Support Services: Enhancing User Experience and Workflow Automation" (2025) — （パス未確認）
+2. Andrii Shaliev, "Development of Quality Assurance Standards for the Industrialization of Software Applications Prototyped Using Intelligent Assistants" (2026) — （パス未確認）
+3. Rakesh Agrawal, "Enterprise Digital Brain: An AI-Augmented System for Knowledge Organization and Cognitive Productivity" (2026) — （パス未確認）
+4. Fabian Gloeckle et al., "Automatic Textbook Formalization" (2026) — （パス未確認）

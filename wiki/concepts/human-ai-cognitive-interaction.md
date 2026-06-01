@@ -79,17 +79,17 @@ Baldoni ら（2026）は、9〜12歳の児童を対象とした「アンプラ�
 
 ## 関連概念
 
-- [[メンタルモデル (Mental Model)]]
-- [[認知負荷理論 (Cognitive Load Theory)]]
-- [[説明可能なAI (Explainable AI / XAI)]]
-- [[AIリテラシー (AI Literacy)]]
-- [[ヒューマン・コンピュータ・インタラクション (HCI)]]
-- [[心の理論 (Theory of Mind)]]
-- [[信頼キャリブレーション (Trust Calibration)]]
-- [[メタ認知 (Metacognition)]]
-- [[認知的受動性 (Cognitive Passivity)]]
-- [[自己調整学習 (Self-Directed Learning)]]
-- [[データリテラシー (Data Literacy)]]
+- メンタルモデル (Mental Model)
+- [[cognitive-load-theory|認知負荷理論 (Cognitive Load Theory)]]
+- [[explainable-ai-xai|説明可能なAI (Explainable AI / XAI)]]
+- AIリテラシー (AI Literacy)
+- ヒューマン・コンピュータ・インタラクション (HCI)
+- 心の理論 (Theory of Mind)
+- 信頼キャリブレーション (Trust Calibration)
+- [[metacognition|メタ認知 (Metacognition)]]
+- 認知的受動性 (Cognitive Passivity)
+- [[self-regulated-learning|自己調整学習 (Self-Directed Learning)]]
+- データリテラシー (Data Literacy)
 
 ---
 

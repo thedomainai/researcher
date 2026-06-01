@@ -69,18 +69,18 @@ AIは定型的・大規模な知識処理を担う一方、人間は文脈の解
 
 ## 関連概念
 
-- [[知識管理 (Knowledge Management)]]
-- [[自然言語処理 (Natural Language Processing)]]
-- [[生成AI (Generative AI)]]
-- [[機械学習 (Machine Learning)]]
-- [[チャットボット (Chatbot)]]
-- [[セマンティック検索 (Semantic Search)]]
-- [[アジャイル開発 (Agile Software Development)]]
-- [[組織的両利き (Organizational Ambidexterity)]]
-- [[学術的誠実性 (Academic Integrity)]]
-- [[AIガバナンス (AI Governance)]]
-- [[人間とAIの協働 (Human-AI Collaboration)]]
-- [[高等教育機関におけるDX (Digital Transformation in Higher Education)]]
+- 知識管理 (Knowledge Management)
+- 自然言語処理 (Natural Language Processing)
+- 生成AI (Generative AI)
+- 機械学習 (Machine Learning)
+- チャットボット (Chatbot)
+- セマンティック検索 (Semantic Search)
+- アジャイル開発 (Agile Software Development)
+- [[organizational-ambidexterity|組織的両利き (Organizational Ambidexterity)]]
+- 学術的誠実性 (Academic Integrity)
+- AIガバナンス (AI Governance)
+- [[human-ai-collaboration|人間とAIの協働 (Human-AI Collaboration)]]
+- 高等教育機関におけるDX (Digital Transformation in Higher Education)
 
 ---
 

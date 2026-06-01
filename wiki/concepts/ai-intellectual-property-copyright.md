@@ -57,15 +57,15 @@ AIによる創作・発明が一般化する中で、法的フレームワーク
 
 ## 関連概念
 
-- [[生成AI（Generative AI）]]
-- [[著作権法]]
-- [[特許法]]
-- [[発明者帰属（Inventorship Attribution）]]
-- [[プロベナンス（Provenance）と出所追跡]]
-- [[AIの法的人格]]
-- [[クリエイティブコモンズとオープンライセンス]]
-- [[AIと倫理（AI Ethics）]]
-- [[機械学習と訓練データの権利]]
+- 生成AI（Generative AI）
+- 著作権法
+- 特許法
+- 発明者帰属（Inventorship Attribution）
+- プロベナンス（Provenance）と出所追跡
+- AIの法的人格
+- クリエイティブコモンズとオープンライセンス
+- AIと倫理（AI Ethics）
+- 機械学習と訓練データの権利
 
 ---
 

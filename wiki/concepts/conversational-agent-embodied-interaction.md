@@ -68,15 +68,15 @@ Jobert et al.（2026）による**Swarm UIs**に関する研究では、AIによ
 
 ## 関連概念
 
-- [[ウィザード・オブ・オズ手法 (Wizard-of-Oz Methodology)]]
-- [[身体化されたインタラクション (Embodied Interaction)]]
-- [[テクノロジープローブ (Technology Probe)]]
-- [[インテリジェント・チュータリング・システム (Intelligent Tutoring System)]]
-- [[主体感 (Sense of Agency)]]
-- [[スワームUI (Swarm UI)]]
-- [[マルチモーダル会話エージェント (Multimodal Conversational Agent)]]
-- [[オートエスノグラフィー (Autoethnography)]]
-- [[ヒューマン・コンピュータ・インタラクション (HCI)]]
+- ウィザード・オブ・オズ手法 (Wizard-of-Oz Methodology)
+- 身体化されたインタラクション (Embodied Interaction)
+- テクノロジープローブ (Technology Probe)
+- インテリジェント・チュータリング・システム (Intelligent Tutoring System)
+- 主体感 (Sense of Agency)
+- スワームUI (Swarm UI)
+- マルチモーダル会話エージェント (Multimodal Conversational Agent)
+- オートエスノグラフィー (Autoethnography)
+- ヒューマン・コンピュータ・インタラクション (HCI)
 
 ---
 

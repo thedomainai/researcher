@@ -48,16 +48,16 @@ UAV（Unmanned Aerial Vehicle、無人航空機）によるリモートセンシ
 
 ## 関連概念
 
-- [[精密農業（Precision Agriculture）]]
-- [[UAVリモートセンシング（UAV Remote Sensing）]]
-- [[LiDAR技術（Light Detection and Ranging）]]
-- [[深層学習（Deep Learning）]]
-- [[農地劣化（Land Degradation）]]
-- [[マルチスペクトルイメージング（Multispectral Imaging）]]
-- [[植生指数（Vegetation Index）]]
-- [[持続可能な農業（Sustainable Agriculture）]]
-- [[灌漑管理（Irrigation Management）]]
-- [[機械学習（Machine Learning）]]
+- 精密農業（Precision Agriculture）
+- UAVリモートセンシング（UAV Remote Sensing）
+- LiDAR技術（Light Detection and Ranging）
+- 深層学習（Deep Learning）
+- 農地劣化（Land Degradation）
+- マルチスペクトルイメージング（Multispectral Imaging）
+- 植生指数（Vegetation Index）
+- 持続可能な農業（Sustainable Agriculture）
+- 灌漑管理（Irrigation Management）
+- 機械学習（Machine Learning）
 
 ---
 

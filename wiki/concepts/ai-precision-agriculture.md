@@ -45,16 +45,16 @@ Liang et al.（2026）が提案した手法の核心は、**ディープニュ�
 
 ## 関連概念
 
-- [[精密農業（Precision Agriculture）]]
-- [[UAVリモートセンシング（UAV Remote Sensing）]]
-- [[LiDAR技術]]
-- [[ディープニューラルネットワーク（Deep Neural Network）]]
-- [[機械学習（Machine Learning）]]
-- [[土地劣化（Land Degradation）]]
-- [[持続可能な農業（Sustainable Agriculture）]]
-- [[スマート灌漑（Smart Irrigation）]]
-- [[マルチスペクトル画像解析]]
-- [[生態系回復（Ecosystem Restoration）]]
+- 精密農業（Precision Agriculture）
+- UAVリモートセンシング（UAV Remote Sensing）
+- LiDAR技術
+- ディープニューラルネットワーク（Deep Neural Network）
+- 機械学習（Machine Learning）
+- 土地劣化（Land Degradation）
+- 持続可能な農業（Sustainable Agriculture）
+- スマート灌漑（Smart Irrigation）
+- マルチスペクトル画像解析
+- 生態系回復（Ecosystem Restoration）
 
 ---
 

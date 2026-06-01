@@ -87,15 +87,15 @@ Changのフレームワークでは、ガバナンスを**制約付き最適化�
 
 ## 関連概念
 
-- [[自動化バイアス（Automation Bias）]]
-- [[人間とAIの協調（Human-AI Collaboration）]]
-- [[大規模言語モデル（LLM）]]
-- [[AIガバナンス]]
-- [[説明可能なAI（Explainable AI / XAI）]]
-- [[リスク管理（Risk Management）]]
-- [[デューデリジェンス（Due Diligence）]]
-- [[自律型システム（Autonomous Systems）]]
-- [[行動科学（Behavioral Science）]]
+- 自動化バイアス（Automation Bias）
+- [[human-ai-collaboration|人間とAIの協調（Human-AI Collaboration）]]
+- 大規模言語モデル（LLM）
+- AIガバナンス
+- [[explainable-ai-xai|説明可能なAI（Explainable AI / XAI）]]
+- リスク管理（Risk Management）
+- デューデリジェンス（Due Diligence）
+- 自律型システム（Autonomous Systems）
+- 行動科学（Behavioral Science）
 
 ---
 

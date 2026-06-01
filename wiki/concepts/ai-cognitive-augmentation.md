@@ -80,16 +80,16 @@ Liu（2026）の研究は、認知拡張の概念を身体的健康の領域ま�
 
 ## 関連概念
 
-- [[人間-AI協働 (Human-AI Collaboration)]]
-- [[エピソード記憶 (Episodic Memory)]]
-- [[知識管理システム (Knowledge Management System)]]
-- [[マルチモーダルAI (Multimodal AI)]]
-- [[生成AI (Generative AI)]]
-- [[認知負荷理論 (Cognitive Load Theory)]]
-- [[パーソナライゼーションと適応型システム (Personalization and Adaptive Systems)]]
-- [[デジタル補綴 (Digital Prosthetics)]]
-- [[行動変容技術 (Behavior Change Technology)]]
-- [[エンタープライズAI (Enterprise AI)]]
+- [[human-ai-collaboration|人間-AI協働 (Human-AI Collaboration)]]
+- エピソード記憶 (Episodic Memory)
+- 知識管理システム (Knowledge Management System)
+- マルチモーダルAI (Multimodal AI)
+- 生成AI (Generative AI)
+- [[cognitive-load-theory|認知負荷理論 (Cognitive Load Theory)]]
+- パーソナライゼーションと適応型システム (Personalization and Adaptive Systems)
+- デジタル補綴 (Digital Prosthetics)
+- 行動変容技術 (Behavior Change Technology)
+- エンタープライズAI (Enterprise AI)
 
 ---
 

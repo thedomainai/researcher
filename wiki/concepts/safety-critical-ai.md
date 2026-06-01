@@ -67,17 +67,17 @@ STPAは、ハザードを単一の障害点ではなくシステム全体の制�
 
 ## 関連概念
 
-- [[運用設計領域 (ODD)]]
-- [[機械学習の安全性 (ML Safety)]]
-- [[形式的検証 (Formal Verification)]]
-- [[説明可能AI (XAI)]]
-- [[システム理論的プロセス分析 (STPA)]]
-- [[情報物理学 (Information Physics)]]
-- [[半順序集合 (Poset)]]
-- [[大規模言語モデル (LLM)]]
-- [[サイバーセキュリティ]]
-- [[AI認証 (AI Certification)]]
-- [[位相的推論 (Topological Reasoning)]]
+- 運用設計領域 (ODD)
+- 機械学習の安全性 (ML Safety)
+- 形式的検証 (Formal Verification)
+- [[explainable-ai-xai|説明可能AI (XAI)]]
+- システム理論的プロセス分析 (STPA)
+- 情報物理学 (Information Physics)
+- 半順序集合 (Poset)
+- 大規模言語モデル (LLM)
+- サイバーセキュリティ
+- AI認証 (AI Certification)
+- 位相的推論 (Topological Reasoning)
 
 ---
 

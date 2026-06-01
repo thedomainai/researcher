@@ -42,14 +42,14 @@ Wilson（2026年）による混合研究法（mixed methods study）は、外科
 
 ## 関連概念
 
-- [[有意性検定（Significance Testing）]]
-- [[p値（P-value）]]
-- [[信頼区間（Confidence Intervals）]]
-- [[臨床的意思決定（Clinical Decision-Making）]]
-- [[行動経済学（Behavioral Economics）]]
-- [[統計的リテラシー（Statistical Literacy）]]
-- [[混合研究法（Mixed Methods Research）]]
-- [[効果量（Effect Size）]]
+- 有意性検定（Significance Testing）
+- p値（P-value）
+- 信頼区間（Confidence Intervals）
+- 臨床的意思決定（Clinical Decision-Making）
+- 行動経済学（Behavioral Economics）
+- 統計的リテラシー（Statistical Literacy）
+- 混合研究法（Mixed Methods Research）
+- 効果量（Effect Size）
 
 ---
 

@@ -53,7 +53,7 @@ Sandstedt et al.（2026）は、ノルウェー語の**分詞一致（participia
 
 ### 理論的含意
 
-この研究は、**言語処理は静的な文法知識のみに基づくのではなく、話者が日常的に経験する産出変異の確率的パターンに動的に適応している**という仮説を支持する。これは[[確率論的言語処理モデル]]や[[語彙アクセスと形態論]]の議論とも接続する重要な知見である。
+この研究は、**言語処理は静的な文法知識のみに基づくのではなく、話者が日常的に経験する産出変異の確率的パターンに動的に適応している**という仮説を支持する。これは確率論的言語処理モデルや語彙アクセスと形態論の議論とも接続する重要な知見である。
 
 また、言語変化の研究において、社会言語学的・コーパス的手法に加えて神経科学的手法を組み合わせることで、変化のメカニズムを個人レベルで追跡できる可能性が開かれた。
 
@@ -61,16 +61,16 @@ Sandstedt et al.（2026）は、ノルウェー語の**分詞一致（participia
 
 ## 関連概念
 
-- [[事象関連電位（ERP）]]
-- [[形態統語処理]]
-- [[言語変化と言語変異]]
-- [[方言と神経言語学]]
-- [[微変異（Microvariation）]]
-- [[分詞一致（Participial Agreement）]]
-- [[確率論的言語処理モデル]]
-- [[個人差と言語処理]]
-- [[ノルウェー語方言学]]
-- [[オンライン文処理]]
+- 事象関連電位（ERP）
+- 形態統語処理
+- 言語変化と言語変異
+- 方言と神経言語学
+- 微変異（Microvariation）
+- 分詞一致（Participial Agreement）
+- 確率論的言語処理モデル
+- 個人差と言語処理
+- ノルウェー語方言学
+- オンライン文処理
 
 ---
 
@@ -80,4 +80,4 @@ Sandstedt et al.（2026）は、ノルウェー語の**分詞一致（participia
 |----------|------|----|
 | Neurolinguistic signatures of microvariation and language change: Individual production variability predicts morphosyntactic processing differences | Jade J. Sandstedt, Maki Kubota, Merete Anderssen, Stig J. Helset, Björn Lundquist | 2026 |
 
-**ファイルパス**: `raw/neurolinguistic_signatures_microvariation_language_change_2026.md`
+**ファイルパス**: （パス未確認）

@@ -1,93 +1,49 @@
-# ダイナミック・ケイパビリティ
+# ダイナミック・ケイパビリティ（動的能力）
 
 ## 概要
 
-**ダイナミック・ケイパビリティ（Dynamic Capabilities）**とは、急速に変化する環境に対応するために、組織が内外のコンピタンス（能力・知識・資源）を統合・構築・再構成する能力を指す戦略経営の中心的概念である。
+**ダイナミック・ケイパビリティ（Dynamic Capabilities：動的能力）**とは、急速に変化するビジネス環境に対応するために、企業が内外の強み（リソースや組織的プロセス、技術、知識など）を統合、構築、そして再構成（再組織化）する能力を指します。
 
-この概念は、David Teece、Gary Pisano、Amy Shuenによる1997年の論文「Dynamic Capabilities and Strategic Management」において体系的に提唱された。同論文は学術的引用数が34,000件を超える非常に影響力の高い研究であり、経営戦略論・組織科学の分野において基盤的な理論的枠組みとして広く認知されている。
+従来の経営戦略論である「資源ベースビュー（Resource-Based View: RBV）」が、企業の持つ静的な経営資源（リソース）の希少性や模倣困難性を競争優位の源泉として重視したのに対し、ダイナミック・ケイパビリティはそれらの資源を「いかに動的に変化・更新させていくか」というプロセスや能力に焦点を当てています。現代の不確実性が高く、デジタルトランスフォーメーション（DX）や急速なイノベーションが求められる市場環境において、持続的な競争優位性を維持するために極めて重要な概念です。
 
-ダイナミック・ケイパビリティが重要視される理由は、従来の静的な資源ベース理論（Resource-Based View）では説明しきれなかった「なぜ一部の企業は変化の激しい市場環境においても持続的な競争優位を維持できるのか」という問いに答えるためである。つまり、単に優れた資源を保有しているだけでなく、その資源を適応・更新・再配置する動的な能力こそが競争優位の源泉であるという考え方である。
+## 詳細セクション
 
----
+提供された研究ソースから、ダイナミック・ケイパビリティの多角的な役割や構成要素、戦略的な更新プロセスについて以下の知見が得られています。
 
-## 詳細
+### 1. 概念の具体化と構成要素
+ダイナミック・ケイパビリティは抽象的な概念として議論されることが多いですが、Wang & Ahmed (2007) は、この概念を整理・明確化し、異なる企業間でも共通して見られる特徴として以下の**3つの構成要素（コンポーネント要因）**を測定可能な構成概念として位置づけました。これにより、ダイナミック・ケイパビリティの先行要因と、それがもたらす成果（パフォーマンス）を統合的なフレームワークとして分析することが可能になっています。
 
-### 定義の構造
+### 2. 製品イノベーションを通じた「組織の自己更新」
+Danneels (2002) は、製品イノベーションと企業のケイパビリティとの間には相互作用的（双方向）な関係があると指摘しています。
+新製品の開発は、単に既存のリソースを消費するだけでなく、**「技術」**と**「顧客」**に関する自社の能力を探索・獲得するプロセスでもあります。組織学習理論における**「深化（Exploration/知の探索）」**と**「探索（Exploitation/知の深化）」**の概念を用いて、製品イノベーションが企業の保有するケイパビリティを動的に更新し、経路依存性（過去のしがらみ）から脱却して自己更新を可能にするダイナミクスを明らかにしています。
 
-Teece, Pisano, Shuen（1997）による定義は、複数の要素から構成されており、その解釈は多層的である。Faizal, Ahmad Zaidi, Othman（2012）による後続研究では、この定義を「分解（dismantling）」することで概念の構成要素を精緻に理解しようとする試みが行われている。
+### 3. デジタルトランスフォーメーション（DX）と戦略的刷新
+現代のビジネス環境において、ダイナミック・ケイパビリティはデジタル化を推進する原動力となっています。
+Warner & Wäger (2018) は、デジタルトランスフォーメーション（DX）の文脈におけるダイナミック・ケイパビリティの構築プロセスを分析しています。彼らは、デジタル変革を単なる技術導入ではなく「継続的な戦略的刷新（Strategic Renewal）のプロセス」として捉え、デジタル環境に適応するための組織変革力こそがダイナミック・ケイパビリティの本質であると説明しています。
 
-定義の主要な構成要素は以下のとおりである：
-
-- **「動的（Dynamic）」の意味**：環境変化に対応して内部・外部の組織能力を刷新する能力そのものを指す
-- **「ケイパビリティ（Capability）」の意味**：変化する環境に適応するために、内外のコンピタンスを統合・構築・再構成する経営能力
-- **「戦略的経営（Strategic Management）」との関係**：企業がいかにして競争優位を獲得・維持・拡張するかという戦略的意思決定と密接に結びついている
-
-### 三つのコアプロセス：センシング・シージング・リコンフィギュアリング
-
-後続の研究（特にTeece, 2007以降の発展的議論）では、ダイナミック・ケイパビリティは以下の三つのプロセスとして整理されることが多い：
-
-| プロセス | 内容 |
-|---|---|
-| **センシング（Sensing）** | 環境の変化・機会・脅威を察知・感知する能力 |
-| **シージング（Seizing）** | 感知した機会を捉えて資源を動員・投入する能力 |
-| **リコンフィギュアリング（Reconfiguring）** | 既存の資産・構造・組織を変革・再構成する能力 |
-
-Wang et al.（2026）の最新研究においても、AIが登場した時代においてこれら三つのプロセスがどのように再構成されるかが中心的な分析軸として用いられており、この枠組みの汎用性・持続的有効性が示されている。
-
-### 理論的背景と位置づけ
-
-ダイナミック・ケイパビリティ理論は以下の先行理論を批判的に継承・発展させたものである：
-
-- **資源ベース理論（Resource-Based View, RBV）**：企業の競争優位を内部資源の希少性・模倣困難性に求めた理論。ダイナミック・ケイパビリティ論は、「資源の保有」に加えて「資源の動的な更新・統合」を重視する点でRBVを拡張している。
-- **進化経済学・ルーティン理論**：組織ルーティンの変化・学習プロセスを重視する観点と親和性が高い。
-- **知識ベース理論（Knowledge-Based View）**：組織的知識の統合・移転・創造をケイパビリティの基盤と見なす立場と連携する。
-
-### マイクロファウンデーション（ミクロ的基盤）
-
-ダイナミック・ケイパビリティのミクロ的基盤（Micro-foundations）とは、組織能力を構成する個人・プロセス・構造レベルの要素を指す。伝統的には、以下の要素がマイクロファウンデーションとして挙げられる：
-
-- 経営者・個人の認知と判断（Human Cognition）
-- 組織ルーティンと経験的学習（Experiential Learning）
-- 意思決定ロジックとプロセス
-
-### AI時代における再構成
-
-Wang, Khaw, Wang（2026）の研究は、人工知能（AI）の台頭がダイナミック・ケイパビリティのマイクロファウンデーションを根本的に変容させつつあることを指摘している。
-
-従来のダイナミック・ケイパビリティ理論は**人間の認知・ルーティン・経験的判断**を基盤としていたが、AIの登場により以下の変化が生じている：
-
-- **新たなアクター**：AIエージェントがセンシング・シージング・リコンフィギュアリングの各プロセスに関与する
-- **アルゴリズム的メカニズム**：人間の直感的判断に代わり、データ駆動型の意思決定ロジックが機能する
-- **ハイブリッドな意思決定**：人間とAIが協調して戦略的判断を行う「ヒューマン・AIコラボレーション」の枠組みが形成される
-
-同研究は、**AIが「メタ・ケイパビリティ（meta-capability）」**として機能し、環境センシングの範囲と速度を大幅に拡大させると論じており、動的能力理論・組織情報処理論・アルゴリズム的エージェンシー研究を統合したハイブリッドフレームワークを提案している。
-
-### SMEsとダイナミック・ケイパビリティ
-
-ダイナミック・ケイパビリティの概念は大企業だけでなく、中小企業（SMEs: Small and Medium Enterprises）にも適用される。Rumangkit（2026）のデータセット研究は、AIの導入がSMEsのダイナミック・ケイパビリティと業績に与える影響を調査しており、中小企業がいかにしてAIを活用して動的能力を構築するかという実践的な問いを探求している。これは、デジタル変革の文脈においてダイナミック・ケイパビリティ論が新たな適用領域を開拓していることを示している。
+### 4. IT投資、デジタル・オプション、そして敏捷性（アジリティ）
+Sambamurthy et al. (2003) は、現代企業における情報技術（IT）の戦略的役割を再考する中で、ITへの投資やケイパビリティ自体が直接的に企業業績に結びつくのではなく、中間的な組織能力を媒介していると論じています。
+具体的には、IT投資が**「デジタル・オプション（Digital Options）」**と**「アジリティ（敏捷性）」**という動的組織能力を形成・強化し、これが企業の持続的な競争優位性とイノベーションを形成する原動力になると主張しています。
 
 ---
 
 ## 関連概念
 
-- [[資源ベース理論（Resource-Based View）]]
-- [[競争優位（Competitive Advantage）]]
-- [[知識ベース理論（Knowledge-Based View）]]
-- [[組織学習（Organizational Learning）]]
-- [[イノベーション・マネジメント（Innovation Management）]]
-- [[戦略的経営（Strategic Management）]]
-- [[人工知能と経営（AI and Management）]]
-- [[マイクロファウンデーション（Micro-foundations）]]
-- [[中小企業経営（SME Management）]]
-- [[組織ルーティン（Organizational Routines）]]
+* [[資源ベースビュー (Resource-Based View)]]
+* [[デジタルトランスフォーメーション (Digital Transformation)]]
+* [[組織学習 (Organizational Learning)]]
+* [[知の探索と知の深化 (Exploration and Exploitation)]]
+* [[組織のアジリティ (Organizational Agility)]]
 
 ---
 
 ## 参考ソース
 
-| タイトル | 著者 | 年 |
-|---|---|---|
-| [Dynamic Capabilities and Strategic Management](raw/Teece_Pisano_Shuen_1997.md) | D. Teece, G. Pisano, A. Shuen | 1997 |
-| [Understanding the Concept of Dynamic Capabilities by Dismantling Teece, Pisano, and Shuen (1997)'s Definition](raw/Faizal_AhmadZaidi_Othman_2012.md) | M. Faizal, Ahmad Zaidi, S. Othman | 2012 |
-| [Exploring the Reconstruction of the Micro foundations of Dynamic Capabilities in the Age of Artificial Intelligence](raw/Wang_KhawKhaiWah_2026.md) | Xiaobin Wang, Khaw Khai Wah | 2026 |
-| [Dataset Questionnaire The Influence of Artificial Intelligence on Dynamic Capabilities and SMEs Performance](raw/Rumangkit_2026.md) | Stefanus Rumangkit | 2026 |
+* **Shaping Agility through Digital Options: Reconceptualizing the Role of Information Technology in Contemporary Firms1** (Sambamurthy, Anandhi Bharadwaj, Grover, 2003)
+  * ファイルパス: `raw/Shaping Agility through Digital Options: Reconceptualizing the Role of Information Technology in Contemporary Firms1`
+* **Building dynamic capabilities for digital transformation: An ongoing process of strategic renewal** (Karl Warner, Maximilian Wäger, 2018)
+  * ファイルパス: `raw/Building dynamic capabilities for digital transformation: An ongoing process of strategic renewal`
+* **Dynamic capabilities: A review and research agenda** (Catherine L. Wang, Pervaiz K. Ahmed, 2007)
+  * ファイルパス: `raw/Dynamic capabilities: A review and research agenda`
+* **The dynamics of product innovation and firm competences** (Erwin Danneels, 2002)
+  * ファイルパス: `raw/The dynamics of product innovation and firm competences`

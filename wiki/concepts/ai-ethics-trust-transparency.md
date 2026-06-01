@@ -77,15 +77,15 @@ Teoらはこの問題を以下の4つの視点から分析している。
 
 ## 関連概念
 
-- [[説明可能なAI（Explainable AI / XAI）]]
-- [[AIバイアスと公正性（AI Bias and Fairness）]]
-- [[人間とAIの相互作用（Human-AI Interaction）]]
-- [[Retrieval-Augmented Generation（RAG）]]
-- [[デュアルプロセス理論（Dual-Process Theory）]]
-- [[AIガバナンスと規制（AI Governance and Regulation）]]
-- [[感情的AI（Emotional AI）]]
-- [[プライバシーとデータ保護（Privacy and Data Protection）]]
-- [[責任あるAI（Responsible AI）]]
+- [[explainable-ai-xai|説明可能なAI（Explainable AI / XAI）]]
+- AIバイアスと公正性（AI Bias and Fairness）
+- [[human-ai-interaction|人間とAIの相互作用（Human-AI Interaction）]]
+- Retrieval-Augmented Generation（RAG）
+- デュアルプロセス理論（Dual-Process Theory）
+- AIガバナンスと規制（AI Governance and Regulation）
+- 感情的AI（Emotional AI）
+- プライバシーとデータ保護（Privacy and Data Protection）
+- 責任あるAI（Responsible AI）
 
 ---
 

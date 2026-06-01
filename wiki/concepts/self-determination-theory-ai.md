@@ -63,15 +63,15 @@ SDTをAI研究に適用することには、以下のような理論的・実践
 
 ## 関連概念
 
-- [[自己決定理論（Self-Determination Theory）]]
-- [[内発的動機づけ（Intrinsic Motivation）]]
-- [[基本的心理欲求（Basic Psychological Needs）]]
-- [[AIパーソナライズド学習（AI-based Personalized Learning）]]
-- [[AIハルシネーション（AI Hallucination）]]
-- [[適応型学習システム（Adaptive Learning Systems）]]
-- [[ユーザーエクスペリエンスとAI（UX and AI）]]
-- [[教育テクノロジー（Educational Technology）]]
-- [[人間とAIのインタラクション（Human-AI Interaction）]]
+- [[self-determination-theory|自己決定理論（Self-Determination Theory）]]
+- 内発的動機づけ（Intrinsic Motivation）
+- 基本的心理欲求（Basic Psychological Needs）
+- AIパーソナライズド学習（AI-based Personalized Learning）
+- AIハルシネーション（AI Hallucination）
+- 適応型学習システム（Adaptive Learning Systems）
+- ユーザーエクスペリエンスとAI（UX and AI）
+- 教育テクノロジー（Educational Technology）
+- [[human-ai-interaction|人間とAIのインタラクション（Human-AI Interaction）]]
 
 ---
 

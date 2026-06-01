@@ -57,16 +57,16 @@ Go言語はクラウドインフラ、マイクロサービス、ネットワー
 
 ## 関連概念
 
-- [[大規模言語モデル (Large Language Models)]]
-- [[コード生成 (Code Generation)]]
-- [[CodeBERT]]
-- [[UniXcoder]]
-- [[AI生成テキスト検出 (AI-Generated Text Detection)]]
-- [[ソフトウェアサプライチェーンセキュリティ]]
-- [[学術的誠実性 (Academic Integrity)]]
-- [[知的財産とAI (Intellectual Property and AI)]]
-- [[事前学習済みモデル (Pre-trained Models)]]
-- [[特徴融合 (Feature Fusion)]]
+- 大規模言語モデル (Large Language Models)
+- コード生成 (Code Generation)
+- CodeBERT
+- UniXcoder
+- AI生成テキスト検出 (AI-Generated Text Detection)
+- ソフトウェアサプライチェーンセキュリティ
+- 学術的誠実性 (Academic Integrity)
+- 知的財産とAI (Intellectual Property and AI)
+- 事前学習済みモデル (Pre-trained Models)
+- 特徴融合 (Feature Fusion)
 
 ---
 

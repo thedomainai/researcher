@@ -78,16 +78,16 @@ Henrichは、文化進化が人間を一種の「**自己家畜化**（self-dome
 
 ## 関連概念
 
-- [[遺伝子-文化共進化 (Gene-Culture Coevolution)]]
-- [[社会的学習 (Social Learning)]]
-- [[集合的知性 (Collective Intelligence)]]
-- [[模倣と文化伝達 (Imitation and Cultural Transmission)]]
-- [[人間の自己家畜化 (Human Self-Domestication)]]
-- [[認知バイアスと文化 (Cognitive Biases and Culture)]]
-- [[進化心理学 (Evolutionary Psychology)]]
-- [[身体化認知 (Embodied Cognition)]]
-- [[社会的知性仮説 (Social Intelligence Hypothesis)]]
-- [[言語と認知 (Language and Cognition)]]
+- 遺伝子-文化共進化 (Gene-Culture Coevolution)
+- 社会的学習 (Social Learning)
+- 集合的知性 (Collective Intelligence)
+- 模倣と文化伝達 (Imitation and Cultural Transmission)
+- 人間の自己家畜化 (Human Self-Domestication)
+- 認知バイアスと文化 (Cognitive Biases and Culture)
+- 進化心理学 (Evolutionary Psychology)
+- [[embodied-cognition|身体化認知 (Embodied Cognition)]]
+- 社会的知性仮説 (Social Intelligence Hypothesis)
+- 言語と認知 (Language and Cognition)
 
 ---
 

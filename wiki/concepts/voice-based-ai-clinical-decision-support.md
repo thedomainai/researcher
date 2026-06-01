@@ -55,20 +55,20 @@
 
 ## 関連概念
 
-- [[電子医療記録（EMR）自動生成]]
-- [[自動音声認識（ASR）]]
-- [[大規模言語モデル（LLM）]]
-- [[プロンプトエンジニアリング]]
-- [[低・中所得国におけるデジタルヘルス]]
-- [[母子保健とAI]]
-- [[インクルーシブデザイン]]
-- [[グローバルヘルスとHCI]]
-- [[多言語NLP]]
-- [[臨床リスク評価システム]]
+- 電子医療記録（EMR）自動生成
+- 自動音声認識（ASR）
+- 大規模言語モデル（LLM）
+- プロンプトエンジニアリング
+- 低・中所得国におけるデジタルヘルス
+- 母子保健とAI
+- インクルーシブデザイン
+- グローバルヘルスとHCI
+- 多言語NLP
+- 臨床リスク評価システム
 
 ---
 
 ## 参考ソース
 
 - Mustafa, M., Shahnawaz, A., Ammara, U., Abrar, M., & Ahtisham, B. (2026). *Awaaz-e-Sehat: A Mobile Voice-based AI System for EMR Generation and Clinical Decision Support in Low-resource Maternal Healthcare*. DOI: [10.1145/3790115](https://doi.org/10.1145/3790115)
-  - ファイルパス: `raw/Awaaz-e-Sehat_A_Mobile_Voice-based_AI_System_for_EMR_Generation_and_Clinical_Decision_Support_in_Low-resource_Maternal_Healthcare.md`
+  - ファイルパス: （パス未確認）

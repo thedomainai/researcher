@@ -49,15 +49,15 @@ Hanは「AI文明」という概念を提唱し、AIと人間の関係が根本�
 
 ## 関連概念
 
-- [[大規模言語モデル (Large Language Model)]]
-- [[自然言語処理 (Natural Language Processing)]]
-- [[ChatGPT]]
-- [[生成AI (Generative AI)]]
-- [[AI倫理 (AI Ethics)]]
-- [[労働の自動化 (Automation of Labor)]]
-- [[人間とAIの協調 (Human-AI Collaboration)]]
-- [[デジタルトランスフォーメーション (Digital Transformation)]]
-- [[AI規制・政策 (AI Regulation and Policy)]]
+- 大規模言語モデル (Large Language Model)
+- 自然言語処理 (Natural Language Processing)
+- ChatGPT
+- 生成AI (Generative AI)
+- AI倫理 (AI Ethics)
+- 労働の自動化 (Automation of Labor)
+- [[human-ai-collaboration|人間とAIの協調 (Human-AI Collaboration)]]
+- デジタルトランスフォーメーション (Digital Transformation)
+- AI規制・政策 (AI Regulation and Policy)
 
 ---
 

@@ -49,14 +49,14 @@ AIの進展により、自然言語の記述からデータ可視化を自動生
 
 ## 関連概念
 
-- [[自然言語処理 (Natural Language Processing)]]
-- [[データ可視化 (Data Visualization)]]
-- [[説明可能AI (Explainable AI)]]
-- [[ヒューマンコンピュータインタラクション (Human-Computer Interaction)]]
-- [[マルチモーダルインタフェース (Multimodal Interface)]]
-- [[会話型エージェント (Conversational Agent)]]
-- [[クエリ曖昧性解消 (Query Ambiguity Resolution)]]
-- [[人間中心AI (Human-Centered AI)]]
+- 自然言語処理 (Natural Language Processing)
+- データ可視化 (Data Visualization)
+- [[explainable-ai-xai|説明可能AI (Explainable AI)]]
+- ヒューマンコンピュータインタラクション (Human-Computer Interaction)
+- マルチモーダルインタフェース (Multimodal Interface)
+- 会話型エージェント (Conversational Agent)
+- クエリ曖昧性解消 (Query Ambiguity Resolution)
+- 人間中心AI (Human-Centered AI)
 
 ---
 

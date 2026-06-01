@@ -56,16 +56,16 @@ Dohnányら（2026）は、AIチャットボットとユーザーのメンタル
 
 ## 関連概念
 
-- [[システム思考 (Systems Thinking)]]
-- [[複雑系科学 (Complexity Science)]]
-- [[サイバネティクス (Cybernetics)]]
-- [[制御理論 (Control Theory)]]
-- [[非線形力学系 (Nonlinear Dynamical Systems)]]
-- [[分散認知 (Distributed Cognition)]]
-- [[政策抵抗 (Policy Resistance)]]
-- [[創発 (Emergence)]]
-- [[AIと集合的認知 (AI and Collective Cognition)]]
-- [[デジタルメンタルヘルス (Digital Mental Health)]]
+- システム思考 (Systems Thinking)
+- 複雑系科学 (Complexity Science)
+- サイバネティクス (Cybernetics)
+- 制御理論 (Control Theory)
+- 非線形力学系 (Nonlinear Dynamical Systems)
+- 分散認知 (Distributed Cognition)
+- 政策抵抗 (Policy Resistance)
+- 創発 (Emergence)
+- AIと集合的認知 (AI and Collective Cognition)
+- デジタルメンタルヘルス (Digital Mental Health)
 
 ---
 

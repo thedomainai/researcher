@@ -52,15 +52,15 @@ Bibiana Xausa Bosak（2026）が主導する研究プログラム**EXPANDEDINTEL
 
 ## 関連概念
 
-- [[身体化認知]]（Embodied Cognition）
-- [[拡張知能]]（Expanded Intelligence）
-- [[分散認知]]（Distributed Cognition）
-- [[拡張心仮説]]（Extended Mind Hypothesis）
-- [[人工知能]]（Artificial Intelligence）
-- [[技術哲学]]（Philosophy of Technology）
-- [[神経多様性]]（Neurodivergence）
-- [[人間-AI協調]]（Human-AI Collaboration）
-- [[文明的転換点]]（Anthropological Phase Shift）
+- 身体化認知（Embodied Cognition）
+- 拡張知能（Expanded Intelligence）
+- 分散認知（Distributed Cognition）
+- 拡張心仮説（Extended Mind Hypothesis）
+- 人工知能（Artificial Intelligence）
+- 技術哲学（Philosophy of Technology）
+- 神経多様性（Neurodivergence）
+- 人間-AI協調（Human-AI Collaboration）
+- 文明的転換点（Anthropological Phase Shift）
 
 ---
 

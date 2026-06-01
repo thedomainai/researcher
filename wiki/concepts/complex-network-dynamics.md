@@ -68,16 +68,16 @@ Hikihara（2026）は、ルータで接続された電力パケットネット�
 
 ## 関連概念
 
-- [[同期現象 (Synchronization)]]
-- [[マルチプレックスネットワーク (Multiplex Networks)]]
-- [[位相振動子モデル (Phase Oscillator Models)]]
-- [[次数相関・同類性 (Degree Assortativity)]]
-- [[情報伝播・拡散ダイナミクス (Information Spreading Dynamics)]]
-- [[非線形ダイナミクスと分岐理論 (Nonlinear Dynamics and Bifurcation Theory)]]
-- [[サイバー・フィジカルシステム (Cyber-Physical Systems)]]
-- [[コネクトーム (Connectome)]]
-- [[確率過程とランジュバン方程式 (Stochastic Processes and Langevin Equation)]]
-- [[複雑系科学 (Complexity Science)]]
+- 同期現象 (Synchronization)
+- マルチプレックスネットワーク (Multiplex Networks)
+- 位相振動子モデル (Phase Oscillator Models)
+- 次数相関・同類性 (Degree Assortativity)
+- 情報伝播・拡散ダイナミクス (Information Spreading Dynamics)
+- 非線形ダイナミクスと分岐理論 (Nonlinear Dynamics and Bifurcation Theory)
+- サイバー・フィジカルシステム (Cyber-Physical Systems)
+- コネクトーム (Connectome)
+- 確率過程とランジュバン方程式 (Stochastic Processes and Langevin Equation)
+- 複雑系科学 (Complexity Science)
 
 ---
 

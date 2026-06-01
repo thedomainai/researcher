@@ -63,14 +63,14 @@ Nnenna（2026）は、生成AIを「メタ認知的な鏡（metacognitive mirror
 
 ## 関連概念
 
-- [[分散認知（Distributed Cognition）]]
-- [[自己調整学習（Self-Regulated Learning）]]
-- [[認知負荷理論（Cognitive Load Theory）]]
-- [[人間中心AI設計（Human-Centered AI Design）]]
-- [[メタ認知（Metacognition）]]
-- [[オートメーションバイアス（Automation Bias）]]
-- [[拡張知性（Augmented Intelligence）]]
-- [[AIワークフロー設計（AI Workflow Redesign）]]
+- 分散認知（Distributed Cognition）
+- [[self-regulated-learning|自己調整学習（Self-Regulated Learning）]]
+- [[cognitive-load-theory|認知負荷理論（Cognitive Load Theory）]]
+- 人間中心AI設計（Human-Centered AI Design）
+- [[metacognition|メタ認知（Metacognition）]]
+- オートメーションバイアス（Automation Bias）
+- 拡張知性（Augmented Intelligence）
+- AIワークフロー設計（AI Workflow Redesign）
 
 ---
 

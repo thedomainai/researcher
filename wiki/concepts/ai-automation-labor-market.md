@@ -53,14 +53,14 @@ Autor、Levy、Murnane（2001）の先駆的研究「The Skill Content of Recent
 
 ## 関連概念
 
-- [[スキル偏向型技術変化（Skill-Biased Technological Change）]]
-- [[ルーティン・タスク仮説（Routine-Biased Technological Change）]]
-- [[雇用のポーラリゼーション（Job Polarization）]]
-- [[タスク・ベース・フレームワーク（Task-Based Framework）]]
-- [[大規模言語モデル（Large Language Models, LLMs）]]
-- [[O*NETデータベース]]
-- [[技術的失業（Technological Unemployment）]]
-- [[所得格差と技術変化]]
+- [[skill-biased-technological-change|スキル偏向型技術変化（Skill-Biased Technological Change）]]
+- ルーティン・タスク仮説（Routine-Biased Technological Change）
+- 雇用のポーラリゼーション（Job Polarization）
+- タスク・ベース・フレームワーク（Task-Based Framework）
+- 大規模言語モデル（Large Language Models, LLMs）
+- O*NETデータベース
+- 技術的失業（Technological Unemployment）
+- 所得格差と技術変化
 
 ---
 

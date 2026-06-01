@@ -65,15 +65,15 @@ Guidottiら（2019）のサーベイに基づくと、説明手法は大きく�
 
 ## 関連概念
 
-- [[アルゴリズムの公平性（Algorithmic Fairness）]]
-- [[機械学習（Machine Learning）]]
-- [[ブラックボックスモデル（Black Box Model）]]
-- [[GDPR・データ保護規制]]
-- [[医療AI（Medical AI）]]
-- [[倫理的AI（Ethical AI）]]
-- [[説明責任（Accountability）]]
-- [[透明性（Transparency）]]
-- [[LIME・SHAP（説明手法）]]
+- アルゴリズムの公平性（Algorithmic Fairness）
+- 機械学習（Machine Learning）
+- ブラックボックスモデル（Black Box Model）
+- GDPR・データ保護規制
+- 医療AI（Medical AI）
+- 倫理的AI（Ethical AI）
+- 説明責任（Accountability）
+- 透明性（Transparency）
+- LIME・SHAP（説明手法）
 
 ---
 
