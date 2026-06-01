@@ -8,20 +8,14 @@
 # ---------------------------------------------------------------------------
 # ティア分類フィルタ
 # ---------------------------------------------------------------------------
-# 取得した論文をLLMが自動分類するための基準
 tier_classification:
-  # Tier 1: 不変原理 — AGI時代でもそのまま適用可能な構造的原理
   tier1:
     label: "不変原理"
     description: "対象（人間/AI/組織）を入れ替えても成立する構造的原理・メカニズム"
     filters:
-      # 抽象度テスト: 具体的な対象を除去しても知見が成立するか
       abstraction_test: true
-      # 制約不変テスト: 依拠する制約がAGI時代にも存続するか
       constraint_invariance_test: true
-      # メカニズムテスト: 「なぜ」を説明しているか（「何が起きたか」ではなく）
       mechanism_test: true
-    # 存続する制約の例（これらに依拠する知見はTier 1候補）
     invariant_constraints:
       - "情報の不完全性（全知は物理的に不可能）"
       - "計算資源の有限性（AIも無限ではない）"
@@ -30,11 +24,9 @@ tier_classification:
       - "複雑系における創発と予測不可能性"
       - "エントロピー増大と秩序維持のコスト"
 
-  # Tier 2: 消滅制約の分析 — AI時代に外れる制約とその効果の研究
   tier2:
     label: "消滅制約の分析"
     description: "AI時代に外れる制約を特定し、その除去が何を引き起こすかを推論するための材料"
-    # 消滅する制約の例
     vanishing_constraints:
       - "人間のワーキングメモリ容量（7±2）"
       - "1日24時間の労働時間制約"
@@ -43,7 +35,6 @@ tier_classification:
       - "専門知識の属人性"
       - "人間の注意資源の有限性"
 
-  # Tier 3: スキップ — 取得しない
   tier3:
     label: "スキップ"
     description: "特定条件下の現象記述、手法レベルの最適化研究"
@@ -57,21 +48,19 @@ tier_classification:
 # 論文タイプフィルタ
 # ---------------------------------------------------------------------------
 paper_type_filter:
-  # 取得対象とする論文タイプ
   include:
-    - "systematic_review"     # システマティックレビュー
-    - "meta_analysis"         # メタアナリシス
-    - "tier1_primary"         # Tier 1判定されたプライマリ研究
-    - "seminal_paper"         # 分野を定義した重要論文（被引用数上位）
-    - "theoretical_framework" # 理論的フレームワークを提案する論文
-  # 除外
+    - "systematic_review"
+    - "meta_analysis"
+    - "tier1_primary"
+    - "seminal_paper"
+    - "theoretical_framework"
   exclude:
-    - "case_study_single"     # 単一ケーススタディ
-    - "tool_benchmark"        # ツール/ベンチマーク比較のみ
-    - "incremental_improvement" # 既存手法の微小改善
+    - "case_study_single"
+    - "tool_benchmark"
+    - "incremental_improvement"
 
 # ---------------------------------------------------------------------------
-# 分野別検索クエリ（15分野 × Semantic Scholar + arXiv）
+# 分野別検索クエリ
 # ---------------------------------------------------------------------------
 research_domains:
 
@@ -376,6 +365,28 @@ research_domains:
     min_citations: 100
     priority: "medium"
 
+  business_history:
+    label: "経営史"
+    core_question: "企業形態・経営手法の歴史的進化パターンから、技術革命期の組織変容について何が学べるか"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "business history corporate evolution systematic review"
+        - "managerial capitalism Chandlerian firm review"
+        - "organizational form evolution historical review"
+        - "industrialization management practice history review"
+        - "capitalism varieties institutional change comparative review"
+        - "business groups emerging economies historical review"
+      seminal:
+        - "Chandler strategy and structure"
+        - "Chandler scale and scope"
+        - "Penrose theory growth of the firm"
+        - "Landes unbound Prometheus industrialization"
+        - "Lazonick competitive advantage shop floor"
+        - "Scranton endless novelty specialty production"
+        - "Jones Zeitlin Oxford handbook business history"
+    min_citations: 100
+    priority: "medium"
+
   # ===== AI技術原理 =====
 
   ai_ml:
@@ -405,10 +416,339 @@ research_domains:
         - "LeCun convolutional neural networks"
     min_citations: 500
     priority: "critical"
-    # このドメインのTier判定補足:
-    # - ベンチマーク比較・特定モデルの性能評価 → Tier 3（スキップ）
-    # - アーキテクチャの動作原理・スケーリング則・創発現象 → Tier 1候補
-    # - 現行モデルの限界・失敗モード・バイアスの構造分析 → Tier 2候補
+
+  # ===== 企業経営 =====
+
+  strategic_management:
+    label: "経営戦略"
+    core_question: "なぜ企業間に持続的な競争優位の差が生まれ、どう維持されるか"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "resource-based view competitive advantage systematic review"
+        - "dynamic capabilities strategic management meta-analysis"
+        - "upper echelons theory CEO decision making review"
+        - "competitive dynamics industry rivalry systematic review"
+        - "strategic decision making top management team review"
+        - "corporate strategy diversification meta-analysis"
+        - "blue ocean strategy value innovation review"
+      seminal:
+        - "Porter competitive strategy five forces"
+        - "Barney firm resources sustained competitive advantage"
+        - "Wernerfelt resource-based view firm"
+        - "Hambrick Mason upper echelons theory"
+        - "Mintzberg strategy formation schools"
+        - "Ansoff corporate strategy"
+        - "Henderson experience curve"
+        - "Porter value chain competitive advantage"
+    min_citations: 200
+    priority: "critical"
+
+  corporate_governance:
+    label: "コーポレートガバナンス"
+    core_question: "所有と経営の分離による利益相反をどう制度設計で解くか"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "agency theory corporate governance systematic review"
+        - "board of directors firm performance meta-analysis"
+        - "ownership structure corporate governance review"
+        - "executive compensation incentives systematic review"
+        - "shareholder stakeholder theory governance review"
+        - "corporate governance emerging markets review"
+      seminal:
+        - "Jensen Meckling theory of firm agency costs"
+        - "Fama Jensen separation ownership control"
+        - "Shleifer Vishny survey corporate governance"
+        - "Freeman stakeholder theory business"
+        - "Berle Means modern corporation private property"
+        - "Cadbury report corporate governance"
+    min_citations: 200
+    priority: "high"
+
+  entrepreneurship:
+    label: "アントレプレナーシップ"
+    core_question: "不確実性下で機会を認識し組織を創造するメカニズムは何か"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "opportunity recognition entrepreneurship systematic review"
+        - "entrepreneurial cognition decision making review"
+        - "startup ecosystem venture capital systematic review"
+        - "effectuation causation entrepreneurship review"
+        - "entrepreneurial failure learning systematic review"
+        - "social entrepreneurship systematic review"
+      seminal:
+        - "Shane Venkataraman entrepreneurship opportunity"
+        - "Sarasvathy effectuation logic entrepreneur"
+        - "Knight uncertainty profit entrepreneurship"
+        - "Schumpeter creative destruction entrepreneurship"
+        - "Kirzner entrepreneur discovery process"
+        - "Aldrich organizations evolving"
+    min_citations: 200
+    priority: "high"
+
+  innovation_management:
+    label: "イノベーション管理"
+    core_question: "技術・組織の変革はどう起き、なぜ既存企業は対応に失敗するか"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "disruptive innovation systematic review"
+        - "open innovation systematic review meta-analysis"
+        - "technology S-curve innovation management review"
+        - "ambidexterity exploration exploitation innovation review"
+        - "innovation ecosystem platform review"
+        - "R&D investment innovation output meta-analysis"
+        - "absorptive capacity knowledge management review"
+      seminal:
+        - "Christensen innovator dilemma disruptive"
+        - "Henderson Clark architectural innovation"
+        - "Chesbrough open innovation"
+        - "Utterback mastering dynamics innovation"
+        - "Cohen Levinthal absorptive capacity"
+        - "Rogers diffusion of innovations"
+        - "Abernathy Utterback product process innovation"
+    min_citations: 200
+    priority: "critical"
+
+  finance_corporate:
+    label: "コーポレートファイナンス"
+    core_question: "資本構成・投資・リスクの最適設計原理は何か"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "capital structure firm value systematic review"
+        - "agency costs debt equity meta-analysis"
+        - "efficient market hypothesis review"
+        - "behavioral finance investor decision systematic review"
+        - "corporate investment cash flow sensitivity review"
+        - "dividend policy signaling theory review"
+        - "risk return tradeoff portfolio theory review"
+      seminal:
+        - "Modigliani Miller capital structure irrelevance"
+        - "Fama efficient capital markets"
+        - "Jensen Meckling agency costs equity"
+        - "Myers Majluf pecking order theory"
+        - "Markowitz portfolio selection theory"
+        - "Sharpe capital asset pricing model"
+        - "Black Scholes option pricing"
+    min_citations: 300
+    priority: "high"
+
+  accounting:
+    label: "会計学"
+    core_question: "組織の経済活動を情報として設計・測定・制御する原理は何か"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "positive accounting theory earnings management review"
+        - "balanced scorecard performance management systematic review"
+        - "management accounting control systems review"
+        - "financial reporting quality earnings quality meta-analysis"
+        - "audit quality financial reporting systematic review"
+        - "accounting information systems decision making review"
+      seminal:
+        - "Watts Zimmermann positive accounting theory"
+        - "Kaplan Norton balanced scorecard"
+        - "Jensen Smith stockholder bondholder conflicts"
+        - "Ball Brown empirical evaluation accounting income"
+        - "Ijiri theory of accounting measurement"
+    min_citations: 200
+    priority: "medium"
+
+  marketing:
+    label: "マーケティング"
+    core_question: "価値の創造・伝達・獲得のメカニズムは何か"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "service dominant logic value cocreation systematic review"
+        - "customer experience journey mapping review"
+        - "brand equity consumer behavior meta-analysis"
+        - "digital marketing platform systematic review"
+        - "customer lifetime value loyalty meta-analysis"
+        - "market orientation firm performance meta-analysis"
+        - "pricing strategy consumer psychology review"
+      seminal:
+        - "Vargo Lusch service dominant logic"
+        - "Kotler marketing management"
+        - "Moore crossing the chasm"
+        - "Reichheld loyalty effect net promoter"
+        - "Levitt marketing myopia"
+        - "Christensen jobs to be done"
+        - "Ries Trout positioning"
+    min_citations: 200
+    priority: "high"
+
+  human_resource_management:
+    label: "人的資源管理"
+    core_question: "人間の能力・動機・関係性を組織としてどう設計するか"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "high performance work systems HRM meta-analysis"
+        - "human capital theory employee performance review"
+        - "talent management systematic review"
+        - "organizational commitment turnover meta-analysis"
+        - "psychological safety team performance meta-analysis"
+        - "performance management appraisal systematic review"
+        - "diversity inclusion organizational performance review"
+      seminal:
+        - "Becker human capital theory"
+        - "Huselid HRM firm performance"
+        - "Hackman Oldham job design motivation"
+        - "Edmondson psychological safety learning"
+        - "Pfeffer competitive advantage through people"
+        - "Ulrich human resource champions"
+    min_citations: 200
+    priority: "high"
+
+  operations_management:
+    label: "オペレーション管理"
+    core_question: "生産・供給・品質のシステムを最適化する構造原理は何か"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "lean manufacturing systematic review meta-analysis"
+        - "supply chain management performance systematic review"
+        - "total quality management TQM meta-analysis"
+        - "operations strategy competitive advantage review"
+        - "inventory management optimization systematic review"
+        - "service operations management systematic review"
+        - "digital operations Industry 4.0 review"
+      seminal:
+        - "Womack Jones Roos machine that changed world lean"
+        - "Deming out of crisis quality"
+        - "Goldratt theory of constraints"
+        - "Toyota production system Ohno"
+        - "Hayes Wheelwright manufacturing strategy"
+        - "Skinner manufacturing missing link strategy"
+    min_citations: 200
+    priority: "high"
+
+  international_business:
+    label: "国際経営"
+    core_question: "企業はなぜ・どのように国境を越えて組織するか"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "OLI paradigm eclectic theory FDI systematic review"
+        - "multinational corporation internalization theory review"
+        - "liability of foreignness institutional distance review"
+        - "global value chain systematic review"
+        - "cultural distance Hofstede multinational meta-analysis"
+        - "born global international new ventures review"
+        - "FDI host country spillover effects meta-analysis"
+      seminal:
+        - "Dunning OLI eclectic paradigm"
+        - "Hymer multinational enterprise theory"
+        - "Ghemawat distance CAGE framework"
+        - "Hofstede culture consequences"
+        - "Bartlett Ghoshal managing across borders"
+        - "Vernon product life cycle international trade"
+    min_citations: 200
+    priority: "medium"
+
+  business_ethics_csr:
+    label: "経営倫理・CSR"
+    core_question: "企業は誰のために何のために存在するか"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "corporate social responsibility firm performance meta-analysis"
+        - "stakeholder theory management systematic review"
+        - "ESG environmental social governance review"
+        - "business ethics decision making systematic review"
+        - "corporate sustainability strategy review"
+        - "shared value CSV Porter Kramer review"
+        - "organizational justice ethics meta-analysis"
+      seminal:
+        - "Freeman stakeholder theory business ethics"
+        - "Carroll CSR pyramid social responsibility"
+        - "Porter Kramer creating shared value"
+        - "Friedman social responsibility business profits"
+        - "Elkington triple bottom line"
+        - "Jensen value maximization stakeholder theory"
+    min_citations: 200
+    priority: "high"
+
+  information_systems:
+    label: "情報システム"
+    core_question: "組織における情報技術の採用・影響・設計原理は何か"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "technology acceptance model TAM systematic review"
+        - "digital transformation organization systematic review"
+        - "enterprise systems ERP implementation review"
+        - "IT governance value creation systematic review"
+        - "platform ecosystem IS review"
+        - "sociotechnical systems information technology review"
+        - "AI adoption organization systematic review"
+      seminal:
+        - "Davis technology acceptance model TAM"
+        - "Orlikowski technology practice structuration"
+        - "DeSanctis Poole adaptive structuration technology"
+        - "Brynjolfsson Hitt IT productivity paradox"
+        - "Venkatesh UTAUT unified theory acceptance use"
+        - "Weill Ross IT governance"
+    min_citations: 200
+    priority: "high"
+
+  operations_research:
+    label: "オペレーションズリサーチ・意思決定科学"
+    core_question: "複雑な意思決定問題をどう数理的に定式化・最適化するか"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "multi-criteria decision making systematic review"
+        - "optimization under uncertainty robust review"
+        - "game theory mechanism design review"
+        - "simulation modeling complex systems review"
+        - "decision analysis under uncertainty systematic review"
+        - "machine learning operations research integration review"
+      seminal:
+        - "Dantzig linear programming simplex"
+        - "von Neumann Morgenstern theory games economic behavior"
+        - "Nash equilibrium game theory"
+        - "Arrow impossibility theorem social choice"
+        - "Bellman dynamic programming"
+        - "Simon bounded rationality decision making"
+    min_citations: 200
+    priority: "high"
+
+  leadership_ob:
+    label: "リーダーシップ・組織行動"
+    core_question: "リーダーはどう人・集団・組織に影響を与えるか"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "transformational leadership effectiveness meta-analysis"
+        - "servant leadership outcomes systematic review"
+        - "organizational culture performance meta-analysis"
+        - "group dynamics team effectiveness systematic review"
+        - "power influence organizational behavior review"
+        - "change management leadership systematic review"
+        - "emotional intelligence leadership meta-analysis"
+      seminal:
+        - "Burns transformational leadership"
+        - "Bass transformational transactional leadership"
+        - "Fiedler contingency model leadership"
+        - "Kotter leading change"
+        - "Schein organizational culture leadership"
+        - "Mintzberg nature of managerial work"
+        - "French Raven bases of social power"
+    min_citations: 200
+    priority: "high"
+
+  project_management:
+    label: "プロジェクトマネジメント"
+    core_question: "不確実性と複雑性を伴う一時的組織をどう設計・運営するか"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "project management success factors systematic review"
+        - "agile project management systematic review meta-analysis"
+        - "megaproject management complexity review"
+        - "project governance stakeholder management review"
+        - "temporary organization project-based firm review"
+        - "project portfolio management systematic review"
+        - "risk management project uncertainty review"
+      seminal:
+        - "Shenhar Dvir reinventing project management diamond"
+        - "Morris management of projects"
+        - "Pinto Slevin critical success factors project"
+        - "Lundin Söderholm temporary organization"
+        - "Winter Szczepanek rethinking project management"
+        - "Engwall no project is an island"
+    min_citations: 150
+    priority: "high"
 
 # ---------------------------------------------------------------------------
 # 人間-AI協働（分野横断の重点テーマ）
@@ -449,42 +789,34 @@ rss_feeds:
     name: "Google AI Blog"
     category: "research_lab"
     poll_interval_hours: 12
-
   - url: "https://openai.com/blog/rss.xml"
     name: "OpenAI Blog"
     category: "research_lab"
     poll_interval_hours: 12
-
   - url: "https://lilianweng.github.io/index.xml"
     name: "Lilian Weng"
     category: "researcher_blog"
     poll_interval_hours: 24
-
   - url: "https://jalammar.github.io/feed.xml"
     name: "Jay Alammar"
     category: "researcher_blog"
     poll_interval_hours: 24
-
   - url: "https://magazine.sebastianraschka.com/feed"
     name: "Sebastian Raschka"
     category: "researcher_blog"
     poll_interval_hours: 24
-
   - url: "https://huyenchip.com/feed.xml"
     name: "Chip Huyen"
     category: "researcher_blog"
     poll_interval_hours: 24
-
   - url: "https://eugeneyan.com/feed.xml"
     name: "Eugene Yan"
     category: "researcher_blog"
     poll_interval_hours: 24
-
   - url: "https://karpathy.github.io/feed.xml"
     name: "Andrej Karpathy"
     category: "researcher_blog"
     poll_interval_hours: 24
-
   - url: "https://www.reddit.com/r/MachineLearning/.rss"
     name: "r/MachineLearning"
     category: "community"
@@ -496,12 +828,12 @@ arxiv:
     - "cs.LG"
     - "cs.CL"
     - "cs.CV"
-    - "cs.HC"     # Human-Computer Interaction（追加）
-    - "cs.MA"     # Multi-Agent Systems（追加）
-    - "cs.SY"     # Systems and Control（追加）
+    - "cs.HC"
+    - "cs.MA"
+    - "cs.SY"
     - "stat.ML"
-    - "q-bio.NC"  # Neurons and Cognition（追加）
-    - "econ.GN"   # General Economics（追加）
+    - "q-bio.NC"
+    - "econ.GN"
   max_results_per_poll: 50
   poll_interval_hours: 12
 
@@ -512,8 +844,8 @@ github:
     - "large-language-models"
     - "transformers"
     - "diffusion-models"
-    - "multi-agent-systems"  # 追加
-    - "human-ai-interaction" # 追加
+    - "multi-agent-systems"
+    - "human-ai-interaction"
   min_stars: 100
   poll_interval_hours: 24
 
@@ -543,7 +875,6 @@ quality:
   freshness_half_life_days: 365
   min_relevance_score: 0.3
 
-  # Tier 1 判定に使用するLLMプロンプトテンプレート
   tier_classification_prompt: |
     以下の論文について、AI nativeな社会・組織・システム設計への有用性を評価してください。
 
@@ -564,7 +895,6 @@ quality:
     JSON形式で回答:
     {"tier": 1|2|3, "reasoning": "判定理由", "key_insight": "核心的知見の1行要約"}
 
-  # 論文タイプ判定キーワード
   paper_type_detection:
     systematic_review:
       title_keywords: ["systematic review", "scoping review", "literature review", "survey"]
@@ -574,4 +904,4 @@ quality:
       abstract_keywords: ["effect size", "pooled estimate", "heterogeneity", "forest plot", "random effects"]
     seminal:
       min_citations: 500
-      min_influential_citations: 50  # Semantic Scholar の influential citations
+      min_influential_citations: 50
