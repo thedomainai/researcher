@@ -1645,3 +1645,4597 @@ fetch_latest.py — 2026-04-23 06:00
   rss: 1
   sociology: 1
 ============================================================
+============================================================
+fetch_latest.py — 2026-04-24 06:00
+対象: 全分野 | since: 2026-04-23
+既存: 586 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  + [OA:PR] Biases of large language models in diagnosing Cushing’s...
+  + [OA:PR] AI-assisted discovery of unknown cognitive biases: Huma...
+  + [OA:PR] AUGMANITAI / NEOMANITAI — Sport-Performance-Informed Me...
+  + [OA:PR] AUGMANITAI / NEOMANITAI — Explicitation Protocol Extend...
+  + [OA:PR] AUGMANITAI / NEOMANITAI — Explicitation Protocol Comple...
+    arXiv error [cognitive_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+bias&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[複雑系科学] (complexity_science)
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  + [OA:PR] Digital Humanities and The Transformation of Literary S...
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  + [OA:PR] Ethical AI Practices in E-Commerce Companies: Evidence ...
+    arXiv error [hci]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[システム工学] (systems_engineering)
+  + [OA:PR] The Survival Paradox: Analyzing Constraint Evasion in L...
+    arXiv error [systems_engineering]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  + [OA:PR] INVENTIONAI: A classification for invention (or any con...
+
+[AIガバナンス] (ai_governance)
+  (新着なし)
+
+[RSS記事]
+  + Here’s how our TPUs power increasingly demanding AI wor...
+  + Elevating Austria: Google invests in its first data cen...
+
+============================================================
+新規取得: 11件
+  cognitive_science: 5
+  evolutionary_biology: 1
+  hci: 1
+  human_ai_collaboration: 1
+  rss: 2
+  systems_engineering: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-04-25 06:00
+対象: 全分野 | since: 2026-04-24
+既存: 597 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:PR] MEASE: Multi-agent Episodic Action Sequence Explanation...
+
+[認知科学] (cognitive_science)
+  + [OA:PR] Thinking, Fast and Slow in AI Agents for Personalized D...
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] Teaching in the Age of Artificial Intelligence: A Herme...
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  + [OA:PR] Evolutionarily optimal risk aversion...
+  + [OA:PR] Generative AI : a problematic illustration of the inter...
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  + [OA:PR] Public Service Innovation Based on Digital Transformati...
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  + [OA:PR] Organizational Design...
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  + [OA:SY] Prompt engineering in education: A systematic review of...
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  (新着なし)
+
+[RSS記事]
+  + 8 Gemini tips for organizing your space (and life)...
+
+============================================================
+新規取得: 9件
+  behavioral_economics: 2
+  cognitive_science: 1
+  complexity_science: 1
+  hci: 1
+  neuroscience: 1
+  organization_science: 1
+  rss: 1
+  sociology: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-04-26 06:00
+対象: 全分野 | since: 2026-04-25
+既存: 606 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+    OA error [predictive coding artificial i]: [Errno 8] nodename nor servname provided, or not known
+    OA error [neural plasticity human-comput]: [Errno 8] nodename nor servname provided, or not known
+    OA error [decision making brain AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [social brain hypothesis AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [embodied cognition robot]: [Errno 8] nodename nor servname provided, or not known
+    OA error [working memory cognitive AI]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [neuroscience]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Aq-bio.NC+AND+all%3Aartificial+intelligence&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[認知科学] (cognitive_science)
+    OA error [cognitive load artificial inte]: [Errno 8] nodename nor servname provided, or not known
+    OA error [dual process theory AI decisio]: [Errno 8] nodename nor servname provided, or not known
+    OA error [distributed cognition AI syste]: [Errno 8] nodename nor servname provided, or not known
+    OA error [metacognition AI calibration]: [Errno 8] nodename nor servname provided, or not known
+    OA error [cognitive bias machine learnin]: [Errno 8] nodename nor servname provided, or not known
+    OA error [mental model AI interaction]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [cognitive_science]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+load&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+    OA error [complex adaptive systems artif]: [Errno 8] nodename nor servname provided, or not known
+    OA error [emergence multi-agent systems]: [Errno 8] nodename nor servname provided, or not known
+    OA error [self-organization AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [cybernetics AI system]: [Errno 8] nodename nor servname provided, or not known
+    OA error [systems thinking artificial in]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [complexity_science]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[心理学] (psychology)
+    OA error [self-determination theory AI t]: [Errno 8] nodename nor servname provided, or not known
+    OA error [trust automation AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [self-efficacy artificial intel]: [Errno 8] nodename nor servname provided, or not known
+    OA error [creativity AI collaboration]: [Errno 8] nodename nor servname provided, or not known
+    OA error [flow experience technology AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [automation complacency AI]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+    OA error [algorithm aversion trust]: [Errno 8] nodename nor servname provided, or not known
+    OA error [nudge artificial intelligence]: [Errno 8] nodename nor servname provided, or not known
+    OA error [bounded rationality AI decisio]: [Errno 8] nodename nor servname provided, or not known
+    OA error [default effect AI recommendati]: [Errno 8] nodename nor servname provided, or not known
+    OA error [decision making AI behavioral]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+    OA error [cultural evolution artificial ]: [Errno 8] nodename nor servname provided, or not known
+    OA error [human AI coevolution]: [Errno 8] nodename nor servname provided, or not known
+    OA error [niche construction technology ]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[社会学] (sociology)
+    OA error [institutional theory artificia]: [Errno 8] nodename nor servname provided, or not known
+    OA error [actor-network theory AI techno]: [Errno 8] nodename nor servname provided, or not known
+    OA error [trust social systems AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [digital divide artificial inte]: [Errno 8] nodename nor servname provided, or not known
+    OA error [network society AI]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[経済学] (economics)
+    OA error [AI labor market automation]: [Errno 8] nodename nor servname provided, or not known
+    OA error [task automation artificial int]: [Errno 8] nodename nor servname provided, or not known
+    OA error [general purpose technology AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI productivity economic]: [Errno 8] nodename nor servname provided, or not known
+    OA error [platform economics artificial ]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[組織科学] (organization_science)
+    OA error [AI organizational design]: [Errno 8] nodename nor servname provided, or not known
+    OA error [dynamic capabilities artificia]: [Errno 8] nodename nor servname provided, or not known
+    OA error [knowledge management AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [organizational ambidexterity A]: [Errno 8] nodename nor servname provided, or not known
+    OA error [team cognition AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [organizational routines automa]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[人類学] (anthropology)
+    OA error [digital anthropology artificia]: [Errno 8] nodename nor servname provided, or not known
+    OA error [technology anthropology AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [organizational ethnography AI]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[哲学] (philosophy)
+    OA error [philosophy of mind artificial ]: [Errno 8] nodename nor servname provided, or not known
+    OA error [epistemology AI knowledge]: [Errno 8] nodename nor servname provided, or not known
+    OA error [artificial moral agency]: [Errno 8] nodename nor servname provided, or not known
+    OA error [value alignment AI ethics]: [Errno 8] nodename nor servname provided, or not known
+    OA error [political philosophy artificia]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[法学] (law)
+    OA error [AI legal personhood]: [Errno 8] nodename nor servname provided, or not known
+    OA error [algorithmic accountability law]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI liability tort]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI regulation governance]: [Errno 8] nodename nor servname provided, or not known
+    OA error [intellectual property AI gener]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[HCI] (hci)
+    OA error [human-AI interaction design]: [Errno 8] nodename nor servname provided, or not known
+    OA error [explainable AI user study]: [Errno 8] nodename nor servname provided, or not known
+    OA error [mixed-initiative AI interactio]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI decision support system]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [hci]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[システム工学] (systems_engineering)
+    OA error [resilience engineering AI syst]: [Errno 8] nodename nor servname provided, or not known
+    OA error [sociotechnical systems AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [safety critical AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [human-automation interaction]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [systems_engineering]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[技術史] (history_of_technology)
+    OA error [technological revolution autom]: [Errno 8] nodename nor servname provided, or not known
+    OA error [general purpose technology his]: [Errno 8] nodename nor servname provided, or not known
+    OA error [automation labor history AI]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+    OA error [human-AI collaboration]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI augmentation knowledge work]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI productivity experiment]: [Errno 8] nodename nor servname provided, or not known
+    OA error [human AI team performance]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [human_ai_collaboration]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+    OA error [AI governance framework]: [Errno 8] nodename nor servname provided, or not known
+    OA error [algorithmic fairness bias]: [Errno 8] nodename nor servname provided, or not known
+    OA error [responsible AI principles]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI safety alignment]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI regulation policy]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [ai_governance]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 0件
+============================================================
+============================================================
+fetch_latest.py — 2026-04-27 06:00
+対象: 全分野 | since: 2026-04-26
+既存: 606 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+    OA error [predictive coding artificial i]: [Errno 8] nodename nor servname provided, or not known
+    OA error [neural plasticity human-comput]: [Errno 8] nodename nor servname provided, or not known
+    OA error [decision making brain AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [social brain hypothesis AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [embodied cognition robot]: [Errno 8] nodename nor servname provided, or not known
+    OA error [working memory cognitive AI]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [neuroscience]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Aq-bio.NC+AND+all%3Aartificial+intelligence&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[認知科学] (cognitive_science)
+    OA error [cognitive load artificial inte]: [Errno 8] nodename nor servname provided, or not known
+    OA error [dual process theory AI decisio]: [Errno 8] nodename nor servname provided, or not known
+    OA error [distributed cognition AI syste]: [Errno 8] nodename nor servname provided, or not known
+    OA error [metacognition AI calibration]: [Errno 8] nodename nor servname provided, or not known
+    OA error [cognitive bias machine learnin]: [Errno 8] nodename nor servname provided, or not known
+    OA error [mental model AI interaction]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [cognitive_science]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+load&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+    OA error [complex adaptive systems artif]: [Errno 8] nodename nor servname provided, or not known
+    OA error [emergence multi-agent systems]: [Errno 8] nodename nor servname provided, or not known
+    OA error [self-organization AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [cybernetics AI system]: [Errno 8] nodename nor servname provided, or not known
+    OA error [systems thinking artificial in]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [complexity_science]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[心理学] (psychology)
+    OA error [self-determination theory AI t]: [Errno 8] nodename nor servname provided, or not known
+    OA error [trust automation AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [self-efficacy artificial intel]: [Errno 8] nodename nor servname provided, or not known
+    OA error [creativity AI collaboration]: [Errno 8] nodename nor servname provided, or not known
+    OA error [flow experience technology AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [automation complacency AI]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+    OA error [algorithm aversion trust]: [Errno 8] nodename nor servname provided, or not known
+    OA error [nudge artificial intelligence]: [Errno 8] nodename nor servname provided, or not known
+    OA error [bounded rationality AI decisio]: [Errno 8] nodename nor servname provided, or not known
+    OA error [default effect AI recommendati]: [Errno 8] nodename nor servname provided, or not known
+    OA error [decision making AI behavioral]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+    OA error [cultural evolution artificial ]: [Errno 8] nodename nor servname provided, or not known
+    OA error [human AI coevolution]: [Errno 8] nodename nor servname provided, or not known
+    OA error [niche construction technology ]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[社会学] (sociology)
+    OA error [institutional theory artificia]: [Errno 8] nodename nor servname provided, or not known
+    OA error [actor-network theory AI techno]: [Errno 8] nodename nor servname provided, or not known
+    OA error [trust social systems AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [digital divide artificial inte]: [Errno 8] nodename nor servname provided, or not known
+    OA error [network society AI]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[経済学] (economics)
+    OA error [AI labor market automation]: [Errno 8] nodename nor servname provided, or not known
+    OA error [task automation artificial int]: [Errno 8] nodename nor servname provided, or not known
+    OA error [general purpose technology AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI productivity economic]: [Errno 8] nodename nor servname provided, or not known
+    OA error [platform economics artificial ]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[組織科学] (organization_science)
+    OA error [AI organizational design]: [Errno 8] nodename nor servname provided, or not known
+    OA error [dynamic capabilities artificia]: [Errno 8] nodename nor servname provided, or not known
+    OA error [knowledge management AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [organizational ambidexterity A]: [Errno 8] nodename nor servname provided, or not known
+    OA error [team cognition AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [organizational routines automa]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[人類学] (anthropology)
+    OA error [digital anthropology artificia]: [Errno 8] nodename nor servname provided, or not known
+    OA error [technology anthropology AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [organizational ethnography AI]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[哲学] (philosophy)
+    OA error [philosophy of mind artificial ]: [Errno 8] nodename nor servname provided, or not known
+    OA error [epistemology AI knowledge]: [Errno 8] nodename nor servname provided, or not known
+    OA error [artificial moral agency]: [Errno 8] nodename nor servname provided, or not known
+    OA error [value alignment AI ethics]: [Errno 8] nodename nor servname provided, or not known
+    OA error [political philosophy artificia]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[法学] (law)
+    OA error [AI legal personhood]: [Errno 8] nodename nor servname provided, or not known
+    OA error [algorithmic accountability law]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI liability tort]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI regulation governance]: [Errno 8] nodename nor servname provided, or not known
+    OA error [intellectual property AI gener]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[HCI] (hci)
+    OA error [human-AI interaction design]: [Errno 8] nodename nor servname provided, or not known
+    OA error [explainable AI user study]: [Errno 8] nodename nor servname provided, or not known
+    OA error [mixed-initiative AI interactio]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI decision support system]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [hci]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[システム工学] (systems_engineering)
+    OA error [resilience engineering AI syst]: [Errno 8] nodename nor servname provided, or not known
+    OA error [sociotechnical systems AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [safety critical AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [human-automation interaction]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [systems_engineering]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[技術史] (history_of_technology)
+    OA error [technological revolution autom]: [Errno 8] nodename nor servname provided, or not known
+    OA error [general purpose technology his]: [Errno 8] nodename nor servname provided, or not known
+    OA error [automation labor history AI]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+    OA error [human-AI collaboration]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI augmentation knowledge work]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI productivity experiment]: [Errno 8] nodename nor servname provided, or not known
+    OA error [human AI team performance]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [human_ai_collaboration]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+    OA error [AI governance framework]: [Errno 8] nodename nor servname provided, or not known
+    OA error [algorithmic fairness bias]: [Errno 8] nodename nor servname provided, or not known
+    OA error [responsible AI principles]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI safety alignment]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI regulation policy]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [ai_governance]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 0件
+============================================================
+============================================================
+fetch_latest.py — 2026-04-28 06:00
+対象: 全分野 | since: 2026-04-27
+既存: 606 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] Human Factors in Offshore Small Modular Reactors: A Rev...
+  + [OA:PR] Contemporary perspectives in social science commerce an...
+  + [OA:PR] Design and Implementation of Agentic AI Pipelines for E...
+
+[心理学] (psychology)
+  + [OA:PR] The Effect of Sustainable 3D Store Design on Consumer O...
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  + [OA:PR] The Role of Artificial Intelligence (AI) in World Agric...
+  + [OA:PR] Emerging Roles of Libraries and Librarians as Catalysts...
+
+[経済学] (economics)
+  + [OA:PR] Impact of Artificial Intelligence on Economic Growth an...
+  + [OA:SY] Broadband diffusion and digital preparedness in Tanzani...
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  + [OA:PR] Perceptions of Educators to Recognize and Respond to Su...
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  + [OA:SY] Transformative Role of Artificial Intelligence and Mach...
+
+[システム工学] (systems_engineering)
+  + [OA:PR] Real-Time Corridor Performance Monitoring for Critical ...
+  + [OA:PR] Risk Assessment in the Age of AI: Balancing Innovation ...
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  + [OA:PR] The Kirk-Spock Leadership Framework for Balanced Human-...
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] AGENTS AS EXTENDED PHENOTYPES: BEHAVIORAL TRANSFER, ASY...
+  + [OA:PR] Advancing Operational Integrity Through Multimodal AI-P...
+  + [OA:PR] CSA-Overlay: A Behavioural Instrument for Detecting Con...
+
+[RSS記事]
+  + Common pitfalls when building generative AI application...
+  + Agents...
+  + Building A Generative AI Platform...
+  + Join the new AI Agents Vibe Coding Course from Google a...
+
+============================================================
+新規取得: 20件
+  ai_governance: 3
+  anthropology: 1
+  complexity_science: 3
+  economics: 2
+  hci: 1
+  human_ai_collaboration: 1
+  psychology: 1
+  rss: 4
+  sociology: 2
+  systems_engineering: 2
+============================================================
+============================================================
+fetch_latest.py — 2026-04-29 06:00
+対象: 全分野 | since: 2026-04-28
+既存: 626 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] PREVUE.AI: A Web-Based Intelligent Mock Interview Syste...
+  + [OA:PR] The Silent Transformation: Psychosocial Risk Patterns i...
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[心理学] (psychology)
+  + [OA:PR] StamFree: A Gamified AI System for Speech Disfluency De...
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  + [OA:PR] Adaptive Reduction Theory (ART): Universality of Viable...
+  + [OA:PR] Adaptive Reduction Theory (ART): Editors of Trajectorie...
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] Development of an Artificial Intelligence-Based Predict...
+  + [OA:PR] SRFM Quantum Phase 7: Geometric–Energetic Mechanism of ...
+
+[RSS記事]
+  + Celebrating 20 years of Google Translate: Fun facts, ti...
+
+============================================================
+新規取得: 8件
+  ai_governance: 2
+  complexity_science: 2
+  psychology: 1
+  rss: 1
+  sociology: 2
+============================================================
+============================================================
+fetch_latest.py — 2026-04-30 06:00
+対象: 全分野 | since: 2026-04-29
+既存: 634 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  (新着なし)
+
+[心理学] (psychology)
+  + [OA:PR] The privacy paradox: how does concern about privacy imp...
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] H2E Sheriff: A Spectral Governance Layer for Agentic AI...
+
+[RSS記事]
+
+============================================================
+新規取得: 2件
+  ai_governance: 1
+  psychology: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-01 06:00
+対象: 全分野 | since: 2026-04-30
+既存: 636 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:PR] Clinical Significance of Biomarkers in Oropharyngeal Sq...
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  (新着なし)
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  + [OA:PR] The Historical and Systemic Effects on Racial Dispariti...
+  + [OA:PR] [Smart use of AI in healthcare: the growing role of AI ...
+
+[HCI] (hci)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] AI Had No Response to a Death Wish: A Forensic Audit of...
+    arXiv error [ai_governance]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[RSS記事]
+
+============================================================
+新規取得: 4件
+  ai_governance: 1
+  law: 2
+  neuroscience: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-02 06:00
+対象: 全分野 | since: 2026-05-01
+既存: 640 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:PR] Electroencephalography subject detection : opportunity ...
+  + [OA:PR] Evaluation of Neuroplastic Changes in Psychological Int...
+
+[認知科学] (cognitive_science)
+  + [OA:PR] One Axiom : Exploration Theory...
+
+[複雑系科学] (complexity_science)
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[心理学] (psychology)
+  + [OA:PR] Calibrating human trust in the age of generative AI: an...
+
+[行動経済学] (behavioral_economics)
+  + [OA:PR] Towards Multi-Hop Retrieval Using Bipartite Question-Or...
+  + [OA:PR] Resonance Logic Model (RLM): A Multi-Agent Reasoning En...
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  + [OA:PR] The Two Faces of the Invisible Economy...
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  + [OA:PR] GENERATIVE ARTIFICIAL INTELLIGENCE AND LARGE LANGUAGE M...
+
+[HCI] (hci)
+  + [OA:PR] "Am I a Man or a Muppet": A Rhetorical Analysis of Gene...
+
+[システム工学] (systems_engineering)
+  + [OA:PR] ROBUST LEARNING UNDER COVARIATE SHIFT AND ANOMALIES...
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  + [OA:PR] Human‑Led Orchestration of a Multi‑Agent Scientific Tea...
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] DiCE_GI Diversified Counterfactual Explanations for a G...
+  + [OA:PR] ASSESSING THE RESEARCH INTEGRITY AT A PUBLIC UNIVERSITY...
+  + [OA:PR] Safety as Natural Emergence: The Conciseness Framework ...
+
+[RSS記事]
+
+============================================================
+新規取得: 14件
+  ai_governance: 3
+  behavioral_economics: 2
+  cognitive_science: 1
+  economics: 1
+  hci: 1
+  human_ai_collaboration: 1
+  law: 1
+  neuroscience: 2
+  psychology: 1
+  systems_engineering: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-03 06:00
+対象: 全分野 | since: 2026-05-02
+既存: 654 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  (新着なし)
+
+[心理学] (psychology)
+  + [OA:PR] Interaction-Aware Safe Planning for Human-Robot and Mul...
+  + [OA:PR] Cognitive Decoupling_ The L4 Noah Architecture Paradigm...
+
+[行動経済学] (behavioral_economics)
+  + [OA:PR] Reconstruction and Renaissance of Dongbei China:A Multi...
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  + [OA:PR] The Coming Labor Gap: A Quantitative Approximation of W...
+
+[組織科学] (organization_science)
+  + [OA:PR] Enhancing Ransomware Detection and Response Using Artif...
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  + [OA:PR] AI for Epigenetics...
+
+[HCI] (hci)
+  + [OA:PR] The Financial and Sustainability Consequences of R&D an...
+    arXiv error [hci]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[システム工学] (systems_engineering)
+  + [OA:PR] Artifact for Artificial Incorrectness: SMT and LLMs in ...
+
+[技術史] (history_of_technology)
+  + [OA:PR] Platforming threatoric on TikTok : racial‑religious fea...
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] SRFM Quantum Phase 8: Instability Functional and Explos...
+
+[RSS記事]
+
+============================================================
+新規取得: 10件
+  ai_governance: 1
+  behavioral_economics: 1
+  economics: 1
+  hci: 1
+  history_of_technology: 1
+  law: 1
+  organization_science: 1
+  psychology: 2
+  systems_engineering: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-04 06:00
+対象: 全分野 | since: 2026-05-03
+既存: 664 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:PR] Beyond one-size-fits-all in acute ischemic stroke:from ...
+  + [OA:PR] The Synthetic Persona Fallacy in HCI-Q Methodology...
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  (新着なし)
+
+[心理学] (psychology)
+  + [OA:PR] Transitioning to the American School System: Insights f...
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  + [OA:PR] Educational artefacts matter. A collaborative inquiry i...
+
+[哲学] (philosophy)
+  + [OA:PR] YOUHENG ZHANG: A HISTORICAL INTERACTION BETWEEN ARTIFIC...
+  + [OA:PR] How Instrument Ontologies Shape the Embodied Learning o...
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 6件
+  anthropology: 1
+  neuroscience: 2
+  philosophy: 2
+  psychology: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-05 06:00
+対象: 全分野 | since: 2026-05-04
+既存: 1370 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:PR] The Great Convergence: Dentistry’s Next Decade in Digit...
+    arXiv error [neuroscience]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Aq-bio.NC+AND+all%3Aartificial+intelligence&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[認知科学] (cognitive_science)
+    arXiv error [cognitive_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+load&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] Compositionality and Emergence in Holonic Neuro-Symboli...
+  + [OA:PR] Works for 4/3/2026 - Albert Einstein...
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  + [OA:PR] From Data to Strategy: The Role of Explainable AI in Ex...
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  + [OA:PR] VeriNet: AI Misinformation Detection and Trust Scoring ...
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  + [OA:PR] Microscopic Dynamical Explanation of Intelligence Emerg...
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+    arXiv error [hci]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  + [OA:PR] The Speed-Quality Trade-off: Balancing Rapid AI Innovat...
+    arXiv error [systems_engineering]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+    arXiv error [human_ai_collaboration]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+    arXiv error [ai_governance]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[経営戦略] (strategic_management)
+  + [OA:PR] Lessons learned from the ADRENALIN Load Disaggregation ...
+
+[コーポレートガバナンス] (corporate_governance)
+  + [OA:PR] An examination of leadership approaches in Alcoholics A...
+  + [OA:PR] ADAPTIVE DA'WAH STRATEGY IN INCREASING CONGREGATION PAR...
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  + [OA:PR] The Generation-Governance Impedance Mismatch: Protocol-...
+  + [OA:PR] Tenet-Bound AI: A Complete Architecture for Machine Eth...
+
+[マーケティング] (marketing)
+  + [OA:PR] DATA-DRIVEN DECISIONS: HOW ANALYTICS IS RESHAPING MARKE...
+  + [OA:PR] A Year Under the DSA: Ad Transparency's Uneven Landscap...
+
+[人的資源管理] (human_resource_management)
+  + [OA:PR] From the old to the new generation of a product : unlea...
+  + [OA:PR] Code-switching as a Bias Indicator in LLMs: "The conseq...
+  + [OA:PR] A Multi-Modal Edge-AI Framework for Real-Time Industria...
+
+[オペレーション管理] (operations_management)
+  + [OA:PR] Impact and change in decision-making and job roles in o...
+  + [OA:PR] Progress of major emitters towards climate targets: 202...
+  + [OA:PR] From Waste to Wear: A Digital Circular Innovation for S...
+
+[国際経営] (international_business)
+  + [OA:PR] An AI Affective Intelligence Architecture Based on Emot...
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  + [OA:PR] Generative AI in Curriculum Design: Advancing or Underm...
+  + [OA:PR] A Practical Governance Architecture for Federated Multi...
+
+[オペレーションズリサーチ] (operations_research)
+  + [OA:ME] Federated Logistics Operations Dataset (FLOD)...
+  + [OA:PR] Towards Intelligent UAV Swarms through Active Inference...
+  + [OA:PR] CLEAR: Scheduling of Multi-model Mobile Workloads on Ch...
+  + [OA:PR] Decentralized Learning of Belief-Dependent Generalized ...
+  + [OA:PR] Human-Guided Reinforcement Learning for Knowledge Graph...
+  + [OA:PR] Reinforcement Learning-Based Antenna and Time Adaptatio...
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+  + The latest AI news we announced in April 2026...
+
+============================================================
+新規取得: 30件
+  accounting: 2
+  behavioral_economics: 1
+  complexity_science: 2
+  corporate_governance: 2
+  human_resource_management: 3
+  information_systems: 2
+  international_business: 1
+  marketing: 2
+  neuroscience: 1
+  operations_management: 3
+  operations_research: 6
+  organization_science: 1
+  rss: 1
+  sociology: 1
+  strategic_management: 1
+  systems_engineering: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-06 06:00
+対象: 全分野 | since: 2026-05-05
+既存: 1400 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:PR] From Algorithmic Offloading to Cognitive Ownership: A B...
+  + [OA:PR] Decoding the sella: a review of MRI in pituitary lesion...
+  + [OA:PR] Multimodal Reasoning for Intent-Aware Human–Robot Colla...
+  + [OA:PR] Human-like or System-like Trust? A Comparison of Trust ...
+    arXiv error [neuroscience]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Aq-bio.NC+AND+all%3Aartificial+intelligence&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[認知科学] (cognitive_science)
+  + [OA:PR] Persuading the proxy: a framework for AI-mediated marke...
+  + [OA:PR] The Paradox of Perfection: Hidden Risks of High-Perform...
+    arXiv error [cognitive_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+load&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] From Configuration to Cognition: A Self-Configuring Age...
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  + [OA:PR] When Humans Stop Thinking: Cognitive Offloading, Atroph...
+  + [OA:PR] LLMs Are Not the Answer Relevant AI for Business Transf...
+  + [OA:PR] Hierarchical Multi-Level LLM Agent Swarms for Financial...
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+    arXiv error [hci]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  + [OA:PR] From Arithmetic Spectral Theory to the Riemann Hypothes...
+    arXiv error [systems_engineering]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+    arXiv error [human_ai_collaboration]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] Arithmetic Spectral Theory for Deterministic AI Governa...
+  + [OA:PR] COMPATIBILITY OF AI & CYBER WARFARE WITH INTERNATIONAL ...
+    arXiv error [ai_governance]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[経営戦略] (strategic_management)
+  + [OA:PR] Creating IT Capabilities in Workflow Automation with Un...
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  + [OA:PR] Agentic Implementation in Business Processes with Guard...
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  + [OA:PR] Omni-Channel Marketing Strategy: A Review of Retail Ind...
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  (新着なし)
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  + [OA:PR] The Topological Corridor: A Whitepaper on Topological M...
+
+[オペレーションズリサーチ] (operations_research)
+  + [OA:PR] Optimizing Ring AllReduce for Sparse Data...
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+  + Google is partnering with XPRIZE and Range Media Partne...
+  + Reduce friction and latency for long-running jobs with ...
+
+============================================================
+新規取得: 20件
+  ai_governance: 2
+  cognitive_science: 2
+  complexity_science: 1
+  finance_corporate: 1
+  information_systems: 1
+  marketing: 1
+  neuroscience: 4
+  operations_research: 1
+  organization_science: 3
+  rss: 2
+  strategic_management: 1
+  systems_engineering: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-07 06:00
+対象: 全分野 | since: 2026-05-06
+既存: 1420 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:PR] Multi-Objective Categorical Deep Q-Networks...
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  + [OA:PR] LVV–HNV Coexistence Architecture for AGI Safety (v2.0)"...
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  + [OA:PR] AI-POWERED PREDICTIVE ANALYTICS FOR INTELLIGENT DECISIO...
+
+[システム工学] (systems_engineering)
+  + [OA:PR] The grimoire of the fusion machine...
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] AI Risk Mitigation Proposal for Enterprise Technology C...
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  + [OA:PR] AI-Enhanced Climate Modeling: Improving Sustainability ...
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  + [OA:ME] The evolution of ESG research: a comprehensive bibliome...
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  (新着なし)
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+  + 5 gardening tips you can try right in Search...
+
+============================================================
+新規取得: 8件
+  ai_governance: 1
+  business_ethics_csr: 1
+  hci: 1
+  neuroscience: 1
+  operations_management: 1
+  rss: 1
+  sociology: 1
+  systems_engineering: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-08 06:00
+対象: 全分野 | since: 2026-05-07
+既存: 1428 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+    arXiv error [neuroscience]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Aq-bio.NC+AND+all%3Aartificial+intelligence&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  + [OA:PR] Research on the Risk Contagion and Governance Mechanism...
+    arXiv error [cognitive_science]: Page request resulted in HTTP 503 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+load&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[複雑系科学] (complexity_science)
+    arXiv error [complexity_science]: Page request resulted in HTTP 503 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  + [OA:PR] Enhancing venture support through a hybrid human–AI men...
+  + [OA:PR] The Scientific Refutation of Religion: An Algorithmic T...
+  + [OA:PR] Artificial Intelligence and Youth Socialization in Digi...
+
+[経済学] (economics)
+  + [OA:PR] Artificial Intelligence and Economic Inequality in the ...
+
+[組織科学] (organization_science)
+  + [OA:PR] Digital Transformation and Market Disruption: A Compreh...
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  + [OA:PR] The EU's legal framework for public archives: from pers...
+
+[HCI] (hci)
+    arXiv error [hci]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+    arXiv error [human_ai_collaboration]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] SRFM Quantum Phase 9: Topology-Independent Instability ...
+    arXiv error [ai_governance]: Page request resulted in HTTP 503 (https://export.arxiv.org/api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  + [OA:PR] Role of Artificial Intelligence in Finance Sector...
+
+[会計学] (accounting)
+  + [OA:SY] Artificial Intelligence and the Transformation of Inter...
+
+[マーケティング] (marketing)
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  + [OA:PR] Adaptive Terrain-Cognizant Multispectral Vision and Dis...
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  + [OA:PR] AI-Powered Market Insight and the Transformation of Loc...
+
+[情報システム] (information_systems)
+  + [OA:PR] Principals’ Perceptions on How Artificial Intelligence ...
+
+[オペレーションズリサーチ] (operations_research)
+  (新着なし)
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 13件
+  accounting: 1
+  ai_governance: 1
+  business_ethics_csr: 1
+  cognitive_science: 1
+  economics: 1
+  finance_corporate: 1
+  information_systems: 1
+  law: 1
+  operations_management: 1
+  organization_science: 1
+  sociology: 3
+============================================================
+============================================================
+fetch_latest.py — 2026-05-09 06:00
+対象: 全分野 | since: 2026-05-08
+既存: 1441 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:ME] The clinical value of multimodal neuroimaging in monocl...
+  + [OA:PR] Clinical GBM hybrid artificial intelligence for prescri...
+  + [OA:PR] Decoding cows...
+    arXiv error [neuroscience]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Aq-bio.NC+AND+all%3Aartificial+intelligence&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[認知科学] (cognitive_science)
+  + [OA:PR] Ordered Patch Theory: An Information-Theoretic Framewor...
+    arXiv error [cognitive_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+load&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] Integrating Artificial Intelligence with Geographical I...
+  + [OA:PR] Calibrated Multi-Evidence Fusion Framework for Clinical...
+  + [OA:PR] From Job Insecurity to Burnout in the Age of Artificial...
+  + [OA:PR] From DevOps to XOps: An Agent-Driven Reference Architec...
+  + [OA:PR] Sur la complémentarité conique des contacts planaires...
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[心理学] (psychology)
+  + [OA:PR] Effectiveness of AI Chatbots and Conversational Commerc...
+  + [OA:PR] To Study the Impact of Adoption and Trust in AI-Based R...
+  + [OA:PR] How Novice Designers Use, Embed, and Make Sense of AI: ...
+  + [OA:PR] Beyond recipes: a qualitative inquiry into culinary pro...
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  + [OA:PR] Digital Lemon Pools: Extending Akerlof's Theory to AI-D...
+  + [OA:PR] Re-evaluating Emotional Awareness and Anthropomorphism ...
+  + [OA:PR] Trust in AI-Driven Decision Support Systems: Modeling t...
+  + [OA:PR] AI Is Here. Is UX Ready? A Four-Dimension Framework for...
+  + [OA:PR] Artificial Intelligence and Economic Inequality: Challe...
+
+[経済学] (economics)
+  + [OA:PR] The Future of Work in an AI-Driven Economy...
+
+[組織科学] (organization_science)
+  + [OA:PR] Digital sustainability empowerment and B2B customer co-...
+  + [OA:SY] Management 4.0 in Smart Manufacturing: A Systematic Rev...
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  + [OA:PR] Understanding generative AI continuance intention: a du...
+    arXiv error [hci]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[システム工学] (systems_engineering)
+  + [OA:PR] Artificial Intelligence in Public Governance in Karnata...
+  + [OA:PR] Artificial intelligence directed computational protein ...
+    arXiv error [systems_engineering]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  + [OA:PR] AI-Augmented Decision Intuition and SME Strategic Adapt...
+    arXiv error [human_ai_collaboration]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] Artificial Intelligence–Driven Digital Transformation: ...
+  + [OA:PR] A Fairness-Aware Machine Learning Framework for Sexual ...
+  + [OA:PR] Rethinking ethical governance of generative AI in sport...
+  + [OA:PR] SRFM Quantum Phase12: Adaptive Transport Networks and S...
+    arXiv error [ai_governance]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[経営戦略] (strategic_management)
+  + [OA:PR] Re-Engineering the Cybersecurity Paradigm: A Longitudin...
+
+[コーポレートガバナンス] (corporate_governance)
+  + [OA:PR] Behind the Scenes of Labor Relations in the Film & Tele...
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  + [OA:PR] Improving Transparency in Deep Learning Models using Ex...
+  + [OA:PR] AI-Driven Transformation in Finance: A Comprehensive Re...
+
+[会計学] (accounting)
+  + [OA:PR] AI-Driven Strategies for Rebuilding Food Security in Po...
+
+[マーケティング] (marketing)
+  + [OA:PR] AI Visibility Index — Full Enriched Dataset (v3): 2,729...
+
+[人的資源管理] (human_resource_management)
+  + [OA:SY] From Automation to Augmentation: A Bibliometric and The...
+
+[オペレーション管理] (operations_management)
+  + [OA:PR] Drones and Rewriting of Low-Altitude Mobility: Promise,...
+  + [OA:PR] Vermogensallocatie en (de)activering van antennes en sy...
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  + [OA:SY] Mapping the Evolution of Corporate Social Responsibilit...
+  + [OA:SY] Artificial Intelligence-Powered Green Finance and Envir...
+  + [OA:PR] Artificial Intelligence, ESG, and U.S. Stock Market Beh...
+
+[情報システム] (information_systems)
+  + [OA:PR] Driving University Performance in the Artificial Intell...
+  + [OA:PR] When artificial intelligence becomes a job resource: ho...
+  + [OA:PR] The Future of Rural Employment in the Age of Artificial...
+
+[オペレーションズリサーチ] (operations_research)
+  + [OA:PR] An Intelligent Autonomous System for Data Preprocessing...
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+  + See what happens when creative legends use AI to make a...
+
+============================================================
+新規取得: 46件
+  accounting: 1
+  ai_governance: 4
+  business_ethics_csr: 3
+  cognitive_science: 1
+  complexity_science: 5
+  corporate_governance: 1
+  economics: 1
+  finance_corporate: 2
+  hci: 1
+  human_ai_collaboration: 1
+  human_resource_management: 1
+  information_systems: 3
+  marketing: 1
+  neuroscience: 3
+  operations_management: 2
+  operations_research: 1
+  organization_science: 2
+  psychology: 4
+  rss: 1
+  sociology: 5
+  strategic_management: 1
+  systems_engineering: 2
+============================================================
+============================================================
+fetch_latest.py — 2026-05-10 06:00
+対象: 全分野 | since: 2026-05-09
+既存: 1487 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:PR] Robots' Inner Speech meets Thories of emotion: towards ...
+
+[認知科学] (cognitive_science)
+    arXiv error [cognitive_science]: Page request resulted in HTTP 503 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+load&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] Role of Artificial Intelligence in Digital World...
+  + [OA:PR] Exploring the strategies and pitfalls of using GPT-assi...
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  + [OA:PR] Beyond Adoption: A Conceptual Analysis of AI-Driven Fin...
+
+[進化生物学・文化進化] (evolutionary_biology)
+  + [OA:PR] From Traditional Educational Curricula to Smart Curricu...
+
+[社会学] (sociology)
+  + [OA:PR] Indian Government Key Policies on Digital Transformatio...
+
+[経済学] (economics)
+  + [OA:PR] Collaborative Intelligence in Accounting: A Human + AI ...
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  + [OA:PR] The Wrong Substrate: Why Inherited Engineering Wisdom F...
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+    arXiv error [hci]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  + [OA:PR] The Learning–Stability Trade-off: Architecting Continua...
+    arXiv error [systems_engineering]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+    arXiv error [human_ai_collaboration]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3AAI+augmentation&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] SRFM Quantum Phase15: Adaptive Structural Survival Metr...
+    arXiv error [ai_governance]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  + [OA:PR] Artificial Intelligence and Machine Learning: Transform...
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+  + [OA:PR] Undergraduate Student Perceptions of Student-Faculty In...
+
+[オペレーション管理] (operations_management)
+  (新着なし)
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  + [OA:PR] Navigating the Dual Transition: AI Energy Consumption, ...
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  (新着なし)
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 13件
+  ai_governance: 1
+  behavioral_economics: 1
+  business_ethics_csr: 1
+  complexity_science: 2
+  economics: 1
+  evolutionary_biology: 1
+  finance_corporate: 1
+  human_resource_management: 1
+  neuroscience: 1
+  philosophy: 1
+  sociology: 1
+  systems_engineering: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-11 06:00
+対象: 全分野 | since: 2026-05-10
+既存: 1500 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+    arXiv error [neuroscience]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Aq-bio.NC+AND+all%3Aartificial+intelligence&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+    arXiv error [cognitive_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+load&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] SΔϕ Operational Kernel and Low-Cost Template Set: AI-Re...
+  + [OA:PR] Trans-cyber Cinema: Digital Embodiment in Science-ficti...
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[心理学] (psychology)
+  + [OA:PR] Privacy as a Democratic Guardrail: A Case for Fourth Am...
+  + [OA:PR] Learning by writing: Exploring authentic legal learning...
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+    arXiv error [hci]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+    arXiv error [systems_engineering]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  + [OA:PR] The cost of division:Essays on political economy, socia...
+
+[人間-AI協働] (human_ai_collaboration)
+    arXiv error [human_ai_collaboration]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] AI-Based Pull Request Risk Prediction: A Hybrid Governa...
+  + [OA:PR] The AIVA Platform: A Retrieval Augmented Generation Lar...
+
+[経営戦略] (strategic_management)
+  + [OA:PR] Of, By, and For...
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  + [OA:PR] [Artificial intelligence in pediatric ophthalmology: ap...
+  + [OA:PR] The Future of Peptide Research Should Be Verifiable...
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+  + [OA:PR] The Integration–Disruption Trade-off: Navigating the Or...
+
+[オペレーション管理] (operations_management)
+  (新着なし)
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  (新着なし)
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 11件
+  ai_governance: 2
+  complexity_science: 2
+  history_of_technology: 1
+  human_resource_management: 1
+  innovation_management: 2
+  psychology: 2
+  strategic_management: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-12 06:00
+対象: 全分野 | since: 2026-05-11
+既存: 1511 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:PR] Informational Task Entropy and the Selection of Occupat...
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  (新着なし)
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  + [OA:PR] Observance, Authority and Credibility of Auditors in th...
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  + [OA:PR] Assuring trustworthy AI: an integrative review of hiera...
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  + [OA:PR] Fractal Metascience Paradigm: A Unified, Recursive, and...
+
+[法学] (law)
+  + [OA:PR] Building Trust in Government AI: Balancing Innovation a...
+
+[HCI] (hci)
+  + [OA:PR] Hostile interaction design: AI, governance, and the que...
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] Ai System Decommissioning: A Systematic Literature Revi...
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  + [OA:PR] AI-Driven Transformation of India’s Banking Sector: Opp...
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  (新着なし)
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  + [OA:PR] "Real-Time AI-Driven Sales Negotiation and Deal Intelli...
+
+[オペレーションズリサーチ] (operations_research)
+  + [OA:PR] Modellering en regeling van warmtepompen in clusters va...
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+  + The new AI-powered Google Finance is expanding to Europ...
+
+============================================================
+新規取得: 11件
+  ai_governance: 1
+  behavioral_economics: 1
+  finance_corporate: 1
+  hci: 1
+  information_systems: 1
+  law: 1
+  neuroscience: 1
+  operations_research: 1
+  philosophy: 1
+  rss: 1
+  sociology: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-13 06:00
+対象: 全分野 | since: 2026-05-12
+既存: 1522 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+    arXiv error [neuroscience]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Aq-bio.NC+AND+all%3Aartificial+intelligence&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NewConnectionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to establish a new connection: [Errno 49] Can't assign requested address"))
+  (新着なし)
+
+[認知科学] (cognitive_science)
+    arXiv error [cognitive_science]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+load&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NewConnectionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to establish a new connection: [Errno 49] Can't assign requested address"))
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] The Perez Hourglass Field Equation (PHFE): A Dynamical ...
+  + [OA:PR] Participatory Organizations in the AI Era: Part IV Expl...
+    arXiv error [complexity_science]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NewConnectionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to establish a new connection: [Errno 49] Can't assign requested address"))
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  + [OA:PR] The Environmental Cost of Artificial Intelligence...
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  + [OA:PR] Data Sovereignty in the AI Era: Structural Guarantees T...
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  + [OA:PR] Problem-solver vs problem-creator: a multi-layered para...
+    arXiv error [hci]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NewConnectionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to establish a new connection: [Errno 49] Can't assign requested address"))
+
+[システム工学] (systems_engineering)
+    arXiv error [systems_engineering]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NewConnectionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to establish a new connection: [Errno 49] Can't assign requested address"))
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+    arXiv error [human_ai_collaboration]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NewConnectionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to establish a new connection: [Errno 49] Can't assign requested address"))
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+    arXiv error [ai_governance]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NewConnectionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to establish a new connection: [Errno 49] Can't assign requested address"))
+  (新着なし)
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  + [OA:PR] The Fay Institute Learning Framework (FILF): A Practiti...
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  (新着なし)
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  + [OA:PR] Management Research Notes: A File-Based Academic Knowle...
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  (新着なし)
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 7件
+  behavioral_economics: 1
+  business_ethics_csr: 1
+  complexity_science: 2
+  hci: 1
+  marketing: 1
+  organization_science: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-14 06:00
+対象: 全分野 | since: 2026-05-13
+既存: 1529 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+    OA error [predictive coding artificial i]: [Errno 8] nodename nor servname provided, or not known
+    OA error [neural plasticity human-comput]: [Errno 8] nodename nor servname provided, or not known
+    OA error [decision making brain AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [social brain hypothesis AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [embodied cognition robot]: [Errno 8] nodename nor servname provided, or not known
+    OA error [working memory cognitive AI]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [neuroscience]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Aq-bio.NC+AND+all%3Aartificial+intelligence&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[認知科学] (cognitive_science)
+    OA error [cognitive load artificial inte]: [Errno 8] nodename nor servname provided, or not known
+    OA error [dual process theory AI decisio]: [Errno 8] nodename nor servname provided, or not known
+    OA error [distributed cognition AI syste]: [Errno 8] nodename nor servname provided, or not known
+    OA error [metacognition AI calibration]: [Errno 8] nodename nor servname provided, or not known
+    OA error [cognitive bias machine learnin]: [Errno 8] nodename nor servname provided, or not known
+    OA error [mental model AI interaction]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [cognitive_science]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+load&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+    OA error [complex adaptive systems artif]: [Errno 8] nodename nor servname provided, or not known
+    OA error [emergence multi-agent systems]: [Errno 8] nodename nor servname provided, or not known
+    OA error [self-organization AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [cybernetics AI system]: [Errno 8] nodename nor servname provided, or not known
+    OA error [systems thinking artificial in]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [complexity_science]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[心理学] (psychology)
+    OA error [self-determination theory AI t]: [Errno 8] nodename nor servname provided, or not known
+    OA error [trust automation AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [self-efficacy artificial intel]: [Errno 8] nodename nor servname provided, or not known
+    OA error [creativity AI collaboration]: [Errno 8] nodename nor servname provided, or not known
+    OA error [flow experience technology AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [automation complacency AI]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+    OA error [algorithm aversion trust]: [Errno 8] nodename nor servname provided, or not known
+    OA error [nudge artificial intelligence]: [Errno 8] nodename nor servname provided, or not known
+    OA error [bounded rationality AI decisio]: [Errno 8] nodename nor servname provided, or not known
+    OA error [default effect AI recommendati]: [Errno 8] nodename nor servname provided, or not known
+    OA error [decision making AI behavioral]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+    OA error [cultural evolution artificial ]: [Errno 8] nodename nor servname provided, or not known
+    OA error [human AI coevolution]: [Errno 8] nodename nor servname provided, or not known
+    OA error [niche construction technology ]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[社会学] (sociology)
+    OA error [institutional theory artificia]: [Errno 8] nodename nor servname provided, or not known
+    OA error [actor-network theory AI techno]: [Errno 8] nodename nor servname provided, or not known
+    OA error [trust social systems AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [digital divide artificial inte]: [Errno 8] nodename nor servname provided, or not known
+    OA error [network society AI]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[経済学] (economics)
+    OA error [AI labor market automation]: [Errno 8] nodename nor servname provided, or not known
+    OA error [task automation artificial int]: [Errno 8] nodename nor servname provided, or not known
+    OA error [general purpose technology AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI productivity economic]: [Errno 8] nodename nor servname provided, or not known
+    OA error [platform economics artificial ]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[組織科学] (organization_science)
+    OA error [AI organizational design]: [Errno 8] nodename nor servname provided, or not known
+    OA error [dynamic capabilities artificia]: [Errno 8] nodename nor servname provided, or not known
+    OA error [knowledge management AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [organizational ambidexterity A]: [Errno 8] nodename nor servname provided, or not known
+    OA error [team cognition AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [organizational routines automa]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[人類学] (anthropology)
+    OA error [digital anthropology artificia]: [Errno 8] nodename nor servname provided, or not known
+    OA error [technology anthropology AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [organizational ethnography AI]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[哲学] (philosophy)
+    OA error [philosophy of mind artificial ]: [Errno 8] nodename nor servname provided, or not known
+    OA error [epistemology AI knowledge]: [Errno 8] nodename nor servname provided, or not known
+    OA error [artificial moral agency]: [Errno 8] nodename nor servname provided, or not known
+    OA error [value alignment AI ethics]: [Errno 8] nodename nor servname provided, or not known
+    OA error [political philosophy artificia]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[法学] (law)
+    OA error [AI legal personhood]: [Errno 8] nodename nor servname provided, or not known
+    OA error [algorithmic accountability law]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI liability tort]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI regulation governance]: [Errno 8] nodename nor servname provided, or not known
+    OA error [intellectual property AI gener]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[HCI] (hci)
+    OA error [human-AI interaction design]: [Errno 8] nodename nor servname provided, or not known
+    OA error [explainable AI user study]: [Errno 8] nodename nor servname provided, or not known
+    OA error [mixed-initiative AI interactio]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI decision support system]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [hci]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[システム工学] (systems_engineering)
+    OA error [resilience engineering AI syst]: [Errno 8] nodename nor servname provided, or not known
+    OA error [sociotechnical systems AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [safety critical AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [human-automation interaction]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [systems_engineering]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[技術史] (history_of_technology)
+    OA error [technological revolution autom]: [Errno 8] nodename nor servname provided, or not known
+    OA error [general purpose technology his]: [Errno 8] nodename nor servname provided, or not known
+    OA error [automation labor history AI]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+    OA error [human-AI collaboration]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI augmentation knowledge work]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI productivity experiment]: [Errno 8] nodename nor servname provided, or not known
+    OA error [human AI team performance]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [human_ai_collaboration]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+    OA error [AI governance framework]: [Errno 8] nodename nor servname provided, or not known
+    OA error [algorithmic fairness bias]: [Errno 8] nodename nor servname provided, or not known
+    OA error [responsible AI principles]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI safety alignment]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI regulation policy]: [Errno 8] nodename nor servname provided, or not known
+    arXiv error [ai_governance]: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100 (Caused by NameResolutionError("HTTPSConnection(host='export.arxiv.org', port=443): Failed to resolve 'export.arxiv.org' ([Errno 8] nodename nor servname provided, or not known)"))
+  (新着なし)
+
+[経営戦略] (strategic_management)
+    OA error [resource-based view competitiv]: [Errno 8] nodename nor servname provided, or not known
+    OA error [dynamic capabilities artificia]: [Errno 8] nodename nor servname provided, or not known
+    OA error [upper echelons CEO decision ma]: [Errno 8] nodename nor servname provided, or not known
+    OA error [competitive dynamics AI indust]: [Errno 8] nodename nor servname provided, or not known
+    OA error [strategic decision making AI t]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+    OA error [agency theory corporate govern]: [Errno 8] nodename nor servname provided, or not known
+    OA error [board directors AI decision ma]: [Errno 8] nodename nor servname provided, or not known
+    OA error [ownership structure corporate ]: [Errno 8] nodename nor servname provided, or not known
+    OA error [executive compensation AI algo]: [Errno 8] nodename nor servname provided, or not known
+    OA error [stakeholder theory AI governan]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+    OA error [entrepreneurship AI opportunit]: [Errno 8] nodename nor servname provided, or not known
+    OA error [startup artificial intelligenc]: [Errno 8] nodename nor servname provided, or not known
+    OA error [entrepreneurial decision makin]: [Errno 8] nodename nor servname provided, or not known
+    OA error [effectuation AI entrepreneursh]: [Errno 8] nodename nor servname provided, or not known
+    OA error [innovation entrepreneurship AI]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+    OA error [disruptive innovation artifici]: [Errno 8] nodename nor servname provided, or not known
+    OA error [open innovation AI platform]: [Errno 8] nodename nor servname provided, or not known
+    OA error [absorptive capacity AI knowled]: [Errno 8] nodename nor servname provided, or not known
+    OA error [technology S-curve AI innovati]: [Errno 8] nodename nor servname provided, or not known
+    OA error [innovation management AI organ]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+    OA error [capital structure AI firm valu]: [Errno 8] nodename nor servname provided, or not known
+    OA error [behavioral finance AI decision]: [Errno 8] nodename nor servname provided, or not known
+    OA error [corporate investment AI algori]: [Errno 8] nodename nor servname provided, or not known
+    OA error [risk management artificial int]: [Errno 8] nodename nor servname provided, or not known
+    OA error [fintech AI financial markets]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[会計学] (accounting)
+    OA error [accounting AI automation]: [Errno 8] nodename nor servname provided, or not known
+    OA error [management accounting AI decis]: [Errno 8] nodename nor servname provided, or not known
+    OA error [earnings management AI detecti]: [Errno 8] nodename nor servname provided, or not known
+    OA error [balanced scorecard AI performa]: [Errno 8] nodename nor servname provided, or not known
+    OA error [audit AI artificial intelligen]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[マーケティング] (marketing)
+    OA error [AI marketing personalization]: [Errno 8] nodename nor servname provided, or not known
+    OA error [customer experience AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [brand equity AI consumer]: [Errno 8] nodename nor servname provided, or not known
+    OA error [digital marketing AI platform]: [Errno 8] nodename nor servname provided, or not known
+    OA error [service dominant logic AI valu]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+    OA error [AI human resource management]: [Errno 8] nodename nor servname provided, or not known
+    OA error [talent management artificial i]: [Errno 8] nodename nor servname provided, or not known
+    OA error [psychological safety AI team]: [Errno 8] nodename nor servname provided, or not known
+    OA error [performance management AI auto]: [Errno 8] nodename nor servname provided, or not known
+    OA error [future of work AI employment]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+    OA error [AI operations management suppl]: [Errno 8] nodename nor servname provided, or not known
+    OA error [lean manufacturing AI automati]: [Errno 8] nodename nor servname provided, or not known
+    OA error [quality management AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [Industry 4.0 AI operations]: [Errno 8] nodename nor servname provided, or not known
+    OA error [digital operations AI optimiza]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[国際経営] (international_business)
+    OA error [multinational corporation AI s]: [Errno 8] nodename nor servname provided, or not known
+    OA error [FDI artificial intelligence]: [Errno 8] nodename nor servname provided, or not known
+    OA error [global value chain AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [international business AI tech]: [Errno 8] nodename nor servname provided, or not known
+    OA error [cultural distance AI multinati]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+    OA error [corporate social responsibilit]: [Errno 8] nodename nor servname provided, or not known
+    OA error [business ethics artificial int]: [Errno 8] nodename nor servname provided, or not known
+    OA error [ESG AI governance]: [Errno 8] nodename nor servname provided, or not known
+    OA error [stakeholder AI value creation]: [Errno 8] nodename nor servname provided, or not known
+    OA error [sustainability AI business]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[情報システム] (information_systems)
+    OA error [digital transformation AI orga]: [Errno 8] nodename nor servname provided, or not known
+    OA error [technology adoption AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [enterprise AI system implement]: [Errno 8] nodename nor servname provided, or not known
+    OA error [IT governance AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [sociotechnical AI information ]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+    OA error [machine learning operations re]: [Errno 8] nodename nor servname provided, or not known
+    OA error [AI decision making optimizatio]: [Errno 8] nodename nor servname provided, or not known
+    OA error [game theory AI mechanism desig]: [Errno 8] nodename nor servname provided, or not known
+    OA error [multi-objective optimization A]: [Errno 8] nodename nor servname provided, or not known
+    OA error [reinforcement learning operati]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[リーダーシップ・組織行動] (leadership_ob)
+    OA error [leadership artificial intellig]: [Errno 8] nodename nor servname provided, or not known
+    OA error [transformational leadership AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [organizational culture AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [team dynamics AI]: [Errno 8] nodename nor servname provided, or not known
+    OA error [change management AI digital t]: [Errno 8] nodename nor servname provided, or not known
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 0件
+============================================================
+============================================================
+fetch_latest.py — 2026-05-15 06:00
+対象: 全分野 | since: 2026-05-14
+既存: 1529 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] Underneath the surface of managing AI...
+
+[心理学] (psychology)
+  + [OA:PR] Latent Terrain: Adapting Neural Audio Autoencoders as D...
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  + [OA:PR] Twitteratura: Digital Social Reading and Active Recepti...
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  + [OA:PR] Race and the Enduring Logic of Exclusion in U.S. Immigr...
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] Toward relational biosecurity: understanding AI-enabled...
+
+[経営戦略] (strategic_management)
+  + [OA:PR] The Evolution of U.S. Geoeconomic Grand Strategy toward...
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  + [OA:PR] Consumer-facing technologies in stores: A longitudinal ...
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  + [OA:PR] A Data Analysis Study of Temperature Based on Californi...
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  + [OA:PR] Mapping the opportunity for circularity in fashion reta...
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  (新着なし)
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 9件
+  ai_governance: 1
+  complexity_science: 1
+  evolutionary_biology: 1
+  history_of_technology: 1
+  innovation_management: 1
+  marketing: 1
+  operations_management: 1
+  psychology: 1
+  strategic_management: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-16 06:00
+対象: 全分野 | since: 2026-05-15
+既存: 1538 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  + [OA:PR] Designing an Optimal Decision-Making Model for Investor...
+    arXiv error [cognitive_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+load&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[複雑系科学] (complexity_science)
+    arXiv error [complexity_science]: Page request resulted in HTTP 503 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  + [OA:PR] "Why a Rational AGI Cannot Eliminate Humanity: A Struct...
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+    arXiv error [hci]: Page request resulted in HTTP 503 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Aexplainable+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+    arXiv error [systems_engineering]: Page request resulted in HTTP 503 (https://export.arxiv.org/api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+    arXiv error [human_ai_collaboration]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+    arXiv error [ai_governance]: Page request resulted in HTTP 503 (https://export.arxiv.org/api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  + [OA:PR] Digital Transformation and Market Disruption in India...
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  + [OA:PR] ENTWICKLUNG EINES IMPLEMENTIERUNGSFRAMEWORKS FÜR DEN UN...
+
+[マーケティング] (marketing)
+  + [OA:PR] Inside Enterprise Support: TAMs, SLAs, and Expert-to-Ex...
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  + [OA:PR] [Research progress in artificial intelligence for the d...
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  + [OA:PR] What’s new in digital and computational pathology 2026:...
+
+[オペレーションズリサーチ] (operations_research)
+  (新着なし)
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 7件
+  accounting: 1
+  cognitive_science: 1
+  information_systems: 1
+  innovation_management: 1
+  marketing: 1
+  operations_management: 1
+  sociology: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-17 06:00
+対象: 全分野 | since: 2026-05-16
+既存: 1545 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:PR] Explorations in Post-Digital Design: Aesthetics, Comput...
+  + [OA:PR] Towards Scalable and Ecological Methods for Early Socia...
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  (新着なし)
+
+[心理学] (psychology)
+  + [OA:PR] AI-BASED DECISION SUPPORT FOR OPTIMIZING SINGLE-STOCK I...
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  + [OA:PR] SΔϕ-04 — Minimal Operational Conditions for AI Subjecti...
+  + [OA:PR] SΔϕ-05 — Agency as Recursive Transition Law Update: Pat...
+  + [OA:PR] SΔϕ-06 — Responsibility as Irreversible Cost Internaliz...
+
+[HCI] (hci)
+  + [OA:PR] Architectural Design of a Persistent, Locally Hosted Hy...
+    arXiv error [hci]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[システム工学] (systems_engineering)
+  + [OA:ME] ARTIFICIAL INTELLIGENCE–BASED PREDICTION OF DRUG– DRUG ...
+    arXiv error [systems_engineering]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+    arXiv error [human_ai_collaboration]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] SΔϕ-41 — Ethical Minimum: The Triadic Conditions of Tra...
+    arXiv error [ai_governance]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  (新着なし)
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  + [OA:PR] Use of AI scribes in UK primary care: a survey of gener...
+
+[オペレーションズリサーチ] (operations_research)
+  (新着なし)
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+  + Recent Developments in LLM Architectures: KV Sharing, m...
+
+============================================================
+新規取得: 11件
+  ai_governance: 1
+  hci: 1
+  information_systems: 1
+  law: 3
+  neuroscience: 2
+  psychology: 1
+  rss: 1
+  systems_engineering: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-18 06:00
+対象: 全分野 | since: 2026-05-17
+既存: 1556 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+    arXiv error [neuroscience]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Aq-bio.NC+AND+all%3Aartificial+intelligence&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+    arXiv error [cognitive_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+load&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  + [OA:PR] Implicit Attitudes Toward Hearing Aid Visibility: Consp...
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  + [OA:PR] Alternative Condensated Theory Of AGI Toward a General ...
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  + [OA:PR] Agentic AI Systems for Pattern Analysis and Machine Int...
+  + [OA:PR] The Role of Artificial Intelligence and Digital Informa...
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  (新着なし)
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  + [OA:PR] THE ROLE OF ARTIFICIAL INTELLIGENCE IN VALUE CO-CREATIO...
+  + [OA:PR] Static validation for declarative service orchestration...
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  + [OA:PR] A digital twin system for retail inventory & sales mana...
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  (新着なし)
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 7件
+  behavioral_economics: 1
+  hci: 2
+  marketing: 2
+  operations_management: 1
+  sociology: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-19 06:00
+対象: 全分野 | since: 2026-05-18
+既存: 1563 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] Human Life System Engineering: Definition, Scope, Theor...
+  + [OA:PR] AI-Powered Iso 14224 Chatbot for Intelligent Reliabilit...
+
+[心理学] (psychology)
+  + [OA:PR] PENGARUH ACADEMIC SELF-EFFICACY TERHADAP ARTIFICIAL INT...
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  + [OA:PR] The paradox of algorithmic innovation: between the hype...
+  + [OA:PR] Large-Scale Application of Zero-Emission Autonomous Wel...
+  + [OA:PR] Quality 4.0 capabilities and sustainable performance: t...
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  + [OA:PR] ALGORITHMIC GOVERNANCE AND THE CRISIS OF LEGAL MORALITY...
+  + [OA:PR] The Riemann Hypothesis, Hilbert-Pólya Conjecture, and H...
+
+[HCI] (hci)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] The Algorithmic Mirror: Can Artificial Intelligence Tru...
+  + [OA:PR] AI-Driven Prediction of Cuttings Concentration and Arri...
+  + [OA:PR] AI-Based Determination of Gas Composition, Flow Rate, a...
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  + [OA:PR] From Data to Decisions, Unlocking Industry 4.0: AI-Read...
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  + [OA:PR] From 4.5 Hours to 30 Minutes: The Fully Integrated Digi...
+  + [OA:PR] Agentic AI-Driven Geothermal Reservoir Simulation and O...
+  + [OA:PR] Proxy-Based Multi-Objective Optimization of CO2-EOR and...
+  + [OA:PR] Strategic Reskilling and Knowledge Retention in the Glo...
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 16件
+  ai_governance: 3
+  complexity_science: 2
+  law: 2
+  operations_management: 1
+  operations_research: 4
+  organization_science: 3
+  psychology: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-20 06:00
+対象: 全分野 | since: 2026-05-19
+既存: 1579 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:PR] Deep Reinforcement Learning for Stock Behavior Predicti...
+  + [OA:PR] Accurately Predicting Monument Failure Via Deep Asymmet...
+  + [OA:PR] A Step Towards Inherently Interpretable Causal Machine ...
+  + [OA:PR] Understanding Uncertainties In Explainable Ai: A Struct...
+  + [OA:SY] The Evolution and Future Direction of Story Continuatio...
+
+[認知科学] (cognitive_science)
+  + [OA:PR] Exploring The Adoption Of Data-Driven Product Design: I...
+  + [OA:PR] Unpacking Data Strategies - Conceptualization And Empir...
+  + [OA:PR] (A)Immortality: Understanding People'S Motivation For U...
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] The Janus Face Of Ai Anthropomorphism – Building And Th...
+
+[心理学] (psychology)
+  + [OA:PR] Designing An Ai-Augmented Decision Support System For R...
+  + [OA:PR] Personalization in Tourism Marketing Communications: Tr...
+
+[行動経済学] (behavioral_economics)
+  + [OA:PR] Trust Me If You Can: The Role Of Competence, Benevolenc...
+
+[進化生物学・文化進化] (evolutionary_biology)
+  + [OA:PR] Concept OF Creating A French-Uzbek Dictionary OF Chemic...
+  + [OA:PR] Managing The Data & Analytics Journey - Learnings From ...
+
+[社会学] (sociology)
+  + [OA:PR] When Trust Reduces Critical Thinking: A Qualitative Stu...
+  + [OA:PR] Sports Isomorphic Evolution Studies...
+
+[経済学] (economics)
+  + [OA:PR] Embracing Technological Changes for A Better Future...
+
+[組織科学] (organization_science)
+  + [OA:PR] Computers Are Soci(Et)Al Actors: Extending Intergroup C...
+  + [OA:PR] Strategic Imperatives for Business in the Evolving Land...
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  + [OA:PR] Synthesizing Ancient Indian Philosophical Schools AND A...
+
+[法学] (law)
+  + [OA:PR] Isomorphic Evolution of Law...
+  + [OA:PR] The AI Patent Balance: Why Generative AI Both Weakens a...
+
+[HCI] (hci)
+  + [OA:PR] Towards Design Pattern For Common Ground In Human-Artif...
+  + [OA:PR] Cute For A Cause: How Anime-Like Virtual Influencer Out...
+
+[システム工学] (systems_engineering)
+  + [OA:PR] Thesis Title Chivalry Under Threat The Ultimate Histori...
+  + [OA:PR] ApexClaw: A Persistent Infrastructure for Agentic Scien...
+
+[技術史] (history_of_technology)
+  + [OA:PR] Dialectic OF Socio-Cultural Technologies AND Technologi...
+  + [OA:PR] Museology AND Cultural Heritage: an Overview OF Preserv...
+  + [OA:PR] The Possibilities OF Innovative Structures in the Eleme...
+  + [OA:PR] A Taxonomy Of Algorithmic Co-Supervision...
+
+[人間-AI協働] (human_ai_collaboration)
+  + [OA:PR] Procedural Justice And The Limits Of Explanations In Hu...
+
+[AIガバナンス] (ai_governance)
+  (新着なし)
+
+[経営戦略] (strategic_management)
+  + [OA:PR] Adequate Funding Panacea to Science Education Problems ...
+
+[コーポレートガバナンス] (corporate_governance)
+  + [OA:PR] Algorithmic Dramaturgy: A Sociotechnical Mode Of Platfo...
+  + [OA:PR] Sustainalyzer - An Analysis Tool For Sustainability Com...
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  + [OA:PR] EcoChat Probe:How Energy Feedback Shapes End Users’ Int...
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  + [OA:PR] Transparency And Visibility In Algorithmic Management: ...
+
+[マーケティング] (marketing)
+  + [OA:PR] Formation Of Ai Anthropomorphism Structured By The Cust...
+
+[人的資源管理] (human_resource_management)
+  + [OA:PR] Famous Singers OF Uzbekistan AND the Role OF Singing Pr...
+  + [OA:PR] Deployment OF Information Communication TECHNOLOGY in A...
+  + [OA:PR] “Hello! I’M Your Automated Leader”: Designing Ai-Enable...
+
+[オペレーション管理] (operations_management)
+  + [OA:PR] Actual Modern Problems OF Picture Coding...
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  + [OA:PR] Explaining Intentions To Use Ai-Driven Business Analyti...
+  + [OA:PR] Evidence Projection in Multi-Jurisdictional AI Governan...
+
+[オペレーションズリサーチ] (operations_research)
+  + [OA:PR] AI-Driven Autonomous Dust Mitigation for Extraterrestri...
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+  + I/O 2026...
+  + How AI Mode is changing the way people search in the U....
+  + New ways to create and get things done in Google Worksp...
+
+============================================================
+新規取得: 47件
+  accounting: 1
+  behavioral_economics: 1
+  cognitive_science: 3
+  complexity_science: 1
+  corporate_governance: 2
+  economics: 1
+  evolutionary_biology: 2
+  hci: 2
+  history_of_technology: 4
+  human_ai_collaboration: 1
+  human_resource_management: 3
+  information_systems: 2
+  innovation_management: 1
+  law: 2
+  marketing: 1
+  neuroscience: 5
+  operations_management: 1
+  operations_research: 1
+  organization_science: 2
+  philosophy: 1
+  psychology: 2
+  rss: 3
+  sociology: 2
+  strategic_management: 1
+  systems_engineering: 2
+============================================================
+============================================================
+fetch_latest.py — 2026-05-21 06:00
+対象: 全分野 | since: 2026-05-20
+既存: 1626 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+    arXiv error [cognitive_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+bias&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  + [OA:PR] MagmaFlow_v10.0.6: MagmaFlow An Integrated Desktop Plat...
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  + [OA:PR] Significance Fields in Cognitive Systems: Continuation ...
+
+[法学] (law)
+  + [OA:PR] Collaborative governance of AIGC disinformation: key fa...
+
+[HCI] (hci)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+    arXiv error [systems_engineering]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+    arXiv error [human_ai_collaboration]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] Embedding Veritas: A Methodological Proposal for AI Gov...
+  + [OA:PR] Knowledge and attitudes of the role of artificial intel...
+    arXiv error [ai_governance]: Page request resulted in HTTP 503 (https://export.arxiv.org/api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  (新着なし)
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  + [OA:PR] The Impact OF Artificial Intelligence AND Automation on...
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  + [OA:PR] Agentic Discovery of Cryomicroneedle Formulations...
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+  + We’re announcing new community investments in Missouri....
+  + 100 things we announced at I/O 2026...
+  + A new experiment brings better group meetings to Google...
+
+============================================================
+新規取得: 10件
+  ai_governance: 2
+  business_ethics_csr: 1
+  economics: 1
+  law: 1
+  operations_research: 1
+  philosophy: 1
+  rss: 3
+============================================================
+============================================================
+fetch_latest.py — 2026-05-22 06:00
+対象: 全分野 | since: 2026-05-21
+既存: 1636 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+    arXiv error [neuroscience]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Aq-bio.NC+AND+all%3Aartificial+intelligence&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+    arXiv error [cognitive_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+load&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+    arXiv error [hci]: Page request resulted in HTTP 503 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  + [OA:PR] QVP GLOBAL SYSTEM™ v9.0 — International Framework for S...
+    arXiv error [systems_engineering]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+    arXiv error [human_ai_collaboration]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+    arXiv error [ai_governance]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  (新着なし)
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  (新着なし)
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 1件
+  systems_engineering: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-23 06:00
+対象: 全分野 | since: 2026-05-22
+既存: 1637 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:PR] The Weight Of What Remains: Temporal Layering And The R...
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  (新着なし)
+
+[心理学] (psychology)
+  + [OA:PR] Advancing Generative AI Literacy Through a Faculty-Focu...
+  + [OA:PR] From Prompt To Process: Qualitative Insights On How Gen...
+
+[行動経済学] (behavioral_economics)
+  + [OA:PR] You’Re Right To Worry: Toward An Ai Affirmation Momentu...
+  + [OA:PR] Teaching Tip: Generative AI in Excel: A Hands-on Module...
+
+[進化生物学・文化進化] (evolutionary_biology)
+  + [OA:PR] Exploring The Relationship Between Digital Innovation A...
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  + [OA:PR] Managing Artificial Intelligence In Public Sector Organ...
+  + [OA:PR] Fair Use AND AI Training: A Comparative Study Between t...
+
+[組織科学] (organization_science)
+  + [OA:PR] Teaching Case: Seeing Is Not Believing: A Deepfake Vide...
+  + [OA:PR] Microfoundations Of Ai Orientation As Market Signal: Ev...
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  + [OA:PR] Generating Synthetic Multi-Turn Conversations For Scala...
+  + [OA:PR] The Privacy–Proactivity Paradox: Revisiting The Privacy...
+
+[システム工学] (systems_engineering)
+  + [OA:PR] Empowering Governments Through The Metaverse: Building ...
+  + [OA:PR] Paraphrasing For Safety: How Genai Shapes Privacy Perce...
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] Toward Cultural–Ethical Fit In Ai Governance: A Global ...
+  + [OA:PR] The Cost of Consensus: Isolated Self-Correction Prevail...
+  + [OA:PR] A Design Science Research Approach Towards Compliance-A...
+
+[経営戦略] (strategic_management)
+  + [OA:PR] Dynamic Capabilities In Digital Transformation: A Struc...
+  + [OA:PR] Towards An Understanding Of Coopetition In Data Ecosyst...
+  + [OA:PR] Navigating Ai Choices: A Taxonomy Of Decision Factors O...
+
+[コーポレートガバナンス] (corporate_governance)
+  + [OA:PR] Enabling Self-Service Sensemaking For Data-Informed Dec...
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  + [OA:PR] A Typology For Responsible Delegation Of Data Quality M...
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  + [OA:PR] Teaching Innovation Through Location Analytics: Advanci...
+
+[情報システム] (information_systems)
+  + [OA:PR] Tensions And Synergies Between Digital Sovereignties In...
+  + [OA:PR] Securing the Agent: Vendor-Neutral, Multitenant Enterpr...
+  + [OA:PR] From AI Systems to Decision Events: Reframing the Unit ...
+
+[オペレーションズリサーチ] (operations_research)
+  + [OA:PR] Research and Application Progress of Self-powered Weara...
+  + [OA:PR] Computational strategies for the design of high-strengt...
+
+[リーダーシップ・組織行動] (leadership_ob)
+  + [OA:PR] Beyond the Perimeter Rethinking Enterprise Network Secu...
+
+[RSS記事]
+  + Catch up on the Dialogues stage at Google I/O 2026....
+
+============================================================
+新規取得: 30件
+  ai_governance: 3
+  behavioral_economics: 2
+  business_ethics_csr: 1
+  corporate_governance: 1
+  economics: 2
+  evolutionary_biology: 1
+  hci: 2
+  information_systems: 3
+  leadership_ob: 1
+  neuroscience: 1
+  operations_management: 1
+  operations_research: 2
+  organization_science: 2
+  psychology: 2
+  rss: 1
+  strategic_management: 3
+  systems_engineering: 2
+============================================================
+============================================================
+fetch_latest.py — 2026-05-24 06:00
+対象: 全分野 | since: 2026-05-23
+既存: 1667 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:PR] The Role Of Leader'S Ai Literacy When Appropriating Ai...
+  + [OA:PR] Support Or Substitution: How Chatgpt Affects Cognitive ...
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  (新着なし)
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  + [OA:PR] How well can large language model agents simulate compl...
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  + [OA:PR] How Human-Ai Decision Rights Shape Cybersecurity: Empir...
+  + [OA:PR] E-Government And Social Inclusion: A Double-Edged Sword...
+
+[組織科学] (organization_science)
+  + [OA:PR] A Logics Perspective On Digital Transformation In Publi...
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  + [OA:PR] After Meat: Ruin, Decomposition, and the Epistemic Coll...
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  (新着なし)
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  + [OA:PR] Emerging Tensions In Cross-Departmental Collaboration D...
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  + [OA:PR] Beyond The Wall Of Text: A Comparative Empirical Study ...
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+  + [OA:PR] Capturing Tacit Troubleshooting Knowledge On The Shop F...
+
+[オペレーション管理] (operations_management)
+  (新着なし)
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  + [OA:ME] A Typology Of City-Level Chief Data Officers In The Pub...
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  + [OA:PR] Provisioning 6G Services in Edge-Core Continuum...
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 12件
+  behavioral_economics: 1
+  business_ethics_csr: 1
+  economics: 2
+  entrepreneurship: 1
+  finance_corporate: 1
+  history_of_technology: 1
+  human_resource_management: 1
+  neuroscience: 2
+  operations_research: 1
+  organization_science: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-25 06:00
+対象: 全分野 | since: 2026-05-24
+既存: 1679 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] ASSESSMENT AND EVALUATION IN EDUCATION IN THE AGE OF AR...
+
+[心理学] (psychology)
+  + [OA:PR] Gamified Learning for Neurodivergent Students: Personal...
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  + [OA:PR] IQLider_Dossier_N4_Ethical_Indicators_System_EN_v1.0...
+
+[HCI] (hci)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  + [OA:PR] The Hidden Economics of Artificial Intelligence: Why Co...
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] Topological AI: Prime-Anchored Neural Networks Solving ...
+  + [OA:PR] SΔϕ-68 AI-READABLE Package — Intelligence Is Not Air (v...
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  (新着なし)
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  + [OA:PR] The Future of AI-Native Assessment Integrity, AI Procto...
+
+[オペレーションズリサーチ] (operations_research)
+  (新着なし)
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 7件
+  ai_governance: 2
+  complexity_science: 1
+  human_ai_collaboration: 1
+  information_systems: 1
+  law: 1
+  psychology: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-26 06:00
+対象: 全分野 | since: 2026-05-25
+既存: 1686 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:PR] INVESTIGATING COMPENSATORY STRATEGIES IN YOUNG LEARNERS...
+
+[認知科学] (cognitive_science)
+  + [OA:PR] ARTIFICIAL INTELLIGENCE IN PARENTING: OPPORTUNITIES AND...
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] Teleoperation Bottlenecks: From Network-Centric Optimiz...
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  + [OA:PR] Not anti-technology, but anti-capitalist: A critical th...
+
+[経済学] (economics)
+  + [OA:PR] BRIDGING THE SKILLS GAP THROUGH AI: INNOVATING VOCATION...
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  + [OA:PR] Machine Learning and the Digital Archiving of Death...
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  + [OA:PR] Coupled Viability Architecture for Human–AI Interfaces ...
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] Generative Artificial Intelligence Policy: A Qualitativ...
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  + [OA:PR] THE IMPACT OF ARTIFICIAL INTELLIGENCE IN SUSTAINABLE TE...
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  + [OA:PR] Plant Leaf Disease Detection Using Convolution Neutral ...
+
+[リーダーシップ・組織行動] (leadership_ob)
+  + [OA:PR] Digital Leadership dan Kinerja Organisasi : Peran Artif...
+
+[RSS記事]
+
+============================================================
+新規取得: 11件
+  ai_governance: 1
+  cognitive_science: 1
+  complexity_science: 1
+  economics: 1
+  leadership_ob: 1
+  neuroscience: 1
+  operations_management: 1
+  operations_research: 1
+  philosophy: 1
+  sociology: 1
+  systems_engineering: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-27 06:00
+対象: 全分野 | since: 2026-05-26
+既存: 1697 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+    arXiv error [neuroscience]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Aq-bio.NC+AND+all%3Amachine+learning&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+    arXiv error [cognitive_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+load&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] POSSIBILITIES OF ARTIFICIAL INTELLIGENCE TECHNOLOGIES I...
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  + [OA:PR] Can Artificial Intelligence Perform Ijtihad? Authority,...
+  + [OA:PR] When algorithms govern solidarity: a fiqh muamalah pers...
+  + [OA:PR] TRUST DAN RESPONS PSIKOLOGIS TERHADAP ARTIFICIAL INTELL...
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+    arXiv error [hci]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  + [OA:PR] Designing Authority for AI Enabled Administration: A Fr...
+    arXiv error [systems_engineering]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+    arXiv error [human_ai_collaboration]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] CTPL: Contrastive Trajectory-Aligned Preference Learnin...
+    arXiv error [ai_governance]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+all%3AAI+safety+alignment&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  + [OA:PR] Personalizing E-Commerce Experiences: A Machine Learnin...
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  + [OA:PR] Integration of Solar and Wind Energy with Energy Storag...
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  + [OA:PR] From Semiotic Relationships to Code in the AI Governanc...
+
+[オペレーションズリサーチ] (operations_research)
+  (新着なし)
+
+[リーダーシップ・組織行動] (leadership_ob)
+  + [OA:PR] Digital Leadership and Artificial Intelligence Adoption...
+
+[RSS記事]
+
+============================================================
+新規取得: 10件
+  ai_governance: 1
+  complexity_science: 1
+  information_systems: 1
+  leadership_ob: 1
+  marketing: 1
+  operations_management: 1
+  philosophy: 3
+  systems_engineering: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-28 06:00
+対象: 全分野 | since: 2026-05-27
+既存: 1707 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  + [OA:PR] From Engine-Optimal To Human-Optimal: Designing Behavio...
+
+[複雑系科学] (complexity_science)
+  (新着なし)
+
+[心理学] (psychology)
+  + [OA:PR] Human vs machine judgment in safety-critical logistics:...
+  + [OA:PR] Rethinking Education in the Age of Artificial Intellige...
+  + [OA:PR] Integrating Engineering Practices Into Data Science: An...
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  + [OA:PR] A Reference Model For Knowledge And Technology Transfer...
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  + [OA:PR] Digital Mayflies: Transient Personhood of AI Companions...
+
+[HCI] (hci)
+  + [OA:PR] Paper 19 — Economic Reference Objects and Closed Settle...
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  + [OA:PR] A Simulation Task Manager For Production Planning: Desi...
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] Paper 20 — Domain Design Reference Infrastructures in t...
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  + [OA:PR] Enhancing leadership effectiveness through artificial i...
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+  + [OA:PR] AI Based Contact Extraction for CRM...
+
+[オペレーション管理] (operations_management)
+  (新着なし)
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  + [OA:PR] Cybersecurity Readiness: Configurational Pathways To In...
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 12件
+  ai_governance: 1
+  cognitive_science: 1
+  hci: 1
+  human_ai_collaboration: 1
+  human_resource_management: 1
+  innovation_management: 1
+  law: 1
+  operations_research: 1
+  psychology: 3
+  sociology: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-29 06:00
+対象: 全分野 | since: 2026-05-28
+既存: 1719 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+    arXiv error [neuroscience]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Aq-bio.NC+AND+all%3Aartificial+intelligence&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  + [OA:PR] The Esteem Trap: It Identity-Driven Technology Rejectio...
+  + [OA:PR] Multi Agent Systems In The Lean Startup Cycle: Operatio...
+    arXiv error [cognitive_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+load&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] Design Principles for Non-Directive Conversational AI —...
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[心理学] (psychology)
+  + [OA:PR] Pengaruh Self-Determination Theory dan Kepercayaan Peng...
+  + [OA:PR] Personalization Of Information Systems: A Taxonomy And ...
+  + [OA:PR] Engaged Or Anxious? The Dual Outcomes Of Job Crafting U...
+  + [OA:PR] When Ai Sparks Less: Generative Ai And The Decline Of S...
+  + [OA:PR] Enhancing Human-Ai Collaboration: An Experimental Study...
+  + [OA:PR] How Generative Ai Drives Field-Level Change In Manageme...
+
+[行動経済学] (behavioral_economics)
+  + [OA:PR] Why Clinicians Still Trust Humans Over (Gen)Ai Systems:...
+  + [OA:PR] Why Drivers Resist Ai- Enabled Technological Enforcemen...
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  + [OA:PR] Structural AI: Formal Definition and Foundational Frame...
+  + [OA:PR] Were Human Desires "Discovered," or Were They "Manufact...
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  + [OA:PR] Structuring Readiness For Ai Innovation: The Role Of Th...
+  + [OA:PR] Autonomous Multi-Is Systems: A Framework For Studying A...
+  + [OA:PR] Harnessing Ai For Speed: A Dynamic Capabilities View On...
+
+[人類学] (anthropology)
+  + [OA:PR] The Tension Of Time And Attention: Generative Ai And Hi...
+
+[哲学] (philosophy)
+  + [OA:PR] Subjectivity Beyond the Skull: Why AI Consciousness Deb...
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  + [OA:PR] The Adoption Of Ai-Based Assistants In Startup Innovati...
+  + [OA:PR] Perceived Mystique In Generative Ai: A Dual-Path Approa...
+    arXiv error [hci]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[システム工学] (systems_engineering)
+  + [OA:PR] Configuring Complexity: Pathways Towards Ai Implementat...
+  + [OA:PR] Ontological Safety III: Why Incremental Approaches Fail...
+  + [OA:PR] Ai, Human, And Hybrid Judges: Effects On Fairness Perce...
+    arXiv error [systems_engineering]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  + [OA:PR] Designing For Complementary Performance: A Conceptual M...
+  + [OA:PR] T-RDE: A Semantic Auditing Framework for Repairable Hum...
+  + [OA:PR] Harnessing Automated Code Review For Better Code Revisi...
+    arXiv error [human_ai_collaboration]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] Artificial intelligence and financial decision making i...
+  + [OA:PR] Applying Design Science Research To Augmenting Feedback...
+  + [OA:PR] Ontological Safety II: Identity Preservation as the Log...
+    arXiv error [ai_governance]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[経営戦略] (strategic_management)
+  + [OA:PR] Venture capital, angel investment, and SME empowerment ...
+
+[コーポレートガバナンス] (corporate_governance)
+  + [OA:PR] Sustaining Health Data Infrastructures: Understanding S...
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  + [OA:PR] Understanding Generative Ai As A Catalyst For Organizat...
+  + [OA:PR] Product Distinctiveness, User Innovation Involvement, A...
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  + [OA:PR] Peran Artificial Intelligence dalam Meningkatkan Efekti...
+  + [OA:PR] Inside The Matrix – Belongingness And Trust As Drivers ...
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  (新着なし)
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  + [OA:PR] The Role Of Embeddedness In Generative Ai Adoption: A P...
+
+[オペレーションズリサーチ] (operations_research)
+  + [OA:PR] Grey’S A(I)Natomy: Design Principles For Generative Vir...
+
+[リーダーシップ・組織行動] (leadership_ob)
+  + [OA:PR] When Code Meets Culture: How Citizen Development Trigge...
+
+[RSS記事]
+  + Catch up on 12 major I/O 2026 moments...
+
+============================================================
+新規取得: 39件
+  ai_governance: 3
+  anthropology: 1
+  behavioral_economics: 2
+  cognitive_science: 2
+  complexity_science: 1
+  corporate_governance: 1
+  hci: 2
+  human_ai_collaboration: 3
+  information_systems: 1
+  innovation_management: 2
+  leadership_ob: 1
+  marketing: 2
+  operations_research: 1
+  organization_science: 3
+  philosophy: 1
+  psychology: 6
+  rss: 1
+  sociology: 2
+  strategic_management: 1
+  systems_engineering: 3
+============================================================
+============================================================
+fetch_latest.py — 2026-05-30 06:00
+対象: 全分野 | since: 2026-05-29
+既存: 1758 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:SY] A Systematic Literature Review On Responsible Ai In Jud...
+  + [OA:PR] An Ai Economy Beyond Big Tech Hyperscalers? A Taxonomy ...
+  + [OA:PR] Between Scylla And Charybdis: Navigating The Imagined F...
+  + [OA:PR] Standing On The Shoulders Of Paperclips: A Taxonomy Of ...
+  + [OA:PR] When Avatars Offend: Emotional And Behavioral Responses...
+
+[認知科学] (cognitive_science)
+  + [OA:ME] Wisdom Of The (Ai) Crowd: Investigating Artificial Swar...
+  + [OA:PR] Conceptualising Reflective Use: Toward A Process Perspe...
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] From Dexterity To Responsibility: A Capability–Identity...
+  + [OA:PR] Cyber Self‑Defense Under Active Intrusion: A Lawful, Et...
+  + [OA:PR] Harnessing And Reducing The Generative And Workflow Aut...
+
+[心理学] (psychology)
+  + [OA:PR] "You Don'T Have To Use What The Ai Suggests" - A Self-D...
+  + [OA:PR] Before The Leap: Collective Sensemaking Of Artificial I...
+  + [OA:PR] When Trust Breaks: A Framework For Analyzing And Unders...
+
+[行動経済学] (behavioral_economics)
+  + [OA:PR] First Impressions Always Last: How Ai Disclosure On Job...
+
+[進化生物学・文化進化] (evolutionary_biology)
+  + [OA:PR] Mission: Orchestration – Governance Mechanisms And Futu...
+  + [OA:PR] Coordinating In Digital Sustainability: Collective Acti...
+
+[社会学] (sociology)
+  + [OA:PR] The Materialization Of Team Agency In The Human-Gai Inn...
+
+[経済学] (economics)
+  + [OA:PR] Exploring The Effect Of Platform-Embedded Generative Ai...
+
+[組織科学] (organization_science)
+  + [OA:PR] Inclusive Intelligence: Ai-Enabled Career Coaching For ...
+  + [OA:PR] From Brown To Green: How Ai-Driven Transformation Enabl...
+  + [OA:PR] Paradoxical Tensions In Healthcare Digitalization: Bala...
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  + [OA:PR] THE DIGITAL MIND AND COGNITIVE SOVEREIGNTY "A CRITICAL ...
+
+[法学] (law)
+  + [OA:PR] Bibliometric Analysis of Thematic Trends in Research in...
+  + [OA:PR] Implementing Ai Governance: Contrasting The Academic An...
+
+[HCI] (hci)
+  + [OA:PR] Making Sense Of Complexity: A Cognitive-Sensemaking Per...
+  + [OA:PR] Time To Turn Off The Lights: A Success Factor Framework...
+    arXiv error [hci]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  + [OA:PR] Schnitzel-Prediction: Designing Human-Ai Collaboration ...
+  + [OA:SY] Decoding Learning In The Era Of Digital Technology: A S...
+  + [OA:PR] The Impact Of Ai Use On Organizational Financial And In...
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] Toward equitable digital health: an integrated framewor...
+  + [OA:PR] Between Regulation And Evaluation: An Information Syste...
+  + [OA:PR] A Framework For Designing Ai-Supported Literature Revie...
+  + [OA:PR] A Complete Spectral Framework for Prime Number Theory: ...
+  + [OA:PR] “If The Authorities Do Not Have Sufficient Resources, I...
+  + [OA:PR] Congressional Push to Delay AI Regulation — E8 Intellig...
+
+[経営戦略] (strategic_management)
+  + [OA:PR] Hybrid Upper Echelons: A Theorizing Review On Ai In Exe...
+
+[コーポレートガバナンス] (corporate_governance)
+  + [OA:PR] It Governance In The Boardroom: The Emergence Of Boards...
+  + [OA:PR] More Or Less Sustainable It Function: Cognitive Perspec...
+  + [OA:PR] Who Owns The Metaverse — Who Is Excluded – Who Gets Hur...
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  + [OA:PR] From Knowledge Loss To Knowledge Leverage: How Gen Ai A...
+
+[コーポレートファイナンス] (finance_corporate)
+  + [OA:PR] Multi-stream Revenue Model for AI-based Fintech Lending...
+
+[会計学] (accounting)
+  + [OA:SY] Agentic and Multi-agent Systems: A Systematic Review of...
+
+[マーケティング] (marketing)
+  + [OA:PR] Too Green To Use? Exploring Early Discontinuance Mechan...
+  + [OA:PR] Leidensdruck, Affordance Ambiguity, And Power Shifts In...
+
+[人的資源管理] (human_resource_management)
+  + [OA:PR] Multi-Agent Collaboration: Exploring Problem Solving In...
+
+[オペレーション管理] (operations_management)
+  + [OA:PR] From Technical Expertise To Reflective Practice: Identi...
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  + [OA:PR] Ethics In Federated Learning...
+  + [OA:PR] Navigating The Twin Transition: A Paradox Perspective O...
+  + [OA:PR] Social Sustainability And Enterprise Architecture: Desi...
+
+[情報システム] (information_systems)
+  + [OA:PR] Digital Futures Of The Next Generation Of Managers: An ...
+
+[オペレーションズリサーチ] (operations_research)
+  + [OA:PR] Learning to Nudge:Affect-Aware Model-Free Reinforcement...
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+  + Take our I/O 2026 quiz, vibe coded in Google AI Studio....
+  + 9 demos of Gemini Omni and Gemini 3.5 in action...
+  + Check out real-life AI prototypes from the Futures Lab....
+
+============================================================
+新規取得: 54件
+  accounting: 1
+  ai_governance: 6
+  behavioral_economics: 1
+  business_ethics_csr: 3
+  cognitive_science: 2
+  complexity_science: 3
+  corporate_governance: 3
+  economics: 1
+  evolutionary_biology: 2
+  finance_corporate: 1
+  hci: 2
+  human_ai_collaboration: 3
+  human_resource_management: 1
+  information_systems: 1
+  innovation_management: 1
+  law: 2
+  marketing: 2
+  neuroscience: 5
+  operations_management: 1
+  operations_research: 1
+  organization_science: 3
+  philosophy: 1
+  psychology: 3
+  rss: 3
+  sociology: 1
+  strategic_management: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-05-31 06:00
+対象: 全分野 | since: 2026-05-30
+既存: 1812 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:PR] Anticipating Ethical Issues Of Recommender Systems: An ...
+  + [OA:PR] Explaining Multimodal Ai Predictions: A Conceptual Revi...
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Aemergence&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  + [OA:PR] Bibliometric Analysis of the Creator Economy...
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  + [OA:PR] Towards Using Ai Bias Audits As Inputs For Red Teaming ...
+  + [OA:PR] Exploring The Governance Of Ai Outsourcing From A Clien...
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+    arXiv error [hci]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+    arXiv error [systems_engineering]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+    arXiv error [human_ai_collaboration]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+    arXiv error [ai_governance]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[経営戦略] (strategic_management)
+  + [OA:SY] Theory-Driven Feature Engineering For Machine Learning ...
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  + [OA:PR] Three Faces Of Analytics: How Big Data Enables Operativ...
+  + [OA:PR] IoT-Enabled Monitoring and Methane Energy Forecasting i...
+
+[コーポレートファイナンス] (finance_corporate)
+  + [OA:PR] Climate Risks And Firm Valuation: The Moderating Role O...
+  + [OA:PR] Unveiling the Dynamics of Super Apps: Adoption Factors ...
+
+[会計学] (accounting)
+  + [OA:PR] THE IMPACT OF ARTIFICIAL INTELLIGENCE ON THE STATE AUDI...
+
+[マーケティング] (marketing)
+  + [OA:PR] Dominance And Marginalisation In Is Research On Digital...
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  (新着なし)
+
+[国際経営] (international_business)
+  + [OA:PR] Re-Imagining Gender Beyond The Binary In Information Te...
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  + [OA:PR] AI FOR MATERIALS DISCOVERY AND PRODUCT FORMULATIONS...
+
+[リーダーシップ・組織行動] (leadership_ob)
+  + [OA:PR] Krevity Decision Clarity Framework™...
+
+[RSS記事]
+
+============================================================
+新規取得: 15件
+  accounting: 1
+  economics: 1
+  finance_corporate: 2
+  innovation_management: 2
+  international_business: 1
+  leadership_ob: 1
+  marketing: 1
+  neuroscience: 2
+  operations_research: 1
+  philosophy: 2
+  strategic_management: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-06-01 06:00
+対象: 全分野 | since: 2026-05-31
+既存: 1827 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  + [OA:PR] Bibliometric Analysis of Behavioral Finance...
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] Application of Generative Artificial Intelligence in Sp...
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  + [OA:PR] Law as Fallback vs Minimalist Codes...
+
+[経済学] (economics)
+  + [OA:PR] Narrative Capitalism, Algorithmic Governance and Psychi...
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  + [OA:PR] Lethal Autonomous Weapons Systems and the Principles of...
+
+[HCI] (hci)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  + [OA:PR] Polite Fictions: Marginalised Histories and Social Tabo...
+
+[人間-AI協働] (human_ai_collaboration)
+    arXiv error [human_ai_collaboration]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+    arXiv error [ai_governance]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  + [OA:PR] Bibliometric Analysis of Marketing Automation Research...
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  + [OA:PR] From Data To Sustainable Decisions: The Impact Of Verif...
+
+[人的資源管理] (human_resource_management)
+  + [OA:PR] Bibliometric Analysis of Research on Career Personaliza...
+  + [OA:PR] Bureaucracy, Bottlenecks, and Bots: AI and Migrant Expe...
+
+[オペレーション管理] (operations_management)
+  (新着なし)
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  + [OA:PR] Unmanned surface vehicle swarm formation control techno...
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 11件
+  cognitive_science: 1
+  complexity_science: 1
+  economics: 1
+  history_of_technology: 1
+  human_resource_management: 2
+  innovation_management: 1
+  law: 1
+  marketing: 1
+  operations_research: 1
+  sociology: 1
+============================================================
