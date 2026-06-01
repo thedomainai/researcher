@@ -248,6 +248,148 @@ DOMAINS = {
             ("cs.AI", "AI safety alignment"),
         ],
     },
+
+    "strategic_management": {
+        "label": "経営戦略",
+        "search_queries": [
+            "resource-based view competitive advantage AI",
+            "dynamic capabilities artificial intelligence strategy",
+            "upper echelons CEO decision making AI",
+            "competitive dynamics AI industry",
+            "strategic decision making AI top management",
+        ],
+    },
+    "corporate_governance": {
+        "label": "コーポレートガバナンス",
+        "search_queries": [
+            "agency theory corporate governance AI",
+            "board directors AI decision making",
+            "ownership structure corporate AI",
+            "executive compensation AI algorithm",
+            "stakeholder theory AI governance",
+        ],
+    },
+    "entrepreneurship": {
+        "label": "アントレプレナーシップ",
+        "search_queries": [
+            "entrepreneurship AI opportunity recognition",
+            "startup artificial intelligence venture",
+            "entrepreneurial decision making AI uncertainty",
+            "effectuation AI entrepreneurship",
+            "innovation entrepreneurship AI ecosystem",
+        ],
+    },
+    "innovation_management": {
+        "label": "イノベーション管理",
+        "search_queries": [
+            "disruptive innovation artificial intelligence",
+            "open innovation AI platform",
+            "absorptive capacity AI knowledge",
+            "technology S-curve AI innovation",
+            "innovation management AI organization",
+        ],
+    },
+    "finance_corporate": {
+        "label": "コーポレートファイナンス",
+        "search_queries": [
+            "capital structure AI firm value",
+            "behavioral finance AI decision",
+            "corporate investment AI algorithm",
+            "risk management artificial intelligence finance",
+            "fintech AI financial markets",
+        ],
+    },
+    "accounting": {
+        "label": "会計学",
+        "search_queries": [
+            "accounting AI automation",
+            "management accounting AI decision",
+            "earnings management AI detection",
+            "balanced scorecard AI performance",
+            "audit AI artificial intelligence",
+        ],
+    },
+    "marketing": {
+        "label": "マーケティング",
+        "search_queries": [
+            "AI marketing personalization",
+            "customer experience AI",
+            "brand equity AI consumer",
+            "digital marketing AI platform",
+            "service dominant logic AI value",
+        ],
+    },
+    "human_resource_management": {
+        "label": "人的資源管理",
+        "search_queries": [
+            "AI human resource management",
+            "talent management artificial intelligence",
+            "psychological safety AI team",
+            "performance management AI automation",
+            "future of work AI employment",
+        ],
+    },
+    "operations_management": {
+        "label": "オペレーション管理",
+        "search_queries": [
+            "AI operations management supply chain",
+            "lean manufacturing AI automation",
+            "quality management AI",
+            "Industry 4.0 AI operations",
+            "digital operations AI optimization",
+        ],
+    },
+    "international_business": {
+        "label": "国際経営",
+        "search_queries": [
+            "multinational corporation AI strategy",
+            "FDI artificial intelligence",
+            "global value chain AI",
+            "international business AI technology",
+            "cultural distance AI multinational",
+        ],
+    },
+    "business_ethics_csr": {
+        "label": "経営倫理・CSR",
+        "search_queries": [
+            "corporate social responsibility AI",
+            "business ethics artificial intelligence",
+            "ESG AI governance",
+            "stakeholder AI value creation",
+            "sustainability AI business",
+        ],
+    },
+    "information_systems": {
+        "label": "情報システム",
+        "search_queries": [
+            "digital transformation AI organization",
+            "technology adoption AI",
+            "enterprise AI system implementation",
+            "IT governance AI",
+            "sociotechnical AI information systems",
+        ],
+    },
+    "operations_research": {
+        "label": "オペレーションズリサーチ",
+        "search_queries": [
+            "machine learning operations research optimization",
+            "AI decision making optimization",
+            "game theory AI mechanism design",
+            "multi-objective optimization AI",
+            "reinforcement learning operations research",
+        ],
+    },
+    "leadership_ob": {
+        "label": "リーダーシップ・組織行動",
+        "search_queries": [
+            "leadership artificial intelligence organization",
+            "transformational leadership AI change",
+            "organizational culture AI",
+            "team dynamics AI",
+            "change management AI digital transformation",
+        ],
+    },
+
 }
 
 
