@@ -1,0 +1,28 @@
+---
+title: "Resilience and Stability of Ecological Systems"
+authors: "C. S. Holling"
+year: 1973
+citations: 17521
+paper_type: "primary"
+domain: "operations_research"
+domain_label: "オペレーションズリサーチ・意思決定科学"
+source_api: "openalex"
+fetched: "2026-05-04T16:43:02.843622"
+doi: "10.1146/annurev.es.04.110173.000245"
+openalex_id: "W2011303397"
+semantic_scholar_id: ""
+arxiv_id: ""
+url: "https://doi.org/10.1146/annurev.es.04.110173.000245"
+tier: 2
+explore_depth: 0
+---
+
+# Resilience and Stability of Ecological Systems
+
+**著者**: C. S. Holling
+**年**: 1973 | **被引用数**: 17521
+**タイプ**: primary | **分野**: オペレーションズリサーチ・意思決定科学
+
+## Abstract
+
+Individuals die, populations disappear, and species become extinct. That is one view of the world. But another view of the world concentrates not so much on presence or absence as upon the numbers of organisms and the degree of constancy of their numbers. These are two very different ways of viewing the behavior of systems and the usefulness of the view depends very much on the properties of the system concerned. If we are examining a particular device designed by the engineer to perform specific tasks under a rather narrow range of predictable external conditions, we are likely to be more concerned with consistent nonvariable performance in which slight departures from the performance goal are immediately counteracted. A quantitative view of the behavior of the system is, therefore, essential. With attention focused upon achieving constancy, the critical events seem to be the amplitude and frequency of oscillations. But if we are dealing with a system profoundly affected by changes external to it, and continually confronted by the unexpected, the constancy of its behavior becomes less important than the persistence of the relationships. Attention shifts, therefore, to the qualitative and to questions of existence or not. Our traditions of analysis in theoretical and empirical ecology have been largely inherited from developments in classical physics and its applied variants. Inevitably, there has been a tendency to emphasize the quantitative rather than the qualitative, for it is important in this tradition to know not just that a quantity is larger than another quantity, but precisely how much larger. It is similarly important, if a quantity fluctuates, to know its amplitude and period of fluctuation. But this orientation may simply reflect an analytic approach developed in one area because it was useful and then transferred to another where it may not be. Our traditional view of natural systems, therefore, might well be less a meaningful reality than a perceptual convenience. There can in some years be more owls and fewer mice and in others, the reverse. Fish populations wax and wane as a natural condition, and insect populations can range over extremes that only logarithmic

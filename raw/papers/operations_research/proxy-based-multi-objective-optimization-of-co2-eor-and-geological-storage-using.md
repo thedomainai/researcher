@@ -1,0 +1,22 @@
+---
+title: "Proxy-Based Multi-Objective Optimization of CO2-EOR and Geological Storage Using NN-RBF and DWS-Assisted Pressure Management"
+authors: "Sajjad M. Abdulwahhab, Watheq J. Al-Mudhafar, Kamy Sepehrnoori, T. Al Aulaqi"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "operations_research"
+fetched: "2026-05-19T06:04:37.501730"
+doi: "https://doi.org/10.2118/232602-ms"
+openalex_id: "https://openalex.org/W7161485801"
+source_api: "openalex"
+---
+
+# Proxy-Based Multi-Objective Optimization of CO2-EOR and Geological Storage Using NN-RBF and DWS-Assisted Pressure Management
+
+**著者**: Sajjad M. Abdulwahhab, Watheq J. Al-Mudhafar, Kamy Sepehrnoori, T. Al Aulaqi
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: オペレーションズリサーチ
+
+## Abstract
+
+Abstract The integration of carbon dioxide enhanced oil recovery (CO2-EOR) with geological storage offers a promising approach to increase hydrocarbon production while enabling secure long-term carbon management in mature reservoirs. However, optimizing CO2 injection projects at field scale is technically challenging because of the complex reservoir behavior, pressure buildup, leakage risk, and high computational burden of full-physics simulations. This study presents an integrated machine learning–assisted proxy optimization framework designed to improve CO2-EOR performance, enhance CO2 storage efficiency, and reduce subsurface leakage risk in a depleted oil reservoir hydraulically connected to underlying saline aquifers. A detailed three-dimensional compositional reservoir model of the Main Pay Upper Sandstone Member of the South Rumaila Field was developed using CMG-GEM to simulate historical depletion, CO2 injection, and long-term post-injection monitoring. To enable rapid evaluation of operational alternatives, a structured Design of Experiments (DoE) strategy based on Latin Hypercube Sampling was implemented to generate representative datasets covering CO2 injector locations and Downhole Water Sink (DWS) operational parameters. A Radial Basis Function Neural Network (NN-RBF) surrogate model was trained to accurately emulate full-physics simulation responses, including cumulative oil production, CO2 trapping efficiency, reservoir pressure behavior, and a Leakage Index (LI) used as an indicator of subsurface emission potential. The NN-RBF proxy model demonstrated strong predictive performance, with coefficients of determination exceeding 0.95 for all key output metrics. The trained surrogate was integrated into a multi-objective optimization workflow aimed at maximizing oil recovery and CO2 storage while minimizing leakage risk. The optimization results were benchmarked against a Particle Swarm Optimization (PSO) algorithm operating within the CMOST-AI full-physics environment. The proxy-based approach achieved comparable or superior solutions with substantially reduced computational costs, demonstrating its effectiveness as a practical decision-support tool. The optimized strategies delivered significant improvements over the base case. CO2 storage efficiency increased from 10.8% to 34.99%, whereas the Leakage Index decreased from 94.3% to 46.12%, indicating enhanced containment security and lower subsurface emission exposure. The residual and solubility trapping mechanisms were considerably strengthened, confirming more stable long-term CO2 immobilization. In addition, optimized configurations resulted in higher cumulative oil production and improved economic performance through reductions in water-handling costs, as reflected in enhanced Net Present Value outcomes. The results highlight the critical importance of DWS-assisted pressure management in controlling reservoir pressure, delaying CO2 breakthrough, and improving both recovery and storage performance. Sensitivity analysis revealed that injector placement and DWS depth are dominant decision variables governing optimization outcomes. The developed framework demonstrates how machine learning proxies can effectively support complex field-scale optimization problems that would otherwise be computationally prohibitive. This study confirms that surrogate-based optimization provides a robust and efficient methodology for the integrated design of CO2-EOR and storage. The proposed approach enables operators to identify reliable operational strategies that enhance oil recovery, improve CO2 containment, and mitigate leakage risk, contributing to more sustainable reservoir management in depleted oil fields.

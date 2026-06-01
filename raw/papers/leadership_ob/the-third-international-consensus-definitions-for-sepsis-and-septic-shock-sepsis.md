@@ -1,0 +1,28 @@
+---
+title: "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)"
+authors: "Mervyn Singer, Clifford S. Deutschman, Christopher W. Seymour, Manu Shankar‐Hari, Djillali Annane (+14)"
+year: 2016
+citations: 27313
+paper_type: "primary"
+domain: "leadership_ob"
+domain_label: "リーダーシップ・組織行動"
+source_api: "openalex"
+fetched: "2026-05-04T16:45:21.431028"
+doi: "10.1001/jama.2016.0287"
+openalex_id: "W2280404143"
+semantic_scholar_id: ""
+arxiv_id: ""
+url: "https://doi.org/10.1001/jama.2016.0287"
+tier: 2
+explore_depth: 0
+---
+
+# The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)
+
+**著者**: Mervyn Singer, Clifford S. Deutschman, Christopher W. Seymour, Manu Shankar‐Hari, Djillali Annane (+14)
+**年**: 2016 | **被引用数**: 27313
+**タイプ**: primary | **分野**: リーダーシップ・組織行動
+
+## Abstract
+
+IMPORTANCE: Definitions of sepsis and septic shock were last revised in 2001. Considerable advances have since been made into the pathobiology (changes in organ function, morphology, cell biology, biochemistry, immunology, and circulation), management, and epidemiology of sepsis, suggesting the need for reexamination. OBJECTIVE: To evaluate and, as needed, update definitions for sepsis and septic shock. PROCESS: A task force (n = 19) with expertise in sepsis pathobiology, clinical trials, and epidemiology was convened by the Society of Critical Care Medicine and the European Society of Intensive Care Medicine. Definitions and clinical criteria were generated through meetings, Delphi processes, analysis of electronic health record databases, and voting, followed by circulation to international professional societies, requesting peer review and endorsement (by 31 societies listed in the Acknowledgment). KEY FINDINGS FROM EVIDENCE SYNTHESIS: Limitations of previous definitions included an excessive focus on inflammation, the misleading model that sepsis follows a continuum through severe sepsis to shock, and inadequate specificity and sensitivity of the systemic inflammatory response syndrome (SIRS) criteria. Multiple definitions and terminologies are currently in use for sepsis, septic shock, and organ dysfunction, leading to discrepancies in reported incidence and observed mortality. The task force concluded the term severe sepsis was redundant. RECOMMENDATIONS: Sepsis should be defined as life-threatening organ dysfunction caused by a dysregulated host response to infection. For clinical operationalization, organ dysfunction can be represented by an increase in the Sequential [Sepsis-related] Organ Failure Assessment (SOFA) score of 2 points or more, which is associated with an in-hospital mortality greater than 10%. Septic shock should be defined as a subset of sepsis in which particularly profound circulatory, cellular, and metabolic abnormalities are associated with a greater risk of mortality than with sepsis alone. Patients with septic shock can be clinically identified by a vasopressor requirement to maintain a mean arterial pressure of 65 mm Hg or greater and serum lactate level greater than 2 mmol/L (>18 mg/dL) in the absence of hypovolemia. This combination is associated with hospital mortality rates greater than 40%. In out-of-hospital, emergency department, or general hospital ward settings, adult patients with suspected infection can be rapidly identified as being more likely to have poor outcomes typical of sepsis if they have at least 2 of the following clinical criteria that together constitute a new bedside clinical score termed quickSOFA (qSOFA): respiratory rate of 22/min or greater, altered mentation, or systolic blood pressure of 100 mm Hg or less. CONCLUSIONS AND RELEVANCE: These updated definitions and clinical criteria should replace previous definitions, offer greater consistency for epidemiologic studies and clinical trials, and facilitate earlier recognition and more timely management of patients with sepsis or at risk of developing sepsis.

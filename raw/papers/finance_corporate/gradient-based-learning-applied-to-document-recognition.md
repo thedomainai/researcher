@@ -1,0 +1,28 @@
+---
+title: "Gradient-based learning applied to document recognition"
+authors: "Yann LeCun, Léon Bottou, Yoshua Bengio, Patrick Haffner"
+year: 1998
+citations: 57486
+paper_type: "primary"
+domain: "finance_corporate"
+domain_label: "コーポレートファイナンス"
+source_api: "openalex"
+fetched: "2026-05-04T16:25:58.987417"
+doi: "10.1109/5.726791"
+openalex_id: "W2112796928"
+semantic_scholar_id: ""
+arxiv_id: ""
+url: "https://doi.org/10.1109/5.726791"
+tier: 2
+explore_depth: 0
+---
+
+# Gradient-based learning applied to document recognition
+
+**著者**: Yann LeCun, Léon Bottou, Yoshua Bengio, Patrick Haffner
+**年**: 1998 | **被引用数**: 57486
+**タイプ**: primary | **分野**: コーポレートファイナンス
+
+## Abstract
+
+Multilayer neural networks trained with the back-propagation algorithm constitute the best example of a successful gradient based learning technique. Given an appropriate network architecture, gradient-based learning algorithms can be used to synthesize a complex decision surface that can classify high-dimensional patterns, such as handwritten characters, with minimal preprocessing. This paper reviews various methods applied to handwritten character recognition and compares them on a standard handwritten digit recognition task. Convolutional neural networks, which are specifically designed to deal with the variability of 2D shapes, are shown to outperform all other techniques. Real-life document recognition systems are composed of multiple modules including field extraction, segmentation recognition, and language modeling. A new learning paradigm, called graph transformer networks (GTN), allows such multimodule systems to be trained globally using gradient-based methods so as to minimize an overall performance measure. Two systems for online handwriting recognition are described. Experiments demonstrate the advantage of global training, and the flexibility of graph transformer networks. A graph transformer network for reading a bank cheque is also described. It uses convolutional neural network character recognizers combined with global training techniques to provide record accuracy on business and personal cheques. It is deployed commercially and reads several million cheques per day.

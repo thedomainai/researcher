@@ -1,0 +1,28 @@
+---
+title: "Strategic niche management and sustainable innovation journeys: theory, findings, research agenda, and policy"
+authors: "Johan Schot, Frank W. Geels"
+year: 2008
+citations: 1973
+paper_type: "primary"
+domain: "innovation_management"
+domain_label: "イノベーション管理"
+source_api: "openalex"
+fetched: "2026-05-04T16:24:06.329617"
+doi: "10.1080/09537320802292651"
+openalex_id: "W2117275101"
+semantic_scholar_id: ""
+arxiv_id: ""
+url: "https://doi.org/10.1080/09537320802292651"
+tier: 2
+explore_depth: 1
+---
+
+# Strategic niche management and sustainable innovation journeys: theory, findings, research agenda, and policy
+
+**著者**: Johan Schot, Frank W. Geels
+**年**: 2008 | **被引用数**: 1973
+**タイプ**: primary | **分野**: イノベーション管理
+
+## Abstract
+
+This article discusses empirical findings and conceptual elaborations of the last 10 years in strategic niche management research (SNM). The SNM approach suggests that sustainable innovation journeys can be facilitated by creating technological niches, i.e. protected spaces that allow the experimentation with the co-evolution of technology, user practices, and regulatory structures. The assumption was that if such niches were constructed appropriately, they would act as building blocks for broader societal changes towards sustainable development. The article shows how concepts and ideas have evolved over time and new complexities were introduced. Research focused on the role of various niche-internal processes such as learning, networking, visioning and the relationship between local projects and global rule sets that guide actor behaviour. The empirical findings showed that the analysis of these niche-internal dimensions needed to be complemented with attention to niche external processes. In this respect, the multi-level perspective proved useful for contextualising SNM. This contextualisation led to modifications in claims about the dynamics of sustainable innovation journeys. Niches are to be perceived as crucial for bringing about regime shifts, but they cannot do this on their own. Linkages with ongoing external processes are also important. Although substantial insights have been gained, the SNM approach is still an unfinished research programme. We identify various promising research directions, as well as policy implications.

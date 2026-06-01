@@ -1,0 +1,28 @@
+---
+title: "Health literacy and public health: A systematic review and integration of definitions and models"
+authors: "Kristine Sørensen, Stephan Van den Broucke, James Fullam, Gerardine Doyle, Jürgen M. Pelikan (+2)"
+year: 2012
+citations: 5897
+paper_type: "systematic_review"
+domain: "marketing"
+domain_label: "マーケティング"
+source_api: "openalex"
+fetched: "2026-05-04T16:30:21.773449"
+doi: "10.1186/1471-2458-12-80"
+openalex_id: "W2101761001"
+semantic_scholar_id: ""
+arxiv_id: ""
+url: "https://doi.org/10.1186/1471-2458-12-80"
+tier: 1
+explore_depth: 0
+---
+
+# Health literacy and public health: A systematic review and integration of definitions and models
+
+**著者**: Kristine Sørensen, Stephan Van den Broucke, James Fullam, Gerardine Doyle, Jürgen M. Pelikan (+2)
+**年**: 2012 | **被引用数**: 5897
+**タイプ**: systematic_review | **分野**: マーケティング
+
+## Abstract
+
+BACKGROUND: Health literacy concerns the knowledge and competences of persons to meet the complex demands of health in modern society. Although its importance is increasingly recognised, there is no consensus about the definition of health literacy or about its conceptual dimensions, which limits the possibilities for measurement and comparison. The aim of the study is to review definitions and models on health literacy to develop an integrated definition and conceptual model capturing the most comprehensive evidence-based dimensions of health literacy. METHODS: A systematic literature review was performed to identify definitions and conceptual frameworks of health literacy. A content analysis of the definitions and conceptual frameworks was carried out to identify the central dimensions of health literacy and develop an integrated model. RESULTS: The review resulted in 17 definitions of health literacy and 12 conceptual models. Based on the content analysis, an integrative conceptual model was developed containing 12 dimensions referring to the knowledge, motivation and competencies of accessing, understanding, appraising and applying health-related information within the healthcare, disease prevention and health promotion setting, respectively. CONCLUSIONS: Based upon this review, a model is proposed integrating medical and public health views of health literacy. The model can serve as a basis for developing health literacy enhancing interventions and provide a conceptual basis for the development and validation of measurement tools, capturing the different dimensions of health literacy within the healthcare, disease prevention and health promotion settings.

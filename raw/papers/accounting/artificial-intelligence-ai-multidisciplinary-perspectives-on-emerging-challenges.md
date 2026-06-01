@@ -1,0 +1,28 @@
+---
+title: "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy"
+authors: "Yogesh K. Dwivedi, Laurie Hughes, Elvira Ismagilova, Gert Aarts, Crispin Coombs (+30)"
+year: 2019
+citations: 3896
+paper_type: "primary"
+domain: "accounting"
+domain_label: "会計学"
+source_api: "openalex"
+fetched: "2026-05-04T16:27:45.872978"
+doi: "10.1016/j.ijinfomgt.2019.08.002"
+openalex_id: "W2969625533"
+semantic_scholar_id: ""
+arxiv_id: ""
+url: "https://doi.org/10.1016/j.ijinfomgt.2019.08.002"
+tier: 2
+explore_depth: 0
+---
+
+# Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy
+
+**著者**: Yogesh K. Dwivedi, Laurie Hughes, Elvira Ismagilova, Gert Aarts, Crispin Coombs (+30)
+**年**: 2019 | **被引用数**: 3896
+**タイプ**: primary | **分野**: 会計学
+
+## Abstract
+
+As far back as the industrial revolution, significant development in technical innovation has succeeded in transforming numerous manual tasks and processes that had been in existence for decades where humans had reached the limits of physical capacity. Artificial Intelligence (AI) offers this same transformative potential for the augmentation and potential replacement of human tasks and activities within a wide range of industrial, intellectual and social applications. The pace of change for this new AI technological age is staggering, with new breakthroughs in algorithmic machine learning and autonomous decision-making, engendering new opportunities for continued innovation. The impact of AI could be significant, with industries ranging from: finance, healthcare, manufacturing, retail, supply chain, logistics and utilities, all potentially disrupted by the onset of AI technologies. The study brings together the collective insight from a number of leading expert contributors to highlight the significant opportunities, realistic assessment of impact, challenges and potential research agenda posed by the rapid emergence of AI within a number of domains: business and management, government, public sector, and science and technology. This research offers significant and timely insight to AI technology and its impact on the future of industry and society in general, whilst recognising the societal and industrial influence on pace and direction of AI development.
