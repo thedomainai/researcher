@@ -16915,5 +16915,79 @@
     "related_sources": [
       5
     ]
+  },
+  {
+    "slug": "human-oversight-mechanisms",
+    "title_ja": "人間による監視メカニズム",
+    "title_en": "Human Oversight Mechanisms",
+    "description": "AIシステムの意思決定において、人間が介入または監視することで信頼性と説明責任を担保する設計アプローチ。",
+    "mechanisms": [
+      "フィードバックループ",
+      "人間中心の制御設計",
+      "情報の非対称性の解消",
+      "相互説明可能性"
+    ],
+    "related_sources": [
+      1
+    ]
+  },
+  {
+    "slug": "informal-digital-labor-structures",
+    "title_ja": "非公式デジタル労働構造",
+    "title_en": "Informal Digital Labor Structures",
+    "description": "制度的設計の外側で、プラットフォーム労働者が相互扶助や即興的調整を通じてレジリエンスを構築する非公式な社会・経済システム。",
+    "mechanisms": [
+      "社会的交換理論",
+      "限定された合理性",
+      "相互扶助ネットワーク",
+      "非公式性の制度化"
+    ],
+    "related_sources": [
+      2
+    ]
+  },
+  {
+    "slug": "fictionalized-affective-interaction",
+    "title_ja": "フィクション化された感情的相互作用",
+    "title_en": "Fictionalized Affective Interaction",
+    "description": "人間とAIのインタラクションにおいて、擬似的な感情関係をデザインすることでユーザーのウェルビーイングや受容性を向上させるアプローチ。",
+    "mechanisms": [
+      "社会的絆の擬似化",
+      "認知バイアスによる感情投影",
+      "アフォーダンスの設計"
+    ],
+    "related_sources": [
+      3
+    ]
+  },
+  {
+    "slug": "autonomous-procurement-architecture",
+    "title_ja": "自律型調達アーキテクチャ",
+    "title_en": "Autonomous Procurement Architecture",
+    "description": "サプライチェーンにおける動的なリスクシグナルを監視し、マルチエージェントや最適化モデルを用いて自律的に調達意思決定を行うシステムモデル。",
+    "mechanisms": [
+      "マルチエージェント協調",
+      "多目的最適化",
+      "リアルタイム・シミュレーション",
+      "動的リスクヘッジ"
+    ],
+    "related_sources": [
+      4
+    ]
+  },
+  {
+    "slug": "sustainable-digital-transformation-tradeoffs",
+    "title_ja": "持続可能なデジタルトランスフォーメーションのトレードオフ",
+    "title_en": "Sustainable Digital Transformation Trade-offs",
+    "description": "AI導入による経済活動の効率化・自動化の推進と、それに伴う消費電力や環境負荷（カーボンフットプリント）の上昇との間の対立関係。",
+    "mechanisms": [
+      "負の外部性",
+      "資源配分のトレードオフ",
+      "エネルギー消費の非線形性",
+      "マクロ経済的フィードバック"
+    ],
+    "related_sources": [
+      5
+    ]
   }
 ]
