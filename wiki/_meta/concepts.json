@@ -17059,5 +17059,76 @@
     "related_sources": [
       5
     ]
+  },
+  {
+    "slug": "computational-reference-models",
+    "title_ja": "計算参照モデル",
+    "title_en": "Computational Reference Models",
+    "description": "数式やコード表現を用いた概念的デモンストレーションにより、ガバナンス上の構造的類推を記述する枠組み",
+    "mechanisms": [
+      "構造的類推",
+      "不可逆的変換",
+      "フィードバック閉路"
+    ],
+    "related_sources": [
+      1
+    ]
+  },
+  {
+    "slug": "generative-ai-auditing-automation",
+    "title_ja": "生成AIによる監査自動化",
+    "title_en": "Generative AI Auditing Automation",
+    "description": "企業のISOコンプライアンスにおいて、ドキュメントレビューやリスク検出を生成AIで高度化する手法",
+    "mechanisms": [
+      "業務プロセスの自動化",
+      "社会技術システムの適合",
+      "技術受容モデルの適用"
+    ],
+    "related_sources": [
+      2
+    ]
+  },
+  {
+    "slug": "organizational-ethical-translation",
+    "title_ja": "倫理原則の組織的実践変換",
+    "title_en": "Organizational Ethical Translation",
+    "description": "AI倫理の抽象的な指針を、日々の組織業務や情報システム開発の実践へと翻訳・埋め込むプロセス",
+    "mechanisms": [
+      "価値の技術的具現化",
+      "責任の分散と再配置",
+      "説明責任の不確実性回避"
+    ],
+    "related_sources": [
+      3
+    ]
+  },
+  {
+    "slug": "human-ai-cognitive-augmentation",
+    "title_ja": "人間とAIの認知的拡張",
+    "title_en": "Human-AI Cognitive Augmentation",
+    "description": "人間の認知バイアスや意思決定プロセスをミラーリングし、代替ではなく拡張を目的とした協調システム設計",
+    "mechanisms": [
+      "認知的バイアスの相互作用",
+      "信頼の二者間均衡",
+      "認知的補完・拡張"
+    ],
+    "related_sources": [
+      4
+    ]
+  },
+  {
+    "slug": "ai-accountability-attribution",
+    "title_ja": "AIシステムの責任帰属",
+    "title_en": "AI System Accountability Attribution",
+    "description": "自律的AIが出力した誤情報や創作物に対し、誰がどのように法的・倫理的責任を負うべきかという課題",
+    "mechanisms": [
+      "責任の所在の不透明化",
+      "主体性の帰属エラー",
+      "社会契約の再構築"
+    ],
+    "related_sources": [
+      3,
+      4
+    ]
   }
 ]
