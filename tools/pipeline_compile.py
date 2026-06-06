@@ -37,8 +37,8 @@ args = parser.parse_args()
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 if not GEMINI_API_KEY:
     for op_ref in [
-        "op://orchestration/Gemini/credential",
         "op://orchestration/Gemini API/credential",
+        "op://orchestration/Gemini/credential",
     ]:
         try:
             GEMINI_API_KEY = subprocess.check_output(
@@ -302,11 +302,17 @@ concept_prompt = f"""以下は最近取得したAI/ML関連の記事・論文で
   {{
     "slug": "concept-slug-in-english",
     "title_ja": "日本語タイトル",
-    "title_en": "English Title", 
+    "title_en": "English Title",
     "description": "1行の説明（日本語）",
+    "mechanisms": ["中核的メカニズム名（日本語、2-4個）"],
     "related_sources": [1, 2]  // 上の番号
   }}
 ]
+
+mechanismsの抽出基準:
+- 対象（人間/AI/組織/技術）を入れ替えても成立する構造的原理・メカニズムの名前を記述する
+- 例: "情報の非対称性", "有限合理性", "プリンシパル＝エージェント問題", "予測誤差による学習", "フィードバックループ", "経路依存性"
+- 具体的なツール名・手法名ではなく、背後にある抽象的メカニズムを抽出する
 """
 
 print("  Gemini APIでコンセプト抽出中...")
