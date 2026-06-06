@@ -6239,3 +6239,584 @@ fetch_latest.py — 2026-06-01 06:00
   operations_research: 1
   sociology: 1
 ============================================================
+============================================================
+fetch_latest.py — 2026-06-02 06:00
+対象: 全分野 | since: 2026-06-01
+既存: 1877 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  + [OA:PR] Explaining sentiment in self-admitted technical debt: a...
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] Echoes of Cycles...
+  + [OA:PR] Kerrigan's Law...
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  + [OA:PR] Mythpunk Podcast...
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] Flesh Layer / Human Origin Layer: A Non-Authoritative W...
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  + [OA:PR] Research on the impact of financial intelligent transfo...
+
+[会計学] (accounting)
+  + [OA:PR] Auditing Artificial Intelligence-Driven Financial Syste...
+
+[マーケティング] (marketing)
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  + [OA:PR] Agentic Digital Thread for Managing the Non-Conformitie...
+  + [OA:PR] AI-Led Sustainability Strategy: Driving Product Value f...
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  (新着なし)
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+  + How we used Gemini to build Google I/O 2026...
+
+============================================================
+新規取得: 10件
+  accounting: 1
+  ai_governance: 1
+  complexity_science: 2
+  finance_corporate: 1
+  neuroscience: 1
+  operations_management: 2
+  rss: 1
+  sociology: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-06-03 06:00
+対象: 全分野 | since: 2026-06-02
+既存: 1887 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  + [OA:PR] The Human Oversight approaches at the forefront of resp...
+    arXiv error [cognitive_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+load&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[複雑系科学] (complexity_science)
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[心理学] (psychology)
+  + [OA:PR] Environmental and Personal Factors Affecting Academic P...
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  + [OA:PR] Between Platforms And Precarity: The Hidden Economies O...
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  + [OA:PR] Fictionalized Affective Relations:Rethinking wellbeing ...
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] Hermetic Constitutional Guardrails: Safety Alignment Th...
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  + [OA:PR] Autonomous Procurement Systems for Resilient Global Sup...
+  + [OA:PR] THE ADVANCE INTEGRATED FRAMEWORK - Version 1.0...
+  + [OA:PR] A Decade of Casing Drilling in Argentina: What We have ...
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  + [OA:PR] RAQAMLI IQTISODIYOTNING YANGI DAVRI: SUN'IY INTELLEKT V...
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  + [OA:PR] Survival Analysis-Powered AI in Risk-Aware Data-Driven ...
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 10件
+  ai_governance: 1
+  anthropology: 1
+  business_ethics_csr: 1
+  cognitive_science: 1
+  hci: 1
+  operations_management: 3
+  operations_research: 1
+  psychology: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-06-04 06:00
+対象: 全分野 | since: 2026-06-03
+既存: 1897 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+    arXiv error [neuroscience]: Page request resulted in HTTP 503 (https://export.arxiv.org/api/query?search_query=cat%3Aq-bio.NC+AND+all%3Aartificial+intelligence&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  + [OA:PR] From Rendering to Decision: A Process-Based Framework o...
+    arXiv error [cognitive_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+load&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] Cooperation in public goods games over uniform random h...
+  + [OA:PR] Delegated Cognition. Generative AI and the Future of Hu...
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  (新着なし)
+
+[組織科学] (organization_science)
+  + [OA:PR] SUCCESS CONDITIONS FOR ORGANIZATIONAL AI IMPLEMENTATION...
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  + [OA:PR] Understanding Gen Z's Engagement with Conversational AI...
+    arXiv error [hci]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[システム工学] (systems_engineering)
+    arXiv error [systems_engineering]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.SY+AND+all%3Asafety+AI&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+    arXiv error [human_ai_collaboration]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+    arXiv error [ai_governance]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  + [OA:PR] Strategi Omnichannel dalam Mengelola Saluran Pemasaran ...
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  (新着なし)
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  (新着なし)
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  (新着なし)
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+  + 5 ways Google Search can level up your thrift and vinta...
+
+============================================================
+新規取得: 7件
+  cognitive_science: 1
+  complexity_science: 2
+  hci: 1
+  marketing: 1
+  organization_science: 1
+  rss: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-06-05 06:00
+対象: 全分野 | since: 2026-06-04
+既存: 1904 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+    arXiv error [neuroscience]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Aq-bio.NC+AND+all%3Aartificial+intelligence&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+    arXiv error [cognitive_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Acognitive+bias&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] Trust Continuity, the Age of AI Impersonation: What Can...
+    arXiv error [complexity_science]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.MA+AND+all%3Amulti-agent&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  + [OA:PR] Towards a Greener Future: Strategies for Advancing Glob...
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  + [OA:PR] Digital Platforms as a Catalyst for Logistics Developme...
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  + [OA:PR] What the AI Race Has Given Us and What It Requires Next...
+
+[HCI] (hci)
+    arXiv error [hci]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.HC+AND+all%3Ahuman-AI+interaction&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+    arXiv error [systems_engineering]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.SY+AND+all%3Ahuman-automation&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+    arXiv error [human_ai_collaboration]: Page request resulted in HTTP 429 (https://export.arxiv.org/api/query?search_query=cat%3Acs.AI+AND+all%3Ahuman-AI+collaboration&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  + [OA:PR] Computational Reference Models — SymPy / Jupyter Addend...
+    arXiv error [ai_governance]: Page request resulted in HTTP 503 (https://export.arxiv.org/api/query?search_query=cat%3Acs.CY+AND+all%3AAI+governance&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100)
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  + [OA:PR] Elevating ISO compliance: harnessing generative AI for ...
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  (新着なし)
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  (新着なし)
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  + [OA:PR] Strategi Digital Marketing pada UMKM di Desa Cipancar K...
+
+[情報システム] (information_systems)
+  + [OA:PR] STRATEGI TRANSFORMASI DIGITAL DALAM MANAJEMEN SDM MELAL...
+  + [OA:PR] Organizing for AI ethics:From aspirations to practices ...
+
+[オペレーションズリサーチ] (operations_research)
+  + [OA:PR] Workshop on Differentiable Marine Hydrodynamics Simulat...
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+
+============================================================
+新規取得: 10件
+  ai_governance: 1
+  business_ethics_csr: 1
+  complexity_science: 1
+  corporate_governance: 1
+  economics: 1
+  evolutionary_biology: 1
+  information_systems: 2
+  law: 1
+  operations_research: 1
+============================================================
+============================================================
+fetch_latest.py — 2026-06-06 06:00
+対象: 全分野 | since: 2026-06-05
+既存: 1914 | dry_run: False
+============================================================
+
+[脳科学] (neuroscience)
+  (新着なし)
+
+[認知科学] (cognitive_science)
+  (新着なし)
+
+[複雑系科学] (complexity_science)
+  + [OA:PR] Smarter Together...
+
+[心理学] (psychology)
+  (新着なし)
+
+[行動経済学] (behavioral_economics)
+  (新着なし)
+
+[進化生物学・文化進化] (evolutionary_biology)
+  (新着なし)
+
+[社会学] (sociology)
+  (新着なし)
+
+[経済学] (economics)
+  + [OA:PR] AI Analysis of Sun Tracking Efficiency...
+
+[組織科学] (organization_science)
+  (新着なし)
+
+[人類学] (anthropology)
+  (新着なし)
+
+[哲学] (philosophy)
+  (新着なし)
+
+[法学] (law)
+  (新着なし)
+
+[HCI] (hci)
+  (新着なし)
+
+[システム工学] (systems_engineering)
+  (新着なし)
+
+[技術史] (history_of_technology)
+  (新着なし)
+
+[人間-AI協働] (human_ai_collaboration)
+  (新着なし)
+
+[AIガバナンス] (ai_governance)
+  (新着なし)
+
+[経営戦略] (strategic_management)
+  (新着なし)
+
+[コーポレートガバナンス] (corporate_governance)
+  (新着なし)
+
+[アントレプレナーシップ] (entrepreneurship)
+  (新着なし)
+
+[イノベーション管理] (innovation_management)
+  (新着なし)
+
+[コーポレートファイナンス] (finance_corporate)
+  (新着なし)
+
+[会計学] (accounting)
+  (新着なし)
+
+[マーケティング] (marketing)
+  + [OA:ME] AI-Driven Remarketing and Digital Infrastructure in Eme...
+
+[人的資源管理] (human_resource_management)
+  (新着なし)
+
+[オペレーション管理] (operations_management)
+  (新着なし)
+
+[国際経営] (international_business)
+  (新着なし)
+
+[経営倫理・CSR] (business_ethics_csr)
+  + [OA:PR] Harnessing Artificial Intelligence for Climate-Aligned ...
+
+[情報システム] (information_systems)
+  (新着なし)
+
+[オペレーションズリサーチ] (operations_research)
+  (新着なし)
+
+[リーダーシップ・組織行動] (leadership_ob)
+  (新着なし)
+
+[RSS記事]
+  + The latest AI news we announced in May 2026...
+
+============================================================
+新規取得: 5件
+  business_ethics_csr: 1
+  complexity_science: 1
+  economics: 1
+  marketing: 1
+  rss: 1
+============================================================
