@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-01T16:59:20.470604",
+  "generated_at": "2026-06-06T16:00:53.067317",
   "summary": {
-    "articles_scanned": 946,
-    "nodes": 3169,
-    "resolved_nodes": 946,
-    "unresolved_nodes": 2223,
-    "edges": 3424,
-    "resolved_edges": 541,
-    "unresolved_edges": 2883,
-    "link_mentions": 3495,
+    "articles_scanned": 966,
+    "nodes": 3236,
+    "resolved_nodes": 966,
+    "unresolved_nodes": 2270,
+    "edges": 3516,
+    "resolved_edges": 556,
+    "unresolved_edges": 2960,
+    "link_mentions": 3587,
     "valid_source_refs": 237,
-    "invalid_source_refs": 114,
+    "invalid_source_refs": 117,
     "isolated_concepts": 151
   },
   "nodes": [
@@ -1815,9 +1815,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 49,
+      "inbound_count": 52,
       "outbound_count": 4,
-      "degree": 53
+      "degree": 56
     },
     {
       "id": "ai-governance-and-risk-management",
@@ -2122,6 +2122,34 @@
       "inbound_count": 0,
       "outbound_count": 4,
       "degree": 4
+    },
+    {
+      "id": "ai-accountability-attribution",
+      "slug": "ai-accountability-attribution",
+      "label": "AIシステムの責任帰属",
+      "title": "AIシステムの責任帰属",
+      "title_ja": "AIシステムの責任帰属",
+      "title_en": "AI System Accountability Attribution",
+      "tier": null,
+      "description": "自律的AIが出力した誤情報や創作物に対し、誰がどのように法的・倫理的責任を負うべきかという課題",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/ai-accountability-attribution.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "AI System Accountability Attribution",
+        "AIシステムの責任帰属",
+        "AIシステムの責任帰属 (AI System Accountability Attribution)",
+        "AIシステムの責任帰属(AI System Accountability Attribution)",
+        "AIシステムの責任帰属（AI System Accountability Attribution）",
+        "ai-accountability-attribution"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 3,
+      "degree": 3
     },
     {
       "id": "ai-entrepreneurial-subjectivity",
@@ -3444,6 +3472,34 @@
       "inbound_count": 0,
       "outbound_count": 10,
       "degree": 10
+    },
+    {
+      "id": "institutional-steering-of-ai-competition",
+      "slug": "institutional-steering-of-ai-competition",
+      "label": "AI競争の制度的ステアリング",
+      "title": "AI競争の制度的ステアリング",
+      "title_ja": "AI競争の制度的ステアリング",
+      "title_en": "Institutional Steering of AI Competition",
+      "tier": null,
+      "description": "商業的・地政学的価値を持つAI開発競争において、安全性や民主的関与、社会的公正を確保するために市場競争を制度的に方向付ける統治手法。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/institutional-steering-of-ai-competition.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "AI競争の制度的ステアリング",
+        "AI競争の制度的ステアリング (Institutional Steering of AI Competition)",
+        "AI競争の制度的ステアリング(Institutional Steering of AI Competition)",
+        "AI競争の制度的ステアリング（Institutional Steering of AI Competition）",
+        "Institutional Steering of AI Competition",
+        "institutional-steering-of-ai-competition"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 4,
+      "degree": 4
     },
     {
       "id": "ai-decision-authority-restructuring",
@@ -5341,6 +5397,34 @@
       "inbound_count": 2,
       "outbound_count": 1,
       "degree": 3
+    },
+    {
+      "id": "algorithmic-black-box-auditing",
+      "slug": "algorithmic-black-box-auditing",
+      "label": "アルゴリズム意思決定における監査・説明責任の不確実性",
+      "title": "アルゴリズム意思決定における監査・説明責任の不確実性",
+      "title_ja": "アルゴリズム意思決定における監査・説明責任の不確実性",
+      "title_en": "Algorithmic Black-Box Auditing and Liability",
+      "tier": null,
+      "description": "AI駆動型金融システムのブラックボックス性と既存監査基準の乖離が、監査リスクや法的責任の不透明性を増大させる現象。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/algorithmic-black-box-auditing.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Algorithmic Black-Box Auditing and Liability",
+        "algorithmic-black-box-auditing",
+        "アルゴリズム意思決定における監査・説明責任の不確実性",
+        "アルゴリズム意思決定における監査・説明責任の不確実性 (Algorithmic Black-Box Auditing and Liability)",
+        "アルゴリズム意思決定における監査・説明責任の不確実性(Algorithmic Black-Box Auditing and Liability)",
+        "アルゴリズム意思決定における監査・説明責任の不確実性（Algorithmic Black-Box Auditing and Liability）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
     },
     {
       "id": "algorithmic-dramaturgy",
@@ -7280,6 +7364,34 @@
       "degree": 5
     },
     {
+      "id": "kerrigans-law",
+      "slug": "kerrigans-law",
+      "label": "ケリガンの法則",
+      "title": "ケリガンの法則",
+      "title_ja": "ケリガンの法則",
+      "title_en": "Kerrigan's Law",
+      "tier": null,
+      "description": "遅延結合システムにおいて、特定の密度閾値を超えると脈動の同期とは独立して空間的な自己組織化が創発するという原理。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/kerrigans-law.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Kerrigan's Law",
+        "kerrigans-law",
+        "ケリガンの法則",
+        "ケリガンの法則 (Kerrigan's Law)",
+        "ケリガンの法則(Kerrigan's Law)",
+        "ケリガンの法則（Kerrigan's Law）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
+    },
+    {
       "id": "genomic-variant-annotation",
       "slug": "genomic-variant-annotation",
       "label": "ゲノム変異影響予測とアノテーション",
@@ -7442,6 +7554,34 @@
       "inbound_count": 0,
       "outbound_count": 4,
       "degree": 4
+    },
+    {
+      "id": "pgg-with-game-transitions",
+      "slug": "pgg-with-game-transitions",
+      "label": "ゲーム遷移を伴う公共財ゲーム",
+      "title": "ゲーム遷移を伴う公共財ゲーム",
+      "title_ja": "ゲーム遷移を伴う公共財ゲーム",
+      "title_en": "Public Goods Games with Game Transitions",
+      "tier": null,
+      "description": "参加者の意思決定や戦略が周囲の環境状態（資源の豊富さ）の変化を誘発し、それによってゲームのルール自体が遷移するダイナミクス。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/pgg-with-game-transitions.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Public Goods Games with Game Transitions",
+        "pgg-with-game-transitions",
+        "ゲーム遷移を伴う公共財ゲーム",
+        "ゲーム遷移を伴う公共財ゲーム (Public Goods Games with Game Transitions)",
+        "ゲーム遷移を伴う公共財ゲーム(Public Goods Games with Game Transitions)",
+        "ゲーム遷移を伴う公共財ゲーム（Public Goods Games with Game Transitions）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
     },
     {
       "id": "cost-theater",
@@ -7610,9 +7750,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 14,
+      "inbound_count": 15,
       "outbound_count": 7,
-      "degree": 21
+      "degree": 22
     },
     {
       "id": "ai-ml-in-corporate-governance",
@@ -7666,9 +7806,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 4,
+      "inbound_count": 5,
       "outbound_count": 6,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "ai-in-cybersecurity",
@@ -10549,9 +10689,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 10,
+      "inbound_count": 11,
       "outbound_count": 0,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "human-ai-interaction-sense-of-agency",
@@ -10706,6 +10846,34 @@
         "ビッグデータ分析による3つの意思決定ドメイン (Three Decision Domains of Big Data Analytics)",
         "ビッグデータ分析による3つの意思決定ドメイン(Three Decision Domains of Big Data Analytics)",
         "ビッグデータ分析による3つの意思決定ドメイン（Three Decision Domains of Big Data Analytics）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
+    },
+    {
+      "id": "fictionalized-affective-interaction",
+      "slug": "fictionalized-affective-interaction",
+      "label": "フィクション化された感情的相互作用",
+      "title": "フィクション化された感情的相互作用",
+      "title_ja": "フィクション化された感情的相互作用",
+      "title_en": "Fictionalized Affective Interaction",
+      "tier": null,
+      "description": "人間とAIのインタラクションにおいて、擬似的な感情関係をデザインすることでユーザーのウェルビーイングや受容性を向上させるアプローチ。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/fictionalized-affective-interaction.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Fictionalized Affective Interaction",
+        "fictionalized-affective-interaction",
+        "フィクション化された感情的相互作用",
+        "フィクション化された感情的相互作用 (Fictionalized Affective Interaction)",
+        "フィクション化された感情的相互作用(Fictionalized Affective Interaction)",
+        "フィクション化された感情的相互作用（Fictionalized Affective Interaction）"
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
@@ -11565,9 +11733,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 24,
+      "inbound_count": 25,
       "outbound_count": 1,
-      "degree": 25
+      "degree": 26
     },
     {
       "id": "multi-agent-systems-and-ai-challenges",
@@ -13186,6 +13354,34 @@
       "degree": 5
     },
     {
+      "id": "human-ai-co-creative-judgment",
+      "slug": "human-ai-co-creative-judgment",
+      "label": "人間とAIの共同創造における意思決定フレームワーク",
+      "title": "人間とAIの共同創造における意思決定フレームワーク",
+      "title_ja": "人間とAIの共同創造における意思決定フレームワーク",
+      "title_en": "Human-AI Co-creative Judgment Framework",
+      "tier": null,
+      "description": "生成AI支援型のデザインプロセスにおいて、人間の専門的な判断や制約条件がどのように機能し意思決定を導くかを定義する枠組み。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/human-ai-co-creative-judgment.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Human-AI Co-creative Judgment Framework",
+        "human-ai-co-creative-judgment",
+        "人間とAIの共同創造における意思決定フレームワーク",
+        "人間とAIの共同創造における意思決定フレームワーク (Human-AI Co-creative Judgment Framework)",
+        "人間とAIの共同創造における意思決定フレームワーク(Human-AI Co-creative Judgment Framework)",
+        "人間とAIの共同創造における意思決定フレームワーク（Human-AI Co-creative Judgment Framework）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 4,
+      "degree": 4
+    },
+    {
       "id": "human-ai-coevolution",
       "slug": "human-ai-coevolution",
       "label": "人間とAIの共進化",
@@ -13233,9 +13429,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 46,
+      "inbound_count": 47,
       "outbound_count": 4,
-      "degree": 50
+      "degree": 51
     },
     {
       "id": "human-ai-collaboration-and-interaction",
@@ -13510,9 +13706,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 14,
+      "inbound_count": 15,
       "outbound_count": 3,
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "human-ai-interaction-and-trust",
@@ -13599,6 +13795,34 @@
       "degree": 5
     },
     {
+      "id": "human-ai-cognitive-augmentation",
+      "slug": "human-ai-cognitive-augmentation",
+      "label": "人間とAIの認知的拡張",
+      "title": "人間とAIの認知的拡張",
+      "title_ja": "人間とAIの認知的拡張",
+      "title_en": "Human-AI Cognitive Augmentation",
+      "tier": null,
+      "description": "人間の認知バイアスや意思決定プロセスをミラーリングし、代替ではなく拡張を目的とした協調システム設計",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/human-ai-cognitive-augmentation.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Human-AI Cognitive Augmentation",
+        "human-ai-cognitive-augmentation",
+        "人間とAIの認知的拡張",
+        "人間とAIの認知的拡張 (Human-AI Cognitive Augmentation)",
+        "人間とAIの認知的拡張(Human-AI Cognitive Augmentation)",
+        "人間とAIの認知的拡張（Human-AI Cognitive Augmentation）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 4,
+      "degree": 4
+    },
+    {
       "id": "human-ai-cognitive-interaction",
       "slug": "human-ai-cognitive-interaction",
       "label": "人間とAIの認知的相互作用",
@@ -13671,6 +13895,34 @@
         "人間とコンピュータの相互作用における再現性 (Reproducibility in Human-Computer Interaction)",
         "人間とコンピュータの相互作用における再現性(Reproducibility in Human-Computer Interaction)",
         "人間とコンピュータの相互作用における再現性（Reproducibility in Human-Computer Interaction）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
+    },
+    {
+      "id": "human-oversight-mechanisms",
+      "slug": "human-oversight-mechanisms",
+      "label": "人間による監視メカニズム",
+      "title": "人間による監視メカニズム",
+      "title_ja": "人間による監視メカニズム",
+      "title_en": "Human Oversight Mechanisms",
+      "tier": null,
+      "description": "AIシステムの意思決定において、人間が介入または監視することで信頼性と説明責任を担保する設計アプローチ。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/human-oversight-mechanisms.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Human Oversight Mechanisms",
+        "human-oversight-mechanisms",
+        "人間による監視メカニズム",
+        "人間による監視メカニズム (Human Oversight Mechanisms)",
+        "人間による監視メカニズム(Human Oversight Mechanisms)",
+        "人間による監視メカニズム（Human Oversight Mechanisms）"
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
@@ -14196,9 +14448,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 4,
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "value-based-decision-making",
@@ -14333,6 +14585,34 @@
       "degree": 0
     },
     {
+      "id": "trust-continuity",
+      "slug": "trust-continuity",
+      "label": "信頼の継続性とアイデンティティ検証",
+      "title": "信頼の継続性とアイデンティティ検証",
+      "title_ja": "信頼の継続性とアイデンティティ検証",
+      "title_en": "Trust Continuity and Identity Verification",
+      "tier": null,
+      "description": "AIによるなりすましや侵入リスクが高まるデジタル環境において、対話の完全性とプライバシーをガバナンス主導で維持するアプローチ。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/trust-continuity.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Trust Continuity and Identity Verification",
+        "trust-continuity",
+        "信頼の継続性とアイデンティティ検証",
+        "信頼の継続性とアイデンティティ検証 (Trust Continuity and Identity Verification)",
+        "信頼の継続性とアイデンティティ検証(Trust Continuity and Identity Verification)",
+        "信頼の継続性とアイデンティティ検証（Trust Continuity and Identity Verification）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
+    },
+    {
       "id": "clinical-practice-guideline-standards",
       "slug": "clinical-practice-guideline-standards",
       "label": "信頼性の高い臨床実務ガイドラインの策定アプローチ",
@@ -14395,6 +14675,34 @@
       "inbound_count": 13,
       "outbound_count": 4,
       "degree": 17
+    },
+    {
+      "id": "organizational-ethical-translation",
+      "slug": "organizational-ethical-translation",
+      "label": "倫理原則の組織的実践変換",
+      "title": "倫理原則の組織的実践変換",
+      "title_ja": "倫理原則の組織的実践変換",
+      "title_en": "Organizational Ethical Translation",
+      "tier": null,
+      "description": "AI倫理の抽象的な指針を、日々の組織業務や情報システム開発の実践へと翻訳・埋め込むプロセス",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/organizational-ethical-translation.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Organizational Ethical Translation",
+        "organizational-ethical-translation",
+        "倫理原則の組織的実践変換",
+        "倫理原則の組織的実践変換 (Organizational Ethical Translation)",
+        "倫理原則の組織的実践変換(Organizational Ethical Translation)",
+        "倫理原則の組織的実践変換（Organizational Ethical Translation）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 4,
+      "degree": 4
     },
     {
       "id": "ethical-minimum-triad",
@@ -16495,6 +16803,34 @@
       "degree": 5
     },
     {
+      "id": "delegated-cognition",
+      "slug": "delegated-cognition",
+      "label": "委譲された認知",
+      "title": "委譲された認知",
+      "title_ja": "委譲された認知",
+      "title_en": "Delegated Cognition",
+      "tier": null,
+      "description": "人間が判断、記憶、創造性などの認知的プロセスをAIシステムに外在化・委譲することによって生じる、人間の発達や自律性への影響。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/delegated-cognition.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Delegated Cognition",
+        "delegated-cognition",
+        "委譲された認知",
+        "委譲された認知 (Delegated Cognition)",
+        "委譲された認知(Delegated Cognition)",
+        "委譲された認知（Delegated Cognition）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
+    },
+    {
       "id": "ontological-safety",
       "slug": "ontological-safety",
       "label": "存在論的安全（AI安全性）",
@@ -17968,6 +18304,34 @@
       "degree": 4
     },
     {
+      "id": "sustainable-digital-transformation-tradeoffs",
+      "slug": "sustainable-digital-transformation-tradeoffs",
+      "label": "持続可能なデジタルトランスフォーメーションのトレードオフ",
+      "title": "持続可能なデジタルトランスフォーメーションのトレードオフ",
+      "title_ja": "持続可能なデジタルトランスフォーメーションのトレードオフ",
+      "title_en": "Sustainable Digital Transformation Trade-offs",
+      "tier": null,
+      "description": "AI導入による経済活動の効率化・自動化の推進と、それに伴う消費電力や環境負荷（カーボンフットプリント）の上昇との間の対立関係。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/sustainable-digital-transformation-tradeoffs.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Sustainable Digital Transformation Trade-offs",
+        "sustainable-digital-transformation-tradeoffs",
+        "持続可能なデジタルトランスフォーメーションのトレードオフ",
+        "持続可能なデジタルトランスフォーメーションのトレードオフ (Sustainable Digital Transformation Trade-offs)",
+        "持続可能なデジタルトランスフォーメーションのトレードオフ(Sustainable Digital Transformation Trade-offs)",
+        "持続可能なデジタルトランスフォーメーションのトレードオフ（Sustainable Digital Transformation Trade-offs）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
+    },
+    {
       "id": "socio-technical-sustainability-transitions",
       "slug": "socio-technical-sustainability-transitions",
       "label": "持続可能性への社会技術的転換",
@@ -18103,9 +18467,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 7,
+      "inbound_count": 8,
       "outbound_count": 5,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "ethical-anticipation-in-recommender-systems",
@@ -20327,6 +20691,34 @@
       "degree": 5
     },
     {
+      "id": "generative-ai-auditing-automation",
+      "slug": "generative-ai-auditing-automation",
+      "label": "生成AIによる監査自動化",
+      "title": "生成AIによる監査自動化",
+      "title_ja": "生成AIによる監査自動化",
+      "title_en": "Generative AI Auditing Automation",
+      "tier": null,
+      "description": "企業のISOコンプライアンスにおいて、ドキュメントレビューやリスク検出を生成AIで高度化する手法",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/generative-ai-auditing-automation.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Generative AI Auditing Automation",
+        "generative-ai-auditing-automation",
+        "生成AIによる監査自動化",
+        "生成AIによる監査自動化 (Generative AI Auditing Automation)",
+        "生成AIによる監査自動化(Generative AI Auditing Automation)",
+        "生成AIによる監査自動化（Generative AI Auditing Automation）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
+    },
+    {
       "id": "generative-ai-applications",
       "slug": "generative-ai-applications",
       "label": "生成AIの応用",
@@ -21191,9 +21583,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 11,
+      "inbound_count": 12,
       "outbound_count": 1,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "trust-violation-and-repair-in-sociotechnical-systems",
@@ -23041,6 +23433,34 @@
       "degree": 5
     },
     {
+      "id": "agentic-digital-thread",
+      "slug": "agentic-digital-thread",
+      "label": "自律エージェント型デジタルスレッド",
+      "title": "自律エージェント型デジタルスレッド",
+      "title_ja": "自律エージェント型デジタルスレッド",
+      "title_en": "Agentic Digital Thread",
+      "tier": null,
+      "description": "製造ライフサイクルにおける不適合管理を、従来の受動的なデータ連携から、自律的に意思決定を行う適応型システムへと変換するフレームワーク。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/agentic-digital-thread.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Agentic Digital Thread",
+        "agentic-digital-thread",
+        "自律エージェント型デジタルスレッド",
+        "自律エージェント型デジタルスレッド (Agentic Digital Thread)",
+        "自律エージェント型デジタルスレッド(Agentic Digital Thread)",
+        "自律エージェント型デジタルスレッド（Agentic Digital Thread）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 4,
+      "degree": 4
+    },
+    {
       "id": "autonomous-navigation-robotics",
       "slug": "autonomous-navigation-robotics",
       "label": "自律ナビゲーションとロボティクス",
@@ -23147,6 +23567,34 @@
       "inbound_count": 0,
       "outbound_count": 5,
       "degree": 5
+    },
+    {
+      "id": "autonomous-procurement-architecture",
+      "slug": "autonomous-procurement-architecture",
+      "label": "自律型調達アーキテクチャ",
+      "title": "自律型調達アーキテクチャ",
+      "title_ja": "自律型調達アーキテクチャ",
+      "title_en": "Autonomous Procurement Architecture",
+      "tier": null,
+      "description": "サプライチェーンにおける動的なリスクシグナルを監視し、マルチエージェントや最適化モデルを用いて自律的に調達意思決定を行うシステムモデル。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/autonomous-procurement-architecture.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Autonomous Procurement Architecture",
+        "autonomous-procurement-architecture",
+        "自律型調達アーキテクチャ",
+        "自律型調達アーキテクチャ (Autonomous Procurement Architecture)",
+        "自律型調達アーキテクチャ(Autonomous Procurement Architecture)",
+        "自律型調達アーキテクチャ（Autonomous Procurement Architecture）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 4,
+      "degree": 4
     },
     {
       "id": "natural-language-interaction-data-exploration",
@@ -23654,6 +24102,34 @@
       "degree": 5
     },
     {
+      "id": "computational-reference-models",
+      "slug": "computational-reference-models",
+      "label": "計算参照モデル",
+      "title": "計算参照モデル",
+      "title_ja": "計算参照モデル",
+      "title_en": "Computational Reference Models",
+      "tier": null,
+      "description": "数式やコード表現を用いた概念的デモンストレーションにより、ガバナンス上の構造的類推を記述する枠組み",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/computational-reference-models.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Computational Reference Models",
+        "computational-reference-models",
+        "計算参照モデル",
+        "計算参照モデル (Computational Reference Models)",
+        "計算参照モデル(Computational Reference Models)",
+        "計算参照モデル（Computational Reference Models）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
+    },
+    {
       "id": "computational-governance-benchmarking",
       "slug": "computational-governance-benchmarking",
       "label": "計算可能ガバナンス・ベンチマーク",
@@ -23726,6 +24202,34 @@
         "計算論的記憶とAI (Computational Memory and AI)",
         "計算論的記憶とAI(Computational Memory and AI)",
         "計算論的記憶とAI（Computational Memory and AI）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
+    },
+    {
+      "id": "poetic-mathematics",
+      "slug": "poetic-mathematics",
+      "label": "詩的数学",
+      "title": "詩的数学",
+      "title_ja": "詩的数学",
+      "title_en": "Poetic Mathematics",
+      "tier": null,
+      "description": "古代の原型、認知科学、人工知能などの複雑な哲学的・科学的対立を、モザイク状の構造を用いて脱構築する批評的アプローチ。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/poetic-mathematics.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Poetic Mathematics",
+        "poetic-mathematics",
+        "詩的数学",
+        "詩的数学 (Poetic Mathematics)",
+        "詩的数学(Poetic Mathematics)",
+        "詩的数学（Poetic Mathematics）"
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
@@ -24254,9 +24758,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 46,
+      "inbound_count": 49,
       "outbound_count": 5,
-      "degree": 51
+      "degree": 54
     },
     {
       "id": "design-challenge-brief-as-coordination-artefact",
@@ -24307,6 +24811,34 @@
         "調整理論 (Coordination Theory)",
         "調整理論(Coordination Theory)",
         "調整理論（Coordination Theory）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
+    },
+    {
+      "id": "intelligent-financial-mitigation",
+      "slug": "intelligent-financial-mitigation",
+      "label": "財務インテリジェント化による資金調達制約緩和",
+      "title": "財務インテリジェント化による資金調達制約緩和",
+      "title_ja": "財務インテリジェント化による資金調達制約緩和",
+      "title_en": "Intelligent Financial Mitigation of Financing Constraints",
+      "tier": null,
+      "description": "企業の財務管理モデルにAIとデジタル経済を統合することで、情報透明性を高め、運用効率やリスク管理を最適化する仕組み。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/intelligent-financial-mitigation.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Intelligent Financial Mitigation of Financing Constraints",
+        "intelligent-financial-mitigation",
+        "財務インテリジェント化による資金調達制約緩和",
+        "財務インテリジェント化による資金調達制約緩和 (Intelligent Financial Mitigation of Financing Constraints)",
+        "財務インテリジェント化による資金調達制約緩和(Intelligent Financial Mitigation of Financing Constraints)",
+        "財務インテリジェント化による資金調達制約緩和（Intelligent Financial Mitigation of Financing Constraints）"
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
@@ -25642,6 +26174,34 @@
       "degree": 0
     },
     {
+      "id": "informal-digital-labor-structures",
+      "slug": "informal-digital-labor-structures",
+      "label": "非公式デジタル労働構造",
+      "title": "非公式デジタル労働構造",
+      "title_ja": "非公式デジタル労働構造",
+      "title_en": "Informal Digital Labor Structures",
+      "tier": null,
+      "description": "制度的設計の外側で、プラットフォーム労働者が相互扶助や即興的調整を通じてレジリエンスを構築する非公式な社会・経済システム。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/informal-digital-labor-structures.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Informal Digital Labor Structures",
+        "informal-digital-labor-structures",
+        "非公式デジタル労働構造",
+        "非公式デジタル労働構造 (Informal Digital Labor Structures)",
+        "非公式デジタル労働構造(Informal Digital Labor Structures)",
+        "非公式デジタル労働構造（Informal Digital Labor Structures）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
+    },
+    {
       "id": "non-directive-conversational-ai",
       "slug": "non-directive-conversational-ai",
       "label": "非指示的会話型AI",
@@ -26078,6 +26638,30 @@
       "degree": 1
     },
     {
+      "id": "dangling:9770ad717034",
+      "slug": null,
+      "label": "AI-Ops",
+      "title": "AI-Ops",
+      "title_ja": "AI-Ops",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "AI-Ops"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:b815b7bd6255",
       "slug": null,
       "label": "AIOps",
@@ -26486,6 +27070,30 @@
       "degree": 1
     },
     {
+      "id": "dangling:8b25a28060e3",
+      "slug": null,
+      "label": "AIの説明責任",
+      "title": "AIの説明責任",
+      "title_ja": "AIの説明責任",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "AIの説明責任"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:f32e73943df2",
       "slug": null,
       "label": "AIの責任",
@@ -26793,9 +27401,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 0,
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "dangling:2d416d16a78f",
@@ -26817,9 +27425,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 0,
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "dangling:536a8b9f5ab5",
@@ -27129,9 +27737,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 27,
+      "inbound_count": 28,
       "outbound_count": 0,
-      "degree": 27
+      "degree": 28
     },
     {
       "id": "dangling:dbfd984f2698",
@@ -28209,9 +28817,33 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 7,
+      "inbound_count": 8,
       "outbound_count": 0,
-      "degree": 7
+      "degree": 8
+    },
+    {
+      "id": "dangling:6f4018753f71",
+      "slug": null,
+      "label": "Human-on-the-Loop",
+      "title": "Human-on-the-Loop",
+      "title_ja": "Human-on-the-Loop",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "Human-on-the-Loop"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
     },
     {
       "id": "dangling:c9cfad253c37",
@@ -28277,6 +28909,30 @@
       "resolved": false,
       "aliases": [
         "ISO 26262"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:2c14bcc6333a",
+      "slug": null,
+      "label": "ISO標準規格",
+      "title": "ISO標準規格",
+      "title_ja": "ISO標準規格",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "ISO標準規格"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -28469,6 +29125,30 @@
       "resolved": false,
       "aliases": [
         "IUCNレッドリスト・カテゴリー"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:39bebc0161c0",
+      "slug": null,
+      "label": "Jupyter Notebook",
+      "title": "Jupyter Notebook",
+      "title_ja": "Jupyter Notebook",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "Jupyter Notebook"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -29366,6 +30046,30 @@
       "degree": 2
     },
     {
+      "id": "dangling:a1fd68f01173",
+      "slug": null,
+      "label": "SymPy",
+      "title": "SymPy",
+      "title_ja": "SymPy",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "SymPy"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:8f2e2af1ece1",
       "slug": null,
       "label": "SΔϕ-02 (解釈的創発としての主体性)",
@@ -29861,6 +30565,30 @@
       "resolved": false,
       "aliases": [
         "べき乗則"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:18494b1b6e78",
+      "slug": null,
+      "label": "アイデンティティ・アクセス管理",
+      "title": "アイデンティティ・アクセス管理",
+      "title_ja": "アイデンティティ・アクセス管理",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "アイデンティティ・アクセス管理"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -30470,6 +31198,30 @@
       "degree": 1
     },
     {
+      "id": "dangling:494268a59785",
+      "slug": null,
+      "label": "アテンション・スキーマ理論",
+      "title": "アテンション・スキーマ理論",
+      "title_ja": "アテンション・スキーマ理論",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "アテンション・スキーマ理論"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:26d587e2e56b",
       "slug": null,
       "label": "アニマルスピリット",
@@ -30653,6 +31405,30 @@
       "resolved": false,
       "aliases": [
         "アミロイドβ"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:117cc31bb8ed",
+      "slug": null,
+      "label": "アライメント",
+      "title": "アライメント",
+      "title_ja": "アライメント",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "アライメント"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -31161,9 +31937,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 0,
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "dangling:a1068c9746db",
@@ -31958,6 +32734,30 @@
       "degree": 1
     },
     {
+      "id": "dangling:dfa886c9b1cd",
+      "slug": null,
+      "label": "インテリジェント財務",
+      "title": "インテリジェント財務",
+      "title_ja": "インテリジェント財務",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "インテリジェント財務"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:2166f17b6e4c",
       "slug": null,
       "label": "インドネシアの森林管理",
@@ -31973,6 +32773,30 @@
       "resolved": false,
       "aliases": [
         "インドネシアの森林管理"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:48a4ab91d877",
+      "slug": null,
+      "label": "インフォーマルセクター",
+      "title": "インフォーマルセクター",
+      "title_ja": "インフォーマルセクター",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "インフォーマルセクター"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -32141,6 +32965,30 @@
       "resolved": false,
       "aliases": [
         "ウェルビーイングと回復力"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:8445a957164b",
+      "slug": null,
+      "label": "ウェルビーイング（Well-being）",
+      "title": "ウェルビーイング（Well-being）",
+      "title_ja": "ウェルビーイング（Well-being）",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "ウェルビーイング（Well-being）"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -32990,6 +33838,30 @@
       "degree": 4
     },
     {
+      "id": "dangling:9eaddb5f9e8e",
+      "slug": null,
+      "label": "エージェンシー（Agency / 主体性）",
+      "title": "エージェンシー（Agency / 主体性）",
+      "title_ja": "エージェンシー（Agency / 主体性）",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "エージェンシー（Agency / 主体性）"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:cc0bbf839519",
       "slug": null,
       "label": "エージェントAI",
@@ -33009,9 +33881,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 0,
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "dangling:cc4b4f89f472",
@@ -33077,6 +33949,30 @@
       "resolved": false,
       "aliases": [
         "エージェント制御 (Agent Control)"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:408334f103b8",
+      "slug": null,
+      "label": "エージェント型AI",
+      "title": "エージェント型AI",
+      "title_ja": "エージェント型AI",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "エージェント型AI"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -33873,9 +34769,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 0,
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "dangling:345262011e73",
@@ -33965,6 +34861,30 @@
       "resolved": false,
       "aliases": [
         "キャッチアップ戦略"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:a057b494fcc0",
+      "slug": null,
+      "label": "ギグエコノミー",
+      "title": "ギグエコノミー",
+      "title_ja": "ギグエコノミー",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "ギグエコノミー"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -34421,6 +35341,30 @@
       "resolved": false,
       "aliases": [
         "グリオーマ"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:3531bd89eeec",
+      "slug": null,
+      "label": "グリーンAI",
+      "title": "グリーンAI",
+      "title_ja": "グリーンAI",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "グリーンAI"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -35534,6 +36478,30 @@
       "degree": 1
     },
     {
+      "id": "dangling:c9995ea91bf8",
+      "slug": null,
+      "label": "コンプライアンス技術 (RegTech)",
+      "title": "コンプライアンス技術 (RegTech)",
+      "title_ja": "コンプライアンス技術 (RegTech)",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "コンプライアンス技術 (RegTech)"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:44944638552e",
       "slug": null,
       "label": "コードコパイロット (Code Copilots)",
@@ -35916,9 +36884,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 0,
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "dangling:b0f77fd6ace7",
@@ -36224,6 +37192,30 @@
       "resolved": false,
       "aliases": [
         "サプライチェーン・マネジメント (SCM)"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:05bbf5ade28a",
+      "slug": null,
+      "label": "サプライチェーン・レジリエンス",
+      "title": "サプライチェーン・レジリエンス",
+      "title_ja": "サプライチェーン・レジリエンス",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "サプライチェーン・レジリエンス"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -38268,9 +39260,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 0,
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "dangling:49aa8079de4b",
@@ -38556,9 +39548,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 0,
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "dangling:1c45567c9c3b",
@@ -39665,6 +40657,30 @@
       "degree": 1
     },
     {
+      "id": "dangling:c56ae6334293",
+      "slug": null,
+      "label": "デジタルスレッド",
+      "title": "デジタルスレッド",
+      "title_ja": "デジタルスレッド",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "デジタルスレッド"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:d8bb77e2f919",
       "slug": null,
       "label": "デジタルツイン",
@@ -39684,9 +40700,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 2,
+      "inbound_count": 4,
       "outbound_count": 0,
-      "degree": 2
+      "degree": 4
     },
     {
       "id": "dangling:a52ec32c6bb2",
@@ -39735,9 +40751,9 @@
         "digital-transformation",
         "digital_transformation"
       ],
-      "inbound_count": 13,
+      "inbound_count": 15,
       "outbound_count": 0,
-      "degree": 13
+      "degree": 15
     },
     {
       "id": "dangling:f3dc9879b110",
@@ -40439,6 +41455,30 @@
       "resolved": false,
       "aliases": [
         "デジタル公共圏"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:da3d4caf869b",
+      "slug": null,
+      "label": "デジタル包摂",
+      "title": "デジタル包摂",
+      "title_ja": "デジタル包摂",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "デジタル包摂"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -41327,6 +42367,30 @@
       "resolved": false,
       "aliases": [
         "データ視覚化"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:2a121f442a1b",
+      "slug": null,
+      "label": "データ資産",
+      "title": "データ資産",
+      "title_ja": "データ資産",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "データ資産"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -42527,6 +43591,30 @@
       "resolved": false,
       "aliases": [
         "ネット・プロモーター・スコア（NPS）"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:c56f683dad6c",
+      "slug": null,
+      "label": "ハイパーグラフ",
+      "title": "ハイパーグラフ",
+      "title_ja": "ハイパーグラフ",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "ハイパーグラフ"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -43803,9 +44891,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 3,
+      "inbound_count": 4,
       "outbound_count": 0,
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "dangling:7e073129aefa",
@@ -45318,9 +46406,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 0,
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "dangling:6f28758c7cf5",
@@ -45434,6 +46522,30 @@
       "resolved": false,
       "aliases": [
         "プリンシパル＝エージェント理論"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:95beadf1eb8a",
+      "slug": null,
+      "label": "プレカリアート",
+      "title": "プレカリアート",
+      "title_ja": "プレカリアート",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "プレカリアート"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -46922,6 +48034,30 @@
       "resolved": false,
       "aliases": [
         "マルコフ連鎖モンテカルロ法（MCMC）"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:7aa5a4c82874",
+      "slug": null,
+      "label": "マルチオブジェクト最適化",
+      "title": "マルチオブジェクト最適化",
+      "title_ja": "マルチオブジェクト最適化",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "マルチオブジェクト最適化"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -49958,6 +51094,30 @@
       "degree": 2
     },
     {
+      "id": "dangling:96f7351d17b2",
+      "slug": null,
+      "label": "不気味の谷現象（Uncanny Valley）",
+      "title": "不気味の谷現象（Uncanny Valley）",
+      "title_ja": "不気味の谷現象（Uncanny Valley）",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "不気味の谷現象（Uncanny Valley）"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:68b98164beb5",
       "slug": null,
       "label": "不法行為法",
@@ -50045,6 +51205,30 @@
       "resolved": false,
       "aliases": [
         "不確実性下の意思決定"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:5f2623f8a443",
+      "slug": null,
+      "label": "不適合管理・CAPA",
+      "title": "不適合管理・CAPA",
+      "title_ja": "不適合管理・CAPA",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "不適合管理・CAPA"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -50337,9 +51521,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 0,
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "dangling:a8ccc94d7fe2",
@@ -50625,9 +51809,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 26,
+      "inbound_count": 27,
       "outbound_count": 0,
-      "degree": 26
+      "degree": 27
     },
     {
       "id": "dangling:813ecb32987d",
@@ -50741,6 +51925,30 @@
       "resolved": false,
       "aliases": [
         "人工知能と認識論"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:00c114af9e79",
+      "slug": null,
+      "label": "人工知能と財務報告 (AI in Financial Reporting)",
+      "title": "人工知能と財務報告 (AI in Financial Reporting)",
+      "title_ja": "人工知能と財務報告 (AI in Financial Reporting)",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "人工知能と財務報告 (AI in Financial Reporting)"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -51758,6 +52966,30 @@
       "degree": 1
     },
     {
+      "id": "dangling:fba522620049",
+      "slug": null,
+      "label": "人間発達（Human Development）",
+      "title": "人間発達（Human Development）",
+      "title_ja": "人間発達（Human Development）",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "人間発達（Human Development）"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:e606157df56d",
       "slug": null,
       "label": "人間等価労働単位（HEWU）",
@@ -51999,9 +53231,9 @@
         "corporate-social-responsibility-and-buying-behavior",
         "corporate-social-responsibility-evolution"
       ],
-      "inbound_count": 3,
+      "inbound_count": 4,
       "outbound_count": 0,
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "dangling:6fa072fd5abc",
@@ -53003,6 +54235,30 @@
       "resolved": false,
       "aliases": [
         "公共財の供給と政治的合意"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:8c2f40bebc3b",
+      "slug": null,
+      "label": "公共財ゲーム",
+      "title": "公共財ゲーム",
+      "title_ja": "公共財ゲーム",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "公共財ゲーム"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -54015,9 +55271,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 0,
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "dangling:5570bd849967",
@@ -54179,6 +55435,30 @@
       "resolved": false,
       "aliases": [
         "分析コード共有"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:d7f92697cd89",
+      "slug": null,
+      "label": "分配の正義 (Distributive Justice)",
+      "title": "分配の正義 (Distributive Justice)",
+      "title_ja": "分配の正義 (Distributive Justice)",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "分配の正義 (Distributive Justice)"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -56252,6 +57532,54 @@
       "degree": 1
     },
     {
+      "id": "dangling:34c366750cad",
+      "slug": null,
+      "label": "同期（シンクロニシティ）",
+      "title": "同期（シンクロニシティ）",
+      "title_ja": "同期（シンクロニシティ）",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "同期（シンクロニシティ）"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:06824c788e48",
+      "slug": null,
+      "label": "品質保証 (QA)",
+      "title": "品質保証 (QA)",
+      "title_ja": "品質保証 (QA)",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "品質保証 (QA)"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:ad50b63cbd09",
       "slug": null,
       "label": "哲学",
@@ -57092,6 +58420,30 @@
       "degree": 1
     },
     {
+      "id": "dangling:c7dfd2e8f56e",
+      "slug": null,
+      "label": "基盤モデルのガバナンス (Foundation Model Governance)",
+      "title": "基盤モデルのガバナンス (Foundation Model Governance)",
+      "title_ja": "基盤モデルのガバナンス (Foundation Model Governance)",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "基盤モデルのガバナンス (Foundation Model Governance)"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:31f904e603ef",
       "slug": null,
       "label": "境界値分析（Boundary Value Analysis）",
@@ -57783,9 +59135,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 21,
+      "inbound_count": 22,
       "outbound_count": 0,
-      "degree": 21
+      "degree": 22
     },
     {
       "id": "dangling:22f838a0b8ce",
@@ -59972,6 +61324,30 @@
       "degree": 1
     },
     {
+      "id": "dangling:f766446310bb",
+      "slug": null,
+      "label": "情報の非対称性",
+      "title": "情報の非対称性",
+      "title_ja": "情報の非対称性",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "情報の非対称性"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:a1d1eee92627",
       "slug": null,
       "label": "情報の非対称性 (Information Asymmetry)",
@@ -60947,6 +62323,30 @@
       "resolved": false,
       "aliases": [
         "意識 (AI)"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:6beba159ad4a",
+      "slug": null,
+      "label": "意識のハードプロブレム",
+      "title": "意識のハードプロブレム",
+      "title_ja": "意識のハードプロブレム",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "意識のハードプロブレム"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -62303,6 +63703,30 @@
       "degree": 1
     },
     {
+      "id": "dangling:3fb3e5761943",
+      "slug": null,
+      "label": "拡張された認知（Extended Cognition）",
+      "title": "拡張された認知（Extended Cognition）",
+      "title_ja": "拡張された認知（Extended Cognition）",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "拡張された認知（Extended Cognition）"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:3152b883d691",
       "slug": null,
       "label": "拡張現実",
@@ -62970,9 +64394,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 0,
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "dangling:4e0592a291a1",
@@ -63950,6 +65374,30 @@
       "resolved": false,
       "aliases": [
         "時間巻き付け表面張力"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:231e149f8182",
+      "slug": null,
+      "label": "時間的不協和（Temporal Dissonance）",
+      "title": "時間的不協和（Temporal Dissonance）",
+      "title_ja": "時間的不協和（Temporal Dissonance）",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "時間的不協和（Temporal Dissonance）"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -67487,6 +68935,30 @@
       "degree": 1
     },
     {
+      "id": "dangling:62fe31ea843b",
+      "slug": null,
+      "label": "生成AIとデザイン思考 (Generative AI in Design Thinking)",
+      "title": "生成AIとデザイン思考 (Generative AI in Design Thinking)",
+      "title_ja": "生成AIとデザイン思考 (Generative AI in Design Thinking)",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "生成AIとデザイン思考 (Generative AI in Design Thinking)"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:3a619ca6d9d5",
       "slug": null,
       "label": "生成AIと教育の再定義",
@@ -67722,9 +69194,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 0,
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "dangling:5c859a1ff983",
@@ -68469,6 +69941,54 @@
       "inbound_count": 2,
       "outbound_count": 0,
       "degree": 2
+    },
+    {
+      "id": "dangling:a0a6254a4adb",
+      "slug": null,
+      "label": "監査人の法的責任 (Auditor Liability)",
+      "title": "監査人の法的責任 (Auditor Liability)",
+      "title_ja": "監査人の法的責任 (Auditor Liability)",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "監査人の法的責任 (Auditor Liability)"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:bd2dc02ad651",
+      "slug": null,
+      "label": "監査基準 (Auditing Standards)",
+      "title": "監査基準 (Auditing Standards)",
+      "title_ja": "監査基準 (Auditing Standards)",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "監査基準 (Auditing Standards)"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
     },
     {
       "id": "dangling:45bdfd8a5b0d",
@@ -69638,6 +71158,54 @@
       "resolved": false,
       "aliases": [
         "社会的サステナビリティ"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:8b8344ef65ff",
+      "slug": null,
+      "label": "社会的ジレンマ",
+      "title": "社会的ジレンマ",
+      "title_ja": "社会的ジレンマ",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "社会的ジレンマ"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:fbee123ac08d",
+      "slug": null,
+      "label": "社会的ロボティクス（Social Robotics）",
+      "title": "社会的ロボティクス（Social Robotics）",
+      "title_ja": "社会的ロボティクス（Social Robotics）",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "社会的ロボティクス（Social Robotics）"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -72458,6 +74026,30 @@
       "degree": 1
     },
     {
+      "id": "dangling:ba5202a7e0a9",
+      "slug": null,
+      "label": "群知能",
+      "title": "群知能",
+      "title_ja": "群知能",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "群知能"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:ad804bf41585",
       "slug": null,
       "label": "義務論的AI倫理",
@@ -73341,9 +74933,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 0,
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "dangling:63e3cb8170de",
@@ -73994,6 +75586,30 @@
       "degree": 1
     },
     {
+      "id": "dangling:9a416a0ed0ef",
+      "slug": null,
+      "label": "行動バイオメトリクス",
+      "title": "行動バイオメトリクス",
+      "title_ja": "行動バイオメトリクス",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "行動バイオメトリクス"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:c07dce2be195",
       "slug": null,
       "label": "行動ファイナンス",
@@ -74546,6 +76162,30 @@
       "degree": 1
     },
     {
+      "id": "dangling:79287ab811dc",
+      "slug": null,
+      "label": "複雑ネットワーク",
+      "title": "複雑ネットワーク",
+      "title_ja": "複雑ネットワーク",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "複雑ネットワーク"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
       "id": "dangling:2e17eaec8354",
       "slug": null,
       "label": "複雑系 (Complex Systems)",
@@ -74613,9 +76253,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 15,
+      "inbound_count": 17,
       "outbound_count": 0,
-      "degree": 15
+      "degree": 17
     },
     {
       "id": "dangling:0010166b0079",
@@ -75381,9 +77021,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 0,
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "dangling:ff445b457884",
@@ -75665,6 +77305,30 @@
       "resolved": false,
       "aliases": [
         "認知的負荷理論"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
+    },
+    {
+      "id": "dangling:f745cf1d24d8",
+      "slug": null,
+      "label": "認知科学とデザイン決定 (Cognitive Science in Design Decision-making)",
+      "title": "認知科学とデザイン決定 (Cognitive Science in Design Decision-making)",
+      "title_ja": "認知科学とデザイン決定 (Cognitive Science in Design Decision-making)",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "認知科学とデザイン決定 (Cognitive Science in Design Decision-making)"
       ],
       "article_exists": false,
       "ambiguous": false,
@@ -75981,9 +77645,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 0,
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "dangling:a760beb6b733",
@@ -76173,9 +77837,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 4,
+      "inbound_count": 5,
       "outbound_count": 0,
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "dangling:92ff637e38a5",
@@ -76224,6 +77888,30 @@
       "inbound_count": 2,
       "outbound_count": 0,
       "degree": 2
+    },
+    {
+      "id": "dangling:d090545c0ba2",
+      "slug": null,
+      "label": "責任あるイノベーション (Responsible Innovation)",
+      "title": "責任あるイノベーション (Responsible Innovation)",
+      "title_ja": "責任あるイノベーション (Responsible Innovation)",
+      "title_en": "",
+      "tier": null,
+      "description": "",
+      "related_domains": [],
+      "key_sources": [],
+      "file": null,
+      "kind": "placeholder",
+      "resolved": false,
+      "aliases": [
+        "責任あるイノベーション (Responsible Innovation)"
+      ],
+      "article_exists": false,
+      "ambiguous": false,
+      "candidates": [],
+      "inbound_count": 1,
+      "outbound_count": 0,
+      "degree": 1
     },
     {
       "id": "dangling:053e2a97528d",
@@ -76965,9 +78653,9 @@
       "article_exists": false,
       "ambiguous": false,
       "candidates": [],
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 0,
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "dangling:a8ba6d9eb6d7",
@@ -81986,6 +83674,122 @@
       "candidates": []
     },
     {
+      "id": "agentic-digital-thread->dangling:408334f103b8",
+      "source": "agentic-digital-thread",
+      "target": "dangling:408334f103b8",
+      "source_label": "自律エージェント型デジタルスレッド",
+      "target_label": "エージェント型AI",
+      "source_file": "concepts/agentic-digital-thread.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "エージェント型AI"
+      ],
+      "display_labels": [
+        "エージェント型AI"
+      ],
+      "mentions": [
+        {
+          "raw_target": "エージェント型AI",
+          "label": "エージェント型AI",
+          "section": "関連概念",
+          "line": 40,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "agentic-digital-thread->dangling:5f2623f8a443",
+      "source": "agentic-digital-thread",
+      "target": "dangling:5f2623f8a443",
+      "source_label": "自律エージェント型デジタルスレッド",
+      "target_label": "不適合管理・CAPA",
+      "source_file": "concepts/agentic-digital-thread.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "不適合管理・CAPA"
+      ],
+      "display_labels": [
+        "不適合管理・CAPA"
+      ],
+      "mentions": [
+        {
+          "raw_target": "不適合管理・CAPA",
+          "label": "不適合管理・CAPA",
+          "section": "関連概念",
+          "line": 42,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "agentic-digital-thread->dangling:c56ae6334293",
+      "source": "agentic-digital-thread",
+      "target": "dangling:c56ae6334293",
+      "source_label": "自律エージェント型デジタルスレッド",
+      "target_label": "デジタルスレッド",
+      "source_file": "concepts/agentic-digital-thread.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "デジタルスレッド"
+      ],
+      "display_labels": [
+        "デジタルスレッド"
+      ],
+      "mentions": [
+        {
+          "raw_target": "デジタルスレッド",
+          "label": "デジタルスレッド",
+          "section": "関連概念",
+          "line": 39,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "agentic-digital-thread->dangling:d8bb77e2f919",
+      "source": "agentic-digital-thread",
+      "target": "dangling:d8bb77e2f919",
+      "source_label": "自律エージェント型デジタルスレッド",
+      "target_label": "デジタルツイン",
+      "source_file": "concepts/agentic-digital-thread.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "デジタルツイン"
+      ],
+      "display_labels": [
+        "デジタルツイン"
+      ],
+      "mentions": [
+        {
+          "raw_target": "デジタルツイン",
+          "label": "デジタルツイン",
+          "section": "関連概念",
+          "line": 41,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "id": "agentic-formulation-discovery->dangling:345262011e73",
       "source": "agentic-formulation-discovery",
       "target": "dangling:345262011e73",
@@ -82813,6 +84617,95 @@
           "label": "持続可能な食料生産",
           "section": "関連概念",
           "line": 39,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "ai-accountability-attribution->ai-governance",
+      "source": "ai-accountability-attribution",
+      "target": "ai-governance",
+      "source_label": "AIシステムの責任帰属",
+      "target_label": "AIガバナンス",
+      "source_file": "concepts/ai-accountability-attribution.md",
+      "target_file": "concepts/ai-governance.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "AIガバナンス"
+      ],
+      "display_labels": [
+        "AIガバナンス"
+      ],
+      "mentions": [
+        {
+          "raw_target": "AIガバナンス",
+          "label": "AIガバナンス",
+          "section": "関連概念",
+          "line": 33,
+          "resolved_via": "alias"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-governance"
+      ]
+    },
+    {
+      "id": "ai-accountability-attribution->dangling:093be9b97028",
+      "source": "ai-accountability-attribution",
+      "target": "dangling:093be9b97028",
+      "source_label": "AIシステムの責任帰属",
+      "target_label": "ヒューマン・イン・ザ・ループ",
+      "source_file": "concepts/ai-accountability-attribution.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "ヒューマン・イン・ザ・ループ"
+      ],
+      "display_labels": [
+        "ヒューマン・イン・ザ・ループ"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ヒューマン・イン・ザ・ループ",
+          "label": "ヒューマン・イン・ザ・ループ",
+          "section": "関連概念",
+          "line": 35,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "ai-accountability-attribution->dangling:8b25a28060e3",
+      "source": "ai-accountability-attribution",
+      "target": "dangling:8b25a28060e3",
+      "source_label": "AIシステムの責任帰属",
+      "target_label": "AIの説明責任",
+      "source_file": "concepts/ai-accountability-attribution.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "AIの説明責任"
+      ],
+      "display_labels": [
+        "AIの説明責任"
+      ],
+      "mentions": [
+        {
+          "raw_target": "AIの説明責任",
+          "label": "AIの説明責任",
+          "section": "関連概念",
+          "line": 34,
           "resolved_via": null
         }
       ],
@@ -99261,6 +101154,153 @@
       ]
     },
     {
+      "id": "algorithmic-black-box-auditing->dangling:00c114af9e79",
+      "source": "algorithmic-black-box-auditing",
+      "target": "dangling:00c114af9e79",
+      "source_label": "アルゴリズム意思決定における監査・説明責任の不確実性",
+      "target_label": "人工知能と財務報告 (AI in Financial Reporting)",
+      "source_file": "concepts/algorithmic-black-box-auditing.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "人工知能と財務報告 (AI in Financial Reporting)"
+      ],
+      "display_labels": [
+        "人工知能と財務報告 (AI in Financial Reporting)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "人工知能と財務報告 (AI in Financial Reporting)",
+          "label": "人工知能と財務報告 (AI in Financial Reporting)",
+          "section": "関連概念",
+          "line": 37,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "algorithmic-black-box-auditing->dangling:90f2c51aa697",
+      "source": "algorithmic-black-box-auditing",
+      "target": "dangling:90f2c51aa697",
+      "source_label": "アルゴリズム意思決定における監査・説明責任の不確実性",
+      "target_label": "アルゴリズム監査 (Algorithmic Auditing)",
+      "source_file": "concepts/algorithmic-black-box-auditing.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "アルゴリズム監査 (Algorithmic Auditing)"
+      ],
+      "display_labels": [
+        "アルゴリズム監査 (Algorithmic Auditing)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "アルゴリズム監査 (Algorithmic Auditing)",
+          "label": "アルゴリズム監査 (Algorithmic Auditing)",
+          "section": "関連概念",
+          "line": 39,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "algorithmic-black-box-auditing->dangling:a0a6254a4adb",
+      "source": "algorithmic-black-box-auditing",
+      "target": "dangling:a0a6254a4adb",
+      "source_label": "アルゴリズム意思決定における監査・説明責任の不確実性",
+      "target_label": "監査人の法的責任 (Auditor Liability)",
+      "source_file": "concepts/algorithmic-black-box-auditing.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "監査人の法的責任 (Auditor Liability)"
+      ],
+      "display_labels": [
+        "監査人の法的責任 (Auditor Liability)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "監査人の法的責任 (Auditor Liability)",
+          "label": "監査人の法的責任 (Auditor Liability)",
+          "section": "関連概念",
+          "line": 41,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "algorithmic-black-box-auditing->dangling:bd2dc02ad651",
+      "source": "algorithmic-black-box-auditing",
+      "target": "dangling:bd2dc02ad651",
+      "source_label": "アルゴリズム意思決定における監査・説明責任の不確実性",
+      "target_label": "監査基準 (Auditing Standards)",
+      "source_file": "concepts/algorithmic-black-box-auditing.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "監査基準 (Auditing Standards)"
+      ],
+      "display_labels": [
+        "監査基準 (Auditing Standards)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "監査基準 (Auditing Standards)",
+          "label": "監査基準 (Auditing Standards)",
+          "section": "関連概念",
+          "line": 40,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "algorithmic-black-box-auditing->explainable-ai-xai",
+      "source": "algorithmic-black-box-auditing",
+      "target": "explainable-ai-xai",
+      "source_label": "アルゴリズム意思決定における監査・説明責任の不確実性",
+      "target_label": "説明可能なAI (XAI)",
+      "source_file": "concepts/algorithmic-black-box-auditing.md",
+      "target_file": "concepts/explainable-ai-xai.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "説明可能なAI (Explainable AI / XAI)"
+      ],
+      "display_labels": [
+        "説明可能なAI (Explainable AI / XAI)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "説明可能なAI (Explainable AI / XAI)",
+          "label": "説明可能なAI (Explainable AI / XAI)",
+          "section": "関連概念",
+          "line": 38,
+          "resolved_via": "alias"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "explainable-ai-xai"
+      ]
+    },
+    {
       "id": "algorithmic-co-supervision->dangling:9919fc61fd6f",
       "source": "algorithmic-co-supervision",
       "target": "dangling:9919fc61fd6f",
@@ -101542,6 +103582,122 @@
           "label": "組織科学",
           "section": "関連概念",
           "line": 53,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "autonomous-procurement-architecture->dangling:05bbf5ade28a",
+      "source": "autonomous-procurement-architecture",
+      "target": "dangling:05bbf5ade28a",
+      "source_label": "自律型調達アーキテクチャ",
+      "target_label": "サプライチェーン・レジリエンス",
+      "source_file": "concepts/autonomous-procurement-architecture.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "サプライチェーン・レジリエンス"
+      ],
+      "display_labels": [
+        "サプライチェーン・レジリエンス"
+      ],
+      "mentions": [
+        {
+          "raw_target": "サプライチェーン・レジリエンス",
+          "label": "サプライチェーン・レジリエンス",
+          "section": "関連概念",
+          "line": 34,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "autonomous-procurement-architecture->dangling:7aa5a4c82874",
+      "source": "autonomous-procurement-architecture",
+      "target": "dangling:7aa5a4c82874",
+      "source_label": "自律型調達アーキテクチャ",
+      "target_label": "マルチオブジェクト最適化",
+      "source_file": "concepts/autonomous-procurement-architecture.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "マルチオブジェクト最適化"
+      ],
+      "display_labels": [
+        "マルチオブジェクト最適化"
+      ],
+      "mentions": [
+        {
+          "raw_target": "マルチオブジェクト最適化",
+          "label": "マルチオブジェクト最適化",
+          "section": "関連概念",
+          "line": 37,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "autonomous-procurement-architecture->dangling:cc0bbf839519",
+      "source": "autonomous-procurement-architecture",
+      "target": "dangling:cc0bbf839519",
+      "source_label": "自律型調達アーキテクチャ",
+      "target_label": "エージェントAI",
+      "source_file": "concepts/autonomous-procurement-architecture.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "エージェントAI"
+      ],
+      "display_labels": [
+        "エージェントAI"
+      ],
+      "mentions": [
+        {
+          "raw_target": "エージェントAI",
+          "label": "エージェントAI",
+          "section": "関連概念",
+          "line": 36,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "autonomous-procurement-architecture->dangling:d8bb77e2f919",
+      "source": "autonomous-procurement-architecture",
+      "target": "dangling:d8bb77e2f919",
+      "source_label": "自律型調達アーキテクチャ",
+      "target_label": "デジタルツイン",
+      "source_file": "concepts/autonomous-procurement-architecture.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "デジタルツイン"
+      ],
+      "display_labels": [
+        "デジタルツイン"
+      ],
+      "mentions": [
+        {
+          "raw_target": "デジタルツイン",
+          "label": "デジタルツイン",
+          "section": "関連概念",
+          "line": 35,
           "resolved_via": null
         }
       ],
@@ -110363,6 +112519,153 @@
       ]
     },
     {
+      "id": "computational-reference-models->ai-governance",
+      "source": "computational-reference-models",
+      "target": "ai-governance",
+      "source_label": "計算参照モデル",
+      "target_label": "AIガバナンス",
+      "source_file": "concepts/computational-reference-models.md",
+      "target_file": "concepts/ai-governance.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "AIガバナンス"
+      ],
+      "display_labels": [
+        "AIガバナンス"
+      ],
+      "mentions": [
+        {
+          "raw_target": "AIガバナンス",
+          "label": "AIガバナンス",
+          "section": "関連概念",
+          "line": 44,
+          "resolved_via": "alias"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-governance"
+      ]
+    },
+    {
+      "id": "computational-reference-models->dangling:117cc31bb8ed",
+      "source": "computational-reference-models",
+      "target": "dangling:117cc31bb8ed",
+      "source_label": "計算参照モデル",
+      "target_label": "アライメント",
+      "source_file": "concepts/computational-reference-models.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "アライメント"
+      ],
+      "display_labels": [
+        "アライメント"
+      ],
+      "mentions": [
+        {
+          "raw_target": "アライメント",
+          "label": "アライメント",
+          "section": "関連概念",
+          "line": 46,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "computational-reference-models->dangling:39bebc0161c0",
+      "source": "computational-reference-models",
+      "target": "dangling:39bebc0161c0",
+      "source_label": "計算参照モデル",
+      "target_label": "Jupyter Notebook",
+      "source_file": "concepts/computational-reference-models.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "Jupyter Notebook"
+      ],
+      "display_labels": [
+        "Jupyter Notebook"
+      ],
+      "mentions": [
+        {
+          "raw_target": "Jupyter Notebook",
+          "label": "Jupyter Notebook",
+          "section": "関連概念",
+          "line": 48,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "computational-reference-models->dangling:a1fd68f01173",
+      "source": "computational-reference-models",
+      "target": "dangling:a1fd68f01173",
+      "source_label": "計算参照モデル",
+      "target_label": "SymPy",
+      "source_file": "concepts/computational-reference-models.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "SymPy"
+      ],
+      "display_labels": [
+        "SymPy"
+      ],
+      "mentions": [
+        {
+          "raw_target": "SymPy",
+          "label": "SymPy",
+          "section": "関連概念",
+          "line": 47,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "computational-reference-models->dangling:dbf67ba5cf8f",
+      "source": "computational-reference-models",
+      "target": "dangling:dbf67ba5cf8f",
+      "source_label": "計算参照モデル",
+      "target_label": "AIセーフティ",
+      "source_file": "concepts/computational-reference-models.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "AIセーフティ"
+      ],
+      "display_labels": [
+        "AIセーフティ"
+      ],
+      "mentions": [
+        {
+          "raw_target": "AIセーフティ",
+          "label": "AIセーフティ",
+          "section": "関連概念",
+          "line": 45,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "id": "computational-thinking-assessment-for-children->dangling:0a7ad09b3a4e",
       "source": "computational-thinking-assessment-for-children",
       "target": "dangling:0a7ad09b3a4e",
@@ -117547,6 +119850,151 @@
       "candidates": [
         "explainable-ai-xai"
       ]
+    },
+    {
+      "id": "delegated-cognition->dangling:231e149f8182",
+      "source": "delegated-cognition",
+      "target": "dangling:231e149f8182",
+      "source_label": "委譲された認知",
+      "target_label": "時間的不協和（Temporal Dissonance）",
+      "source_file": "concepts/delegated-cognition.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "時間的不協和（Temporal Dissonance）"
+      ],
+      "display_labels": [
+        "時間的不協和（Temporal Dissonance）"
+      ],
+      "mentions": [
+        {
+          "raw_target": "時間的不協和（Temporal Dissonance）",
+          "label": "時間的不協和（Temporal Dissonance）",
+          "section": "関連概念",
+          "line": 38,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "delegated-cognition->dangling:3fb3e5761943",
+      "source": "delegated-cognition",
+      "target": "dangling:3fb3e5761943",
+      "source_label": "委譲された認知",
+      "target_label": "拡張された認知（Extended Cognition）",
+      "source_file": "concepts/delegated-cognition.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "拡張された認知（Extended Cognition）"
+      ],
+      "display_labels": [
+        "拡張された認知（Extended Cognition）"
+      ],
+      "mentions": [
+        {
+          "raw_target": "拡張された認知（Extended Cognition）",
+          "label": "拡張された認知（Extended Cognition）",
+          "section": "関連概念",
+          "line": 39,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "delegated-cognition->dangling:972d36dfac87",
+      "source": "delegated-cognition",
+      "target": "dangling:972d36dfac87",
+      "source_label": "委譲された認知",
+      "target_label": "生成AI（Generative AI）",
+      "source_file": "concepts/delegated-cognition.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "生成AI（Generative AI）"
+      ],
+      "display_labels": [
+        "生成AI（Generative AI）"
+      ],
+      "mentions": [
+        {
+          "raw_target": "生成AI（Generative AI）",
+          "label": "生成AI（Generative AI）",
+          "section": "関連概念",
+          "line": 40,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "delegated-cognition->dangling:9eaddb5f9e8e",
+      "source": "delegated-cognition",
+      "target": "dangling:9eaddb5f9e8e",
+      "source_label": "委譲された認知",
+      "target_label": "エージェンシー（Agency / 主体性）",
+      "source_file": "concepts/delegated-cognition.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "エージェンシー（Agency / 主体性）"
+      ],
+      "display_labels": [
+        "エージェンシー（Agency / 主体性）"
+      ],
+      "mentions": [
+        {
+          "raw_target": "エージェンシー（Agency / 主体性）",
+          "label": "エージェンシー（Agency / 主体性）",
+          "section": "関連概念",
+          "line": 37,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "delegated-cognition->dangling:fba522620049",
+      "source": "delegated-cognition",
+      "target": "dangling:fba522620049",
+      "source_label": "委譲された認知",
+      "target_label": "人間発達（Human Development）",
+      "source_file": "concepts/delegated-cognition.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "人間発達（Human Development）"
+      ],
+      "display_labels": [
+        "人間発達（Human Development）"
+      ],
+      "mentions": [
+        {
+          "raw_target": "人間発達（Human Development）",
+          "label": "人間発達（Human Development）",
+          "section": "関連概念",
+          "line": 36,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
     },
     {
       "id": "dementia-and-alzheimers-biomarkers->dangling:477cfdb35b25",
@@ -130407,6 +132855,154 @@
       ]
     },
     {
+      "id": "fictionalized-affective-interaction->dangling:8445a957164b",
+      "source": "fictionalized-affective-interaction",
+      "target": "dangling:8445a957164b",
+      "source_label": "フィクション化された感情的相互作用",
+      "target_label": "ウェルビーイング（Well-being）",
+      "source_file": "concepts/fictionalized-affective-interaction.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "ウェルビーイング（Well-being）"
+      ],
+      "display_labels": [
+        "ウェルビーイング（Well-being）"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ウェルビーイング（Well-being）",
+          "label": "ウェルビーイング（Well-being）",
+          "section": "関連概念",
+          "line": 48,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "fictionalized-affective-interaction->dangling:96f7351d17b2",
+      "source": "fictionalized-affective-interaction",
+      "target": "dangling:96f7351d17b2",
+      "source_label": "フィクション化された感情的相互作用",
+      "target_label": "不気味の谷現象（Uncanny Valley）",
+      "source_file": "concepts/fictionalized-affective-interaction.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "不気味の谷現象（Uncanny Valley）"
+      ],
+      "display_labels": [
+        "不気味の谷現象（Uncanny Valley）"
+      ],
+      "mentions": [
+        {
+          "raw_target": "不気味の谷現象（Uncanny Valley）",
+          "label": "不気味の谷現象（Uncanny Valley）",
+          "section": "関連概念",
+          "line": 50,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "fictionalized-affective-interaction->dangling:db0a664737c8",
+      "source": "fictionalized-affective-interaction",
+      "target": "dangling:db0a664737c8",
+      "source_label": "フィクション化された感情的相互作用",
+      "target_label": "擬人化（Anthropomorphism）",
+      "source_file": "concepts/fictionalized-affective-interaction.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "擬人化（Anthropomorphism）"
+      ],
+      "display_labels": [
+        "擬人化（Anthropomorphism）"
+      ],
+      "mentions": [
+        {
+          "raw_target": "擬人化（Anthropomorphism）",
+          "label": "擬人化（Anthropomorphism）",
+          "section": "関連概念",
+          "line": 49,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "fictionalized-affective-interaction->dangling:fbee123ac08d",
+      "source": "fictionalized-affective-interaction",
+      "target": "dangling:fbee123ac08d",
+      "source_label": "フィクション化された感情的相互作用",
+      "target_label": "社会的ロボティクス（Social Robotics）",
+      "source_file": "concepts/fictionalized-affective-interaction.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "社会的ロボティクス（Social Robotics）"
+      ],
+      "display_labels": [
+        "社会的ロボティクス（Social Robotics）"
+      ],
+      "mentions": [
+        {
+          "raw_target": "社会的ロボティクス（Social Robotics）",
+          "label": "社会的ロボティクス（Social Robotics）",
+          "section": "関連概念",
+          "line": 51,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "fictionalized-affective-interaction->human-ai-interaction",
+      "source": "fictionalized-affective-interaction",
+      "target": "human-ai-interaction",
+      "source_label": "フィクション化された感情的相互作用",
+      "target_label": "ヒューマンAIインタラクション",
+      "source_file": "concepts/fictionalized-affective-interaction.md",
+      "target_file": "concepts/human-ai-interaction.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "人間とAIの相互作用 (Human-AI Interaction)"
+      ],
+      "display_labels": [
+        "人間とAIの相互作用 (Human-AI Interaction)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "人間とAIの相互作用 (Human-AI Interaction)",
+          "label": "人間とAIの相互作用 (Human-AI Interaction)",
+          "section": "関連概念",
+          "line": 47,
+          "resolved_via": "alias"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "human-ai-interaction",
+        "human-ai-interaction-hci"
+      ]
+    },
+    {
       "id": "financial-accelerator->dangling:20cfad782446",
       "source": "financial-accelerator",
       "target": "dangling:20cfad782446",
@@ -133140,6 +135736,155 @@
       ],
       "ambiguous": false,
       "candidates": []
+    },
+    {
+      "id": "generative-ai-auditing-automation->corporate-governance",
+      "source": "generative-ai-auditing-automation",
+      "target": "corporate-governance",
+      "source_label": "生成AIによる監査自動化",
+      "target_label": "コーポレートガバナンス",
+      "source_file": "concepts/generative-ai-auditing-automation.md",
+      "target_file": "concepts/corporate-governance.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "コーポレートガバナンス"
+      ],
+      "display_labels": [
+        "コーポレートガバナンス"
+      ],
+      "mentions": [
+        {
+          "raw_target": "コーポレートガバナンス",
+          "label": "コーポレートガバナンス",
+          "section": "関連概念",
+          "line": 43,
+          "resolved_via": "alias"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "corporate-governance"
+      ]
+    },
+    {
+      "id": "generative-ai-auditing-automation->dangling:06824c788e48",
+      "source": "generative-ai-auditing-automation",
+      "target": "dangling:06824c788e48",
+      "source_label": "生成AIによる監査自動化",
+      "target_label": "品質保証 (QA)",
+      "source_file": "concepts/generative-ai-auditing-automation.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "品質保証 (QA)"
+      ],
+      "display_labels": [
+        "品質保証 (QA)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "品質保証 (QA)",
+          "label": "品質保証 (QA)",
+          "section": "関連概念",
+          "line": 44,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "generative-ai-auditing-automation->dangling:2c14bcc6333a",
+      "source": "generative-ai-auditing-automation",
+      "target": "dangling:2c14bcc6333a",
+      "source_label": "生成AIによる監査自動化",
+      "target_label": "ISO標準規格",
+      "source_file": "concepts/generative-ai-auditing-automation.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "ISO標準規格"
+      ],
+      "display_labels": [
+        "ISO標準規格"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ISO標準規格",
+          "label": "ISO標準規格",
+          "section": "関連概念",
+          "line": 45,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "generative-ai-auditing-automation->dangling:c9995ea91bf8",
+      "source": "generative-ai-auditing-automation",
+      "target": "dangling:c9995ea91bf8",
+      "source_label": "生成AIによる監査自動化",
+      "target_label": "コンプライアンス技術 (RegTech)",
+      "source_file": "concepts/generative-ai-auditing-automation.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "コンプライアンス技術 (RegTech)"
+      ],
+      "display_labels": [
+        "コンプライアンス技術 (RegTech)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "コンプライアンス技術 (RegTech)",
+          "label": "コンプライアンス技術 (RegTech)",
+          "section": "関連概念",
+          "line": 46,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "generative-ai-auditing-automation->sociotechnical-systems",
+      "source": "generative-ai-auditing-automation",
+      "target": "sociotechnical-systems",
+      "source_label": "生成AIによる監査自動化",
+      "target_label": "社会技術システム",
+      "source_file": "concepts/generative-ai-auditing-automation.md",
+      "target_file": "concepts/sociotechnical-systems.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "社会技術システム (STS)"
+      ],
+      "display_labels": [
+        "社会技術システム (STS)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "社会技術システム (STS)",
+          "label": "社会技術システム (STS)",
+          "section": "関連概念",
+          "line": 47,
+          "resolved_via": "alias"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "sociotechnical-systems"
+      ]
     },
     {
       "id": "generative-ai-augmented-feedback->ai-governance",
@@ -138098,6 +140843,246 @@
       ]
     },
     {
+      "id": "human-ai-co-creative-judgment->dangling:62fe31ea843b",
+      "source": "human-ai-co-creative-judgment",
+      "target": "dangling:62fe31ea843b",
+      "source_label": "人間とAIの共同創造における意思決定フレームワーク",
+      "target_label": "生成AIとデザイン思考 (Generative AI in Design Thinking)",
+      "source_file": "concepts/human-ai-co-creative-judgment.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "生成AIとデザイン思考 (Generative AI in Design Thinking)"
+      ],
+      "display_labels": [
+        "生成AIとデザイン思考 (Generative AI in Design Thinking)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "生成AIとデザイン思考 (Generative AI in Design Thinking)",
+          "label": "生成AIとデザイン思考 (Generative AI in Design Thinking)",
+          "section": "関連概念",
+          "line": 44,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "human-ai-co-creative-judgment->dangling:f745cf1d24d8",
+      "source": "human-ai-co-creative-judgment",
+      "target": "dangling:f745cf1d24d8",
+      "source_label": "人間とAIの共同創造における意思決定フレームワーク",
+      "target_label": "認知科学とデザイン決定 (Cognitive Science in Design Decision-making)",
+      "source_file": "concepts/human-ai-co-creative-judgment.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "認知科学とデザイン決定 (Cognitive Science in Design Decision-making)"
+      ],
+      "display_labels": [
+        "認知科学とデザイン決定 (Cognitive Science in Design Decision-making)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "認知科学とデザイン決定 (Cognitive Science in Design Decision-making)",
+          "label": "認知科学とデザイン決定 (Cognitive Science in Design Decision-making)",
+          "section": "関連概念",
+          "line": 46,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "human-ai-co-creative-judgment->human-ai-collaboration",
+      "source": "human-ai-co-creative-judgment",
+      "target": "human-ai-collaboration",
+      "source_label": "人間とAIの共同創造における意思決定フレームワーク",
+      "target_label": "人間とAIの協働",
+      "source_file": "concepts/human-ai-co-creative-judgment.md",
+      "target_file": "concepts/human-ai-collaboration.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "人間とAIの協調 (Human-AI Collaboration)"
+      ],
+      "display_labels": [
+        "人間とAIの協調 (Human-AI Collaboration)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "人間とAIの協調 (Human-AI Collaboration)",
+          "label": "人間とAIの協調 (Human-AI Collaboration)",
+          "section": "関連概念",
+          "line": 43,
+          "resolved_via": "alias"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "human-ai-collaboration"
+      ]
+    },
+    {
+      "id": "human-ai-co-creative-judgment->value-co-creation",
+      "source": "human-ai-co-creative-judgment",
+      "target": "value-co-creation",
+      "source_label": "人間とAIの共同創造における意思決定フレームワーク",
+      "target_label": "価値の共同創造 (コ・クリエーション)",
+      "source_file": "concepts/human-ai-co-creative-judgment.md",
+      "target_file": "concepts/value-co-creation.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "コ・クリエーション (Co-creation)"
+      ],
+      "display_labels": [
+        "コ・クリエーション (Co-creation)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "コ・クリエーション (Co-creation)",
+          "label": "コ・クリエーション (Co-creation)",
+          "section": "関連概念",
+          "line": 45,
+          "resolved_via": "alias"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "value-co-creation"
+      ]
+    },
+    {
+      "id": "human-ai-cognitive-augmentation->dangling:2e80e4e50e67",
+      "source": "human-ai-cognitive-augmentation",
+      "target": "dangling:2e80e4e50e67",
+      "source_label": "人間とAIの認知的拡張",
+      "target_label": "認知バイアス",
+      "source_file": "concepts/human-ai-cognitive-augmentation.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "認知バイアス"
+      ],
+      "display_labels": [
+        "認知バイアス"
+      ],
+      "mentions": [
+        {
+          "raw_target": "認知バイアス",
+          "label": "認知バイアス",
+          "section": "関連概念",
+          "line": 34,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "human-ai-cognitive-augmentation->dangling:6b6d9a3ea217",
+      "source": "human-ai-cognitive-augmentation",
+      "target": "dangling:6b6d9a3ea217",
+      "source_label": "人間とAIの認知的拡張",
+      "target_label": "複雑系科学",
+      "source_file": "concepts/human-ai-cognitive-augmentation.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "複雑系科学"
+      ],
+      "display_labels": [
+        "複雑系科学"
+      ],
+      "mentions": [
+        {
+          "raw_target": "複雑系科学",
+          "label": "複雑系科学",
+          "section": "関連概念",
+          "line": 32,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "human-ai-cognitive-augmentation->explainable-ai-xai",
+      "source": "human-ai-cognitive-augmentation",
+      "target": "explainable-ai-xai",
+      "source_label": "人間とAIの認知的拡張",
+      "target_label": "説明可能なAI (XAI)",
+      "source_file": "concepts/human-ai-cognitive-augmentation.md",
+      "target_file": "concepts/explainable-ai-xai.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "説明可能なAI (XAI)"
+      ],
+      "display_labels": [
+        "説明可能なAI (XAI)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "説明可能なAI (XAI)",
+          "label": "説明可能なAI (XAI)",
+          "section": "関連概念",
+          "line": 35,
+          "resolved_via": "alias"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "explainable-ai-xai"
+      ]
+    },
+    {
+      "id": "human-ai-cognitive-augmentation->human-ai-interaction-hci",
+      "source": "human-ai-cognitive-augmentation",
+      "target": "human-ai-interaction-hci",
+      "source_label": "人間とAIの認知的拡張",
+      "target_label": "人間とAIの相互作用 (HCI)",
+      "source_file": "concepts/human-ai-cognitive-augmentation.md",
+      "target_file": "concepts/human-ai-interaction-hci.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "人間とAIの相互作用 (HCI)"
+      ],
+      "display_labels": [
+        "人間とAIの相互作用 (HCI)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "人間とAIの相互作用 (HCI)",
+          "label": "人間とAIの相互作用 (HCI)",
+          "section": "関連概念",
+          "line": 33,
+          "resolved_via": "alias"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "human-ai-interaction-hci"
+      ]
+    },
+    {
       "id": "human-ai-cognitive-interaction->cognitive-load-theory",
       "source": "human-ai-cognitive-interaction",
       "target": "cognitive-load-theory",
@@ -141122,6 +144107,153 @@
       ]
     },
     {
+      "id": "human-oversight-mechanisms->dangling:2c0f88e7751b",
+      "source": "human-oversight-mechanisms",
+      "target": "dangling:2c0f88e7751b",
+      "source_label": "人間による監視メカニズム",
+      "target_label": "Human-in-the-Loop",
+      "source_file": "concepts/human-oversight-mechanisms.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "Human-in-the-Loop"
+      ],
+      "display_labels": [
+        "Human-in-the-Loop"
+      ],
+      "mentions": [
+        {
+          "raw_target": "Human-in-the-Loop",
+          "label": "Human-in-the-Loop",
+          "section": "関連概念",
+          "line": 35,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "human-oversight-mechanisms->dangling:6f4018753f71",
+      "source": "human-oversight-mechanisms",
+      "target": "dangling:6f4018753f71",
+      "source_label": "人間による監視メカニズム",
+      "target_label": "Human-on-the-Loop",
+      "source_file": "concepts/human-oversight-mechanisms.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "Human-on-the-Loop"
+      ],
+      "display_labels": [
+        "Human-on-the-Loop"
+      ],
+      "mentions": [
+        {
+          "raw_target": "Human-on-the-Loop",
+          "label": "Human-on-the-Loop",
+          "section": "関連概念",
+          "line": 36,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "human-oversight-mechanisms->dangling:9770ad717034",
+      "source": "human-oversight-mechanisms",
+      "target": "dangling:9770ad717034",
+      "source_label": "人間による監視メカニズム",
+      "target_label": "AI-Ops",
+      "source_file": "concepts/human-oversight-mechanisms.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "AI-Ops"
+      ],
+      "display_labels": [
+        "AI-Ops"
+      ],
+      "mentions": [
+        {
+          "raw_target": "AI-Ops",
+          "label": "AI-Ops",
+          "section": "関連概念",
+          "line": 39,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "human-oversight-mechanisms->dangling:9a9b15584537",
+      "source": "human-oversight-mechanisms",
+      "target": "dangling:9a9b15584537",
+      "source_label": "人間による監視メカニズム",
+      "target_label": "説明可能AI",
+      "source_file": "concepts/human-oversight-mechanisms.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "説明可能AI"
+      ],
+      "display_labels": [
+        "説明可能AI"
+      ],
+      "mentions": [
+        {
+          "raw_target": "説明可能AI",
+          "label": "説明可能AI",
+          "section": "関連概念",
+          "line": 37,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "human-oversight-mechanisms->multi-agent-systems",
+      "source": "human-oversight-mechanisms",
+      "target": "multi-agent-systems",
+      "source_label": "人間による監視メカニズム",
+      "target_label": "マルチエージェントシステム",
+      "source_file": "concepts/human-oversight-mechanisms.md",
+      "target_file": "concepts/multi-agent-systems.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "マルチエージェントシステム"
+      ],
+      "display_labels": [
+        "マルチエージェントシステム"
+      ],
+      "mentions": [
+        {
+          "raw_target": "マルチエージェントシステム",
+          "label": "マルチエージェントシステム",
+          "section": "関連概念",
+          "line": 38,
+          "resolved_via": "alias"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "multi-agent-systems"
+      ]
+    },
+    {
       "id": "hybrid-ai-governance-reliability->ai-governance",
       "source": "hybrid-ai-governance-reliability",
       "target": "ai-governance",
@@ -143558,6 +146690,151 @@
       "candidates": []
     },
     {
+      "id": "informal-digital-labor-structures->dangling:48a4ab91d877",
+      "source": "informal-digital-labor-structures",
+      "target": "dangling:48a4ab91d877",
+      "source_label": "非公式デジタル労働構造",
+      "target_label": "インフォーマルセクター",
+      "source_file": "concepts/informal-digital-labor-structures.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "インフォーマルセクター"
+      ],
+      "display_labels": [
+        "インフォーマルセクター"
+      ],
+      "mentions": [
+        {
+          "raw_target": "インフォーマルセクター",
+          "label": "インフォーマルセクター",
+          "section": "関連概念",
+          "line": 36,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "informal-digital-labor-structures->dangling:56d66c3e08fe",
+      "source": "informal-digital-labor-structures",
+      "target": "dangling:56d66c3e08fe",
+      "source_label": "非公式デジタル労働構造",
+      "target_label": "プラットフォーム労働",
+      "source_file": "concepts/informal-digital-labor-structures.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "プラットフォーム労働"
+      ],
+      "display_labels": [
+        "プラットフォーム労働"
+      ],
+      "mentions": [
+        {
+          "raw_target": "プラットフォーム労働",
+          "label": "プラットフォーム労働",
+          "section": "関連概念",
+          "line": 33,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "informal-digital-labor-structures->dangling:95beadf1eb8a",
+      "source": "informal-digital-labor-structures",
+      "target": "dangling:95beadf1eb8a",
+      "source_label": "非公式デジタル労働構造",
+      "target_label": "プレカリアート",
+      "source_file": "concepts/informal-digital-labor-structures.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "プレカリアート"
+      ],
+      "display_labels": [
+        "プレカリアート"
+      ],
+      "mentions": [
+        {
+          "raw_target": "プレカリアート",
+          "label": "プレカリアート",
+          "section": "関連概念",
+          "line": 35,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "informal-digital-labor-structures->dangling:a057b494fcc0",
+      "source": "informal-digital-labor-structures",
+      "target": "dangling:a057b494fcc0",
+      "source_label": "非公式デジタル労働構造",
+      "target_label": "ギグエコノミー",
+      "source_file": "concepts/informal-digital-labor-structures.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "ギグエコノミー"
+      ],
+      "display_labels": [
+        "ギグエコノミー"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ギグエコノミー",
+          "label": "ギグエコノミー",
+          "section": "関連概念",
+          "line": 32,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "informal-digital-labor-structures->dangling:da3d4caf869b",
+      "source": "informal-digital-labor-structures",
+      "target": "dangling:da3d4caf869b",
+      "source_label": "非公式デジタル労働構造",
+      "target_label": "デジタル包摂",
+      "source_file": "concepts/informal-digital-labor-structures.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "デジタル包摂"
+      ],
+      "display_labels": [
+        "デジタル包摂"
+      ],
+      "mentions": [
+        {
+          "raw_target": "デジタル包摂",
+          "label": "デジタル包摂",
+          "section": "関連概念",
+          "line": 34,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "id": "informational-task-entropy->dangling:315a7222cb2c",
       "source": "informational-task-entropy",
       "target": "dangling:315a7222cb2c",
@@ -145192,6 +148469,122 @@
       "candidates": []
     },
     {
+      "id": "institutional-steering-of-ai-competition->dangling:2d416d16a78f",
+      "source": "institutional-steering-of-ai-competition",
+      "target": "dangling:2d416d16a78f",
+      "source_label": "AI競争の制度的ステアリング",
+      "target_label": "AIセーフティ (AI Safety)",
+      "source_file": "concepts/institutional-steering-of-ai-competition.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "AIセーフティ (AI Safety)"
+      ],
+      "display_labels": [
+        "AIセーフティ (AI Safety)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "AIセーフティ (AI Safety)",
+          "label": "AIセーフティ (AI Safety)",
+          "section": "関連概念",
+          "line": 46,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "institutional-steering-of-ai-competition->dangling:c7dfd2e8f56e",
+      "source": "institutional-steering-of-ai-competition",
+      "target": "dangling:c7dfd2e8f56e",
+      "source_label": "AI競争の制度的ステアリング",
+      "target_label": "基盤モデルのガバナンス (Foundation Model Governance)",
+      "source_file": "concepts/institutional-steering-of-ai-competition.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "基盤モデルのガバナンス (Foundation Model Governance)"
+      ],
+      "display_labels": [
+        "基盤モデルのガバナンス (Foundation Model Governance)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "基盤モデルのガバナンス (Foundation Model Governance)",
+          "label": "基盤モデルのガバナンス (Foundation Model Governance)",
+          "section": "関連概念",
+          "line": 45,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "institutional-steering-of-ai-competition->dangling:d090545c0ba2",
+      "source": "institutional-steering-of-ai-competition",
+      "target": "dangling:d090545c0ba2",
+      "source_label": "AI競争の制度的ステアリング",
+      "target_label": "責任あるイノベーション (Responsible Innovation)",
+      "source_file": "concepts/institutional-steering-of-ai-competition.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "責任あるイノベーション (Responsible Innovation)"
+      ],
+      "display_labels": [
+        "責任あるイノベーション (Responsible Innovation)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "責任あるイノベーション (Responsible Innovation)",
+          "label": "責任あるイノベーション (Responsible Innovation)",
+          "section": "関連概念",
+          "line": 44,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "institutional-steering-of-ai-competition->dangling:d7f92697cd89",
+      "source": "institutional-steering-of-ai-competition",
+      "target": "dangling:d7f92697cd89",
+      "source_label": "AI競争の制度的ステアリング",
+      "target_label": "分配の正義 (Distributive Justice)",
+      "source_file": "concepts/institutional-steering-of-ai-competition.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "分配の正義 (Distributive Justice)"
+      ],
+      "display_labels": [
+        "分配の正義 (Distributive Justice)"
+      ],
+      "mentions": [
+        {
+          "raw_target": "分配の正義 (Distributive Justice)",
+          "label": "分配の正義 (Distributive Justice)",
+          "section": "関連概念",
+          "line": 47,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "id": "institutions-and-economic-growth->dangling:69e0071972f4",
       "source": "institutions-and-economic-growth",
       "target": "dangling:69e0071972f4",
@@ -145330,6 +148723,156 @@
           "label": "起業家精神",
           "section": "関連概念",
           "line": 26,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "intelligent-financial-mitigation->corporate-finance",
+      "source": "intelligent-financial-mitigation",
+      "target": "corporate-finance",
+      "source_label": "財務インテリジェント化による資金調達制約緩和",
+      "target_label": "コーポレートファイナンス",
+      "source_file": "concepts/intelligent-financial-mitigation.md",
+      "target_file": "concepts/corporate-finance.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "コーポレートファイナンス"
+      ],
+      "display_labels": [
+        "コーポレートファイナンス"
+      ],
+      "mentions": [
+        {
+          "raw_target": "コーポレートファイナンス",
+          "label": "コーポレートファイナンス",
+          "section": "関連概念",
+          "line": 34,
+          "resolved_via": "alias"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "corporate-finance"
+      ]
+    },
+    {
+      "id": "intelligent-financial-mitigation->dangling:2a121f442a1b",
+      "source": "intelligent-financial-mitigation",
+      "target": "dangling:2a121f442a1b",
+      "source_label": "財務インテリジェント化による資金調達制約緩和",
+      "target_label": "データ資産",
+      "source_file": "concepts/intelligent-financial-mitigation.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "データ資産"
+      ],
+      "display_labels": [
+        "データ資産"
+      ],
+      "mentions": [
+        {
+          "raw_target": "データ資産",
+          "label": "データ資産",
+          "section": "関連概念",
+          "line": 37,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "intelligent-financial-mitigation->dangling:dfa886c9b1cd",
+      "source": "intelligent-financial-mitigation",
+      "target": "dangling:dfa886c9b1cd",
+      "source_label": "財務インテリジェント化による資金調達制約緩和",
+      "target_label": "インテリジェント財務",
+      "source_file": "concepts/intelligent-financial-mitigation.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "インテリジェント財務"
+      ],
+      "display_labels": [
+        "インテリジェント財務"
+      ],
+      "mentions": [
+        {
+          "raw_target": "インテリジェント財務",
+          "label": "インテリジェント財務",
+          "section": "関連概念",
+          "line": 38,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "intelligent-financial-mitigation->dangling:f3503ef016f4",
+      "source": "intelligent-financial-mitigation",
+      "target": "dangling:f3503ef016f4",
+      "source_label": "財務インテリジェント化による資金調達制約緩和",
+      "target_label": "デジタルトランスフォーメーション",
+      "source_file": "concepts/intelligent-financial-mitigation.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "デジタルトランスフォーメーション"
+      ],
+      "display_labels": [
+        "デジタルトランスフォーメーション"
+      ],
+      "mentions": [
+        {
+          "raw_target": "デジタルトランスフォーメーション",
+          "label": "デジタルトランスフォーメーション",
+          "section": "関連概念",
+          "line": 35,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": true,
+      "candidates": [
+        "digital-transformation",
+        "digital_transformation"
+      ]
+    },
+    {
+      "id": "intelligent-financial-mitigation->dangling:f766446310bb",
+      "source": "intelligent-financial-mitigation",
+      "target": "dangling:f766446310bb",
+      "source_label": "財務インテリジェント化による資金調達制約緩和",
+      "target_label": "情報の非対称性",
+      "source_file": "concepts/intelligent-financial-mitigation.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "情報の非対称性"
+      ],
+      "display_labels": [
+        "情報の非対称性"
+      ],
+      "mentions": [
+        {
+          "raw_target": "情報の非対称性",
+          "label": "情報の非対称性",
+          "section": "関連概念",
+          "line": 36,
           "resolved_via": null
         }
       ],
@@ -147541,6 +151084,151 @@
           "label": "訴訟社会",
           "section": "関連概念",
           "line": 45,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "kerrigans-law->dangling:34c366750cad",
+      "source": "kerrigans-law",
+      "target": "dangling:34c366750cad",
+      "source_label": "ケリガンの法則",
+      "target_label": "同期（シンクロニシティ）",
+      "source_file": "concepts/kerrigans-law.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "同期（シンクロニシティ）"
+      ],
+      "display_labels": [
+        "同期（シンクロニシティ）"
+      ],
+      "mentions": [
+        {
+          "raw_target": "同期（シンクロニシティ）",
+          "label": "同期（シンクロニシティ）",
+          "section": "関連概念",
+          "line": 44,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "kerrigans-law->dangling:5dd68e339182",
+      "source": "kerrigans-law",
+      "target": "dangling:5dd68e339182",
+      "source_label": "ケリガンの法則",
+      "target_label": "分散型人工知能",
+      "source_file": "concepts/kerrigans-law.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "分散型人工知能"
+      ],
+      "display_labels": [
+        "分散型人工知能"
+      ],
+      "mentions": [
+        {
+          "raw_target": "分散型人工知能",
+          "label": "分散型人工知能",
+          "section": "関連概念",
+          "line": 45,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "kerrigans-law->dangling:6b6d9a3ea217",
+      "source": "kerrigans-law",
+      "target": "dangling:6b6d9a3ea217",
+      "source_label": "ケリガンの法則",
+      "target_label": "複雑系科学",
+      "source_file": "concepts/kerrigans-law.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "複雑系科学"
+      ],
+      "display_labels": [
+        "複雑系科学"
+      ],
+      "mentions": [
+        {
+          "raw_target": "複雑系科学",
+          "label": "複雑系科学",
+          "section": "関連概念",
+          "line": 42,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "kerrigans-law->dangling:a5eeff8dd568",
+      "source": "kerrigans-law",
+      "target": "dangling:a5eeff8dd568",
+      "source_label": "ケリガンの法則",
+      "target_label": "自己組織化",
+      "source_file": "concepts/kerrigans-law.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "自己組織化"
+      ],
+      "display_labels": [
+        "自己組織化"
+      ],
+      "mentions": [
+        {
+          "raw_target": "自己組織化",
+          "label": "自己組織化",
+          "section": "関連概念",
+          "line": 43,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "kerrigans-law->dangling:ba5202a7e0a9",
+      "source": "kerrigans-law",
+      "target": "dangling:ba5202a7e0a9",
+      "source_label": "ケリガンの法則",
+      "target_label": "群知能",
+      "source_file": "concepts/kerrigans-law.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "群知能"
+      ],
+      "display_labels": [
+        "群知能"
+      ],
+      "mentions": [
+        {
+          "raw_target": "群知能",
+          "label": "群知能",
+          "section": "関連概念",
+          "line": 46,
           "resolved_via": null
         }
       ],
@@ -158215,6 +161903,126 @@
       "candidates": []
     },
     {
+      "id": "organizational-ethical-translation->ai-governance",
+      "source": "organizational-ethical-translation",
+      "target": "ai-governance",
+      "source_label": "倫理原則の組織的実践変換",
+      "target_label": "AIガバナンス",
+      "source_file": "concepts/organizational-ethical-translation.md",
+      "target_file": "concepts/ai-governance.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "AIガバナンス"
+      ],
+      "display_labels": [
+        "AIガバナンス"
+      ],
+      "mentions": [
+        {
+          "raw_target": "AIガバナンス",
+          "label": "AIガバナンス",
+          "section": "関連概念",
+          "line": 39,
+          "resolved_via": "alias"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-governance"
+      ]
+    },
+    {
+      "id": "organizational-ethical-translation->dangling:77344121a26e",
+      "source": "organizational-ethical-translation",
+      "target": "dangling:77344121a26e",
+      "source_label": "倫理原則の組織的実践変換",
+      "target_label": "AI倫理",
+      "source_file": "concepts/organizational-ethical-translation.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "AI倫理"
+      ],
+      "display_labels": [
+        "AI倫理"
+      ],
+      "mentions": [
+        {
+          "raw_target": "AI倫理",
+          "label": "AI倫理",
+          "section": "関連概念",
+          "line": 38,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "organizational-ethical-translation->dangling:7e4f7f93c6b1",
+      "source": "organizational-ethical-translation",
+      "target": "dangling:7e4f7f93c6b1",
+      "source_label": "倫理原則の組織的実践変換",
+      "target_label": "責任あるAI",
+      "source_file": "concepts/organizational-ethical-translation.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "責任あるAI"
+      ],
+      "display_labels": [
+        "責任あるAI"
+      ],
+      "mentions": [
+        {
+          "raw_target": "責任あるAI",
+          "label": "責任あるAI",
+          "section": "関連概念",
+          "line": 41,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "organizational-ethical-translation->explainable-ai-xai",
+      "source": "organizational-ethical-translation",
+      "target": "explainable-ai-xai",
+      "source_label": "倫理原則の組織的実践変換",
+      "target_label": "説明可能なAI (XAI)",
+      "source_file": "concepts/organizational-ethical-translation.md",
+      "target_file": "concepts/explainable-ai-xai.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "説明可能なAI"
+      ],
+      "display_labels": [
+        "説明可能なAI"
+      ],
+      "mentions": [
+        {
+          "raw_target": "説明可能なAI",
+          "label": "説明可能なAI",
+          "section": "関連概念",
+          "line": 40,
+          "resolved_via": "alias"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "explainable-ai-xai"
+      ]
+    },
+    {
       "id": "organizational-identity-restoration->dangling:0f8b2950865e",
       "source": "organizational-identity-restoration",
       "target": "dangling:0f8b2950865e",
@@ -159707,6 +163515,151 @@
       "candidates": []
     },
     {
+      "id": "pgg-with-game-transitions->dangling:3473e853b955",
+      "source": "pgg-with-game-transitions",
+      "target": "dangling:3473e853b955",
+      "source_label": "ゲーム遷移を伴う公共財ゲーム",
+      "target_label": "進化ゲーム理論",
+      "source_file": "concepts/pgg-with-game-transitions.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "進化ゲーム理論"
+      ],
+      "display_labels": [
+        "進化ゲーム理論"
+      ],
+      "mentions": [
+        {
+          "raw_target": "進化ゲーム理論",
+          "label": "進化ゲーム理論",
+          "section": "関連概念",
+          "line": 47,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "pgg-with-game-transitions->dangling:79287ab811dc",
+      "source": "pgg-with-game-transitions",
+      "target": "dangling:79287ab811dc",
+      "source_label": "ゲーム遷移を伴う公共財ゲーム",
+      "target_label": "複雑ネットワーク",
+      "source_file": "concepts/pgg-with-game-transitions.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "複雑ネットワーク"
+      ],
+      "display_labels": [
+        "複雑ネットワーク"
+      ],
+      "mentions": [
+        {
+          "raw_target": "複雑ネットワーク",
+          "label": "複雑ネットワーク",
+          "section": "関連概念",
+          "line": 50,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "pgg-with-game-transitions->dangling:8b8344ef65ff",
+      "source": "pgg-with-game-transitions",
+      "target": "dangling:8b8344ef65ff",
+      "source_label": "ゲーム遷移を伴う公共財ゲーム",
+      "target_label": "社会的ジレンマ",
+      "source_file": "concepts/pgg-with-game-transitions.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "社会的ジレンマ"
+      ],
+      "display_labels": [
+        "社会的ジレンマ"
+      ],
+      "mentions": [
+        {
+          "raw_target": "社会的ジレンマ",
+          "label": "社会的ジレンマ",
+          "section": "関連概念",
+          "line": 51,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "pgg-with-game-transitions->dangling:8c2f40bebc3b",
+      "source": "pgg-with-game-transitions",
+      "target": "dangling:8c2f40bebc3b",
+      "source_label": "ゲーム遷移を伴う公共財ゲーム",
+      "target_label": "公共財ゲーム",
+      "source_file": "concepts/pgg-with-game-transitions.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "公共財ゲーム"
+      ],
+      "display_labels": [
+        "公共財ゲーム"
+      ],
+      "mentions": [
+        {
+          "raw_target": "公共財ゲーム",
+          "label": "公共財ゲーム",
+          "section": "関連概念",
+          "line": 48,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "pgg-with-game-transitions->dangling:c56f683dad6c",
+      "source": "pgg-with-game-transitions",
+      "target": "dangling:c56f683dad6c",
+      "source_label": "ゲーム遷移を伴う公共財ゲーム",
+      "target_label": "ハイパーグラフ",
+      "source_file": "concepts/pgg-with-game-transitions.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "ハイパーグラフ"
+      ],
+      "display_labels": [
+        "ハイパーグラフ"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ハイパーグラフ",
+          "label": "ハイパーグラフ",
+          "section": "関連概念",
+          "line": 49,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "id": "plastisphere-and-antimicrobial-resistance->niche-construction",
       "source": "plastisphere-and-antimicrobial-resistance",
       "target": "niche-construction",
@@ -160464,6 +164417,153 @@
       "ambiguous": false,
       "candidates": [
         "discriminant-validity"
+      ]
+    },
+    {
+      "id": "poetic-mathematics->dangling:164d0fe82acc",
+      "source": "poetic-mathematics",
+      "target": "dangling:164d0fe82acc",
+      "source_label": "詩的数学",
+      "target_label": "予測処理",
+      "source_file": "concepts/poetic-mathematics.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "予測処理"
+      ],
+      "display_labels": [
+        "予測処理"
+      ],
+      "mentions": [
+        {
+          "raw_target": "予測処理",
+          "label": "予測処理",
+          "section": "関連概念",
+          "line": 34,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "poetic-mathematics->dangling:494268a59785",
+      "source": "poetic-mathematics",
+      "target": "dangling:494268a59785",
+      "source_label": "詩的数学",
+      "target_label": "アテンション・スキーマ理論",
+      "source_file": "concepts/poetic-mathematics.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "アテンション・スキーマ理論"
+      ],
+      "display_labels": [
+        "アテンション・スキーマ理論"
+      ],
+      "mentions": [
+        {
+          "raw_target": "アテンション・スキーマ理論",
+          "label": "アテンション・スキーマ理論",
+          "section": "関連概念",
+          "line": 33,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "poetic-mathematics->dangling:6402b2b4500f",
+      "source": "poetic-mathematics",
+      "target": "dangling:6402b2b4500f",
+      "source_label": "詩的数学",
+      "target_label": "人工知能",
+      "source_file": "concepts/poetic-mathematics.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "人工知能"
+      ],
+      "display_labels": [
+        "人工知能"
+      ],
+      "mentions": [
+        {
+          "raw_target": "人工知能",
+          "label": "人工知能",
+          "section": "関連概念",
+          "line": 35,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "poetic-mathematics->dangling:6beba159ad4a",
+      "source": "poetic-mathematics",
+      "target": "dangling:6beba159ad4a",
+      "source_label": "詩的数学",
+      "target_label": "意識のハードプロブレム",
+      "source_file": "concepts/poetic-mathematics.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "意識のハードプロブレム"
+      ],
+      "display_labels": [
+        "意識のハードプロブレム"
+      ],
+      "mentions": [
+        {
+          "raw_target": "意識のハードプロブレム",
+          "label": "意識のハードプロブレム",
+          "section": "関連概念",
+          "line": 32,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "poetic-mathematics->exploration-theory-cognitive-science",
+      "source": "poetic-mathematics",
+      "target": "exploration-theory-cognitive-science",
+      "source_label": "詩的数学",
+      "target_label": "探索理論（認知科学）",
+      "source_file": "concepts/poetic-mathematics.md",
+      "target_file": "concepts/exploration-theory-cognitive-science.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "認知科学"
+      ],
+      "display_labels": [
+        "認知科学"
+      ],
+      "mentions": [
+        {
+          "raw_target": "認知科学",
+          "label": "認知科学",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "alias"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "exploration-theory-cognitive-science"
       ]
     },
     {
@@ -173649,6 +177749,157 @@
       ]
     },
     {
+      "id": "sustainable-digital-transformation-tradeoffs->dangling:3531bd89eeec",
+      "source": "sustainable-digital-transformation-tradeoffs",
+      "target": "dangling:3531bd89eeec",
+      "source_label": "持続可能なデジタルトランスフォーメーションのトレードオフ",
+      "target_label": "グリーンAI",
+      "source_file": "concepts/sustainable-digital-transformation-tradeoffs.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "グリーンAI"
+      ],
+      "display_labels": [
+        "グリーンAI"
+      ],
+      "mentions": [
+        {
+          "raw_target": "グリーンAI",
+          "label": "グリーンAI",
+          "section": "関連概念",
+          "line": 28,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "sustainable-digital-transformation-tradeoffs->dangling:5d22d6102c17",
+      "source": "sustainable-digital-transformation-tradeoffs",
+      "target": "dangling:5d22d6102c17",
+      "source_label": "持続可能なデジタルトランスフォーメーションのトレードオフ",
+      "target_label": "企業の社会的責任（CSR）",
+      "source_file": "concepts/sustainable-digital-transformation-tradeoffs.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "企業の社会的責任（CSR）"
+      ],
+      "display_labels": [
+        "企業の社会的責任（CSR）"
+      ],
+      "mentions": [
+        {
+          "raw_target": "企業の社会的責任（CSR）",
+          "label": "企業の社会的責任（CSR）",
+          "section": "関連概念",
+          "line": 32,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": true,
+      "candidates": [
+        "corporate-social-responsibility-and-buying-behavior",
+        "corporate-social-responsibility-evolution"
+      ]
+    },
+    {
+      "id": "sustainable-digital-transformation-tradeoffs->dangling:609f26bd479c",
+      "source": "sustainable-digital-transformation-tradeoffs",
+      "target": "dangling:609f26bd479c",
+      "source_label": "持続可能なデジタルトランスフォーメーションのトレードオフ",
+      "target_label": "カーボンフットプリント",
+      "source_file": "concepts/sustainable-digital-transformation-tradeoffs.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "カーボンフットプリント"
+      ],
+      "display_labels": [
+        "カーボンフットプリント"
+      ],
+      "mentions": [
+        {
+          "raw_target": "カーボンフットプリント",
+          "label": "カーボンフットプリント",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "sustainable-digital-transformation-tradeoffs->dangling:d98faf6e977b",
+      "source": "sustainable-digital-transformation-tradeoffs",
+      "target": "dangling:d98faf6e977b",
+      "source_label": "持続可能なデジタルトランスフォーメーションのトレードオフ",
+      "target_label": "サステナビリティ",
+      "source_file": "concepts/sustainable-digital-transformation-tradeoffs.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "サステナビリティ"
+      ],
+      "display_labels": [
+        "サステナビリティ"
+      ],
+      "mentions": [
+        {
+          "raw_target": "サステナビリティ",
+          "label": "サステナビリティ",
+          "section": "関連概念",
+          "line": 30,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "sustainable-digital-transformation-tradeoffs->dangling:f3503ef016f4",
+      "source": "sustainable-digital-transformation-tradeoffs",
+      "target": "dangling:f3503ef016f4",
+      "source_label": "持続可能なデジタルトランスフォーメーションのトレードオフ",
+      "target_label": "デジタルトランスフォーメーション",
+      "source_file": "concepts/sustainable-digital-transformation-tradeoffs.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "デジタルトランスフォーメーション"
+      ],
+      "display_labels": [
+        "デジタルトランスフォーメーション"
+      ],
+      "mentions": [
+        {
+          "raw_target": "デジタルトランスフォーメーション",
+          "label": "デジタルトランスフォーメーション",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": true,
+      "candidates": [
+        "digital-transformation",
+        "digital_transformation"
+      ]
+    },
+    {
       "id": "synthetic-conversation-testing->dangling:178e4b4c3c53",
       "source": "synthetic-conversation-testing",
       "target": "dangling:178e4b4c3c53",
@@ -178057,6 +182308,151 @@
       ]
     },
     {
+      "id": "trust-continuity->dangling:18494b1b6e78",
+      "source": "trust-continuity",
+      "target": "dangling:18494b1b6e78",
+      "source_label": "信頼の継続性とアイデンティティ検証",
+      "target_label": "アイデンティティ・アクセス管理",
+      "source_file": "concepts/trust-continuity.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "アイデンティティ・アクセス管理"
+      ],
+      "display_labels": [
+        "アイデンティティ・アクセス管理"
+      ],
+      "mentions": [
+        {
+          "raw_target": "アイデンティティ・アクセス管理",
+          "label": "アイデンティティ・アクセス管理",
+          "section": "関連概念",
+          "line": 51,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "trust-continuity->dangling:1e627f834031",
+      "source": "trust-continuity",
+      "target": "dangling:1e627f834031",
+      "source_label": "信頼の継続性とアイデンティティ検証",
+      "target_label": "大規模言語モデル",
+      "source_file": "concepts/trust-continuity.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "大規模言語モデル"
+      ],
+      "display_labels": [
+        "大規模言語モデル"
+      ],
+      "mentions": [
+        {
+          "raw_target": "大規模言語モデル",
+          "label": "大規模言語モデル",
+          "section": "関連概念",
+          "line": 49,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "trust-continuity->dangling:98b232685819",
+      "source": "trust-continuity",
+      "target": "dangling:98b232685819",
+      "source_label": "信頼の継続性とアイデンティティ検証",
+      "target_label": "ソーシャルエンジニアリング",
+      "source_file": "concepts/trust-continuity.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "ソーシャルエンジニアリング"
+      ],
+      "display_labels": [
+        "ソーシャルエンジニアリング"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ソーシャルエンジニアリング",
+          "label": "ソーシャルエンジニアリング",
+          "section": "関連概念",
+          "line": 52,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "trust-continuity->dangling:9a416a0ed0ef",
+      "source": "trust-continuity",
+      "target": "dangling:9a416a0ed0ef",
+      "source_label": "信頼の継続性とアイデンティティ検証",
+      "target_label": "行動バイオメトリクス",
+      "source_file": "concepts/trust-continuity.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "行動バイオメトリクス"
+      ],
+      "display_labels": [
+        "行動バイオメトリクス"
+      ],
+      "mentions": [
+        {
+          "raw_target": "行動バイオメトリクス",
+          "label": "行動バイオメトリクス",
+          "section": "関連概念",
+          "line": 50,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "id": "trust-continuity->dangling:f6dc0cf1b182",
+      "source": "trust-continuity",
+      "target": "dangling:f6dc0cf1b182",
+      "source_label": "信頼の継続性とアイデンティティ検証",
+      "target_label": "ゼロトラスト・アーキテクチャ",
+      "source_file": "concepts/trust-continuity.md",
+      "target_file": null,
+      "relation": "wikilink",
+      "resolved": false,
+      "weight": 1,
+      "raw_targets": [
+        "ゼロトラスト・アーキテクチャ"
+      ],
+      "display_labels": [
+        "ゼロトラスト・アーキテクチャ"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ゼロトラスト・アーキテクチャ",
+          "label": "ゼロトラスト・アーキテクチャ",
+          "section": "関連概念",
+          "line": 48,
+          "resolved_via": null
+        }
+      ],
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "id": "trust-in-automation->dangling:26e154b2a2f6",
       "source": "trust-in-automation",
       "target": "dangling:26e154b2a2f6",
@@ -180392,6 +184788,18 @@
       "candidates": []
     },
     {
+      "source_slug": "human-oversight-mechanisms",
+      "source_title": "人間による監視メカニズム",
+      "source_file": "concepts/human-oversight-mechanisms.md",
+      "target": "dangling:9770ad717034",
+      "raw_target": "AI-Ops",
+      "label": "AI-Ops",
+      "section": "関連概念",
+      "line": 39,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "agent-driven-xops-architecture",
       "source_title": "エージェント駆動型XOpsリファレンスアーキテクチャ",
       "source_file": "concepts/agent-driven-xops-architecture.md",
@@ -180704,6 +185112,18 @@
       "candidates": []
     },
     {
+      "source_slug": "ai-accountability-attribution",
+      "source_title": "AIシステムの責任帰属",
+      "source_file": "concepts/ai-accountability-attribution.md",
+      "target": "dangling:8b25a28060e3",
+      "raw_target": "AIの説明責任",
+      "label": "AIの説明責任",
+      "section": "関連概念",
+      "line": 34,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "ethical-considerations-in-ai",
       "source_title": "AIにおける倫理的考察",
       "source_file": "concepts/ethical-considerations-in-ai.md",
@@ -180956,6 +185376,18 @@
       "candidates": []
     },
     {
+      "source_slug": "computational-reference-models",
+      "source_title": "計算参照モデル",
+      "source_file": "concepts/computational-reference-models.md",
+      "target": "dangling:dbf67ba5cf8f",
+      "raw_target": "AIセーフティ",
+      "label": "AIセーフティ",
+      "section": "関連概念",
+      "line": 45,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "ontological-safety",
       "source_title": "存在論的安全（AI安全性）",
       "source_file": "concepts/ontological-safety.md",
@@ -180964,6 +185396,18 @@
       "label": "AIセーフティ",
       "section": "関連概念",
       "line": 47,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "institutional-steering-of-ai-competition",
+      "source_title": "AI競争の制度的ステアリング",
+      "source_file": "concepts/institutional-steering-of-ai-competition.md",
+      "target": "dangling:2d416d16a78f",
+      "raw_target": "AIセーフティ (AI Safety)",
+      "label": "AIセーフティ (AI Safety)",
+      "section": "関連概念",
+      "line": 46,
       "ambiguous": false,
       "candidates": []
     },
@@ -181420,6 +185864,18 @@
       "label": "AI倫理",
       "section": "関連概念",
       "line": 40,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "organizational-ethical-translation",
+      "source_title": "倫理原則の組織的実践変換",
+      "source_file": "concepts/organizational-ethical-translation.md",
+      "target": "dangling:77344121a26e",
+      "raw_target": "AI倫理",
+      "label": "AI倫理",
+      "section": "関連概念",
+      "line": 38,
       "ambiguous": false,
       "candidates": []
     },
@@ -182108,6 +186564,18 @@
       "candidates": []
     },
     {
+      "source_slug": "human-oversight-mechanisms",
+      "source_title": "人間による監視メカニズム",
+      "source_file": "concepts/human-oversight-mechanisms.md",
+      "target": "dangling:2c0f88e7751b",
+      "raw_target": "Human-in-the-Loop",
+      "label": "Human-in-the-Loop",
+      "section": "関連概念",
+      "line": 35,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "collaborative-intelligence",
       "source_title": "協調的知性",
       "source_file": "concepts/collaborative-intelligence.md",
@@ -182156,6 +186624,18 @@
       "candidates": []
     },
     {
+      "source_slug": "human-oversight-mechanisms",
+      "source_title": "人間による監視メカニズム",
+      "source_file": "concepts/human-oversight-mechanisms.md",
+      "target": "dangling:6f4018753f71",
+      "raw_target": "Human-on-the-Loop",
+      "label": "Human-on-the-Loop",
+      "section": "関連概念",
+      "line": 36,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "technology-activity-outcome-framework",
       "source_title": "技術-活動-成果フレームワーク",
       "source_file": "concepts/technology-activity-outcome-framework.md",
@@ -182200,6 +186680,18 @@
       "label": "ISO 26262",
       "section": "関連概念",
       "line": 35,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "generative-ai-auditing-automation",
+      "source_title": "生成AIによる監査自動化",
+      "source_file": "concepts/generative-ai-auditing-automation.md",
+      "target": "dangling:2c14bcc6333a",
+      "raw_target": "ISO標準規格",
+      "label": "ISO標準規格",
+      "section": "関連概念",
+      "line": 45,
       "ambiguous": false,
       "candidates": []
     },
@@ -182296,6 +186788,18 @@
       "label": "IUCNレッドリスト・カテゴリー",
       "section": "関連概念",
       "line": 33,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "computational-reference-models",
+      "source_title": "計算参照モデル",
+      "source_file": "concepts/computational-reference-models.md",
+      "target": "dangling:39bebc0161c0",
+      "raw_target": "Jupyter Notebook",
+      "label": "Jupyter Notebook",
+      "section": "関連概念",
+      "line": 48,
       "ambiguous": false,
       "candidates": []
     },
@@ -182780,6 +187284,18 @@
       "candidates": []
     },
     {
+      "source_slug": "computational-reference-models",
+      "source_title": "計算参照モデル",
+      "source_file": "concepts/computational-reference-models.md",
+      "target": "dangling:a1fd68f01173",
+      "raw_target": "SymPy",
+      "label": "SymPy",
+      "section": "関連概念",
+      "line": 47,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "ai-subjectivity-formalism",
       "source_title": "AI主体性検出基準 (SΔϕ定式化)",
       "source_file": "concepts/ai-subjectivity-formalism.md",
@@ -183052,6 +187568,18 @@
       "label": "べき乗則",
       "section": "関連概念",
       "line": 40,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "trust-continuity",
+      "source_title": "信頼の継続性とアイデンティティ検証",
+      "source_file": "concepts/trust-continuity.md",
+      "target": "dangling:18494b1b6e78",
+      "raw_target": "アイデンティティ・アクセス管理",
+      "label": "アイデンティティ・アクセス管理",
+      "section": "関連概念",
+      "line": 51,
       "ambiguous": false,
       "candidates": []
     },
@@ -183404,6 +187932,18 @@
       "candidates": []
     },
     {
+      "source_slug": "poetic-mathematics",
+      "source_title": "詩的数学",
+      "source_file": "concepts/poetic-mathematics.md",
+      "target": "dangling:494268a59785",
+      "raw_target": "アテンション・スキーマ理論",
+      "label": "アテンション・スキーマ理論",
+      "section": "関連概念",
+      "line": 33,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "volitional-motion-theory",
       "source_title": "意志運動理論",
       "source_file": "concepts/volitional-motion-theory.md",
@@ -183508,6 +188048,18 @@
       "label": "アミロイドβ",
       "section": "関連概念",
       "line": 41,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "computational-reference-models",
+      "source_title": "計算参照モデル",
+      "source_file": "concepts/computational-reference-models.md",
+      "target": "dangling:117cc31bb8ed",
+      "raw_target": "アライメント",
+      "label": "アライメント",
+      "section": "関連概念",
+      "line": 46,
       "ambiguous": false,
       "candidates": []
     },
@@ -183928,6 +188480,18 @@
       "label": "アルゴリズム監査 (Algorithmic Auditing)",
       "section": "関連概念",
       "line": 42,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "algorithmic-black-box-auditing",
+      "source_title": "アルゴリズム意思決定における監査・説明責任の不確実性",
+      "source_file": "concepts/algorithmic-black-box-auditing.md",
+      "target": "dangling:90f2c51aa697",
+      "raw_target": "アルゴリズム監査 (Algorithmic Auditing)",
+      "label": "アルゴリズム監査 (Algorithmic Auditing)",
+      "section": "関連概念",
+      "line": 39,
       "ambiguous": false,
       "candidates": []
     },
@@ -184760,6 +189324,18 @@
       "candidates": []
     },
     {
+      "source_slug": "intelligent-financial-mitigation",
+      "source_title": "財務インテリジェント化による資金調達制約緩和",
+      "source_file": "concepts/intelligent-financial-mitigation.md",
+      "target": "dangling:dfa886c9b1cd",
+      "raw_target": "インテリジェント財務",
+      "label": "インテリジェント財務",
+      "section": "関連概念",
+      "line": 38,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "customary-forest-management",
       "source_title": "慣習林管理と政策課題",
       "source_file": "concepts/customary-forest-management.md",
@@ -184768,6 +189344,18 @@
       "label": "インドネシアの森林管理",
       "section": "関連概念",
       "line": 17,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "informal-digital-labor-structures",
+      "source_title": "非公式デジタル労働構造",
+      "source_file": "concepts/informal-digital-labor-structures.md",
+      "target": "dangling:48a4ab91d877",
+      "raw_target": "インフォーマルセクター",
+      "label": "インフォーマルセクター",
+      "section": "関連概念",
+      "line": 36,
       "ambiguous": false,
       "candidates": []
     },
@@ -184852,6 +189440,18 @@
       "label": "ウェルビーイングと回復力",
       "section": "関連概念",
       "line": 45,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "fictionalized-affective-interaction",
+      "source_title": "フィクション化された感情的相互作用",
+      "source_file": "concepts/fictionalized-affective-interaction.md",
+      "target": "dangling:8445a957164b",
+      "raw_target": "ウェルビーイング（Well-being）",
+      "label": "ウェルビーイング（Well-being）",
+      "section": "関連概念",
+      "line": 48,
       "ambiguous": false,
       "candidates": []
     },
@@ -185384,6 +189984,18 @@
       "candidates": []
     },
     {
+      "source_slug": "delegated-cognition",
+      "source_title": "委譲された認知",
+      "source_file": "concepts/delegated-cognition.md",
+      "target": "dangling:9eaddb5f9e8e",
+      "raw_target": "エージェンシー（Agency / 主体性）",
+      "label": "エージェンシー（Agency / 主体性）",
+      "section": "関連概念",
+      "line": 37,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "ai-augmented-leadership",
       "source_title": "AI拡張リーダーシップ",
       "source_file": "concepts/ai-augmented-leadership.md",
@@ -185404,6 +190016,18 @@
       "label": "エージェントAI",
       "section": "関連概念",
       "line": 37,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "autonomous-procurement-architecture",
+      "source_title": "自律型調達アーキテクチャ",
+      "source_file": "concepts/autonomous-procurement-architecture.md",
+      "target": "dangling:cc0bbf839519",
+      "raw_target": "エージェントAI",
+      "label": "エージェントAI",
+      "section": "関連概念",
+      "line": 36,
       "ambiguous": false,
       "candidates": []
     },
@@ -185440,6 +190064,18 @@
       "label": "エージェント制御 (Agent Control)",
       "section": "関連概念",
       "line": 49,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "agentic-digital-thread",
+      "source_title": "自律エージェント型デジタルスレッド",
+      "source_file": "concepts/agentic-digital-thread.md",
+      "target": "dangling:408334f103b8",
+      "raw_target": "エージェント型AI",
+      "label": "エージェント型AI",
+      "section": "関連概念",
+      "line": 40,
       "ambiguous": false,
       "candidates": []
     },
@@ -185948,6 +190584,18 @@
       "candidates": []
     },
     {
+      "source_slug": "sustainable-digital-transformation-tradeoffs",
+      "source_title": "持続可能なデジタルトランスフォーメーションのトレードオフ",
+      "source_file": "concepts/sustainable-digital-transformation-tradeoffs.md",
+      "target": "dangling:609f26bd479c",
+      "raw_target": "カーボンフットプリント",
+      "label": "カーボンフットプリント",
+      "section": "関連概念",
+      "line": 31,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "verifiable-carbon-information-impact",
       "source_title": "検証可能な炭素情報が消費者行動に与える影響",
       "source_file": "concepts/verifiable-carbon-information-impact.md",
@@ -186004,6 +190652,18 @@
       "label": "キャッチアップ戦略",
       "section": "関連概念",
       "line": 45,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "informal-digital-labor-structures",
+      "source_title": "非公式デジタル労働構造",
+      "source_file": "concepts/informal-digital-labor-structures.md",
+      "target": "dangling:a057b494fcc0",
+      "raw_target": "ギグエコノミー",
+      "label": "ギグエコノミー",
+      "section": "関連概念",
+      "line": 32,
       "ambiguous": false,
       "candidates": []
     },
@@ -186266,6 +190926,18 @@
       "target": "dangling:99a4444ddeb2",
       "raw_target": "グリオーマ",
       "label": "グリオーマ",
+      "section": "関連概念",
+      "line": 28,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "sustainable-digital-transformation-tradeoffs",
+      "source_title": "持続可能なデジタルトランスフォーメーションのトレードオフ",
+      "source_file": "concepts/sustainable-digital-transformation-tradeoffs.md",
+      "target": "dangling:3531bd89eeec",
+      "raw_target": "グリーンAI",
+      "label": "グリーンAI",
       "section": "関連概念",
       "line": 28,
       "ambiguous": false,
@@ -186884,6 +191556,18 @@
       "candidates": []
     },
     {
+      "source_slug": "generative-ai-auditing-automation",
+      "source_title": "生成AIによる監査自動化",
+      "source_file": "concepts/generative-ai-auditing-automation.md",
+      "target": "dangling:c9995ea91bf8",
+      "raw_target": "コンプライアンス技術 (RegTech)",
+      "label": "コンプライアンス技術 (RegTech)",
+      "section": "関連概念",
+      "line": 46,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "generative-ai-software-patent-balance",
       "source_title": "生成AI時代のソフトウェア特許バランス",
       "source_file": "concepts/generative-ai-software-patent-balance.md",
@@ -187151,6 +191835,18 @@
       "candidates": []
     },
     {
+      "source_slug": "sustainable-digital-transformation-tradeoffs",
+      "source_title": "持続可能なデジタルトランスフォーメーションのトレードオフ",
+      "source_file": "concepts/sustainable-digital-transformation-tradeoffs.md",
+      "target": "dangling:d98faf6e977b",
+      "raw_target": "サステナビリティ",
+      "label": "サステナビリティ",
+      "section": "関連概念",
+      "line": 30,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "twin-transition-paradox",
       "source_title": "ツイントランジション（デジタルと持続可能性の同時変革）のパラドックス",
       "source_file": "concepts/twin-transition-paradox.md",
@@ -187375,6 +192071,18 @@
       "label": "サプライチェーン・マネジメント (SCM)",
       "section": "関連概念",
       "line": 57,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "autonomous-procurement-architecture",
+      "source_title": "自律型調達アーキテクチャ",
+      "source_file": "concepts/autonomous-procurement-architecture.md",
+      "target": "dangling:05bbf5ade28a",
+      "raw_target": "サプライチェーン・レジリエンス",
+      "label": "サプライチェーン・レジリエンス",
+      "section": "関連概念",
+      "line": 34,
       "ambiguous": false,
       "candidates": []
     },
@@ -188771,6 +193479,18 @@
       "candidates": []
     },
     {
+      "source_slug": "trust-continuity",
+      "source_title": "信頼の継続性とアイデンティティ検証",
+      "source_file": "concepts/trust-continuity.md",
+      "target": "dangling:f6dc0cf1b182",
+      "raw_target": "ゼロトラスト・アーキテクチャ",
+      "label": "ゼロトラスト・アーキテクチャ",
+      "section": "関連概念",
+      "line": 48,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "cryptographically-verifiable-research",
       "source_title": "暗号学的に検証可能な科学研究",
       "source_file": "concepts/cryptographically-verifiable-research.md",
@@ -188923,6 +193643,18 @@
       "label": "ソーシャルエンジニアリング",
       "section": "関連概念",
       "line": 34,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "trust-continuity",
+      "source_title": "信頼の継続性とアイデンティティ検証",
+      "source_file": "concepts/trust-continuity.md",
+      "target": "dangling:98b232685819",
+      "raw_target": "ソーシャルエンジニアリング",
+      "label": "ソーシャルエンジニアリング",
+      "section": "関連概念",
+      "line": 52,
       "ambiguous": false,
       "candidates": []
     },
@@ -189671,6 +194403,42 @@
       "candidates": []
     },
     {
+      "source_slug": "agentic-digital-thread",
+      "source_title": "自律エージェント型デジタルスレッド",
+      "source_file": "concepts/agentic-digital-thread.md",
+      "target": "dangling:c56ae6334293",
+      "raw_target": "デジタルスレッド",
+      "label": "デジタルスレッド",
+      "section": "関連概念",
+      "line": 39,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "agentic-digital-thread",
+      "source_title": "自律エージェント型デジタルスレッド",
+      "source_file": "concepts/agentic-digital-thread.md",
+      "target": "dangling:d8bb77e2f919",
+      "raw_target": "デジタルツイン",
+      "label": "デジタルツイン",
+      "section": "関連概念",
+      "line": 41,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "autonomous-procurement-architecture",
+      "source_title": "自律型調達アーキテクチャ",
+      "source_file": "concepts/autonomous-procurement-architecture.md",
+      "target": "dangling:d8bb77e2f919",
+      "raw_target": "デジタルツイン",
+      "label": "デジタルツイン",
+      "section": "関連概念",
+      "line": 35,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "digital-circular-decision-framework",
       "source_title": "デジタル循環型意思決定フレームワーク",
       "source_file": "concepts/digital-circular-decision-framework.md",
@@ -189857,6 +194625,21 @@
       ]
     },
     {
+      "source_slug": "intelligent-financial-mitigation",
+      "source_title": "財務インテリジェント化による資金調達制約緩和",
+      "source_file": "concepts/intelligent-financial-mitigation.md",
+      "target": "dangling:f3503ef016f4",
+      "raw_target": "デジタルトランスフォーメーション",
+      "label": "デジタルトランスフォーメーション",
+      "section": "関連概念",
+      "line": 35,
+      "ambiguous": true,
+      "candidates": [
+        "digital-transformation",
+        "digital_transformation"
+      ]
+    },
+    {
       "source_slug": "management-four-point-zero",
       "source_title": "マネジメント 4.0",
       "source_file": "concepts/management-four-point-zero.md",
@@ -189880,6 +194663,21 @@
       "label": "デジタルトランスフォーメーション",
       "section": "関連概念",
       "line": 34,
+      "ambiguous": true,
+      "candidates": [
+        "digital-transformation",
+        "digital_transformation"
+      ]
+    },
+    {
+      "source_slug": "sustainable-digital-transformation-tradeoffs",
+      "source_title": "持続可能なデジタルトランスフォーメーションのトレードオフ",
+      "source_file": "concepts/sustainable-digital-transformation-tradeoffs.md",
+      "target": "dangling:f3503ef016f4",
+      "raw_target": "デジタルトランスフォーメーション",
+      "label": "デジタルトランスフォーメーション",
+      "section": "関連概念",
+      "line": 29,
       "ambiguous": true,
       "candidates": [
         "digital-transformation",
@@ -190345,6 +195143,18 @@
       "label": "デジタル公共圏",
       "section": "関連概念",
       "line": 21,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "informal-digital-labor-structures",
+      "source_title": "非公式デジタル労働構造",
+      "source_file": "concepts/informal-digital-labor-structures.md",
+      "target": "dangling:da3d4caf869b",
+      "raw_target": "デジタル包摂",
+      "label": "デジタル包摂",
+      "section": "関連概念",
+      "line": 34,
       "ambiguous": false,
       "candidates": []
     },
@@ -191053,6 +195863,18 @@
       "label": "データ視覚化",
       "section": "関連概念",
       "line": 33,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "intelligent-financial-mitigation",
+      "source_title": "財務インテリジェント化による資金調達制約緩和",
+      "source_file": "concepts/intelligent-financial-mitigation.md",
+      "target": "dangling:2a121f442a1b",
+      "raw_target": "データ資産",
+      "label": "データ資産",
+      "section": "関連概念",
+      "line": 37,
       "ambiguous": false,
       "candidates": []
     },
@@ -191785,6 +196607,18 @@
       "label": "ネット・プロモーター・スコア（NPS）",
       "section": "関連概念",
       "line": 41,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "pgg-with-game-transitions",
+      "source_title": "ゲーム遷移を伴う公共財ゲーム",
+      "source_file": "concepts/pgg-with-game-transitions.md",
+      "target": "dangling:c56f683dad6c",
+      "raw_target": "ハイパーグラフ",
+      "label": "ハイパーグラフ",
+      "section": "関連概念",
+      "line": 49,
       "ambiguous": false,
       "candidates": []
     },
@@ -192577,6 +197411,18 @@
       "label": "ヒューマン・イン・ザ・ループ",
       "section": "関連概念",
       "line": 46,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "ai-accountability-attribution",
+      "source_title": "AIシステムの責任帰属",
+      "source_file": "concepts/ai-accountability-attribution.md",
+      "target": "dangling:093be9b97028",
+      "raw_target": "ヒューマン・イン・ザ・ループ",
+      "label": "ヒューマン・イン・ザ・ループ",
+      "section": "関連概念",
+      "line": 35,
       "ambiguous": false,
       "candidates": []
     },
@@ -193580,6 +198426,18 @@
       "candidates": []
     },
     {
+      "source_slug": "informal-digital-labor-structures",
+      "source_title": "非公式デジタル労働構造",
+      "source_file": "concepts/informal-digital-labor-structures.md",
+      "target": "dangling:56d66c3e08fe",
+      "raw_target": "プラットフォーム労働",
+      "label": "プラットフォーム労働",
+      "section": "関連概念",
+      "line": 33,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "companionship-as-a-service-affordance-ambiguity",
       "source_title": "伴侶関係サービスプラットフォームにおけるアフォーダンスの曖昧性",
       "source_file": "concepts/companionship-as-a-service-affordance-ambiguity.md",
@@ -193636,6 +198494,18 @@
       "label": "プリンシパル＝エージェント理論",
       "section": "関連概念",
       "line": 52,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "informal-digital-labor-structures",
+      "source_title": "非公式デジタル労働構造",
+      "source_file": "concepts/informal-digital-labor-structures.md",
+      "target": "dangling:95beadf1eb8a",
+      "raw_target": "プレカリアート",
+      "label": "プレカリアート",
+      "section": "関連概念",
+      "line": 35,
       "ambiguous": false,
       "candidates": []
     },
@@ -194464,6 +199334,18 @@
       "label": "マルコフ連鎖モンテカルロ法（MCMC）",
       "section": "関連概念",
       "line": 41,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "autonomous-procurement-architecture",
+      "source_title": "自律型調達アーキテクチャ",
+      "source_file": "concepts/autonomous-procurement-architecture.md",
+      "target": "dangling:7aa5a4c82874",
+      "raw_target": "マルチオブジェクト最適化",
+      "label": "マルチオブジェクト最適化",
+      "section": "関連概念",
+      "line": 37,
       "ambiguous": false,
       "candidates": []
     },
@@ -196223,6 +201105,18 @@
       "candidates": []
     },
     {
+      "source_slug": "fictionalized-affective-interaction",
+      "source_title": "フィクション化された感情的相互作用",
+      "source_file": "concepts/fictionalized-affective-interaction.md",
+      "target": "dangling:96f7351d17b2",
+      "raw_target": "不気味の谷現象（Uncanny Valley）",
+      "label": "不気味の谷現象（Uncanny Valley）",
+      "section": "関連概念",
+      "line": 50,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "cognitive-liberty-and-tort-law",
       "source_title": "認知的自由と不法行為法",
       "source_file": "concepts/cognitive-liberty-and-tort-law.md",
@@ -196267,6 +201161,18 @@
       "label": "不確実性下の意思決定",
       "section": "関連概念",
       "line": 36,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "agentic-digital-thread",
+      "source_title": "自律エージェント型デジタルスレッド",
+      "source_file": "concepts/agentic-digital-thread.md",
+      "target": "dangling:5f2623f8a443",
+      "raw_target": "不適合管理・CAPA",
+      "label": "不適合管理・CAPA",
+      "section": "関連概念",
+      "line": 42,
       "ambiguous": false,
       "candidates": []
     },
@@ -196411,6 +201317,18 @@
       "label": "予測処理",
       "section": "関連概念",
       "line": 31,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "poetic-mathematics",
+      "source_title": "詩的数学",
+      "source_file": "concepts/poetic-mathematics.md",
+      "target": "dangling:164d0fe82acc",
+      "raw_target": "予測処理",
+      "label": "予測処理",
+      "section": "関連概念",
+      "line": 34,
       "ambiguous": false,
       "candidates": []
     },
@@ -196847,6 +201765,18 @@
       "candidates": []
     },
     {
+      "source_slug": "poetic-mathematics",
+      "source_title": "詩的数学",
+      "source_file": "concepts/poetic-mathematics.md",
+      "target": "dangling:6402b2b4500f",
+      "raw_target": "人工知能",
+      "label": "人工知能",
+      "section": "関連概念",
+      "line": 35,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "quality-4-0",
       "source_title": "クオリティ 4.0",
       "source_file": "concepts/quality-4-0.md",
@@ -196975,6 +201905,18 @@
       "label": "人工知能と認識論",
       "section": "関連概念",
       "line": 42,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "algorithmic-black-box-auditing",
+      "source_title": "アルゴリズム意思決定における監査・説明責任の不確実性",
+      "source_file": "concepts/algorithmic-black-box-auditing.md",
+      "target": "dangling:00c114af9e79",
+      "raw_target": "人工知能と財務報告 (AI in Financial Reporting)",
+      "label": "人工知能と財務報告 (AI in Financial Reporting)",
+      "section": "関連概念",
+      "line": 37,
       "ambiguous": false,
       "candidates": []
     },
@@ -197783,6 +202725,18 @@
       "candidates": []
     },
     {
+      "source_slug": "delegated-cognition",
+      "source_title": "委譲された認知",
+      "source_file": "concepts/delegated-cognition.md",
+      "target": "dangling:fba522620049",
+      "raw_target": "人間発達（Human Development）",
+      "label": "人間発達（Human Development）",
+      "section": "関連概念",
+      "line": 36,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "ai-economy-and-societal-impact",
       "source_title": "AI経済と社会への影響",
       "source_file": "concepts/ai-economy-and-societal-impact.md",
@@ -197962,6 +202916,21 @@
       "label": "企業の社会的責任（CSR）",
       "section": "関連概念",
       "line": 30,
+      "ambiguous": true,
+      "candidates": [
+        "corporate-social-responsibility-and-buying-behavior",
+        "corporate-social-responsibility-evolution"
+      ]
+    },
+    {
+      "source_slug": "sustainable-digital-transformation-tradeoffs",
+      "source_title": "持続可能なデジタルトランスフォーメーションのトレードオフ",
+      "source_file": "concepts/sustainable-digital-transformation-tradeoffs.md",
+      "target": "dangling:5d22d6102c17",
+      "raw_target": "企業の社会的責任（CSR）",
+      "label": "企業の社会的責任（CSR）",
+      "section": "関連概念",
+      "line": 32,
       "ambiguous": true,
       "candidates": [
         "corporate-social-responsibility-and-buying-behavior",
@@ -198629,6 +203598,18 @@
       "candidates": []
     },
     {
+      "source_slug": "pgg-with-game-transitions",
+      "source_title": "ゲーム遷移を伴う公共財ゲーム",
+      "source_file": "concepts/pgg-with-game-transitions.md",
+      "target": "dangling:8c2f40bebc3b",
+      "raw_target": "公共財ゲーム",
+      "label": "公共財ゲーム",
+      "section": "関連概念",
+      "line": 48,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "collective-choice-and-social-welfare",
       "source_title": "社会的選択と社会的厚生",
       "source_file": "concepts/collective-choice-and-social-welfare.md",
@@ -199229,6 +204210,18 @@
       "candidates": []
     },
     {
+      "source_slug": "kerrigans-law",
+      "source_title": "ケリガンの法則",
+      "source_file": "concepts/kerrigans-law.md",
+      "target": "dangling:5dd68e339182",
+      "raw_target": "分散型人工知能",
+      "label": "分散型人工知能",
+      "section": "関連概念",
+      "line": 45,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "multi-agent-systems-and-ai-challenges",
       "source_title": "マルチエージェントシステムとAIの課題",
       "source_file": "concepts/multi-agent-systems-and-ai-challenges.md",
@@ -199321,6 +204314,18 @@
       "label": "分析コード共有",
       "section": "関連概念",
       "line": 23,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "institutional-steering-of-ai-competition",
+      "source_title": "AI競争の制度的ステアリング",
+      "source_file": "concepts/institutional-steering-of-ai-competition.md",
+      "target": "dangling:d7f92697cd89",
+      "raw_target": "分配の正義 (Distributive Justice)",
+      "label": "分配の正義 (Distributive Justice)",
+      "section": "関連概念",
+      "line": 47,
       "ambiguous": false,
       "candidates": []
     },
@@ -200489,6 +205494,30 @@
       "candidates": []
     },
     {
+      "source_slug": "kerrigans-law",
+      "source_title": "ケリガンの法則",
+      "source_file": "concepts/kerrigans-law.md",
+      "target": "dangling:34c366750cad",
+      "raw_target": "同期（シンクロニシティ）",
+      "label": "同期（シンクロニシティ）",
+      "section": "関連概念",
+      "line": 44,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "generative-ai-auditing-automation",
+      "source_title": "生成AIによる監査自動化",
+      "source_file": "concepts/generative-ai-auditing-automation.md",
+      "target": "dangling:06824c788e48",
+      "raw_target": "品質保証 (QA)",
+      "label": "品質保証 (QA)",
+      "section": "関連概念",
+      "line": 44,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "ai-and-philosophy",
       "source_title": "AIと哲学の相互作用",
       "source_file": "concepts/ai-and-philosophy.md",
@@ -200965,6 +205994,18 @@
       "label": "基盤モデル (Foundation Models)",
       "section": "関連概念",
       "line": 47,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "institutional-steering-of-ai-competition",
+      "source_title": "AI競争の制度的ステアリング",
+      "source_file": "concepts/institutional-steering-of-ai-competition.md",
+      "target": "dangling:c7dfd2e8f56e",
+      "raw_target": "基盤モデルのガバナンス (Foundation Model Governance)",
+      "label": "基盤モデルのガバナンス (Foundation Model Governance)",
+      "section": "関連概念",
+      "line": 45,
       "ambiguous": false,
       "candidates": []
     },
@@ -201613,6 +206654,18 @@
       "label": "大規模言語モデル",
       "section": "関連概念",
       "line": 32,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "trust-continuity",
+      "source_title": "信頼の継続性とアイデンティティ検証",
+      "source_file": "concepts/trust-continuity.md",
+      "target": "dangling:1e627f834031",
+      "raw_target": "大規模言語モデル",
+      "label": "大規模言語モデル",
+      "section": "関連概念",
+      "line": 49,
       "ambiguous": false,
       "candidates": []
     },
@@ -202985,6 +208038,18 @@
       "candidates": []
     },
     {
+      "source_slug": "intelligent-financial-mitigation",
+      "source_title": "財務インテリジェント化による資金調達制約緩和",
+      "source_file": "concepts/intelligent-financial-mitigation.md",
+      "target": "dangling:f766446310bb",
+      "raw_target": "情報の非対称性",
+      "label": "情報の非対称性",
+      "section": "関連概念",
+      "line": 36,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "digital-lemon-pools",
       "source_title": "デジタル・レモン・プール",
       "source_file": "concepts/digital-lemon-pools.md",
@@ -203641,6 +208706,18 @@
       "label": "意識 (AI)",
       "section": "関連概念",
       "line": 21,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "poetic-mathematics",
+      "source_title": "詩的数学",
+      "source_file": "concepts/poetic-mathematics.md",
+      "target": "dangling:6beba159ad4a",
+      "raw_target": "意識のハードプロブレム",
+      "label": "意識のハードプロブレム",
+      "section": "関連概念",
+      "line": 32,
       "ambiguous": false,
       "candidates": []
     },
@@ -204440,6 +209517,18 @@
       "candidates": []
     },
     {
+      "source_slug": "delegated-cognition",
+      "source_title": "委譲された認知",
+      "source_file": "concepts/delegated-cognition.md",
+      "target": "dangling:3fb3e5761943",
+      "raw_target": "拡張された認知（Extended Cognition）",
+      "label": "拡張された認知（Extended Cognition）",
+      "section": "関連概念",
+      "line": 39,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "extended-reality-and-fundamental-rights",
       "source_title": "XRと基本的人権",
       "source_file": "concepts/extended-reality-and-fundamental-rights.md",
@@ -204868,6 +209957,18 @@
       "label": "擬人化（Anthropomorphism）",
       "section": "関連概念",
       "line": 37,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "fictionalized-affective-interaction",
+      "source_title": "フィクション化された感情的相互作用",
+      "source_file": "concepts/fictionalized-affective-interaction.md",
+      "target": "dangling:db0a664737c8",
+      "raw_target": "擬人化（Anthropomorphism）",
+      "label": "擬人化（Anthropomorphism）",
+      "section": "関連概念",
+      "line": 49,
       "ambiguous": false,
       "candidates": []
     },
@@ -205372,6 +210473,18 @@
       "label": "時間巻き付け表面張力",
       "section": "関連概念",
       "line": 39,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "delegated-cognition",
+      "source_title": "委譲された認知",
+      "source_file": "concepts/delegated-cognition.md",
+      "target": "dangling:231e149f8182",
+      "raw_target": "時間的不協和（Temporal Dissonance）",
+      "label": "時間的不協和（Temporal Dissonance）",
+      "section": "関連概念",
+      "line": 38,
       "ambiguous": false,
       "candidates": []
     },
@@ -208064,6 +213177,18 @@
       "candidates": []
     },
     {
+      "source_slug": "human-ai-co-creative-judgment",
+      "source_title": "人間とAIの共同創造における意思決定フレームワーク",
+      "source_file": "concepts/human-ai-co-creative-judgment.md",
+      "target": "dangling:62fe31ea843b",
+      "raw_target": "生成AIとデザイン思考 (Generative AI in Design Thinking)",
+      "label": "生成AIとデザイン思考 (Generative AI in Design Thinking)",
+      "section": "関連概念",
+      "line": 44,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "human-irreplaceable-competencies",
       "source_title": "AI時代における人間代替不可能なコア・コンピテンシー",
       "source_file": "concepts/human-irreplaceable-competencies.md",
@@ -208204,6 +213329,18 @@
       "label": "生成AI（Generative AI）",
       "section": "関連概念",
       "line": 61,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "delegated-cognition",
+      "source_title": "委譲された認知",
+      "source_file": "concepts/delegated-cognition.md",
+      "target": "dangling:972d36dfac87",
+      "raw_target": "生成AI（Generative AI）",
+      "label": "生成AI（Generative AI）",
+      "section": "関連概念",
+      "line": 40,
       "ambiguous": false,
       "candidates": []
     },
@@ -208708,6 +213845,30 @@
       "label": "監査の質",
       "section": "関連概念",
       "line": 30,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "algorithmic-black-box-auditing",
+      "source_title": "アルゴリズム意思決定における監査・説明責任の不確実性",
+      "source_file": "concepts/algorithmic-black-box-auditing.md",
+      "target": "dangling:a0a6254a4adb",
+      "raw_target": "監査人の法的責任 (Auditor Liability)",
+      "label": "監査人の法的責任 (Auditor Liability)",
+      "section": "関連概念",
+      "line": 41,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "algorithmic-black-box-auditing",
+      "source_title": "アルゴリズム意思決定における監査・説明責任の不確実性",
+      "source_file": "concepts/algorithmic-black-box-auditing.md",
+      "target": "dangling:bd2dc02ad651",
+      "raw_target": "監査基準 (Auditing Standards)",
+      "label": "監査基準 (Auditing Standards)",
+      "section": "関連概念",
+      "line": 40,
       "ambiguous": false,
       "candidates": []
     },
@@ -209392,6 +214553,30 @@
       "label": "社会的サステナビリティ",
       "section": "関連概念",
       "line": 38,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "pgg-with-game-transitions",
+      "source_title": "ゲーム遷移を伴う公共財ゲーム",
+      "source_file": "concepts/pgg-with-game-transitions.md",
+      "target": "dangling:8b8344ef65ff",
+      "raw_target": "社会的ジレンマ",
+      "label": "社会的ジレンマ",
+      "section": "関連概念",
+      "line": 51,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "fictionalized-affective-interaction",
+      "source_title": "フィクション化された感情的相互作用",
+      "source_file": "concepts/fictionalized-affective-interaction.md",
+      "target": "dangling:fbee123ac08d",
+      "raw_target": "社会的ロボティクス（Social Robotics）",
+      "label": "社会的ロボティクス（Social Robotics）",
+      "section": "関連概念",
+      "line": 51,
       "ambiguous": false,
       "candidates": []
     },
@@ -211118,6 +216303,18 @@
       "candidates": []
     },
     {
+      "source_slug": "kerrigans-law",
+      "source_title": "ケリガンの法則",
+      "source_file": "concepts/kerrigans-law.md",
+      "target": "dangling:ba5202a7e0a9",
+      "raw_target": "群知能",
+      "label": "群知能",
+      "section": "関連概念",
+      "line": 46,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "tenet-bound-ai",
       "source_title": "信条束縛型AI倫理アーキテクチャ",
       "source_file": "concepts/tenet-bound-ai.md",
@@ -211670,6 +216867,18 @@
       "candidates": []
     },
     {
+      "source_slug": "kerrigans-law",
+      "source_title": "ケリガンの法則",
+      "source_file": "concepts/kerrigans-law.md",
+      "target": "dangling:a5eeff8dd568",
+      "raw_target": "自己組織化",
+      "label": "自己組織化",
+      "section": "関連概念",
+      "line": 43,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "decentralized-recovery-leadership",
       "source_title": "非中央集権的な回復コミュニティにおける分散型リーダーシップ",
       "source_file": "concepts/decentralized-recovery-leadership.md",
@@ -212158,6 +217367,18 @@
       "label": "血縁淘汰説",
       "section": "関連概念",
       "line": 43,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "trust-continuity",
+      "source_title": "信頼の継続性とアイデンティティ検証",
+      "source_file": "concepts/trust-continuity.md",
+      "target": "dangling:9a416a0ed0ef",
+      "raw_target": "行動バイオメトリクス",
+      "label": "行動バイオメトリクス",
+      "section": "関連概念",
+      "line": 50,
       "ambiguous": false,
       "candidates": []
     },
@@ -212654,6 +217875,18 @@
       "candidates": []
     },
     {
+      "source_slug": "pgg-with-game-transitions",
+      "source_title": "ゲーム遷移を伴う公共財ゲーム",
+      "source_file": "concepts/pgg-with-game-transitions.md",
+      "target": "dangling:79287ab811dc",
+      "raw_target": "複雑ネットワーク",
+      "label": "複雑ネットワーク",
+      "section": "関連概念",
+      "line": 50,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "gibs_dematel_method",
       "source_title": "GIBSU-DEMATEL手法",
       "source_file": "concepts/gibs_dematel_method.md",
@@ -212786,6 +218019,18 @@
       "candidates": []
     },
     {
+      "source_slug": "human-ai-cognitive-augmentation",
+      "source_title": "人間とAIの認知的拡張",
+      "source_file": "concepts/human-ai-cognitive-augmentation.md",
+      "target": "dangling:6b6d9a3ea217",
+      "raw_target": "複雑系科学",
+      "label": "複雑系科学",
+      "section": "関連概念",
+      "line": 32,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "human-life-system-engineering",
       "source_title": "人間生命システム工学",
       "source_file": "concepts/human-life-system-engineering.md",
@@ -212794,6 +218039,18 @@
       "label": "複雑系科学",
       "section": "関連概念",
       "line": 33,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "kerrigans-law",
+      "source_title": "ケリガンの法則",
+      "source_file": "concepts/kerrigans-law.md",
+      "target": "dangling:6b6d9a3ea217",
+      "raw_target": "複雑系科学",
+      "label": "複雑系科学",
+      "section": "関連概念",
+      "line": 42,
       "ambiguous": false,
       "candidates": []
     },
@@ -213278,6 +218535,18 @@
       "candidates": []
     },
     {
+      "source_slug": "human-ai-cognitive-augmentation",
+      "source_title": "人間とAIの認知的拡張",
+      "source_file": "concepts/human-ai-cognitive-augmentation.md",
+      "target": "dangling:2e80e4e50e67",
+      "raw_target": "認知バイアス",
+      "label": "認知バイアス",
+      "section": "関連概念",
+      "line": 34,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "intrinsic-connectivity-networks",
       "source_title": "内在性脳ネットワーク（顕著性・実行制御）",
       "source_file": "concepts/intrinsic-connectivity-networks.md",
@@ -213418,6 +218687,18 @@
       "label": "認知的負荷理論",
       "section": "関連概念",
       "line": 44,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "human-ai-co-creative-judgment",
+      "source_title": "人間とAIの共同創造における意思決定フレームワーク",
+      "source_file": "concepts/human-ai-co-creative-judgment.md",
+      "target": "dangling:f745cf1d24d8",
+      "raw_target": "認知科学とデザイン決定 (Cognitive Science in Design Decision-making)",
+      "label": "認知科学とデザイン決定 (Cognitive Science in Design Decision-making)",
+      "section": "関連概念",
+      "line": 46,
       "ambiguous": false,
       "candidates": []
     },
@@ -213574,6 +218855,18 @@
       "label": "説明可能AI",
       "section": "関連概念",
       "line": 42,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "human-oversight-mechanisms",
+      "source_title": "人間による監視メカニズム",
+      "source_file": "concepts/human-oversight-mechanisms.md",
+      "target": "dangling:9a9b15584537",
+      "raw_target": "説明可能AI",
+      "label": "説明可能AI",
+      "section": "関連概念",
+      "line": 37,
       "ambiguous": false,
       "candidates": []
     },
@@ -213746,6 +219039,18 @@
       "candidates": []
     },
     {
+      "source_slug": "organizational-ethical-translation",
+      "source_title": "倫理原則の組織的実践変換",
+      "source_file": "concepts/organizational-ethical-translation.md",
+      "target": "dangling:7e4f7f93c6b1",
+      "raw_target": "責任あるAI",
+      "label": "責任あるAI",
+      "section": "関連概念",
+      "line": 41,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
       "source_slug": "ai-system-decommissioning",
       "source_title": "AIシステムの廃棄・デコミッショニング",
       "source_file": "concepts/ai-system-decommissioning.md",
@@ -213826,6 +219131,18 @@
       "label": "責任あるAI（Responsible AI）",
       "section": "関連概念",
       "line": 39,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "institutional-steering-of-ai-competition",
+      "source_title": "AI競争の制度的ステアリング",
+      "source_file": "concepts/institutional-steering-of-ai-competition.md",
+      "target": "dangling:d090545c0ba2",
+      "raw_target": "責任あるイノベーション (Responsible Innovation)",
+      "label": "責任あるイノベーション (Responsible Innovation)",
+      "section": "関連概念",
+      "line": 44,
       "ambiguous": false,
       "candidates": []
     },
@@ -214294,6 +219611,18 @@
       "label": "進化ゲーム理論",
       "section": "関連概念",
       "line": 40,
+      "ambiguous": false,
+      "candidates": []
+    },
+    {
+      "source_slug": "pgg-with-game-transitions",
+      "source_title": "ゲーム遷移を伴う公共財ゲーム",
+      "source_file": "concepts/pgg-with-game-transitions.md",
+      "target": "dangling:3473e853b955",
+      "raw_target": "進化ゲーム理論",
+      "label": "進化ゲーム理論",
+      "section": "関連概念",
+      "line": 47,
       "ambiguous": false,
       "candidates": []
     },
