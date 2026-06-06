@@ -16852,12 +16852,21 @@
     "title_en": "Kerrigan's Law",
     "description": "遅延結合システムにおいて、特定の密度閾値を超えると脈動の同期とは独立して空間的な自己組織化が創発するという原理。",
     "mechanisms": [
+      "遅延結合",
+      "デカップリング",
       "自己組織化",
-      "状態遷移の相転移",
-      "時間的・空間的秩序のデカップリング"
+      "相転移"
     ],
     "related_sources": [
       1
+    ],
+    "invariant_constraints": [
+      "複雑系における創発と予測不可能性"
+    ],
+    "core_questions": [
+      "complexity_science",
+      "systems_engineering",
+      "ai_ml"
     ]
   },
   {
@@ -16866,12 +16875,22 @@
     "title_en": "Poetic Mathematics",
     "description": "古代の原型、認知科学、人工知能などの複雑な哲学的・科学的対立を、モザイク状の構造を用いて脱構築する批評的アプローチ。",
     "mechanisms": [
-      "概念のブレンド",
-      "認知的協和・不協和",
-      "自己言及的フレームワーク"
+      "脱構築",
+      "予測処理",
+      "アテンション・スキーマ"
     ],
     "related_sources": [
       2
+    ],
+    "invariant_constraints": [
+      "情報の不完全性",
+      "計算資源 of 有限性"
+    ],
+    "core_questions": [
+      "neuroscience",
+      "cognitive_science",
+      "philosophy",
+      "anthropology"
     ]
   },
   {
@@ -16880,12 +16899,21 @@
     "title_en": "Intelligent Financial Mitigation of Financing Constraints",
     "description": "企業の財務管理モデルにAIとデジタル経済を統合することで、情報透明性を高め、運用効率やリスク管理を最適化する仕組み。",
     "mechanisms": [
-      "情報の非対称性の解消",
-      "業務プロセスの最適化",
-      "データ資産の蓄積と価値化"
+      "情報の非対称性",
+      "リアルタイム・フィードバック",
+      "シグナリング"
     ],
     "related_sources": [
       3
+    ],
+    "invariant_constraints": [
+      "情報の不完全性",
+      "複数主体間の利害の不一致"
+    ],
+    "core_questions": [
+      "finance_corporate",
+      "information_systems",
+      "strategic_management"
     ]
   },
   {
@@ -16894,12 +16922,23 @@
     "title_en": "Algorithmic Black-Box Auditing and Liability",
     "description": "AI駆動型金融システムのブラックボックス性と既存監査基準の乖離が、監査リスクや法的責任の不透明性を増大させる現象。",
     "mechanisms": [
-      "説明可能性の欠如",
-      "制度的ラグ（規制と技術の乖離）",
-      "限定合理性による監視限界"
+      "情報の非対称性",
+      "主体的責任の曖昧化",
+      "制度的障壁"
     ],
     "related_sources": [
       4
+    ],
+    "invariant_constraints": [
+      "情報の不完全性",
+      "計算資源の有限性",
+      "複数主体間の利害の不一致"
+    ],
+    "core_questions": [
+      "accounting",
+      "law",
+      "ai_governance",
+      "corporate_governance"
     ]
   },
   {
@@ -16909,11 +16948,20 @@
     "description": "製造ライフサイクルにおける不適合管理を、従来の受動的なデータ連携から、自律的に意思決定を行う適応型システムへと変換するフレームワーク。",
     "mechanisms": [
       "自律的オーケストレーション",
-      "フィードバック制御ループ",
-      "階層型意思決定（マスター・専門エージェント協調）"
+      "フィードバックループ",
+      "特化型エージェント協調"
     ],
     "related_sources": [
       5
+    ],
+    "invariant_constraints": [
+      "エントロピー増大と秩序維持のコスト"
+    ],
+    "core_questions": [
+      "operations_management",
+      "systems_engineering",
+      "human_ai_collaboration",
+      "information_systems"
     ]
   },
   {
@@ -16922,13 +16970,23 @@
     "title_en": "Human Oversight Mechanisms",
     "description": "AIシステムの意思決定において、人間が介入または監視することで信頼性と説明責任を担保する設計アプローチ。",
     "mechanisms": [
+      "有限合理性",
       "フィードバックループ",
-      "人間中心の制御設計",
-      "情報の非対称性の解消",
-      "相互説明可能性"
+      "認知的コンフリクト"
     ],
     "related_sources": [
       1
+    ],
+    "invariant_constraints": [
+      "計算資源の有限性",
+      "複雑系における創発と予測不可能性",
+      "エントロピー増大と秩序維持のコスト"
+    ],
+    "core_questions": [
+      "human_ai_collaboration",
+      "ai_governance",
+      "hci",
+      "systems_engineering"
     ]
   },
   {
@@ -16937,13 +16995,23 @@
     "title_en": "Informal Digital Labor Structures",
     "description": "制度的設計の外側で、プラットフォーム労働者が相互扶助や即興的調整を通じてレジリエンスを構築する非公式な社会・経済システム。",
     "mechanisms": [
-      "社会的交換理論",
-      "限定された合理性",
-      "相互扶助ネットワーク",
-      "非公式性の制度化"
+      "関係性に基づく信頼",
+      "即興的調整",
+      "情報の非対称性"
     ],
     "related_sources": [
       2
+    ],
+    "invariant_constraints": [
+      "情報の不完全性",
+      "複数主体間の利害の不一致",
+      "エントロピー増大と秩序維持のコスト"
+    ],
+    "core_questions": [
+      "sociology",
+      "anthropology",
+      "economics",
+      "human_resource_management"
     ]
   },
   {
@@ -16952,12 +17020,21 @@
     "title_en": "Fictionalized Affective Interaction",
     "description": "人間とAIのインタラクションにおいて、擬似的な感情関係をデザインすることでユーザーのウェルビーイングや受容性を向上させるアプローチ。",
     "mechanisms": [
-      "社会的絆の擬似化",
-      "認知バイアスによる感情投影",
-      "アフォーダンスの設計"
+      "認知的不協和の解消",
+      "認知的エンゲージメント",
+      "フレーミング効果"
     ],
     "related_sources": [
       3
+    ],
+    "invariant_constraints": [
+      "情報の不完全性"
+    ],
+    "core_questions": [
+      "psychology",
+      "hci",
+      "cognitive_science",
+      "philosophy"
     ]
   },
   {
@@ -16966,13 +17043,23 @@
     "title_en": "Autonomous Procurement Architecture",
     "description": "サプライチェーンにおける動的なリスクシグナルを監視し、マルチエージェントや最適化モデルを用いて自律的に調達意思決定を行うシステムモデル。",
     "mechanisms": [
-      "マルチエージェント協調",
+      "フィードバックループ",
       "多目的最適化",
-      "リアルタイム・シミュレーション",
-      "動的リスクヘッジ"
+      "自律的分散制御"
     ],
     "related_sources": [
       4
+    ],
+    "invariant_constraints": [
+      "情報の不完全性",
+      "複雑系における創発と予測不可能性",
+      "複数主体間の利害の不一致"
+    ],
+    "core_questions": [
+      "operations_management",
+      "operations_research",
+      "systems_engineering",
+      "complexity_science"
     ]
   },
   {
@@ -16982,12 +17069,21 @@
     "description": "AI導入による経済活動の効率化・自動化の推進と、それに伴う消費電力や環境負荷（カーボンフットプリント）の上昇との間の対立関係。",
     "mechanisms": [
       "負の外部性",
-      "資源配分のトレードオフ",
-      "エネルギー消費の非線形性",
-      "マクロ経済的フィードバック"
+      "トレードオフの相殺関係",
+      "フィードバックループ"
     ],
     "related_sources": [
       5
+    ],
+    "invariant_constraints": [
+      "計算資源の有限性",
+      "エントロピー増大と秩序維持のコスト"
+    ],
+    "core_questions": [
+      "economics",
+      "business_ethics_csr",
+      "systems_engineering",
+      "strategic_management"
     ]
   },
   {
@@ -16996,12 +17092,21 @@
     "title_en": "Human-AI Co-creative Judgment Framework",
     "description": "生成AI支援型のデザインプロセスにおいて、人間の専門的な判断や制約条件がどのように機能し意思決定を導くかを定義する枠組み。",
     "mechanisms": [
-      "制約充足問題の解決プロセス",
-      "段階的具現化プロセス",
-      "認知的協調メカニズム"
+      "有限合理性による意思決定の制限",
+      "段階的制約適用による収斂プロセス",
+      "認知摩擦の調整による創造的解放と制御"
     ],
     "related_sources": [
       1
+    ],
+    "invariant_constraints": [
+      "計算資源の有限性",
+      "複数主体間の利害の不一致"
+    ],
+    "core_questions": [
+      "cognitive_science",
+      "hci",
+      "human_ai_collaboration"
     ]
   },
   {
@@ -17010,12 +17115,22 @@
     "title_en": "Public Goods Games with Game Transitions",
     "description": "参加者の意思決定や戦略が周囲の環境状態（資源の豊富さ）の変化を誘発し、それによってゲームのルール自体が遷移するダイナミクス。",
     "mechanisms": [
-      "フィードバックループ",
-      "動的状態遷移メカニズム",
-      "集団意思決定ダイナミクス"
+      "状態依存のダイナミック・フィードバック",
+      "ハイパーグラフ上での集団内相互作用",
+      "戦略と環境の共進化"
     ],
     "related_sources": [
       2
+    ],
+    "invariant_constraints": [
+      "複数主体間の利害の不一致",
+      "複雑系における創発と予測不可能性",
+      "エントロピー増大と秩序維持のコスト"
+    ],
+    "core_questions": [
+      "complexity_science",
+      "evolutionary_biology",
+      "sociology"
     ]
   },
   {
@@ -17024,12 +17139,22 @@
     "title_en": "Delegated Cognition",
     "description": "人間が判断、記憶、創造性などの認知的プロセスをAIシステムに外在化・委譲することによって生じる、人間の発達や自律性への影響。",
     "mechanisms": [
-      "認知的アウトソーシング",
-      "時間的不協和",
-      "主体的エージェンシーの減退"
+      "認知プロセスの外在化と経路依存性",
+      "時間的不協和による発達の短絡化",
+      "主体性と責任の非対称な切り離し"
     ],
     "related_sources": [
       3
+    ],
+    "invariant_constraints": [
+      "因果関係の不可逆性",
+      "計算資源の有限性"
+    ],
+    "core_questions": [
+      "cognitive_science",
+      "psychology",
+      "philosophy",
+      "human_ai_collaboration"
     ]
   },
   {
@@ -17038,12 +17163,21 @@
     "title_en": "Trust Continuity and Identity Verification",
     "description": "AIによるなりすましや侵入リスクが高まるデジタル環境において、対話の完全性とプライバシーをガバナンス主導で維持するアプローチ。",
     "mechanisms": [
-      "振る舞い分析によるアイデンティティ帰属",
-      "継続的認証認証メカニズム",
-      "プライバシー保護型トラストモデル"
+      "動的かつ継続的な真正性検証",
+      "パターン認識に基づく異常検知",
+      "情報非対称性の非開示的解消"
     ],
     "related_sources": [
       4
+    ],
+    "invariant_constraints": [
+      "情報の不完全性",
+      "エントロピー増大と秩序維持 of コスト"
+    ],
+    "core_questions": [
+      "systems_engineering",
+      "ai_ml",
+      "ai_governance"
     ]
   },
   {
@@ -17053,11 +17187,21 @@
     "description": "商業的・地政学的価値を持つAI開発競争において、安全性や民主的関与、社会的公正を確保するために市場競争を制度的に方向付ける統治手法。",
     "mechanisms": [
       "インセンティブ構造の再設計",
-      "責任あるイノベーションのガバナンス",
-      "公共的価値の分配メカニズム"
+      "外部性の内部化と社会的ステアリング",
+      "多角的な社会的価値の多目的最適化"
     ],
     "related_sources": [
       5
+    ],
+    "invariant_constraints": [
+      "複数主体間の利害の不一致",
+      "複雑系における創発と予測不可能性"
+    ],
+    "core_questions": [
+      "sociology",
+      "economics",
+      "law",
+      "ai_governance"
     ]
   },
   {
@@ -17066,12 +17210,24 @@
     "title_en": "Computational Reference Models",
     "description": "数式やコード表現を用いた概念的デモンストレーションにより、ガバナンス上の構造的類推を記述する枠組み",
     "mechanisms": [
-      "構造的類推",
-      "不可逆的変換",
-      "フィードバック閉路"
+      "構造的類比",
+      "状態変化のダイナミクス",
+      "情報の非対称性",
+      "多様性圧縮"
     ],
     "related_sources": [
       1
+    ],
+    "invariant_constraints": [
+      "情報の不完全性",
+      "計算資源の有限性",
+      "複雑系における創発と予測不可能性"
+    ],
+    "core_questions": [
+      "ai_governance",
+      "systems_engineering",
+      "philosophy",
+      "ai_ml"
     ]
   },
   {
@@ -17080,12 +17236,24 @@
     "title_en": "Generative AI Auditing Automation",
     "description": "企業のISOコンプライアンスにおいて、ドキュメントレビューやリスク検出を生成AIで高度化する手法",
     "mechanisms": [
-      "業務プロセスの自動化",
-      "社会技術システムの適合",
-      "技術受容モデルの適用"
+      "ドキュメントレビュー自動化",
+      "適合性マッピング",
+      "リスク検出",
+      "フィードバックループ"
     ],
     "related_sources": [
       2
+    ],
+    "invariant_constraints": [
+      "情報の不完全性",
+      "計算資源の有限性",
+      "エントロピー増大と秩序維持 of コスト"
+    ],
+    "core_questions": [
+      "operations_management",
+      "accounting",
+      "information_systems",
+      "ai_governance"
     ]
   },
   {
@@ -17094,12 +17262,23 @@
     "title_en": "Organizational Ethical Translation",
     "description": "AI倫理の抽象的な指針を、日々の組織業務や情報システム開発の実践へと翻訳・埋め込むプロセス",
     "mechanisms": [
-      "価値の技術的具現化",
-      "責任の分散と再配置",
-      "説明責任の不確実性回避"
+      "価値と実践の翻訳",
+      "説明責任の制度化",
+      "境界オブジェクトの生成"
     ],
     "related_sources": [
       3
+    ],
+    "invariant_constraints": [
+      "複数主体間の利害の不一致",
+      "情報の不完全性",
+      "エントロピー増大と秩序維持のコスト"
+    ],
+    "core_questions": [
+      "organization_science",
+      "business_ethics_csr",
+      "ai_governance",
+      "information_systems"
     ]
   },
   {
@@ -17108,12 +17287,23 @@
     "title_en": "Human-AI Cognitive Augmentation",
     "description": "人間の認知バイアスや意思決定プロセスをミラーリングし、代替ではなく拡張を目的とした協調システム設計",
     "mechanisms": [
-      "認知的バイアスの相互作用",
-      "信頼の二者間均衡",
-      "認知的補完・拡張"
+      "自動化バイアス",
+      "認知的ミラーリング",
+      "信頼の相互キャリブレーション",
+      "相補的知性拡張"
     ],
     "related_sources": [
       4
+    ],
+    "invariant_constraints": [
+      "計算資源の有限性",
+      "情報の不完全性"
+    ],
+    "core_questions": [
+      "cognitive_science",
+      "human_ai_collaboration",
+      "hci",
+      "psychology"
     ]
   },
   {
@@ -17122,13 +17312,24 @@
     "title_en": "AI System Accountability Attribution",
     "description": "自律的AIが出力した誤情報や創作物に対し、誰がどのように法的・倫理的責任を負うべきかという課題",
     "mechanisms": [
-      "責任の所在の不透明化",
-      "主体性の帰属エラー",
-      "社会契約の再構築"
+      "説明責任の拡散",
+      "不透明性の非対称性",
+      "オートメーション・バイアス"
     ],
     "related_sources": [
       3,
       4
+    ],
+    "invariant_constraints": [
+      "因果関係の不可逆性",
+      "複数主体間の利害の不一致",
+      "複雑系における創発と予測不可能性"
+    ],
+    "core_questions": [
+      "law",
+      "philosophy",
+      "ai_governance",
+      "human_ai_collaboration"
     ]
   }
 ]
