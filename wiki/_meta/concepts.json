@@ -16845,5 +16845,75 @@
       "psychology",
       "cognitive_science"
     ]
+  },
+  {
+    "slug": "kerrigans-law",
+    "title_ja": "ケリガンの法則",
+    "title_en": "Kerrigan's Law",
+    "description": "遅延結合システムにおいて、特定の密度閾値を超えると脈動の同期とは独立して空間的な自己組織化が創発するという原理。",
+    "mechanisms": [
+      "自己組織化",
+      "状態遷移の相転移",
+      "時間的・空間的秩序のデカップリング"
+    ],
+    "related_sources": [
+      1
+    ]
+  },
+  {
+    "slug": "poetic-mathematics",
+    "title_ja": "詩的数学",
+    "title_en": "Poetic Mathematics",
+    "description": "古代の原型、認知科学、人工知能などの複雑な哲学的・科学的対立を、モザイク状の構造を用いて脱構築する批評的アプローチ。",
+    "mechanisms": [
+      "概念のブレンド",
+      "認知的協和・不協和",
+      "自己言及的フレームワーク"
+    ],
+    "related_sources": [
+      2
+    ]
+  },
+  {
+    "slug": "intelligent-financial-mitigation",
+    "title_ja": "財務インテリジェント化による資金調達制約緩和",
+    "title_en": "Intelligent Financial Mitigation of Financing Constraints",
+    "description": "企業の財務管理モデルにAIとデジタル経済を統合することで、情報透明性を高め、運用効率やリスク管理を最適化する仕組み。",
+    "mechanisms": [
+      "情報の非対称性の解消",
+      "業務プロセスの最適化",
+      "データ資産の蓄積と価値化"
+    ],
+    "related_sources": [
+      3
+    ]
+  },
+  {
+    "slug": "algorithmic-black-box-auditing",
+    "title_ja": "アルゴリズム意思決定における監査・説明責任の不確実性",
+    "title_en": "Algorithmic Black-Box Auditing and Liability",
+    "description": "AI駆動型金融システムのブラックボックス性と既存監査基準の乖離が、監査リスクや法的責任の不透明性を増大させる現象。",
+    "mechanisms": [
+      "説明可能性の欠如",
+      "制度的ラグ（規制と技術の乖離）",
+      "限定合理性による監視限界"
+    ],
+    "related_sources": [
+      4
+    ]
+  },
+  {
+    "slug": "agentic-digital-thread",
+    "title_ja": "自律エージェント型デジタルスレッド",
+    "title_en": "Agentic Digital Thread",
+    "description": "製造ライフサイクルにおける不適合管理を、従来の受動的なデータ連携から、自律的に意思決定を行う適応型システムへと変換するフレームワーク。",
+    "mechanisms": [
+      "自律的オーケストレーション",
+      "フィードバック制御ループ",
+      "階層型意思決定（マスター・専門エージェント協調）"
+    ],
+    "related_sources": [
+      5
+    ]
   }
 ]
