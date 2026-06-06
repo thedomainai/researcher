@@ -16989,5 +16989,75 @@
     "related_sources": [
       5
     ]
+  },
+  {
+    "slug": "human-ai-co-creative-judgment",
+    "title_ja": "人間とAIの共同創造における意思決定フレームワーク",
+    "title_en": "Human-AI Co-creative Judgment Framework",
+    "description": "生成AI支援型のデザインプロセスにおいて、人間の専門的な判断や制約条件がどのように機能し意思決定を導くかを定義する枠組み。",
+    "mechanisms": [
+      "制約充足問題の解決プロセス",
+      "段階的具現化プロセス",
+      "認知的協調メカニズム"
+    ],
+    "related_sources": [
+      1
+    ]
+  },
+  {
+    "slug": "pgg-with-game-transitions",
+    "title_ja": "ゲーム遷移を伴う公共財ゲーム",
+    "title_en": "Public Goods Games with Game Transitions",
+    "description": "参加者の意思決定や戦略が周囲の環境状態（資源の豊富さ）の変化を誘発し、それによってゲームのルール自体が遷移するダイナミクス。",
+    "mechanisms": [
+      "フィードバックループ",
+      "動的状態遷移メカニズム",
+      "集団意思決定ダイナミクス"
+    ],
+    "related_sources": [
+      2
+    ]
+  },
+  {
+    "slug": "delegated-cognition",
+    "title_ja": "委譲された認知",
+    "title_en": "Delegated Cognition",
+    "description": "人間が判断、記憶、創造性などの認知的プロセスをAIシステムに外在化・委譲することによって生じる、人間の発達や自律性への影響。",
+    "mechanisms": [
+      "認知的アウトソーシング",
+      "時間的不協和",
+      "主体的エージェンシーの減退"
+    ],
+    "related_sources": [
+      3
+    ]
+  },
+  {
+    "slug": "trust-continuity",
+    "title_ja": "信頼の継続性とアイデンティティ検証",
+    "title_en": "Trust Continuity and Identity Verification",
+    "description": "AIによるなりすましや侵入リスクが高まるデジタル環境において、対話の完全性とプライバシーをガバナンス主導で維持するアプローチ。",
+    "mechanisms": [
+      "振る舞い分析によるアイデンティティ帰属",
+      "継続的認証認証メカニズム",
+      "プライバシー保護型トラストモデル"
+    ],
+    "related_sources": [
+      4
+    ]
+  },
+  {
+    "slug": "institutional-steering-of-ai-competition",
+    "title_ja": "AI競争の制度的ステアリング",
+    "title_en": "Institutional Steering of AI Competition",
+    "description": "商業的・地政学的価値を持つAI開発競争において、安全性や民主的関与、社会的公正を確保するために市場競争を制度的に方向付ける統治手法。",
+    "mechanisms": [
+      "インセンティブ構造の再設計",
+      "責任あるイノベーションのガバナンス",
+      "公共的価値の分配メカニズム"
+    ],
+    "related_sources": [
+      5
+    ]
   }
 ]
