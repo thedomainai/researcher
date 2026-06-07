@@ -33,6 +33,7 @@ AI生成コンテンツ（ChatGPT等に代表される大規模言語モデル�
 
 ## 関連概念
 
+-   [[defensive-explainability-and-navigational-friction]]
 - [[レモン市場 (Market for Lemons)]]
 - [[情報の非対称性 (Information Asymmetry)]]
 - [[逆選択 (Adverse Selection)]]

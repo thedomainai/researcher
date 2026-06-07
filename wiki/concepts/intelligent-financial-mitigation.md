@@ -31,6 +31,11 @@ AIや自動化技術の導入により、財務処理や意思決定のスピー
 
 ## 関連概念
 
+-   [[verifiable-carbon-information-impact]]
+-   [[privacy-assurance-mechanisms]]
+-   [[indirect-reciprocity-evolution]]
+-   [[enterprise-support-tiering]]
+-   [[corporate-governance]]
 - [[コーポレートファイナンス]]
 - [[デジタルトランスフォーメーション]]
 - [[情報の非対称性]]

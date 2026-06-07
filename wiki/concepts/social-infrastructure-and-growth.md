@@ -30,6 +30,12 @@
 
 ## 関連概念
 
+*   [[consolidated-framework-for-implementation-science]]
+*   [[companionship-as-a-service-affordance-ambiguity]]
+*   [[critical-theory-of-ai]]
+*   [[resource-based-view-critique]]
+*   [[social-and-organizational-implications-of-technology]]
+*   [[ai-in-recruitment]]
 * [[社会関係資本（ソーシャル・キャピタル）]]：社会の信頼関係や規範が経済に与える影響。
 * [[全要素生産性（TFP）]]：労働や資本の投入量だけでは説明できない、技術革新や制度的要因による生産性。
 * [[金融発展と経済成長]]：金融仲介サービスが資本効率と長期的なイノベーションを促進するメカニズム。

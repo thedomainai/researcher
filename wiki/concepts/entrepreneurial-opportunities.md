@@ -29,6 +29,7 @@ Jon Eckhardt (2002) の研究は、Shane and Venkataraman (2000) や Venkatarama
 
 ## 関連概念
 
+*   [[strategic-factor-markets]]
 *   [[アントレプレナーシップ]]
 *   [[不均衡 (経済学)]]
 *   [[イノベーション]]

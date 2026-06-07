@@ -38,6 +38,10 @@
 
 ## 関連概念
 
+*   [[decentralized-equilibrium-learning]]
+*   [[companionship-as-a-service-affordance-ambiguity]]
+*   [[cognitive-liberty-and-tort-law]]
+*   [[behavioral-biases-in-ai-fintech]]
 * [[系統的レビュー（Systematic Review）]]
 * [[PDSAサイクル（Plan-Do-Study-Act Cycle）]]
 * [[エビデンスに基づく医療（EBM）]]

@@ -35,6 +35,10 @@ AIによる推奨精度が向上するにつれ、投資家は「自らの意思
 
 ## 関連概念
 
+*   [[decentralized-equilibrium-learning]]
+*   [[companionship-as-a-service-affordance-ambiguity]]
+*   [[clinical-practice-guideline-standards]]
+*   [[cognitive-liberty-and-tort-law]]
 *   [[行動経済学（Behavioral Economics）]]
 *   [[意思決定自律性（Decision Autonomy）]]
 *   [[アルゴリズムによるナッジ（Algorithmic Nudging）]]

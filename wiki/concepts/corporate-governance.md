@@ -27,6 +27,11 @@ Bipin B. Ajinkya、Sanjeev Bhojraj、Partha Sengupta (2005) の研究では、�
 Yongtae Kim、Myung Seok Park、Benson Wier (2012) は、社会的責任を果たす企業が財務報告において異なる行動をとるかどうかを調査しました。彼らの研究によると、社会的責任の高い企業は、裁量的発生項目を通じた利益操作や実質的な営業活動の操作を行う可能性が低く、SECの調査対象となることも少ないことが示されています。これは、企業の社会的責任が財務報告の透明性と信頼性にポジティブな影響を与えることを示唆しています。
 
 ## 関連概念
+*   [[intelligent-financial-mitigation]]
+*   [[indirect-reciprocity-evolution]]
+*   [[verifiable-carbon-information-impact]]
+*   [[privacy-assurance-mechanisms]]
+*   [[enterprise-support-tiering]]
 * [[監査の質]]
 * [[財務報告]]
 * [[利益の質]]

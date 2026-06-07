@@ -31,6 +31,7 @@ DIとDTのダイナミクスは、組織の内部リソースだけで完結す�
 
 ## 関連概念
 
+*   [[companionship-as-a-service-affordance-ambiguity]]
 *   [[デジタルイノベーション]] (Digital Innovation)
 *   [[デジタルトランスフォーメーション]] (Digital Transformation)
 *   [[組織学習と進化]] (Organizational Evolution)

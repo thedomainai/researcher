@@ -40,6 +40,15 @@ Frédy PokouとHélène Le Cadreによる2026年の研究では、オペレー�
 
 ## 関連概念
 
+*   [[companionship-as-a-service-affordance-ambiguity]]
+*   [[clinical-practice-guideline-standards]]
+*   [[behavioral-biases-in-ai-fintech]]
+*   [[cognitive-liberty-and-tort-law]]
+*   [[generative-ai-limitations-in-software-engineering]]
+*   [[explainable-ai-xai]]
+*   [[ai-in-accounting]]
+*   [[human-oversight-mechanisms]]
+*   [[generative-ai-augmented-feedback]]
 * [[ゲーム理論]]
 * [[一般化ナッシュ均衡]] (Generalized Nash Equilibrium)
 * [[分散最適化]] (Decentralized Optimization)

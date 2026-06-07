@@ -33,6 +33,7 @@ Frank W. Geels (2005) の研究では、帆船から蒸気船へ、馬車から�
 
 ## 関連概念
 
+*   [[sociotechnical-evolution-tracking]]
 *   [[社会技術システム]]
 *   [[技術的転換]]
 *   [[システムイノベーション]]

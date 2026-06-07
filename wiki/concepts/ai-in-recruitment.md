@@ -22,6 +22,12 @@ Pratiksha MaraneとProf. Bhagyashree Sanjay Tulseによる2026年の研究「AI 
 
 ## 関連概念
 
+*   [[consolidated-framework-for-implementation-science]]
+*   [[companionship-as-a-service-affordance-ambiguity]]
+*   [[critical-theory-of-ai]]
+*   [[social-infrastructure-and-growth]]
+*   [[resource-based-view-critique]]
+*   [[social-and-organizational-implications-of-technology]]
 *   [[AIガバナンス]]
 *   [[アルゴリズムバイアス]]
 *   [[公平なAI]]

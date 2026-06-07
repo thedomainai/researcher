@@ -41,6 +41,8 @@
 
 ## 関連概念
 
+*   [[ethical-anticipation-in-recommender-systems]]
+*   [[ai-in-accounting]]
 * [[企業固有の優位性 (Firm-Specific Advantages)]]：企業が競合他社に対して持つ独自の強みや資源。
 * [[子会社の自律性 (Subsidiary Autonomy)]]：海外子会社が意思決定を独自に行うことができる権限の度合い。
 * [[子会社の自発性 (Subsidiary Initiative)]]：子会社が自立的に新しいビジネス機会を開拓し、本社ネットワーク全体に影響を与える行動。

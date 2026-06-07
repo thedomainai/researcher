@@ -47,6 +47,12 @@ CFIRは、これら5つのドメインが固定的なものではなく、動的
 
 ## 関連概念
 
+*   [[critical-theory-of-ai]]
+*   [[social-infrastructure-and-growth]]
+*   [[resource-based-view-critique]]
+*   [[social-and-organizational-implications-of-technology]]
+*   [[companionship-as-a-service-affordance-ambiguity]]
+*   [[ai-in-recruitment]]
 * [[実装科学]]
 * [[証拠に基づく医療]] (Evidence-Based Medicine: EBM)
 * [[普及学]] (Diffusion of Innovations)

@@ -22,6 +22,11 @@ AIは、以下の点で会計プロセスに重要な影響を与えます。
 
 ## 関連概念
 
+*   [[decentralized-equilibrium-learning]]
+*   [[generative-ai-limitations-in-software-engineering]]
+*   [[explainable-ai-xai]]
+*   [[ethical-anticipation-in-recommender-systems]]
+*   [[mne-multiple-embeddedness]]
 *   [[会計自動化]]
 *   [[財務分析]]
 *   [[意思決定支援システム]]

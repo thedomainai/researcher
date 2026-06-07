@@ -36,6 +36,11 @@
 
 ## 関連概念
 
+*   [[intelligent-financial-mitigation]]
+*   [[verifiable-carbon-information-impact]]
+*   [[privacy-assurance-mechanisms]]
+*   [[enterprise-support-tiering]]
+*   [[corporate-governance]]
 *   [[直接互恵性]]（Direct Reciprocity）
 *   [[進化ゲーム理論]]（Evolutionary Game Theory）
 *   [[利他行動の進化]]（Evolution of Altruism）

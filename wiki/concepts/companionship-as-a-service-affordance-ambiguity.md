@@ -37,6 +37,17 @@ CaaSプラットフォームの普及に伴い、サービス提供者（労働�
 
 ## 関連概念セクション
 
+*   [[consolidated-framework-for-implementation-science]]
+*   [[critical-theory-of-ai]]
+*   [[social-infrastructure-and-growth]]
+*   [[resource-based-view-critique]]
+*   [[social-and-organizational-implications-of-technology]]
+*   [[ai-in-recruitment]]
+*   [[decentralized-equilibrium-learning]]
+*   [[clinical-practice-guideline-standards]]
+*   [[behavioral-biases-in-ai-fintech]]
+*   [[cognitive-liberty-and-tort-law]]
+*   [[digital-innovation-and-transformation-dynamics]]
 *   [[Companionship-as-a-Service (CaaS)]]
 *   [[Leidensdruck (ライデンスドルック)]]
 *   [[プラットフォーム支配 (Platform Capture)]]

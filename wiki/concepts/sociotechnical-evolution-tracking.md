@@ -32,6 +32,7 @@ Actor-Network Theory（ANT）の視点からは、Latourの「社会の再組成
 
 ## 関連コンセプト
 
+*   [[multi-level-perspective]]
 社会技術進化追跡は、[[adaptive-intelligence-orchestration]]と密接に関連している。技術と社会の共進化パターンの理解は、知的システムの適応的な調整において重要な情報を提供する。
 
 [[emergent-governance-networks]]との関連では、技術変化に伴うガバナンス構造の進化的変化を追跡し、新しいガバナンス形態の創発を支援する。

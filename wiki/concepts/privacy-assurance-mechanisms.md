@@ -34,6 +34,11 @@ AIを搭載したプライバシーアシスタント・チャットボットは
 
 ## 関連概念
 
+*   [[intelligent-financial-mitigation]]
+*   [[indirect-reciprocity-evolution]]
+*   [[verifiable-carbon-information-impact]]
+*   [[enterprise-support-tiering]]
+*   [[corporate-governance]]
 *   [[インフォームド・コンセント]]
 *   [[プライバシーポリシー]]
 *   [[プライバシー・バイ・デザイン]]

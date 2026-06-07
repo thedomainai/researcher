@@ -38,6 +38,11 @@
 
 ## 関連概念
 
+*   [[intelligent-financial-mitigation]]
+*   [[indirect-reciprocity-evolution]]
+*   [[verifiable-carbon-information-impact]]
+*   [[privacy-assurance-mechanisms]]
+*   [[corporate-governance]]
 *   [[テクニカルアカウントマネジメント (TAM)]]
 *   [[サービス品質保証 (SLA)]]
 *   [[インシデント管理 (Incident Management)]]

@@ -16,6 +16,10 @@ Jubaer Shahによる2026年の論文「認知的自由と不法行為法」は�
 
 ## 関連概念
 
+*   [[clinical-practice-guideline-standards]]
+*   [[behavioral-biases-in-ai-fintech]]
+*   [[decentralized-equilibrium-learning]]
+*   [[companionship-as-a-service-affordance-ambiguity]]
 *   [[認知機能]]
 *   [[人工知能]]
 *   [[不法行為法]]

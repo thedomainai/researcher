@@ -37,6 +37,7 @@
 
 ## 関連概念
 
+*   [[organizational-economics]]
 *   [[資源ベースビュー]] (Resource-Based View)
 *   [[制度的空隙]] (Institutional Voids)
 *   [[取引コスト理論]] (Transaction Cost Economics)

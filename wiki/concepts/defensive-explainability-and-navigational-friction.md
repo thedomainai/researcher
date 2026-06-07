@@ -34,6 +34,7 @@ AIは容易に、かつ極めて低コストで「言い訳」や「正当化の
 
 ## 関連概念
 
+*   [[digital-lemon-pools]]
 *   [[説明可能なAI (XAI)]]
 *   [[参加型組織 (Participatory Organizations)]]
 *   [[ナビゲーション閉鎖 (Navigational Closure)]]

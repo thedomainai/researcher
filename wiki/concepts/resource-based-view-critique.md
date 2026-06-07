@@ -38,6 +38,12 @@
 
 ## 関連概念
 
+*   [[consolidated-framework-for-implementation-science]]
+*   [[companionship-as-a-service-affordance-ambiguity]]
+*   [[critical-theory-of-ai]]
+*   [[social-infrastructure-and-growth]]
+*   [[social-and-organizational-implications-of-technology]]
+*   [[ai-in-recruitment]]
 * [[デザインスクール（戦略形成論）]]
 * [[持続的競争優位（SCA）]]
 * [[動的能力（ダイナミック・ケイパビリティ）]]

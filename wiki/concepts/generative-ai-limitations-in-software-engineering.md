@@ -23,6 +23,9 @@ Dr. Khaled EL Tannirによる2026年の研究「Is AI Really Intelligent? Practi
 
 ## 関連概念
 
+*   [[decentralized-equilibrium-learning]]
+*   [[ai-in-accounting]]
+*   [[explainable-ai-xai]]
 *   [[大規模言語モデル]]
 *   [[人間とAIの協働]]
 *   [[コード生成]]

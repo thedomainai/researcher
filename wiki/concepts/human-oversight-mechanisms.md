@@ -32,6 +32,8 @@ AIシステム、特にデータ中心型の適応的AI-Opsパイプラインや
 
 ## 関連概念
 
+*   [[decentralized-equilibrium-learning]]
+*   [[generative-ai-augmented-feedback]]
 *   [[Human-in-the-Loop]]（HITL）
 *   [[Human-on-the-Loop]]（HOTL）
 *   [[説明可能AI]]（XAI）

@@ -18,6 +18,12 @@
 これらの事例は、テクノロジーの導入が単なる技術的問題ではなく、組織内の権力構造、文化、従業員の経験、そして業界全体の慣行に深く根ざした社会・組織的プロセスであることを示しています。
 
 ## 関連概念
+*   [[consolidated-framework-for-implementation-science]]
+*   [[companionship-as-a-service-affordance-ambiguity]]
+*   [[critical-theory-of-ai]]
+*   [[resource-based-view-critique]]
+*   [[social-infrastructure-and-growth]]
+*   [[ai-in-recruitment]]
 * [[組織文化]]
 * [[変革管理]]
 * [[デジタル・トランスフォーメーション]]

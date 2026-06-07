@@ -22,6 +22,9 @@ XAIは、AIの倫理的側面、特に[[責任あるAI]]の開発において中
 
 ## 関連概念
 
+*   [[decentralized-equilibrium-learning]]
+*   [[ai-in-accounting]]
+*   [[generative-ai-limitations-in-software-engineering]]
 *   [[責任あるAI]]
 *   [[AIの倫理]]
 *   [[ブラックボックスAI]]

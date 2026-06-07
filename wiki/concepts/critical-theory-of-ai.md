@@ -32,6 +32,12 @@ AIによる予測アルゴリズムや監視技術は、歴史的な排除の論
 ---
 
 ## 関連概念
+*   [[consolidated-framework-for-implementation-science]]
+*   [[companionship-as-a-service-affordance-ambiguity]]
+*   [[social-infrastructure-and-growth]]
+*   [[resource-based-view-critique]]
+*   [[social-and-organizational-implications-of-technology]]
+*   [[ai-in-recruitment]]
 * [[監視資本主義]]
 * [[デジタル社会学]]
 * [[アルゴリズム・バイアス]]

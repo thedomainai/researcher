@@ -40,6 +40,8 @@
 
 ## 関連概念
 
+*   [[decentralized-equilibrium-learning]]
+*   [[human-oversight-mechanisms]]
 *   [[デザインサイエンス研究]] (Design Science Research)
 *   [[目標設定理論]] (Goal-Setting Theory)
 *   [[フィードバック介入理論]] (Feedback Intervention Theory)

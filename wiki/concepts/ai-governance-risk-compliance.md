@@ -20,6 +20,7 @@ Ryan James Purdy (2026) の研究では、包括的なAI GRCの実現に向け�
 
 ## 関連概念
 
+*   [[ai-safety-and-governance]]
 *   [[AIガバナンス]]
 *   [[データプライバシー]]
 *   [[倫理的AI]]

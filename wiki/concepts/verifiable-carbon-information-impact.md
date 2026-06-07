@@ -25,6 +25,11 @@ Annika Geist氏ら（2026年）の研究をはじめとするマーケティン�
 
 ## 関連概念
 
+-   [[intelligent-financial-mitigation]]
+-   [[indirect-reciprocity-evolution]]
+-   [[privacy-assurance-mechanisms]]
+-   [[enterprise-support-tiering]]
+-   [[corporate-governance]]
 - [[グリーンウォッシング]]：根拠のない環境配慮のアピール。検証可能な炭素情報はこれに対抗する手段となります。
 - [[カーボンフットプリント]]：製品やサービスのライフサイクル全体で排出される温室効果ガスの総量。
 - [[持続可能な消費]]：環境や社会への負荷を最小限に抑える消費行動。

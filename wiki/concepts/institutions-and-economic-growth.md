@@ -23,6 +23,7 @@
 
 ## 関連概念
 
+*   [[institution-economic-growth]]
 *   [[起業家精神]]
 *   [[経済開発]]
 *   [[財産権]]
