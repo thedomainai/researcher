@@ -1,0 +1,22 @@
+---
+title: "Reducing Barriers to Test Automation Through AI-Assisted Development"
+authors: "Hui Shi"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "organization_science"
+fetched: "2026-06-26T06:01:37.428358"
+doi: "https://doi.org/10.5281/zenodo.20745254"
+openalex_id: "https://openalex.org/W7165207062"
+source_api: "openalex"
+---
+
+# Reducing Barriers to Test Automation Through AI-Assisted Development
+
+**著者**: Hui Shi
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: 組織科学
+
+## Abstract
+
+Introduction Regulatory compliance is a critical requirement in the medical-device industry, and software design verification must be performed for each software release. As software complexity increases, the volume of required verification activities can become difficult to manage through manual testing alone. Test automation provides a scalable approach for executing repetitive, high-volume test activities with improved consistency, repeatability, and traceability. Recent advances in AI-assisted software development tools, including large language model-based agents and GitHub Copilot, have made automation development more accessible. These tools can support code generation, debugging, documentation, and project organization. However, effective automation still requires sound engineering practices, including modular architecture, maintainable code, clear documentation, and rigorous review of generated outputs. Methods Routine software verification activities were evaluated to identify tasks suitable for automation. Candidate tasks included launching applications, performing repeated user-interface actions, configuring system settings, executing scripted workflows, and collecting test outputs. These tasks were selected because they are repetitive, predictable, and commonly required during regression and design verification testing. With AI-assisted coding tools, the implementation and troubleshooting process of the automation scripts can be accelerated. For example, Windows-based tasks were scripted using PowerShell, while AI tools were used to generate initial code structures, refine commands, improve error handling, and produce setup documentation. Generated scripts were reviewed and validated by the developer to confirm that they performed the intended actions consistently. To improve maintainability, automation projects were organized using modular components, reusable functions, clear naming conventions, and project-level documentation. Documentation included setup instructions, execution steps, dependencies, expected outputs, and troubleshooting guidance. Results AI-assisted development reduced the effort required to prototype, debug, and document test automation tools. Interactive assistance from AI coding tools helped resolve implementation issues more efficiently and reduced development delays caused by unfamiliar syntax, scripting patterns, or debugging approaches. The resulting automation workflows improved the repeatability of routine verification activities and supported more efficient execution of high-volume test tasks. AI-assisted documentation also improved team understanding of how to install, configure, and execute the automation tools, making the tools easier to share, review, and maintain. AI-assisted prototyping enabled more automation concepts to be explored in less time. Instead of deferring automation ideas due to limited development bandwidth or unfamiliar implementation details, developers were able to create working prototypes, evaluate feasibility, and iterate toward more reliable solutions. All AI-generated outputs required technical review to verify correctness, robustness, and suitability for the intended verification context. Conclusions Test automation is well suited for high-volume software verification because many verification activities are repetitive, deterministic, and require consistent execution across releases. AI-assisted development tools can accelerate automation development by supporting code generation, debugging, documentation, and project organization. However, AI tools do not replace engineering judgment. In regulated environments, developers must maintain control over architecture, validation, documentation, and code review. When combined with disciplined engineering practices, AI-assisted development can reduce technical barriers, improve documentation quality, accelerate automation prototyping, and allow teams to spend more time evaluating results and improving test coverage.

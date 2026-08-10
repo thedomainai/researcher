@@ -1,0 +1,22 @@
+---
+title: "Grey Media: A Psychopolitics of Deception"
+authors: "Blackman, Lisa"
+year: 2027
+citations: 0
+paper_type: "primary"
+domain: "corporate_governance"
+fetched: "2026-07-08T06:03:05.099952"
+doi: ""
+openalex_id: "https://openalex.org/W7111584881"
+source_api: "openalex"
+---
+
+# Grey Media: A Psychopolitics of Deception
+
+**著者**: Blackman, Lisa
+**年**: 2027 | **被引用数**: 0
+**タイプ**: primary | **分野**: コーポレートガバナンス
+
+## Abstract
+
+Grey Media is a genre-defying and genre-bending book, a structure that reflects the wild convoluting and confabulating realities that are staged throughout the writing. The book intervenes within a range of contemporary debates and controversies which are problematizing, exploring, unsettling, and reimagining the nature and status of deception as it emerges as an object in the context of AI, information warfare, post-truth politics and the gaslighting associated with psychological and emotional abuse. The project is distinctive in its radical interdisciplinarity or even undisciplinarity. It moves across the sciences and humanities, the popular and the political, and the actual and the compositional, focusing on examples which are designed to engage a more general reader interested in the “power of possibility” and its close relationship to deception. The book navigates and weaves together interdisciplinary debates that cross cultural and media studies, affect studies, critical mental health, psychology, and disability studies, speculative philosophies, feminism and queer theories. The project is shaped in a conjuncture where understanding processes and practices of deception has been increasingly placed at the centre of contemporary debates about power, networks, information, truth, reason, and emotion, and what is constituted as social pathology in a contemporary conjuncture. This includes what registers as odd, strange, weird, bizarre, and even stranger than fiction. The project takes popular notions of gaslighting as a springboard to explore contemporary modes of power that operate through forms of storytelling that play with indeterminacies of sense, feeling and perception. They challenge and unsettle liberal moral norms, weaponize the dilemmatic nature of affective and social life, and circulate within relations of distrust, disbelief, uncertainty, and confusion, creating zones of indescribability, opacity, and discordance. The modes of storytelling are associated with both creativity and disorder, representing the paradoxical nature of confabulation, a form of emotional reasoning that challenges distinctions between the rational and the irrational, the legible and the illegible, the moral and the immoral, intent and opportunity. The book maps modes of deceptive storytelling that have common structures of communication and unfeeling, whilst staging and performing some of the strange and illogical couplings of feeling-rules and actions, which are part of their operations. The book develops a novel approach to the commonalities explored throughout the chapters, combining historical and archival analysis, and a method of speculative storytelling told by a fictional character called Ada. Ada is a queer figure, an unstable narrator who composes scenes for the reader that are based on a weak ethnography (developed from the concept of weak fiction) of the lived experiences of targets of non-physical abuse, and their mediation via blogs, Tik Tok videos, podcasts, and social media forums. The project engages the reader in counterfactual scenarios that stage the subject-matter of the book, composing affect-laden scenes that play with the boundaries of fiction and nonfiction, self and other. These scenes draw from a variety of data sources, news sources, journalistic accounts, commentaries by pundits, stories propelled by social influencers, as well as research and the experiences of dissimulation and deception by those with direct lived experience . The book moves beyond the conventional monograph, combining different modes of writing, which are attuned to and resonate in contexts where the subject matter under analysis can only be made and spoken within very specific contexts of production, reception and even survival. The book is speculative, whilst engaging with what haunts creative speculative thought in the context of abuses of power. It centres confabulation within a biopolitics of convolution that operates through battles for the control of narrative, multiplying what could be through “what if” scenarios of both sense and nonsense.

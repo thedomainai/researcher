@@ -1,0 +1,22 @@
+---
+title: "OSDEE: Open Source Dream Engineering Engine – A Bidirectional Edge-AI Brain-Computer Interface for In-Situ Sleep Cybernetics and EOG-Syntax Communication"
+authors: "Daria Pinakhina"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "complexity_science"
+fetched: "2026-06-28T06:00:50.183653"
+doi: "https://doi.org/10.5281/zenodo.20922746"
+openalex_id: "https://openalex.org/W7166177031"
+source_api: "openalex"
+---
+
+# OSDEE: Open Source Dream Engineering Engine – A Bidirectional Edge-AI Brain-Computer Interface for In-Situ Sleep Cybernetics and EOG-Syntax Communication
+
+**著者**: Daria Pinakhina
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: 複雑系科学
+
+## Abstract
+
+Abstract: The OSDEE (Open Source Dream Engineering Engine) is an open-source hardware and software platform designed to function as a bidirectional Brain-Computer Interface (BCI) during sleep. Moving beyond passive polysomnography, OSDEE introduces an open-API "operating system" for sleep cybernetics. By integrating edge computing with multimodal stimulation, OSDEE enables real-time, user-directed exploration of consciousness and lucid dreaming. This publication establishes open-source prior art for several novel paradigms in neurotechnology, specifically regarding asynchronous in-dream human-computer interaction, EOG-syntax, and in-situ machine learning. Core Architectural Innovations: 1. EOG-Syntax and Asynchronous Command Detection ("Wake-Pattern" Key): Traditional sleep research utilizes basic eye-movement patterns merely as discrete triggers to verify lucid dreaming. OSDEE fundamentally expands this by establishing a formal EOG (Electrooculography) command syntax. A critical engineering challenge in sleep BCI is differentiating intentional commands from spontaneous REM eye movements (which mirror the visual consensus reality of the dream). To solve this, OSDEE employs an Asynchronous BCI paradigm utilizing an "Activation Key" or "Wake-Pattern." A dedicated neural network continuously monitors the EOG stream in standby mode. When the user executes a highly deliberate, unnatural sequence of eye movements (the Wake-Pattern), the system activates a temporary "command window." This allows the system to receive functional EOG-syntax commands while eliminating false positives from regular dream activity. 2. Edge AI, Hardware Architecture, and Distributed Biometric Routing: The hardware architecture departs from monolithic sleep trackers. The wearable mask, equipped with a Wi-Fi/BLE microcontroller (specifically utilizing ESP32, hardware-optimized to prevent RF interference with sensitive EOG/EEG electrodes), functions primarily as a biometric router and edge-processing node. It streams raw or pre-processed biometric data (EOG, EEG) to external computational nodes (such as an NVIDIA Jetson Nano, local PC, or cloud server). These external nodes handle heavy computational tasks, such as real-time sleep staging, neural network training, and dynamic response generation. 3. Agnostic Multimodal Output API (tACS, Microcurrents, Audiovisual): Unlike clinical devices restricted to patented therapeutic frequencies, OSDEE is strictly frequency- and modality-agnostic. The platform supports multi-channel generation of arbitrary signals, including tACS (Transcranial Alternating Current Stimulation), microcurrents, external LED control, and audio streams. OSDEE operates as an open hardware infrastructure layer, leaving specific stimulation protocols to the discretion of the user or researcher. 4. In-Situ AI Training via Subjective Dreamer Feedback: OSDEE introduces a novel machine learning paradigm where the sleeping user acts as an "online annotator." While in a lucid dream, the user experiences various multimodal stimuli (e.g., electrical, auditory, visual) and immediately provides subjective feedback using the aforementioned EOG-syntax. External ML models receive these in-dream labels in real-time, allowing neural networks to adapt and optimize personalized stimulation protocols dynamically. Regulatory Positioning: OSDEE is explicitly developed as an Open Source Research platform. The architectural combination of asynchronous EOG-syntax, specific hardware utilization (ESP32 routing), in-situ AI training, and open tACS/multimodal output capabilities outlined herein is intended to remain in the public domain, ensuring freedom-to-operate for the global neurotech community.

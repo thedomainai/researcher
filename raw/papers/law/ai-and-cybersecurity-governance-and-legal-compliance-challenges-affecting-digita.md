@@ -1,0 +1,22 @@
+---
+title: "AI and Cybersecurity Governance and Legal Compliance Challenges Affecting Digital Energy Infrastructure, Smart Grids, and Critical Utility Resilience Systems"
+authors: "Oluwatobi Alebiosu"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "law"
+fetched: "2026-07-22T06:01:47.633677"
+doi: "https://doi.org/10.7753/ijcatr1508.1001"
+openalex_id: "https://openalex.org/W7169804132"
+source_api: "openalex"
+---
+
+# AI and Cybersecurity Governance and Legal Compliance Challenges Affecting Digital Energy Infrastructure, Smart Grids, and Critical Utility Resilience Systems
+
+**著者**: Oluwatobi Alebiosu
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: 法学
+
+## Abstract
+
+The digital transformation of energy systems has fundamentally reshaped the operation and governance of critical infrastructure by integrating artificial intelligence (AI), industrial Internet of Things (IIoT), cloud computing, edge analytics, and advanced communication technologies into smart grids, digital substations, distributed energy resources, and utility management platforms.While these innovations significantly improve operational efficiency, predictive maintenance, grid reliability, and real-time decision-making, they simultaneously introduce complex cybersecurity vulnerabilities, legal compliance obligations, and governance challenges that threaten the resilience of critical energy infrastructure.The increasing convergence of information technology (IT) and operational technology (OT) has expanded the cyberattack surface, exposing utilities to ransomware, supply-chain compromises, data breaches, AI-enabled cyber threats, insider attacks, and disruptions capable of affecting national energy security and public safety.These risks are compounded by fragmented regulatory frameworks, evolving AI governance requirements, cross-border data protection laws, critical infrastructure regulations, and ethical concerns surrounding algorithmic transparency, accountability, and autonomous decision-making.This study develops an integrated governance framework that combines AI governance, cybersecurity risk management, legal compliance, and digital resilience principles to strengthen the security and operational continuity of smart grids and critical utility systems.The proposed framework incorporates cyber risk intelligence, regulatory compliance assessment, AI assurance mechanisms, resilience analytics, and continuous monitoring to support adaptive governance and informed decision-making.The research provides policymakers, regulators, utility operators, and technology providers with a structured approach for mitigating cyber risks, ensuring legal compliance, enhancing infrastructure resilience, and enabling secure digital transformation across modern energy systems while supporting sustainable and resilient energy transitions.

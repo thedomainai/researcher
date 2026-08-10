@@ -1,0 +1,22 @@
+---
+title: "The Politics of Copossession of the World"
+authors: "Inston, Kevin"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "philosophy"
+fetched: "2026-07-07T06:01:39.192747"
+doi: ""
+openalex_id: "https://openalex.org/W7113263020"
+source_api: "openalex"
+---
+
+# The Politics of Copossession of the World
+
+**著者**: Inston, Kevin
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: 哲学
+
+## Abstract
+
+This article critiques Pierre Crétois’ theory of copossession of the world which rethinks property as a relative right, regulated by the principle of social equity. It argues that despite aiming to deconstruct proprietary absolutism, his theory inverts rather than challenges its logic: copossession replaces private property as the foundation of a fair and rational society. As the only system to realise distributive justice, its politics forecloses legitimate opposition and restricts the democratic agency it claims to promote. Like the proponents of private ownership, Crétois presumes his model’s inherent respectability to the extent that any inequality copossession would cause would register as personal rather than systemic failure. Crétois’s citizens would therefore have to accept that system rather than question, and take responsibility for, its fairness. To repoliticise copossession, the article draws on Pierre Dardot’s and Christian Laval’s cosmopolitics of the commons: copossession gets reconceived as one situated praxis of commoning among others rather than the politics of the world. Relativising it reintroduces antagonism, plurality, and contingency as conditions for fostering collective responsibility for justice and for enacting and defending a world that many worlds can share. Only then could Crétois’ politics remain responsive to the issue of how equally the world is copossessed.
