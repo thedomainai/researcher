@@ -555,6 +555,7 @@ def fetch_openalex(domain, config, since, existing_hashes, dry_run=False):
                     "title": title, "paper_type": paper_type,
                     "citations": citations, "domain": domain,
                     "file": fpath, "source_api": "openalex",
+                    "year": year or None,
                 })
         except Exception as e:
             print(f"    OA error [{query[:30]}]: {e}")
@@ -620,6 +621,7 @@ def fetch_arxiv(domain, config, since, existing_hashes, dry_run=False):
                     "title": title, "paper_type": paper_type,
                     "citations": 0, "domain": domain,
                     "file": fpath, "source_api": "arxiv",
+                    "year": paper.published.year,
                 })
     except Exception as e:
         print(f"    arXiv error [{domain}]: {e}")
@@ -685,10 +687,14 @@ def fetch_rss(since, existing_hashes, dry_run=False):
                             f'fetched: "{datetime.now().isoformat()}"\n'
                             f'source_type: "rss_article"\n---\n\n# {title}\n\n{text}\n')
 
+                year_match = re.search(r"\b(19|20)\d{2}\b", published)
+                rss_year = int(year_match.group()) if year_match else None
+
                 existing_hashes.add(th)
                 results.append({
                     "type": "article", "title": title, "author": author,
                     "file": f"articles/{slug}.md",
+                    "year": rss_year,
                 })
         except Exception as e:
             print(f"    RSS error [{author}]: {e}")
