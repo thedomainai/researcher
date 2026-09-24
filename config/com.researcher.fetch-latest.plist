@@ -9,7 +9,7 @@
     <key>ProgramArguments</key>
     <array>
         <string>/usr/bin/python3</string>
-        <string>/Users/yuta/workspace/projects/researcher/tools/fetch_latest.py</string>
+        <string>/Users/yuta/workspace/projects/researcher/tools/daily_pipeline.py</string>
     </array>
 
     <key>WorkingDirectory</key>
@@ -24,10 +24,10 @@
     </dict>
 
     <key>StandardOutPath</key>
-    <string>/Users/yuta/workspace/projects/researcher/logs/fetch.log</string>
+    <string>/Users/yuta/workspace/projects/researcher/logs/daily_pipeline.log</string>
 
     <key>StandardErrorPath</key>
-    <string>/Users/yuta/workspace/projects/researcher/logs/fetch_error.log</string>
+    <string>/Users/yuta/workspace/projects/researcher/logs/daily_pipeline_error.log</string>
 
     <key>EnvironmentVariables</key>
     <dict>
@@ -35,6 +35,8 @@
         <string>/usr/bin:/usr/local/bin:/opt/homebrew/bin</string>
         <key>PYTHONPATH</key>
         <string>/Users/yuta/Library/Python/3.9/lib/python/site-packages</string>
+        <key>PYTHONUNBUFFERED</key>
+        <string>1</string>
     </dict>
 </dict>
 </plist>

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-fetch_latest.py — 17分野の最新論文を継続的に取得するモジュール
+fetch_latest.py — 分野別の最新論文を継続的に取得するモジュール
 
 設計思想:
   - cronで定期実行される（推奨: 1日1回）
@@ -45,7 +45,24 @@ LOCK_PATH = os.path.join(LOG_DIR, "fetch_latest.lock")
 os.makedirs(LOG_DIR, exist_ok=True)
 
 OA_BASE = "https://api.openalex.org/works"
+# mailto は2026年2月の polite pool 廃止後は無視される。互換のため残す。
 OA_MAILTO = "researcher-bot@example.com"
+# APIキーがあれば無料枠が1日約100回から約1,000回に増える。
+# 環境変数 OPENALEX_API_KEY で渡す。日次実行では .env から読み込まれる。
+OA_API_KEY = os.environ.get("OPENALEX_API_KEY", "")
+OA_CLIENT = httpx.Client()
+
+# 日次実行の監視用。全クエリがネットワーク失敗した場合は
+# 成功扱いにせず、前回の取得日を維持して次回再試行できるようにする。
+RUN_STATS = {
+    "openalex_queries": 0,
+    "openalex_successes": 0,
+    "openalex_failures": 0,
+}
+# 失敗したクエリは取得日を止める代わりに再試行キューへ積み、次回に回す。
+# キーは (domain, query)、値は取り直すべき開始日。
+RETRY_QUEUE = {}
+FAILED_QUERIES = {}
 
 # ============================================================
 # 分野定義
@@ -165,6 +182,17 @@ DOMAINS = {
             "digital anthropology artificial intelligence",
             "technology anthropology AI",
             "organizational ethnography AI",
+        ],
+    },
+    "religious_studies": {
+        "label": "宗教学",
+        "search_queries": [
+            "religion and artificial intelligence",
+            "digital religion artificial intelligence",
+            "religious studies technology AI",
+            "ritual theory technology AI",
+            "religion ethics artificial intelligence",
+            "religious change digital media AI",
         ],
     },
     "philosophy": {
@@ -507,17 +535,49 @@ def fetch_openalex(domain, config, since, existing_hashes, dry_run=False):
     queries = config.get("search_queries", [])
 
     for query in queries:
+        RUN_STATS["openalex_queries"] += 1
+        # 前回失敗したクエリは、その時点の開始日から取り直す。
+        query_since = min(since, RETRY_QUEUE.get((domain, query), since))
         try:
             params = {
                 "search": query,
-                "filter": f"from_publication_date:{since}",
+                "filter": f"from_publication_date:{query_since}",
                 "sort": "relevance_score:desc",
                 "per_page": 3,
                 "mailto": OA_MAILTO,
             }
-            time.sleep(0.2)
-            r = httpx.get(OA_BASE, params=params, timeout=30)
-            if r.status_code != 200:
+            if OA_API_KEY:
+                params["api_key"] = OA_API_KEY
+            # OpenAlexのレート制限を避けるため、クエリ間隔を空ける。
+            time.sleep(1.0)
+            last_error = None
+            r = None
+            for attempt in range(3):
+                try:
+                    r = OA_CLIENT.get(OA_BASE, params=params, timeout=30)
+                    if r.status_code == 200:
+                        RUN_STATS["openalex_successes"] += 1
+                        break
+                    last_error = RuntimeError(
+                        "HTTP %s from OpenAlex" % r.status_code
+                    )
+                except Exception as e:
+                    last_error = e
+
+                if attempt < 2:
+                    retry_after = 0
+                    if r is not None:
+                        try:
+                            retry_after = float(r.headers.get("retry-after", "0"))
+                        except ValueError:
+                            retry_after = 0
+                    time.sleep(max(retry_after, 5 * (attempt + 1)))
+
+            if r is None or r.status_code != 200:
+                RUN_STATS["openalex_failures"] += 1
+                FAILED_QUERIES[(domain, query)] = query_since
+                if last_error:
+                    print(f"    OA error [{query[:30]}]: {last_error}")
                 continue
 
             for work in r.json().get("results", []):
@@ -558,6 +618,8 @@ def fetch_openalex(domain, config, since, existing_hashes, dry_run=False):
                     "year": year or None,
                 })
         except Exception as e:
+            RUN_STATS["openalex_failures"] += 1
+            FAILED_QUERIES[(domain, query)] = query_since
             print(f"    OA error [{query[:30]}]: {e}")
 
     return results
@@ -746,6 +808,8 @@ def main():
         return
 
     state = load_state()
+    for item in state.get("retry_queue", []):
+        RETRY_QUEUE[(item["domain"], item["query"])] = item["since"]
     since = args.since or state.get(
         "last_fetch_date",
         (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d"),
@@ -761,7 +825,7 @@ def main():
     if args.domain:
         if args.domain not in DOMAINS:
             print(f"不明: {args.domain}. 利用可能: {', '.join(DOMAINS.keys())}")
-            return
+            raise SystemExit(2)
         targets = {args.domain: DOMAINS[args.domain]}
     else:
         targets = DOMAINS
@@ -798,7 +862,29 @@ def main():
                 idx["type"] = idx.get("type", "paper")
                 f.write(json.dumps(idx, ensure_ascii=False) + "\n")
 
+    # 全クエリが失敗した場合(DNS障害・全面的な制限)だけ、取得日を維持して失敗扱いにする。
+    # 一部のクエリだけが失敗した場合は、失敗分を再試行キューに積んで取得日を進める。
+    if (
+        not args.dry_run
+        and RUN_STATS["openalex_queries"] > 0
+        and RUN_STATS["openalex_successes"] == 0
+    ):
+        print(
+            "OpenAlexの全クエリが失敗したため、取得状態を更新しません。"
+            "次回実行で未取得期間を再試行します。"
+        )
+        raise SystemExit(2)
+
     if not args.dry_run:
+        state["retry_queue"] = [
+            {"domain": d, "query": q, "since": sd}
+            for (d, q), sd in sorted(FAILED_QUERIES.items())
+        ]
+        if FAILED_QUERIES:
+            print(
+                "OpenAlexで一部のクエリが失敗しました。%d件を次回に再試行します。"
+                % len(FAILED_QUERIES)
+            )
         state["last_fetch_date"] = datetime.now().strftime("%Y-%m-%d")
         state["last_fetch_count"] = len(all_new)
         state["last_fetch_time"] = datetime.now().isoformat()
@@ -806,6 +892,14 @@ def main():
 
     print("\n" + "=" * 60)
     print(f"新規取得: {len(all_new)}件")
+    print(
+        "OpenAlex: 成功 %d / 失敗 %d / クエリ %d"
+        % (
+            RUN_STATS["openalex_successes"],
+            RUN_STATS["openalex_failures"],
+            RUN_STATS["openalex_queries"],
+        )
+    )
     by_domain = {}
     for e in all_new:
         d = e.get("domain", "rss")
