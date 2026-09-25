@@ -1,0 +1,19 @@
+---
+title: "Application of Multi-Criteria Decision-Making Analysis to Rural Spatial Sustainability Evaluation: A Systematic Review"
+authors: ["Zheng Yuan", "Baohua Wen", "Cheng He", "Jin Zhou", "Zhong-Hua Zhou", "Feng Xu"]
+year: 2022
+cited_by_count: 80
+doi: "https://doi.org/10.3390/ijerph19116572"
+openalex_id: W4281914972
+paper_type: review
+evidence_kind: systematic_review
+topics: ["scarcity"]
+---
+
+# Application of Multi-Criteria Decision-Making Analysis to Rural Spatial Sustainability Evaluation: A Systematic Review
+
+**Authors**: Zheng Yuan, Baohua Wen, Cheng He, Jin Zhou, Zhong-Hua Zhou, Feng Xu | **Year**: 2022 | **Cited by**: 80 | **Kind**: systematic_review
+
+## Abstract
+
+The rational allocation of spatial resources is an important factor to ensure the sustainable development of rural areas, and effective pre-emptive spatial evaluation is the prerequisite for identifying the predicament of rural resource allocation. Multi-criteria decision-making analysis has advantages in solving multi-attribute and multi-objective decision-making problems, and has been used in sustainability evaluation research in various disciplines in recent years. Previous studies have proved the value of spatial evaluation using multi-criteria decision analysis in guiding rural incremental development and inventory updates, but systematic reviews of the previous literature from a multidisciplinary perspective and studies of the implementation steps of the evaluation framework are lacking. In the current paper, the research is reviewed from the two levels of quantitative statistics and research content, and through vertical and horizontal comparisons based on three common operating procedures: standard formulation, weight distribution, and ranking and verification. Through the results, the application status and characteristics of the MCDA method in related research are determined, and five research foci in the future are proposed.

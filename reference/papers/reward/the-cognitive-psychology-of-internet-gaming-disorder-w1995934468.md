@@ -1,0 +1,19 @@
+---
+title: "The cognitive psychology of Internet gaming disorder"
+authors: ["Daniel Luke King", "Paul Delfabbro"]
+year: 2014
+cited_by_count: 388
+doi: "https://doi.org/10.1016/j.cpr.2014.03.006"
+openalex_id: W1995934468
+paper_type: article
+evidence_kind: systematic_review
+topics: ["reward"]
+---
+
+# The cognitive psychology of Internet gaming disorder
+
+**Authors**: Daniel Luke King, Paul Delfabbro | **Year**: 2014 | **Cited by**: 388 | **Kind**: systematic_review
+
+## Abstract
+
+Internet gaming disorder (IGD) has received nomenclatural recognition as a potential mental health disorder, despite evident variability in its core psychopathology and psychometric assessment. Although cognitive-behavioural therapy (CBT) is considered an efficacious treatment for IGD, the underlying cognitions of the disorder are not well understood. This review aimed to synthesise research evidence on Internet gaming cognition toward identification of cognitive factors underlying IGD. A systematic review of 29 quantitative studies on Internet gaming cognition and 7 treatment studies employing cognitive therapy for IGD was conducted. Four cognitive factors underlying IGD were identified. Factors included (a) beliefs about game reward value and tangibility, (b) maladaptive and inflexible rules about gaming behaviour, (c) over-reliance on gaming to meet self-esteem needs, and (d) gaming as a method of gaining social acceptance. It is proposed that IGD-related cognition may be more complex than "preoccupation" (i.e., criterion A of IGD). IGD cognition may involve the persistent overvaluation of video gaming rewards, activities, and identities, combined with a need to adhere to maladaptive rules governing use and completion of video games. Greater understanding of the proposed cognitive factors may advance clinical research agendas on identification of individuals with IGD, as well as the expansion and improvement of cognitive therapies for the disorder.
