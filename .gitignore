@@ -44,3 +44,4 @@ logs/daily_pipeline.lock
 
 # reference corpus API cache
 reference/.cache/
+logs/tier_classify.lock

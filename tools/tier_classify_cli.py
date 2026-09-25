@@ -17,6 +17,7 @@ pipeline_compile.py --tier-only と同じ判定基準・同じ書き戻し形式
 """
 
 import argparse
+import fcntl
 import json
 import os
 import re
@@ -28,6 +29,8 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw")
 INDEX_PATH = os.path.join(RAW, "index.jsonl")
 BATCH = 10
+MAX_CONSECUTIVE_FAILURES = 3   # 連続で失敗したら止める(利用枠の上限・障害を想定)
+LOCK_PATH = os.path.join(BASE, "logs", "tier_classify.lock")
 MODEL = "haiku"
 CLAUDE_BIN = os.environ.get("CLAUDE_BIN", "claude")
 
@@ -127,6 +130,15 @@ def main():
     ap.add_argument("--dry-run", action="store_true", help="対象を数えるだけ")
     args = ap.parse_args()
 
+    # 同時に 2 本走ると index.jsonl の書き戻しが競合する。日次ジョブと手動の一括実行を排他にする
+    os.makedirs(os.path.dirname(LOCK_PATH), exist_ok=True)
+    lock = open(LOCK_PATH, "a+")
+    try:
+        fcntl.flock(lock.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        print("別の tier_classify_cli.py が実行中のためスキップします。")
+        return 0
+
     with open(INDEX_PATH, "r", encoding="utf-8") as f:
         index = [json.loads(line) for line in f if line.strip()]
     needs = [e for e in index if "tier" not in e]
@@ -140,6 +152,7 @@ def main():
     counts = {1: 0, 2: 0, 3: 0}
     errors = 0
     done = 0
+    consecutive_failures = 0
     for i in range(0, len(needs), BATCH):
         batch = [e for e in needs[i:i + BATCH]]
         items = []
@@ -162,7 +175,12 @@ def main():
         except Exception as e:
             print("  ! バッチ失敗: %s" % str(e)[:200], flush=True)
             errors += len(listed)
+            consecutive_failures += 1
+            if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
+                print("連続 %d バッチが失敗したため中断します(利用枠の上限か障害の可能性)。" % consecutive_failures, flush=True)
+                break
             continue
+        consecutive_failures = 0
         for k, e, _ in listed:
             res = results.get(k)
             if not res:
