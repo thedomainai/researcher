@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Discover candidate papers from Semantic Scholar across 15 research domains.
+"""Discover candidate papers from Semantic Scholar across configured research domains.
 
 Usage:
     python tools/discover.py [--dry-run] [--domain DOMAIN] [--limit N]
 
-Reads  : config/sources.yaml  (15 domains × query lists)
+Reads  : config/sources.yaml  (configured domains × query lists)
 Writes : raw/papers/<domain>/<slug>.md  (Markdown per paper)
          raw/index.jsonl                (append-only index)
 """

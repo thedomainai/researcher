@@ -21,6 +21,7 @@ researcher/
 │   │   ├── economics/
 │   │   ├── organization_science/
 │   │   ├── anthropology/
+│   │   ├── religious_studies/
 │   │   ├── philosophy/
 │   │   ├── law/
 │   │   ├── hci/
@@ -47,6 +48,7 @@ researcher/
 │   ├── build_index_ui.py     # ★ workspace index UI 生成
 │   ├── build_reader.py       # 静的HTMLリーダー生成
 │   ├── fetch_latest.py       # ★ 最新論文の継続的取得（メインモジュール）
+│   ├── daily_pipeline.py     # ★ 取得→日次読書→Wikiコンパイル
 │   └── ...
 ├── config/
 │   ├── sources.yaml          # 分野定義・フィルタ設定
@@ -75,6 +77,16 @@ python3 tools/fetch_latest.py --dry-run
 
 # RSS取得をスキップ
 python3 tools/fetch_latest.py --no-rss
+```
+
+### 日次パイプライン
+
+```bash
+# 新着取得、日次リーディングリスト、必要時のWikiコンパイルを一括実行
+python3 tools/daily_pipeline.py
+
+# ネットワーク確認のみ（ファイル変更なし）
+python3 tools/daily_pipeline.py --dry-run --no-rss
 ```
 
 ### ナレッジグラフの生成
@@ -137,11 +149,14 @@ python3 tools/compile_wiki.py --phase 7
 
 # workspace index だけ再生成
 python3 tools/compile_wiki.py --phase 8
+
+# 既存コンセプトを維持して未生成記事・索引・グラフを増分更新
+source .env && python3 tools/compile_wiki.py --incremental
 ```
 
 ### 自動実行の設定（launchd）
 
-`launchd` を推奨します。`cron` と同時に設定すると二重実行になります。
+`launchd` を推奨します。登録すると毎朝6時に日次パイプラインを実行します。`cron` と同時に設定すると二重実行になります。
 
 ```bash
 # plistをLaunchAgentsにコピー
@@ -170,7 +185,7 @@ crontab -e
 0 6 * * * cd /Users/yuta/workspace/projects/researcher && /usr/bin/python3 tools/fetch_latest.py >> logs/fetch.log 2>&1
 ```
 
-## 対象17分野
+## 対象分野（宗教学を含む）
 
 | カテゴリ | 分野 | 核心の問い |
 |---|---|---|
@@ -184,6 +199,7 @@ crontab -e
 |  | 経済学 | 生産・分配・成長のメカニズムはどう変わるか |
 |  | 組織科学 | AI native組織のアーキテクチャは何か |
 |  | 人類学 | AI時代の人間の文化・意味世界はどうなるか |
+| 人文学 | 宗教学 | AI時代に宗教・儀礼・聖性・意味世界はどう変容するか |
 | 規範科学 | 哲学 | AIの存在論的地位と倫理的前提は何か |
 |  | 法学 | AI nativeな社会の法的基盤をどう設計するか |
 | 設計科学 | HCI | 人間-AIの接触面をどう設計するか |

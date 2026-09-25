@@ -40,3 +40,4 @@ Thumbs.db
 .env
 .claude/state/verification-required
 logs/fetch_latest.lock
+logs/daily_pipeline.lock

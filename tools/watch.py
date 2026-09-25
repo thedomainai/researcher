@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-watch.py — 17分野の最新論文を継続的に取得するモジュール
+watch.py — 分野別の最新論文を継続的に取得するモジュール
 
 設計思想:
   - cronで定期実行される（推奨: 1日1回）
@@ -152,6 +152,17 @@ DOMAINS = {
             "digital anthropology artificial intelligence",
             "technology anthropology AI",
             "organizational ethnography AI",
+        ],
+    },
+    "religious_studies": {
+        "label": "宗教学",
+        "search_queries": [
+            "religion and artificial intelligence",
+            "digital religion artificial intelligence",
+            "religious studies technology AI",
+            "ritual theory technology AI",
+            "religion ethics artificial intelligence",
+            "religious change digital media AI",
         ],
     },
     "philosophy": {

@@ -136,6 +136,7 @@ CORE_QUESTIONS = {
     "economics": "生産・分配・成長のメカニズムはどう変わるか",
     "organization_science": "AI native組織のアーキテクチャは何か",
     "anthropology": "AI時代の人間の文化・意味世界はどうなるか",
+    "religious_studies": "AI時代に宗教・儀礼・聖性・意味世界はどう変容するか",
     "philosophy": "AIの存在論的地位と倫理的前提は何か",
     "law": "AI nativeな社会の法的基盤をどう設計するか",
     "hci": "人間-AIの接触面をどう設計するか",

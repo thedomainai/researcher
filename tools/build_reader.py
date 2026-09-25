@@ -77,7 +77,7 @@ def render_reader_html(meta, articles, graph, backlinks):
         f"{resolved_edges} resolved edges / "
         f"{unresolved_refs} unresolved refs"
         if summary
-        else f"17分野 × {article_count}コンセプト"
+        else f"分野横断 × {article_count}コンセプト"
     )
     sidebar_html = render_workspace_sidebar(
         active_view="reader",

@@ -44,30 +44,48 @@ os.makedirs(WIKI_CONCEPTS, exist_ok=True)
 os.makedirs(WIKI_META, exist_ok=True)
 
 API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
-MODEL = "claude-sonnet-4-20250514"
+MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-6")
+PHASE2_STATS = {"attempted": 0, "succeeded": 0, "failed": 0}
 
 
 def call_claude(system, user, max_tokens=4096):
     if not API_KEY:
         print("ANTHROPIC_API_KEY not set. Run: source .env")
         sys.exit(1)
-    r = httpx.post(
-        "https://api.anthropic.com/v1/messages",
-        headers={
-            "x-api-key": API_KEY,
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
-        },
-        json={
-            "model": MODEL,
-            "max_tokens": max_tokens,
-            "system": system,
-            "messages": [{"role": "user", "content": user}],
-        },
-        timeout=120,
-    )
-    r.raise_for_status()
-    return "".join(b.get("text", "") for b in r.json()["content"] if b["type"] == "text")
+    payload = {
+        "model": MODEL,
+        "max_tokens": max_tokens,
+        "system": system,
+        "messages": [{"role": "user", "content": user}],
+    }
+    headers = {
+        "x-api-key": API_KEY,
+        "anthropic-version": "2023-06-01",
+        "content-type": "application/json",
+    }
+    timeout = httpx.Timeout(connect=15, read=45, write=30, pool=30)
+
+    for attempt in range(2):
+        try:
+            r = httpx.post(
+                "https://api.anthropic.com/v1/messages",
+                headers=headers,
+                json=payload,
+                timeout=timeout,
+            )
+            if r.status_code in (429, 500, 502, 503, 504) and attempt < 1:
+                time.sleep(2 ** attempt)
+                continue
+            r.raise_for_status()
+            return "".join(
+                b.get("text", "") for b in r.json()["content"] if b["type"] == "text"
+            )
+        except (httpx.TimeoutException, httpx.NetworkError):
+            if attempt == 1:
+                raise
+            time.sleep(2 ** attempt)
+
+    raise RuntimeError("Anthropic API request failed after retries")
 
 
 def load_all_papers():
@@ -160,7 +178,7 @@ def phase1_extract_concepts(papers, articles):
     for a in articles:
         article_text += f"- {a['title']} by {a['author']}: {a['body_excerpt'][:150]}\n"
 
-    prompt = f"""以下は「AI Nativeな社会・組織・システム設計」というテーマで収集した17分野の論文と記事のサマリーです。
+    prompt = f"""以下は「AI Nativeな社会・組織・システム設計」というテーマで収集した複数分野の論文と記事のサマリーです。
 
 {summary_text}
 {article_text}
@@ -193,7 +211,7 @@ JSON配列のみで回答（他のテキスト不要）:
 
     print("  Claude APIでコンセプト抽出中...")
     response = call_claude(
-        "あなたはAI Nativeな社会設計の研究者です。17の学問分野の知見を統合し、分野横断的なコンセプトを抽出してください。回答はJSON配列のみ。",
+        "あなたはAI Nativeな社会設計の研究者です。複数の学問分野の知見を統合し、分野横断的なコンセプトを抽出してください。回答はJSON配列のみ。",
         prompt, max_tokens=4000,
     )
 
@@ -219,7 +237,7 @@ JSON配列のみで回答（他のテキスト不要）:
 # ============================================================
 # Phase 2: wiki記事生成（バリデーション強化版）
 # ============================================================
-def phase2_generate_articles(concepts, papers, articles):
+def phase2_generate_articles(concepts, papers, articles, skip_existing=False):
     print("\n" + "=" * 60)
     print("Phase 2: wiki記事生成")
     print("=" * 60)
@@ -252,6 +270,11 @@ def phase2_generate_articles(concepts, papers, articles):
         related_domains = concept["related_domains"]
 
         print(f"\n  [{i+1}/{len(concepts)}] {title_ja} ({slug})")
+
+        filepath = os.path.join(WIKI_CONCEPTS, f"{slug}.md")
+        if skip_existing and os.path.exists(filepath):
+            print("    ↷ 既存記事のためスキップ")
+            continue
 
         # 関連する論文を収集
         related_papers = []
@@ -315,6 +338,7 @@ def phase2_generate_articles(concepts, papers, articles):
 """
 
         time.sleep(1)
+        PHASE2_STATS["attempted"] += 1
         try:
             article = call_claude(
                 "あなたはAI Nativeな社会設計のテクニカルライターです。"
@@ -323,11 +347,12 @@ def phase2_generate_articles(concepts, papers, articles):
                 "ソースのファイルパスは提示された値をそのまま使ってください。",
                 prompt, max_tokens=4000,
             )
-            filepath = os.path.join(WIKI_CONCEPTS, f"{slug}.md")
             with open(filepath, "w", encoding="utf-8") as f:
                 f.write(article)
+            PHASE2_STATS["succeeded"] += 1
             print(f"    ✅ 保存: concepts/{slug}.md ({len(article)}文字)")
         except Exception as e:
+            PHASE2_STATS["failed"] += 1
             print(f"    ❌ エラー: {e}")
 
 
@@ -353,7 +378,7 @@ def phase3_generate_index(concepts, papers, articles):
             tiers["untiered"].append(c)
 
     index_md = "# Wiki インデックス — AI Native 社会・組織・システム設計\n\n"
-    index_md += "このwikiは17の学問分野から収集した論文・記事をLLMによってコンセプト別に構造化したナレッジベースです。\n\n"
+    index_md += "このwikiは複数の学問分野から収集した論文・記事をLLMによってコンセプト別に構造化したナレッジベースです。\n\n"
     index_md += "[Knowledge Atlas](graph/index.html) | [Article Reader](reader.html)\n\n"
 
     tier_labels = {1: "Tier 1: 不変原理", 2: "Tier 2: 設計原理", 3: "Tier 3: 分析枠組み"}
@@ -567,42 +592,65 @@ def phase8_build_index_ui():
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--phase", type=int, help="実行するフェーズ (1-8)")
+    parser.add_argument(
+        "--incremental",
+        action="store_true",
+        help="既存concepts.jsonを使い、記事・索引・グラフのみ更新する",
+    )
     args = parser.parse_args()
 
     papers = load_all_papers()
     articles = load_articles()
     print(f"ロード完了: 論文 {len(papers)} | 記事 {len(articles)}")
 
-    if args.phase is None or args.phase == 1:
+    concepts_path = os.path.join(WIKI_META, "concepts.json")
+    if args.incremental and os.path.exists(concepts_path):
+        with open(concepts_path, encoding="utf-8") as f:
+            concepts = json.load(f)
+        print(f"増分コンパイル: 既存コンセプト {len(concepts)}件を使用")
+    elif args.phase is None or args.phase == 1:
         concepts = phase1_extract_concepts(papers, articles)
     else:
-        with open(os.path.join(WIKI_META, "concepts.json")) as f:
+        with open(concepts_path) as f:
             concepts = json.load(f)
 
-    if args.phase is None or args.phase == 2:
-        phase2_generate_articles(concepts, papers, articles)
+    if args.incremental or args.phase is None or args.phase == 2:
+        phase2_generate_articles(
+            concepts, papers, articles, skip_existing=args.incremental
+        )
 
-    if args.phase is None or args.phase == 3:
+    if args.incremental or args.phase is None or args.phase == 3:
         phase3_generate_index(concepts, papers, articles)
 
-    if args.phase is None or args.phase == 4:
+    if args.incremental or args.phase is None or args.phase == 4:
         phase4_validate(concepts)
 
-    if args.phase is None or args.phase == 5:
+    if args.incremental or args.phase is None or args.phase == 5:
         phase5_build_graph()
 
-    if args.phase is None or args.phase == 6:
+    if args.incremental or args.phase is None or args.phase == 6:
         phase6_build_reader()
 
-    if args.phase is None or args.phase == 7:
+    if args.incremental or args.phase is None or args.phase == 7:
         phase7_build_graph_ui()
 
-    if args.phase is None or args.phase == 8:
+    if args.incremental or args.phase is None or args.phase == 8:
         phase8_build_index_ui()
 
     print("\n" + "=" * 60)
+    if args.incremental or args.phase is None or args.phase == 2:
+        print(
+            "Phase 2 API結果: 成功 %d / 失敗 %d / 試行 %d"
+            % (
+                PHASE2_STATS["succeeded"],
+                PHASE2_STATS["failed"],
+                PHASE2_STATS["attempted"],
+            )
+        )
     print("完了!")
     print("=" * 60)
+    if PHASE2_STATS["failed"]:
+        raise SystemExit(2)
 
 
 if __name__ == "__main__":

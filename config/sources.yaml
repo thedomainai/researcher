@@ -264,6 +264,26 @@ research_domains:
     min_citations: 100
     priority: "medium"
 
+  religious_studies:
+    label: "宗教学"
+    core_question: "AI時代に宗教・儀礼・聖性・意味世界はどう変容するか"
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "religion and artificial intelligence systematic review"
+        - "digital religion systematic review"
+        - "religious studies technology artificial intelligence review"
+        - "ritual theory technology review"
+        - "religion ethics artificial intelligence systematic review"
+        - "religious change digital media review"
+      seminal:
+        - "Durkheim elementary forms of religious life"
+        - "Geertz religion as a cultural system"
+        - "Eliade sacred and profane"
+        - "McGuire lived religion"
+        - "Campbell digital religion"
+    min_citations: 50
+    priority: "medium"
+
   # ===== 規範科学 =====
 
   philosophy:
