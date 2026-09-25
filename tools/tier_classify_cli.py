@@ -89,9 +89,9 @@ def call_claude(prompt):
                 time.sleep(20 * (attempt + 1))
                 continue
             raise RuntimeError("claude -p 失敗: %s" % msg[:300])
-        if data.get("total_cost_usd"):
-            # サブスクリプションなら 0 のはず。0 以外は API 課金に切り替わっている兆候
-            print("  ! total_cost_usd=%s: API 課金で動いている可能性がある" % data["total_cost_usd"], flush=True)
+        # total_cost_usd は認証方式に関わらず常に「API相当額」の参考値として入る。
+        # サブスクリプション認証(authMethod: claude.ai)かどうかは別途 `claude auth status` で確認する。
+        # ここでは 0 以外でも警告しない(以前の実装は誤検知していた)。
         return text
     raise RuntimeError("claude -p: 再試行上限")
 
