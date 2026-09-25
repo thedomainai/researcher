@@ -1,0 +1,22 @@
+---
+title: "Ethical, legal, and cultural‑anthropological aspects of non‑contact vital sign monitoring in 6G networks"
+authors: "D. Yu. Belousov"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "anthropology"
+fetched: "2026-09-17T06:02:09.797290"
+doi: "https://doi.org/10.37489/2782-3784-myrwd-111"
+openalex_id: "https://openalex.org/W7213261411"
+source_api: "openalex"
+---
+
+# Ethical, legal, and cultural‑anthropological aspects of non‑contact vital sign monitoring in 6G networks
+
+**著者**: D. Yu. Belousov
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: 人類学
+
+## Abstract
+
+Background . Sixth-generation (6G) networks, currently being standardized by the International Telecommunication Union under the designation IMT-2030, are being designed not merely as data transmission media but as distributed sensing platforms. Their key capability — Integrated Sensing and Communication (ISAC) — enables the detection of individuals, the tracking of their movement, and the registration of chest‑wall micro‑movements induced by respiration and heartbeat, including through dielectric barriers and without any device carried by the observed subject. The feasibility of measuring heart rate (HR) through a wall, in both single‑subject and two‑subject scenarios simultaneously, has been experimentally confirmed. Objective . To systematize the evidence base for ISAC‑based monitoring of vital signs, to formulate a catalog of ethical issues, and to propose a practical toolkit for ethics committees evaluating research proposals involving ISAC technologies, as well as to analyze cultural‑anthropological aspects of the perception of invisible monitoring in Russian society. Methods . A narrative review of peer‑reviewed publications (PubMed/PMC, Frontiers, MDPI, arXiv), regulatory documents of the ITU‑R, the General Data Protection Regulation (GDPR), the EU Artificial Intelligence Act (EU AI Act), as well as the Russian Federal Law No. 152‑FZ of 27 July 2006 "On Personal Data" and official clarifications of Roskomnadzor; materials from research institutes (Barkhausen Institut, 6G Flagship, VTT) covering the period 2016–2026. Additionally, sociological and anthropological studies on the perception of privacy and surveillance in the post‑Soviet context were consulted. The ethical analysis was conducted within the framework of the principles of respect for autonomy, beneficence, non‑maleficence, and justice. Results . Radar methods (CW, FMCW, UWB) and OFDM communication signals enable the registration of respiratory rate and HR at distances ranging from tens of centimeters to several meters, including behind physical barriers. The principal ethical barrier is the impossibility of obtaining informed consent from individuals who passively enter the sensing zone. Eleven ethical issues were identified (with an additional issue on cultural perception of invisible surveillance). A legal analysis was conducted: ISAC‑derived data qualify as both health data and biometric data within the meaning of Article 9 of the GDPR, while identification scenarios fall under the restrictions of Article 5 of the EU AI Act. Under Russian law, such data qualify as biometric personal data (Article 11 of Federal Law No. 152‑FZ) and special categories of personal data (Article 10 of Federal Law No. 152‑FZ), the processing of which requires written consent (Article 9 of Federal Law No. 152‑FZ), as confirmed by official clarifications of Roskomnadzor regarding remotely obtained physiological data. A 14‑item checklist for ethics committees was developed. It is shown that the cultural characteristics of Russians (a high level of trust in state institutions combined with a historical experience of surveillance) create a paradoxical situation: the technology may be accepted passively, but at the same time generate latent discontent and a decreas e in autonomy. Conclusions . Prior to the commercial deployment of 6G (approximately 2030), a regulatory window exists for embedding privacy safeguards into the architecture of the standard. ISAC research involving human subjects requires adaptation of the requirements of the Declaration of Helsinki to a situation in which the object of observation is not only the research participant but also any individual within the coverage zone. Cultural features of privacy perception must be taken into account when developing transparency and consent mechanisms.

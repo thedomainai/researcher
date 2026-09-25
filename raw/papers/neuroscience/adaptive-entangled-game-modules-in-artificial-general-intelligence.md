@@ -1,0 +1,22 @@
+---
+title: "Adaptive Entangled Game Modules in Artificial General Intelligence"
+authors: "Haochen Li, Xinshuai Guo, Jingdong Ouyang, Wei Zhang, Leilei Shi"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "neuroscience"
+fetched: "2026-09-11T06:00:22.869454"
+arxiv_id: "http://arxiv.org/abs/2609.09226v1"
+source_api: "arxiv"
+categories: "cs.AI, physics.soc-ph, q-bio.NC, q-fin.GN, quant-ph"
+---
+
+# Adaptive Entangled Game Modules in Artificial General Intelligence
+
+**著者**: Haochen Li, Xinshuai Guo, Jingdong Ouyang, Wei Zhang, Leilei Shi
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: 脳科学
+
+## Abstract
+
+We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a generalized behavioral intelligence (GBI) nonlocal probability-wave equation. This framework captures a broad range of human intelligence behaviors with analytical mechanisms and offers an indirect method to examine the Liu-Chen-Ao (LCA) hypothesis of nonlocal entangled nerve fibers in the brain through collective trader behaviors. Our empirical analysis of Chinese intraday stock market data demonstrates that adaptive entangled game modes explain 82-94% (89% overall) of observed decision patterns, a sharp contrast to the predictions of neoclassical finance based on independent rational agents. Moreover, 2-12% of behaviors show adaption to intraday news, events, and environments, characterized by dual equilibrium states and abrupt reference point shifts, while purely independent modes occur in less than 5% of cases. These findings empirically support the LCA hypothesis, as observable trading behaviors reflect underlying brain mechanisms and internal intelligence decision-making in behavioral psychology. Our results highlight the necessity of incorporating adaptive entangled game modules into artificial general intelligence (AGI) architectures, addressing the limitations of conventional artificial neural network (ANN)-based AI, which relies on trillions of opaque parameters. By integrating ANN-based AI with probability-wave-based entangled-brain simulations, machine learning can enrich AGI foundation models (FMs) and facilitate the development of human-like processing units (HPUs) that leverage brain-inspired mechanisms. Such HPUs may ultimately create more compact, efficient, and robust AGI systems, particularly for embodied intelligence and robotics.

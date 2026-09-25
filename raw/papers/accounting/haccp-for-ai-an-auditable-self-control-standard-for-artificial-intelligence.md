@@ -1,0 +1,22 @@
+---
+title: "HACCP for AI: An Auditable Self-Control Standard for Artificial Intelligence"
+authors: "Simone Paciaroni"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "accounting"
+fetched: "2026-09-07T09:12:13.262954"
+doi: "https://doi.org/10.5281/zenodo.20672143"
+openalex_id: "https://openalex.org/W7164561673"
+source_api: "openalex"
+---
+
+# HACCP for AI: An Auditable Self-Control Standard for Artificial Intelligence
+
+**著者**: Simone Paciaroni
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: 会計学
+
+## Abstract
+
+Almost every serious instrument in AI governance now requires an organisation to run a risk process. None of them tells the organisation where in its own lifecycle the control points sit, what measurable limit applies at each one, what happens automatically when a limit is breached, or who is competent to verify the measurement. That layer, process control, is missing, and it is the layer on which everything else depends. A management system without control points produces documentation; it does not produce safety. This paper supplies that layer by importing a method that has governed an invisible hazard across a globally distributed production chain for more than fifty years: Hazard Analysis and Critical Control Points. The claim is deliberately narrow. HACCP is not proposed as a rival to ISO/IEC 42001, to Article 9 of the EU AI Act, or to the NIST AI Risk Management Framework. It is proposed as the process-control layer their architecture presupposes and does not contain, and as the one methodology in existence with a property AI governance urgently needs and currently lacks: scale invariance. The same seven principles govern a village bakery and a multinational dairy, which is why one inspector, one standard and one accreditation system can cover both. The method is given in the full twelve-step Codex sequence, with a three-tier proportionality rule (deployer, provider, frontier developer), a hazard taxonomy, a control-point decision tree, a catalogue of seven control points, and a taxonomy of limits that separates critical limits from operational limits and indicator thresholds, and reclassifies the compute thresholds now written into law as the third kind. Version 5.0 adds what an expert reader of version 4.0 was entitled to ask for: the instruments. A plan that says “monitor the violation rate” has not yet said anything an engineer can implement. Part II therefore imports, with their arithmetic, the measurement tools that make food-safety limits real: attribute sampling plans that state how many outputs to inspect and how many failures to tolerate before a lot is rejected, with their operating characteristics; statistical process control that gives the operational limit a precise meaning as a warning limit on a control chart; a seven-step protocol for validating an evaluation as a measuring instrument, with inter-rater reliability, uncertainty and a scope statement; and record schemas (a configuration manifest, a monitoring record, a deviation register) that make version identity and traceability a matter of implementation rather than intention. Part III applies the instruments in four worked plans, including a new one for an agent with tool access, and specifies a pre-registrable inter-rater study by which the method's central claim to auditability can be tested and, if warranted, refuted. The paper states its own limits without softening. The most consequential gap in AI-governance infrastructure is metrological: there is no analogue of ISO/IEC 17025 for capability evaluation, and until there is, independent attestation of a capability-based limit is not available to anyone. One structural disanalogy has no food-safety precedent at all: a pathogen does not model the control system trying to detect it, and a sufficiently capable AI system may. Both are treated as design constraints on the method rather than as objections to be answered later. The framework is accordingly strongest where most AI harm occurs, in organisations that deploy and provide AI systems, and is stated to be aspirational at the frontier until independent measurement exists. This record contains three files: the full paper (version 5.0, 73 pages), a two-page Executive Summary for policy readers, and a 15-page Practitioner Brief containing Part II (the instruments) as a standalone document. Version 5.0 supersedes version 4.0 (July 2026); earlier versions remain available under the same concept DOI. CC BY 4.0.

@@ -1,0 +1,22 @@
+---
+title: "AI-BASED INTELLIGENT DISPATCH DECISION SUPPORT SYSTEM IN US FREIGHT TRANSPORT: THE DISPATCHIQ PLATFORM, PREDICTIVE ANALYTICS, AND DYNAMIC LOAD-ROUTE OPTIMIZATION"
+authors: "Serhii Popovych"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "hci"
+fetched: "2026-09-21T09:12:39.363907"
+doi: "https://doi.org/10.52058/2695-1592-2026-2(57)-340-347"
+openalex_id: "https://openalex.org/W7213591030"
+source_api: "openalex"
+---
+
+# AI-BASED INTELLIGENT DISPATCH DECISION SUPPORT SYSTEM IN US FREIGHT TRANSPORT: THE DISPATCHIQ PLATFORM, PREDICTIVE ANALYTICS, AND DYNAMIC LOAD-ROUTE OPTIMIZATION
+
+**著者**: Serhii Popovych
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: HCI
+
+## Abstract
+
+

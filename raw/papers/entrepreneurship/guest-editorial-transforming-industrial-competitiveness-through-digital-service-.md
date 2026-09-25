@@ -1,0 +1,22 @@
+---
+title: "Guest editorial: Transforming industrial competitiveness through digital service innovation (DSI): enabling factors and expected outcomes"
+authors: "Marco Opazo‐Basáez, Ferrán Vendrell-Herrero, Yancy Vaillant"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "entrepreneurship"
+fetched: "2026-09-22T06:04:57.799456"
+doi: "https://doi.org/10.1108/jeim-09-2026-975"
+openalex_id: "https://openalex.org/W7213541619"
+source_api: "openalex"
+---
+
+# Guest editorial: Transforming industrial competitiveness through digital service innovation (DSI): enabling factors and expected outcomes
+
+**著者**: Marco Opazo‐Basáez, Ferrán Vendrell-Herrero, Yancy Vaillant
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: アントレプレナーシップ
+
+## Abstract
+
+Transforming industrial competitiveness through digital service innovation (DSI): enabling factors and expected outcomesAn integrated and evolving view of digital service innovation (DSI)The concept of digital service innovation (DSI) has emerged as an established research stream within the field of service management studies.It is defined as a strategic and continuous process through which organizations leverage digital technologies to (re)model service design, delivery and individualization, generating new value propositions, transforming interactions among multiple actors and reconfiguring service ecosystems (Opazo Bas� aez et al., 2024).In this sense, DSI extends beyond the mere digitalization of existing services, focusing instead on the creation of new mechanisms of value creation and co-creation through the integration of digital technologies, organizational capabilities and actor networks (Vargo et al., 2024).Consequently, this perspective shifts the analytical focus from technology or products toward services as the central unit of analysis, examining how digital services are conceived, reconfigured and scaled within diverse ecosystem contexts (Narvaiza et al., 2024).DSI does not constitute a homogeneous construct; rather, it emerges from the convergence of digital servitization and technological innovation, while incorporating contributions from service management, information systems and digital innovation research.This convergence has expanded its conceptual scope beyond the manufacturing contexts in which it initially gained prominence, enabling a broader understanding of how digital services are created, transformed and evolved across diverse organizational settings (Rabetino et al., 2024).Consequently, DSI has consolidated as an interdisciplinary research field aimed at understanding how organizations formulate, develop and implement digital services through the integration of technologies, organizational capabilities and interactions among multiple actors to generate new value propositions (Kowalkowski et al., 2024).Literature identifies the digital technological foundation as a first fundamental element of DSI, understood as the set of infrastructures and technologies that enable the design, development and evolution of new services.Technologies such as Artificial Intelligence, the Internet of Things, cloud computing, digital platforms and data analytics act as key enablers that allow organizations to collect, integrate and exploit information to develop more adaptive, scalable and user-oriented services (Opazo-Bas� aez et al., 2022).However, existing research consistently emphasizes that these technologies represent an enabler of innovation rather than the ultimate objective of DSI itself.A second fundamental dimension relates to the service and value orientation, which establishes that the primary purpose of innovation is the development of new value propositions for customers, organizations and other ecosystem participants.From this perspective, the success of DSI does not depend solely on the adoption of digital technologies, but rather on the ability of organizations to transform service experiences, strengthen relationships among actors and generate shared value through novel service configurations (Vendrell-Herrero et al., 2021).Thus, DSI involves the integration of technological capabilities with a value-driven approach focused on reconfiguring how services are designed, delivered and experienced within evolving ecosystems.Furthermore, DSI is characterized as a multidimensional process that encompasses the stages of strategic planning, service design, development, implementation and continuous improvement of digital services.These stages require the coordination of technological, Journal of Enterprise

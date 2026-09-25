@@ -1,0 +1,22 @@
+---
+title: "Beyond technical skills: redefining managerial competencies for AI-driven organizations"
+authors: "Andrea De Mauro, Rita Mura, Alessio Di Leo, Enzo Peruffo"
+year: 2026
+citations: 0
+paper_type: "systematic_review"
+domain: "corporate_governance"
+fetched: "2026-09-25T06:04:28.039787"
+doi: "https://doi.org/10.1108/md-11-2025-3503"
+openalex_id: "https://openalex.org/W7214099996"
+source_api: "openalex"
+---
+
+# Beyond technical skills: redefining managerial competencies for AI-driven organizations
+
+**著者**: Andrea De Mauro, Rita Mura, Alessio Di Leo, Enzo Peruffo
+**年**: 2026 | **被引用数**: 0
+**タイプ**: systematic_review | **分野**: コーポレートガバナンス
+
+## Abstract
+
+Purpose This study addresses competency requirements for senior organizational leaders navigating artificial intelligence (AI) integration. Existing managerial frameworks inadequately address algorithmic decision-making contexts; this research investigates which AI-related competencies are essential for C-suite executives and board directors, how managerial roles evolve with AI adoption, and what ethical and regulatory competencies constitute responsible AI leadership. Grounded in socio-technical systems and dynamic capabilities perspectives, the study develops a theory-informed taxonomy integrating classical management scholarship with contemporary AI organizational realities. Design/methodology/approach The study employs a preferred reporting items for systematic reviews and meta-analyses (PRISMA)-guided systematic literature review, searching Scopus and Web of Science databases (2010–2024) using Boolean strings targeting AI technologies, competencies and managerial contexts. From 2,456 unique records, 92 articles meeting inclusion criteria underwent analysis. A novel large language model (LLM)-assisted extraction protocol utilizing Gemini Flash 2.0 with human-in-the-loop validation processed content systematically. Structured content analysis, employing iterative expert-driven coding with intercoder reliability (Cohen's κ > 0.80), generated a hierarchical competency taxonomy. Quantitative descriptive analysis characterized methodological, sectoral and thematic corpus distributions. Findings The analysis yields a four-family competency taxonomy encompassing 18 subcategories. Strategic and Decision-Making Competencies include AI strategic thinking, risk management, economic evaluation and data-driven decision-making. Technical and Analytical Competencies comprise AI literacy, data governance, computational thinking and systems architecture knowledge. Ethical and Regulatory Knowledge encompasses algorethics and legal compliance. Leadership and Change Management Competencies involve engagement leadership, multidisciplinary team coordination, resistance management, human–AI collaboration design, technical communication and continuous organizational learning. The taxonomy reveals executive role evolution from directive authority toward socio-technical orchestration. Practical implications The taxonomy provides actionable guidance for human resource executives conducting competency gap analyses, informing targeted development interventions rather than generic leadership training. Organizations can incorporate AI-related competencies into executive recruitment, board nominations and succession planning. Recommendations differentiate by context: SMEs might prioritize strategic and ethical competencies while accessing technical expertise externally; large corporations in regulated sectors should build comprehensive competencies; public organizations should emphasize ethical dimensions; technology startups should focus on strategic and leadership domains as founders transition to executive roles. Originality/value This research contributes three theoretical advances: first, a theory-informed synthesis integrating socio-technical systems and dynamic capabilities perspectives, extending classical competency frameworks and upper echelons theory for AI contexts; second, demonstration of transparent, replicable LLM-assisted systematic review protocols addressing hallucination and reliability concerns; third, establishment of validated taxonomic structure, operational definitions and testable propositions enabling cumulative empirical research. The study addresses a critical gap by providing the first comprehensive, multi-sector synthesis specifically targeting senior leadership competencies for AI-driven organizations, grounded in established theoretical frameworks.

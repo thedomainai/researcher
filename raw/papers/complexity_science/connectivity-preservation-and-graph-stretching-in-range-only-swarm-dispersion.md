@@ -1,0 +1,22 @@
+---
+title: "Connectivity Preservation and Graph Stretching in Range-Only Swarm Dispersion"
+authors: "Ariel Barel"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "complexity_science"
+fetched: "2026-09-25T06:01:09.240851"
+arxiv_id: "http://arxiv.org/abs/2609.28190v1"
+source_api: "arxiv"
+categories: "cs.MA"
+---
+
+# Connectivity Preservation and Graph Stretching in Range-Only Swarm Dispersion
+
+**著者**: Ariel Barel
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: 複雑系科学
+
+## Abstract
+
+We study connectivity-preserving finite-jump dispersion of anonymous, identical, and oblivious agents under an idealized range-only sensing model. Each agent measures only the distances to its visible neighbors, without bearings, identifiers, communication, memory, or a shared coordinate system. We derive the largest isotropic displacement certifiable as safe from these measurements alone. The resulting rule requires only the distance to the farthest visible neighbor: each agent selects a random direction and moves by half of its remaining visibility margin. The rule preserves every existing visibility edge under synchronous finite motion and therefore preserves connectivity. For two agents, we prove positive conditional drift in squared distance, almost-sure convergence to the visibility boundary, and finite expected time to reach any fixed neighborhood of that boundary. A one-million-run Monte Carlo experiment agrees with the exact first-round moments and estimates approximately 9.5 rounds to reach distance 0.97V from coincident initial positions; an independent Bellman-equation computation gives the same estimate. For general swarms, 1,000 runs across five initial-topology classes reproduce the deterministic safety guarantee at implementation level and reveal a consistent topology-dependent ordering of attainable diameter under the tested protocol. These results provide a theoretical foundation for connectivity-preserving multi-robot dispersion under minimal sensing, while isolating the guarantees achievable from anonymous range measurements alone.

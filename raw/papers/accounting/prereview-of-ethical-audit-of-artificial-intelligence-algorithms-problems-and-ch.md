@@ -1,0 +1,22 @@
+---
+title: "PREreview of "ETHICAL AUDIT OF ARTIFICIAL INTELLIGENCE ALGORITHMS: PROBLEMS AND CHALLENGES FOR MODERN LEGISLATION""
+authors: "Jr. Julian Rodriguez"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "accounting"
+fetched: "2026-09-16T09:14:26.731304"
+doi: "https://doi.org/10.5281/zenodo.22753674"
+openalex_id: "https://openalex.org/W7212619212"
+source_api: "openalex"
+---
+
+# PREreview of "ETHICAL AUDIT OF ARTIFICIAL INTELLIGENCE ALGORITHMS: PROBLEMS AND CHALLENGES FOR MODERN LEGISLATION"
+
+**著者**: Jr. Julian Rodriguez
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: 会計学
+
+## Abstract
+
+This Zenodo record is a permanently preserved version of a PREreview. You can view the complete PREreview at https://prereview.org/reviews/22753675. PREreview: Structural Limits of Ethical Audits in High-Velocity Administrative Systems Reviewer: Julian Rodriguez, Jr., FRSA, MRES, M.ISRM (ORCID: 0009-0007-9332-0140) Target Preprint: Ethical Audit of Artificial Intelligence Algorithms: Problems and Challenges for Modern Legislation (Diana Radchenko, 2026, DOI: 10.5281/zenodo.21491885) 1. Summary & Core Contribution The author addresses a critical vulnerability in contemporary administrative and legal infrastructure: the lack of standardized statutory frameworks governing the ethical auditing of artificial intelligence algorithms. Radchenko correctly highlights the disconnect between high-level conceptual guidelines (e.g., fairness, social justice, transparency) and the statutory mechanisms required to enforce compliance within modern legislative bodies. 2. Systems-Level Analysis & Technical Considerations While the preprint effectively establishes the necessity of institutionalizing mandatory AI audits, legislative frameworks surrounding AI governance routinely fail at the operational layer due to three structural factors: The Fallacy of Static Ethical Audits: Standard legal proposals treat algorithmic audits as periodic, point-in-time certifications. However, in high-velocity data environments—such as automated financial monitoring, cross-border tax transparency engines, and administrative compliance platforms—algorithms dynamically interact with multi-node data feeds. An ethical audit certified at time t0t_0 degrades when exposed to real-time administrative entropy at time t1t_1. Algorithmic Deference as an Operational Hazard: Mandating ethical audits without addressing the phenomenon of Algorithmic Deference creates a false sense of security. Downstream execution gatekeepers routinely outsource their cognitive and legal due diligence to automated software outputs, treating compliance indicators as authoritative truths rather than probabilistic estimates. The Enforcement Friction Gap: Statutory mandates focusing purely on abstract "ethical standards" fail to account for the operational disconnect between Upstream Architectural Intent (legislative mandates) and Downstream Operational Gatekeeping (local implementation). Without embedding deterministic audit logging and "smart friction" into the administrative software layer, mandatory auditing risks becoming a checkbox compliance exercise. 3. Recommendations for Future Iterations Incorporate Forensic Logging: The author should consider expanding the proposed certification system to require immutable, multi-node logging (such as cryptographic audit trails) rather than static procedural reviews. Define Jurisdictional Mechanics: Statutory AI auditing frameworks must account for cross-border administrative friction, explicitly defining how automated auditing requirements interact across differing legal regimes (e.g., civil law vs. common law execution). Address Non-Willful Failure Modes: Legislative policy must distinguish between intentional algorithmic manipulation and non-willful administrative failure caused by data translation noise across disparate administrative databases. Conclusion Radchenko's paper is a timely and valuable contribution to the ongoing policy debate surrounding AI regulation. By grounding abstract ethical principles in concrete legislative and statutory mechanisms, the work provides a solid entry point for researchers examining the intersection of administrative law and automated systems architecture. Competing interests The author declares that they have no competing interests. Use of Artificial Intelligence (AI) The author declares that they used generative AI to come up with new ideas for their review.

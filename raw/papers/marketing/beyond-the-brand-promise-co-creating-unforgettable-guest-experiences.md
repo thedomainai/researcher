@@ -1,0 +1,22 @@
+---
+title: "Beyond the brand promise: co-creating unforgettable guest experiences"
+authors: "Gideon Awini, Majeed Mohammed, Emmanuel Nii Ayi Solomon, Abdul-Rasheed Alhassan Alolo"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "marketing"
+fetched: "2026-09-18T09:12:12.636911"
+doi: "https://doi.org/10.1108/jhth-03-2026-0052"
+openalex_id: "https://openalex.org/W7213470822"
+source_api: "openalex"
+---
+
+# Beyond the brand promise: co-creating unforgettable guest experiences
+
+**著者**: Gideon Awini, Majeed Mohammed, Emmanuel Nii Ayi Solomon, Abdul-Rasheed Alhassan Alolo
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: マーケティング
+
+## Abstract
+
+Purpose This study investigates whether value co-creation serves as the mechanism through which customer-based brand equity translates into guest experience in Northern Ghana's hospitality sector and examines how this relationship is conditioned by the region's resource-constrained service environment. Design/methodology/approach A quantitative research design was adopted. Data were collected using structured questionnaires from 643 hotel guests who had recently stayed in 2- to 4-star hotels with identifiable branding and co-creation practices. Convenience sampling was used to recruit respondents with recent brand interactions. Partial least squares structural equation modelling (PLS-SEM) was employed to examine the structural relationships and mediation effects among the constructs. Findings The findings reveal that Brand Loyalty and Perceived Brand Quality exert strong positive direct effects on both value co-creation and guest experience, whereas Brand Awareness exerts a relatively weaker effect. Additionally, value co-creation significantly mediates the relationships between all four CBBE dimensions and guest experience. This indicates that collaborative interactions between hotels and guests play a crucial role in converting brand equity into meaningful experiential outcomes. Research limitations/implications Its cross-sectional design limits causal inference among CBBE, VCC and GX; longitudinal or experimental studies are recommended. The focus on five northern regions of Ghana restricts generalisability; future research should replicate the model in other regions, sectors and countries. Reliance on self-reported data may introduce common method bias; multi-source and behavioural data could enhance validity. The model examined only VCC as a mediator; future studies should explore additional mediators (e.g. trust and emotional attachment) and moderators (e.g. digital engagement and personality traits) to enrich understanding of brand-driven guest experiences. Practical implications The findings urge hospitality managers to move beyond awareness-building toward structured value co-creation. Loyalty programs should function as participatory platforms that enable personalisation, sustainability involvement, and guest input to strengthen emotional bonds and advocacy. Brand associations must reflect authentic values through storytelling and digital community engagement. Managers should align promotional promises with service capabilities to avoid expectation gaps. An integrated approach linking marketing, operations and technology, through AI-enabled personalisation, responsive feedback systems and flexible service design, is essential. Performance metrics should extend beyond satisfaction to include co-creation participation, emotional engagement and advocacy indicators. Social implications This study highlights the broader societal value of participatory hospitality models. Thus, by promoting value co-creation, hospitality firms can empower guests as active contributors rather than passive consumers, fostering inclusion, dialogue and shared responsibility. Co-creative practices that emphasise local culture, sustainability and community engagement can strengthen social cohesion and support local economies. Aligning brand promises with authentic service delivery also enhances trust and ethical accountability in service markets. Ultimately, experience-centred strategies encourage more responsible consumption patterns and collaborative relationships between businesses and communities, contributing to sustainable tourism development and socially responsive brand ecosystems. Originality/value The study extends Service-Dominant Logic by identifying infrastructural constraints and relational service culture as contextual boundary conditions shaping the CBBE–VCC–GX relationship in emerging hospitality markets.

@@ -7,6 +7,209 @@
       "papers/economics/the-skill-content-of-recent-technological-change-an-empirical-exploration.md",
       "papers/history_of_technology/typology-of-sociotechnical-transition-pathways.md",
       "papers/cognitive_science/situated-cognition-and-the-culture-of-learning.md"
+    ],
+    "2026-08-18": [
+      "papers/leadership_ob/organizational-culture-and-leadership.md",
+      "papers/business_ethics_csr/stress-appraisal-and-coping.md",
+      "papers/systems_engineering/a-systematic-review-of-resilience-engineering-applications-to-natech-accidents-i.md",
+      "papers/ai_governance/artificial-intelligence-the-global-landscape-of-ethics-guidelines.md",
+      "papers/marketing/the-job-demandsresources-model-state-of-the-art.md"
+    ],
+    "2026-08-20": [
+      "papers/business_ethics_csr/stress-appraisal-and-coping.md",
+      "papers/hci/mixed-initiative-interaction-and-robotic-systems.md",
+      "papers/psychology/self-determination-theory-and-the-facilitation-of-intrinsic-motivation-social-de.md",
+      "papers/anthropology/the-interpretation-of-cultures.md",
+      "papers/cognitive_science/situated-cognition-and-the-culture-of-learning.md"
+    ],
+    "2026-08-21": [
+      "papers/complexity_science/adaptation-in-natural-and-artificial-systems.md",
+      "papers/systems_engineering/a-systematic-review-of-resilience-engineering-applications-to-natech-accidents-i.md",
+      "papers/cognitive_science/situated-cognition-and-the-culture-of-learning.md",
+      "papers/marketing/the-job-demandsresources-model-state-of-the-art.md",
+      "papers/entrepreneurship/investor-psychology-and-security-market-under-and-overreactions.md"
+    ],
+    "2026-08-24": [
+      "papers/business_ethics_csr/stress-appraisal-and-coping.md",
+      "papers/neuroscience/the-free-energy-principle-a-unified-brain-theory.md",
+      "papers/finance_corporate/gradient-based-learning-applied-to-document-recognition.md",
+      "papers/hci/mixed-initiative-interaction-and-robotic-systems.md",
+      "papers/anthropology/the-interpretation-of-cultures.md"
+    ],
+    "2026-08-27": [
+      "papers/ai_governance/artificial-intelligence-the-global-landscape-of-ethics-guidelines.md",
+      "papers/economics/the-skill-content-of-recent-technological-change-an-empirical-exploration.md",
+      "papers/operations_management/reinforcement-learning-a-survey.md",
+      "papers/systems_engineering/a-systematic-review-of-resilience-engineering-applications-to-natech-accidents-i.md",
+      "papers/cognitive_science/situated-cognition-and-the-culture-of-learning.md"
+    ],
+    "2026-08-29": [
+      "papers/systems_engineering/a-systematic-review-of-resilience-engineering-applications-to-natech-accidents-i.md",
+      "papers/law/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations.md",
+      "papers/strategic_management/competitive-strategy-techniques-for-analyzing-industries-and-competitors.md",
+      "papers/entrepreneurship/investor-psychology-and-security-market-under-and-overreactions.md",
+      "papers/organization_science/dynamic-capabilities-and-strategic-management.md"
+    ],
+    "2026-08-30": [
+      "papers/history_of_technology/typology-of-sociotechnical-transition-pathways.md",
+      "papers/batched-contextual-reinforcement-a-task-scaling-law-for-efficient-reasoning.md",
+      "papers/ai_governance/artificial-intelligence-the-global-landscape-of-ethics-guidelines.md",
+      "papers/operations_management/reinforcement-learning-a-survey.md",
+      "papers/philosophy/an-introduction-to-cybernetics.md"
+    ],
+    "2026-08-31": [
+      "papers/accounting/illiquidity-and-stock-returns-cross-section-and-time-series-effects.md",
+      "papers/corporate_governance/explainable-artificial-intelligence-xai-concepts-taxonomies-opportunities-and-ch.md",
+      "papers/history_of_technology/typology-of-sociotechnical-transition-pathways.md",
+      "papers/systems_engineering/a-systematic-review-of-resilience-engineering-applications-to-natech-accidents-i.md",
+      "papers/psychology/self-determination-theory-and-the-facilitation-of-intrinsic-motivation-social-de.md"
+    ],
+    "2026-09-01": [
+      "papers/systems_engineering/a-systematic-review-of-resilience-engineering-applications-to-natech-accidents-i.md",
+      "papers/strategic_management/competitive-strategy-techniques-for-analyzing-industries-and-competitors.md",
+      "papers/organization_science/dynamic-capabilities-and-strategic-management.md",
+      "papers/accounting/illiquidity-and-stock-returns-cross-section-and-time-series-effects.md",
+      "papers/leadership_ob/organizational-culture-and-leadership.md"
+    ],
+    "2026-09-02": [
+      "papers/neuroscience/the-free-energy-principle-a-unified-brain-theory.md",
+      "papers/organization_science/dynamic-capabilities-and-strategic-management.md",
+      "papers/information_systems/the-wu-minn-human-connectome-project-an-overview.md",
+      "papers/accounting/illiquidity-and-stock-returns-cross-section-and-time-series-effects.md",
+      "papers/law/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations.md"
+    ],
+    "2026-09-03": [
+      "papers/economics/the-skill-content-of-recent-technological-change-an-empirical-exploration.md",
+      "papers/information_systems/the-wu-minn-human-connectome-project-an-overview.md",
+      "papers/neuroscience/the-free-energy-principle-a-unified-brain-theory.md",
+      "papers/systems_engineering/a-systematic-review-of-resilience-engineering-applications-to-natech-accidents-i.md",
+      "papers/accounting/illiquidity-and-stock-returns-cross-section-and-time-series-effects.md"
+    ],
+    "2026-09-04": [
+      "papers/entrepreneurship/investor-psychology-and-security-market-under-and-overreactions.md",
+      "papers/neuroscience/the-free-energy-principle-a-unified-brain-theory.md",
+      "papers/operations_research/resilience-and-stability-of-ecological-systems.md",
+      "papers/hci/mixed-initiative-interaction-and-robotic-systems.md",
+      "papers/anthropology/the-interpretation-of-cultures.md"
+    ],
+    "2026-09-05": [
+      "papers/history_of_technology/typology-of-sociotechnical-transition-pathways.md",
+      "papers/evolutionary_biology/niche-construction.md",
+      "papers/systems_engineering/a-systematic-review-of-resilience-engineering-applications-to-natech-accidents-i.md",
+      "papers/strategic_management/competitive-strategy-techniques-for-analyzing-industries-and-competitors.md",
+      "papers/behavioral_economics/prospect-theory-an-analysis-of-decision-under-risk.md"
+    ],
+    "2026-09-07": [
+      "papers/innovation_management/the-prisma-2020-statement-an-updated-guideline-for-reporting-systematic-reviews.md",
+      "papers/organization_science/dynamic-capabilities-and-strategic-management.md",
+      "papers/international_business/the-internationalization-process-of-the-firma-model-of-knowledge-development-and.md",
+      "papers/psychology/self-determination-theory-and-the-facilitation-of-intrinsic-motivation-social-de.md",
+      "papers/human_resource_management/a-heteroskedasticity-consistent-covariance-matrix-estimator-and-a-direct-test-fo.md"
+    ],
+    "2026-09-08": [
+      "papers/complexity_science/adaptation-in-natural-and-artificial-systems.md",
+      "papers/batched-contextual-reinforcement-a-task-scaling-law-for-efficient-reasoning.md",
+      "papers/strategic_management/competitive-strategy-techniques-for-analyzing-industries-and-competitors.md",
+      "papers/marketing/the-job-demandsresources-model-state-of-the-art.md",
+      "papers/organization_science/dynamic-capabilities-and-strategic-management.md"
+    ],
+    "2026-09-09": [
+      "papers/ai_governance/artificial-intelligence-the-global-landscape-of-ethics-guidelines.md",
+      "papers/entrepreneurship/investor-psychology-and-security-market-under-and-overreactions.md",
+      "papers/leadership_ob/organizational-culture-and-leadership.md",
+      "papers/operations_management/reinforcement-learning-a-survey.md",
+      "papers/international_business/the-internationalization-process-of-the-firma-model-of-knowledge-development-and.md"
+    ],
+    "2026-09-10": [
+      "papers/evolutionary_biology/niche-construction.md",
+      "papers/anthropology/the-interpretation-of-cultures.md",
+      "papers/innovation_management/the-prisma-2020-statement-an-updated-guideline-for-reporting-systematic-reviews.md",
+      "papers/philosophy/an-introduction-to-cybernetics.md",
+      "papers/psychology/self-determination-theory-and-the-facilitation-of-intrinsic-motivation-social-de.md"
+    ],
+    "2026-09-11": [
+      "papers/evolutionary_biology/niche-construction.md",
+      "papers/organization_science/dynamic-capabilities-and-strategic-management.md",
+      "papers/human_resource_management/a-heteroskedasticity-consistent-covariance-matrix-estimator-and-a-direct-test-fo.md",
+      "papers/cognitive_science/situated-cognition-and-the-culture-of-learning.md",
+      "papers/corporate_governance/explainable-artificial-intelligence-xai-concepts-taxonomies-opportunities-and-ch.md"
+    ],
+    "2026-09-12": [
+      "papers/evolutionary_biology/niche-construction.md",
+      "papers/accounting/illiquidity-and-stock-returns-cross-section-and-time-series-effects.md",
+      "papers/human_ai_collaboration/navigating-the-jagged-technological-frontier-field-experimental-evidence-of-the-.md",
+      "papers/neuroscience/the-free-energy-principle-a-unified-brain-theory.md",
+      "papers/human_resource_management/a-heteroskedasticity-consistent-covariance-matrix-estimator-and-a-direct-test-fo.md"
+    ],
+    "2026-09-13": [
+      "papers/operations_management/reinforcement-learning-a-survey.md",
+      "papers/operations_research/resilience-and-stability-of-ecological-systems.md",
+      "papers/systems_engineering/a-systematic-review-of-resilience-engineering-applications-to-natech-accidents-i.md",
+      "papers/marketing/the-job-demandsresources-model-state-of-the-art.md",
+      "papers/accounting/illiquidity-and-stock-returns-cross-section-and-time-series-effects.md"
+    ],
+    "2026-09-14": [
+      "papers/neuroscience/the-free-energy-principle-a-unified-brain-theory.md",
+      "papers/strategic_management/competitive-strategy-techniques-for-analyzing-industries-and-competitors.md",
+      "papers/business_ethics_csr/stress-appraisal-and-coping.md",
+      "papers/finance_corporate/gradient-based-learning-applied-to-document-recognition.md",
+      "papers/operations_management/reinforcement-learning-a-survey.md"
+    ],
+    "2026-09-16": [
+      "papers/marketing/the-job-demandsresources-model-state-of-the-art.md",
+      "papers/international_business/the-internationalization-process-of-the-firma-model-of-knowledge-development-and.md",
+      "papers/entrepreneurship/investor-psychology-and-security-market-under-and-overreactions.md",
+      "papers/evolutionary_biology/niche-construction.md",
+      "papers/leadership_ob/organizational-culture-and-leadership.md"
+    ],
+    "2026-09-17": [
+      "papers/finance_corporate/gradient-based-learning-applied-to-document-recognition.md",
+      "papers/accounting/illiquidity-and-stock-returns-cross-section-and-time-series-effects.md",
+      "papers/ai_governance/artificial-intelligence-the-global-landscape-of-ethics-guidelines.md",
+      "papers/batched-contextual-reinforcement-a-task-scaling-law-for-efficient-reasoning.md",
+      "papers/business_ethics_csr/stress-appraisal-and-coping.md"
+    ],
+    "2026-09-18": [
+      "papers/marketing/the-job-demandsresources-model-state-of-the-art.md",
+      "papers/operations_research/resilience-and-stability-of-ecological-systems.md",
+      "papers/psychology/self-determination-theory-and-the-facilitation-of-intrinsic-motivation-social-de.md",
+      "papers/business_ethics_csr/stress-appraisal-and-coping.md",
+      "papers/anthropology/the-interpretation-of-cultures.md"
+    ],
+    "2026-09-20": [
+      "papers/finance_corporate/gradient-based-learning-applied-to-document-recognition.md",
+      "papers/anthropology/the-interpretation-of-cultures.md",
+      "papers/batched-contextual-reinforcement-a-task-scaling-law-for-efficient-reasoning.md",
+      "papers/evolutionary_biology/niche-construction.md",
+      "papers/neuroscience/the-free-energy-principle-a-unified-brain-theory.md"
+    ],
+    "2026-09-21": [
+      "papers/anthropology/the-interpretation-of-cultures.md",
+      "papers/strategic_management/competitive-strategy-techniques-for-analyzing-industries-and-competitors.md",
+      "papers/law/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations.md",
+      "papers/corporate_governance/explainable-artificial-intelligence-xai-concepts-taxonomies-opportunities-and-ch.md",
+      "papers/business_ethics_csr/stress-appraisal-and-coping.md"
+    ],
+    "2026-09-22": [
+      "papers/neuroscience/the-free-energy-principle-a-unified-brain-theory.md",
+      "papers/philosophy/an-introduction-to-cybernetics.md",
+      "papers/innovation_management/the-prisma-2020-statement-an-updated-guideline-for-reporting-systematic-reviews.md",
+      "papers/hci/mixed-initiative-interaction-and-robotic-systems.md",
+      "papers/ai_governance/artificial-intelligence-the-global-landscape-of-ethics-guidelines.md"
+    ],
+    "2026-09-24": [
+      "papers/history_of_technology/typology-of-sociotechnical-transition-pathways.md",
+      "papers/law/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations.md",
+      "papers/accounting/illiquidity-and-stock-returns-cross-section-and-time-series-effects.md",
+      "papers/operations_management/reinforcement-learning-a-survey.md",
+      "papers/anthropology/the-interpretation-of-cultures.md"
+    ],
+    "2026-09-25": [
+      "papers/leadership_ob/organizational-culture-and-leadership.md",
+      "papers/business_ethics_csr/stress-appraisal-and-coping.md",
+      "papers/sociology/reassembling-the-social.md",
+      "papers/strategic_management/competitive-strategy-techniques-for-analyzing-industries-and-competitors.md",
+      "papers/international_business/the-internationalization-process-of-the-firma-model-of-knowledge-development-and.md"
     ]
   }
 }
