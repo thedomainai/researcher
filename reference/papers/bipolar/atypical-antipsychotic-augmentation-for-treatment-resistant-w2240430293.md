@@ -8,11 +8,13 @@ openalex_id: W2240430293
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Atypical Antipsychotic Augmentation for Treatment-Resistant Depression: A Systematic Review and Network Meta-Analysis
 
-**Authors**: Xinyu Zhou, Gabor I. Keitner, Bin Qin, Arun V Ravindran, Michael Bauer, Cinzia Del Giovane, Jingping Zhao, Yiyun Liu, et al. | **Year**: 2015 | **Cited by**: 199 | **Kind**: meta_analysis
+**Authors**: Xinyu Zhou, Gabor I. Keitner, Bin Qin, Arun V Ravindran, Michael Bauer, Cinzia Del Giovane, Jingping Zhao, Yiyun Liu, et al. | **Year**: 2015 | **Cited by**: 199 | **Kind**: meta_analysis | **Relevance**: bipolar: supporting
 
 ## Abstract
 

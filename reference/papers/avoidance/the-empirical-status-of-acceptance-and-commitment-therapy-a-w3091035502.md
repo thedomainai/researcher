@@ -8,11 +8,13 @@ openalex_id: W3091035502
 paper_type: article
 evidence_kind: meta_analysis
 topics: ["avoidance"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # The empirical status of acceptance and commitment therapy: A review of meta-analyses
 
-**Authors**: Andrew Thomas Gloster, Noemi Walder, Michael E. Levin, Michael P. Twohig, Maria Karekla | **Year**: 2020 | **Cited by**: 632 | **Kind**: meta_analysis
+**Authors**: Andrew Thomas Gloster, Noemi Walder, Michael E. Levin, Michael P. Twohig, Maria Karekla | **Year**: 2020 | **Cited by**: 632 | **Kind**: meta_analysis | **Relevance**: avoidance: core
 
 ## Abstract
 

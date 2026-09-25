@@ -8,11 +8,13 @@ openalex_id: W2148083007
 paper_type: article
 evidence_kind: article
 topics: ["suicide"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # The Columbia–Suicide Severity Rating Scale: Initial Validity and Internal Consistency Findings From Three Multisite Studies With Adolescents and Adults
 
-**Authors**: Kelly Posner, Gregory K. Brown, Bárbara Stanley, David A. Brent, Kseniya V. Yershova, María A. Oquendo, Glenn W. Currier, Glenn Alexander Melvin, et al. | **Year**: 2011 | **Cited by**: 5225 | **Kind**: article
+**Authors**: Kelly Posner, Gregory K. Brown, Bárbara Stanley, David A. Brent, Kseniya V. Yershova, María A. Oquendo, Glenn W. Currier, Glenn Alexander Melvin, et al. | **Year**: 2011 | **Cited by**: 5225 | **Kind**: article | **Relevance**: suicide: core
 
 ## Abstract
 

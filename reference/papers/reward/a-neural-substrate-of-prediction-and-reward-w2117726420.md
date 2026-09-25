@@ -8,11 +8,13 @@ openalex_id: W2117726420
 paper_type: article
 evidence_kind: article
 topics: ["reward"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # A Neural Substrate of Prediction and Reward
 
-**Authors**: Wolfram Schultz, Peter Dayan, P. Read Montague | **Year**: 1997 | **Cited by**: 9814 | **Kind**: article
+**Authors**: Wolfram Schultz, Peter Dayan, P. Read Montague | **Year**: 1997 | **Cited by**: 9814 | **Kind**: article | **Relevance**: reward: core
 
 ## Abstract
 

@@ -8,11 +8,13 @@ openalex_id: W2788432705
 paper_type: article
 evidence_kind: article
 topics: ["mastery"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # TALENT VERSUS LUCK: THE ROLE OF RANDOMNESS IN SUCCESS AND FAILURE
 
-**Authors**: ALESSANDRO PLUCHINO, ALESSIO EMANUELE BIONDO, ANDREA RAPISARDA | **Year**: 2018 | **Cited by**: 103 | **Kind**: article
+**Authors**: ALESSANDRO PLUCHINO, ALESSIO EMANUELE BIONDO, ANDREA RAPISARDA | **Year**: 2018 | **Cited by**: 103 | **Kind**: article | **Relevance**: mastery: core
 
 ## Abstract
 

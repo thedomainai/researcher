@@ -8,11 +8,13 @@ openalex_id: W1603664273
 paper_type: article
 evidence_kind: meta_analysis
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Effects of antipsychotics, antidepressants and mood stabilizers on risk for physical diseases in people with schizophrenia, depression and bipolar disorder
 
-**Authors**: Christoph Ulrich Correll, Johan Detraux, Jan De Lepeleire, Marc De Hert | **Year**: 2015 | **Cited by**: 834 | **Kind**: meta_analysis
+**Authors**: Christoph Ulrich Correll, Johan Detraux, Jan De Lepeleire, Marc De Hert | **Year**: 2015 | **Cited by**: 834 | **Kind**: meta_analysis | **Relevance**: bipolar: core
 
 ## Abstract
 

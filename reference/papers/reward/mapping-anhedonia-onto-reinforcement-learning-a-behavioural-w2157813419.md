@@ -8,11 +8,13 @@ openalex_id: W2157813419
 paper_type: article
 evidence_kind: meta_analysis
 topics: ["reward"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Mapping anhedonia onto reinforcement learning: a behavioural meta-analysis
 
-**Authors**: Quentin J. M. Huys, Diego A. Pizzagalli, Ryan Bogdan, Peter Dayan | **Year**: 2013 | **Cited by**: 508 | **Kind**: meta_analysis
+**Authors**: Quentin J. M. Huys, Diego A. Pizzagalli, Ryan Bogdan, Peter Dayan | **Year**: 2013 | **Cited by**: 508 | **Kind**: meta_analysis | **Relevance**: reward: core
 
 ## Abstract
 

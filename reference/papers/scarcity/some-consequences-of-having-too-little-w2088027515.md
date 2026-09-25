@@ -8,11 +8,13 @@ openalex_id: W2088027515
 paper_type: article
 evidence_kind: article
 topics: ["scarcity"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Some Consequences of Having Too Little
 
-**Authors**: Anuj Shah, Sendhil Mullainathan, Eldar B. Shafir | **Year**: 2012 | **Cited by**: 1584 | **Kind**: article
+**Authors**: Anuj Shah, Sendhil Mullainathan, Eldar B. Shafir | **Year**: 2012 | **Cited by**: 1584 | **Kind**: article | **Relevance**: scarcity: core
 
 ## Abstract
 

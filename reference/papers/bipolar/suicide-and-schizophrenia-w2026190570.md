@@ -8,11 +8,13 @@ openalex_id: W2026190570
 paper_type: article
 evidence_kind: article
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Suicide and schizophrenia
 
-**Authors**: Samuel G. Siris | **Year**: 2001 | **Cited by**: 417 | **Kind**: article
+**Authors**: Samuel G. Siris | **Year**: 2001 | **Cited by**: 417 | **Kind**: article | **Relevance**: bipolar: supporting
 
 ## Abstract
 

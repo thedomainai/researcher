@@ -8,11 +8,13 @@ openalex_id: W2944823928
 paper_type: article
 evidence_kind: article
 topics: ["scarcity"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # A scarcity mindset alters neural processing underlying consumer decision making
 
-**Authors**: Inge Huijsmans, Ili Ma, Letícia Rettore Micheli, Claudia Civai, Mirre Stallen, Alan G. Sanfey | **Year**: 2019 | **Cited by**: 106 | **Kind**: article
+**Authors**: Inge Huijsmans, Ili Ma, Letícia Rettore Micheli, Claudia Civai, Mirre Stallen, Alan G. Sanfey | **Year**: 2019 | **Cited by**: 106 | **Kind**: article | **Relevance**: scarcity: core
 
 ## Abstract
 

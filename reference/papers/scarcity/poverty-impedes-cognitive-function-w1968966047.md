@@ -8,11 +8,13 @@ openalex_id: W1968966047
 paper_type: article
 evidence_kind: article
 topics: ["scarcity"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Poverty Impedes Cognitive Function
 
-**Authors**: Anandi Mani, Sendhil Mullainathan, Eldar B. Shafir, Jiaying Zhao | **Year**: 2013 | **Cited by**: 2992 | **Kind**: article
+**Authors**: Anandi Mani, Sendhil Mullainathan, Eldar B. Shafir, Jiaying Zhao | **Year**: 2013 | **Cited by**: 2992 | **Kind**: article | **Relevance**: scarcity: core
 
 ## Abstract
 

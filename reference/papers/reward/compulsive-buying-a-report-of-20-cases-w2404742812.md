@@ -8,11 +8,13 @@ openalex_id: W2404742812
 paper_type: article
 evidence_kind: article
 topics: ["reward"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Compulsive buying: a report of 20 cases.
 
-**Authors**: Susan L. McElroy, Paul E. Keck, Harrison Graham Pope, Jacqueline Smith, Stephen M. Strakowski | **Year**: 1994 | **Cited by**: 648 | **Kind**: article
+**Authors**: Susan L. McElroy, Paul E. Keck, Harrison Graham Pope, Jacqueline Smith, Stephen M. Strakowski | **Year**: 1994 | **Cited by**: 648 | **Kind**: article | **Relevance**: reward: core
 
 ## Abstract
 

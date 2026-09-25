@@ -8,11 +8,13 @@ openalex_id: W2128567888
 paper_type: article
 evidence_kind: article
 topics: ["cognition"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Cognitive Function Across Manic or Hypomanic, Depressed, and Euthymic States in Bipolar Disorder
 
-**Authors**: Anabel Martínez‐Arán, Eduard Vieta, María Reinares, Francesc Colom, Carla Torrent, José Sánchez‐Moreno, Antonio Benabarre, José Manuel Goikolea, et al. | **Year**: 2004 | **Cited by**: 1112 | **Kind**: article
+**Authors**: Anabel Martínez‐Arán, Eduard Vieta, María Reinares, Francesc Colom, Carla Torrent, José Sánchez‐Moreno, Antonio Benabarre, José Manuel Goikolea, et al. | **Year**: 2004 | **Cited by**: 1112 | **Kind**: article | **Relevance**: cognition: core
 
 ## Abstract
 

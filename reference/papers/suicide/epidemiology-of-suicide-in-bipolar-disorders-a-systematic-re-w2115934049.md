@@ -8,11 +8,13 @@ openalex_id: W2115934049
 paper_type: review
 evidence_kind: systematic_review
 topics: ["suicide"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Epidemiology of suicide in bipolar disorders: a systematic review of the literature
 
-**Authors**: Maurizio Pompili, Xénia Gonda, Gianluca Serafini, Marco Innamorati, Leo Sher, Mario Amore, Zoltán Rihmer, Paolo Girardi | **Year**: 2013 | **Cited by**: 370 | **Kind**: systematic_review
+**Authors**: Maurizio Pompili, Xénia Gonda, Gianluca Serafini, Marco Innamorati, Leo Sher, Mario Amore, Zoltán Rihmer, Paolo Girardi | **Year**: 2013 | **Cited by**: 370 | **Kind**: systematic_review | **Relevance**: suicide: core
 
 ## Abstract
 

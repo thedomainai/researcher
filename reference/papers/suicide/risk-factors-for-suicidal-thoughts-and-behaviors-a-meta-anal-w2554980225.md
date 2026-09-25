@@ -1,0 +1,21 @@
+---
+title: "Risk factors for suicidal thoughts and behaviors: A meta-analysis of 50 years of research."
+authors: ["Joseph C. Franklin", "Jessica D. Ribeiro", "Kathryn R. Fox", "Kate H. Bentley", "Evan M. Kleiman", "Xieyining Huang", "Katherine M. Musacchio", "Adam C. Jaroszewski", "et al."]
+year: 2016
+cited_by_count: 3883
+doi: "https://doi.org/10.1037/bul0000084"
+openalex_id: W2554980225
+paper_type: review
+evidence_kind: meta_analysis
+topics: ["suicide"]
+landmark: true
+abstract_source: "openalex"
+---
+
+# Risk factors for suicidal thoughts and behaviors: A meta-analysis of 50 years of research.
+
+**Authors**: Joseph C. Franklin, Jessica D. Ribeiro, Kathryn R. Fox, Kate H. Bentley, Evan M. Kleiman, Xieyining Huang, Katherine M. Musacchio, Adam C. Jaroszewski, et al. | **Year**: 2016 | **Cited by**: 3883 | **Kind**: meta_analysis | **Relevance**: suicide: core
+
+## Abstract
+
+Suicidal thoughts and behaviors (STBs) are major public health problems that have not declined appreciably in several decades. One of the first steps to improving the prevention and treatment of STBs is to establish risk factors (i.e., longitudinal predictors). To provide a summary of current knowledge about risk factors, we conducted a meta-analysis of studies that have attempted to longitudinally predict a specific STB-related outcome. This included 365 studies (3,428 total risk factor effect sizes) from the past 50 years. The present random-effects meta-analysis produced several unexpected findings: across odds ratio, hazard ratio, and diagnostic accuracy analyses, prediction was only slightly better than chance for all outcomes; no broad category or subcategory accurately predicted far above chance levels; predictive ability has not improved across 50 years of research; studies rarely examined the combined effect of multiple risk factors; risk factors have been homogenous over time, with 5 broad categories accounting for nearly 80% of all risk factor tests; and the average study was nearly 10 years long, but longer studies did not produce better prediction. The homogeneity of existing research means that the present meta-analysis could only speak to STB risk factor associations within very narrow methodological limits-limits that have not allowed for tests that approximate most STB theories. The present meta-analysis accordingly highlights several fundamental changes needed in future studies. In particular, these findings suggest the need for a shift in focus from risk factors to machine learning-based risk algorithms. (PsycINFO Database Record

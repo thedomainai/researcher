@@ -8,11 +8,13 @@ openalex_id: W2040713619
 paper_type: article
 evidence_kind: article
 topics: ["cognition"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Overgeneral autobiographical memory and traumatic events: An evaluative review.
 
-**Authors**: Sally A. Moore, Lori A. Zoellner | **Year**: 2007 | **Cited by**: 336 | **Kind**: article
+**Authors**: Sally A. Moore, Lori A. Zoellner | **Year**: 2007 | **Cited by**: 336 | **Kind**: article | **Relevance**: cognition: core
 
 ## Abstract
 

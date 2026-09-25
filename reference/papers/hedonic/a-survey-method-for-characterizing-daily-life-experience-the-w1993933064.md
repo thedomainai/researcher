@@ -8,11 +8,13 @@ openalex_id: W1993933064
 paper_type: article
 evidence_kind: article
 topics: ["hedonic"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # A Survey Method for Characterizing Daily Life Experience: The Day Reconstruction Method
 
-**Authors**: Daniel J. Kahneman, Alan B. Krueger, David A Schkade, Norbert Schwarz, Arthur A. Stone | **Year**: 2004 | **Cited by**: 3464 | **Kind**: article
+**Authors**: Daniel J. Kahneman, Alan B. Krueger, David A Schkade, Norbert Schwarz, Arthur A. Stone | **Year**: 2004 | **Cited by**: 3464 | **Kind**: article | **Relevance**: hedonic: core
 
 ## Abstract
 

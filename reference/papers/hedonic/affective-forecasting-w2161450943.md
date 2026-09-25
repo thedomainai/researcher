@@ -8,11 +8,13 @@ openalex_id: W2161450943
 paper_type: article
 evidence_kind: article
 topics: ["hedonic"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Affective Forecasting
 
-**Authors**: Timothy D. Wilson, Daniel T. Gilbert | **Year**: 2005 | **Cited by**: 1067 | **Kind**: article
+**Authors**: Timothy D. Wilson, Daniel T. Gilbert | **Year**: 2005 | **Cited by**: 1067 | **Kind**: article | **Relevance**: hedonic: core
 
 ## Abstract
 

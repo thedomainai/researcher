@@ -8,11 +8,13 @@ openalex_id: W2077455126
 paper_type: article
 evidence_kind: meta_analysis
 topics: ["cognition"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Meta-analyses of cognitive functioning in euthymic bipolar patients and their first-degree relatives
 
-**Authors**: Baer M.G. Arts, Nienke Jabben, Lydia Krabbendam, Jim van Os | **Year**: 2007 | **Cited by**: 715 | **Kind**: meta_analysis
+**Authors**: Baer M.G. Arts, Nienke Jabben, Lydia Krabbendam, Jim van Os | **Year**: 2007 | **Cited by**: 715 | **Kind**: meta_analysis | **Relevance**: cognition: core
 
 ## Abstract
 

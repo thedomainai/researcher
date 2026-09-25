@@ -8,11 +8,13 @@ openalex_id: W2072303299
 paper_type: article
 evidence_kind: systematic_review
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Efficacy and Comparative Effectiveness of Atypical Antipsychotic Medications for Off-Label Uses in Adults
 
-**Authors**: Alicia Ruelaz Maher, Margaret Maglione, Steven C. Bagley, Marika J Suttorp, Jian-Hui Hu, Brett A. Ewing, Zhen Wang, Martha Timmer, et al. | **Year**: 2011 | **Cited by**: 560 | **Kind**: systematic_review
+**Authors**: Alicia Ruelaz Maher, Margaret Maglione, Steven C. Bagley, Marika J Suttorp, Jian-Hui Hu, Brett A. Ewing, Zhen Wang, Martha Timmer, et al. | **Year**: 2011 | **Cited by**: 560 | **Kind**: systematic_review | **Relevance**: bipolar: core
 
 ## Abstract
 

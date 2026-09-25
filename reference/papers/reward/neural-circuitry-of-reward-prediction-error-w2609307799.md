@@ -8,11 +8,13 @@ openalex_id: W2609307799
 paper_type: review
 evidence_kind: review
 topics: ["reward"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Neural Circuitry of Reward Prediction Error
 
-**Authors**: Mitsuko Watabe‐Uchida, Neir Eshel, Naoshige Uchida | **Year**: 2017 | **Cited by**: 481 | **Kind**: review
+**Authors**: Mitsuko Watabe‐Uchida, Neir Eshel, Naoshige Uchida | **Year**: 2017 | **Cited by**: 481 | **Kind**: review | **Relevance**: reward: core
 
 ## Abstract
 

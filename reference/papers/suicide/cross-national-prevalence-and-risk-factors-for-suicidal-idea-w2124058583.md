@@ -8,11 +8,13 @@ openalex_id: W2124058583
 paper_type: article
 evidence_kind: article
 topics: ["suicide"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Cross-national prevalence and risk factors for suicidal ideation, plans and attempts
 
-**Authors**: Matthew K. Nock, Guilherme Luiz Guimaraes Borges, Evelyn J. Bromet, Jordi Alonso, Matthias C. Angermeyer, Annette L. Beautrais, Ronny Bruffaerts, Wai Tat Chiu, et al. | **Year**: 2008 | **Cited by**: 2701 | **Kind**: article
+**Authors**: Matthew K. Nock, Guilherme Luiz Guimaraes Borges, Evelyn J. Bromet, Jordi Alonso, Matthias C. Angermeyer, Annette L. Beautrais, Ronny Bruffaerts, Wai Tat Chiu, et al. | **Year**: 2008 | **Cited by**: 2701 | **Kind**: article | **Relevance**: suicide: core
 
 ## Abstract
 

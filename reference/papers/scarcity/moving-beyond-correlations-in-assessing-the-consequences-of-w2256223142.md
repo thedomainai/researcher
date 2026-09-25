@@ -8,11 +8,13 @@ openalex_id: W2256223142
 paper_type: review
 evidence_kind: review
 topics: ["scarcity"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Moving Beyond Correlations in Assessing the Consequences of Poverty
 
-**Authors**: Greg J. Duncan, Katherine Magnuson, Elizabeth Votruba‐Drzal | **Year**: 2016 | **Cited by**: 355 | **Kind**: review
+**Authors**: Greg J. Duncan, Katherine Magnuson, Elizabeth Votruba‐Drzal | **Year**: 2016 | **Cited by**: 355 | **Kind**: review | **Relevance**: scarcity: supporting
 
 ## Abstract
 

@@ -8,11 +8,13 @@ openalex_id: W2115173015
 paper_type: article
 evidence_kind: article
 topics: ["mastery"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Deliberate Practice and the Acquisition and Maintenance of Expert Performance in Medicine and Related Domains
 
-**Authors**: K. Anders Ericsson | **Year**: 2004 | **Cited by**: 3012 | **Kind**: article
+**Authors**: K. Anders Ericsson | **Year**: 2004 | **Cited by**: 3012 | **Kind**: article | **Relevance**: mastery: core
 
 ## Abstract
 

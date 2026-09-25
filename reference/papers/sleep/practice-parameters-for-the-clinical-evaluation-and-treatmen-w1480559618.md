@@ -1,0 +1,21 @@
+---
+title: "Practice Parameters for the Clinical Evaluation and Treatment of Circadian Rhythm Sleep Disorders"
+authors: ["Timothy I. Morgenthaler", "Teofilo L. Lee-Chiong", "Cathy Alessi", "Leah Friedman", "Rashmi Nisha Aurora", "Brian A. Boehlecke", "Terry Brown", "Andrew L. Chesson", "et al."]
+year: 2007
+cited_by_count: 628
+doi: "https://doi.org/10.1093/sleep/30.11.1445"
+openalex_id: W1480559618
+paper_type: article
+evidence_kind: guideline
+topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# Practice Parameters for the Clinical Evaluation and Treatment of Circadian Rhythm Sleep Disorders
+
+**Authors**: Timothy I. Morgenthaler, Teofilo L. Lee-Chiong, Cathy Alessi, Leah Friedman, Rashmi Nisha Aurora, Brian A. Boehlecke, Terry Brown, Andrew L. Chesson, et al. | **Year**: 2007 | **Cited by**: 628 | **Kind**: guideline | **Relevance**: sleep: core
+
+## Abstract
+
+The expanding science of circadian rhythm biology and a growing literature in human clinical research on circadian rhythm sleep disorders (CRSDs) prompted the American Academy of Sleep Medicine (AASM) to convene a task force of experts to write a review of this important topic. Due to the extensive nature of the disorders covered, the review was written in two sections. The first review paper, in addition to providing a general introduction to circadian biology, addresses "exogenous" circadian rhythm sleep disorders, including shift work disorder (SWD) and jet lag disorder (JLD). The second review paper addresses the "endogenous" circadian rhythm sleep disorders, including advanced sleep phase disorder (ASPD), delayed sleep phase disorder (DSPD), irregular sleep-wake rhythm (ISWR), and the non-24-hour sleep-wake syndrome (nonentrained type) or free-running disorder (FRD). These practice parameters were developed by the Standards of Practice Committee and reviewed and approved by the Board of Directors of the AASM to present recommendations for the assessment and treatment of CRSDs based on the two accompanying comprehensive reviews. The main diagnostic tools considered include sleep logs, actigraphy, the Morningness-Eveningness Questionnaire (MEQ), circadian phase markers, and polysomnography. Use of a sleep log or diary is indicated in the assessment of patients with a suspected circadian rhythm sleep disorder (Guideline). Actigraphy is indicated to assist in evaluation of patients suspected of circadian rhythm disorders (strength of recommendation varies from "Option" to "Guideline," depending on the suspected CRSD). Polysomnography is not routinely indicated for the diagnosis of CRSDs, but may be indicated to rule out another primary sleep disorder (Standard). There is insufficient evidence to justify the use of MEQ for the routine clinical evaluation of CRSDs (Option). Circadian phase markers are useful to determine circadian phase and confirm the diagnosis of FRD in sighted and unsighted patients but there is insufficient evidence to recommend their routine use in the diagnosis of SWD, JLD, ASPD, DSPD, or ISWR (Option). Additionally, actigraphy is useful as an outcome measure in evaluating the response to treatment for CRSDs (Guideline). A range of therapeutic interventions were considered including planned sleep schedules, timed light exposure, timed melatonin doses, hypnotics, stimulants, and alerting agents. Planned or prescribed sleep schedules are indicated in SWD (Standard) and in JLD, DSPD, ASPD, ISWR (excluding elderly-demented/nursing home residents), and FRD (Option). Specifically dosed and timed light exposure is indicated for each of the circadian disorders with variable success (Option). Timed melatonin administration is indicated for JLD (Standard); SWD, DSPD, and FRD in unsighted persons (Guideline); and for ASPD, FRD in sighted individuals, and for ISWR in children with moderate to severe psychomotor retardation (Option). Hypnotic medications may be indicated to promote or improve daytime sleep among night shift workers (Guideline) and to treat jet lag-induced insomnia (Option). Stimulants may be indicated to improve alertness in JLD and SWD (Option) but may have risks that must be weighed prior to use. Modafinil may be indicated to improve alertness during the night shift for patients with SWD (Guideline).

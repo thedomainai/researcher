@@ -8,11 +8,13 @@ openalex_id: W2153762265
 paper_type: article
 evidence_kind: article
 topics: ["sleep"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # The Cumulative Cost of Additional Wakefulness: Dose-Response Effects on Neurobehavioral Functions and Sleep Physiology From Chronic Sleep Restriction and Total Sleep Deprivation
 
-**Authors**: Hans P. A. Van Dongen, Greg Maislin, Janet M. Mullington, David F. Dinges | **Year**: 2003 | **Cited by**: 3177 | **Kind**: article
+**Authors**: Hans P. A. Van Dongen, Greg Maislin, Janet M. Mullington, David F. Dinges | **Year**: 2003 | **Cited by**: 3177 | **Kind**: article | **Relevance**: sleep: core
 
 ## Abstract
 

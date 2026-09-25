@@ -8,11 +8,13 @@ openalex_id: W2150037324
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["cognition"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Cognitive impairment in depression: a systematic review and meta-analysis
 
-**Authors**: P L Rock, Jonathan Paul Roiser, Wim J. Riedel, Aaron D. Blackwell | **Year**: 2013 | **Cited by**: 2226 | **Kind**: meta_analysis
+**Authors**: P L Rock, Jonathan Paul Roiser, Wim J. Riedel, Aaron D. Blackwell | **Year**: 2013 | **Cited by**: 2226 | **Kind**: meta_analysis | **Relevance**: cognition: core
 
 ## Abstract
 

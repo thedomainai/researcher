@@ -8,11 +8,13 @@ openalex_id: W2142490107
 paper_type: article
 evidence_kind: article
 topics: ["sleep"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Sleep and Circadian Rhythms in Bipolar Disorder: Seeking Synchrony, Harmony, and Regulation
 
-**Authors**: Allison G. Harvey | **Year**: 2008 | **Cited by**: 607 | **Kind**: article
+**Authors**: Allison G. Harvey | **Year**: 2008 | **Cited by**: 607 | **Kind**: article | **Relevance**: sleep: core
 
 ## Abstract
 

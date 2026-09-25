@@ -8,11 +8,13 @@ openalex_id: W3123291811
 paper_type: article
 evidence_kind: article
 topics: ["scarcity"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # On the Psychology of Scarcity: When Reminders of Resource Scarcity Promote Selfish (and Generous) Behavior
 
-**Authors**: Caroline Roux, Kelly T. Goldsmith, Andrea Bonezzi | **Year**: 2015 | **Cited by**: 294 | **Kind**: article
+**Authors**: Caroline Roux, Kelly T. Goldsmith, Andrea Bonezzi | **Year**: 2015 | **Cited by**: 294 | **Kind**: article | **Relevance**: scarcity: core
 
 ## Abstract
 

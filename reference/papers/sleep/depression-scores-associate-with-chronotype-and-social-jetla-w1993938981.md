@@ -8,11 +8,13 @@ openalex_id: W1993938981
 paper_type: article
 evidence_kind: article
 topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Depression Scores Associate With Chronotype and Social Jetlag in a Rural Population
 
-**Authors**: Rosa Maria Levandovski, Giovana Dantas, Luciana Carvalho Fernandes, Wolnei Caumo, Iraci Lucena da Silva Torres, Till Roenneberg, María Paz Loayza Hidalgo, Karla V. Allebrandt | **Year**: 2011 | **Cited by**: 541 | **Kind**: article
+**Authors**: Rosa Maria Levandovski, Giovana Dantas, Luciana Carvalho Fernandes, Wolnei Caumo, Iraci Lucena da Silva Torres, Till Roenneberg, María Paz Loayza Hidalgo, Karla V. Allebrandt | **Year**: 2011 | **Cited by**: 541 | **Kind**: article | **Relevance**: sleep: core
 
 ## Abstract
 

@@ -8,11 +8,13 @@ openalex_id: W2159155203
 paper_type: article
 evidence_kind: article
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Effectiveness of Antipsychotic Drugs in Patients with Chronic Schizophrenia
 
-**Authors**: Jeffrey Alan Lieberman, T. Scott Stroup, Joseph P. McEvoy, Marvin S. Swartz, Robert Alan Rosenheck, Diana O. Perkins, Richard S.E. Keefe, Sonia M. Davis, et al. | **Year**: 2005 | **Cited by**: 5931 | **Kind**: article
+**Authors**: Jeffrey Alan Lieberman, T. Scott Stroup, Joseph P. McEvoy, Marvin S. Swartz, Robert Alan Rosenheck, Diana O. Perkins, Richard S.E. Keefe, Sonia M. Davis, et al. | **Year**: 2005 | **Cited by**: 5931 | **Kind**: article | **Relevance**: bipolar: core
 
 ## Abstract
 

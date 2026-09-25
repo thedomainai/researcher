@@ -8,11 +8,13 @@ openalex_id: W2989659781
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["avoidance"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Ironic Effects of Thought Suppression: A Meta-Analysis
 
-**Authors**: Deming Wang, Martin S. Hagger, Nikos L. D. Chatzisarantis | **Year**: 2020 | **Cited by**: 122 | **Kind**: meta_analysis
+**Authors**: Deming Wang, Martin S. Hagger, Nikos L. D. Chatzisarantis | **Year**: 2020 | **Cited by**: 122 | **Kind**: meta_analysis | **Relevance**: avoidance: core
 
 ## Abstract
 

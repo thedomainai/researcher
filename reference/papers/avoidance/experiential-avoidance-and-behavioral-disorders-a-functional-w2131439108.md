@@ -8,11 +8,13 @@ openalex_id: W2131439108
 paper_type: article
 evidence_kind: article
 topics: ["avoidance"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Experiential avoidance and behavioral disorders: A functional dimensional approach to diagnosis and treatment.
 
-**Authors**: Steven C. Hayes, Kelly G. Wilson, Elizabeth V. Gifford, Victoria M. Follette, et al | **Year**: 1996 | **Cited by**: 2578 | **Kind**: article
+**Authors**: Steven C. Hayes, Kelly G. Wilson, Elizabeth V. Gifford, Victoria M. Follette, et al | **Year**: 1996 | **Cited by**: 2578 | **Kind**: article | **Relevance**: avoidance: core
 
 ## Abstract
 

@@ -1,0 +1,21 @@
+---
+title: "Common and Specific Elements of Psychosocial Treatments for Bipolar Disorder: A Survey of Clinicians Participating in Randomized Trials"
+authors: ["David J. Miklowitz", "Guy M. Goodwin", "Mark S. Bauer", "John Geddes"]
+year: 2008
+cited_by_count: 92
+doi: "https://doi.org/10.1097/01.pra.0000314314.94791.c9"
+openalex_id: W1971451668
+paper_type: article
+evidence_kind: rct
+topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# Common and Specific Elements of Psychosocial Treatments for Bipolar Disorder: A Survey of Clinicians Participating in Randomized Trials
+
+**Authors**: David J. Miklowitz, Guy M. Goodwin, Mark S. Bauer, John Geddes | **Year**: 2008 | **Cited by**: 92 | **Kind**: rct | **Relevance**: bipolar: supporting
+
+## Abstract
+
+BACKGROUND: There are 14 randomized trials that indicate the benefits of various adjunctive psychosocial interventions for bipolar disorder. Efficient planning of future interventions requires identification of the common, putatively active components of these treatments. We investigated whether different forms of psychotherapy consisted of overlapping versus modality-specific ingredients. METHODS: We identified five categories of active psychosocial treatment in 14 trials: cognitive-behavioral therapy (CBT; 4 studies), family psychoeducation (5 studies), interpersonal and social rhythm therapy (IPSRT; 2 studies), individual psychoeducation (3 studies), and group psychoeducation (5 studies). In this study, 31 investigators and therapists who participated in these trials completed a questionnaire in which they rated the frequency of 17 treatment strategies in their active and treatment-as-usual (TAU) conditions. A content analysis of the results of this questionnaire was then done, in which the active treatments were compared with each other and with TAU on the frequency of use of each strategy. RESULTS: The active modalities were distinguished from TAU by more frequent use of problem-solving and interventions to enhance patients' ability to cope with the stigma of mental illness. With regard to specific approaches, CBT made frequent use of cognitive restructuring and self-rated mood charts. The signature features of IPSRT-regulation of sleep/wake cycles and daily routines-were also regular features in the CBT and group psychoeducation interventions. Communication skills training was a distinctive feature of family treatments. CONCLUSIONS: Whereas active psychosocial interventions for bipolar disorder have common ingredients, they can also be distinguished from each other and from TAU by the degree to which specific strategies are emphasized. Future research should compare the treatment ingredients identified in this study in terms of their ability to bring about clinical change.

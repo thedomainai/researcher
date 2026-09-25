@@ -8,11 +8,13 @@ openalex_id: W2948944298
 paper_type: article
 evidence_kind: article
 topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Chronotype and Social Jetlag: A (Self-) Critical Review
 
-**Authors**: Till Roenneberg, Luísa K. Pilz, Giulia Zerbini, Eva C. Winnebeck | **Year**: 2019 | **Cited by**: 713 | **Kind**: article
+**Authors**: Till Roenneberg, Luísa K. Pilz, Giulia Zerbini, Eva C. Winnebeck | **Year**: 2019 | **Cited by**: 713 | **Kind**: article | **Relevance**: sleep: core
 
 ## Abstract
 

@@ -8,11 +8,13 @@ openalex_id: W2166265073
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["mastery"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Deliberate Practice and Performance in Music, Games, Sports, Education, and Professions: A Meta-Analysis
 
-**Authors**: Brooke N. Macnamara, David Z. Hambrick, Frederick Louis Oswald | **Year**: 2014 | **Cited by**: 658 | **Kind**: meta_analysis
+**Authors**: Brooke N. Macnamara, David Z. Hambrick, Frederick Louis Oswald | **Year**: 2014 | **Cited by**: 658 | **Kind**: meta_analysis | **Relevance**: mastery: core
 
 ## Abstract
 

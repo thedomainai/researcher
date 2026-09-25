@@ -8,11 +8,13 @@ openalex_id: W2036353017
 paper_type: article
 evidence_kind: article
 topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Sleep Deprivation and Vigilant Attention
 
-**Authors**: Julian Lim, David F. Dinges | **Year**: 2008 | **Cited by**: 1217 | **Kind**: article
+**Authors**: Julian Lim, David F. Dinges | **Year**: 2008 | **Cited by**: 1217 | **Kind**: article | **Relevance**: sleep: core
 
 ## Abstract
 

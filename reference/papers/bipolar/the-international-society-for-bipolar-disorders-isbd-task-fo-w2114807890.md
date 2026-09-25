@@ -8,11 +8,13 @@ openalex_id: W2114807890
 paper_type: article
 evidence_kind: systematic_review
 topics: ["bipolar"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # The International Society for Bipolar Disorders (ISBD) Task Force Report on Antidepressant Use in Bipolar Disorders
 
-**Authors**: Isabella Pacchiarotti, David J. Bond, Ross J. Baldessarini, Willem A. Nolen, Heinz Grunze, Rasmus Wentzer Licht, Robert M. Post, Michael Berk, et al. | **Year**: 2013 | **Cited by**: 768 | **Kind**: systematic_review
+**Authors**: Isabella Pacchiarotti, David J. Bond, Ross J. Baldessarini, Willem A. Nolen, Heinz Grunze, Rasmus Wentzer Licht, Robert M. Post, Michael Berk, et al. | **Year**: 2013 | **Cited by**: 768 | **Kind**: systematic_review | **Relevance**: bipolar: core
 
 ## Abstract
 

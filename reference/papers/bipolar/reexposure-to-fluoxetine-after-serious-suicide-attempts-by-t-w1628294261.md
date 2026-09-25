@@ -8,11 +8,13 @@ openalex_id: W1628294261
 paper_type: article
 evidence_kind: article
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Reexposure to fluoxetine after serious suicide attempts by three patients: the role of akathisia.
 
-**Authors**: Anthony J. Rothschild, Cameron Locke | **Year**: 1991 | **Cited by**: 146 | **Kind**: article
+**Authors**: Anthony J. Rothschild, Cameron Locke | **Year**: 1991 | **Cited by**: 146 | **Kind**: article | **Relevance**: bipolar: core
 
 ## Abstract
 

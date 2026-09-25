@@ -8,11 +8,13 @@ openalex_id: W1586038694
 paper_type: article
 evidence_kind: article
 topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Sustained attention performance during sleep deprivation: evidence of state instability.
 
-**Authors**: Scott M. Doran, Hans P. A. Van Dongen, David F. Dinges | **Year**: 2001 | **Cited by**: 810 | **Kind**: article
+**Authors**: Scott M. Doran, Hans P. A. Van Dongen, David F. Dinges | **Year**: 2001 | **Cited by**: 810 | **Kind**: article | **Relevance**: sleep: core
 
 ## Abstract
 

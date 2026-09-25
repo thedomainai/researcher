@@ -8,11 +8,13 @@ openalex_id: W2091828452
 paper_type: article
 evidence_kind: article
 topics: ["avoidance"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Acceptance and commitment therapy and mindfulness for chronic pain: Model, process, and progress.
 
-**Authors**: Lance M. McCracken, Kevin E. Vowles | **Year**: 2014 | **Cited by**: 643 | **Kind**: article
+**Authors**: Lance M. McCracken, Kevin E. Vowles | **Year**: 2014 | **Cited by**: 643 | **Kind**: article | **Relevance**: avoidance: supporting
 
 ## Abstract
 

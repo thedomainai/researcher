@@ -8,11 +8,13 @@ openalex_id: W2092186644
 paper_type: article
 evidence_kind: meta_analysis
 topics: ["avoidance"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Acceptance and Commitment Therapy: A Meta-Analytic Review
 
-**Authors**: Mark B. Powers, Maarten B. Zum Vörde Sive Vörding, Paul M.G. Emmelkamp | **Year**: 2009 | **Cited by**: 623 | **Kind**: meta_analysis
+**Authors**: Mark B. Powers, Maarten B. Zum Vörde Sive Vörding, Paul M.G. Emmelkamp | **Year**: 2009 | **Cited by**: 623 | **Kind**: meta_analysis | **Relevance**: avoidance: core
 
 ## Abstract
 

@@ -8,11 +8,13 @@ openalex_id: W2162971676
 paper_type: article
 evidence_kind: article
 topics: ["hedonic"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Focalism: A source of durability bias in affective forecasting.
 
-**Authors**: Timothy D. Wilson, Thalia P. Wheatley, Jonathan M. Meyers, Daniel T. Gilbert, Danny K. Axsom | **Year**: 2000 | **Cited by**: 577 | **Kind**: article
+**Authors**: Timothy D. Wilson, Thalia P. Wheatley, Jonathan M. Meyers, Daniel T. Gilbert, Danny K. Axsom | **Year**: 2000 | **Cited by**: 577 | **Kind**: article | **Relevance**: hedonic: core
 
 ## Abstract
 

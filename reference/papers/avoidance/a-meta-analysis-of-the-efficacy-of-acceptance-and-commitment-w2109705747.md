@@ -8,11 +8,13 @@ openalex_id: W2109705747
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["avoidance"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # A Meta-Analysis of the Efficacy of Acceptance and Commitment Therapy for Clinically Relevant Mental and Physical Health Problems
 
-**Authors**: Jacqueline G. L. A-Tjak, Michelle L. Davis, Nexhmedin Morina, Mark B. Powers, Jasper A. J. Smits, Paul M.G. Emmelkamp | **Year**: 2014 | **Cited by**: 918 | **Kind**: meta_analysis
+**Authors**: Jacqueline G. L. A-Tjak, Michelle L. Davis, Nexhmedin Morina, Mark B. Powers, Jasper A. J. Smits, Paul M.G. Emmelkamp | **Year**: 2014 | **Cited by**: 918 | **Kind**: meta_analysis | **Relevance**: avoidance: core
 
 ## Abstract
 

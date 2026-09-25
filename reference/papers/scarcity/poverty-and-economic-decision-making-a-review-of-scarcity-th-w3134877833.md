@@ -8,11 +8,13 @@ openalex_id: W3134877833
 paper_type: article
 evidence_kind: article
 topics: ["scarcity"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Poverty and economic decision making: a review of scarcity theory
 
-**Authors**: Ernst-Jan de Bruijn, Gerrit Antonides | **Year**: 2021 | **Cited by**: 276 | **Kind**: article
+**Authors**: Ernst-Jan de Bruijn, Gerrit Antonides | **Year**: 2021 | **Cited by**: 276 | **Kind**: article | **Relevance**: scarcity: core
 
 ## Abstract
 

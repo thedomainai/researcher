@@ -8,11 +8,13 @@ openalex_id: W2139820761
 paper_type: article
 evidence_kind: article
 topics: ["hedonic"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Stepping Off the Hedonic Treadmill
 
-**Authors**: Anthony D. Mancini, George A. Bonanno, Andrew Eric Clark | **Year**: 2011 | **Cited by**: 166 | **Kind**: article
+**Authors**: Anthony D. Mancini, George A. Bonanno, Andrew Eric Clark | **Year**: 2011 | **Cited by**: 166 | **Kind**: article | **Relevance**: hedonic: core
 
 ## Abstract
 

@@ -8,11 +8,13 @@ openalex_id: W2098445519
 paper_type: article
 evidence_kind: article
 topics: ["reward"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Impulse Control Disorders in Parkinson Disease
 
-**Authors**: Daniel A. Weintraub, Juergen Koester, Marc Nicholas Potenza, Andrew D. Siderowf, Mark A. Stacy, Valerie Voon, Jacqueline Whetteckey, Glen R. Wunderlich, et al. | **Year**: 2010 | **Cited by**: 1489 | **Kind**: article
+**Authors**: Daniel A. Weintraub, Juergen Koester, Marc Nicholas Potenza, Andrew D. Siderowf, Mark A. Stacy, Valerie Voon, Jacqueline Whetteckey, Glen R. Wunderlich, et al. | **Year**: 2010 | **Cited by**: 1489 | **Kind**: article | **Relevance**: reward: core
 
 ## Abstract
 

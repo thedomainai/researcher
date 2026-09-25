@@ -8,11 +8,13 @@ openalex_id: W2387063905
 paper_type: article
 evidence_kind: article
 topics: ["scarcity"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # The Psychological Lives of the Poor
 
-**Authors**: Frank Schilbach, Heather K. Schofield, Sendhil Mullainathan | **Year**: 2016 | **Cited by**: 412 | **Kind**: article
+**Authors**: Frank Schilbach, Heather K. Schofield, Sendhil Mullainathan | **Year**: 2016 | **Cited by**: 412 | **Kind**: article | **Relevance**: scarcity: core
 
 ## Abstract
 

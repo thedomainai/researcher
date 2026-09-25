@@ -8,11 +8,13 @@ openalex_id: W2510153541
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["avoidance"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Effectiveness of Web-Delivered Acceptance and Commitment Therapy in Relation to Mental Health and Well-Being: A Systematic Review and Meta-Analysis
 
-**Authors**: Menna Brown, Alexander Charles Glendenning, Alice E. Hoon, Ann Mary John | **Year**: 2016 | **Cited by**: 212 | **Kind**: meta_analysis
+**Authors**: Menna Brown, Alexander Charles Glendenning, Alice E. Hoon, Ann Mary John | **Year**: 2016 | **Cited by**: 212 | **Kind**: meta_analysis | **Relevance**: avoidance: supporting
 
 ## Abstract
 

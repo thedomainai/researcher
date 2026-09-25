@@ -8,11 +8,13 @@ openalex_id: W2804703589
 paper_type: article
 evidence_kind: article
 topics: ["suicide"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # The integrated motivational–volitional model of suicidal behaviour
 
-**Authors**: Rory C. O’Connor, Olivia J Kirtley | **Year**: 2018 | **Cited by**: 1550 | **Kind**: article
+**Authors**: Rory C. O’Connor, Olivia J Kirtley | **Year**: 2018 | **Cited by**: 1550 | **Kind**: article | **Relevance**: suicide: core
 
 ## Abstract
 

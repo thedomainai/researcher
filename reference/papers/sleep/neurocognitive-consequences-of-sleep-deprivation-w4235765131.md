@@ -8,11 +8,13 @@ openalex_id: W4235765131
 paper_type: article
 evidence_kind: article
 topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Neurocognitive Consequences of Sleep Deprivation
 
-**Authors**: Jeffrey S. Durmer, David F. Dinges | **Year**: 2005 | **Cited by**: 1479 | **Kind**: article
+**Authors**: Jeffrey S. Durmer, David F. Dinges | **Year**: 2005 | **Cited by**: 1479 | **Kind**: article | **Relevance**: sleep: core
 
 ## Abstract
 

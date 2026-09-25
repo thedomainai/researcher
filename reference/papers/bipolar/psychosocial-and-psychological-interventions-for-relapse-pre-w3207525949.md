@@ -1,0 +1,21 @@
+---
+title: "Psychosocial and psychological interventions for relapse prevention in schizophrenia: a systematic review and network meta-analysis"
+authors: ["Irene Bighelli", "Alessandro Rodolico", "Helena García‐Mieres", "Gabi Pitschel‐Walz", "Wulf‐Peter Hansen", "Johannes Schneider‐Thoma", "Spyridon Siafis", "Hui Wu", "et al."]
+year: 2021
+cited_by_count: 289
+doi: "https://doi.org/10.1016/s2215-0366(21)00243-1"
+openalex_id: W3207525949
+paper_type: review
+evidence_kind: meta_analysis
+topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# Psychosocial and psychological interventions for relapse prevention in schizophrenia: a systematic review and network meta-analysis
+
+**Authors**: Irene Bighelli, Alessandro Rodolico, Helena García‐Mieres, Gabi Pitschel‐Walz, Wulf‐Peter Hansen, Johannes Schneider‐Thoma, Spyridon Siafis, Hui Wu, et al. | **Year**: 2021 | **Cited by**: 289 | **Kind**: meta_analysis | **Relevance**: bipolar: supporting
+
+## Abstract
+
+BACKGROUND: Many psychosocial and psychological interventions are used in patients with schizophrenia, but their comparative efficacy in the prevention of relapse is not known. We aimed to evaluate the efficacy, acceptability, and tolerability of psychosocial and psychological interventions for relapse prevention in schizophrenia. METHODS: To conduct this systematic review and network meta-analysis we searched for published and unpublished randomised controlled trials that investigated psychosocial or psychological interventions aimed at preventing relapse in patients with schizophrenia. We searched EMBASE, MEDLINE, PsycINFO, BIOSIS, Cochrane Library, WHO International Clinical Trials Registry Platform, and ClinicalTrials.gov up to Jan 20, 2020, and searched PubMed up to April 14, 2020. We included open and masked studies done in adults with schizophrenia or related disorders. We excluded studies in which all patients were acutely ill, had a concomitant medical or psychiatric disorder, or were prodromal or "at risk of psychosis". Study selection and data extraction were done by two reviewers independently based on published and unpublished reports, and by contacting study authors. Data were extracted about efficacy, tolerability, and acceptability of the interventions; potential effect moderators; and study quality and characteristics. The primary outcome was relapse measured with operationalised criteria or psychiatric hospital admissions. We did random-effects network meta-analysis to calculate odds ratios (ORs) or standardised mean differences (SMDs) with 95% CIs. The study protocol was registered with PROSPERO, CRD42019147884. FINDINGS: We identified 27 765 studies through the database search and 330 through references of previous reviews and studies. We screened 28 000 records after duplicates were removed. 24 406 records were excluded by title and abstract screening and 3594 full-text articles were assessed for eligibility. 3350 articles were then excluded for a variety of reasons, and 244 full-text articles corresponding to 85 studies were included in the qualitative synthesis. Of these, 72 studies with 10 364 participants (3939 females and 5716 males with sex indicated) were included in the network meta-analysis. The randomised controlled trials included compared 20 psychological interventions given mainly as add-on to antipsychotics. Ethnicity data were not available. Family interventions (OR 0·35, 95% CI 0·24-0·52), relapse prevention programmes (OR 0·33, 0·14-0·79), cognitive behavioural therapy (OR 0·45, 0·27-0·75), family psychoeducation (OR 0·56, 0·39-0·82), integrated interventions (OR 0·62, 0·44-0·87), and patient psychoeducation (OR 0·63, 0·42-0·94) reduced relapse more than treatment as usual at 1 year. The confidence in the estimates ranged from moderate to very low. We found no indication of publication bias. INTERPRETATION: We found robust benefits in reducing the risk of relapse for family interventions, family psychoeducation, and cognitive behavioral therapy. These treatments should be the first psychosocial interventions to be considered in the long-term treatment for patients with schizophrenia. FUNDING: German Ministry for Education and Research.

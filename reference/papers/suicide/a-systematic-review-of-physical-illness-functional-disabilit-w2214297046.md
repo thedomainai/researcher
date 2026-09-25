@@ -8,11 +8,13 @@ openalex_id: W2214297046
 paper_type: review
 evidence_kind: systematic_review
 topics: ["suicide"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # A systematic review of physical illness, functional disability, and suicidal behaviour among older adults
 
-**Authors**: Madeleine Mellqvist Fässberg, Gary Cheung, Silvia Sara Canetto, Annette Erlangsen, Sylvie Lapierre, Reinhard Lindner, Brian Draper, Joseph J. Gallo, et al. | **Year**: 2015 | **Cited by**: 428 | **Kind**: systematic_review
+**Authors**: Madeleine Mellqvist Fässberg, Gary Cheung, Silvia Sara Canetto, Annette Erlangsen, Sylvie Lapierre, Reinhard Lindner, Brian Draper, Joseph J. Gallo, et al. | **Year**: 2015 | **Cited by**: 428 | **Kind**: systematic_review | **Relevance**: suicide: supporting
 
 ## Abstract
 

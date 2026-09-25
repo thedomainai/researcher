@@ -8,11 +8,13 @@ openalex_id: W1955095931
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Risk of Postpartum Relapse in Bipolar Disorder and Postpartum Psychosis: A Systematic Review and Meta-Analysis
 
-**Authors**: Richard Wesseloo, Astrid Mariska Kamperman, Trine Munk‐Olsen, Victor J.M. Pop, Steven A. Kushner, Veerle Bergink | **Year**: 2015 | **Cited by**: 474 | **Kind**: meta_analysis
+**Authors**: Richard Wesseloo, Astrid Mariska Kamperman, Trine Munk‐Olsen, Victor J.M. Pop, Steven A. Kushner, Veerle Bergink | **Year**: 2015 | **Cited by**: 474 | **Kind**: meta_analysis | **Relevance**: bipolar: core
 
 ## Abstract
 

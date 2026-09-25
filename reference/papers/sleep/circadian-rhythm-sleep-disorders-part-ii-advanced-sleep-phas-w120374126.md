@@ -8,11 +8,13 @@ openalex_id: W120374126
 paper_type: article
 evidence_kind: article
 topics: ["sleep"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Circadian Rhythm Sleep Disorders: Part II, Advanced Sleep Phase Disorder, Delayed Sleep Phase Disorder, Free-Running Disorder, and Irregular Sleep-Wake Rhythm
 
-**Authors**: Robert L. Sack, Dennis H. Auckley, R. Robert Auger, Mary A. Carskadon, Kenneth P. Wright, Michael V. Vitiello, Irina V. Zhdanova | **Year**: 2007 | **Cited by**: 531 | **Kind**: article
+**Authors**: Robert L. Sack, Dennis H. Auckley, R. Robert Auger, Mary A. Carskadon, Kenneth P. Wright, Michael V. Vitiello, Irina V. Zhdanova | **Year**: 2007 | **Cited by**: 531 | **Kind**: article | **Relevance**: sleep: core
 
 ## Abstract
 

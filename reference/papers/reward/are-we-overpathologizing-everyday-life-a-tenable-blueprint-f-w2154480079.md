@@ -1,0 +1,21 @@
+---
+title: "Are we overpathologizing everyday life? A tenable blueprint for behavioral addiction research"
+authors: ["Joël Billieux", "Adriano Schimmenti", "Yasser Khazaal", "Pierre Maurage", "Alexandre Heeren"]
+year: 2015
+cited_by_count: 918
+doi: "https://doi.org/10.1556/2006.4.2015.009"
+openalex_id: W2154480079
+paper_type: article
+evidence_kind: article
+topics: ["reward"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# Are we overpathologizing everyday life? A tenable blueprint for behavioral addiction research
+
+**Authors**: Joël Billieux, Adriano Schimmenti, Yasser Khazaal, Pierre Maurage, Alexandre Heeren | **Year**: 2015 | **Cited by**: 918 | **Kind**: article | **Relevance**: reward: core
+
+## Abstract
+
+Background Behavioral addiction research has been particularly flourishing over the last two decades. However, recent publications have suggested that nearly all daily life activities might lead to a genuine addiction. Methods and aim In this article, we discuss how the use of atheoretical and confirmatory research approaches may result in the identification of an unlimited list of "new" behavioral addictions. Results Both methodological and theoretical shortcomings of these studies were discussed. Conclusions We suggested that studies overpathologizing daily life activities are likely to prompt a dismissive appraisal of behavioral addiction research. Consequently, we proposed several roadmaps for future research in the field, centrally highlighting the need for longer tenable behavioral addiction research that shifts from a mere criteria-based approach toward an approach focusing on the psychological processes involved.

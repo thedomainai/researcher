@@ -8,11 +8,13 @@ openalex_id: W2110004174
 paper_type: review
 evidence_kind: review
 topics: ["cognition"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Cognition and Depression: Current Status and Future Directions
 
-**Authors**: Ian H. Gotlib, Jutta Joormann | **Year**: 2010 | **Cited by**: 2458 | **Kind**: review
+**Authors**: Ian H. Gotlib, Jutta Joormann | **Year**: 2010 | **Cited by**: 2458 | **Kind**: review | **Relevance**: cognition: core
 
 ## Abstract
 

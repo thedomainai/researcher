@@ -1,0 +1,21 @@
+---
+title: "A self-assessment questionnaire to determine morningness-eveningness in human circadian rhythms."
+authors: ["James Horne", "Olov Östberg"]
+year: 1976
+cited_by_count: 2882
+doi: null
+openalex_id: W1511275384
+paper_type: article
+evidence_kind: article
+topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# A self-assessment questionnaire to determine morningness-eveningness in human circadian rhythms.
+
+**Authors**: James Horne, Olov Östberg | **Year**: 1976 | **Cited by**: 2882 | **Kind**: article | **Relevance**: sleep: core
+
+## Abstract
+
+An English language self-assessment Morningness-Eveningness questionnaire is presented and evaluated against individual differences in the circadian vatiation of oral temperature. 48 subjects falling into Morning, Evening and Intermediate type categories regularly took their temperature. Circadian peak time were identified from the smoothed temperature curves of each subject. Results showed that Morning types and a significantly earlier peak time than Evening types and tended to have a higher daytime temperature and lower post peak temperature. The Intermediate type had temperatures between those of the other groups. Although no significant differences in sleep lengths were found between the three types, Morning types retired and arose significantly earlier than Evening types. Whilst these time significatly correlated with peak time, the questionnaire showed a higher peak time correlation. Although sleep habits are an important déterminant of peak time there are other contibutory factors, and these appear to be partly covered by the questionnaire. Although the questionnaire appears to be valid, further evaluation using a wider subject population is required.

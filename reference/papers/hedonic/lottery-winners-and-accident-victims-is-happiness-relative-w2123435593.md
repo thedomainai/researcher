@@ -8,11 +8,13 @@ openalex_id: W2123435593
 paper_type: article
 evidence_kind: article
 topics: ["hedonic"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Lottery winners and accident victims: Is happiness relative?
 
-**Authors**: Philip Brickman, Dan Coates, Ronnie Janoff‐Bulman | **Year**: 1978 | **Cited by**: 1713 | **Kind**: article
+**Authors**: Philip Brickman, Dan Coates, Ronnie Janoff‐Bulman | **Year**: 1978 | **Cited by**: 1713 | **Kind**: article | **Relevance**: hedonic: core
 
 ## Abstract
 

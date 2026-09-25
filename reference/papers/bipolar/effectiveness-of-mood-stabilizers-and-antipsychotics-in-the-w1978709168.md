@@ -8,11 +8,13 @@ openalex_id: W1978709168
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Effectiveness of mood stabilizers and antipsychotics in the maintenance phase of bipolar disorder: a systematic review of randomized controlled trials
 
-**Authors**: L. A. Smith, Victoria R. Cornelius, Adrian Warnock, Angus J. Bell, Allan Hunter Young | **Year**: 2007 | **Cited by**: 187 | **Kind**: meta_analysis
+**Authors**: L. A. Smith, Victoria R. Cornelius, Adrian Warnock, Angus J. Bell, Allan Hunter Young | **Year**: 2007 | **Cited by**: 187 | **Kind**: meta_analysis | **Relevance**: bipolar: core
 
 ## Abstract
 

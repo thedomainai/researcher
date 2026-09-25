@@ -8,11 +8,13 @@ openalex_id: W1658393192
 paper_type: article
 evidence_kind: article
 topics: ["scarcity"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Scarcity: Why Having Too Little Means So Much
 
-**Authors**: Sendhil Mullainathan, Eldar B. Shafir | **Year**: 2013 | **Cited by**: 1749 | **Kind**: article
+**Authors**: Sendhil Mullainathan, Eldar B. Shafir | **Year**: 2013 | **Cited by**: 1749 | **Kind**: article | **Relevance**: scarcity: core
 
 ## Abstract
 

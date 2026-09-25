@@ -8,11 +8,13 @@ openalex_id: W2063026846
 paper_type: article
 evidence_kind: article
 topics: ["mastery"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Expert performance: Its structure and acquisition.
 
-**Authors**: K. Anders Ericsson, Neil H. Charness | **Year**: 1994 | **Cited by**: 2036 | **Kind**: article
+**Authors**: K. Anders Ericsson, Neil H. Charness | **Year**: 1994 | **Cited by**: 2036 | **Kind**: article | **Relevance**: mastery: core
 
 ## Abstract
 

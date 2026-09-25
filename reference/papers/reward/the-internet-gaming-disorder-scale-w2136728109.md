@@ -8,11 +8,13 @@ openalex_id: W2136728109
 paper_type: article
 evidence_kind: article
 topics: ["reward"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # The Internet Gaming Disorder Scale.
 
-**Authors**: Jeroen S. Lemmens, Patti M. Valkenburg, Douglas A. Gentile | **Year**: 2015 | **Cited by**: 715 | **Kind**: article
+**Authors**: Jeroen S. Lemmens, Patti M. Valkenburg, Douglas A. Gentile | **Year**: 2015 | **Cited by**: 715 | **Kind**: article | **Relevance**: reward: core
 
 ## Abstract
 

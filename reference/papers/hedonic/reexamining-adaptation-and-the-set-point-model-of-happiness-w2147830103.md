@@ -8,11 +8,13 @@ openalex_id: W2147830103
 paper_type: article
 evidence_kind: article
 topics: ["hedonic"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Reexamining adaptation and the set point model of happiness: Reactions to changes in marital status.
 
-**Authors**: Richard E. Lucas, Andrew Eric Clark, Yannis Georgellis, Ed Diener | **Year**: 2003 | **Cited by**: 1276 | **Kind**: article
+**Authors**: Richard E. Lucas, Andrew Eric Clark, Yannis Georgellis, Ed Diener | **Year**: 2003 | **Cited by**: 1276 | **Kind**: article | **Relevance**: hedonic: core
 
 ## Abstract
 

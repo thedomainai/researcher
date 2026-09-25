@@ -8,11 +8,13 @@ openalex_id: W4313572032
 paper_type: review
 evidence_kind: systematic_review
 topics: ["mastery"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Ability or luck: A systematic review of interpersonal attributions of success
 
-**Authors**: Odessa S. Hamilton, Grace Lordan | **Year**: 2023 | **Cited by**: 38 | **Kind**: systematic_review
+**Authors**: Odessa S. Hamilton, Grace Lordan | **Year**: 2023 | **Cited by**: 38 | **Kind**: systematic_review | **Relevance**: mastery: core
 
 ## Abstract
 

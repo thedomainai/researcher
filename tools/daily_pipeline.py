@@ -3,7 +3,7 @@
 
 処理順:
   1. fetch_latest.py で新着論文・記事を取得
-  2. pipeline_compile.py --tier-only で未分類の論文にTier分類を付与(1日あたり上限あり)
+  2. tier_classify_cli.py で未分類の論文にTier分類を付与(claude -p 経由・サブスクリプション課金、1日あたり上限あり)
   3. daily_reading.py で当日のリーディングリストを生成
 
 Wikiコンパイルは日次には含めない。compile_wiki.py の増分モードは
@@ -127,10 +127,11 @@ def main():
 
     tier_result = None
     if not args.no_tier:
-        # GEMINI_API_KEY が .env にも環境にも無い場合は 1Password を試し、無ければ非ゼロで終わる。
+        # Gemini の無料枠(1日20リクエスト)では足りないため、Claude Code の headless モードで分類する。
+        # 従量課金の API キーは tier_classify_cli.py 側で子プロセスから外す。認証切れは終了コード 3。
         tier_result = run_step(
             "2/4 未分類論文のTier分類",
-            [python, str(TOOLS / "pipeline_compile.py"), "--tier-only", "--limit", str(args.tier_limit)],
+            [python, str(TOOLS / "tier_classify_cli.py"), "--limit", str(args.tier_limit)],
             env,
         )
 

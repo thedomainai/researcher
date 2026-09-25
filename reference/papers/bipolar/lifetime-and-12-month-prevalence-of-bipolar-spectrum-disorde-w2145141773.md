@@ -8,11 +8,13 @@ openalex_id: W2145141773
 paper_type: article
 evidence_kind: article
 topics: ["bipolar"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Lifetime and 12-Month Prevalence of Bipolar Spectrum Disorder in the National Comorbidity Survey Replication
 
-**Authors**: Kathleen Ries Merikangas, Hagop Souren Akiskal, Jules Angst, Paul E. Greenberg, Robert M. A. Hirschfeld, Maria V. Petukhova, Ronald C. Kessler | **Year**: 2007 | **Cited by**: 2432 | **Kind**: article
+**Authors**: Kathleen Ries Merikangas, Hagop Souren Akiskal, Jules Angst, Paul E. Greenberg, Robert M. A. Hirschfeld, Maria V. Petukhova, Ronald C. Kessler | **Year**: 2007 | **Cited by**: 2432 | **Kind**: article | **Relevance**: bipolar: core
 
 ## Abstract
 

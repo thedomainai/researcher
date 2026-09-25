@@ -8,11 +8,13 @@ openalex_id: W2087539060
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Antidepressants for Bipolar Depression: A Systematic Review of Randomized, Controlled Trials
 
-**Authors**: Harm J. Gijsman, John Geddes, Jennifer M Rendell, Willem A. Nolen, Guy M. Goodwin | **Year**: 2004 | **Cited by**: 567 | **Kind**: meta_analysis
+**Authors**: Harm J. Gijsman, John Geddes, Jennifer M Rendell, Willem A. Nolen, Guy M. Goodwin | **Year**: 2004 | **Cited by**: 567 | **Kind**: meta_analysis | **Relevance**: bipolar: core
 
 ## Abstract
 

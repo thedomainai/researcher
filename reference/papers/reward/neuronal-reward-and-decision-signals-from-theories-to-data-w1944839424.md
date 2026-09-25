@@ -8,11 +8,13 @@ openalex_id: W1944839424
 paper_type: review
 evidence_kind: review
 topics: ["reward"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Neuronal Reward and Decision Signals: From Theories to Data
 
-**Authors**: Wolfram Schultz | **Year**: 2015 | **Cited by**: 1190 | **Kind**: review
+**Authors**: Wolfram Schultz | **Year**: 2015 | **Cited by**: 1190 | **Kind**: review | **Relevance**: reward: core
 
 ## Abstract
 

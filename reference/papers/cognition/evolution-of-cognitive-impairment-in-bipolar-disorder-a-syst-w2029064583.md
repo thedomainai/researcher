@@ -8,11 +8,13 @@ openalex_id: W2029064583
 paper_type: review
 evidence_kind: systematic_review
 topics: ["cognition"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Evolution of cognitive impairment in bipolar disorder: a systematic review of cross‐sectional evidence
 
-**Authors**: Lucy J. Robinson, I. Nicol Ferrier | **Year**: 2006 | **Cited by**: 533 | **Kind**: systematic_review
+**Authors**: Lucy J. Robinson, I. Nicol Ferrier | **Year**: 2006 | **Cited by**: 533 | **Kind**: systematic_review | **Relevance**: cognition: core
 
 ## Abstract
 

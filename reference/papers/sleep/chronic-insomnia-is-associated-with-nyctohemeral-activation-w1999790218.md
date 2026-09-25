@@ -1,0 +1,21 @@
+---
+title: "Chronic Insomnia Is Associated with Nyctohemeral Activation of the Hypothalamic-Pituitary-Adrenal Axis: Clinical Implications"
+authors: ["Alexandros N. Vgontzas", "Edward O. Bixler", "Hung-Mo Lin", "Paolo Prolo", "George P. Mastorakos", "Antonio Vela‐Bueno", "Anthony Kales", "George Panagiotis Chrousos"]
+year: 2001
+cited_by_count: 855
+doi: "https://doi.org/10.1210/jcem.86.8.7778"
+openalex_id: W1999790218
+paper_type: article
+evidence_kind: article
+topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# Chronic Insomnia Is Associated with Nyctohemeral Activation of the Hypothalamic-Pituitary-Adrenal Axis: Clinical Implications
+
+**Authors**: Alexandros N. Vgontzas, Edward O. Bixler, Hung-Mo Lin, Paolo Prolo, George P. Mastorakos, Antonio Vela‐Bueno, Anthony Kales, George Panagiotis Chrousos | **Year**: 2001 | **Cited by**: 855 | **Kind**: article | **Relevance**: sleep: supporting
+
+## Abstract
+
+Although insomnia is, by far, the most commonly encountered sleep disorder in medical practice, our knowledge in regard to its neurobiology and medical significance is limited. Activation of the hypothalamic-pituitary-adrenal axis leads to arousal and sleeplessness in animals and humans; however, there is a paucity of data regarding the activity of the hypothalamic-pituitary-adrenal axis in insomniacs. We hypothesized that chronic insomnia is associated with increased plasma levels of ACTH and cortisol. Eleven young insomniacs (6 men and 5 women) and 13 healthy controls (9 men and 4 women) without sleep disturbances, matched for age and body mass index, were monitored in the sleep laboratory for 4 consecutive nights, whereas serial 24-h plasma measures of ACTH and cortisol were obtained during the fourth day. Insomniacs, compared with controls, slept poorly (significantly higher sleep latency and wake during baseline nights). The 24-h ACTH and cortisol secretions were significantly higher in insomniacs, compared with normal controls (4.2 +/- 0.3 vs. 3.3 +/- 0.3 pM, P = 0.04; and 218.0 +/- 11.0 vs. 190.4 +/- 8.3 nM, P = 0.07). Within the 24-h period, the greatest elevations were observed in the evening and first half of the night. Also, insomniacs with a high degree of objective sleep disturbance (% sleep time < 70), compared with those with a low degree of sleep disturbance, secreted a higher amount of cortisol. Pulsatile analysis revealed a significantly higher number of peaks per 24 h in insomniacs than in controls (P < 0.05), whereas cosinor analysis showed no differences in the temporal pattern of ACTH or cortisol secretion between insomniacs and controls. We conclude that insomnia is associated with an overall increase of ACTH and cortisol secretion, which, however, retains a normal circadian pattern. These findings are consistent with a disorder of central nervous system hyperarousal rather than one of sleep loss, which is usually associated with no change or decrease in cortisol secretion or a circadian disturbance. Chronic activation of the hypothalamic-pituitary-adrenal axis in insomnia suggests that insomniacs are at risk not only for mental disorders, i.e. chronic anxiety and depression, but also for significant medical morbidity associated with such activation. The therapeutic goal in insomnia should be to decrease the overall level of physiologic and emotional arousal, and not just to improve the nighttime sleep.

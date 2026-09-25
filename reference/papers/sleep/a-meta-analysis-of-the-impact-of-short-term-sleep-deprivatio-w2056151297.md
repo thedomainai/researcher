@@ -8,11 +8,13 @@ openalex_id: W2056151297
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["sleep"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # A meta-analysis of the impact of short-term sleep deprivation on cognitive variables.
 
-**Authors**: Julian Lim, David F. Dinges | **Year**: 2010 | **Cited by**: 1401 | **Kind**: meta_analysis
+**Authors**: Julian Lim, David F. Dinges | **Year**: 2010 | **Cited by**: 1401 | **Kind**: meta_analysis | **Relevance**: sleep: core
 
 ## Abstract
 

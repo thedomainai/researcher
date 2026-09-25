@@ -8,11 +8,13 @@ openalex_id: W2071744520
 paper_type: article
 evidence_kind: meta_analysis
 topics: ["cognition"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Neuropsychological functioning in euthymic bipolar disorder: a meta‐analysis
 
-**Authors**: Ivan J. Torres, Vanessa G. Boudreau, Lakshmi N. Yatham | **Year**: 2007 | **Cited by**: 622 | **Kind**: meta_analysis
+**Authors**: Ivan J. Torres, Vanessa G. Boudreau, Lakshmi N. Yatham | **Year**: 2007 | **Cited by**: 622 | **Kind**: meta_analysis | **Relevance**: cognition: core
 
 ## Abstract
 

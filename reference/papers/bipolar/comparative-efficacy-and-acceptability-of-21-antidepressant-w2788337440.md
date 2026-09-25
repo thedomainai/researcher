@@ -8,11 +8,13 @@ openalex_id: W2788337440
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Comparative Efficacy and Acceptability of 21 Antidepressant Drugs for the Acute Treatment of Adults With Major Depressive Disorder: A Systematic Review and Network Meta-Analysis
 
-**Authors**: Andrea Cipriani, Toshi A. Furukawa, Georgia Salanti, Anna Chaimani, Lauren Z. Atkinson, Yusuke Ogawa, Stefan Leucht, Henricus Gerardus Ruhé, et al. | **Year**: 2018 | **Cited by**: 3588 | **Kind**: meta_analysis
+**Authors**: Andrea Cipriani, Toshi A. Furukawa, Georgia Salanti, Anna Chaimani, Lauren Z. Atkinson, Yusuke Ogawa, Stefan Leucht, Henricus Gerardus Ruhé, et al. | **Year**: 2018 | **Cited by**: 3588 | **Kind**: meta_analysis | **Relevance**: bipolar: core
 
 ## Abstract
 

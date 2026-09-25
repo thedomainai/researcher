@@ -8,11 +8,13 @@ openalex_id: W1971141494
 paper_type: article
 evidence_kind: article
 topics: ["cognition"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Cognitive impairment in euthymic bipolar patients: implications for clinical and functional outcome
 
-**Authors**: Anabel Martínez‐Arán, Eduard Vieta, Francesc Colom, Carla Torrent, José Sánchez‐Moreno, María Reinares, Antonio Benabarre, J.M. Goikolea, et al. | **Year**: 2004 | **Cited by**: 587 | **Kind**: article
+**Authors**: Anabel Martínez‐Arán, Eduard Vieta, Francesc Colom, Carla Torrent, José Sánchez‐Moreno, María Reinares, Antonio Benabarre, J.M. Goikolea, et al. | **Year**: 2004 | **Cited by**: 587 | **Kind**: article | **Relevance**: cognition: core
 
 ## Abstract
 

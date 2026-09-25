@@ -8,11 +8,13 @@ openalex_id: W1969241382
 paper_type: article
 evidence_kind: meta_analysis
 topics: ["mastery"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Does Simulation-Based Medical Education With Deliberate Practice Yield Better Results Than Traditional Clinical Education? A Meta-Analytic Comparative Review of the Evidence
 
-**Authors**: William C. McGaghie, Saul Barry Issenberg, Elaine R. Cohen, Jeffrey H. Barsuk, Diane B. Wayne | **Year**: 2011 | **Cited by**: 1865 | **Kind**: meta_analysis
+**Authors**: William C. McGaghie, Saul Barry Issenberg, Elaine R. Cohen, Jeffrey H. Barsuk, Diane B. Wayne | **Year**: 2011 | **Cited by**: 1865 | **Kind**: meta_analysis | **Relevance**: mastery: supporting
 
 ## Abstract
 

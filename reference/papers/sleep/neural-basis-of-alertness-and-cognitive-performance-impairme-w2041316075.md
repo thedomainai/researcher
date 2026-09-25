@@ -1,0 +1,21 @@
+---
+title: "Neural basis of alertness and cognitive performance impairments during sleepiness. I. Effects of 24 h of sleep deprivation on waking human regional brain activity"
+authors: ["Maria Thomas", "Helen Sing", "Gregory Lucas Belenky", "Henry H. Holcomb", "Helen S. Mayberg", "Robert F. Dannals", "Henry N. Wagner", "David Thorne", "et al."]
+year: 2000
+cited_by_count: 1076
+doi: "https://doi.org/10.1046/j.1365-2869.2000.00225.x"
+openalex_id: W2041316075
+paper_type: article
+evidence_kind: article
+topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# Neural basis of alertness and cognitive performance impairments during sleepiness. I. Effects of 24 h of sleep deprivation on waking human regional brain activity
+
+**Authors**: Maria Thomas, Helen Sing, Gregory Lucas Belenky, Henry H. Holcomb, Helen S. Mayberg, Robert F. Dannals, Henry N. Wagner, David Thorne, et al. | **Year**: 2000 | **Cited by**: 1076 | **Kind**: article | **Relevance**: sleep: supporting
+
+## Abstract
+
+The negative effects of sleep deprivation on alertness and cognitive performance suggest decreases in brain activity and function, primarily in the thalamus, a subcortical structure involved in alertness and attention, and in the prefrontal cortex, a region subserving alertness, attention, and higher-order cognitive processes. To test this hypothesis, 17 normal subjects were scanned for quantifiable brain activity changes during 85 h of sleep deprivation using positron emission tomography (PET) and (18)Fluorine-2-deoxyglucose ((18)FDG), a marker for regional cerebral metabolic rate for glucose (CMRglu) and neuronal synaptic activity. Subjects were scanned prior to and at 24-h intervals during the sleep deprivation period, for a total of four scans per subject. During each 30 min (18)FDG uptake, subjects performed a sleep deprivation-sensitive Serial Addition/Subtraction task. Polysomnographic monitoring confirmed that subjects were awake. Twenty-four hours of sleep deprivation, reported here, resulted in a significant decrease in global CMRglu, and significant decreases in absolute regional CMRglu in several cortical and subcortical structures. No areas of the brain evidenced a significant increase in absolute regional CMRglu. Significant decreases in relative regional CMRglu, reflecting regional brain reductions greater than the global decrease, occurred predominantly in the thalamus and prefrontal and posterior parietal cortices. Alertness and cognitive performance declined in association with these brain deactivations. This study provides evidence that short-term sleep deprivation produces global decreases in brain activity, with larger reductions in activity in the distributed cortico-thalamic network mediating attention and higher-order cognitive processes, and is complementary to studies demonstrating deactivation of these cortical regions during NREM and REM sleep.

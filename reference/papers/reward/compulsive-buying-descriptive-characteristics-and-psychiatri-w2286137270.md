@@ -8,11 +8,13 @@ openalex_id: W2286137270
 paper_type: article
 evidence_kind: article
 topics: ["reward"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Compulsive buying: descriptive characteristics and psychiatric comorbidity.
 
-**Authors**: Christenson Ga, Faber Rj, de Zwaan M, Raymond Nc, Specker Sm, Ekern, Mackenzie Tb, Ross D. Crosby, et al. | **Year**: 1994 | **Cited by**: 666 | **Kind**: article
+**Authors**: Christenson Ga, Faber Rj, de Zwaan M, Raymond Nc, Specker Sm, Ekern, Mackenzie Tb, Ross D. Crosby, et al. | **Year**: 1994 | **Cited by**: 666 | **Kind**: article | **Relevance**: reward: core
 
 ## Abstract
 

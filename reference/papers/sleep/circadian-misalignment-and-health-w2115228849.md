@@ -8,11 +8,13 @@ openalex_id: W2115228849
 paper_type: article
 evidence_kind: article
 topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Circadian misalignment and health
 
-**Authors**: Kelly Glazer Baron, Kathryn Jean Reid | **Year**: 2014 | **Cited by**: 656 | **Kind**: article
+**Authors**: Kelly Glazer Baron, Kathryn Jean Reid | **Year**: 2014 | **Cited by**: 656 | **Kind**: article | **Relevance**: sleep: core
 
 ## Abstract
 

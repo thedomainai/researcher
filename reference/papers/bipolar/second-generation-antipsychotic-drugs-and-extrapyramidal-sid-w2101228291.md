@@ -8,11 +8,13 @@ openalex_id: W2101228291
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Second-Generation Antipsychotic Drugs and Extrapyramidal Side Effects: A Systematic Review and Meta-analysis of Head-to-Head Comparisons
 
-**Authors**: Christine Rummel‐Kluge, Katja Komossa, Sandra Schwarz, Heike Hunger, Franziska Schmid, Werner Kissling, John M. Davis, Stefan Leucht | **Year**: 2010 | **Cited by**: 274 | **Kind**: meta_analysis
+**Authors**: Christine Rummel‐Kluge, Katja Komossa, Sandra Schwarz, Heike Hunger, Franziska Schmid, Werner Kissling, John M. Davis, Stefan Leucht | **Year**: 2010 | **Cited by**: 274 | **Kind**: meta_analysis | **Relevance**: bipolar: core
 
 ## Abstract
 

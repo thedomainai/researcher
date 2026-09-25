@@ -8,11 +8,13 @@ openalex_id: W1925423442
 paper_type: article
 evidence_kind: article
 topics: ["sleep"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Sleep deprivation: Impact on cognitive performance.
 
-**Authors**: Paula Alhola, Päivi Polo-Kantola | **Year**: 2007 | **Cited by**: 768 | **Kind**: article
+**Authors**: Paula Alhola, Päivi Polo-Kantola | **Year**: 2007 | **Cited by**: 768 | **Kind**: article | **Relevance**: sleep: core
 
 ## Abstract
 

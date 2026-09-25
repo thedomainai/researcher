@@ -8,11 +8,13 @@ openalex_id: W2020449419
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["cognition"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Cognitive impairment in euthymic major depressive disorder: a meta-analysis
 
-**Authors**: Emre Bora, Ben J. Harrison, Murat Yücel, Christos Pantelis | **Year**: 2012 | **Cited by**: 564 | **Kind**: meta_analysis
+**Authors**: Emre Bora, Ben J. Harrison, Murat Yücel, Christos Pantelis | **Year**: 2012 | **Cited by**: 564 | **Kind**: meta_analysis | **Relevance**: cognition: core
 
 ## Abstract
 

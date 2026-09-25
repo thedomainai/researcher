@@ -6,13 +6,15 @@ cited_by_count: 866
 doi: "https://doi.org/10.1176/appi.ajp.161.1.3"
 openalex_id: W2098234705
 paper_type: article
-evidence_kind: article
+evidence_kind: guideline
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # What Is a “Mood Stabilizer”? An Evidence-Based Response
 
-**Authors**: Mark S. Bauer, Landis Mitchner | **Year**: 2003 | **Cited by**: 866 | **Kind**: article
+**Authors**: Mark S. Bauer, Landis Mitchner | **Year**: 2003 | **Cited by**: 866 | **Kind**: guideline | **Relevance**: bipolar: core
 
 ## Abstract
 

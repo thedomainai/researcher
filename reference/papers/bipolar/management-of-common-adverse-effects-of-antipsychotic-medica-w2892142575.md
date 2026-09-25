@@ -8,11 +8,13 @@ openalex_id: W2892142575
 paper_type: article
 evidence_kind: article
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Management of common adverse effects of antipsychotic medications
 
-**Authors**: T. Scott Stroup, Neil Gray | **Year**: 2018 | **Cited by**: 578 | **Kind**: article
+**Authors**: T. Scott Stroup, Neil Gray | **Year**: 2018 | **Cited by**: 578 | **Kind**: article | **Relevance**: bipolar: core
 
 ## Abstract
 

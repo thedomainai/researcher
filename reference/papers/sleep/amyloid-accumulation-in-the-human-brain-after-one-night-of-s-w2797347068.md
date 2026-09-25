@@ -8,11 +8,13 @@ openalex_id: W2797347068
 paper_type: article
 evidence_kind: article
 topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # β-Amyloid accumulation in the human brain after one night of sleep deprivation
 
-**Authors**: Ehsan Shokri Kojori, Gene‐Jack Wang, Corinde E. Wiers, Şükrü Barış Demiral, Min Guo, Sung Won Kim, Elsa Lindgren, Veronica E. Ramirez, et al. | **Year**: 2018 | **Cited by**: 902 | **Kind**: article
+**Authors**: Ehsan Shokri Kojori, Gene‐Jack Wang, Corinde E. Wiers, Şükrü Barış Demiral, Min Guo, Sung Won Kim, Elsa Lindgren, Veronica E. Ramirez, et al. | **Year**: 2018 | **Cited by**: 902 | **Kind**: article | **Relevance**: sleep: supporting
 
 ## Abstract
 

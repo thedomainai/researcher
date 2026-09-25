@@ -8,11 +8,13 @@ openalex_id: W2022668144
 paper_type: article
 evidence_kind: article
 topics: ["hedonic"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Unemployment Alters the Set Point for Life Satisfaction
 
-**Authors**: Richard E. Lucas, Andrew Eric Clark, Yannis Georgellis, Ed Diener | **Year**: 2004 | **Cited by**: 1260 | **Kind**: article
+**Authors**: Richard E. Lucas, Andrew Eric Clark, Yannis Georgellis, Ed Diener | **Year**: 2004 | **Cited by**: 1260 | **Kind**: article | **Relevance**: hedonic: core
 
 ## Abstract
 

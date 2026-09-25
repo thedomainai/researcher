@@ -8,11 +8,13 @@ openalex_id: W2263179472
 paper_type: article
 evidence_kind: article
 topics: ["scarcity"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Poverty and Economic Decision-Making: Evidence from Changes in Financial Resources at Payday
 
-**Authors**: Leandro Carvalho, Stephan Meier, Stephanie W. Wang | **Year**: 2016 | **Cited by**: 517 | **Kind**: article
+**Authors**: Leandro Carvalho, Stephan Meier, Stephanie W. Wang | **Year**: 2016 | **Cited by**: 517 | **Kind**: article | **Relevance**: scarcity: core
 
 ## Abstract
 

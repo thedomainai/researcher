@@ -8,11 +8,13 @@ openalex_id: W2999502250
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["suicide"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Characterizing the phenomenology of passive suicidal ideation: a systematic review and meta-analysis of its prevalence, psychiatric comorbidity, correlates, and comparisons with active suicidal ideation
 
-**Authors**: Richard T. Liu, Alexandra H. Bettis, Taylor A. Burke | **Year**: 2020 | **Cited by**: 231 | **Kind**: meta_analysis
+**Authors**: Richard T. Liu, Alexandra H. Bettis, Taylor A. Burke | **Year**: 2020 | **Cited by**: 231 | **Kind**: meta_analysis | **Relevance**: suicide: core
 
 ## Abstract
 

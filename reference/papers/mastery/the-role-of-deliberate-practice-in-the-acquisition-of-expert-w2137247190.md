@@ -8,11 +8,13 @@ openalex_id: W2137247190
 paper_type: article
 evidence_kind: article
 topics: ["mastery"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # The role of deliberate practice in the acquisition of expert performance.
 
-**Authors**: K. Anders Ericsson, Ralf T. Krampe, Clemens Tesch‐Römer | **Year**: 1993 | **Cited by**: 9053 | **Kind**: article
+**Authors**: K. Anders Ericsson, Ralf T. Krampe, Clemens Tesch‐Römer | **Year**: 1993 | **Cited by**: 9053 | **Kind**: article | **Relevance**: mastery: core
 
 ## Abstract
 

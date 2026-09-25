@@ -8,11 +8,13 @@ openalex_id: W2071525837
 paper_type: article
 evidence_kind: article
 topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Delayed Sleep Phase Syndrome
 
-**Authors**: Elliot D. Weitzman | **Year**: 1981 | **Cited by**: 523 | **Kind**: article
+**Authors**: Elliot D. Weitzman | **Year**: 1981 | **Cited by**: 523 | **Kind**: article | **Relevance**: sleep: core
 
 ## Abstract
 

@@ -8,11 +8,13 @@ openalex_id: W134311315
 paper_type: article
 evidence_kind: article
 topics: ["mastery"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # The Road To Excellence: The Acquisition of Expert Performance in the Arts and Sciences, Sports, and Games
 
-**Authors**: K. Anders Ericsson | **Year**: 1996 | **Cited by**: 1292 | **Kind**: article
+**Authors**: K. Anders Ericsson | **Year**: 1996 | **Cited by**: 1292 | **Kind**: article | **Relevance**: mastery: core
 
 ## Abstract
 

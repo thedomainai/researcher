@@ -8,11 +8,13 @@ openalex_id: W2066235252
 paper_type: article
 evidence_kind: article
 topics: ["reward"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Internet gaming disorder and the DSM ‐5
 
-**Authors**: Nancy M. Petry, Charles P. O’Brien | **Year**: 2013 | **Cited by**: 524 | **Kind**: article
+**Authors**: Nancy M. Petry, Charles P. O’Brien | **Year**: 2013 | **Cited by**: 524 | **Kind**: article | **Relevance**: reward: core
 
 ## Abstract
 

@@ -8,11 +8,13 @@ openalex_id: W2164661689
 paper_type: article
 evidence_kind: article
 topics: ["cognition"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Decentring and distraction reduce overgeneral autobiographical memory in depression
 
-**Authors**: Edward R. Watkins, John D. Teasdale, Ruth M Williams | **Year**: 2000 | **Cited by**: 231 | **Kind**: article
+**Authors**: Edward R. Watkins, John D. Teasdale, Ruth M Williams | **Year**: 2000 | **Cited by**: 231 | **Kind**: article | **Relevance**: cognition: core
 
 ## Abstract
 

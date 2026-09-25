@@ -8,11 +8,13 @@ openalex_id: W3158942418
 paper_type: review
 evidence_kind: systematic_review
 topics: ["suicide"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # The Effectiveness of the Safety Planning Intervention for Adults Experiencing Suicide-Related Distress: A Systematic Review
 
-**Authors**: Monika S. Ferguson, Kate Rhodes, Mark Loughhead, Heather M. McIntyre, Nicholas Gerard Procter | **Year**: 2021 | **Cited by**: 147 | **Kind**: systematic_review
+**Authors**: Monika S. Ferguson, Kate Rhodes, Mark Loughhead, Heather M. McIntyre, Nicholas Gerard Procter | **Year**: 2021 | **Cited by**: 147 | **Kind**: systematic_review | **Relevance**: suicide: core
 
 ## Abstract
 

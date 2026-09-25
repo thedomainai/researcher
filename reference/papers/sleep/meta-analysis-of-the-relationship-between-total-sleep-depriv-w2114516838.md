@@ -8,11 +8,13 @@ openalex_id: W2114516838
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Meta-Analysis of the Relationship Between Total Sleep Deprivation and Performance
 
-**Authors**: Meni Koslowsky, Harvey Babkoff | **Year**: 1992 | **Cited by**: 158 | **Kind**: meta_analysis
+**Authors**: Meni Koslowsky, Harvey Babkoff | **Year**: 1992 | **Cited by**: 158 | **Kind**: meta_analysis | **Relevance**: sleep: core
 
 ## Abstract
 

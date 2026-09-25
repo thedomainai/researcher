@@ -8,11 +8,13 @@ openalex_id: W2846110109
 paper_type: article
 evidence_kind: article
 topics: ["suicide"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Comparison of the Safety Planning Intervention With Follow-up vs Usual Care of Suicidal Patients Treated in the Emergency Department
 
-**Authors**: Bárbara Stanley, Gregory K. Brown, Lisa Anne Brenner, Hanga Galfalvy, Glenn W. Currier, Kerry L. Knox, Sadia R. Chaudhury, Ashley L. Bush, et al. | **Year**: 2018 | **Cited by**: 644 | **Kind**: article
+**Authors**: Bárbara Stanley, Gregory K. Brown, Lisa Anne Brenner, Hanga Galfalvy, Glenn W. Currier, Kerry L. Knox, Sadia R. Chaudhury, Ashley L. Bush, et al. | **Year**: 2018 | **Cited by**: 644 | **Kind**: article | **Relevance**: suicide: core
 
 ## Abstract
 

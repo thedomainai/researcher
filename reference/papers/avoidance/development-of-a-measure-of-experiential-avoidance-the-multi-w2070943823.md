@@ -8,11 +8,13 @@ openalex_id: W2070943823
 paper_type: article
 evidence_kind: article
 topics: ["avoidance"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Development of a measure of experiential avoidance: The Multidimensional Experiential Avoidance Questionnaire.
 
-**Authors**: Wakiza Gámez, Michael S. Chmielewski, Roman Kotov, Camilo J. Ruggero, David Watson | **Year**: 2011 | **Cited by**: 540 | **Kind**: article
+**Authors**: Wakiza Gámez, Michael S. Chmielewski, Roman Kotov, Camilo J. Ruggero, David Watson | **Year**: 2011 | **Cited by**: 540 | **Kind**: article | **Relevance**: avoidance: core
 
 ## Abstract
 

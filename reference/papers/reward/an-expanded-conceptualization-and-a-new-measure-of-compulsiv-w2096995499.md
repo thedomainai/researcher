@@ -8,11 +8,13 @@ openalex_id: W2096995499
 paper_type: article
 evidence_kind: article
 topics: ["reward"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # An Expanded Conceptualization and a New Measure of Compulsive Buying
 
-**Authors**: Nancy M. Ridgway, Monika Kukar‐Kinney, Kent B. Monroe | **Year**: 2008 | **Cited by**: 587 | **Kind**: article
+**Authors**: Nancy M. Ridgway, Monika Kukar‐Kinney, Kent B. Monroe | **Year**: 2008 | **Cited by**: 587 | **Kind**: article | **Relevance**: reward: core
 
 ## Abstract
 

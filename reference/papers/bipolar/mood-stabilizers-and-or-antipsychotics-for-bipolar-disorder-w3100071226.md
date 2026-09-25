@@ -8,11 +8,13 @@ openalex_id: W3100071226
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Mood stabilizers and/or antipsychotics for bipolar disorder in the maintenance phase: a systematic review and network meta-analysis of randomized controlled trials
 
-**Authors**: Taro Kishi, Toshikazu Ikuta, Yuki Matsuda, Kenji Sakuma, Makoto Okuya, Kazuo Mishima, Nakao Iwata | **Year**: 2020 | **Cited by**: 170 | **Kind**: meta_analysis
+**Authors**: Taro Kishi, Toshikazu Ikuta, Yuki Matsuda, Kenji Sakuma, Makoto Okuya, Kazuo Mishima, Nakao Iwata | **Year**: 2020 | **Cited by**: 170 | **Kind**: meta_analysis | **Relevance**: bipolar: core
 
 ## Abstract
 

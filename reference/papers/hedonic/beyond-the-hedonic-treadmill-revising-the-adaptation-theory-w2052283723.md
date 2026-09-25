@@ -8,11 +8,13 @@ openalex_id: W2052283723
 paper_type: article
 evidence_kind: article
 topics: ["hedonic"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Beyond the hedonic treadmill: Revising the adaptation theory of well-being.
 
-**Authors**: Ed Diener, Richard E. Lucas, Christie Napa Scollon | **Year**: 2006 | **Cited by**: 1953 | **Kind**: article
+**Authors**: Ed Diener, Richard E. Lucas, Christie Napa Scollon | **Year**: 2006 | **Cited by**: 1953 | **Kind**: article | **Relevance**: hedonic: core
 
 ## Abstract
 

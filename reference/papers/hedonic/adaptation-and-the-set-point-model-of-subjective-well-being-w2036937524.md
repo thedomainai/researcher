@@ -8,11 +8,13 @@ openalex_id: W2036937524
 paper_type: article
 evidence_kind: article
 topics: ["hedonic"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Adaptation and the Set-Point Model of Subjective Well-Being
 
-**Authors**: Richard E. Lucas | **Year**: 2007 | **Cited by**: 816 | **Kind**: article
+**Authors**: Richard E. Lucas | **Year**: 2007 | **Cited by**: 816 | **Kind**: article | **Relevance**: hedonic: core
 
 ## Abstract
 

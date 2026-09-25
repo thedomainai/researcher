@@ -6,13 +6,15 @@ cited_by_count: 1851
 doi: "https://doi.org/10.1111/bdi.12609"
 openalex_id: W2792027821
 paper_type: article
-evidence_kind: article
+evidence_kind: guideline
 topics: ["bipolar"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Canadian Network for Mood and Anxiety Treatments ( CANMAT ) and International Society for Bipolar Disorders ( ISBD ) 2018 guidelines for the management of patients with bipolar disorder
 
-**Authors**: Lakshmi N. Yatham, Sidney H. Kennedy, Sagar V. Parikh, Ayal Schaffer, David J. Bond, Benicio Noronha Frey, Verinder Sharma, Benjamin I. Goldstein, et al. | **Year**: 2018 | **Cited by**: 1851 | **Kind**: article
+**Authors**: Lakshmi N. Yatham, Sidney H. Kennedy, Sagar V. Parikh, Ayal Schaffer, David J. Bond, Benicio Noronha Frey, Verinder Sharma, Benjamin I. Goldstein, et al. | **Year**: 2018 | **Cited by**: 1851 | **Kind**: guideline | **Relevance**: bipolar: core
 
 ## Abstract
 

@@ -8,11 +8,13 @@ openalex_id: W2164509516
 paper_type: review
 evidence_kind: review
 topics: ["reward"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Behavioral Theories and the Neurophysiology of Reward
 
-**Authors**: Wolfram Schultz | **Year**: 2005 | **Cited by**: 1673 | **Kind**: review
+**Authors**: Wolfram Schultz | **Year**: 2005 | **Cited by**: 1673 | **Kind**: review | **Relevance**: reward: core
 
 ## Abstract
 

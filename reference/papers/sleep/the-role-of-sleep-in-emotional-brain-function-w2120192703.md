@@ -8,11 +8,13 @@ openalex_id: W2120192703
 paper_type: review
 evidence_kind: review
 topics: ["sleep"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # The Role of Sleep in Emotional Brain Function
 
-**Authors**: Andrea N. Goldstein, Matthew P. Walker | **Year**: 2014 | **Cited by**: 1071 | **Kind**: review
+**Authors**: Andrea N. Goldstein, Matthew P. Walker | **Year**: 2014 | **Cited by**: 1071 | **Kind**: review | **Relevance**: sleep: core
 
 ## Abstract
 

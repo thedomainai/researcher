@@ -8,11 +8,13 @@ openalex_id: W2803471393
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["suicide"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Effectiveness of brief psychological interventions for suicidal presentations: a systematic review
 
-**Authors**: Rose McCabe, Ruth Garside, Amy Backhouse, Penny Xanthopoulou | **Year**: 2018 | **Cited by**: 103 | **Kind**: meta_analysis
+**Authors**: Rose McCabe, Ruth Garside, Amy Backhouse, Penny Xanthopoulou | **Year**: 2018 | **Cited by**: 103 | **Kind**: meta_analysis | **Relevance**: suicide: core
 
 ## Abstract
 

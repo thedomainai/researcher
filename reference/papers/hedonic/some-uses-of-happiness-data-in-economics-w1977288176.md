@@ -8,11 +8,13 @@ openalex_id: W1977288176
 paper_type: article
 evidence_kind: article
 topics: ["hedonic"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Some Uses of Happiness Data in Economics
 
-**Authors**: Rafael Di Tella, Robert MacCulloch | **Year**: 2006 | **Cited by**: 908 | **Kind**: article
+**Authors**: Rafael Di Tella, Robert MacCulloch | **Year**: 2006 | **Cited by**: 908 | **Kind**: article | **Relevance**: hedonic: core
 
 ## Abstract
 

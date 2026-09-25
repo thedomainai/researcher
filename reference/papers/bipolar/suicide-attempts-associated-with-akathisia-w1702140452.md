@@ -8,11 +8,13 @@ openalex_id: W1702140452
 paper_type: article
 evidence_kind: article
 topics: ["bipolar"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Suicide attempts associated with akathisia
 
-**Authors**: Robert E. Drake, Joshua R. Ehrlich | **Year**: 1985 | **Cited by**: 206 | **Kind**: article
+**Authors**: Robert E. Drake, Joshua R. Ehrlich | **Year**: 1985 | **Cited by**: 206 | **Kind**: article | **Relevance**: bipolar: core
 
 ## Abstract
 

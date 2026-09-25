@@ -8,11 +8,13 @@ openalex_id: W4322719851
 paper_type: article
 evidence_kind: article
 topics: ["hedonic"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Income and emotional well-being: A conflict resolved
 
-**Authors**: Matthew A. Killingsworth, Daniel J. Kahneman, Barbara A. Mellers | **Year**: 2023 | **Cited by**: 188 | **Kind**: article
+**Authors**: Matthew A. Killingsworth, Daniel J. Kahneman, Barbara A. Mellers | **Year**: 2023 | **Cited by**: 188 | **Kind**: article | **Relevance**: hedonic: core
 
 ## Abstract
 

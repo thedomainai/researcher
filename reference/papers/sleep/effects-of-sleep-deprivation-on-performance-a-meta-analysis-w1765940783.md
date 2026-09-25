@@ -8,11 +8,13 @@ openalex_id: W1765940783
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Effects of Sleep Deprivation on Performance: A Meta-Analysis
 
-**Authors**: June J. Pilcher, Allen I. Huffcutt | **Year**: 1996 | **Cited by**: 1556 | **Kind**: meta_analysis
+**Authors**: June J. Pilcher, Allen I. Huffcutt | **Year**: 1996 | **Cited by**: 1556 | **Kind**: meta_analysis | **Relevance**: sleep: core
 
 ## Abstract
 

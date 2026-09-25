@@ -8,11 +8,13 @@ openalex_id: W2124979499
 paper_type: article
 evidence_kind: article
 topics: ["reward"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # A Critical Appraisal of Neuroimaging Studies of Bipolar Disorder: Toward a New Conceptualization of Underlying Neural Circuitry and a Road Map for Future Research
 
-**Authors**: Mary Louise Phillips, Holly A. Swartz | **Year**: 2014 | **Cited by**: 645 | **Kind**: article
+**Authors**: Mary Louise Phillips, Holly A. Swartz | **Year**: 2014 | **Cited by**: 645 | **Kind**: article | **Relevance**: reward: supporting
 
 ## Abstract
 

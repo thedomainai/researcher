@@ -8,11 +8,13 @@ openalex_id: W2128870189
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["avoidance"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Acceptance-based interventions for the treatment of chronic pain: A systematic review and meta-analysis
 
-**Authors**: Martine M. Veehof, Maarten-Jan Oskam, Karlein M. G. Schreurs, Ernst Thomas Bohlmeijer | **Year**: 2011 | **Cited by**: 802 | **Kind**: meta_analysis
+**Authors**: Martine M. Veehof, Maarten-Jan Oskam, Karlein M. G. Schreurs, Ernst Thomas Bohlmeijer | **Year**: 2011 | **Cited by**: 802 | **Kind**: meta_analysis | **Relevance**: avoidance: core
 
 ## Abstract
 

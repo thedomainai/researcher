@@ -8,11 +8,13 @@ openalex_id: W2054786977
 paper_type: article
 evidence_kind: article
 topics: ["avoidance"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Attachment-Related Strategies During Thought Suppression: Ironic Rebounds and Vulnerable Self-Representations.
 
-**Authors**: Mario Mikulincer, Tamar Dolev, Phillip R. Shaver | **Year**: 2004 | **Cited by**: 347 | **Kind**: article
+**Authors**: Mario Mikulincer, Tamar Dolev, Phillip R. Shaver | **Year**: 2004 | **Cited by**: 347 | **Kind**: article | **Relevance**: avoidance: supporting
 
 ## Abstract
 

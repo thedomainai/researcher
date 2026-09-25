@@ -1,0 +1,21 @@
+---
+title: "The NODS–CLiP: A Rapid Screen for Adult Pathological and Problem Gambling"
+authors: ["Marianna Toce‐Gerstein", "Dean Robert Gerstein", "Rachel A. Volberg"]
+year: 2009
+cited_by_count: 193
+doi: "https://doi.org/10.1007/s10899-009-9135-y"
+openalex_id: W2117552975
+paper_type: article
+evidence_kind: article
+topics: ["reward"]
+landmark: false
+abstract_source: "semantic_scholar"
+---
+
+# The NODS–CLiP: A Rapid Screen for Adult Pathological and Problem Gambling
+
+**Authors**: Marianna Toce‐Gerstein, Dean Robert Gerstein, Rachel A. Volberg | **Year**: 2009 | **Cited by**: 193 | **Kind**: article | **Relevance**: reward: supporting
+
+## Abstract
+
+ObjectivesTo describe and evaluate tests of the performance of the NODS–CLiP, an efficient standardized diagnostic interview instrument for adult pathological and problem gambling.Setting and SamplesIdentical batteries of diagnostic questions about gambling behavior, motives, and thoughts were administered to participants in eight general adult population field studies conducted in the United States between 1999 and 2003, including six state-level random-digit-dial (RDD) telephone surveys, one national RDD survey, and one in-person systematic random sample survey of commercial gambling patrons in eight states. Total survey N = 17,180. Response rates ranged from 24 to 71%.MeasuresData from all experienced gamblers (N = 8,867) were re-analyzed to compare diagnostic status derived from the 17-item NORC Diagnostic Screen for Gambling Disorders (NODS), a validated DSM-IV-based instrument, with results from all 2- to 4-item subsets of NODS items.ResultsThree NODS questions pertaining to loss of Control, Lying, and Preoccupation (the “CLiP”), requiring one minute to administer, identified virtually all pathological gamblers and most problem gamblers diagnosed by the complete NODS. The CLiP has excellent sensitivity and specificity for NODS constructs.ConclusionsA two-stage NODS–CLiP procedure appears quite promising as an efficient epidemiological instrument for general population research and clinical triage for gambling disorders.

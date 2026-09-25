@@ -8,11 +8,13 @@ openalex_id: W2180967840
 paper_type: article
 evidence_kind: article
 topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Social Jetlag, Chronotype, and Cardiometabolic Risk
 
-**Authors**: Patricia M. Wong, Brant P. Hasler, Thomas W. Kamarck, Matthew F. Muldoon, Stephen B. Manuck | **Year**: 2015 | **Cited by**: 459 | **Kind**: article
+**Authors**: Patricia M. Wong, Brant P. Hasler, Thomas W. Kamarck, Matthew F. Muldoon, Stephen B. Manuck | **Year**: 2015 | **Cited by**: 459 | **Kind**: article | **Relevance**: sleep: supporting
 
 ## Abstract
 

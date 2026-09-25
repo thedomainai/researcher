@@ -8,11 +8,13 @@ openalex_id: W2098554817
 paper_type: article
 evidence_kind: article
 topics: ["reward"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Ventral Striatum Activity in Response to Reward: Differences Between Bipolar I and II Disorders
 
-**Authors**: Xavier Caseras, Natalia  Sophie Lawrence, Kevin Murphy, Richard G. Wise, Mary Louise Phillips | **Year**: 2013 | **Cited by**: 243 | **Kind**: article
+**Authors**: Xavier Caseras, Natalia  Sophie Lawrence, Kevin Murphy, Richard G. Wise, Mary Louise Phillips | **Year**: 2013 | **Cited by**: 243 | **Kind**: article | **Relevance**: reward: core
 
 ## Abstract
 

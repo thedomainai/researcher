@@ -6,13 +6,15 @@ cited_by_count: 1221
 doi: "https://doi.org/10.1111/bdi.12025"
 openalex_id: W1969114959
 paper_type: article
-evidence_kind: article
+evidence_kind: guideline
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders (ISBD) collaborative update of CANMAT guidelines for the management of patients with bipolar disorder: update 2013
 
-**Authors**: Lakshmi N. Yatham, Sidney H. Kennedy, Sagar V. Parikh, Ayal Schaffer, Serge Beaulieu, Martin Alda, Claire O’Donovan, GLENDA M. MacQUEEN, et al. | **Year**: 2012 | **Cited by**: 1221 | **Kind**: article
+**Authors**: Lakshmi N. Yatham, Sidney H. Kennedy, Sagar V. Parikh, Ayal Schaffer, Serge Beaulieu, Martin Alda, Claire O’Donovan, GLENDA M. MacQUEEN, et al. | **Year**: 2012 | **Cited by**: 1221 | **Kind**: guideline | **Relevance**: bipolar: core
 
 ## Abstract
 

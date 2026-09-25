@@ -8,11 +8,13 @@ openalex_id: W2126792980
 paper_type: article
 evidence_kind: article
 topics: ["hedonic"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Relative Income, Happiness, and Utility: An Explanation for the Easterlin Paradox and Other Puzzles
 
-**Authors**: Andrew Eric Clark, Paul Frijters, Michael A. Shields | **Year**: 2008 | **Cited by**: 1297 | **Kind**: article
+**Authors**: Andrew Eric Clark, Paul Frijters, Michael A. Shields | **Year**: 2008 | **Cited by**: 1297 | **Kind**: article | **Relevance**: hedonic: core
 
 ## Abstract
 

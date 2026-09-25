@@ -8,11 +8,13 @@ openalex_id: W2050233777
 paper_type: article
 evidence_kind: article
 topics: ["reward"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Understanding dopamine and reinforcement learning: The dopamine reward prediction error hypothesis
 
-**Authors**: Paul William Glimcher | **Year**: 2011 | **Cited by**: 1022 | **Kind**: article
+**Authors**: Paul William Glimcher | **Year**: 2011 | **Cited by**: 1022 | **Kind**: article | **Relevance**: reward: core
 
 ## Abstract
 

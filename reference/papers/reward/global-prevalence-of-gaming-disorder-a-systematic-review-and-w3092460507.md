@@ -8,11 +8,13 @@ openalex_id: W3092460507
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["reward"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Global prevalence of gaming disorder: A systematic review and meta-analysis
 
-**Authors**: Matthew Stevens, Diana Dorstyn, Paul Delfabbro, Daniel Luke King | **Year**: 2020 | **Cited by**: 846 | **Kind**: meta_analysis
+**Authors**: Matthew Stevens, Diana Dorstyn, Paul Delfabbro, Daniel Luke King | **Year**: 2020 | **Cited by**: 846 | **Kind**: meta_analysis | **Relevance**: reward: core
 
 ## Abstract
 

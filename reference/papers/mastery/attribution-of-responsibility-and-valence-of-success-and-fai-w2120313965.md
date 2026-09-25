@@ -8,11 +8,13 @@ openalex_id: W2120313965
 paper_type: article
 evidence_kind: article
 topics: ["mastery"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Attribution of responsibility and valence of success and failure in relation to initial confidence and task performance.
 
-**Authors**: N. T. Feather | **Year**: 1969 | **Cited by**: 505 | **Kind**: article
+**Authors**: N. T. Feather | **Year**: 1969 | **Cited by**: 505 | **Kind**: article | **Relevance**: mastery: supporting
 
 ## Abstract
 

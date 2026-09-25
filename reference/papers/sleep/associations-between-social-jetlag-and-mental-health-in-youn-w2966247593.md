@@ -8,11 +8,13 @@ openalex_id: W2966247593
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Associations between social jetlag and mental health in young people: A systematic review
 
-**Authors**: Sarah Henderson, Emer M. Brady, Noelle Robertson | **Year**: 2019 | **Cited by**: 155 | **Kind**: meta_analysis
+**Authors**: Sarah Henderson, Emer M. Brady, Noelle Robertson | **Year**: 2019 | **Cited by**: 155 | **Kind**: meta_analysis | **Relevance**: sleep: core
 
 ## Abstract
 

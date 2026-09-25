@@ -8,11 +8,13 @@ openalex_id: W2030345783
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Quetiapine for acute bipolar depression: a systematic review and meta-analysis
 
-**Authors**: Sirijit Suttajit, Manit Srisurapanont, Narong Maneeton, Benchalak Maneeton | **Year**: 2014 | **Cited by**: 254 | **Kind**: meta_analysis
+**Authors**: Sirijit Suttajit, Manit Srisurapanont, Narong Maneeton, Benchalak Maneeton | **Year**: 2014 | **Cited by**: 254 | **Kind**: meta_analysis | **Relevance**: bipolar: core
 
 ## Abstract
 

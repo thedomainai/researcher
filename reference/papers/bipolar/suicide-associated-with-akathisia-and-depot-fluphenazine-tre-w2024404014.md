@@ -7,12 +7,14 @@ doi: "https://doi.org/10.1097/00004714-198308000-00006"
 openalex_id: W2024404014
 paper_type: article
 evidence_kind: article
-topics: ["bipolar"]
+topics: ["bipolar", "suicide"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Suicide Associated with Akathisia and Depot Fluphenazine Treatment
 
-**Authors**: M. Katherine Shear, ALLEN J. FRANCES, PETER WEIDDN | **Year**: 1983 | **Cited by**: 114 | **Kind**: article
+**Authors**: M. Katherine Shear, ALLEN J. FRANCES, PETER WEIDDN | **Year**: 1983 | **Cited by**: 114 | **Kind**: article | **Relevance**: bipolar: core; suicide: core
 
 ## Abstract
 

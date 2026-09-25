@@ -8,11 +8,13 @@ openalex_id: W2062575785
 paper_type: article
 evidence_kind: article
 topics: ["avoidance"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Ironic processes of mental control.
 
-**Authors**: Daniel M. Wegner | **Year**: 1994 | **Cited by**: 2543 | **Kind**: article
+**Authors**: Daniel M. Wegner | **Year**: 1994 | **Cited by**: 2543 | **Kind**: article | **Relevance**: avoidance: core
 
 ## Abstract
 

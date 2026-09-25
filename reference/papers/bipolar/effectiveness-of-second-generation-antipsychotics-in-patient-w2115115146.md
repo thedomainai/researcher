@@ -1,0 +1,21 @@
+---
+title: "Effectiveness of Second-Generation Antipsychotics in Patients With Treatment-Resistant Schizophrenia: A Review and Meta-Analysis of Randomized Trials"
+authors: ["Miranda Chakos", "Jeffrey A. Lieberman", "Elaine B. Hoffman", "Daniel W. Bradford", "Brian Sheitman"]
+year: 2001
+cited_by_count: 638
+doi: "https://doi.org/10.1176/appi.ajp.158.4.518"
+openalex_id: W2115115146
+paper_type: review
+evidence_kind: meta_analysis
+topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# Effectiveness of Second-Generation Antipsychotics in Patients With Treatment-Resistant Schizophrenia: A Review and Meta-Analysis of Randomized Trials
+
+**Authors**: Miranda Chakos, Jeffrey A. Lieberman, Elaine B. Hoffman, Daniel W. Bradford, Brian Sheitman | **Year**: 2001 | **Cited by**: 638 | **Kind**: meta_analysis | **Relevance**: bipolar: core
+
+## Abstract
+
+OBJECTIVE: The authors conducted a review and meta-analysis of studies that compared the efficacy and tolerability of typical and second-generation antipsychotics for patients with treatment-resistant schizophrenia. METHOD: A systematic search revealed 12 controlled studies (involving 1,916 independent patients), which were included in the review. For the seven studies that compared clozapine to a typical antipsychotic, a meta-analysis was performed to examine clozapine's effects on overall psychopathology, response rate, extrapyramidal symptoms, and tardive dyskinesia. RESULTS: The meta-analysis confirmed that treatment-resistant schizophrenic patients have more favorable outcomes when treated with clozapine rather than a typical antipsychotic, as reflected by Brief Psychiatric Rating Scale total score, categorical response rate, Scale for the Assessment of Negative Symptoms score, Simpson-Angus Rating Scale score, and compliance rate. Clozapine also conferred benefits on the sickest treatment-resistant schizophrenic patients. Patients treated with olanzapine also had more favorable outcomes with regard to categorical response and compliance rates. CONCLUSIONS: In the aggregate, the results of a meta-analysis indicated that clozapine exhibits superiority over typical antipsychotics in terms of both efficacy (as measured by improvement in overall psychopathology) and safety (in terms of reduced extrapyramidal side effects). However, the magnitude of the clozapine treatment effect was not consistently robust. Efficacy data for other second-generation antipsychotics in the treatment of patients with refractory schizophrenia were inconclusive. There is, therefore, a growing need to consider new and different treatment strategies, whether they be adjunctive or monotherapeutic, for schizophrenia that continues to be resistant or only partially responsive to treatment.

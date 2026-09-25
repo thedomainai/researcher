@@ -8,11 +8,13 @@ openalex_id: W2166423384
 paper_type: article
 evidence_kind: article
 topics: ["bipolar"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Effectiveness of Adjunctive Antidepressant Treatment for Bipolar Depression
 
-**Authors**: Gary S. Sachs, Andrew Alan Nierenberg, Joseph R. Calabrese, Lauren B. Marangell, Stephen R. Wisniewski, L. Gyulai, Edward S. Friedman, Charles L. Bowden, et al. | **Year**: 2007 | **Cited by**: 938 | **Kind**: article
+**Authors**: Gary S. Sachs, Andrew Alan Nierenberg, Joseph R. Calabrese, Lauren B. Marangell, Stephen R. Wisniewski, L. Gyulai, Edward S. Friedman, Charles L. Bowden, et al. | **Year**: 2007 | **Cited by**: 938 | **Kind**: article | **Relevance**: bipolar: core
 
 ## Abstract
 

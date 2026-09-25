@@ -8,11 +8,13 @@ openalex_id: W2159662907
 paper_type: article
 evidence_kind: article
 topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Neurocognitive Consequences of Sleep Deprivation
 
-**Authors**: Namni Goel, Hengyi Rao, Jeffrey Durmer, David F. Dinges | **Year**: 2009 | **Cited by**: 2161 | **Kind**: article
+**Authors**: Namni Goel, Hengyi Rao, Jeffrey Durmer, David F. Dinges | **Year**: 2009 | **Cited by**: 2161 | **Kind**: article | **Relevance**: sleep: core
 
 ## Abstract
 

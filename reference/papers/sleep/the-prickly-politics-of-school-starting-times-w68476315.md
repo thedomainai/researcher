@@ -1,0 +1,21 @@
+---
+title: "The Prickly Politics of School Starting Times"
+authors: ["Kyla L. Wahlstrom"]
+year: 1999
+cited_by_count: 33
+doi: null
+openalex_id: W68476315
+paper_type: article
+evidence_kind: article
+topics: ["sleep"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# The Prickly Politics of School Starting Times
+
+**Authors**: Kyla L. Wahlstrom | **Year**: 1999 | **Cited by**: 33 | **Kind**: article | **Relevance**: sleep: supporting
+
+## Abstract
+
+There are many questions yet to be answered about the consequences of a change in school starting time. But one thing is certain: as the transition is being planned and implemented, all the stakeholders who will be affected need to be consulted and kept informed. SOME SCHOOL districts have responded to recent research findings on adolescent sleep patterns and needs by significantly changing high school starting times. Other districts are considering such a move. But tinkering with the school-day schedule is not without its risks. Aware of those risks, in the fall of 1996 several superintendents of suburban Minnesota school districts asked the Center for Applied Research and Educational Improvement (CAREI) at the University of Minnesota to assess the attitudes of stakeholders toward such a venture. Seventeen school districts agreed to participate in the study, which soon focused not only on high schools but also on elementary and middle/junior high schools, since the schedules of all buildings in a district are inextricably linked.1 Of the 17 districts, only one of them - Edina - had already made the decision to start the high school day 70 minutes later in 1996-97 than in the previous school year. At the start of the study, then, only the stakeholders in Edina were actually experiencing the change. A year later, the Minneapolis School District pushed back the starting time of its seven comprehensive high schools by an hour and 25 minutes, from 7:15 to 8:40 a.m., enabling CAREI to study the actual impact of a later starting time in that district as well.2 CAREI researchers discovered that changing a school's starting time provokes the same kind of emotional reaction from stakeholders as closing a school or changing a school's attendance area. A school's starting time sets the rhythm of the day for teachers, parents, students, and members of the community at large. impact of changing that starting time is felt individually, and the individuals who are affected need to have their views heard and legitimized so that the discussion can move forward in search of common ground. Another striking finding from the first year of the CAREI study had to do with the role that assumptions play in discussions of changing school starting times. Informal conversations on the topic seemed invariably to include a comment such as The transportation department rules the district, and this change cannot take place because of bus problems or The coaches will never go along with this idea - there's no use in even approaching them. To assess the accuracy of these and similar assumptions, we conducted individual interviews during the first year of the study with each participating district's transportation director, with 51 coaches and co-curricular faculty advisors, with all 17 district directors of community education, with several food service directors, with several district personnel directors, with all elementary and secondary curriculum directors, and with local employers who provide after-school jobs for students. Surprisingly, none of the interviewees suggested that a change in school starting time - especially at the high school level - would be out of the question. Indeed, though coaches and transportation directors did voice some concerns, most respondents in all categories were willing to discuss at length ways of implementing such a change, since it would be beneficial for students and their learning. To allow untested assumptions to forestall debate on the issue is to close the door prematurely (and possibly wrongly) to later starting times for high school students. CAREI study showed, too, that advocates for later school starting times tended to use in their lobbying efforts both hard data (e.g., the findings of sleep research on adolescents) and testimonials (e.g., positive outcomes from districts that had already made such a change). …

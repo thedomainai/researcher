@@ -1,0 +1,21 @@
+---
+title: "Not all hours are equal: could time be a social determinant of health?"
+authors: ["Lyndall M. Strazdins", "Jennifer Welsh", "Rosemary Korda", "Dorothy Broom", "Francesco Paolucci"]
+year: 2015
+cited_by_count: 165
+doi: "https://doi.org/10.1111/1467-9566.12300"
+openalex_id: W1916324119
+paper_type: article
+evidence_kind: article
+topics: ["scarcity"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# Not all hours are equal: could time be a social determinant of health?
+
+**Authors**: Lyndall M. Strazdins, Jennifer Welsh, Rosemary Korda, Dorothy Broom, Francesco Paolucci | **Year**: 2015 | **Cited by**: 165 | **Kind**: article | **Relevance**: scarcity: supporting
+
+## Abstract
+
+Time can be thought of as a resource that people need for good health. Healthy behaviour, accessing health services, working, resting and caring all require time. Like other resources, time is socially shaped, but its relevance to health and health inequality is yet to be established. Drawing from sociology and political economy, we set out the theoretical basis for two measures of time relevant to contemporary, market-based societies. We measure amount of time spent on care and work (paid and unpaid) and the intensity of time, which refers to rushing, effort and speed. Using data from wave 9 (N = 9177) of the Household, Income and Labour Dynamics of Australia Survey we found that time poverty (> 80 h per week on care and work) and often or always rushing are barriers to physical activity and rushing is associated with poorer self-rated and mental health. Exploring their social patterning, we find that time-poor people have higher incomes and more time control. In contrast, rushing is linked to being a woman, lone parenthood, disability, lack of control and work-family conflicts. We supply a methodology to support quantitative investigations of time, and our findings underline time's dimensionality, social distribution and potential to influence health.

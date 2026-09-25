@@ -8,11 +8,13 @@ openalex_id: W1984344128
 paper_type: article
 evidence_kind: article
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Prevalence and Correlates of Bipolar Spectrum Disorder in the World Mental Health Survey Initiative
 
-**Authors**: Kathleen Ries Merikangas, Robert Jin, Jianping He, Ronald C. Kessler, Sing Lee, Nancy A. Sampson, María Carmen Viana, Laura Helena Andrade, et al. | **Year**: 2011 | **Cited by**: 2670 | **Kind**: article
+**Authors**: Kathleen Ries Merikangas, Robert Jin, Jianping He, Ronald C. Kessler, Sing Lee, Nancy A. Sampson, María Carmen Viana, Laura Helena Andrade, et al. | **Year**: 2011 | **Cited by**: 2670 | **Kind**: article | **Relevance**: bipolar: core
 
 ## Abstract
 

@@ -8,11 +8,13 @@ openalex_id: W1995523052
 paper_type: article
 evidence_kind: article
 topics: ["hedonic"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Immune neglect: A source of durability bias in affective forecasting.
 
-**Authors**: Daniel T. Gilbert, Elizabeth C. Pinel, Timothy D. Wilson, Stephen J. Blumberg, Thalia P. Wheatley | **Year**: 1998 | **Cited by**: 1123 | **Kind**: article
+**Authors**: Daniel T. Gilbert, Elizabeth C. Pinel, Timothy D. Wilson, Stephen J. Blumberg, Thalia P. Wheatley | **Year**: 1998 | **Cited by**: 1123 | **Kind**: article | **Relevance**: hedonic: core
 
 ## Abstract
 

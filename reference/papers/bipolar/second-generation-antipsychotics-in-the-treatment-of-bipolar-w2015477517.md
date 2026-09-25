@@ -8,11 +8,13 @@ openalex_id: W2015477517
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Second generation antipsychotics in the treatment of bipolar depression: a systematic review and meta-analysis
 
-**Authors**: Jürgen De Fruyt, Ellen Deschepper, Kurt Audenaert, E. Constant, Michel Floris, William Pitchot, Pascal A. Sienaert, Daniel Souery, et al. | **Year**: 2011 | **Cited by**: 95 | **Kind**: meta_analysis
+**Authors**: Jürgen De Fruyt, Ellen Deschepper, Kurt Audenaert, E. Constant, Michel Floris, William Pitchot, Pascal A. Sienaert, Daniel Souery, et al. | **Year**: 2011 | **Cited by**: 95 | **Kind**: meta_analysis | **Relevance**: bipolar: core
 
 ## Abstract
 

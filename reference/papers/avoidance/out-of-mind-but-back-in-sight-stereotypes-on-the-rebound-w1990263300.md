@@ -8,11 +8,13 @@ openalex_id: W1990263300
 paper_type: article
 evidence_kind: article
 topics: ["avoidance"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Out of mind but back in sight: Stereotypes on the rebound.
 
-**Authors**: C. Neil Macrae, Galen V. Bodenhausen, Alan B. Milne, Jolanda Jetten | **Year**: 1994 | **Cited by**: 805 | **Kind**: article
+**Authors**: C. Neil Macrae, Galen V. Bodenhausen, Alan B. Milne, Jolanda Jetten | **Year**: 1994 | **Cited by**: 805 | **Kind**: article | **Relevance**: avoidance: supporting
 
 ## Abstract
 

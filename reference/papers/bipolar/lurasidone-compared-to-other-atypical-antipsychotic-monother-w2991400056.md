@@ -8,11 +8,13 @@ openalex_id: W2991400056
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Lurasidone compared to other atypical antipsychotic monotherapies for adolescent schizophrenia: a systematic literature review and network meta-analysis
 
-**Authors**: Celso Arango, Daisy Ng‐Mak, Elaine Finn, Aidan J. Byrne, Antony D Loebel | **Year**: 2019 | **Cited by**: 199 | **Kind**: meta_analysis
+**Authors**: Celso Arango, Daisy Ng‐Mak, Elaine Finn, Aidan J. Byrne, Antony D Loebel | **Year**: 2019 | **Cited by**: 199 | **Kind**: meta_analysis | **Relevance**: bipolar: core
 
 ## Abstract
 

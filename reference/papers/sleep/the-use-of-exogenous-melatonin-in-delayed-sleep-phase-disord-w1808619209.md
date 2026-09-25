@@ -8,11 +8,13 @@ openalex_id: W1808619209
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["sleep"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # The Use of Exogenous Melatonin in Delayed Sleep Phase Disorder: A Meta-analysis
 
-**Authors**: Ingeborg M. van Geijlswijk, Hubert P. L. M. Korzilius, Marcel G. Smits | **Year**: 2010 | **Cited by**: 268 | **Kind**: meta_analysis
+**Authors**: Ingeborg M. van Geijlswijk, Hubert P. L. M. Korzilius, Marcel G. Smits | **Year**: 2010 | **Cited by**: 268 | **Kind**: meta_analysis | **Relevance**: sleep: core
 
 ## Abstract
 

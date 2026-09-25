@@ -8,11 +8,13 @@ openalex_id: W1998274826
 paper_type: review
 evidence_kind: review
 topics: ["reward"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Updating dopamine reward signals
 
-**Authors**: Wolfram Schultz | **Year**: 2012 | **Cited by**: 681 | **Kind**: review
+**Authors**: Wolfram Schultz | **Year**: 2012 | **Cited by**: 681 | **Kind**: review | **Relevance**: reward: core
 
 ## Abstract
 

@@ -8,11 +8,13 @@ openalex_id: W2171680637
 paper_type: review
 evidence_kind: review
 topics: ["mastery"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # EXPERT AND EXCEPTIONAL PERFORMANCE: Evidence of Maximal Adaptation to Task Constraints
 
-**Authors**: K. Anders Ericsson, Andreas C. Lehmann | **Year**: 1996 | **Cited by**: 2152 | **Kind**: review
+**Authors**: K. Anders Ericsson, Andreas C. Lehmann | **Year**: 1996 | **Cited by**: 2152 | **Kind**: review | **Relevance**: mastery: core
 
 ## Abstract
 

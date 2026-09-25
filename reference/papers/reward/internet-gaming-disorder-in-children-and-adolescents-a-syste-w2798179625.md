@@ -8,11 +8,13 @@ openalex_id: W2798179625
 paper_type: review
 evidence_kind: systematic_review
 topics: ["reward"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Internet gaming disorder in children and adolescents: a systematic review
 
-**Authors**: Frank W. Paulus, Susanne Ohmann, Alexander von Gontard, Christian Popow | **Year**: 2018 | **Cited by**: 648 | **Kind**: systematic_review
+**Authors**: Frank W. Paulus, Susanne Ohmann, Alexander von Gontard, Christian Popow | **Year**: 2018 | **Cited by**: 648 | **Kind**: systematic_review | **Relevance**: reward: core
 
 ## Abstract
 

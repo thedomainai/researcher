@@ -8,11 +8,13 @@ openalex_id: W3159055697
 paper_type: article
 evidence_kind: meta_analysis
 topics: ["suicide"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Safety planning-type interventions for suicide prevention: meta-analysis
 
-**Authors**: Chani Nuij, Wouter van Ballegooijen, Derek Paul De Beurs, Dilfa Juniar, Annette Erlangsen, Gwendolyn Portzky, Rory C. O’Connor, Johannes H. Smit, et al. | **Year**: 2021 | **Cited by**: 263 | **Kind**: meta_analysis
+**Authors**: Chani Nuij, Wouter van Ballegooijen, Derek Paul De Beurs, Dilfa Juniar, Annette Erlangsen, Gwendolyn Portzky, Rory C. O’Connor, Johannes H. Smit, et al. | **Year**: 2021 | **Cited by**: 263 | **Kind**: meta_analysis | **Relevance**: suicide: core
 
 ## Abstract
 

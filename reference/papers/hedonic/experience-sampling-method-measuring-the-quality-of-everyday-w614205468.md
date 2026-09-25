@@ -1,0 +1,21 @@
+---
+title: "Experience Sampling Method: Measuring the Quality of Everyday Life"
+authors: ["Joel M. Hektner", "Jennifer A Schmidt", "Mihály Csíkszentmihályi"]
+year: 2006
+cited_by_count: 1256
+doi: null
+openalex_id: W614205468
+paper_type: article
+evidence_kind: article
+topics: ["hedonic"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# Experience Sampling Method: Measuring the Quality of Everyday Life
+
+**Authors**: Joel M. Hektner, Jennifer A Schmidt, Mihály Csíkszentmihályi | **Year**: 2006 | **Cited by**: 1256 | **Kind**: article | **Relevance**: hedonic: supporting
+
+## Abstract
+
+List of Tables and Figures Acknowledgments Part I: The Origins of ESM Chapter 1: Epistemological Foundations for the Measurement of Experience A Systematic Phenomenology The Experience Sampling Method A Brief History How Trustworthy Are Subjective Self-Reports? What Can We Learn From ESM? Chapter 2: Theoretical Foundations of ESM Biology, Culture, and Daily Behavior Subjective Experience in Context: The Interplay of Psychological Processes and Cognitive Functions Interaction of Individuals and Environments Experience Fluctuations, Well-Being, and Development A Theoretical Compass for Exploring Experience Part II: How to Measure the Quality of Everyday Life Chapter 3: Collecting the Data Designing a Study Using ESM Equipment and Signaling Schedules Designing the Form Other Design Decisions Implementing the Study Documentation Chapter 4: Dealing With the Data: Coding, Entry, Cleaning, and Data Management Developing a Codebook Coding the External Coordinates of Experience Conding the Internal Coordinates of Experience What to Do With the Codes Once They Are Developed: Physically Coding and Entering the Data Setup, Cleaning, and Manipulation of Data Files Response-Level Data and Person-Level Data Postentry Data Manipulation Data File Management and Documentation Chapter 5: Types of Analyses Qualitative Approaches Graphic and Numeric Descriptive Information Planning for Statistical Analyses OLS Statistical Techniques Multilevel and Other Complex Statistical Techniques Chapter 6: Psychometrics of ESM Data Validity of Method Validity of ESM Measurements Reliability of ESM Measurements Part III: Uses of ESM in Social Science Research Chapter 7: Samples of Experience The Who, What, Where, When, and How of Daily Experiences Quality of Experience in Selected Activities Quality of Experience of Selected Groups of People Emotions, Well-Being, and Flow Chapter 8: The Experience of Males and Females Differences in Activities Differences in Companionship Similiarities and Differences in Emotional Experience Other Gender Differences in Adolescence Chapter 9: The Experience of Family Life Methodological Concerns and Variations The Couple Relationship The Arrival of the First Child Juggling Work and Family Roles The Adolescent's Experience of Family Transmission of Emotions Between Family Members Comparisons Between Families: Optimal Conditions for Adolescent Development Chapter 10: The Experience of Work Methodological Concerns and Variations Time and Work The Quality of Experience at Work: General Trends The Quality of Experience Across Workers The Quality of Experience Across Work Activities The Intersection of Work and Family The Experience of Unemployment Adolescent Work Chapter 11: Examining Cross-Cultural Differences Methodological Concerns and Variations Culture and Time Use Cross-Cultural Variation in General Affective Experience Culture and Subjective Experience in Various Activities Cross-Cultural Examination of Flow Studies of American Subcultures Chapter 12: Educational Applications Methodological Concerns and Variations Time Use and Structure of Classrooms The Quality of Students' Classroom Experiences Comparing Students' Classroom Experiences After-School Programs Studies of Adult Learners The Experience of Teachers Chapter 13: Clinical Applications Methodological Concerns and Variations Use of ESM for Describing and Contextualizing Experiences of Disorder Use of ESM in Therapy and in Treatment Evaluation Concluding Thoughts Ten Major Issues ESM Illuminates Appendix A: Sample ESM Data Collection Forms (ESFs) Appendix B: ESM Coding Scheme Used in the Sloan Study of Youth and Social Development References Index About the Authors

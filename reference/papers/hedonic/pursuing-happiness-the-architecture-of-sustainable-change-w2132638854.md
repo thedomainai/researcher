@@ -8,11 +8,13 @@ openalex_id: W2132638854
 paper_type: article
 evidence_kind: article
 topics: ["hedonic"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Pursuing Happiness: The Architecture of Sustainable Change
 
-**Authors**: Sonja Lyubomirsky, Kennon M. Sheldon, David A Schkade | **Year**: 2005 | **Cited by**: 3231 | **Kind**: article
+**Authors**: Sonja Lyubomirsky, Kennon M. Sheldon, David A Schkade | **Year**: 2005 | **Cited by**: 3231 | **Kind**: article | **Relevance**: hedonic: core
 
 ## Abstract
 

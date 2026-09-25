@@ -8,11 +8,13 @@ openalex_id: W2203803791
 paper_type: review
 evidence_kind: review
 topics: ["scarcity"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Well-Being Dynamics and Poverty Traps
 
-**Authors**: Christopher B. Barrett, Teevrat Garg, Linden McBride | **Year**: 2016 | **Cited by**: 167 | **Kind**: review
+**Authors**: Christopher B. Barrett, Teevrat Garg, Linden McBride | **Year**: 2016 | **Cited by**: 167 | **Kind**: review | **Relevance**: scarcity: supporting
 
 ## Abstract
 

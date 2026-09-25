@@ -8,11 +8,13 @@ openalex_id: W2067271431
 paper_type: article
 evidence_kind: article
 topics: ["avoidance"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Experiential avoidance as a functional dimensional approach to psychopathology: An empirical review
 
-**Authors**: Neharika Chawla, Brian D. Ostafin | **Year**: 2007 | **Cited by**: 812 | **Kind**: article
+**Authors**: Neharika Chawla, Brian D. Ostafin | **Year**: 2007 | **Cited by**: 812 | **Kind**: article | **Relevance**: avoidance: core
 
 ## Abstract
 

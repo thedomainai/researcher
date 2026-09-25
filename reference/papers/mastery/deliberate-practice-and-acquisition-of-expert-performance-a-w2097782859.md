@@ -8,11 +8,13 @@ openalex_id: W2097782859
 paper_type: article
 evidence_kind: article
 topics: ["mastery"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Deliberate Practice and Acquisition of Expert Performance: A General Overview
 
-**Authors**: K. Anders Ericsson | **Year**: 2008 | **Cited by**: 1819 | **Kind**: article
+**Authors**: K. Anders Ericsson | **Year**: 2008 | **Cited by**: 1819 | **Kind**: article | **Relevance**: mastery: core
 
 ## Abstract
 

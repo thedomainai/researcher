@@ -8,11 +8,13 @@ openalex_id: W1747641688
 paper_type: article
 evidence_kind: article
 topics: ["bipolar"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Relapse and impairment in bipolar disorder
 
-**Authors**: Michael J Gitlin, Joel David Swendsen, Tamar Heller, Constance L. Hammen | **Year**: 1995 | **Cited by**: 765 | **Kind**: article
+**Authors**: Michael J Gitlin, Joel David Swendsen, Tamar Heller, Constance L. Hammen | **Year**: 1995 | **Cited by**: 765 | **Kind**: article | **Relevance**: bipolar: core
 
 ## Abstract
 

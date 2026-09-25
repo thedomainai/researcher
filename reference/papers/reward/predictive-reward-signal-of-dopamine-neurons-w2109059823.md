@@ -8,11 +8,13 @@ openalex_id: W2109059823
 paper_type: article
 evidence_kind: article
 topics: ["reward"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Predictive Reward Signal of Dopamine Neurons
 
-**Authors**: Wolfram Schultz | **Year**: 1998 | **Cited by**: 4659 | **Kind**: article
+**Authors**: Wolfram Schultz | **Year**: 1998 | **Cited by**: 4659 | **Kind**: article | **Relevance**: reward: core
 
 ## Abstract
 

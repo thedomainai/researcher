@@ -8,11 +8,13 @@ openalex_id: W2079823547
 paper_type: article
 evidence_kind: article
 topics: ["cognition"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Rumination and overgeneral memory in depression: Effects of self-focus and analytic thinking.
 
-**Authors**: Edward R. Watkins, John D. Teasdale | **Year**: 2001 | **Cited by**: 540 | **Kind**: article
+**Authors**: Edward R. Watkins, John D. Teasdale | **Year**: 2001 | **Cited by**: 540 | **Kind**: article | **Relevance**: cognition: core
 
 ## Abstract
 

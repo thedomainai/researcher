@@ -8,11 +8,13 @@ openalex_id: W2105975366
 paper_type: review
 evidence_kind: systematic_review
 topics: ["reward"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # Internet Addiction: A Systematic Review of Epidemiological Research for the Last Decade
 
-**Authors**: DJ Kuss, Mark Damian Griffiths, Laurent Karila, Joël Billieux | **Year**: 2014 | **Cited by**: 1383 | **Kind**: systematic_review
+**Authors**: DJ Kuss, Mark Damian Griffiths, Laurent Karila, Joël Billieux | **Year**: 2014 | **Cited by**: 1383 | **Kind**: systematic_review | **Relevance**: reward: core
 
 ## Abstract
 

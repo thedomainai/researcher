@@ -6,13 +6,15 @@ cited_by_count: 926
 doi: "https://doi.org/10.1111/add.12457"
 openalex_id: W2117085868
 paper_type: article
-evidence_kind: article
+evidence_kind: guideline
 topics: ["reward"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # An international consensus for assessing internet gaming disorder using the new DSM ‐5 approach
 
-**Authors**: Nancy M. Petry, Florian Rehbein, Douglas A. Gentile, Jeroen S. Lemmens, Hans‐Jürgen Rumpf, Thomas Mößle, Gallus Bischof, Ran Tao, et al. | **Year**: 2014 | **Cited by**: 926 | **Kind**: article
+**Authors**: Nancy M. Petry, Florian Rehbein, Douglas A. Gentile, Jeroen S. Lemmens, Hans‐Jürgen Rumpf, Thomas Mößle, Gallus Bischof, Ran Tao, et al. | **Year**: 2014 | **Cited by**: 926 | **Kind**: guideline | **Relevance**: reward: core
 
 ## Abstract
 

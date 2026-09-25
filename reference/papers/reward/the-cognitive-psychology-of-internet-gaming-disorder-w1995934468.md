@@ -8,11 +8,13 @@ openalex_id: W1995934468
 paper_type: article
 evidence_kind: systematic_review
 topics: ["reward"]
+landmark: false
+abstract_source: "openalex"
 ---
 
 # The cognitive psychology of Internet gaming disorder
 
-**Authors**: Daniel Luke King, Paul Delfabbro | **Year**: 2014 | **Cited by**: 388 | **Kind**: systematic_review
+**Authors**: Daniel Luke King, Paul Delfabbro | **Year**: 2014 | **Cited by**: 388 | **Kind**: systematic_review | **Relevance**: reward: core
 
 ## Abstract
 

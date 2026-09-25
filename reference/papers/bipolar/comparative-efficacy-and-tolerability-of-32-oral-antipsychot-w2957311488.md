@@ -8,11 +8,13 @@ openalex_id: W2957311488
 paper_type: review
 evidence_kind: meta_analysis
 topics: ["bipolar"]
+landmark: true
+abstract_source: "openalex"
 ---
 
 # Comparative efficacy and tolerability of 32 oral antipsychotics for the acute treatment of adults with multi-episode schizophrenia: a systematic review and network meta-analysis
 
-**Authors**: Maximilian Huhn, Adriani Nikolakopoulou, Johannes Schneider‐Thoma, Marc Krause, Myrto T. Samara, Natalie Luise Peter, Thomas J. Arndt, Lio Bäckers, et al. | **Year**: 2019 | **Cited by**: 1796 | **Kind**: meta_analysis
+**Authors**: Maximilian Huhn, Adriani Nikolakopoulou, Johannes Schneider‐Thoma, Marc Krause, Myrto T. Samara, Natalie Luise Peter, Thomas J. Arndt, Lio Bäckers, et al. | **Year**: 2019 | **Cited by**: 1796 | **Kind**: meta_analysis | **Relevance**: bipolar: core
 
 ## Abstract
 
