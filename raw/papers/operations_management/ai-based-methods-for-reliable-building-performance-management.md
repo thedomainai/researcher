@@ -1,0 +1,22 @@
+---
+title: "AI-Based Methods for Reliable Building Performance Management"
+authors: "Amirhosein Moshari"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "operations_management"
+fetched: "2026-09-26T06:05:06.147442"
+doi: ""
+openalex_id: "https://openalex.org/W7213677210"
+source_api: "openalex"
+---
+
+# AI-Based Methods for Reliable Building Performance Management
+
+**著者**: Amirhosein Moshari
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: オペレーション管理
+
+## Abstract
+
+Reliable building performance management involves reducing energy use and peak demand while maintaining indoor comfort and operational safety. Achieving these objectives requires effective strategies across the building life cycle, from early-stage design to operation. However, the availability, quality, and structure of building data vary considerably between life cycle stages. Buildings in operation with available control infrastructure generate continuous sensor data that can support real-time control. When new or more efficient control strategies are required, historical operational data can be used to develop and evaluate these strategies before deployment. At the design or renovation stage, buildings may instead provide design information and digital documentation that can support performance modeling in the absence of operational data. These changing data conditions create the need for reliable and complementary methods that can support building performance strategies. Accordingly, this thesis develops three complementary artificial intelligence (AI) approaches, each matched to the data available at one stage of the building life cycle. The proposed methods enable real-time control in occupied buildings, safe evaluation of control strategies before deployment, and automated simulation-ready material data in early-stage design.First, a model-free reinforcement learning (RL) controller was deployed as a supervisory heating-control layer in thirteen occupied buildings in Austria and evaluated over 138 days of real-world operation. This method was chosen because occupied buildings generate continuous operational data that the controller can learn from directly. Second, a k-nearest-neighbors (KNN) surrogate model was trained using four years of measurements from Swedish residential buildings. The surrogate model served as a data-driven environment to safely evaluate alternative control actions before physical deployment, since testing unproven strategies directly on occupied buildings is unsafe. Third, a multi-agent semantic workflow combining large language models (LLMs) and Sentence-BERT was developed to interpret heterogeneous material descriptions contained in Building Information Modeling (BIM) data represented using the Industry Foundation Classes (IFC) standard. The workflow links these descriptions to validated thermal, mass, and energy-related properties, thereby enabling reliable simulation of building energy and hygrothermal performance.In the Austrian field deployment, the RL controller reduced heating energy consumption by 29.7% relative to a multi-year baseline and by 7.9% relative to the previous year. The controller maintained acceptable indoor temperatures and reduced the mean district heating return temperature by 3.85 °C. The KNN surrogate model achieved a root-mean-square error (RMSE) of 9.12 kW and a coefficient of determination (R²) of 0.9184. Offline evaluation using the surrogate model predicted energy savings of 4–7%, mitigated more than 40% of the identified demand peaks, and maintained indoor temperatures within the comfort range during 98.4% of the evaluated intervals. The semantic workflow processed 789 building-envelope components and generated 345 candidate material matches, of which 172 were validated. The complete workflow required approximately 13.4 minutes to execute and incurred a processing cost of less than USD 5.The findings demonstrate that, at any stage of the building life cycle, an appropriate AI method can be matched to the available data to support relevant building performance objectives. Real-time RL reduced heating energy use in occupied buildings, surrogate modeling enabled safe evaluation of control strategies before deployment, and semantic knowledge extraction recovered validated material properties where operational data were unavailable. Together, these approaches support energy-efficient, low-carbon, and reliable building performance from design to operation.

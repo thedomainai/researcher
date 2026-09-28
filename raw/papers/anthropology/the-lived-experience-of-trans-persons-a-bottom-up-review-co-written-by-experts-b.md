@@ -1,0 +1,22 @@
+---
+title: "The lived experience of trans persons: a bottom-up review co-written by experts by experience and academics."
+authors: "Paolo Fusar‐Poli, Andrés Estradé, René Rosfort, Annemijn van der Schaar, Jordan Searle-Barnes"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "anthropology"
+fetched: "2026-09-27T06:02:03.085687"
+doi: "https://doi.org/10.1002/wps.70080"
+openalex_id: "https://openalex.org/W7126146197"
+source_api: "openalex"
+---
+
+# The lived experience of trans persons: a bottom-up review co-written by experts by experience and academics.
+
+**著者**: Paolo Fusar‐Poli, Andrés Estradé, René Rosfort, Annemijn van der Schaar, Jordan Searle-Barnes
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: 人類学
+
+## Abstract
+
+We present here the first bottom-up review of the lived experience of trans persons, co-written by experts by experience and academics. We sourced the medical and non-medical literature, focusing on first-person narratives, and critically extracted experiential themes, which were reviewed and appraised in collaborative workshops and eventually shared through a cloud-based system. Numerous experts by experience and academics from diverse gender, ethnic and cultural backgrounds were involved in the above steps and co-wrote the paper. The four overarching themes were: a) the lived experience of trans persons, b) the lived experience of gender affirmation, c) the experience of trans persons in the social and cultural context, and d) the lived experience of receiving care and support. The lived experience of trans persons is characterized by a rich diversity of gender identity experiences, which include identifying as male or female, or simultaneously as male and female and other genders, or as gender fluid. The first-person narratives indicate that common experiences may be of discovering an uncertain gender identity and feeling in the wrong body, together with some degree of mind-body disconnection. However, many trans individuals may feel satisfied with their bodies and identities. The lived experience of gender affirmation includes a process of searching for a bodily and mental redefinition of the self and - at times - fighting oneself to accept one's gender identity. Gender affirmation involves changes in the body to communicate the lived gender identity, as well as behavioral changes. The first-person narrative also highlights the emotional impact of gender affirmation, including the restoration of a sense of self, experiencing a strong emotional reaction to gender-affirming care, and, in a few cases, deciding to stop or reverse gender affirmation. The experience of trans persons in the social and cultural context can be characterized by an initial attempt to hide one's gender identity. This may be followed by coming out to others and wanting to be recognized by others in their lived gender. Exposure to high levels of transphobia, institutional discrimination and violence are commonly shared experiences. These include feeling wrong and dehumanized, pressured to "pass" as females or males, and suffering misgendering, deadnaming and verbal microaggressions. These experiences are frequently amplified by institutional discrimination and emotional, physical and sexual abuse. While some trans persons may struggle with family acceptance, others experience family and kinship structures as a safe base that provides support. Similarly, friends and romantic relationships may be experienced as sources of rejection or instead of happiness, resilience and restoration. The lived experience of seeking help and receiving general health care and support may be characterized by feeling rejected, disvalued and objectivized, but in other cases validated and cared for. Trans persons may feel lost in the maze of gender-affirming care and challenged when receiving a gender dysphoria diagnosis, although others experience a sense of relief. Mental health care may be feared, as individuals feel vulnerable and exposed, and regard it as a gatekeeping to receive gender-affirming care. In other cases, it is experienced as restorative and truly healing. The narratives provided in this paper have high educational and social value, informing medical and psychological practices and research as well as public health approaches, and promoting anti-discrimination policies and social change. This study gives voice to the lived experience of trans persons to overcome stigma and allow us to fully understand the varied nature of our gender expression and identity.

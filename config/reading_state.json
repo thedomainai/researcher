@@ -210,6 +210,27 @@
       "papers/sociology/reassembling-the-social.md",
       "papers/strategic_management/competitive-strategy-techniques-for-analyzing-industries-and-competitors.md",
       "papers/international_business/the-internationalization-process-of-the-firma-model-of-knowledge-development-and.md"
+    ],
+    "2026-09-26": [
+      "papers/complexity_science/adaptation-in-natural-and-artificial-systems.md",
+      "papers/information_systems/the-wu-minn-human-connectome-project-an-overview.md",
+      "papers/marketing/the-job-demandsresources-model-state-of-the-art.md",
+      "papers/human_resource_management/a-heteroskedasticity-consistent-covariance-matrix-estimator-and-a-direct-test-fo.md",
+      "papers/cognitive_science/situated-cognition-and-the-culture-of-learning.md"
+    ],
+    "2026-09-27": [
+      "papers/batched-contextual-reinforcement-a-task-scaling-law-for-efficient-reasoning.md",
+      "papers/systems_engineering/coexistence-after-preference-change-reciprocal-standing-and-the-limits-of-self-v.md",
+      "papers/operations_management/reinforcement-learning-a-survey.md",
+      "papers/organization_science/dynamic-capabilities-and-strategic-management.md",
+      "papers/information_systems/the-wu-minn-human-connectome-project-an-overview.md"
+    ],
+    "2026-09-28": [
+      "papers/complexity_science/adaptation-in-natural-and-artificial-systems.md",
+      "papers/hci/mixed-initiative-interaction-and-robotic-systems.md",
+      "papers/systems_engineering/coexistence-after-preference-change-reciprocal-standing-and-the-limits-of-self-v.md",
+      "papers/philosophy/an-introduction-to-cybernetics.md",
+      "papers/evolutionary_biology/niche-construction.md"
     ]
   }
 }
