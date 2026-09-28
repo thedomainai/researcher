@@ -32,7 +32,28 @@ BATCH = 10
 MAX_CONSECUTIVE_FAILURES = 3   # 連続で失敗したら止める(利用枠の上限・障害を想定)
 LOCK_PATH = os.path.join(BASE, "logs", "tier_classify.lock")
 MODEL = "haiku"
-CLAUDE_BIN = os.environ.get("CLAUDE_BIN", "claude")
+
+
+def find_claude():
+    """claude の実行ファイルを探す。launchd の PATH には ~/.volta/bin 等が入っておらず、
+    PATH 任せだと "No such file or directory: 'claude'" で毎回失敗する(2026-09-27/28 の実例)。"""
+    explicit = os.environ.get("CLAUDE_BIN")
+    if explicit:
+        return explicit
+    home = os.path.expanduser("~")
+    for cand in (
+        os.path.join(home, ".volta/tools/image/packages/@anthropic-ai/claude-code/bin/claude"),
+        os.path.join(home, ".volta/bin/claude"),
+        os.path.join(home, ".local/bin/claude"),
+        "/opt/homebrew/bin/claude",
+        "/usr/local/bin/claude",
+    ):
+        if os.path.exists(cand):
+            return cand
+    return "claude"
+
+
+CLAUDE_BIN = find_claude()
 
 SYSTEM_PROMPT = (
     "あなたは研究論文の品質評価者です。与えられた論文を3つのテストで評価し、"
@@ -75,6 +96,14 @@ def call_claude(prompt):
     """claude -p を呼び、本文テキストを返す。認証切れは AuthError。"""
     env = {k: v for k, v in os.environ.items() if k not in ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN")}
     env["CLAUDECODE"] = ""  # ネストした Claude Code セッションからでも起動できるようにする
+    # 認証情報(キーチェーン)の読み出しには HOME / USER / LOGNAME が要る。最小環境では欠けるので補う
+    home = os.path.expanduser("~")
+    env.setdefault("HOME", home)
+    env.setdefault("USER", os.path.basename(home))
+    env.setdefault("LOGNAME", env["USER"])
+    # node の実行ファイルと claude 本体が入っているディレクトリを PATH に足す
+    extra = [os.path.dirname(CLAUDE_BIN), os.path.join(home, ".volta/bin"), "/opt/homebrew/bin", "/usr/local/bin"]
+    env["PATH"] = ":".join([d for d in extra if d] + [env.get("PATH", "/usr/bin:/bin")])
     cmd = [CLAUDE_BIN, "-p", "--model", MODEL, "--output-format", "json",
            "--system-prompt", SYSTEM_PROMPT, "--no-session-persistence"]
     for attempt in range(3):
