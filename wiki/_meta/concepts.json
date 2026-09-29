@@ -18929,5 +18929,130 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "support-induced-skill-substitution-loop",
+    "title_ja": "支援代替による能力形成機会の喪失ループ",
+    "title_en": "Support-Induced Skill Substitution Loop",
+    "tier": 1,
+    "description": "強力な支援手段が反復・試行錯誤・他者への援助要請の機会を代替し、表面的成果の向上と深層能力・対人的接続の低下を同時に生む構造。ただし相互作用の設計次第で学習機会は保存される。",
+    "mechanisms": [
+      "練習機会の代替(スキャフォルディング欠落)",
+      "認知負荷低減による援助要請回避",
+      "成果と深層認知の解離"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/when-genai-usage-backfires-a-help-seeking-avoidance-model-of-student-engagement.md",
+      "raw/papers/cognitive_science/the-dependency-dilemma-how-machine-learning-decision-aids-can-undermine-skill-gr.md",
+      "raw/papers/cognitive_science/informal-learning-emerges-in-everyday-human-llm-interaction.md",
+      "raw/papers/cognitive_science/the-critical-thinking-paradox-in-generative-ai-integrated-learning-distinguishin.md",
+      "raw/papers/cognitive_science/does-deep-structure-usage-impact-information-overload.md",
+      "raw/papers/cognitive_science/temporal-network-analysis-of-cognitive-load-and-meta-cognition-dynamics-in-human.md",
+      "raw/papers/cognitive_science/dialogic-artificial-intelligence-in-the-architectural-design-studio-an-empirical.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "interaction-loop-grounded-knowledge-and-relational-bond",
+    "title_ja": "相互作用ループに埋め込まれた知識生成と持続的関係",
+    "title_en": "Interaction-Loop-Grounded Knowledge and Sustained Relational Bond",
+    "tier": 1,
+    "description": "知識は出力単体でなく、解釈・意味付与・現実的制約への接地を伴う相互作用ループで成立し、評価単位はタスクから持続的関係の質へ移る。役割配置(道具/同僚/対話相手)が協働の質を規定する。",
+    "mechanisms": [
+      "解釈による意味付与と制約への接地",
+      "役割配置による協働構造の変化",
+      "フィードバックループ"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/humanai-interaction-as-the-fundamental-unit-of-knowledge-an-embedded-cognition-f.md",
+      "raw/papers/cognitive_science/from-tool-to-teammate-understanding-role-based-ai-enabled-design-thinking.md",
+      "raw/papers/cognitive_science/noosymbiosis-toward-a-normative-analytical-framework-for-humanai-collaborative-c.md",
+      "raw/papers/cognitive_science/defining-noosymbiosis-a-normative-analytical-framework-for-the-sustained-human-a.md",
+      "raw/papers/cognitive_science/human-in-the-loop-user-feedback-affects-perceived-accuracy-and-trust-but-task-su.md",
+      "raw/papers/cognitive_science/x-ai-techniques-for-humanai-teams-the-implementation-design-framework.md",
+      "raw/papers/cognitive_science/exploring-simulated-morphic-fields-for-sustainable-multi-agent-learning-and-educ.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "effort-opacity-and-disclosure-signal-erosion",
+    "title_ja": "努力の不可視化と評価シグナルの劣化",
+    "title_en": "Effort Opacity and Evaluation Signal Erosion",
+    "tier": 1,
+    "description": "補助手段により観察可能な成果と実際の関与が乖離すると、評価の非対称性のもとで開示が信号価値を損ない、相互性・信頼の基盤が断裂する。",
+    "mechanisms": [
+      "情報の非対称性",
+      "シグナリングの信頼性低下",
+      "互恵的交換の断裂"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/the-fabricated-front-generative-ai-and-the-opacity-of-workplace-performance.md",
+      "raw/papers/cognitive_science/should-i-tell-my-teacher-student-ai-disclosure-practices-stigma-and-self-regulat.md",
+      "raw/papers/cognitive_science/encouraging-deep-self-disclosure-in-ai-enabled-mental-health-support-systems-thr.md",
+      "raw/papers/cognitive_science/dual-technology-adoption.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "governance-gap-between-capability-scaling-and-accountability",
+    "title_ja": "能力拡大と責任・統治設計の乖離",
+    "title_en": "Governance Gap Between Capability Scaling and Accountability",
+    "tier": 1,
+    "description": "スケーラブルな技術が担う機能が、制度的な責任配分やインフラの統治ルールより速く進化し、帰属・責任・自律性の所在が不可視のまま決まる構造的ずれ。",
+    "mechanisms": [
+      "技術進化と制度進化の速度差",
+      "インフラルールによる帰属の暗黙的配分",
+      "監視と支援の境界の曖昧化"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/authority-figures.md",
+      "raw/papers/cognitive_science/mental-health-innovation-is-scaling-faster-than-accountability.md",
+      "raw/papers/cognitive_science/report-on-the-1st-workshop-on-human-centered-proactive-and-personalized-agents-f.md",
+      "raw/papers/cognitive_science/the-autonomous-agency-scale-a-behavioral-framework-for-measuring-self-directed-b.md",
+      "raw/papers/cognitive_science/the-changing-role-of-psychologists-in-the-age-of-artificial-intelligence-a-task-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "role-separated-layered-agent-architecture",
+    "title_ja": "役割分離と階層化による分散システムの安全性・自律性",
+    "title_en": "Role-Separated Layered Agent Architecture",
+    "tier": 1,
+    "description": "リスク評価・支援選択・介入の機能分離や、周辺ノードと中央認知基盤の二層化により、高リスク環境で安全性と全体的自律性を両立させる設計原理。予測可能性の設計が負荷を下げる。",
+    "mechanisms": [
+      "機能分離による責任の局所化",
+      "階層的統合(多時間スケール)",
+      "相互作用の予測可能性設計による負荷低減"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/the-space-cognitive-network-from-fractionated-spacecraft-to-collaborative-ai-ena.md",
+      "raw/papers/cognitive_science/design-principles-for-a-risk-aware-conversational-agent-in-digital-mental-health.md",
+      "raw/papers/cognitive_science/multi-dimensional-hierarchical-temporal-alignment-for-improved-temporal-commonse.md",
+      "raw/papers/cognitive_science/designing-social-robots-for-social-cognition-training-with-autistic-adults.md",
+      "raw/papers/cognitive_science/motosafety-edge-ai-with-learned-temporal-importance-for-two-wheeler-collision-ri.md",
+      "raw/papers/cognitive_science/inclusive-design-for-high-readability-and-dyslexic-friendly-fonts.md",
+      "raw/papers/cognitive_science/longstanding-mental-representations-of-familiar-faces.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
