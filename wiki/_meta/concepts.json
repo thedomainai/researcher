@@ -21431,5 +21431,154 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "haiku"
+  },
+  {
+    "slug": "autonomy-calibration-and-hierarchy-restructuring",
+    "title_ja": "自律度の較正と階層再編のトレードオフ",
+    "title_en": "Autonomy Calibration and Hierarchy Restructuring",
+    "tier": 1,
+    "description": "主体の自律度が上がると、専門性による正の効果と盲従・責任曖昧化による負の効果が同時に生じ、権限階層が再編される。リスク許容度に応じた継続的な較正が必要となる。",
+    "mechanisms": [
+      "権限委譲と階層の再編",
+      "自律性と統制のトレードオフ",
+      "リスク許容度に基づく継続的キャリブレーション"
+    ],
+    "related_domains": [
+      "human_ai_collaboration"
+    ],
+    "source_files": [
+      "raw/papers/human_ai_collaboration/humanai-collaboration-reconfigures-group-regulation-from-socially-shared-to-hybr.md",
+      "raw/papers/human_ai_collaboration/ai-as-teammate-in-humanai-collaboration-a-literature-review-of-interaction-struc.md",
+      "raw/papers/human_ai_collaboration/from-passive-tools-to-autonomous-teammates-how-agent-reshapes-team-performance-t.md",
+      "raw/papers/human_ai_collaboration/governing-agentic-ai-in-enterprise-workflows-a-design-science-approach.md",
+      "raw/papers/human_ai_collaboration/eli-a-conversational-llm-based-interface-for-humanai-driving-teams-and-its-impac.md",
+      "raw/papers/human_ai_collaboration/delegating-or-doing-understanding-user-behavior-in-hybrid-human-agent-interfaces.md",
+      "raw/papers/human_ai_collaboration/humanai-augmented-cognition-framework-a-purpose-led-framework-for-cognitive-allo.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "architectural-locus-of-accountability",
+    "title_ja": "アーキテクチャ配置による説明責任の構造的固定",
+    "title_en": "Architectural Locus of Accountability",
+    "tier": 1,
+    "description": "責任と統治は事後的な技術制御ではなく、境界・モジュール性・層構造という設計選択で決まる。判断の実装と人間の説明責任は不可分で、主体の類型や関係(アクター＝フォーラム)に沿って分散配置される。",
+    "mechanisms": [
+      "境界設計による責任の局所化",
+      "層構造による説明責任の分散",
+      "判断と責任の不可分性"
+    ],
+    "related_domains": [
+      "human_ai_collaboration"
+    ],
+    "source_files": [
+      "raw/papers/human_ai_collaboration/responsible-human-ai-collaboration-as-an-architectural-problem-toward-architectu.md",
+      "raw/papers/human_ai_collaboration/governing-agentic-ai-in-enterprise-workflows-a-design-science-approach.md",
+      "raw/papers/human_ai_collaboration/from-orchestration-to-integrated-judgment-optimization-a-boundary-first-architec.md",
+      "raw/papers/human_ai_collaboration/a-three-dimensional-typology-of-agency-for-advanced-ai-systems.md",
+      "raw/papers/human_ai_collaboration/laaf-a-layered-accountability-architecture-framework-for-llm-applications.md",
+      "raw/papers/human_ai_collaboration/counterfactual-bias-testing-for-application-tracking-system.md",
+      "raw/papers/human_ai_collaboration/holistic-performance-topology-a-discipline-spanning-framework-for-performance-me.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "stochastic-output-variance-and-correction-persistence",
+    "title_ja": "確率的生成の分散管理と誤り訂正の永続化",
+    "title_en": "Output Variance Management and Correction Persistence in Stochastic Systems",
+    "tier": 1,
+    "description": "確率的システムの信頼性は平均能力ではなく出力の分散で決まる。探索過程の副産物は成果物に蓄積し、戦略選択は初期に固定される。バージョン管理・来歴記録・再発監視・廃止ゲートといった運用規律が誤りの再発を防ぐ。",
+    "mechanisms": [
+      "分散(精度)を信頼性指標とする評価",
+      "探索中間状態の成果物への蓄積",
+      "初期戦略のロックインと局所最適化",
+      "来歴付き訂正の永続化と廃止"
+    ],
+    "related_domains": [
+      "human_ai_collaboration"
+    ],
+    "source_files": [
+      "raw/papers/human_ai_collaboration/trim-reducing-ai-generated-codeslop-via-agent-trajectory-minimization.md",
+      "raw/papers/human_ai_collaboration/grouping-the-stochastic-machine-precision-not-capability-as-the-frontier-metric-.md",
+      "raw/papers/human_ai_collaboration/tuning-the-stochastic-machine-a-systems-engineers-operating-model-for-human-ai-e.md",
+      "raw/papers/human_ai_collaboration/what-is-missing-from-ai-post-training-ai-an-empirical-analysis.md",
+      "raw/papers/human_ai_collaboration/data-and-context-matter-towards-generalizing-ai-based-software-vulnerability-det.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "assistance-availability-versus-skill-formation",
+    "title_ja": "支援の可用性と能力形成の逆相関",
+    "title_en": "Assistance Availability versus Skill Formation",
+    "tier": 1,
+    "description": "支援が低コストで得られるほど短期の成績と自信は上がるが、長期の能力習得は損なわれる。利用者は努力最小化に従うため、支援の様式(受動型か能動型か)と摩擦の設計が学習成果を分ける。",
+    "mechanisms": [
+      "努力最小化の原理",
+      "自信と実績の乖離",
+      "生産的摩擦による学習促進",
+      "支援コストによる利用行動の変化"
+    ],
+    "related_domains": [
+      "human_ai_collaboration"
+    ],
+    "source_files": [
+      "raw/papers/human_ai_collaboration/will-skill-tool-or-task-investigating-the-mechanisms-for-generative-ai-integrati.md",
+      "raw/papers/human_ai_collaboration/coaching-or-crutching-the-impact-of-ai-collaboration-modalities-on-job-interview.md",
+      "raw/papers/human_ai_collaboration/delegating-or-doing-understanding-user-behavior-in-hybrid-human-agent-interfaces.md",
+      "raw/papers/human_ai_collaboration/perspective-taking-shapes-creative-performance-in-humanai-collaboration.md",
+      "raw/papers/human_ai_collaboration/how-ai-assistance-affects-human-skill-development-a-study-of-learning-with-logic.md",
+      "raw/papers/human_ai_collaboration/responsible-ai-augmented-judgment-and-productive-cognitive-friction-in-higher-ed.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "psychological-climate-and-fairness-mediated-acceptance",
+    "title_ja": "心理的風土と公正認知を介した技術受容と尊厳の維持",
+    "title_en": "Psychological Climate and Fairness-Mediated Acceptance",
+    "tier": 1,
+    "description": "新技術の受容は技術性能ではなく、組織の心理的風土、公正性の認識、脅威と対処資源の均衡に媒介される。監視による満足度の低下は物質的補償では回復せず、尊厳が損なわれる。",
+    "mechanisms": [
+      "脅威知覚と対処評価の不均衡",
+      "媒介変数としての組織風土・公正認知",
+      "非金銭的価値の代替不可能性",
+      "タスク再設計によるチーム力学の変容"
+    ],
+    "related_domains": [
+      "human_ai_collaboration"
+    ],
+    "source_files": [
+      "raw/papers/human_ai_collaboration/understanding-the-influence-of-agentic-ai-on-workplace-dignity.md",
+      "raw/papers/human_ai_collaboration/let-me-check-on-you-worker-well-being-under-ai-and-human-health-and-safety-monit.md",
+      "raw/papers/human_ai_collaboration/humanai-collaboration-the-role-of-psychological-climate-in-employee-acceptance.md",
+      "raw/papers/human_ai_collaboration/generative-ai-adoption-task-redesign-and-team-performance-mechanisms-of-humanai-.md",
+      "raw/papers/human_ai_collaboration/humanai-collaboration-and-decent-work-outcomes-in-smes-the-mediating-role-of-per.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "role-shift-from-producer-to-curator-and-demand-decoupling",
+    "title_ja": "生産手段の機械化による主体役割の転換と人間の役割の切り離し",
+    "title_en": "Role Shift from Producer to Curator and Decoupling from Human Demand",
+    "tier": 1,
+    "description": "生産手段の機械化は主体の役割を制作者から選別者・キュレーターへ移す歴史的反復である。極端な場合、生産と消費が企業内で閉じて、経済成長が人間から切り離される。",
+    "mechanisms": [
+      "生産手段の機械化による役割転換",
+      "閉じた生産＝消費循環による需要の自己完結",
+      "歴史的先例の反復"
+    ],
+    "related_domains": [
+      "human_ai_collaboration"
+    ],
+    "source_files": [
+      "raw/papers/human_ai_collaboration/the-aura-in-the-machine-genealogy-and-the-status-of-the-work-of-art-in-the-gener.md",
+      "raw/papers/human_ai_collaboration/growth-without-us-machine-consumers-corporate-circularity-and-the-decoupling-of-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
