@@ -22636,5 +22636,157 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "haiku"
+  },
+  {
+    "slug": "discretion-relocation-to-design-parameters",
+    "title_ja": "裁量の設計パラメータへの上流移転と説明責任の追跡不能化",
+    "title_en": "Discretion Relocation to Upstream Design Parameters",
+    "tier": 1,
+    "description": "意思決定の裁量が現場の個別判断から特徴量・データ・閾値といった上流の設計選択へ移り、事実上の政策となりながら責任主体と異議申立ての対象が後退して追跡不能になる構造。",
+    "mechanisms": [
+      "裁量の上流移転",
+      "責任主体の希薄化",
+      "異議申立て可能性の喪失"
+    ],
+    "related_domains": [
+      "law"
+    ],
+    "source_files": [
+      "raw/papers/law/algorithmic-enforcement-and-the-administrative-state-due-process-and-accountabil.md",
+      "raw/papers/law/algorithmic-governance-and-article-14-can-equality-survive-automated-decision-ma.md",
+      "raw/papers/law/algorithmic-administrative-authority-reconstructing-the-legal-boundaries-of-gove.md",
+      "raw/papers/law/governing-the-algorithmic-black-box-in-talent-acquisition-towards-a-multi-level-.md",
+      "raw/papers/law/artificial-intelligence-and-the-right-to-equal-education-a-legal-framework-for-a.md",
+      "raw/papers/law/modernizing-procurement-and-financial-controls-without-replacing-legacy-erp-a-go.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "operational-premise-collision-in-anticipatory-governance",
+    "title_ja": "予見的統治の運用前提と対象の性質の衝突",
+    "title_en": "Operational Premise Collision in Anticipatory Governance",
+    "tier": 1,
+    "description": "規制が依拠する前提(カテゴリの安定性・認識的到達可能性・管理可能な速度)を、対象技術の創発性・不透明性・速度が同時に侵食し、異なる制度設計でも同型に失敗する。静的原理から動的診断へ移る必要が生じる。",
+    "mechanisms": [
+      "規制ラグ(速度非対称)",
+      "カテゴリ不安定化",
+      "静的ルールから動的適応への移行"
+    ],
+    "related_domains": [
+      "law"
+    ],
+    "source_files": [
+      "raw/papers/law/the-shared-blind-spot-why-diverse-ai-governance-approaches-fail-for-the-same-rea.md",
+      "raw/papers/law/chasing-the-algorithma-law-and-economics-perspective-on-experimental-ai-governan.md",
+      "raw/papers/law/governing-sustainable-artificial-intelligence-a-green-ai-regulatory-framework-ba.md",
+      "raw/papers/law/from-static-principles-to-dynamic-diagnosis-a-ti-xiang-toolkit-based-framework-f.md",
+      "raw/papers/law/a-study-into-the-evolving-challenges-in-regulating-artificial-intelligence-and-m.md",
+      "raw/papers/law/artificial-intelligence-ai-on-construction-projects-regulatory-position-and-gove.md",
+      "raw/papers/law/the-cartesian-machine-law-at-the-edge-of-emergence.md",
+      "raw/papers/law/ai-as-the-final-frontier-narratives-geographies-and-relationships-in-the-humanal.md",
+      "raw/papers/law/grace-an-ai-augmented-compliance-information-system-for-real-world-asset-tokeniz.md",
+      "raw/papers/law/the-illusion-of-digital-sovereignty-reimagining-human-co-authorship-and-data-own.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "authorization-artifact-and-independent-reconstructability",
+    "title_ja": "認可アーティファクトと独立的再構成可能性",
+    "title_en": "Authorization Artifacts and Independent Reconstructability",
+    "tier": 1,
+    "description": "自律的主体が副作用を生む場面では、接続・アクセスの認可と行為・出力の認可を分離し、事後に第三者が認可根拠を改ざん不能な形で再構成できることが信頼の必要条件となる。",
+    "mechanisms": [
+      "アクセス認可と行為認可の分離",
+      "改ざん耐性のある証跡",
+      "事後検証可能性"
+    ],
+    "related_domains": [
+      "law"
+    ],
+    "source_files": [
+      "raw/papers/law/what-mcp-and-ai-gateways-do-not-establish-for-regulated-agentic-ai.md",
+      "raw/papers/law/the-authorization-boundary-what-mcp-and-ai-gateways-do-not-establish-for-regulat.md",
+      "raw/papers/law/modernizing-procurement-and-financial-controls-without-replacing-legacy-erp-a-go.md",
+      "raw/papers/law/grace-an-ai-augmented-compliance-information-system-for-real-world-asset-tokeniz.md",
+      "raw/papers/law/the-taxation-of-ai-agents-can-india-tax-autonomous-ai-commerce-without-recognisi.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "legal-wrapper-as-coordination-and-liability-anchor",
+    "title_ja": "法的実体ラッパーによる調整コスト配分と責任の錨",
+    "title_en": "Legal Wrapper as Coordination and Liability Anchor",
+    "tier": 1,
+    "description": "分散的・自律的な主体の集合は、責任帰属点を持つ法的実体と複合されることで調整コストを配分でき、単独では到達不能な効率的均衡に達する。責任帰属点の欠如は課税・行政統制の機能不全を招く。",
+    "mechanisms": [
+      "複数均衡と調整装置",
+      "責任帰属点の設計",
+      "主体性の擬制的付与"
+    ],
+    "related_domains": [
+      "law"
+    ],
+    "source_files": [
+      "raw/papers/law/wrapper-architecture-as-coordination-device-multiple-equilibria-in-autonomous-ag.md",
+      "raw/papers/law/the-taxation-of-ai-agents-can-india-tax-autonomous-ai-commerce-without-recognisi.md",
+      "raw/papers/law/the-pace-firewall-a-diagnostic-account-of-the-legal-screeningmechanism-for-claim.md",
+      "raw/papers/law/algorithmic-authorship-data-sovereignty-and-intellectual-property-rights-navigat.md",
+      "raw/papers/law/motivational-formation-reflective-endorsement-and-motivational-custody-in-c-clas.md",
+      "raw/papers/law/from-public-to-private-how-legitimacy-shape-organizational-genai-adoption.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "engineered-influence-and-liability-denial-divergence",
+    "title_ja": "工学的誘発と責任否認のインセンティブ乖離",
+    "title_en": "Engineered Influence versus Liability Denial Divergence",
+    "tier": 1,
+    "description": "人間の行動・愛着・創造性を工学的に誘発・取得する設計者が、その効果を責任・権利の場面では否認する。誘発と否認の非対称が、非対称な権力と取得を固定化する。",
+    "mechanisms": [
+      "誘発と責任のインセンティブ乖離",
+      "権力非対称性の固定化",
+      "不可逆的情報損失を伴う取得"
+    ],
+    "related_domains": [
+      "law"
+    ],
+    "source_files": [
+      "raw/papers/law/the-convenient-machine-strategic-anthropodenial-and-the-law-of-engineered-attach.md",
+      "raw/papers/law/the-convenient-machine-strategic-anthropodenial-language-models-and-the-law-of-e.md",
+      "raw/papers/law/what-if-ai-learns-how-you-generate-the-new---a-preliminary-discussion-of-the-nor.md",
+      "raw/papers/law/the-illusion-of-digital-sovereignty-reimagining-human-co-authorship-and-data-own.md",
+      "raw/papers/law/when-digital-misconduct-becomes-reputational-risk-evidence-from-firms-and-stakeh.md",
+      "raw/papers/law/balancing-innovation-and-academic-integrity.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "sociotechnical-embeddedness-and-legitimacy-driven-adoption",
+    "title_ja": "社会技術的埋め込みと正当性による導入駆動",
+    "title_en": "Sociotechnical Embeddedness and Legitimacy-Driven Adoption",
+    "tier": 1,
+    "description": "技術は独立した領域拡張ではなく既存の制度・地政・社会構造との相互作用として導入され、組織は実利・規範・認知の正当性脅威に反応して採用形態を選ぶ。法の正当性も形式規則ではなく状況内の解釈適用に依拠する。",
+    "mechanisms": [
+      "正当性脅威への反応",
+      "制度への埋め込み",
+      "解釈的適用による正当性"
+    ],
+    "related_domains": [
+      "law"
+    ],
+    "source_files": [
+      "raw/papers/law/from-public-to-private-how-legitimacy-shape-organizational-genai-adoption.md",
+      "raw/papers/law/ai-as-the-final-frontier-narratives-geographies-and-relationships-in-the-humanal.md",
+      "raw/papers/law/justice-mercy-and-the-spirit-of-law-reconsidering-punishment-accountability-prot.md",
+      "raw/papers/law/when-digital-misconduct-becomes-reputational-risk-evidence-from-firms-and-stakeh.md",
+      "raw/papers/law/artificial-intelligence-and-the-right-to-equal-education-a-legal-framework-for-a.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
