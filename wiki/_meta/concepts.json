@@ -19826,5 +19826,151 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "decomposition-information-retention-limit",
+    "title_ja": "分解による情報保持の数理的限界と収穫逓減",
+    "title_en": "Information Retention Limits and Diminishing Returns of Decomposition",
+    "tier": 1,
+    "description": "タスクを階層・アンサンブルに分割すると整合性は得られるが、深さに応じた情報損失と規模に対する収穫逓減が不可避で、最適規模は減衰パラメータで決まる。",
+    "mechanisms": [
+      "階層伝播における情報損失",
+      "収穫逓減と最適規模",
+      "整合性と収量のトレードオフ"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/decomposition-buys-integrity-not-yield.md",
+      "raw/papers/complexity_science/the-universe-of-universes-benefit-yield-functions-implosion-thresholds-and-infra.md",
+      "raw/papers/complexity_science/when-agents-disagree-bayesian-backward-reasoning-as-a-label-free-anchor-for-mult.md",
+      "raw/papers/complexity_science/who-are-they-to-each-other-multi-agent-reasoning-for-speaker-relationship-infere.md",
+      "raw/papers/complexity_science/busma-a-bus-communication-substrate-for-multi-agent-systems.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "stigmergic-self-organization-of-organizational-structure",
+    "title_ja": "スティグマジーによる組織構造の自己組織化と課題依存的設計",
+    "title_en": "Stigmergic Self-Organization and Task-Contingent Organizational Design",
+    "tier": 1,
+    "description": "明示的指令や直接通信がなくとも、環境を介した間接的相互作用と課題の依存構造から階層・役割・トポロジーが創発・成長し、固定構造より適応的に協調できる。",
+    "mechanisms": [
+      "間接的協調(スティグマジー)",
+      "課題依存関係に基づく構造適合",
+      "制約下での構造成長・剪定"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/ai-swarms-from-orchestration-to-self-organization.md",
+      "raw/papers/complexity_science/orch-organizational-principles-enable-collective-intelligence-in-embodied-ai.md",
+      "raw/papers/complexity_science/controlled-emergence-in-τ-tcpn-an-agent-based-framework-for-self-growing-causal-.md",
+      "raw/papers/complexity_science/busma-a-bus-communication-substrate-for-multi-agent-systems.md",
+      "raw/papers/complexity_science/social-laws-for-multi-agent-coordination-in-stochastic-environments.md",
+      "raw/papers/complexity_science/a-survey-on-foundation-models-for-personalized-federated-intelligence.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "cooperation-under-constraint-and-guidance",
+    "title_ja": "資源制約・ガイダンス下での協力の進化と安全性保証",
+    "title_en": "Evolution of Cooperation under Resource Constraints, Guidance and Safety Guarantees",
+    "tier": 1,
+    "description": "計算・物理コストの制約、確率的ガイダンス、社会的ルール、ノイズ付き最適応答が、自由乗車を抑え協力を創発させつつ性能下限と安全性を保証する。",
+    "mechanisms": [
+      "インセンティブ設計による自由乗車抑制",
+      "不安定均衡のノイズによる回避",
+      "共通ルールによる相互干渉の制限"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/truncated-noisy-best-response-algorithms-toward-game-theoretic-learning-with-saf.md",
+      "raw/papers/complexity_science/tapes-together-strong-the-co-evolution-of-computation-and-cooperation.md",
+      "raw/papers/complexity_science/emergence-of-group-cooperation-through-probabilistic-guidance-in-repeated-intera.md",
+      "raw/papers/complexity_science/social-laws-for-multi-agent-coordination-in-stochastic-environments.md",
+      "raw/papers/complexity_science/reconstructing-the-information-processing-capacity-of-physical-systems-from-nois.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "long-horizon-emergent-failure-and-feedback-coupling",
+    "title_ja": "長期相互作用における創発的失敗とフィードバック結合ダイナミクス",
+    "title_en": "Emergent Failure and Coupled Feedback Dynamics over Long Horizons",
+    "tier": 1,
+    "description": "状態蓄積と双方向フィードバックにより、失敗・信念・世論・制度的抵抗は単発評価では捉えられない連鎖・分極化・逆説的持続として現れる。",
+    "mechanisms": [
+      "状態蓄積による失敗の伝播",
+      "双方向フィードバックと平衡の安定性",
+      "カスケード的連鎖と分極化"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/emergence-world-adversarial-stress-testing-of-long-horizon-multi-agent-systems.md",
+      "raw/papers/complexity_science/blindspot-a-benchmark-for-safety-and-refusal-calibration-in-long-horizon-tool-us.md",
+      "raw/papers/complexity_science/flag-game-a-toy-model-for-mechanistic-swarm-interpretability.md",
+      "raw/papers/complexity_science/modelling-opinion-dynamics-during-crises-as-complex-contagion-with-feedback.md",
+      "raw/papers/complexity_science/why-some-strikes-last-longer-the-resilience-paradox-of-partially-functional-inst.md",
+      "raw/papers/complexity_science/understanding-cascading-failure-across-innovation-journeys-the-case-of-antibioti.md",
+      "raw/papers/complexity_science/revue-européenne-des-migrations-internationales.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "responsibility-dilution-and-moral-status-symmetry",
+    "title_ja": "多主体チームにおける責任の希薄化と扱いの対称性検証",
+    "title_en": "Responsibility Dilution in Multi-Actor Systems and Symmetry Testing of Moral Treatment",
+    "tier": 2,
+    "description": "行為が多段に分散すると責任帰属は希薄化し、差別的扱いには説明可能な根拠が要る。役割・アイデンティティの再構成もこの帰属構造に連動する。",
+    "mechanisms": [
+      "責任の段階的拡散",
+      "置換テストによる正当化要求",
+      "相互作用パートナー化によるアイデンティティ再構成"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/the-responsibility-cascade-moral-attribution-and-governance-challenges-in-agenti.md",
+      "raw/papers/complexity_science/the-substitution-test-perspective-switching-thought-experiments-on-moral-equalit.md",
+      "raw/papers/complexity_science/editorial-reimagining-roles-and-identity-in-the-era-of-human---ai-collaboration-.md",
+      "raw/papers/complexity_science/creative-self-efficacy-and-innovative-teaching-behaviour-in-ai-supported-teachin.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "reflexive-hypothesis-testing-loop-and-adaptive-learning",
+    "title_ja": "反射的仮説検証ループと適応的学習・知識獲得",
+    "title_en": "Reflexive Hypothesis-Testing Loops and Adaptive Learning",
+    "tier": 1,
+    "description": "観察・自己モデル化・仮説検証・フィードバックの閉ループが知識獲得の実装非依存な機構であり、認知資源制約下で適応的フィードバックが習得を加速し、暗黙知は実践的共同作業で内在化される。",
+    "mechanisms": [
+      "閉ループによる仮説検証",
+      "自己モデル化(反射性)",
+      "適応フィードバックによる習得効率化"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/closing-the-empirical-loop-autonomous-ai-agents-conduct-endtoend-research-with-h.md",
+      "raw/papers/complexity_science/the-universes-second-organ-from-life-self-observation-and-artificial-intelligenc.md",
+      "raw/papers/complexity_science/beyond-workshops-rse-led-hackathons-as-experiential-learning-for-software-practi.md",
+      "raw/papers/complexity_science/artificial-intelligence-in-science-education-for-sdg-4-a-systematic-review-of-ai.md",
+      "raw/papers/complexity_science/where-should-agents-live-energy-memory-characterization-of-agentic-ai-for-the-ed.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
