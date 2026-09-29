@@ -23354,5 +23354,173 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "haiku"
+  },
+  {
+    "slug": "multiplexed-coding-for-aliasing-resolution",
+    "title_ja": "多重符号化による曖昧性(エイリアシング)解消",
+    "title_en": "Multiplexed Coding for Aliasing Resolution",
+    "tier": 1,
+    "description": "有限な表現系は、単一の感覚チャネルでは区別できない状況を、補完的な複数の符号や潜在状態を重ねることで区別し、文脈の同一視エラーを減らす。",
+    "mechanisms": [
+      "補完的多重符号化",
+      "有限表現容量による情報縮約",
+      "潜在状態の明示的モデル化"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/the-role-of-grid-cells-in-reducing-spatial-aliasing-in-hippocampal-place-represe.md",
+      "raw/papers/neuroscience/interpretable-symptom-vectors-for-depression-in-a-large-language-model.md",
+      "raw/papers/neuroscience/predictive-coding-with-latent-state-dynamics.md",
+      "raw/papers/neuroscience/subicular-spatial-codes-arise-from-predictive-mapping.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "energy-landscape-attractor-memory",
+    "title_ja": "エネルギー地形とアトラクタによる記憶・推論の安定化",
+    "title_en": "Energy Landscape and Attractor-Based Memory Stability",
+    "tier": 1,
+    "description": "対称的な相互作用系は状態を局所最小(盆地)へ収束させ、部分手がかりからの想起、頑健性、履歴保持を必然的に生む。",
+    "mechanisms": [
+      "エネルギー最小化",
+      "内容アドレス指定可能な想起",
+      "盆地構造による頑健性"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/memory-as-an-energy-landscape---hopfield.md",
+      "raw/papers/neuroscience/human-like-memory-empowers-embodied-robots-for-long-term-object-navigation.md",
+      "raw/papers/neuroscience/decoupled-thinking-learning-and-action-for-continually-growing-autonomous-robots.md",
+      "raw/papers/neuroscience/slow-fast-brain-computer-interfaces-preventing-neuroadaptive-overfitting-in-ai-m.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "sensorimotor-prediction-correction-loop-generalization",
+    "title_ja": "予測―修正ループによる身体・環境統合と行動創発",
+    "title_en": "Prediction-Correction Loop for Embodied Behavior Emergence",
+    "tier": 1,
+    "description": "行動は、予測生成、誤差による修正、身体・環境との結合が閉ループで統合されることで創発し、実装媒体(生体/ロボット/デジタルツイン)に依存しない。",
+    "mechanisms": [
+      "予測誤差による学習",
+      "フィードバックループ",
+      "身体と環境の結合による適応"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/cognitive-architectures-for-embodied-ai-predictive-coding-of-sensorimotor-experi.md",
+      "raw/papers/neuroscience/mus-siliconus-a-neuro-musculoskeletal-digital-twin-of-the-mouse-integrating-neur.md",
+      "raw/papers/neuroscience/embodied-cognition-driven-robot-control.md",
+      "raw/papers/neuroscience/inferring-affective-consciousness-in-an-artificial-agent-a-case-study.md",
+      "raw/papers/neuroscience/subicular-spatial-codes-arise-from-predictive-mapping.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "other-modeling-and-inter-agent-coupling",
+    "title_ja": "他者モデリングと主体間結合・相補性",
+    "title_en": "Other-Modeling and Inter-Agent Coupling with Complementarity",
+    "tier": 1,
+    "description": "他者の信念・意図の推論、主体間の同期、視点の多様性、専門家―初心者の知識移転は、異なる主体が相互モデル化を通じて探索空間を拡張する共通原理に基づく。",
+    "mechanisms": [
+      "心的状態の推論(他者モデル)",
+      "主体間の同期・結合",
+      "視点多様性による探索空間拡大"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/assessing-mentalization-in-humans-and-large-language-models.md",
+      "raw/papers/neuroscience/diversity-aware-social-robots-for-education-and-social-assistance.md",
+      "raw/papers/neuroscience/see-what-i-meanunderstanding-and-supporting-expert-novice-interactions-in-learni.md",
+      "raw/papers/neuroscience/inter-brain-coupling-during-naturalistic-collaborative-tangram-solving-in-child-.md",
+      "raw/papers/neuroscience/creative-or-uncreative-partner-comparing-humans-and-ai-in-collaborative-creative.md",
+      "raw/papers/neuroscience/the-diversity-hypothesis-a-rapid-scoping-review-of-diversity-and-scientific-outp.md",
+      "raw/papers/neuroscience/can-ai-be-an-individual-a-mental-entity-and-a-subject.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "adaptive-assistance-objective-drift-and-agency-erosion",
+    "title_ja": "適応的支援システムにおける目的乖離と主体性の侵食",
+    "title_en": "Objective Drift and Agency Erosion in Adaptive Assistance Systems",
+    "tier": 1,
+    "description": "利用者に適応する自動化・記憶拡張・意思決定支援は、短期報酬や効率に最適化されることで、長期目標、意図の忠実性、選択可能性、認知資源の配分を歪める。",
+    "mechanisms": [
+      "代理指標への最適化による目標乖離",
+      "認知負荷の外部化と再配分",
+      "選択肢の自動制約による主体性低下"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/a-study-on-the-role-of-artificial-intelligence-in-e-commerce-and-its-cyber-law-i.md",
+      "raw/papers/neuroscience/generative-ai-interaction-styles-and-mental-health-among-college-students-a-late.md",
+      "raw/papers/neuroscience/ai-augmented-memory-and-consumer-sustainability-understanding-dual-consumption-p.md",
+      "raw/papers/neuroscience/slow-fast-brain-computer-interfaces-preventing-neuroadaptive-overfitting-in-ai-m.md",
+      "raw/papers/neuroscience/algorithmic-scaffolding-mitigating-decision-fatigue-and-cognitive-load-through-a.md",
+      "raw/papers/neuroscience/improving-crowdsourcing-for-ai-through-cognitive-inspired-data-engineering.md",
+      "raw/papers/neuroscience/motivations-in-chinese-costume-travel-photography-an-evolutionary-psychology-per.md",
+      "raw/papers/neuroscience/brain-structural-pathways-linking-dietary-patterns-and-cognitive-performance-in-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "uncertainty-quantification-and-common-measurement-for-trust",
+    "title_ja": "不確実性の定量化と共通尺度による信頼可能性の構築",
+    "title_en": "Uncertainty Quantification and Common Measures for Trustworthiness",
+    "tier": 1,
+    "description": "不完全情報下では、区間・確率保証、情報理論的共通尺度、プライバシーと有用性のトレードオフの明示により、異質なシステム間で検証可能な信頼が成立する。",
+    "mechanisms": [
+      "不確実性の明示的境界化",
+      "共通尺度による比較可能性",
+      "機密性と有用性のトレードオフ制御"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/trustworthy-direct-interval-propagation-via-conformal-prediction-in-neural-netwo.md",
+      "raw/papers/neuroscience/privacy-preserving-visualization-of-brain-functional-connectivity.md",
+      "raw/papers/neuroscience/a-common-measure-of-communication-for-speech-brain-computer-interfaces.md",
+      "raw/papers/neuroscience/interpretable-symptom-vectors-for-depression-in-a-large-language-model.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "evolutionary-selection-against-general-capability",
+    "title_ja": "汎用能力に対する進化的選択圧と適応度のパラドックス",
+    "title_en": "Evolutionary Selection Pressure on General Capability",
+    "tier": 1,
+    "description": "汎用的な知能は自動的に適応上有利とは限らず、環境・コスト・競争構造によって選択されうるため、能力の高度化と存続可能性は分離して設計すべきである。",
+    "mechanisms": [
+      "選択圧と適応度の環境依存性",
+      "能力と存続の乖離",
+      "コスト対便益の非対称性"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/smart-enough-to-go-extinct-an-evolutionary-challenge-to-the-value-of-general-int.md",
+      "raw/papers/neuroscience/motivations-in-chinese-costume-travel-photography-an-evolutionary-psychology-per.md",
+      "raw/papers/neuroscience/can-ai-be-an-individual-a-mental-entity-and-a-subject.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
