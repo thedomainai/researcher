@@ -24137,5 +24137,132 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "haiku"
+  },
+  {
+    "slug": "decision-time-evidence-binding-and-reconstruction-limit",
+    "title_ja": "意思決定時点での証拠結合と事後復元の限界",
+    "title_en": "Decision-Time Evidence Binding and the Reconstruction Limit",
+    "tier": 1,
+    "description": "証拠は意思決定の瞬間の属性であり、その時点で結合・記録されなければ事後には信念しか再構成できない。検証可能性・権限・統制は、事前設計された記録と介入点に依存する。",
+    "mechanisms": [
+      "決定時点での証拠の固定",
+      "検証可能性による信頼の担保",
+      "事前設計されたガバナンスと安全状態遷移"
+    ],
+    "related_domains": [
+      "organization_science"
+    ],
+    "source_files": [
+      "raw/papers/organization_science/securing-knowledge-ecosystems-the-role-of-encryption-and-pki-in-ai-driven-knowle.md",
+      "raw/papers/organization_science/evidence-grounded-ai-operations-workflow-extending-a-human-designed-quality-moni.md",
+      "raw/papers/organization_science/from-governance-decision-to-operational-state-an-assurance-case-perspective-on-a.md",
+      "raw/papers/organization_science/ai-as-an-aviation-safety-decision-maker.md",
+      "raw/papers/organization_science/from-ai-governance-to-purchaser-control-a-comparative-analysis-of-public-sector-.md",
+      "raw/papers/organization_science/the-ai-incident-response-protocol-six-stages-and-the-evidence-a-reconstruction-r.md",
+      "raw/papers/organization_science/from-ai-maturity-to-reopenable-decisions-the-ai-native-transition-method-v02-as-.md",
+      "raw/papers/organization_science/beyond-compliance-legal-capability-as-a-dynamic-strategic-resource-for-sustainab.md",
+      "raw/papers/organization_science/when-does-generative-ai-adoption-pay-off-ethical-governance-as-a-dynamic-capabil.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "cognitive-capacity-delegation-and-bifurcation",
+    "title_ja": "認知の委譲による能力の侵食と二極化",
+    "title_en": "Cognitive Delegation, Agency Erosion, and Bifurcation",
+    "tier": 1,
+    "description": "認知作業を外部システムへ委譲し続けると内的な推論・主体性が萎縮し、能動的に使いこなす層と依存する層に分岐する。意図的な中断や責任の再配分が持続性を左右する。",
+    "mechanisms": [
+      "認知オフロードによる能力萎縮",
+      "責任帰属の動的再校正",
+      "適応的選別による二極化"
+    ],
+    "related_domains": [
+      "organization_science"
+    ],
+    "source_files": [
+      "raw/papers/organization_science/ai-sabbatical-a-conceptual-framework-for-cognitive-sustainability-in-ai-augmente.md",
+      "raw/papers/organization_science/the-great-sorting-20262040-self-domestication-ai-and-the-iq-barbell.md",
+      "raw/papers/organization_science/the-interplay-of-time-pressure-and-ai-assistance-reveals-moral-responsibility-re.md",
+      "raw/papers/organization_science/beyond-automation-ai-and-the-human-value-of-sellside-analysts.md",
+      "raw/papers/organization_science/anthropomorphic-cueing-social-evaluation-and-threat-in-stated-willingness-to-col.md",
+      "raw/papers/organization_science/copilot-in-the-wings-when-do-employees-reveal-the-use-of-ai.md",
+      "raw/papers/organization_science/understanding-actor-engagement-through-psychological-ownership-a-multi-sport-bra.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "information-processing-load-and-decision-latency-matching",
+    "title_ja": "情報処理負荷と意思決定遅延の適合",
+    "title_en": "Matching Information-Processing Capacity to Task Requirements and Decision Latency",
+    "tier": 1,
+    "description": "組織や神経系の性能は情報処理のボトルネックの所在とその解消で決まり、自動化と拡張の効果は課題の情報処理要件、階層、不確実性の段階に応じて変わる。",
+    "mechanisms": [
+      "情報ボトルネックの同定と解消",
+      "情報処理要件と処理能力の適合",
+      "階層別の不確実性ゲート"
+    ],
+    "related_domains": [
+      "organization_science"
+    ],
+    "source_files": [
+      "raw/papers/organization_science/orquestração-algorítmica-e-latência-decisória-inteligência-artificial-como-mecan.md",
+      "raw/papers/organization_science/requirements-elicitation-for-ai-enabled-process-automation-a-comparative-review-.md",
+      "raw/papers/organization_science/conversational-ai-capability-and-organizational-agility.md",
+      "raw/papers/organization_science/based-on-information-bottleneck-a-neural-system-model-and-artificial-intelligenc.md",
+      "raw/papers/organization_science/artificial-intelligence-capability-and-project-performance-integrating-dynamic-c.md",
+      "raw/papers/organization_science/the-effect-of-ai-automation-and-augmentation-on-radical-innovation-from-the-pers.md",
+      "raw/papers/organization_science/strategic-leadership-and-agility-in-organizations.md",
+      "raw/papers/organization_science/the-influence-of-artificial-intelligence-readiness-on-digital-public-service-inn.md",
+      "raw/papers/organization_science/an-agent-model-abstraction-for-human-ai-teaming-cognitive-coupling.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "tacit-knowledge-externalization-and-dynamic-capability-formation",
+    "title_ja": "暗黙知の外部化と動的能力の形成",
+    "title_en": "Tacit Knowledge Externalization and Dynamic Capability Formation",
+    "tier": 2,
+    "description": "個人レベルの協働学習で生じる暗黙知を組織的資産へ変換する過程が能力形成を決め、社会関係資本や心理的所有感などの関係的基盤が変換と再構成の力を支える。",
+    "mechanisms": [
+      "暗黙知の形式知化",
+      "関係資本による組織的レジリエンス",
+      "資源の再配置による適応"
+    ],
+    "related_domains": [
+      "organization_science"
+    ],
+    "source_files": [
+      "raw/papers/organization_science/tacit-knowledge-and-employee-ai-collaboration-dynamic-capabilities-of-the-organi.md",
+      "raw/papers/organization_science/the-influence-of-social-capital-on-organizational-resilience-a-systematic-litera.md",
+      "raw/papers/organization_science/integrating-resilience-and-sustainability-in-manufacturing-enablers-barriers-and.md",
+      "raw/papers/organization_science/understanding-actor-engagement-through-psychological-ownership-a-multi-sport-bra.md",
+      "raw/papers/organization_science/the-anti-corruption-ecosystem-in-ensuring-the-states-economic-security-the-evolu.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "intermediary-dual-effect-and-critical-threshold-dominance",
+    "title_ja": "仲介構造の二重効果と臨界閾値での支配反転",
+    "title_en": "Intermediary Dual Effects and Threshold-Driven Dominance Reversal",
+    "tier": 1,
+    "description": "仲介者の効率化効果は一定の閾値を超えると価値抽出効果に支配される。購入者・利用者側の統制設計が権力配分の反転を抑える。",
+    "mechanisms": [
+      "相反する二つの効果の競合",
+      "臨界閾値による支配的メカニズムの反転",
+      "統制権限の所在設計"
+    ],
+    "related_domains": [
+      "organization_science"
+    ],
+    "source_files": [
+      "raw/papers/organization_science/icarus-in-the-digital-economy-navigating-the-dual-impact-of-platform-adoption-on.md",
+      "raw/papers/organization_science/from-ai-governance-to-purchaser-control-a-comparative-analysis-of-public-sector-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
