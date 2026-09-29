@@ -20691,5 +20691,157 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "imprinting-and-historical-trace-conditioned-adoption",
+    "title_ja": "刻印と履歴痕跡による後続の制約・アクセス条件の形成",
+    "title_en": "Imprinting and History-Conditioned Accessibility",
+    "tier": 1,
+    "description": "形成期の経験や過去の履歴が、後続の主体・組織・システムが何にアクセスし何を採用できるかを不可逆的に規定し、慣性的に段階移行させる。",
+    "mechanisms": [
+      "刻印(インプリンティング)",
+      "経路依存性",
+      "履歴による選択肢空間の制約",
+      "文化的慣性"
+    ],
+    "related_domains": [
+      "evolutionary_biology"
+    ],
+    "source_files": [
+      "raw/papers/evolutionary_biology/echoes-of-the-past-understanding-cultural-heritage-digitalisation-through-an-imp.md",
+      "raw/papers/evolutionary_biology/gendered-cultural-discourse-in-japan-across-the-prewarpostwar-transition-evidenc.md",
+      "raw/papers/evolutionary_biology/works-for-992026---jimmy-cricket.md",
+      "raw/papers/evolutionary_biology/digital-transformation-and-digital-competitive-advantage-evidence-from-chinas-sp.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "self-generated-environment-coformation-loop",
+    "title_ja": "主体と環境の相互構築による共形成ループ",
+    "title_en": "Agent-Environment Co-Formation Loop",
+    "tier": 1,
+    "description": "主体が自らの活動基盤(ニッチ・規範・情報の生息環境)を構築し、その環境が主体を再形成する再帰的共進化が、複雑系の制御と社会形成の基本原理となる。",
+    "mechanisms": [
+      "ニッチ構築",
+      "再帰的フィードバック",
+      "規範の内在化",
+      "共進化"
+    ],
+    "related_domains": [
+      "evolutionary_biology"
+    ],
+    "source_files": [
+      "raw/papers/evolutionary_biology/human-ai-coevolution-dynamics-a-formal-theory-of-social-intelligence-emergence-t.md",
+      "raw/papers/evolutionary_biology/niche-construction-a-rational-engineering-strategy-for-regulating-microbial-asse.md",
+      "raw/papers/evolutionary_biology/agi-imagined-social-agi-and-the-co-formation-of-human-agi-society.md",
+      "raw/papers/evolutionary_biology/a-coevolutionary-account-of-normative-humanai-interaction.md",
+      "raw/papers/evolutionary_biology/when-information-built-its-own-habitat-relational-persistence-informational-ecol.md",
+      "raw/papers/evolutionary_biology/living-concepts-thirty-research-axes-from-conceptual-life-and-humanai-coevolutio.md",
+      "raw/papers/evolutionary_biology/single-cell-rna-sequencing-reveals-disrupted-stromal-epithelial-crosstalk-impair.md",
+      "raw/papers/evolutionary_biology/the-underdiagnosis-of-endometriosis-epistemic-and-affective-injustices-in-the-me.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "structural-position-over-node-attributes-in-network-flow",
+    "title_ja": "ノード属性ではなく構造的位置・トポロジーが流通と合意を決める",
+    "title_en": "Structural Position and Topology Determine Flow and Consensus",
+    "tier": 1,
+    "description": "情報・知識・意見の流れや断片化は、個々の主体の特性ではなく、仲介位置・結合構造・ネットワーク再配線によって決まる。",
+    "mechanisms": [
+      "構造的仲介(ブローカレッジ)",
+      "ネットワークトポロジーによる創発",
+      "多層結合による増幅",
+      "限定信頼による断片化"
+    ],
+    "related_domains": [
+      "evolutionary_biology"
+    ],
+    "source_files": [
+      "raw/papers/evolutionary_biology/focal-collective-actors-as-narrative-structures-cross-platform-brokerage-in-digi.md",
+      "raw/papers/evolutionary_biology/reinforcement-learning-driven-adaptive-rewiring-modulates-fragmentation-depth-in.md",
+      "raw/papers/evolutionary_biology/from-processing-centered-innovation-to-analytical-diversification-network-evolut.md",
+      "raw/papers/evolutionary_biology/spatially-constrained-virtual-physical-coupling-in-info-epidemic-coevolution-an-.md",
+      "raw/papers/evolutionary_biology/the-nonhuman-in-african-philosophy-edition-1.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "mediation-visibility-and-curation-bias-amplification",
+    "title_ja": "媒介・選択的可視化による評価とバイアスの増幅",
+    "title_en": "Mediation, Curation and Bias Amplification",
+    "tier": 1,
+    "description": "AIなどの媒介層は情報を選択・要約・変換することで可視性を再配分し、内在的品質と無関係に評価を増幅し、データの統計的偏りや真正性基準の喪失を再生産する。",
+    "mechanisms": [
+      "選択的可視性によるアクセシビリティ増幅",
+      "訓練データ統計の再生産",
+      "認識論的信頼性の構造的剥奪",
+      "真正性基準の喪失"
+    ],
+    "related_domains": [
+      "evolutionary_biology"
+    ],
+    "source_files": [
+      "raw/papers/evolutionary_biology/when-ai-selects-reviews-how-algorithmic-visibility-shapes-review-helpfulness.md",
+      "raw/papers/evolutionary_biology/when-models-meet-sensors-a-structured-review-and-is-research-agenda-for-generati.md",
+      "raw/papers/evolutionary_biology/descriptions-of-women-are-longer-than-those-of-men-an-analysis-of-gender-portray.md",
+      "raw/papers/evolutionary_biology/chapter-2-legal-protection-of-cultural-heritage-in-the-age-of-generative-artific.md",
+      "raw/papers/evolutionary_biology/the-underdiagnosis-of-endometriosis-epistemic-and-affective-injustices-in-the-me.md",
+      "raw/papers/evolutionary_biology/two-political-imaginaries-of-ai-in-western-philosophy.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "fluency-induced-expertise-illusion-and-responsibility-erosion",
+    "title_ja": "支援の流暢さによる専門性の錯覚と責任の希薄化",
+    "title_en": "Illusion of Expertise and Responsibility Erosion under Automation",
+    "tier": 2,
+    "description": "自動化支援は出力の流暢さにより自信過剰と責任感の低下を生み、成果は利用者の能力・認知スタイルとの適合度に依存して分岐する(自動化パラドックス)。",
+    "mechanisms": [
+      "自動化パラドックス",
+      "能力知覚の較正失敗",
+      "責任の拡散",
+      "能力と支援の適合"
+    ],
+    "related_domains": [
+      "evolutionary_biology"
+    ],
+    "source_files": [
+      "raw/papers/evolutionary_biology/generative-ai-in-knowledge-work-a-breeding-ground-for-the-illusion-of-expertise-.md",
+      "raw/papers/evolutionary_biology/generative-artificial-intelligence-and-the-development-of-english-oral-skills-pe.md",
+      "raw/papers/evolutionary_biology/artificial-intelligence-in-higher-education-the-interplay-of-competence-percepti.md",
+      "raw/papers/evolutionary_biology/leadership-in-the-age-of-ai-introducing-file-the-five-intelligences-of-leadershi.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "human-centered-capability-accumulation-and-socio-technical-fit",
+    "title_ja": "人間中心の参加と知識蓄積による技術導入の成否",
+    "title_en": "Participation, Knowledge Accumulation and Socio-Technical Fit in Technology Adoption",
+    "tier": 1,
+    "description": "技術投資の成果は、知識蓄積・従業員の参加と適応能力・制度インフラとの相互依存、および異質なアクターの利害整合によって決まる。",
+    "mechanisms": [
+      "知識蓄積による優位性生成",
+      "補完的資産の相互依存",
+      "アクター間の利害・能力の不一致",
+      "参加による適応能力"
+    ],
+    "related_domains": [
+      "evolutionary_biology"
+    ],
+    "source_files": [
+      "raw/papers/evolutionary_biology/digital-transformation-and-digital-competitive-advantage-evidence-from-chinas-sp.md",
+      "raw/papers/evolutionary_biology/mitigating-the-resource-curse-of-fossil-fuel-rent-dependence-the-role-of-artific.md",
+      "raw/papers/evolutionary_biology/the-indian-economy-in-the-age-of-artificial-intelligence-transforming-growth-gov.md",
+      "raw/papers/evolutionary_biology/human-centered-technology-management-for-innovation-and-sustainable-competitive-.md",
+      "raw/papers/evolutionary_biology/digital-agricultural-technologies-and-sustainable-agri-food-system-transformatio.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
