@@ -22160,5 +22160,179 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "assurance-evidence-parity-and-governance-facade",
+    "title_ja": "保証と証拠の均衡:ガバナンスの見せかけ(ラウンダリング)の構造",
+    "title_en": "Assurance–Evidence Parity and Governance Facades",
+    "tier": 1,
+    "description": "主張される保証水準が、それを支える検証可能な証拠・強制力を上回るとき、ガバナンスは形骸化する。生成から廃止までの全期間で証拠を段階的に要求し、独立検証可能にすることが正統性の条件となる。",
+    "mechanisms": [
+      "証拠に基づく段階的ゲート(認可)",
+      "保証と証拠の乖離(形式化された遵守の空洞化)",
+      "独立検証による正統性の担保"
+    ],
+    "related_domains": [
+      "information_systems",
+      "innovation_management"
+    ],
+    "source_files": [
+      "raw/papers/information_systems/lifecycle-governance-doctrine-lgd-evidence-gated-ai-lifecycle-governance.md",
+      "raw/papers/information_systems/governance-laundering-a-taxonomy-of-failure-modes-in-ai-compliance-architectures.md",
+      "raw/papers/innovation_management/public-policy-imperatives-for-emerging-ai-surveillance-technologies.md",
+      "raw/papers/innovation_management/administrative-digital-twins-for-ai-supported-performance-management-in-regional.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "institutional-readiness-gates-technology-diffusion",
+    "title_ja": "制度的成熟度が技術普及を規定する構造",
+    "title_en": "Institutional Readiness as the Gate of Technology Diffusion",
+    "tier": 1,
+    "description": "技術的優位は普及の十分条件でも必要条件でもなく、標準・法制度・組織体制といった制度インフラとの間のギャップが普及の成否を決める。導入は段階的・モジュール的に進む必要がある。",
+    "mechanisms": [
+      "技術能力と制度的準備のギャップ",
+      "段階的モジュール展開による不確実性の吸収",
+      "経路依存性"
+    ],
+    "related_domains": [
+      "information_systems",
+      "innovation_management"
+    ],
+    "source_files": [
+      "raw/papers/information_systems/handling-a-hyped-technology-towards-an-ai-management-capability-maturity-model-f.md",
+      "raw/papers/information_systems/technical-superiority-without-institutional-readiness-the-war-of-the-currents-as.md",
+      "raw/papers/innovation_management/ways-to-implement-innovation-and-automation-in-logistics.md",
+      "raw/papers/innovation_management/nexusforum-research-and-innovation-roadmap.md",
+      "raw/papers/innovation_management/disruptive-technologies-and-business-models-in-contemporary-book-publishing.md",
+      "raw/papers/innovation_management/navigating-the-china-plus-one-paradigm-a-comparative-study-of-global-manufacturi.md",
+      "raw/papers/innovation_management/the-influence-mechanism-of-ai-entrepreneurship-on-carbon-emissions.md",
+      "raw/papers/innovation_management/turning-regulation-into-sustainability-performance-the-role-of-ai-enabled-absorp.md",
+      "raw/papers/innovation_management/awareness-before-application-institutional-absorptive-capacity-and-smaller-firms.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "surface-openness-masking-structural-power",
+    "title_ja": "表層的相互運用性が構造的権力を温存するメカニズム",
+    "title_en": "Surface Interoperability Masking Structural Power and Asymmetry",
+    "tier": 1,
+    "description": "技術的相互運用性や情報能力の集中は「開放」の外観を与えつつ、利益相反・権力構造・情報非対称・説明責任の断絶を温存し、個別合理性が全体最適を損なう均衡を固定化する。",
+    "mechanisms": [
+      "情報の非対称性",
+      "境界資源を通じた権力の温存",
+      "個別利害と全体最適の不一致(協調の失敗)"
+    ],
+    "related_domains": [
+      "innovation_management"
+    ],
+    "source_files": [
+      "raw/papers/innovation_management/platform-interoperability-without-openness-the-comfort-zone-that-suffocates-data.md",
+      "raw/papers/innovation_management/public-policy-imperatives-for-emerging-ai-surveillance-technologies.md",
+      "raw/papers/innovation_management/economics-for-the-global-economic-order-the-tragedy-of-epic-fail-equilibria.md",
+      "raw/papers/innovation_management/openness-of-public-data-and-corporate-artificial-intelligence-innovation.md",
+      "raw/papers/innovation_management/hired-by-the-algorithm-how-criminal-networks-are-using-ai-to-recruit-across-the-.md",
+      "raw/papers/innovation_management/transforming-cyber-security-with-ai-current-hurdles-and-future-horizons.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "absorptive-capacity-mediates-imitation-and-internalization",
+    "title_ja": "吸収能力が模倣を内化へ転換する条件",
+    "title_en": "Absorptive Capacity as the Condition Converting Imitation into Internalization",
+    "tier": 1,
+    "description": "外部リソース・規制・トレンド・公開データは、それを認識し取り込み内化する能力を媒介してのみ成果に変わる。認識段階が採用行動に先行し、模倣だけでは価値は生じない。",
+    "mechanisms": [
+      "吸収能力による媒介",
+      "認知資源の解放と再配分",
+      "模倣と内化の非対称性(同調行動)"
+    ],
+    "related_domains": [
+      "innovation_management"
+    ],
+    "source_files": [
+      "raw/papers/innovation_management/herding-toward-ai-how-following-the-trend-affects-firm-investments.md",
+      "raw/papers/innovation_management/openness-of-public-data-and-corporate-artificial-intelligence-innovation.md",
+      "raw/papers/innovation_management/ai-advertising-and-sellers-innovation-decisions.md",
+      "raw/papers/innovation_management/turning-regulation-into-sustainability-performance-the-role-of-ai-enabled-absorp.md",
+      "raw/papers/innovation_management/awareness-before-application-institutional-absorptive-capacity-and-smaller-firms.md",
+      "raw/papers/innovation_management/the-application-of-artificial-intelligence-and-the-resilience-of-manufacturing-e.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "tacit-knowledge-codification-tradeoff",
+    "title_ja": "暗黙知の形式化と創造性のトレードオフ",
+    "title_en": "Tacit Knowledge Codification Trade-off and Conceptual Innovation",
+    "tier": 1,
+    "description": "暗黙知の明示化は共有と能力向上を促すが、身体的・文脈的知は完全には記号化できず、過度な形式化やインセンティブ偏重は問題フレームの再定義(概念的革新)を阻害する。",
+    "mechanisms": [
+      "暗黙知の記号化限界",
+      "指標最適化によるインセンティブ歪み",
+      "形式化と創造性のトレードオフ"
+    ],
+    "related_domains": [
+      "innovation_management"
+    ],
+    "source_files": [
+      "raw/papers/innovation_management/beyond-algorithms-conceptual-innovation-in-medical-imaging-ai.md",
+      "raw/papers/innovation_management/reconceptualizing-tacit-knowledge-transferring-in-the-age-of-ai-and-human-collab.md",
+      "raw/papers/innovation_management/knowledge-codification-mechanism-and-innovation-capabilities.md",
+      "raw/papers/innovation_management/the-hybrid-artisan-integrating-ai-powered-design-tools-with-traditional-craftsma.md",
+      "raw/papers/innovation_management/administrative-digital-twins-for-ai-supported-performance-management-in-regional.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "threat-appraisal-versus-coping-efficacy-resistance",
+    "title_ja": "脅威知覚と対処効力の不均衡による抵抗と負荷適応",
+    "title_en": "Threat Appraisal–Coping Efficacy Imbalance and Adaptive Load Regulation",
+    "tier": 1,
+    "description": "脅威知覚が対処評価を上回ると非適応的な抵抗や回避が生じる。人間-AI協調系では認知負荷・疲労のような有限資源の変動を検知し、支援配分を適応させることが協調の条件となる。",
+    "mechanisms": [
+      "脅威知覚と対処評価の不均衡",
+      "有限な認知資源の制約",
+      "適応的フィードバックによる負荷調整"
+    ],
+    "related_domains": [
+      "information_systems",
+      "innovation_management"
+    ],
+    "source_files": [
+      "raw/papers/innovation_management/resisting-the-machine-explaining-employee-ai-resistance-using-pmt-and-ttat.md",
+      "raw/papers/information_systems/a-systems-approach-framework-for-fatigue-aware-interactive-evolutionary-design-a.md",
+      "raw/papers/innovation_management/the-ai-augmented-ophthalmologist-for-chronic-ocular-diseases-a-patient-centered-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "constraint-driven-resilience-and-diversification",
+    "title_ja": "制約下のレジリエンスと冗長化・多元化",
+    "title_en": "Resilience through Diversification under Constraint and Spatial Coupling",
+    "tier": 2,
+    "description": "不確実性・脆弱性のある環境では、拠点や能力の多元化と地域間の相互作用が効率とレジリエンスを決め、導入初期のコストと長期的効率化は非線形な曲線を描く。",
+    "mechanisms": [
+      "冗長性・多元化によるリスク分散",
+      "空間的相互作用による増幅・減衰",
+      "初期コストと長期効率の非線形性(逆U字)"
+    ],
+    "related_domains": [
+      "innovation_management"
+    ],
+    "source_files": [
+      "raw/papers/innovation_management/the-application-of-artificial-intelligence-and-the-resilience-of-manufacturing-e.md",
+      "raw/papers/innovation_management/the-influence-mechanism-of-ai-entrepreneurship-on-carbon-emissions.md",
+      "raw/papers/innovation_management/spatial-correlation-network-structure-and-influencing-factors-of-agricultural-ec.md",
+      "raw/papers/innovation_management/navigating-the-china-plus-one-paradigm-a-comparative-study-of-global-manufacturi.md",
+      "raw/papers/innovation_management/artificial-intelligence-for-microplastic-pollution-monitoring-predictive-modelin.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
   }
 ]
