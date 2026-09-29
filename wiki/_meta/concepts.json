@@ -18489,5 +18489,160 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "upstream-schema-ceiling-on-downstream-capability",
+    "title_ja": "上流の表現構造による下流能力の上限規定",
+    "title_en": "Upstream Representation Ceiling on Downstream Capability",
+    "tier": 1,
+    "description": "データ・スキーマ・アノテーション・評価基準など上流の表現設計が、下流で実現できる能力や測定の妥当性の上限を恒久的に決め、後から容易には覆せない。",
+    "mechanisms": [
+      "経路依存性",
+      "技術的負債の累積",
+      "情報の表現形式による制約",
+      "指標の汚染(リーク)による過大評価"
+    ],
+    "related_domains": [
+      "behavioral_economics"
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/fair-compliance-ai-readiness-and-ontology-maturity-of-garment-datasets-a-systema.md",
+      "raw/papers/behavioral_economics/ai-load-dynamicsa-power-electronics-perspective.md",
+      "raw/papers/behavioral_economics/bias-mitigation-across-the-healthcare-artificial-intelligence-lifecycle-a-struct.md",
+      "raw/papers/behavioral_economics/auditing-feature-level-label-leakage-in-intrusion-detection-benchmarks-using-mut.md",
+      "raw/papers/behavioral_economics/lice-guided-sensitivity-oriented-model-refinement-for-diabetes-prediction-an-abl.md",
+      "raw/papers/behavioral_economics/information-architecture-debt-why-legacy-platform-schema-decisions-constrain-ent.md",
+      "raw/papers/behavioral_economics/artificial-intelligence-and-androcentric-normativity.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "reliance-calibration-between-aversion-and-overtrust",
+    "title_ja": "回避と過信の間の依存度キャリブレーション",
+    "title_en": "Reliance Calibration Between Aversion and Over-Trust",
+    "tier": 1,
+    "description": "支援システムへの信頼は過小(回避)と過大(過信)の両極の間で較正される必要があり、その較正は提示形式・多面的理解・個人特性・脅威評価の相互作用で決まる。",
+    "mechanisms": [
+      "信頼の多次元性",
+      "自動化バイアス",
+      "提示形式×個人特性の相互作用",
+      "透明性による理解形成"
+    ],
+    "related_domains": [
+      "behavioral_economics"
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/addressing-trust-in-ai-systems-through-education-a-didactic-perspective.md",
+      "raw/papers/behavioral_economics/identifying-conceptual-dimensions-of-trust-in-artificial-intelligence-from-quali.md",
+      "raw/papers/behavioral_economics/mindfulness-creative-self-efficacy-and-communal-agentic-orientation-in-humanai-d.md",
+      "raw/papers/behavioral_economics/technology-anxiety-and-brand-trust-consumer-responses-to-generative-ai-advertisi.md",
+      "raw/papers/behavioral_economics/when-should-managers-trust-generative-ai-calibrating-human-reliance-from-algorit.md",
+      "raw/papers/behavioral_economics/behavioural-decision-making-in-the-age-of-ai-minds-vs-models.md",
+      "raw/papers/behavioral_economics/adaptive-selection-of-effective-ai-assistance-in-ai-assisted-decision-making-usi.md",
+      "raw/papers/behavioral_economics/humanai-interaction-in-cybersecurity-a-theoretical-study-on-cognitive-bias-and-d.md",
+      "raw/papers/behavioral_economics/is-ai-adoption-a-pro-environmental-choice-integrating-value-belief-norm-theory-a.md",
+      "raw/papers/behavioral_economics/empowerment-or-disempowerment-how-generative-ai-consultation-shapes-the-health-d.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "epistemic-friction-and-sycophancy-erosion",
+    "title_ja": "認識的摩擦の喪失と迎合による自律性の侵食",
+    "title_en": "Epistemic Friction Loss and Sycophantic Erosion of Autonomy",
+    "tier": 1,
+    "description": "助言者が受け手に同調する構造は、異論・摩擦を消して判断の自律性と主体感を侵食するため、異議可能性や意思決定への参加を設計に組み込む必要がある。",
+    "mechanisms": [
+      "迎合(同調)によるフィードバック歪み",
+      "主体感・心理的所有感",
+      "異議可能性の保障",
+      "確認バイアスの増幅"
+    ],
+    "related_domains": [
+      "behavioral_economics"
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/an-exploratory-study-into-the-relationship-between-sycophantic-behavior-in-large.md",
+      "raw/papers/behavioral_economics/designing-for-disagreement-epistemic-friction-sycophancy-and-the-ethics-of-human.md",
+      "raw/papers/behavioral_economics/your-choice-your-team-psychological-ownership-and-ai-decision-making.md",
+      "raw/papers/behavioral_economics/residual-governance-for-responsible-embodied-ai-authority-contestability-and-cog.md",
+      "raw/papers/behavioral_economics/the-finfluencer-fomo-nexus-conceptualizing-social-media-driven-investment-volati.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "decision-cycle-compression-and-residual-authority",
+    "title_ja": "意思決定サイクルの圧縮と残余権限の設計",
+    "title_en": "Decision-Cycle Compression and Residual Authority Design",
+    "tier": 1,
+    "description": "自動化は速度と感知力を高める一方で判断時間を圧縮し誤認リスクを生むため、計算可能な作業と規範判断の境界、残存エラーと権限配置を明示的に設計する必要がある。",
+    "mechanisms": [
+      "時間圧縮による誤認",
+      "作業の計算可能性と規範判断の境界",
+      "残存誤差の明示的ガバナンス",
+      "個人自律と集団利益のトレードオフ"
+    ],
+    "related_domains": [
+      "behavioral_economics"
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/substance-form-and-machines-ai-assistance-and-human-normative-judgment-in-taxati.md",
+      "raw/papers/behavioral_economics/algorithmic-geopolitics-in-the-eastern-mediterranean.md",
+      "raw/papers/behavioral_economics/fostering-reflection-on-the-ethical-dimension-of-personal-health-monitoring-in-t.md",
+      "raw/papers/behavioral_economics/residual-governance-for-responsible-embodied-ai-authority-contestability-and-cog.md",
+      "raw/papers/behavioral_economics/codesign-and-system-integration-as-interacting-demands-in-digital-health-for-you.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "finite-cognitive-resources-and-load-thresholds",
+    "title_ja": "有限資源と負荷閾値による非線形破綻",
+    "title_en": "Finite Resources and Nonlinear Breakdown at Load Thresholds",
+    "tier": 1,
+    "description": "認知・生理・電力など有限な資源系は、負荷の急変や複数因子の相互作用により閾値を超えると非線形に機能不全へ遷移するため、最終段のボトルネックと負荷動態を設計対象とする。",
+    "mechanisms": [
+      "有限合理性(資源の有限性)",
+      "閾値を超える非線形遷移",
+      "最終段ボトルネック",
+      "情報過負荷"
+    ],
+    "related_domains": [
+      "behavioral_economics"
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/ai-load-dynamicsa-power-electronics-perspective.md",
+      "raw/papers/behavioral_economics/empowerment-or-disempowerment-how-generative-ai-consultation-shapes-the-health-d.md",
+      "raw/papers/behavioral_economics/a-tripartite-account-of-phishing-detection-the-importance-of-glucose-in-supporti.md",
+      "raw/papers/behavioral_economics/from-the-lethal-triad-to-the-lethal-diamond-and-beyond-an-aiaugmented-perspectiv.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "coordination-driven-hierarchical-structure-formation",
+    "title_ja": "協調的生産要件による階層構造の生成と社会的増幅",
+    "title_en": "Coordination Requirements Generating Hierarchy and Social Amplification",
+    "tier": 1,
+    "description": "協調を要する生産の空間的・制度的要件が階層構造を生み、影響者経由の情報や規範の再強化が集団行動やバイアスを増幅する。",
+    "mechanisms": [
+      "協調要件による構造生成",
+      "羊群行動(ハーディング)",
+      "規範の再強化ループ",
+      "利害関係者間の非整合性"
+    ],
+    "related_domains": [
+      "behavioral_economics"
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/irrigation-rationality-a-behavioral-account-of-rural-settlement-hierarchy.md",
+      "raw/papers/behavioral_economics/the-finfluencer-fomo-nexus-conceptualizing-social-media-driven-investment-volati.md",
+      "raw/papers/behavioral_economics/artificial-intelligence-and-androcentric-normativity.md",
+      "raw/papers/behavioral_economics/codesign-and-system-integration-as-interacting-demands-in-digital-health-for-you.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
