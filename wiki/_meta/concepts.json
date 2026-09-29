@@ -17876,5 +17876,185 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "evidence-bearing-decision-traceability",
+    "title_ja": "証拠を伴う意思決定の追跡可能性",
+    "title_en": "Evidence-Bearing Decision Traceability",
+    "tier": 1,
+    "description": "判断・データ・改訂が第三者検証可能な証拠(因果経路の宣言、系譜、署名付き記録、開示可能な変更履歴)として残って初めて説明責任が成立する、という構造。想起や自己申告は証拠にならない。",
+    "mechanisms": [
+      "検証可能な証拠の連鎖",
+      "情報の非対称性の縮減",
+      "監査可能性による正当性の担保"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/causal-evidentiary-governance-for-high-risk-machine-learning-systems.md",
+      "raw/papers/ai_governance/measuring-ai-accountability-through-argumentation-analysis-can-model-reasoning-w.md",
+      "raw/papers/ai_governance/silent-revision-measuring-undisclosed-change-in-the-safety-frameworks-of-frontie.md",
+      "raw/papers/ai_governance/reproducibility-in-the-age-of-agentic-ai-context-engineering-at-the-timescale-of.md",
+      "raw/papers/ai_governance/buyer-artificial-intelligence-enabled-environmental-governance-and-supplier-envi.md",
+      "raw/papers/ai_governance/the-ai-data-governance-framework-a-five-stage-control-system-for-the-data-bounda.md",
+      "raw/papers/ai_governance/the-defensible-ai-framework-registry-definitions-and-relationships-for-the-gover.md",
+      "raw/papers/ai_governance/principles-of-good-governance-in-the-age-of-ai.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "causal-grounding-over-correlation",
+    "title_ja": "相関を超える因果的根拠づけ",
+    "title_en": "Causal Grounding Over Correlation",
+    "tier": 1,
+    "description": "観察的な相関指標では交絡や擬似相関を見分けられず、公正性・帰属・評価の妥当性は因果構造や構成概念妥当性の検証に依存する。",
+    "mechanisms": [
+      "交絡による擬似相関",
+      "因果構造の識別",
+      "測定の構成概念妥当性"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/causal-evidentiary-governance-for-high-risk-machine-learning-systems.md",
+      "raw/papers/ai_governance/algorithmic-fairness-via-causal-discovery.md",
+      "raw/papers/ai_governance/moral-competence-before-moral-content-why-llm-agents-lack-the-prerequisites-for-.md",
+      "raw/papers/ai_governance/what-ai-benchmarks-actually-measure-adapting-convergent-and-discriminant-validit.md",
+      "raw/papers/ai_governance/gps-bench-a-governance-policy-benchmark-for-automating-policy-analysis.md",
+      "raw/papers/ai_governance/who-bears-the-risk-when-generative-ai-enters-transport-a-distributional-sociotec.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "interaction-emergent-coordination",
+    "title_ja": "相互作用から創発する協調と逸脱の伝染",
+    "title_en": "Interaction-Emergent Coordination and Contagion",
+    "tier": 1,
+    "description": "社会的知能も不正も、個体の性質ではなく主体間の結合様式(時間同期、共有基盤、フィードバック)から創発し、共有基盤を通じて伝播する。",
+    "mechanisms": [
+      "結合による創発",
+      "共有基盤を介した伝染",
+      "フィードバックループ",
+      "相転移"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/temporal-coupling-as-a-design-principle-for-social-ai.md",
+      "raw/papers/ai_governance/the-rise-of-verbal-reinforcement-learning.md",
+      "raw/papers/ai_governance/a-case-study-on-emergent-cheating-and-whistleblowing-in-autonomous-research-swar.md",
+      "raw/papers/ai_governance/shifting-from-injection-to-interaction-rethinking-web-security-in-the-age-of-llm.md",
+      "raw/papers/ai_governance/artificial-id-drive-and-persistent-alignment-in-agentic-ai.md",
+      "raw/papers/ai_governance/after-the-party-governing-what-a-viral-agent-skill-ecosystem-left-behind.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "incentive-compatible-control-of-hidden-agents",
+    "title_ja": "隠れた能力・選好を持つ主体のインセンティブ整合的制御",
+    "title_en": "Incentive-Compatible Control of Hidden-Type Agents",
+    "tier": 1,
+    "description": "主体の能力や選好が観測できない時、誠実性と従順性を同時に引き出す仕組み設計が必要となり、非対称性を利用する側と防ぐ側の経済性(乗数的結合)が介入効果を決める。",
+    "mechanisms": [
+      "プリンシパル＝エージェント問題",
+      "情報の非対称性",
+      "乗数的コスト構造によるインセンティブ操作"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/effective-interventions-against-ai-enhanced-scams.md",
+      "raw/papers/ai_governance/mechanism-design-for-alignment-and-control.md",
+      "raw/papers/ai_governance/buyer-artificial-intelligence-enabled-environmental-governance-and-supplier-envi.md",
+      "raw/papers/ai_governance/existential-risk-or-engineered-safety-anthropic-ceo-dario-amodeis-position-on-ai.md",
+      "raw/papers/ai_governance/algorithmic-justice-in-the-platform-republic-constitutional-rights-accountabilit.md",
+      "raw/papers/ai_governance/detoxifying-toxic-communication-a-design-science-approach-to-responsible-ai.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "concentration-driven-systemic-risk-propagation",
+    "title_ja": "集中と単一障害点によるシステミックリスクの非線形伝播",
+    "title_en": "Concentration-Driven Systemic Risk Propagation",
+    "tier": 1,
+    "description": "共有依存(ベンダー、レジストリ、主権的依存)への集中は障害や攻撃を連鎖的・非線形に増幅し、規制対象の移行(訓練から推論時)や急成長エコシステムの事後統制の困難を生む。",
+    "mechanisms": [
+      "単一障害点への集中",
+      "連鎖的伝播",
+      "経路依存性",
+      "規制対象と能力所在のずれ"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/cyber-financial-contagion-modeling-the-propagation-of-an-ai-vendor-compromise-th.md",
+      "raw/papers/ai_governance/beyond-training-a-feasibility-taxonomy-for-inference-time-ai-governance.md",
+      "raw/papers/ai_governance/digital-sovereignty-and-strategic-autonomy-in-the-age-of-ai.md",
+      "raw/papers/ai_governance/after-the-party-governing-what-a-viral-agent-skill-ecosystem-left-behind.md",
+      "raw/papers/ai_governance/everything-in-moderation-per-domain-coverage-optima-and-alignment-resistant-doma.md",
+      "raw/papers/ai_governance/shifting-from-injection-to-interaction-rethinking-web-security-in-the-age-of-llm.md",
+      "raw/papers/ai_governance/effective-interventions-against-ai-enhanced-scams.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "moral-competence-as-structural-coherence",
+    "title_ja": "構造的一貫性としての道徳的能力と価値多元性下の統治",
+    "title_en": "Moral Competence as Structural Coherence under Value Pluralism",
+    "tier": 1,
+    "description": "価値の正解が争われる状況では、内容の正しさよりも判断の一貫性・論証の構造的品質が評価基準となり、利害対立は技術最適化でなく制度設計で扱う必要がある。",
+    "mechanisms": [
+      "形式的一貫性による評価",
+      "価値多元性下の手続的正当性",
+      "ステークホルダー間の利害対立"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/measuring-ai-accountability-through-argumentation-analysis-can-model-reasoning-w.md",
+      "raw/papers/ai_governance/moral-competence-before-moral-content-why-llm-agents-lack-the-prerequisites-for-.md",
+      "raw/papers/ai_governance/critical-issues-with-the-application-of-algorithms-in-risk-assessment-and-predic.md",
+      "raw/papers/ai_governance/principles-of-good-governance-in-the-age-of-ai.md",
+      "raw/papers/ai_governance/towards-ethical-ai-a-structured-review-of-responsible-development-and-deployment.md",
+      "raw/papers/ai_governance/algorithmic-justice-in-the-platform-republic-constitutional-rights-accountabilit.md",
+      "raw/papers/ai_governance/detoxifying-toxic-communication-a-design-science-approach-to-responsible-ai.md",
+      "raw/papers/ai_governance/existential-risk-or-engineered-safety-anthropic-ceo-dario-amodeis-position-on-ai.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "context-engineering-cost-structure",
+    "title_ja": "文脈維持コストと再現性・自己制御の構造",
+    "title_en": "Context Maintenance Cost Structure and Self-Regulation",
+    "tier": 1,
+    "description": "再現性や継続的な振る舞い制御は、文脈(記録、指示、決定履歴、内的駆動)を維持するコスト構造で決まり、エージェントはそのコストを下げるが検証責任は人に残る。",
+    "mechanisms": [
+      "維持コストの低下による実践の即時的便益化",
+      "外部規則から内部駆動への制御移行",
+      "検証責任の残存"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/reproducibility-in-the-age-of-agentic-ai-context-engineering-at-the-timescale-of.md",
+      "raw/papers/ai_governance/artificial-id-drive-and-persistent-alignment-in-agentic-ai.md",
+      "raw/papers/ai_governance/the-rise-of-verbal-reinforcement-learning.md",
+      "raw/papers/ai_governance/the-defensible-ai-framework-registry-definitions-and-relationships-for-the-gover.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
