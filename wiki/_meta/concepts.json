@@ -20106,5 +20106,149 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "compensatory-adaptation-hidden-erosion",
+    "title_ja": "補償的適応の枯渇と安定性の錯覚",
+    "title_en": "Compensatory Adaptation Depletion and the Illusion of Stability",
+    "tier": 1,
+    "description": "システムの安定した成果指標は、それを支える見えない補償的適応(人間の調整努力)の消耗を隠し、監視が成果物のみを見る限り劣化が突然の破綻まで検知されない。",
+    "mechanisms": [
+      "適応資源の枯渇",
+      "指標と基盤状態の乖離",
+      "閾値超過による急激な崩壊"
+    ],
+    "related_domains": [
+      "corporate_governance"
+    ],
+    "source_files": [
+      "raw/papers/corporate_governance/when-stable-performance-misleads-a-formal-model-of-compensation-dependent-system.md",
+      "raw/papers/corporate_governance/technology-empowerment-or-audit-burden-a-study-on-the-impact-of-generative-ai-on.md",
+      "raw/papers/corporate_governance/electric-ambulances-will-the-need-for-charging-affect-response-times.md",
+      "raw/papers/corporate_governance/car-ownership-and-economic-and-housing-insecurity-in-informal-settlements-in-sev.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "moral-responsibility-anchoring-in-decision-agents",
+    "title_ja": "意思決定主体への責任の錨づけと分散の抑止",
+    "title_en": "Anchoring Responsibility to Decision Agents Against Diffusion",
+    "tier": 1,
+    "description": "自動化・分散化が進んでも道徳的責任は人間の意思決定主体に帰属させねばならず、多主体・多層構造は説明責任ギャップを生むため、主体の明示化と開示が信頼形成の要となる。",
+    "mechanisms": [
+      "責任の分散と希釈",
+      "説明責任ギャップ",
+      "意思決定主体の開示による帰属形成"
+    ],
+    "related_domains": [
+      "corporate_governance"
+    ],
+    "source_files": [
+      "raw/papers/corporate_governance/frame.md",
+      "raw/papers/corporate_governance/what-does-it-take-to-protect-capital-in-the-age-of-ai-the-four-conditions-of-pro.md",
+      "raw/papers/corporate_governance/theorising-autonomous-systems-enabled-abuse-feminist-zemiological-and-post-pheno.md",
+      "raw/papers/corporate_governance/ai-led-or-human-led-disclosure-of-the-csr-decision-maker-motive-attribution-and-.md",
+      "raw/papers/corporate_governance/multi-stakeholder-transparency-evaluation-and-dynamic-accountability-mechanisms-.md",
+      "raw/papers/corporate_governance/unveiling-stewardship-theory-emerging-trends-and-future-direction.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "epistemic-agency-preservation-under-offloading",
+    "title_ja": "認知オフロード下での認識的主体性の維持",
+    "title_en": "Preserving Epistemic Agency Under Cognitive Offloading",
+    "tier": 1,
+    "description": "知的作業の外部化は効率と引き換えにスキルと自律性を侵食するため、メタ認知訓練など意図的な介入で学習主体の理解と判断力を維持する必要がある。",
+    "mechanisms": [
+      "認知オフロードとスキル減退のトレードオフ",
+      "メタ認知による自己調整",
+      "能力の継続的更新"
+    ],
+    "related_domains": [
+      "corporate_governance"
+    ],
+    "source_files": [
+      "raw/papers/corporate_governance/epistemic-agency-in-ai-mediated-education-a-prisma-2020-systematic-review-and-ph.md",
+      "raw/papers/corporate_governance/preserving-critical-thinking-in-a-time-of-pervasive-ai.md",
+      "raw/papers/corporate_governance/ai-competencies-and-lifelong-learning-for-vocational-teachers-evidence-from-thai.md",
+      "raw/papers/corporate_governance/a-dual-moderation-model-of-physical-activity-and-gender-in-the-relationship-betw.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "paradox-management-of-competing-legitimacy-logics",
+    "title_ja": "競合する正当性ロジックの逆説管理",
+    "title_en": "Paradox Management of Competing Legitimacy Logics",
+    "tier": 1,
+    "description": "組織は倫理・利益・包摂・自律といった解消不能な矛盾する論理を同時に抱え、統治とは矛盾を除去せず一時的に封じ込め続ける動的調整である。",
+    "mechanisms": [
+      "制度的緊張の共存",
+      "多層的コミュニケーション経路による適応",
+      "ステークホルダー異質性下の資源配分"
+    ],
+    "related_domains": [
+      "corporate_governance"
+    ],
+    "source_files": [
+      "raw/papers/corporate_governance/different-routes-same-storm-a-three-dimensional-paradox-view-of-generative-ais-g.md",
+      "raw/papers/corporate_governance/adaptive-governance-in-immigration-inspection-in-the-era-of-global-mobility.md",
+      "raw/papers/corporate_governance/managerial-intention-to-issue-green-bonds-sustainable-financing-capability-and-f.md",
+      "raw/papers/corporate_governance/executive-ai-capability-and-strategic-esg-decision-making-evidence-from-chinese-.md",
+      "raw/papers/corporate_governance/an-integrative-framework-operationalising-artificial-intelligence-destination-go.md",
+      "raw/papers/corporate_governance/chinas-ai-strategy-and-its-implications-for-global-governance.md",
+      "raw/papers/corporate_governance/health-governance-review-volume-31-issue-3-evidence-synthesis-for-health-governa.md",
+      "raw/papers/corporate_governance/board-diversity-and-organisational-resilience-of-oil-and-gas-servicing-companies.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "global-standard-local-context-reconciliation",
+    "title_ja": "普遍基準と局所文脈の調和および双方向知識交換",
+    "title_en": "Reconciling Universal Standards with Local Context via Bidirectional Exchange",
+    "tier": 1,
+    "description": "標準化された規範は局所の制約・文化に適応されねばならず、外部と当事者の双方向的な知識交換と参加構造が制度的正当性と能力構築を生む。",
+    "mechanisms": [
+      "標準と文脈の相互適応",
+      "双方向の知識交換",
+      "参加による正当性の獲得"
+    ],
+    "related_domains": [
+      "corporate_governance"
+    ],
+    "source_files": [
+      "raw/papers/corporate_governance/globalization-and-glocalization-in-graduate-medical-education-the-acgme-internat.md",
+      "raw/papers/corporate_governance/building-community-engaged-research-capacity-through-bidirectional-collaboration.md",
+      "raw/papers/corporate_governance/corporatecommunity-land-governance-for-peace-a-governance-materiality-framework-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "verification-cost-and-trust-testing-of-automated-advisors",
+    "title_ja": "自動化システムの検証コストと圧力試験による信頼判定",
+    "title_en": "Verification Cost and Stress-Testing for Trust in Automated Systems",
+    "tier": 1,
+    "description": "自動システムは倫理的矛盾や選択的開示を含みうるため、複雑性増大に伴う検証負担を前提に、段階的な圧力試験と多能力的ガバナンスで信頼を判定する。",
+    "mechanisms": [
+      "情報の非対称性",
+      "検証コストの増大",
+      "段階的圧力による整合性検証"
+    ],
+    "related_domains": [
+      "corporate_governance"
+    ],
+    "source_files": [
+      "raw/papers/corporate_governance/should-businesses-trust-ai-advice-a-methodology-to-audit-the-ethical-integrity-o.md",
+      "raw/papers/corporate_governance/ai-adoption-and-corporate-greenwashing-evidence-from-chinas-esg-industry.md",
+      "raw/papers/corporate_governance/ai-governance-capability-as-a-multidimensional-organizational-construct-implicat.md",
+      "raw/papers/corporate_governance/artificial-intelligence-adoption-and-corporate-internationalization-process-evid.md",
+      "raw/papers/corporate_governance/policy-design-for-ai-enabled-higher-institutions.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
