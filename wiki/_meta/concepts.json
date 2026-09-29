@@ -18644,5 +18644,139 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "absorption-capacity-bottleneck-saturation",
+    "title_ja": "吸収コスト・ボトルネックによる価値飽和",
+    "title_en": "Absorption-Cost Bottleneck and Value Saturation",
+    "tier": 1,
+    "description": "出力を生成する能力が、検証・解釈・統治・行動化といった吸収側の能力を超えると、追加投入の限界便益が逓減し、ボトルネックは生成から吸収へ移る。",
+    "mechanisms": [
+      "限界効用逓減",
+      "ボトルネック移動",
+      "有限な処理・検証能力"
+    ],
+    "related_domains": [
+      "business_ethics_csr"
+    ],
+    "source_files": [
+      "raw/papers/business_ethics_csr/beyond-access-the-ai-divide-and-sustained-value-creation-in-smes.md",
+      "raw/papers/business_ethics_csr/when-more-ai-creates-less-value-the-business-value-saturation-point-in-human-ai-.md",
+      "raw/papers/business_ethics_csr/data-centres-and-the-new-strategic-infrastructure-governance-from-cloud-esg-to-c.md",
+      "raw/papers/business_ethics_csr/how-aidriven-transformation-reshapes-competitiveness-in-incumbent-firms.md",
+      "raw/papers/business_ethics_csr/business-engineering-as-a-foundation-for-sustainable-ai-transformation-the-adaie.md",
+      "raw/papers/business_ethics_csr/building-esg-reporting-architecture-capabilities-through-artificial-intelligence.md",
+      "raw/papers/business_ethics_csr/artificial-intelligence-enabled-business-continuity-management-ai-governance-emp.md",
+      "raw/papers/business_ethics_csr/autonomous-circular-economy-systems-the-role-of-ai-agents-and-digital-twins-in-s.md",
+      "raw/papers/business_ethics_csr/ai-enabled-business-models-for-sustainability.md",
+      "raw/papers/business_ethics_csr/how-ai-application-empowers-corporate-green-transformation.md",
+      "raw/papers/business_ethics_csr/special-issue-editorial-location-analytics-shaping-the-future-of-is-education.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "visible-commitment-invisible-implementation-gap",
+    "title_ja": "可視的コミットメントと不可視な実装のギャップ",
+    "title_en": "Visible Commitment vs. Invisible Implementation Gap",
+    "tier": 1,
+    "description": "可視的な宣言・報告と検証困難な実装実態の乖離が、偽装(ウォッシング)の余地と信頼の急落を生み、検証を組み込み型インフラへ移行させる圧力となる。",
+    "mechanisms": [
+      "情報の非対称性",
+      "シグナリングと偽装",
+      "検証コストの構造",
+      "偽善ペナルティ"
+    ],
+    "related_domains": [
+      "business_ethics_csr"
+    ],
+    "source_files": [
+      "raw/papers/business_ethics_csr/ai-enabled-transparency-and-accountability-in-sustainability-reporting.md",
+      "raw/papers/business_ethics_csr/ai-driven-sustainability-reporting-and-corporate-greenwashing-legal-accountabili.md",
+      "raw/papers/business_ethics_csr/when-ethical-signaling-amplifies-technological-harm-hypocrisy-based-amplificatio.md",
+      "raw/papers/business_ethics_csr/mechanisms-of-digital-legitimacy-in-public-infrastructure-organizations-a-compar.md",
+      "raw/papers/business_ethics_csr/explainable-artificial-intelligence-framework-for-trustworthy-decision-support-s.md",
+      "raw/papers/business_ethics_csr/perceived-authenticity-of-ai-generated-tourism-video-and-destination-attractiven.md",
+      "raw/papers/business_ethics_csr/mapping-the-intellectual-structure-of-ai-driven-financial-governance.md",
+      "raw/papers/business_ethics_csr/beyond-the-fintech-proxy-the-ai-evidence-gap-and-esg-intelligence-divide-in-glob.md",
+      "raw/papers/business_ethics_csr/challenges-paradoxes-and-lessons-for-inclusive-ai-governance-an-interdisciplinar.md",
+      "raw/papers/business_ethics_csr/ai-with-integrity.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "administrative-substitution-and-judgment-residual",
+    "title_ja": "管理機能の代替と判断・価値選択への役割移行",
+    "title_en": "Administrative Substitution and the Residual of Judgment",
+    "tier": 2,
+    "description": "分析・調整・監視などの機能が機械に代替されると、人間の正当性の根拠は情報優位から、価値選択・責任・利害調整といった代替困難な判断へ移行する。",
+    "mechanisms": [
+      "機能代替と役割再定義",
+      "責任の帰属",
+      "人間-機械の補完性"
+    ],
+    "related_domains": [
+      "business_ethics_csr"
+    ],
+    "source_files": [
+      "raw/papers/business_ethics_csr/ai-revolution-the-death-of-business-administration-and-the-birth-of-inalienable-.md",
+      "raw/papers/business_ethics_csr/stakeholder-value-creation-in-international-business.md",
+      "raw/papers/business_ethics_csr/a-survey-on-human-ai-collaboration-with-large-foundation-models.md",
+      "raw/papers/business_ethics_csr/the-ethics-of-artificial-intelligence-in-sport.md",
+      "raw/papers/business_ethics_csr/deep-learning-and-generative-ai-for-medical-imaging-and-clinical-decision-suppor.md",
+      "raw/papers/business_ethics_csr/the-role-of-artificial-intelligence-in-strengthening-modern-cybersecurity-system.md",
+      "raw/papers/business_ethics_csr/beyond-organizational-boundaries-ecosystem-thinking-for-sustainable-ai-business-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "technology-mediated-power-asymmetry-amplification",
+    "title_ja": "技術による既存の力の不均衡の媒介・増幅",
+    "title_en": "Technology-Mediated Amplification of Pre-existing Power Asymmetries",
+    "tier": 1,
+    "description": "新技術は既存の権力・資源・知識の構造を媒介して強化しやすく、アクセス平等化後も能力・成果の格差や正当性の再交渉が残る。",
+    "mechanisms": [
+      "累積的優位",
+      "権力構造の再生産",
+      "多層的格差(アクセス・能力・成果)"
+    ],
+    "related_domains": [
+      "business_ethics_csr"
+    ],
+    "source_files": [
+      "raw/papers/business_ethics_csr/artificial-intelligence-and-society-advanced-ethics-opportunities-and-challenges.md",
+      "raw/papers/business_ethics_csr/governing-harm-or-governing-visibility-tech-facilitated-gender-based-violence-an.md",
+      "raw/papers/business_ethics_csr/beyond-access-the-ai-divide-and-sustained-value-creation-in-smes.md",
+      "raw/papers/business_ethics_csr/data-centres-and-the-new-strategic-infrastructure-governance-from-cloud-esg-to-c.md",
+      "raw/papers/business_ethics_csr/special-issue-editorial-location-analytics-shaping-the-future-of-is-education.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "governance-rigidity-flexibility-paradox",
+    "title_ja": "統治の硬直性と柔軟性のパラドックス",
+    "title_en": "Governance Rigidity–Flexibility Paradox",
+    "tier": 2,
+    "description": "ガードレールを強めるほど組織硬直と適応遅延が生じ、緩めるほどリスクが増す。事前の制度整備と事前適応型の運用の両立が不可避の設計課題となる。",
+    "mechanisms": [
+      "安定性と適応性のトレードオフ",
+      "事後対応から事前適応への転換",
+      "制度的正当性の生成"
+    ],
+    "related_domains": [
+      "business_ethics_csr"
+    ],
+    "source_files": [
+      "raw/papers/business_ethics_csr/challenges-paradoxes-and-lessons-for-inclusive-ai-governance-an-interdisciplinar.md",
+      "raw/papers/business_ethics_csr/business-engineering-as-a-foundation-for-sustainable-ai-transformation-the-adaie.md",
+      "raw/papers/business_ethics_csr/artificial-intelligence-enabled-business-continuity-management-ai-governance-emp.md",
+      "raw/papers/business_ethics_csr/mechanisms-of-digital-legitimacy-in-public-infrastructure-organizations-a-compar.md",
+      "raw/papers/business_ethics_csr/building-esg-reporting-architecture-capabilities-through-artificial-intelligence.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
   }
 ]
