@@ -5,10 +5,12 @@
   1. fetch_latest.py で新着論文・記事を取得
   2. tier_classify_cli.py で未分類の論文にTier分類を付与(claude -p 経由・サブスクリプション課金、1日あたり上限あり)
   3. daily_reading.py で当日のリーディングリストを生成
+  4. --compile 指定時: pipeline_compile.py で Tier 1/2 の未コンパイル論文を記事化し、
+     reader / graph / index の HTML を再ビルド(claude -p 経由・サブスクリプション課金)
 
-Wikiコンパイルは日次には含めない。compile_wiki.py の増分モードは
-既存コンセプトの記事を書き換えて内部リンクを壊すため、
-必要なときに手動で --compile を付けて実行する。
+Wikiコンパイルは --compile を付けたときだけ実行する。compile_wiki.py の増分モードは
+既存コンセプトの記事を書き換えて内部リンクを壊すため日次では使わず、
+既存記事を上書きしない pipeline_compile.py を使う。
 
 ネットワーク障害時は取得スクリプトの失敗を隠さず、Wikiコンパイルを
 スキップして非ゼロ終了する。次回のlaunchd実行で再試行できる。
@@ -91,7 +93,8 @@ def main():
     parser.add_argument("--no-tier", action="store_true", help="Tier分類をスキップ")
     parser.add_argument("--tier-limit", type=int, default=200, help="1回に分類する論文数の上限(既定: 200)")
     parser.add_argument("--no-reading", action="store_true", help="日次リーディングリストをスキップ")
-    parser.add_argument("--compile", action="store_true", help="新規取得があればWikiコンパイルも実行(既定は実行しない)")
+    parser.add_argument("--compile", action="store_true", help="Tier 1/2 の未コンパイル論文を記事化して HTML を再ビルド(既定は実行しない)")
+    parser.add_argument("--compile-limit", type=int, default=30, help="1回に記事化する論文数の上限(既定: 30)")
     args = parser.parse_args()
 
     LOG_DIR.mkdir(parents=True, exist_ok=True)
@@ -106,9 +109,6 @@ def main():
     load_dotenv(BASE / ".env")
     env = os.environ.copy()
     env.setdefault("PYTHONUNBUFFERED", "1")
-    # 日次の増分記事生成は低遅延・低コストのモデルを既定にする。
-    # 全体の再抽出を手動で行う場合は ANTHROPIC_MODEL で上書きできる。
-    env.setdefault("ANTHROPIC_MODEL", "claude-haiku-4-5-20251001")
     python = sys.executable
 
     fetch_command = [python, str(TOOLS / "fetch_latest.py")]
@@ -143,17 +143,17 @@ def main():
             env,
         )
 
-    state = load_fetch_state()
-    new_count = int(state.get("last_fetch_count", 0) or 0)
     compile_result = None
-    if args.compile and fetch_result.returncode == 0 and new_count > 0:
+    if args.compile:
+        # Tier 分類は 2/4 で済んでいるので --no-tier。未処理の Tier 1/2 論文が残っている限り
+        # 取得の有無に関わらず少しずつ記事化し、最後に HTML を再ビルドする。
         compile_result = run_step(
-            "4/4 新規取得分を反映したWikiコンパイル",
-            [python, str(TOOLS / "compile_wiki.py"), "--incremental"],
+            "4/4 未コンパイル論文の記事化と HTML 再ビルド",
+            [python, str(TOOLS / "pipeline_compile.py"), "--no-tier", "--limit", str(args.compile_limit)],
             env,
         )
     else:
-        print("\n4/4 Wikiコンパイル: 日次では実行しません(--compile で手動実行)")
+        print("\n4/4 Wikiコンパイル: 実行しません(--compile で有効化)")
 
     results = [fetch_result, tier_result, reading_result, compile_result]
     failures = [result for result in results if result is not None and result.returncode != 0]

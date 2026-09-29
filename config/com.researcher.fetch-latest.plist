@@ -10,6 +10,9 @@
     <array>
         <string>/usr/bin/python3</string>
         <string>/Users/yuta/workspace/projects/researcher/tools/daily_pipeline.py</string>
+        <string>--compile</string>
+        <string>--compile-limit</string>
+        <string>30</string>
     </array>
 
     <key>WorkingDirectory</key>
