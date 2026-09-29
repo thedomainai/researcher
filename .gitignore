@@ -46,3 +46,4 @@ logs/daily_pipeline.lock
 reference/.cache/
 logs/tier_classify.lock
 logs/pipeline_compile.lock
+logs/compile_articles.lock

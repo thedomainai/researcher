@@ -134,8 +134,27 @@ python3 tools/serve_wiki.py
 
 ### compile パイプライン
 
+日次の記事生成は `compile_articles_cli.py`(増分専用・`claude -p` 経由のサブスクリプション課金)で行う。
+既存記事は上書きせず、既存概念に該当した論文は記事末尾に「追加ソース」節を追記する。
+新規記事があれば知識グラフと HTML 3 本を自動で再生成する。
+
 ```bash
-# full compile
+# 未コンパイルの Tier 1/2 論文を 60 件ぶん記事化(既定: 概念抽出・記事生成とも sonnet)
+python3 tools/compile_articles_cli.py --limit 60
+
+# 対象を数えるだけ / 分野を限定 / モデルを変える
+python3 tools/compile_articles_cli.py --dry-run
+python3 tools/compile_articles_cli.py --domain neuroscience --limit 20 --model-write haiku
+
+# 記事を別ディレクトリに書いて品質を試す(index / concepts.json / HTML には触れない)
+python3 tools/compile_articles_cli.py --pilot-dir /tmp/pilot --limit 20
+```
+
+`compile_wiki.py` は全コーパス再抽出型で、`--incremental` でも Phase 4 が既存記事の内部リンクを
+潰すため日次では使わない。以下は HTML の再生成(Phase 5〜8)にだけ使う。
+
+```bash
+# full compile(従量課金の API キーが必要。通常は使わない)
 source .env && python3 tools/compile_wiki.py
 
 # graph メタデータだけ再生成
@@ -159,6 +178,8 @@ source .env && python3 tools/compile_wiki.py --incremental
 `raw/index.jsonl` で Tier 1/2 かつ未コンパイルの論文を分野ごとにバッチ化し、コンセプト抽出→記事生成→
 HTML 再ビルドまでを行います。API キーは使わず、ログイン済みの Claude Code（`claude -p`）で動きます。
 既存記事は上書きせず、新しいスラッグだけを追加します。
+日次パイプラインが呼ぶのは上の `compile_articles_cli.py` で、こちらは積み残しを大量に消化するときの
+一括実行用です(2026-09-29 の 1,695 件はこちらで処理)。既存概念への合流は行わず、常に新規概念として書きます。
 
 ```bash
 # 30 件ぶん記事化して HTML を再ビルド（既定: 抽出 sonnet / 記事 auto）

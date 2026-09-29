@@ -11,6 +11,8 @@ pipeline_compile.py --tier-only と同じ判定基準・同じ書き戻し形式
   - 認証切れ(OAuth session expired)のときは何も書き換えず終了コード 3 で止まる。
     `claude login` を一度実行すると復旧する
   - 1 回の呼び出しで BATCH 件をまとめて判定し、JSON 配列で受け取る
+  - claude -p の起動は lib/claude_cli.py に集約(--tools "" --setting-sources "" で
+    1 回あたり約 7.5 万トークンの固定文脈を外す。2026-09-29)
 
 使い方:
     python3 tools/tier_classify_cli.py --limit 200 [--domain neuroscience] [--dry-run]
@@ -21,9 +23,7 @@ import fcntl
 import json
 import os
 import re
-import subprocess
 import sys
-import time
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw")
@@ -34,26 +34,8 @@ LOCK_PATH = os.path.join(BASE, "logs", "tier_classify.lock")
 MODEL = "haiku"
 
 
-def find_claude():
-    """claude の実行ファイルを探す。launchd の PATH には ~/.volta/bin 等が入っておらず、
-    PATH 任せだと "No such file or directory: 'claude'" で毎回失敗する(2026-09-27/28 の実例)。"""
-    explicit = os.environ.get("CLAUDE_BIN")
-    if explicit:
-        return explicit
-    home = os.path.expanduser("~")
-    for cand in (
-        os.path.join(home, ".volta/tools/image/packages/@anthropic-ai/claude-code/bin/claude"),
-        os.path.join(home, ".volta/bin/claude"),
-        os.path.join(home, ".local/bin/claude"),
-        "/opt/homebrew/bin/claude",
-        "/usr/local/bin/claude",
-    ):
-        if os.path.exists(cand):
-            return cand
-    return "claude"
-
-
-CLAUDE_BIN = find_claude()
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # tools/ を import パスに入れる
+from lib.claude_cli import AuthError, call_claude as _call_claude  # noqa: E402
 
 SYSTEM_PROMPT = (
     "あなたは研究論文の品質評価者です。与えられた論文を3つのテストで評価し、"
@@ -93,43 +75,10 @@ def read_excerpt(entry):
 
 
 def call_claude(prompt):
-    """claude -p を呼び、本文テキストを返す。認証切れは AuthError。"""
-    env = {k: v for k, v in os.environ.items() if k not in ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN")}
-    env["CLAUDECODE"] = ""  # ネストした Claude Code セッションからでも起動できるようにする
-    # 認証情報(キーチェーン)の読み出しには HOME / USER / LOGNAME が要る。最小環境では欠けるので補う
-    home = os.path.expanduser("~")
-    env.setdefault("HOME", home)
-    env.setdefault("USER", os.path.basename(home))
-    env.setdefault("LOGNAME", env["USER"])
-    # node の実行ファイルと claude 本体が入っているディレクトリを PATH に足す
-    extra = [os.path.dirname(CLAUDE_BIN), os.path.join(home, ".volta/bin"), "/opt/homebrew/bin", "/usr/local/bin"]
-    env["PATH"] = ":".join([d for d in extra if d] + [env.get("PATH", "/usr/bin:/bin")])
-    cmd = [CLAUDE_BIN, "-p", "--model", MODEL, "--output-format", "json",
-           "--system-prompt", SYSTEM_PROMPT, "--no-session-persistence"]
-    for attempt in range(3):
-        r = subprocess.run(cmd, input=prompt, capture_output=True, text=True, env=env, timeout=600)
-        try:
-            data = json.loads(r.stdout)
-        except ValueError:
-            data = {}
-        text = data.get("result") or ""
-        if data.get("is_error") or r.returncode != 0:
-            msg = text or r.stderr[:300]
-            if "authenticate" in msg.lower() or "oauth" in msg.lower() or "login" in msg.lower():
-                raise AuthError(msg)
-            if attempt < 2:
-                time.sleep(20 * (attempt + 1))
-                continue
-            raise RuntimeError("claude -p 失敗: %s" % msg[:300])
-        # total_cost_usd は認証方式に関わらず常に「API相当額」の参考値として入る。
-        # サブスクリプション認証(authMethod: claude.ai)かどうかは別途 `claude auth status` で確認する。
-        # ここでは 0 以外でも警告しない(以前の実装は誤検知していた)。
-        return text
-    raise RuntimeError("claude -p: 再試行上限")
-
-
-class AuthError(RuntimeError):
-    pass
+    """claude -p を呼び、本文テキストを返す。認証切れは AuthError。
+    起動オプション(--tools "" --setting-sources "" で固定文脈を削る)は lib/claude_cli.py に集約。"""
+    text, _usage = _call_claude(prompt, SYSTEM_PROMPT, model=MODEL)
+    return text
 
 
 def parse_batch(text, n):

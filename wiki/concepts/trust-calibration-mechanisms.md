@@ -70,3 +70,10 @@ Damschroder et al.（2009）の実装科学フレームワークに基づき、�
 - `raw/papers/behavioral_economics/prospect-theory-an-analysis-of-decision-under-risk.md`
 - `raw/papers/behavioral_economics/a-behavioral-model-of-rational-choice.md`
 - `raw/papers/psychology/fostering-implementation-of-health-services-research-findings-into-practice-a-co.md`
+
+## 追加ソース（2026-09-29）
+
+* **タイトル**: When Should Your Team Override AI? A Trust Calibration Routine (2026)
+  **ファイルパス**: `raw/papers/organization_science/when-should-your-team-override-ai-a-trust-calibration-routine.md`
+* **タイトル**: From Intelligence to Delegation in Human-Agent Teams in Software Development (2026)
+  **ファイルパス**: `raw/papers/organization_science/from-intelligence-to-delegation-in-human-agent-teams-in-software-development.md`

@@ -11,9 +11,9 @@ raw/index.jsonl のうち Tier 1/2 で未コンパイルの論文をバッチに
   Phase 3: raw/index.jsonl / wiki/_meta/concepts.json への追記(wiki/index.md は統計行のみ更新)
   Phase 4: バリデーション・グラフ・HTML(reader / graph / index)の再ビルド … compile_wiki.py の Phase 4-8
 
-LLM の呼び出しは `claude -p`(Claude Code の非対話モード)。tier_classify_cli.py と同じく、従量課金の
-API キーは子プロセスから外し、ログイン済みのサブスクリプションで動かす。`--tools ""` でツール定義を
-送らないため、1 呼び出しあたりの固定オーバーヘッドは 1k トークン弱(既定のままだと約 30k)。
+LLM の呼び出しは共通ヘルパー lib/claude_cli.py の `claude -p`(Claude Code の非対話モード)。従量課金の
+API キーは子プロセスから外し、ログイン済みのサブスクリプションで動かす。ツール定義・設定を読ませないため、
+1 呼び出しあたりの固定オーバーヘッドは小さい(既定のままだと数万トークン)。
 
   - 既存記事は上書きしない(新規スラッグだけを追加する。衝突したら連番を付ける)
   - index.jsonl / concepts.json はバッチごとに書き戻すので、途中で止まっても成果が残る
@@ -62,9 +62,8 @@ RAW_PATH_RE = re.compile(r"raw/[^\s\)`\]]+\.(?:md|pdf)")
 TIER_LABEL = {1: "不変原理", 2: "設計原理", 3: "分析枠組み"}
 
 sys.path.insert(0, TOOLS)
-from tier_classify_cli import AuthError, find_claude  # noqa: E402
+from lib.claude_cli import AuthError, call_claude as _cli_call  # noqa: E402
 
-CLAUDE_BIN = find_claude()
 WORK_DIR = None  # claude -p の作業ディレクトリ(プロジェクトの CLAUDE.md / hooks を読ませない)
 
 
@@ -79,54 +78,30 @@ USAGE = {"calls": 0, "cost_usd": 0.0, "models": {}}
 USAGE_LOCK = threading.Lock()
 
 
-def _record_usage(data):
+def _record_usage(usage):
     with USAGE_LOCK:
         USAGE["calls"] += 1
-        USAGE["cost_usd"] += float(data.get("total_cost_usd") or 0.0)
-        for model, mu in (data.get("modelUsage") or {}).items():
-            slot = USAGE["models"].setdefault(model, {"calls": 0, "in": 0, "out": 0})
-            slot["calls"] += 1
-            slot["in"] += int(mu.get("inputTokens", 0)) + int(mu.get("cacheReadInputTokens", 0)) \
-                + int(mu.get("cacheCreationInputTokens", 0))
-            slot["out"] += int(mu.get("outputTokens", 0))
+        USAGE["cost_usd"] += usage["total_cost_usd"]
+        slot = USAGE["models"].setdefault(usage["model"], {"calls": 0, "in": 0, "out": 0})
+        slot["calls"] += 1
+        slot["in"] += usage["input_tokens"] + usage["cache_creation_input_tokens"] + usage["cache_read_input_tokens"]
+        slot["out"] += usage["output_tokens"]
 
 
 def call_claude(system_prompt, prompt, model, timeout=900):
-    """claude -p を呼び、本文テキストを返す。認証切れは AuthError、利用枠の上限は UsageLimitError。"""
-    env = {k: v for k, v in os.environ.items() if k not in ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN")}
-    env["CLAUDECODE"] = ""  # ネストした Claude Code セッションからでも起動できるようにする
-    home = os.path.expanduser("~")
-    env.setdefault("HOME", home)
-    env.setdefault("USER", os.path.basename(home))
-    env.setdefault("LOGNAME", env["USER"])
-    extra = [os.path.dirname(CLAUDE_BIN), os.path.join(home, ".volta/bin"), "/opt/homebrew/bin", "/usr/local/bin"]
-    env["PATH"] = ":".join([d for d in extra if d] + [env.get("PATH", "/usr/bin:/bin")])
-    cmd = [CLAUDE_BIN, "-p", "--model", model, "--output-format", "json",
-           "--system-prompt", system_prompt, "--no-session-persistence", "--tools", ""]
-    last = ""
-    for attempt in range(3):
-        r = subprocess.run(cmd, input=prompt, capture_output=True, text=True, env=env,
-                           cwd=WORK_DIR, timeout=timeout)
-        try:
-            data = json.loads(r.stdout)
-        except ValueError:
-            data = {}
-        text = data.get("result") or ""
-        if data.get("is_error") or r.returncode != 0:
-            msg = text or r.stderr[:300]
-            low = msg.lower()
-            if "authenticate" in low or "oauth" in low or "login" in low:
-                raise AuthError(msg)
-            if "usage limit" in low or "rate limit" in low or "limit reached" in low:
-                raise UsageLimitError(msg)
-            last = msg
-            if attempt < 2:
-                time.sleep(20 * (attempt + 1))
-                continue
-            raise RuntimeError("claude -p 失敗: %s" % msg[:300])
-        _record_usage(data)
-        return text
-    raise RuntimeError("claude -p: 再試行上限 (%s)" % last[:200])
+    """共通ヘルパー(lib/claude_cli.py)経由で claude -p を呼び、本文を返す。
+    認証切れは AuthError、利用枠の上限は UsageLimitError。"""
+    try:
+        text, usage = _cli_call(prompt, system_prompt, model=model, timeout=timeout, cwd=WORK_DIR)
+    except AuthError:
+        raise
+    except RuntimeError as e:
+        low = str(e).lower()
+        if "usage limit" in low or "rate limit" in low or "limit reached" in low:
+            raise UsageLimitError(str(e))
+        raise
+    _record_usage(usage)
+    return text
 
 
 def strip_fences(text):

@@ -5,12 +5,12 @@
   1. fetch_latest.py で新着論文・記事を取得
   2. tier_classify_cli.py で未分類の論文にTier分類を付与(claude -p 経由・サブスクリプション課金、1日あたり上限あり)
   3. daily_reading.py で当日のリーディングリストを生成
-  4. --compile 指定時: pipeline_compile.py で Tier 1/2 の未コンパイル論文を記事化し、
-     reader / graph / index の HTML を再ビルド(claude -p 経由・サブスクリプション課金)
+  4. compile_articles_cli.py で未コンパイルの Tier 1/2 論文から wiki 記事を増分生成し、
+     新規記事があれば知識グラフと HTML(reader / graph / index)を再生成する
+     (claude -p 経由・サブスクリプション課金。1 日 --compile-limit 件まで。--no-compile で止める)
 
-Wikiコンパイルは --compile を付けたときだけ実行する。compile_wiki.py の増分モードは
-既存コンセプトの記事を書き換えて内部リンクを壊すため日次では使わず、
-既存記事を上書きしない pipeline_compile.py を使う。
+compile_wiki.py は使わない。全コーパス再抽出型で concepts.json を上書きし、
+Phase 4 のバリデーションが既存記事の内部リンクを潰すため(2026-08-18 の破損の原因)。
 
 ネットワーク障害時は取得スクリプトの失敗を隠さず、Wikiコンパイルを
 スキップして非ゼロ終了する。次回のlaunchd実行で再試行できる。
@@ -93,8 +93,8 @@ def main():
     parser.add_argument("--no-tier", action="store_true", help="Tier分類をスキップ")
     parser.add_argument("--tier-limit", type=int, default=200, help="1回に分類する論文数の上限(既定: 200)")
     parser.add_argument("--no-reading", action="store_true", help="日次リーディングリストをスキップ")
-    parser.add_argument("--compile", action="store_true", help="Tier 1/2 の未コンパイル論文を記事化して HTML を再ビルド(既定は実行しない)")
-    parser.add_argument("--compile-limit", type=int, default=30, help="1回に記事化する論文数の上限(既定: 30)")
+    parser.add_argument("--no-compile", action="store_true", help="wiki 記事の増分生成をスキップ")
+    parser.add_argument("--compile-limit", type=int, default=60, help="1回に概念抽出へかける論文数の上限(既定: 60)")
     args = parser.parse_args()
 
     LOG_DIR.mkdir(parents=True, exist_ok=True)
@@ -144,16 +144,17 @@ def main():
         )
 
     compile_result = None
-    if args.compile:
-        # Tier 分類は 2/4 で済んでいるので --no-tier。未処理の Tier 1/2 論文が残っている限り
-        # 取得の有無に関わらず少しずつ記事化し、最後に HTML を再ビルドする。
+    if not args.no_compile and args.compile_limit > 0:
+        # 未コンパイルの積み残し(2026-09-29 時点で 1,699 件)を毎日 compile_limit 件ずつ記事化する。
+        # 取得の成否とは独立に走らせる(取得が失敗した日も積み残しの消化は進める)。
+        # モデルは compile_articles_cli.py の既定(抽出・記事とも sonnet。根拠は同スクリプトの docstring)。認証切れは終了コード 3。
         compile_result = run_step(
-            "4/4 未コンパイル論文の記事化と HTML 再ビルド",
-            [python, str(TOOLS / "pipeline_compile.py"), "--no-tier", "--limit", str(args.compile_limit)],
+            "4/4 wiki 記事の増分生成と HTML 再生成",
+            [python, str(TOOLS / "compile_articles_cli.py"), "--limit", str(args.compile_limit)],
             env,
         )
     else:
-        print("\n4/4 Wikiコンパイル: 実行しません(--compile で有効化)")
+        print("\n4/4 wiki 記事の増分生成: スキップ(--no-compile または --compile-limit 0)")
 
     results = [fetch_result, tier_result, reading_result, compile_result]
     failures = [result for result in results if result is not None and result.returncode != 0]

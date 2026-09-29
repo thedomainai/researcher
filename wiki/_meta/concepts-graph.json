@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-29T03:59:45.966114",
+  "generated_at": "2026-09-29T04:07:54.617308",
   "summary": {
-    "articles_scanned": 1304,
-    "nodes": 3574,
-    "resolved_nodes": 1304,
+    "articles_scanned": 1306,
+    "nodes": 3576,
+    "resolved_nodes": 1306,
     "unresolved_nodes": 2270,
-    "edges": 6519,
-    "resolved_edges": 3559,
+    "edges": 6530,
+    "resolved_edges": 3570,
     "unresolved_edges": 2960,
-    "link_mentions": 6817,
-    "valid_source_refs": 2107,
+    "link_mentions": 6828,
+    "valid_source_refs": 2122,
     "invalid_source_refs": 117,
-    "isolated_concepts": 81
+    "isolated_concepts": 80
   },
   "nodes": [
     {
@@ -1839,9 +1839,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 11,
+      "inbound_count": 12,
       "outbound_count": 0,
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "ai-governance-and-ethics",
@@ -2147,9 +2147,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 13,
+      "inbound_count": 14,
       "outbound_count": 3,
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "ai-entrepreneurial-subjectivity",
@@ -3749,9 +3749,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 8,
+      "inbound_count": 9,
       "outbound_count": 2,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "ai-disclosure-and-organizational-trust",
@@ -5322,9 +5322,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 7,
+      "inbound_count": 8,
       "outbound_count": 2,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "algorithmic-bias-fairness",
@@ -12350,9 +12350,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 8,
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "multi-agent-collaboration-and-group-dynamics",
@@ -14478,9 +14478,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 0,
-      "degree": 0
+      "degree": 1
     },
     {
       "id": "personality-congruence-in-human-ai-collaboration",
@@ -14802,9 +14802,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 3,
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "human-ai-decision-rights",
@@ -14830,9 +14830,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 3,
+      "inbound_count": 4,
       "outbound_count": 5,
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "human-ai-common-ground",
@@ -15142,9 +15142,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 5,
+      "inbound_count": 6,
       "outbound_count": 7,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "human-ai-advice-taking-behavior",
@@ -17057,9 +17057,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 3,
+      "inbound_count": 4,
       "outbound_count": 0,
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "decomposition-information-retention-limit",
@@ -26350,6 +26350,34 @@
       "degree": 8
     },
     {
+      "id": "decision-time-evidence-binding",
+      "slug": "decision-time-evidence-binding",
+      "label": "決定時点への証拠拘束と説明責任の遡及不能性",
+      "title": "決定時点への証拠拘束と説明責任の遡及不能性",
+      "title_ja": "決定時点への証拠拘束と説明責任の遡及不能性",
+      "title_en": "Decision-Time Evidence Binding and the Irreversibility of Accountability Reconstruction",
+      "tier": null,
+      "description": "意思決定の瞬間に証拠と方針バージョンが結合されていなければ、事後にその因果的説明を復元することは構造的に不可能であり、ガバナンス設計は行為主体がAIか人間かに関わらず事前に組み込まれねばならないという原理。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/decision-time-evidence-binding.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Decision-Time Evidence Binding and the Irreversibility of Accountability Reconstruction",
+        "decision-time-evidence-binding",
+        "決定時点への証拠拘束と説明責任の遡及不能性",
+        "決定時点への証拠拘束と説明責任の遡及不能性 (Decision-Time Evidence Binding and the Irreversibility of Accountability Reconstruction)",
+        "決定時点への証拠拘束と説明責任の遡及不能性(Decision-Time Evidence Binding and the Irreversibility of Accountability Reconstruction)",
+        "決定時点への証拠拘束と説明責任の遡及不能性（Decision-Time Evidence Binding and the Irreversibility of Accountability Reconstruction）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
+    },
+    {
       "id": "decision-tree-induction",
       "slug": "decision-tree-induction",
       "label": "決定木の誘導",
@@ -30619,6 +30647,34 @@
       "degree": 8
     },
     {
+      "id": "cognitive-coupling-system-boundary",
+      "slug": "cognitive-coupling-system-boundary",
+      "label": "結合認知システムにおける能力のシステム境界帰属",
+      "title": "結合認知システムにおける能力のシステム境界帰属",
+      "title_ja": "結合認知システムにおける能力のシステム境界帰属",
+      "title_en": "Cognitive Coupling and Capability as a System-Boundary Property",
+      "tier": null,
+      "description": "能力は個々の主体(人間・AI)に内在するのではなく、人間・AIエージェント・外部記憶・環境フィードバックからなる結合システムの境界に帰属する特性であり、判断主権を人間に残したまま分散認知として設計可能であるという原理。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/cognitive-coupling-system-boundary.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Cognitive Coupling and Capability as a System-Boundary Property",
+        "cognitive-coupling-system-boundary",
+        "結合認知システムにおける能力のシステム境界帰属",
+        "結合認知システムにおける能力のシステム境界帰属 (Cognitive Coupling and Capability as a System-Boundary Property)",
+        "結合認知システムにおける能力のシステム境界帰属(Cognitive Coupling and Capability as a System-Boundary Property)",
+        "結合認知システムにおける能力のシステム境界帰属（Cognitive Coupling and Capability as a System-Boundary Property）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 6,
+      "degree": 6
+    },
+    {
       "id": "crystallized-structure-to-generative-resonance-and-shared-artifacts",
       "slug": "crystallized-structure-to-generative-resonance-and-shared-artifacts",
       "label": "結晶化構造から生成的共鳴への価値転換と共有アーティファクト",
@@ -33429,9 +33485,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 7,
+      "inbound_count": 8,
       "outbound_count": 0,
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "cognitive-capacity-delegation-and-bifurcation",
@@ -133445,6 +133501,192 @@
       ]
     },
     {
+      "id": "cognitive-coupling-system-boundary->cognitive-externalization",
+      "source": "cognitive-coupling-system-boundary",
+      "target": "cognitive-externalization",
+      "source_label": "結合認知システムにおける能力のシステム境界帰属",
+      "target_label": "認知の外部化",
+      "source_file": "concepts/cognitive-coupling-system-boundary.md",
+      "target_file": "concepts/cognitive-externalization.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "cognitive-externalization"
+      ],
+      "display_labels": [
+        "cognitive-externalization"
+      ],
+      "mentions": [
+        {
+          "raw_target": "cognitive-externalization",
+          "label": "cognitive-externalization",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "cognitive-externalization"
+      ]
+    },
+    {
+      "id": "cognitive-coupling-system-boundary->distributed-cognitive-load",
+      "source": "cognitive-coupling-system-boundary",
+      "target": "distributed-cognitive-load",
+      "source_label": "結合認知システムにおける能力のシステム境界帰属",
+      "target_label": "分散認知負荷",
+      "source_file": "concepts/cognitive-coupling-system-boundary.md",
+      "target_file": "concepts/distributed-cognitive-load.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "distributed-cognitive-load"
+      ],
+      "display_labels": [
+        "distributed-cognitive-load"
+      ],
+      "mentions": [
+        {
+          "raw_target": "distributed-cognitive-load",
+          "label": "distributed-cognitive-load",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "distributed-cognitive-load"
+      ]
+    },
+    {
+      "id": "cognitive-coupling-system-boundary->human-ai-collaborative-cognition",
+      "source": "cognitive-coupling-system-boundary",
+      "target": "human-ai-collaborative-cognition",
+      "source_label": "結合認知システムにおける能力のシステム境界帰属",
+      "target_label": "人間とAIの協調認知",
+      "source_file": "concepts/cognitive-coupling-system-boundary.md",
+      "target_file": "concepts/human-ai-collaborative-cognition.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "human-ai-collaborative-cognition"
+      ],
+      "display_labels": [
+        "human-ai-collaborative-cognition"
+      ],
+      "mentions": [
+        {
+          "raw_target": "human-ai-collaborative-cognition",
+          "label": "human-ai-collaborative-cognition",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "human-ai-collaborative-cognition"
+      ]
+    },
+    {
+      "id": "cognitive-coupling-system-boundary->human-ai-decision-rights",
+      "source": "cognitive-coupling-system-boundary",
+      "target": "human-ai-decision-rights",
+      "source_label": "結合認知システムにおける能力のシステム境界帰属",
+      "target_label": "人間とAIの意思決定権限モデル",
+      "source_file": "concepts/cognitive-coupling-system-boundary.md",
+      "target_file": "concepts/human-ai-decision-rights.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "human-ai-decision-rights"
+      ],
+      "display_labels": [
+        "human-ai-decision-rights"
+      ],
+      "mentions": [
+        {
+          "raw_target": "human-ai-decision-rights",
+          "label": "human-ai-decision-rights",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "human-ai-decision-rights"
+      ]
+    },
+    {
+      "id": "cognitive-coupling-system-boundary->human-ai-teaming-and-collaboration",
+      "source": "cognitive-coupling-system-boundary",
+      "target": "human-ai-teaming-and-collaboration",
+      "source_label": "結合認知システムにおける能力のシステム境界帰属",
+      "target_label": "人間とAIのチーミングと協働",
+      "source_file": "concepts/cognitive-coupling-system-boundary.md",
+      "target_file": "concepts/human-ai-teaming-and-collaboration.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "human-ai-teaming-and-collaboration"
+      ],
+      "display_labels": [
+        "human-ai-teaming-and-collaboration"
+      ],
+      "mentions": [
+        {
+          "raw_target": "human-ai-teaming-and-collaboration",
+          "label": "human-ai-teaming-and-collaboration",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "human-ai-teaming-and-collaboration"
+      ]
+    },
+    {
+      "id": "cognitive-coupling-system-boundary->multi-agent-world-model",
+      "source": "cognitive-coupling-system-boundary",
+      "target": "multi-agent-world-model",
+      "source_label": "結合認知システムにおける能力のシステム境界帰属",
+      "target_label": "マルチエージェント世界モデル",
+      "source_file": "concepts/cognitive-coupling-system-boundary.md",
+      "target_file": "concepts/multi-agent-world-model.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "multi-agent-world-model"
+      ],
+      "display_labels": [
+        "multi-agent-world-model"
+      ],
+      "mentions": [
+        {
+          "raw_target": "multi-agent-world-model",
+          "label": "multi-agent-world-model",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "multi-agent-world-model"
+      ]
+    },
+    {
       "id": "cognitive-direction-in-ai->dangling:227a3d003167",
       "source": "cognitive-direction-in-ai",
       "target": "dangling:227a3d003167",
@@ -153108,6 +153350,161 @@
       "ambiguous": false,
       "candidates": [
         "strategic-resource-concentration-and-power-asymmetry"
+      ]
+    },
+    {
+      "id": "decision-time-evidence-binding->ai-accountability-attribution",
+      "source": "decision-time-evidence-binding",
+      "target": "ai-accountability-attribution",
+      "source_label": "決定時点への証拠拘束と説明責任の遡及不能性",
+      "target_label": "AIシステムの責任帰属",
+      "source_file": "concepts/decision-time-evidence-binding.md",
+      "target_file": "concepts/ai-accountability-attribution.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "ai-accountability-attribution"
+      ],
+      "display_labels": [
+        "ai-accountability-attribution"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ai-accountability-attribution",
+          "label": "ai-accountability-attribution",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-accountability-attribution"
+      ]
+    },
+    {
+      "id": "decision-time-evidence-binding->ai-explainability-decision-making",
+      "source": "decision-time-evidence-binding",
+      "target": "ai-explainability-decision-making",
+      "source_label": "決定時点への証拠拘束と説明責任の遡及不能性",
+      "target_label": "AI説明可能性と意思決定支援",
+      "source_file": "concepts/decision-time-evidence-binding.md",
+      "target_file": "concepts/ai-explainability-decision-making.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "ai-explainability-decision-making"
+      ],
+      "display_labels": [
+        "ai-explainability-decision-making"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ai-explainability-decision-making",
+          "label": "ai-explainability-decision-making",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-explainability-decision-making"
+      ]
+    },
+    {
+      "id": "decision-time-evidence-binding->ai-governance-and-risk-management",
+      "source": "decision-time-evidence-binding",
+      "target": "ai-governance-and-risk-management",
+      "source_label": "決定時点への証拠拘束と説明責任の遡及不能性",
+      "target_label": "AIガバナンスとリスク管理",
+      "source_file": "concepts/decision-time-evidence-binding.md",
+      "target_file": "concepts/ai-governance-and-risk-management.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "ai-governance-and-risk-management"
+      ],
+      "display_labels": [
+        "ai-governance-and-risk-management"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ai-governance-and-risk-management",
+          "label": "ai-governance-and-risk-management",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-governance-and-risk-management"
+      ]
+    },
+    {
+      "id": "decision-time-evidence-binding->algorithmic-transparency",
+      "source": "decision-time-evidence-binding",
+      "target": "algorithmic-transparency",
+      "source_label": "決定時点への証拠拘束と説明責任の遡及不能性",
+      "target_label": "アルゴリズムの透明性",
+      "source_file": "concepts/decision-time-evidence-binding.md",
+      "target_file": "concepts/algorithmic-transparency.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "algorithmic-transparency"
+      ],
+      "display_labels": [
+        "algorithmic-transparency"
+      ],
+      "mentions": [
+        {
+          "raw_target": "algorithmic-transparency",
+          "label": "algorithmic-transparency",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "algorithmic-transparency"
+      ]
+    },
+    {
+      "id": "decision-time-evidence-binding->human-oversight-mechanisms",
+      "source": "decision-time-evidence-binding",
+      "target": "human-oversight-mechanisms",
+      "source_label": "決定時点への証拠拘束と説明責任の遡及不能性",
+      "target_label": "人間による監視メカニズム",
+      "source_file": "concepts/decision-time-evidence-binding.md",
+      "target_file": "concepts/human-oversight-mechanisms.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "human-oversight-mechanisms"
+      ],
+      "display_labels": [
+        "human-oversight-mechanisms"
+      ],
+      "mentions": [
+        {
+          "raw_target": "human-oversight-mechanisms",
+          "label": "human-oversight-mechanisms",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "human-oversight-mechanisms"
       ]
     },
     {
