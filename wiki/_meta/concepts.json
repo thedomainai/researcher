@@ -20969,5 +20969,140 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "meaning-bound-decision-record-and-audit-stability",
+    "title_ja": "意味バージョン束縛による意思決定の監査安定性",
+    "title_en": "Meaning-Bound Decision Records for Audit Stability",
+    "tier": 1,
+    "description": "過去の決定を検証可能にするには、コードや文書の履歴ではなく、各決定が下された時点の意味体系(定義・分類規則)を決定自体に束縛して保存する必要がある。",
+    "mechanisms": [
+      "時点束縛された意味の固定",
+      "意味ドリフトによる検証不能化",
+      "証拠の来歴保存"
+    ],
+    "related_domains": [
+      "finance_corporate",
+      "hci"
+    ],
+    "source_files": [
+      "raw/papers/hci/versioned-meaning-how-to-make-ontologies-audit-stable.md",
+      "raw/papers/finance_corporate/ai-driven-carbon-and-green-accounting-architectures-applications-and-the-ai-sust.md",
+      "raw/papers/hci/iris-navigating-and-reflecting-on-writing-traces-using-intelligent-document-hist.md",
+      "raw/papers/hci/ai-hos-an-ai-native-hospital-operating-system-with-a-healthcare-agent-interactio.md",
+      "raw/papers/hci/deterministic-governance-is-multidimensional-beyond-bounded-execution-gating-in-.md",
+      "raw/papers/hci/the-enterprise-ai-governance-buyers-guide.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "trust-free-boundary-enforcement-for-autonomous-actors",
+    "title_ja": "信頼を前提としない実行境界による自律主体の制御",
+    "title_en": "Trust-Free Execution Boundaries for Autonomous Actors",
+    "tier": 1,
+    "description": "主体の内部や意図を信頼できない多主体環境では、行為の実行点に検証可能な許可・拒否・保留の境界を置くことが統制の基盤となり、事前ルールの一般化限界が残余リスクとなる。",
+    "mechanisms": [
+      "実行時点での認可ゲート",
+      "信頼非依存の相互検証",
+      "離散規則による連続行為空間の近似限界"
+    ],
+    "related_domains": [
+      "finance_corporate",
+      "hci"
+    ],
+    "source_files": [
+      "raw/papers/finance_corporate/from-ai-hotlines-to-execution-boundaries-a-sovereignty-preserving-middle-ground-.md",
+      "raw/papers/hci/deterministic-governance-is-multidimensional-beyond-bounded-execution-gating-in-.md",
+      "raw/papers/hci/do-user-authored-permission-policies-improve-protection-against-ai-agent-overrea.md",
+      "raw/papers/hci/the-enterprise-ai-governance-buyers-guide.md",
+      "raw/papers/hci/ai-hos-an-ai-native-hospital-operating-system-with-a-healthcare-agent-interactio.md",
+      "raw/papers/hci/artificial-intelligence-and-cyber-law-in-india-recalibrating-legal-responsibilit.md",
+      "raw/papers/hci/from-agent-behaviour-to-agent-friendly-documentation-an-empirical-study-of-how-c.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "delegation-induced-ownership-and-capability-erosion",
+    "title_ja": "委譲による所有感・責任・能力の侵食と回復的足場設計",
+    "title_en": "Delegation-Induced Erosion of Ownership, Responsibility and Capability",
+    "tier": 1,
+    "description": "認知や作業を委譲すると、心理的所有権・責任感・自己の能力形成が弱まる。支援を能力に応じて引き下げる足場設計や、自己の過程の可視化が回復の鍵となる。",
+    "mechanisms": [
+      "心理的所有権の形成条件の変化",
+      "支援と自立のトレードオフ",
+      "自己監視の可視化による再帰属"
+    ],
+    "related_domains": [
+      "hci"
+    ],
+    "source_files": [
+      "raw/papers/hci/delegated-minds-how-generative-ai-assistance-alters-psychological-ownership-and-.md",
+      "raw/papers/hci/ai-coaching-for-accelerating-human-skill-development-with-reinforcement-learning.md",
+      "raw/papers/hci/iris-navigating-and-reflecting-on-writing-traces-using-intelligent-document-hist.md",
+      "raw/papers/hci/agency-in-childai-interaction-a-review-of-how-it-is-conceptualised-studied-and-s.md",
+      "raw/papers/hci/gratified-use-of-ai-moderating-the-pathway-from-sense-of-empowerment-towards-inf.md",
+      "raw/papers/hci/toward-a-philosophy-of-interaction-how-designed-interaction-constitutes-the-huma.md",
+      "raw/papers/hci/learnai-just-in-time-ai-co-creation-across-disciplines-at-a-university.md",
+      "raw/papers/hci/grounding-mindfulness-in-embodied-tangibles-a-scoping-review-theoretical-framewo.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "simulated-reciprocity-attachment-and-trust-miscalibration",
+    "title_ja": "擬似的相互性による愛着形成と信頼の較正ずれ",
+    "title_en": "Simulated Reciprocity, Attachment and Trust Miscalibration",
+    "tier": 1,
+    "description": "擬人性・流暢さ・個人化といった表層的手がかりは人間の本来の愛着・信頼機構を作動させ、実際の能力や保持情報と乖離した過信または過小信頼と依存を生む。",
+    "mechanisms": [
+      "表層手がかりによる信頼形成",
+      "評価可能性ギャップ",
+      "投影を伴う個人化の自己強化"
+    ],
+    "related_domains": [
+      "hci"
+    ],
+    "source_files": [
+      "raw/papers/hci/ai-for-mental-health-a-design-science-approach.md",
+      "raw/papers/hci/intimacy-by-design-definition-state-of-research-and-interdisciplinary-research-a.md",
+      "raw/papers/hci/trust-in-ai-anthropomorphism-explainability-and-trustworthiness.md",
+      "raw/papers/hci/i-wanted-it-to-feel-more-personal-customization-of-social-ai-as-ai-individualism.md",
+      "raw/papers/hci/when-readability-and-source-retention-diverge-an-evaluability-gap-in-ai-translat.md",
+      "raw/papers/hci/beyond-ai-as-a-tool-or-teammate-information-quality-as-a-driver-of-humanai-colla.md",
+      "raw/papers/hci/exploring-normativity-in-stable-diffusion-insights-for-xai-in-the-arts.md",
+      "raw/papers/hci/alphaoracle-oracle-bone-script-decipherment-via-human-workflow-inspired-deep-lea.md",
+      "raw/papers/hci/a-model-of-integrated-information-processing-in-human-ai-interaction.md",
+      "raw/papers/hci/trade-offs-in-data-color-palette-design-tools.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "recursive-constitution-of-human-and-interaction-design",
+    "title_ja": "設計された相互作用による人間の構成と三層共進化ループ",
+    "title_en": "Recursive Co-Constitution of Humans and Designed Interaction",
+    "tier": 1,
+    "description": "インタラクション設計は人間の主体性や自己理解を媒介するだけでなく構成し、実務者・AI・社会の間のフィードバックループが相互に再形成する。介入の機能はタイミングでなく供給する認識論的内容で決まる。",
+    "mechanisms": [
+      "構成的媒介と可逆性",
+      "多層フィードバックループ",
+      "認識論的内容による介入の分類"
+    ],
+    "related_domains": [
+      "hci"
+    ],
+    "source_files": [
+      "raw/papers/hci/toward-a-philosophy-of-interaction-how-designed-interaction-constitutes-the-huma.md",
+      "raw/papers/hci/llm-enhanced-computational-grounded-theory-and-the-triadic-dynamics-of-human-ai-.md",
+      "raw/papers/hci/an-epistemic-content-taxonomy-of-human-intervention-in-agentic-collaboration.md",
+      "raw/papers/hci/transformational-leadership-and-ethical-ai-adoption-in-ai-driven-organizations-t.md",
+      "raw/papers/hci/from-agent-behaviour-to-agent-friendly-documentation-an-empirical-study-of-how-c.md",
+      "raw/papers/hci/a-model-of-integrated-information-processing-in-human-ai-interaction.md",
+      "raw/papers/hci/agency-in-childai-interaction-a-review-of-how-it-is-conceptualised-studied-and-s.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
