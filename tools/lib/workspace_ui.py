@@ -55,3 +55,37 @@ def render_workspace_sidebar(active_view, summary_text, links):
         '</div>'
         '</aside>'
     )
+
+
+# 固定(sticky)パネルの高さを「いま画面に見えている範囲」に合わせる。
+# CSS の max-height:calc(100vh - 48px) はパネルがページ最上部にある前提の値で、見出しの下から始まる
+# 初期位置では下端が 350〜430px 画面の外に出る。パネルは内部スクロールを持つため、見えていない部分を
+# 含めてホイールが吸われ、「どこがスクロールし、どこが固定か」が分からなくなる。
+# パネルの上端と画面下端の距離を測り、はみ出さない高さに絞る(ページを進めてパネルが上端に張り付くと
+# CSS の上限まで自然に伸びる)。スタイルが sticky でない狭い画面では何もしない。
+PANEL_FIT_SCRIPT = """<script>
+(function(){
+  var panel = document.querySelector('.control-panel');
+  if (!panel) return;
+  var GAP = 24, MIN = 200, pending = false;
+  function fit(){
+    pending = false;
+    if (getComputedStyle(panel).position !== 'sticky'){ panel.style.maxHeight = ''; return; }
+    var top = Math.max(panel.getBoundingClientRect().top, GAP);
+    var room = Math.floor(window.innerHeight - top - GAP);
+    panel.style.maxHeight = Math.max(MIN, room) + 'px';
+  }
+  function schedule(){ if (!pending){ pending = true; requestAnimationFrame(fit); } }
+  window.addEventListener('scroll', schedule, {passive: true});
+  window.addEventListener('resize', schedule);
+  window.addEventListener('load', schedule);
+  schedule();
+})();
+</script>"""
+
+
+def inject_panel_fit(html):
+    """生成済み HTML の </body> 直前にパネル高さ調整のスクリプトを差し込む。"""
+    if "</body>" not in html:
+        return html
+    return html.replace("</body>", PANEL_FIT_SCRIPT + "\n</body>", 1)

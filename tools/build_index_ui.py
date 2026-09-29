@@ -6,7 +6,7 @@ import json
 import os
 
 from build_reader import collect_meta, load_json
-from lib.workspace_ui import render_workspace_sidebar
+from lib.workspace_ui import inject_panel_fit, render_workspace_sidebar
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GRAPH_FILE = os.path.join(BASE, "wiki", "_meta", "concepts-graph.json")
@@ -112,6 +112,7 @@ body{
     radial-gradient(circle at top right, rgba(217,160,125,.12), transparent 22%),
     radial-gradient(circle at bottom, rgba(130,174,245,.11), transparent 30%),
     linear-gradient(180deg, rgba(17,25,42,.92), rgba(7,10,19,.98));
+  background-attachment:fixed;
 }
 body::before{
   content:"";
@@ -1303,7 +1304,7 @@ def build_index_ui():
     meta = collect_meta()
     graph = load_json(GRAPH_FILE, {})
     catalog = build_catalog_items(meta, graph)
-    html = render_index_html(catalog, graph)
+    html = inject_panel_fit(render_index_html(catalog, graph))
     with open(OUT, "w", encoding="utf-8") as handle:
         handle.write(html)
 
