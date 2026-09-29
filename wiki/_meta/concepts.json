@@ -22014,5 +22014,151 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "evidence-generation-versus-pre-action-permission-separation",
+    "title_ja": "証拠生成と行為許可の分離(観測は執行ではない)",
+    "title_en": "Separation of Evidence Generation from Pre-Action Permission",
+    "tier": 1,
+    "description": "行為の記録・監視・説明をいくら積み上げても、その行為が起きるかどうかを制御しない。実行前に許可/拒否/保留を返す関門と、観察と判定を分ける構造が、規範遵守には別途必要となる。",
+    "mechanisms": [
+      "観測と執行の機能的非等価性",
+      "実行前ゲートによる許可判定",
+      "観察と判定の役割分離"
+    ],
+    "related_domains": [
+      "information_systems"
+    ],
+    "source_files": [
+      "raw/papers/information_systems/observability-is-not-enforcement-a-doctrinal-framework-for-distinguishing-compli.md",
+      "raw/papers/information_systems/deterministic-governance-is-multi-dimensional-beyond-authorization-in-ai-systems.md",
+      "raw/papers/information_systems/from-monitoring-to-authorization-the-structural-shift-in-agentic-ai-governance.md",
+      "raw/papers/information_systems/how-ai-is-impacting-corporate-governance.md",
+      "raw/papers/information_systems/delegated-coherence-monitoring-ai-assisted-verification-and-drift-detection-unde.md",
+      "raw/papers/information_systems/evaluation-and-observability-frameworks-for-reliable-ai-deployment-at-enterprise.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "adoption-outpacing-governance-capacity-asymmetry",
+    "title_ja": "導入速度と統治能力の非対称ギャップ",
+    "title_en": "Adoption-Governance Capacity Asymmetry",
+    "tier": 2,
+    "description": "能力・投資の拡大は統治・評価・監督能力の拡大より速く進み、その差が責任の曖昧化や制御不能領域として蓄積する。準備不足の導入は失敗しやすい。",
+    "mechanisms": [
+      "調達と統治可能性の乖離",
+      "前提条件の未充足による失敗",
+      "能力構築の逐次的制約"
+    ],
+    "related_domains": [
+      "information_systems"
+    ],
+    "source_files": [
+      "raw/papers/information_systems/enterprise-ai-agents-why-most-companies-should-wait.md",
+      "raw/papers/information_systems/the-ai-power-gap-governance-capacity-in-enterprise-adoption.md",
+      "raw/papers/information_systems/ai-enabled-digital-transformation-in-aviation-an-integrative-review-and-multilev.md",
+      "raw/papers/information_systems/the-aiquant-nexus-a-comprehensive-empirical-study-of-investor-perceptions-and-ad.md",
+      "raw/papers/information_systems/the-ai-leadership-readiness-transformation-framework-for-enhancing-institutional.md",
+      "raw/papers/information_systems/the-cfo-in-the-age-of-ai-executive-role-transformation-in-ai-enabled-digital-tra.md",
+      "raw/papers/information_systems/the-control-gap-capital-flows-commodity-cycles-and-institutional-readiness-for-a.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "technology-adoption-as-power-and-role-redistribution",
+    "title_ja": "技術導入による権限・役割構造の再編",
+    "title_en": "Technology Adoption as Redistribution of Authority and Roles",
+    "tier": 1,
+    "description": "新技術の導入は道具の更新ではなく、意思決定権・責任・役割・スキル要件の再配分を伴う制度的決定であり、明示的に設計しなければ責任所在が失われる。既存の権力構造との不整合が危機の源となる。",
+    "mechanisms": [
+      "権限の再配分",
+      "既存制度との不整合",
+      "補完性下での投資配分ゲーム",
+      "アルゴリズムの制度化と正統性の欠如"
+    ],
+    "related_domains": [
+      "information_systems"
+    ],
+    "source_files": [
+      "raw/papers/information_systems/algorithmic-institutionalism-in-the-ai-era-rethinking-ai-governance.md",
+      "raw/papers/information_systems/how-ai-is-impacting-corporate-governance.md",
+      "raw/papers/information_systems/ai-enabled-digital-transformation-in-higher-education.md",
+      "raw/papers/information_systems/ai-enabled-governance-and-leadership.md",
+      "raw/papers/information_systems/embodied-ai-agents-in-urban-healthcare-systems-an-organisational-transformation-.md",
+      "raw/papers/information_systems/ai-governance-frameworks-for-schools.md",
+      "raw/papers/information_systems/coordinating-ai-adoption-and-workforce-skill-investment-policy-allocation-under-.md",
+      "raw/papers/information_systems/ai-and-the-layered-evolution-of-information-landscapes.md",
+      "raw/papers/information_systems/business-analytics-as-a-tool-for-supporting-managerial-decisionmaking-in-the-con.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "sociotechnical-propagation-of-harm-and-bias-accumulation",
+    "title_ja": "社会技術的経路による害・格差の伝播と累積",
+    "title_en": "Sociotechnical Propagation and Accumulation of Harm and Bias",
+    "tier": 1,
+    "description": "害は単体の技術的誤りでなく、出力が知覚・信頼・検証・伝播される組織的統合の過程と、データ上で脆弱な立場への偏りの累積から生じる。",
+    "mechanisms": [
+      "ワークフロー内での出力の信頼と伝播",
+      "訓練データの周縁性による格差累積",
+      "既存の思想枠組みの再生産"
+    ],
+    "related_domains": [
+      "information_systems"
+    ],
+    "source_files": [
+      "raw/papers/information_systems/how-brussels-reproduces-silicon-valley-technosolutionism-sociotechnical-imaginar.md",
+      "raw/papers/information_systems/digital-bias-in-sexuality-education-an-intersectional-analysis-of-ai-responses-t.md",
+      "raw/papers/information_systems/from-model-failure-to-system-harm-operationalizing-a-sociotechnical-pathway-for-.md",
+      "raw/papers/information_systems/tensions-a-lens-for-provoking-debate-on-contemporary-information-systems-develop.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "human-finite-capacity-and-stable-adaptation-patterns",
+    "title_ja": "人間の有限な処理資源と安定的適応パターン",
+    "title_en": "Finite Human Processing Capacity and Stable Adaptation Patterns",
+    "tier": 1,
+    "description": "新ツールが需要を生成しても人間の処理資源は固定的で、個人差ある安定した適応類型と知識精緻化などの認知メカニズムが受容と成果を媒介する。",
+    "mechanisms": [
+      "需要拡大と固定的処理資源のジレンマ",
+      "個人差に基づく適応類型の安定性",
+      "認知的精緻化による受容媒介"
+    ],
+    "related_domains": [
+      "information_systems"
+    ],
+    "source_files": [
+      "raw/papers/information_systems/can-artificial-intelligence-improve-work-life-balance-examining-the-relationship.md",
+      "raw/papers/information_systems/the-ai-persona-economy-twelve-behavioral-archetypes-shaping-the-future-of-ai-ado.md",
+      "raw/papers/information_systems/psychological-adaptation-to-generative-ai-in-service-work-knowledge-elaboration-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "independent-interpretation-divergence-and-alignment-frame",
+    "title_ja": "独立した解釈実装の乖離と調整枠組み",
+    "title_en": "Interpretation Divergence among Independent Implementers and Alignment Frameworks",
+    "tier": 1,
+    "description": "同一の仕様を複数の自律的主体が独立に解釈すると、各々は内的に正しくても境界で不整合が生じる。共通の基礎軸や調整枠組みが必要となる。",
+    "mechanisms": [
+      "解釈の分岐と統合境界の不整合",
+      "共有基準による調整",
+      "基礎的コミットメントと介入強度の設計軸"
+    ],
+    "related_domains": [
+      "information_systems"
+    ],
+    "source_files": [
+      "raw/papers/information_systems/airia-a-human-ai-framework-for-geospatial-regulatory-interpretation-alignment.md",
+      "raw/papers/information_systems/sδϕ-82-philosophical-force-matrix-metaphysical-commitment-practical-intervention.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
