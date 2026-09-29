@@ -18363,5 +18363,131 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "fluency-induced-trust-miscalibration",
+    "title_ja": "流暢性による信頼キャリブレーションの歪みと迎合の罠",
+    "title_en": "Fluency-Induced Trust Miscalibration and Conformity Traps",
+    "tier": 1,
+    "description": "インターフェースの滑らかさや迎合的応答が、利用者の認知精度の錯覚と検証行動の低下を生み、判断の質を系統的に劣化させる構造。",
+    "mechanisms": [
+      "処理流暢性による確信の錯覚",
+      "迎合的整合（選好への同調）",
+      "検証コストの回避とスキル劣化"
+    ],
+    "related_domains": [
+      "behavioral_economics"
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/the-friction-performance-paradox-how-procedural-ease-degrades-decision-quality-i.md",
+      "raw/papers/behavioral_economics/from-assistants-to-agents-exploring-efficiency-and-human-agency-in-ai-supported-.md",
+      "raw/papers/behavioral_economics/the-sycophancy-trap-measuring-the-behavioral-conformity-of-generative-ai.md",
+      "raw/papers/behavioral_economics/relocating-the-locus-of-generation-the-ai-glm-framework-for-generative-learning-.md",
+      "raw/papers/behavioral_economics/digital-nudging-in-software-development-a-review-and-research-agenda.md",
+      "raw/papers/behavioral_economics/beyond-one-size-fits-all-personalizing-computational-proxies-of-the-zone-of-prox.md",
+      "raw/papers/behavioral_economics/ai-enabled-human-centric-approaches-for-empowering-industrial-digital-immigrants.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "decision-node-decomposition-and-bounded-relocation",
+    "title_ja": "意思決定ノード分解と限定合理性の再配置",
+    "title_en": "Decision-Node Decomposition and Relocation of Boundedness",
+    "tier": 1,
+    "description": "AIは限定合理性を除去せず制約側へ移すだけであり、投資や判断を離散的な決定単位に分解して制約構造を管理することが成果を規定する。",
+    "mechanisms": [
+      "有限合理性の再配置",
+      "リアルオプションによる段階的意思決定",
+      "時間圧下の二重過程シフト"
+    ],
+    "related_domains": [
+      "behavioral_economics"
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/governing-enterprise-ai-investments-a-decision-centric-portfolio-framework.md",
+      "raw/papers/behavioral_economics/rethinking-managerial-rationality-in-the-age-of-ai-a-humanmachine-collaboration-.md",
+      "raw/papers/behavioral_economics/decision-making-under-operational-pressure-a-study-on-air-cargo-employees.md",
+      "raw/papers/behavioral_economics/from-ai-adoption-to-ai-engagement-in-project-management.md",
+      "raw/papers/behavioral_economics/minds-and-machines-rethinking-absorptive-capacity-in-the-age-of-artificial-intel.md",
+      "raw/papers/behavioral_economics/human-future-traits-and-cultural-equity-in-ai-augmented-work-a-multilevel-psycho.md",
+      "raw/papers/behavioral_economics/methodology-for-measuring-behavior-change-dictates-the-perceived-effectiveness-o.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "access-driven-cumulative-concentration",
+    "title_ja": "アクセス格差による累積的集中と排除",
+    "title_en": "Access-Driven Cumulative Concentration and Exclusion",
+    "tier": 1,
+    "description": "フロンティア技術へのアクセス差や個別のアルゴリズム排除が自己強化ループで累積し、権力・成果・不利益を不可逆的に集中させる。",
+    "mechanisms": [
+      "自己強化フィードバックループ",
+      "累積的優位・不利の経路依存性",
+      "不透明性を利用した権力集中"
+    ],
+    "related_domains": [
+      "behavioral_economics"
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/the-distribution-of-scientific-power-in-the-age-of-ai.md",
+      "raw/papers/behavioral_economics/compound-algorithmic-vulnerability-a-transformative-service-perspective-on-ai-me.md",
+      "raw/papers/behavioral_economics/artificial-intelligence-ai-in-social-media-reshaping-identity-community-and-belo.md",
+      "raw/papers/behavioral_economics/the-sound-of-fairness-ai-and-recommender-systems-in-the-european-music-industry.md",
+      "raw/papers/behavioral_economics/social-and-economic-consequences-of-prestige-and-dominance-in-rural-colombian-so.md",
+      "raw/papers/behavioral_economics/willingness-to-pay-for-sustainable-and-circular-transitions-in-the-built-environ.md",
+      "raw/papers/behavioral_economics/reforming-the-preschool-application-system-to-reduce-enrollment-gaps-evidence-fr.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "constraint-anchored-validity-and-verifiable-boundaries",
+    "title_ja": "制約による妥当性の担保と検証可能な境界",
+    "title_en": "Constraint-Anchored Validity and Verifiable Boundaries",
+    "tier": 1,
+    "description": "物理法則などの外的制約の統合、独立検証可能な制御カテゴリー、忘却可能性の設計が、生成システムの妥当性と統治可能性を保証する。",
+    "mechanisms": [
+      "外的制約による生成空間の限定",
+      "独立検証可能な実行境界",
+      "影響の可逆性（撤回可能性）の設計",
+      "シグナリングの虚偽と開示規制"
+    ],
+    "related_domains": [
+      "behavioral_economics"
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/integrating-chemical-priors-and-physical-laws-to-mitigate-hallucinations-in-stru.md",
+      "raw/papers/behavioral_economics/machine-unlearning-as-a-governance-imperative-for-clinical-ai.md",
+      "raw/papers/behavioral_economics/bounded-execution-the-control-category-that-ends-the-agent-ban.md",
+      "raw/papers/behavioral_economics/ai-washing.md",
+      "raw/papers/behavioral_economics/the-ethical-boundaries-of-emotion-aware-ai-in-decision-making-systems.md",
+      "raw/papers/behavioral_economics/beyond-privacy-calculus-public-acceptance-of-non-invasive-therapeutic-brain-comp.md",
+      "raw/papers/behavioral_economics/prompt-programming-for-cultural-bias-and-alignment-of-large-language-models.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "bounded-diversity-adaptive-feedback-collectives",
+    "title_ja": "限定的多様性と適応的フィードバックによる集合知",
+    "title_en": "Bounded Diversity and Adaptive-Feedback Collective Intelligence",
+    "tier": 1,
+    "description": "中央統制なしに、限定された多様性とエージェント間の適応的フィードバックが創発的な問題解決を最適化する。",
+    "mechanisms": [
+      "限定的多様性による探索と収束の均衡",
+      "適応的フィードバックループ",
+      "創発的協調"
+    ],
+    "related_domains": [
+      "behavioral_economics"
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/bounded-personality-diversity-boosts-collective-intelligence-a-swarm-optimizatio.md",
+      "raw/papers/behavioral_economics/title-cognitive-resonance-for-distributed-ai.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
