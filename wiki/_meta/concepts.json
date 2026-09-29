@@ -23522,5 +23522,131 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "attractor-convergence-over-global-optimization",
+    "title_ja": "大域最適化ではなく構造アトラクタへの局所自己組織化による収束",
+    "title_en": "Local Self-Organization to Structural Attractors versus Global Optimization",
+    "tier": 1,
+    "description": "学習や適応は大域的な損失最小化ではなく、局所情報と構造制約のもとで安定な構造へ有限回で収束する過程として成立する。",
+    "mechanisms": [
+      "アトラクタへの自己組織化",
+      "局所情報による信用割り当て",
+      "臨界近傍での動的安定性"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/fisher-information-metric-as-a-model-free-measure-of-proximity-to-criticality-in.md",
+      "raw/papers/neuroscience/formation-of-structural-attractors-in-neuromorphic-systems.md",
+      "raw/papers/neuroscience/a-gradient-based-yet-spike-timing-dependent-solution-to-the-feedback-learning-pr.md",
+      "raw/papers/neuroscience/a-neural-astrocyte-architecture-implements-a-hybrid-automaton-for-evidence-accum.md",
+      "raw/papers/neuroscience/neural-noise-enables-accurate-internal-simulation-of-rare-events.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "objective-indexed-representation-separation",
+    "title_ja": "多目的下での共有表現の不安定化と成果軸での分離・合成",
+    "title_en": "Shared-Representation Instability and Outcome-Indexed Compositional Decomposition",
+    "tier": 1,
+    "description": "複数の目的が単一の共有表現を奪い合うと不安定化するため、目的軸で分離した低次元単位を選択・合成する構造が必要になる。",
+    "mechanisms": [
+      "共有資源の競合による不安定化",
+      "低次元プリミティブの合成",
+      "離散的選択による文脈切替"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/why-shared-attention-vectors-fail-a-case-for-outcome-indexed-tuning.md",
+      "raw/papers/neuroscience/learning-options-for-compositional-motor-control-with-adapter-banks.md",
+      "raw/papers/neuroscience/the-platonic-brain-bridge-hypothesis-human-brain-networks-as-an-architectural-pr.md",
+      "raw/papers/neuroscience/brain-organoid-computing-for-robotic-decision-making.md",
+      "raw/papers/neuroscience/ai-coupled-hpc-workflow-applications-middleware-and-performance.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "capacity-bounded-input-and-understanding-emergence",
+    "title_ja": "有限な処理容量が規定する入力速度と理解創発の非線形性",
+    "title_en": "Capacity-Bounded Intake and Nonlinear Emergence of Understanding",
+    "tier": 1,
+    "description": "情報入力量を増やしても理解は線形に増えず、作業記憶などの有限容量を境に相転移的に変化するため、変換の構造管理と資源効率化が持続的課題となる。",
+    "mechanisms": [
+      "有限容量による相転移的飽和",
+      "外在的受容と内在的理解の分離",
+      "資源制約による効率化圧力"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/a-testable-computational-framework-for-cognitive-enhancement-information-input-u.md",
+      "raw/papers/neuroscience/the-power-of-didactic-thinking-frameworks-cognitive-architecture-and-computation.md",
+      "raw/papers/neuroscience/socrates-went-nuclear-comparing-interaction-strategies-for-ai-systems-in-a-learn.md",
+      "raw/papers/neuroscience/beyond-efficiency-a-systematic-survey-of-resource-efficient-large-language-model.md",
+      "raw/papers/neuroscience/cognitive-performance-under-ai-advice-development-and-initial-validation-of-a-ch.md",
+      "raw/papers/neuroscience/totality-learning-all-data-as-potential-evidence-for-artificial-intelligence-reu.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "explanation-verification-refinement-loop",
+    "title_ja": "説明・予測検証・知識洗練の閉ループによる不確実性下の推論",
+    "title_en": "Explanation-Verification-Refinement Loop under Uncertainty",
+    "tier": 1,
+    "description": "不確実環境ではモデルの予測や説明を検証し続けて知識を更新する閉ループが、知能と信頼の基盤となる。希少事象はノイズを利用した内部シミュレーションで補われる。",
+    "mechanisms": [
+      "予測誤差による学習",
+      "フィードバックループ",
+      "確率的サンプリングによる希少事象推定"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/xai-refine-an-automated-explanation-knowledge-loop-for-brain-age-prediction.md",
+      "raw/papers/neuroscience/recommendations-for-visual-predictive-checks-in-bayesian-workflow.md",
+      "raw/papers/neuroscience/editorial-neurobiological-foundations-of-cognition-and-progress-toward-artificia.md",
+      "raw/papers/neuroscience/neural-noise-enables-accurate-internal-simulation-of-rare-events.md",
+      "raw/papers/neuroscience/math-for-ai-safety-an-invitation-for-mathematicians.md",
+      "raw/papers/neuroscience/pathological-neural-and-immune-synapses-in-glioblastoma-progression-mechanisms-a.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "bidirectional-human-machine-coupling-and-autonomy-boundary",
+    "title_ja": "人間-機械の双方向結合と自律性・同意の境界設計",
+    "title_en": "Bidirectional Human-Machine Coupling and Autonomy Boundary Design",
+    "tier": 1,
+    "description": "人間と機械が状態を相互に読み取り介入する結合が深まるほど、攻撃面・監視・不平等が増し、自律と同意を時間と目的に境界づけた設計が不可欠になる。",
+    "mechanisms": [
+      "双方向適応による結合の深化",
+      "攻撃面の拡大と非対称性",
+      "時間・目的で境界づけられた同意"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/your-ride-your-rulespsychology-and-cognition-enabled-automated-driving-systems.md",
+      "raw/papers/neuroscience/nerve-attacks-breaking-ai-powered-brain-computer-interfaces.md",
+      "raw/papers/neuroscience/the-open-neural-observatory-non-invasive-brain-computer-interfaces-as-a-general-.md",
+      "raw/papers/neuroscience/ethical-issues-arising-from-neurotechnology.md",
+      "raw/papers/neuroscience/artificial-intelligence-as-a-decision-layer-in-brain-computer-interface-controll.md",
+      "raw/papers/neuroscience/human-factors-evaluation-methods-for-embodied-interaction-mediators-a-systematic.md",
+      "raw/papers/neuroscience/proteus-platform-for-robotic-ontogenesis-through-transparent-evolution-user-coll.md",
+      "raw/papers/neuroscience/universal-living-system-consent-personhood-identity-restitution-recoverability-t.md",
+      "raw/papers/neuroscience/the-geopolitics-of-artificial-intelligence.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
