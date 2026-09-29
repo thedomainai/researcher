@@ -39,6 +39,7 @@ body{
     radial-gradient(circle at top right, rgba(217,160,125,.12), transparent 22%),
     radial-gradient(circle at bottom, rgba(130,174,245,.11), transparent 30%),
     linear-gradient(180deg, rgba(17,25,42,.92), rgba(7,10,19,.98));
+  background-attachment:fixed;
 }
 body::before{
   content:"";
@@ -1220,6 +1221,25 @@ function renderAll(){
 renderDomainFilter();
 wireControls();
 renderAll();
+</script>
+<script>
+(function(){
+  var panel = document.querySelector('.control-panel');
+  if (!panel) return;
+  var GAP = 24, MIN = 200, pending = false;
+  function fit(){
+    pending = false;
+    if (getComputedStyle(panel).position !== 'sticky'){ panel.style.maxHeight = ''; return; }
+    var top = Math.max(panel.getBoundingClientRect().top, GAP);
+    var room = Math.floor(window.innerHeight - top - GAP);
+    panel.style.maxHeight = Math.max(MIN, room) + 'px';
+  }
+  function schedule(){ if (!pending){ pending = true; requestAnimationFrame(fit); } }
+  window.addEventListener('scroll', schedule, {passive: true});
+  window.addEventListener('resize', schedule);
+  window.addEventListener('load', schedule);
+  schedule();
+})();
 </script>
 </body>
 </html>
