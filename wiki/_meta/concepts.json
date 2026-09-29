@@ -25387,5 +25387,187 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "commoditized-technology-and-complementary-asset-advantage",
+    "title_ja": "汎用化する技術と補完資産による優位の成立",
+    "title_en": "Commoditized Technology and Complementary-Asset Advantage",
+    "tier": 1,
+    "description": "誰でも入手できる能力そのものは差別化源泉にならず、独自の補完的資源・組織能力・共特化との結合においてのみ持続的優位が生じる。",
+    "mechanisms": [
+      "補完性(共特化)による価値創出",
+      "資源の希少性と模倣困難性",
+      "実装能力の媒介効果"
+    ],
+    "related_domains": [
+      "strategic_management"
+    ],
+    "source_files": [
+      "raw/papers/strategic_management/harnessing-green-intellectual-capital-to-drive-green-innovation-and-environmenta.md",
+      "raw/papers/strategic_management/the-centaur-advantage-how-interpretable-ai-and-human-ai-collaboration-creates-co.md",
+      "raw/papers/strategic_management/role-of-competitive-intelligence-in-organizational-redesign.md",
+      "raw/papers/strategic_management/artificial-intelligence-in-building-sustainable-competitive-advantages-in-retail.md",
+      "raw/papers/strategic_management/ai-enabled-strategic-transformation-organizational-capabilities-and-competitive-.md",
+      "raw/papers/strategic_management/the-impact-of-artificial-intelligence-capabilities-on-organisational-performance.md",
+      "raw/papers/strategic_management/paradigm-shift-in-fintech-development-in-the-age-of-artificial-intelligence-from.md",
+      "raw/papers/strategic_management/transforming-corporate-administration-through-artificial-intelligence-an-analysi.md",
+      "raw/papers/strategic_management/strategic-management-the-foundation-of-organizational-success-in-the-21st-centur.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "multi-pressure-adoption-and-institutional-isomorphism",
+    "title_ja": "多重圧力と制度的同型化による慣行採用",
+    "title_en": "Multi-Pressure Adoption and Institutional Isomorphism",
+    "tier": 1,
+    "description": "組織・個人の新慣行採用は、模倣・強制・規範の圧力と、行為者の特性(性格・所有構造・解釈力)の相互作用で決まる。",
+    "mechanisms": [
+      "制度的同型化(模倣・強制・規範)",
+      "正当性追求",
+      "個人特性による調整効果"
+    ],
+    "related_domains": [
+      "strategic_management",
+      "systems_engineering"
+    ],
+    "source_files": [
+      "raw/papers/strategic_management/ten-years-of-accounting-for-climate-change-a-systematic-review-of-research-progr.md",
+      "raw/papers/strategic_management/rational-decisions-or-moral-obligations-a-systematic-review-of-tpb-nam-integrati.md",
+      "raw/papers/strategic_management/the-effect-of-ceo-narcissism-on-the-quality-of-environmental-social-and-governan.md",
+      "raw/papers/strategic_management/express-a-review-of-upper-echelons-theory-in-hospitality-general-managers-as-an-.md",
+      "raw/papers/strategic_management/promoting-state-owned-forest-farms-participations-in-community-forestry-developm.md",
+      "raw/papers/strategic_management/determinants-of-employees-intentions-to-adopt-ai-tools-evidence-from-technology-.md",
+      "raw/papers/strategic_management/the-impact-of-family-ownership-and-ceo-risk-traits-on-tax-avoidance-in-jordan-th.md",
+      "raw/papers/strategic_management/adoption-of-nontraditional-labor-market-approaches-a-neoinstitutional-theory-app.md",
+      "raw/papers/strategic_management/supply-chain-management-performance-business-resilience-and-ai-enabled-decision-.md",
+      "raw/papers/systems_engineering/sociotechnical-dynamics-of-deepfake-creation-an-activity-systems-analysis.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "decision-rights-redistribution-under-information-processing-shift",
+    "title_ja": "情報処理の転換に伴う意思決定権の再配分",
+    "title_en": "Decision-Rights Redistribution under Information-Processing Shift",
+    "tier": 1,
+    "description": "情報処理の担い手が変わると、有限な認知容量を補う形で意思決定権・統制構造・価値創造単位が分散・再編される。",
+    "mechanisms": [
+      "有限合理性と情報処理の外部化",
+      "意思決定権の分散化",
+      "階層的統制の変容"
+    ],
+    "related_domains": [
+      "strategic_management",
+      "systems_engineering"
+    ],
+    "source_files": [
+      "raw/papers/strategic_management/paradigm-shift-in-fintech-development-in-the-age-of-artificial-intelligence-from.md",
+      "raw/papers/strategic_management/strategic-management-the-foundation-of-organizational-success-in-the-21st-centur.md",
+      "raw/papers/strategic_management/transforming-corporate-administration-through-artificial-intelligence-an-analysi.md",
+      "raw/papers/strategic_management/role-of-competitive-intelligence-in-organizational-redesign.md",
+      "raw/papers/strategic_management/llm-based-strategic-risk-q-a-over-sec-filings-for-top-management-decision-suppor.md",
+      "raw/papers/strategic_management/the-evolution-of-strategic-decision-making-in-the-digital-age.md",
+      "raw/papers/systems_engineering/modelling-humanai-trust-in-sociotechnical-systems-a-systems-perspective-on-organ.md",
+      "raw/papers/systems_engineering/socio-technical-framework-for-ai-resilient-assessment-in-information-systems-edu.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "multi-actor-iterative-governance-and-competing-narratives",
+    "title_ja": "多主体の反復的相互作用と競合する物語によるガバナンス形成",
+    "title_en": "Multi-Actor Iterative Governance and Competing Narratives",
+    "tier": 2,
+    "description": "ガバナンスは中央の一元設計ではなく、多層の主体間の反復的相互作用と正当性物語の競合、共有利益と個人主権の緊張の中で形成される。",
+    "mechanisms": [
+      "多中心的調整",
+      "物語による正当性競争",
+      "共有利益と主権の対立"
+    ],
+    "related_domains": [
+      "strategic_management"
+    ],
+    "source_files": [
+      "raw/papers/strategic_management/global-single-market-for-data-exploring-data-cosmopolitanism-as-a-solidarity-bas.md",
+      "raw/papers/strategic_management/chinas-diffusionforward-ai-strategy-the-ai-race-in-political-economic-context.md",
+      "raw/papers/strategic_management/competing-visions-of-ai-governance-strategic-narratives-in-china-and-the-europea.md",
+      "raw/papers/strategic_management/redefining-chinas-approach-to-ai-governance-beyond-top-down-government-led-and-c.md",
+      "raw/papers/strategic_management/promoting-state-owned-forest-farms-participations-in-community-forestry-developm.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "strategic-resource-concentration-and-power-asymmetry",
+    "title_ja": "戦略資源の集中が生む権力の非対称性",
+    "title_en": "Strategic Resource Concentration and Power Asymmetry",
+    "tier": 2,
+    "description": "希少な基盤資源へのアクセス集中が権力配分を規定し、制度環境の違いが異なる拡散戦略と競争構造を生む。",
+    "mechanisms": [
+      "資源依存とボトルネック支配",
+      "経路依存性",
+      "制度環境による戦略分岐"
+    ],
+    "related_domains": [
+      "strategic_management"
+    ],
+    "source_files": [
+      "raw/papers/strategic_management/chinas-diffusionforward-ai-strategy-the-ai-race-in-political-economic-context.md",
+      "raw/papers/strategic_management/ai-semiconductors-and-geopolitical-competition-the-new-strategic-resources-of-gl.md",
+      "raw/papers/strategic_management/redefining-chinas-approach-to-ai-governance-beyond-top-down-government-led-and-c.md",
+      "raw/papers/strategic_management/supply-chain-management-performance-business-resilience-and-ai-enabled-decision-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "layered-synchronization-of-sociotechnical-transformation",
+    "title_ja": "社会技術変革における多層同期と知覚-推論-決定の連鎖",
+    "title_en": "Layered Synchronization in Sociotechnical Transformation",
+    "tier": 1,
+    "description": "大規模変革は政策・インフラ・データ・組織能力の層間の順序付けと同期に依存し、知覚→推論→決定の連鎖で不確実性が因果的に伝播する。",
+    "mechanisms": [
+      "多層間の同期とシーケンシング",
+      "不確実性の因果伝播",
+      "ボトルネック律速"
+    ],
+    "related_domains": [
+      "strategic_management",
+      "systems_engineering"
+    ],
+    "source_files": [
+      "raw/papers/systems_engineering/the-clockwork-model-of-national-ai-adoption-sequenced-synchronized-and-scalable-.md",
+      "raw/papers/systems_engineering/ai-enabled-iot-systems-for-urban-flood-resilience-a-validated-case-study-from-du.md",
+      "raw/papers/systems_engineering/modelling-humanai-trust-in-sociotechnical-systems-a-systems-perspective-on-organ.md",
+      "raw/papers/systems_engineering/socio-technical-framework-for-ai-resilient-assessment-in-information-systems-edu.md",
+      "raw/papers/strategic_management/supply-chain-management-performance-business-resilience-and-ai-enabled-decision-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "externality-internalization-and-knowledge-capital-under-constraint",
+    "title_ja": "外部性の内部化と制約対応型の知識資本形成",
+    "title_en": "Externality Internalization and Knowledge Capital under Constraint",
+    "tier": 2,
+    "description": "外部制約(環境・規制)への対応は、ステークホルダー圧力を通じた外部性の内部化と、知識資本・動的能力の蓄積によるイノベーションとして進む。",
+    "mechanisms": [
+      "外部性の内部化",
+      "動的能力による再構成",
+      "規範と合理性の統合的動機付け"
+    ],
+    "related_domains": [
+      "strategic_management"
+    ],
+    "source_files": [
+      "raw/papers/strategic_management/ten-years-of-accounting-for-climate-change-a-systematic-review-of-research-progr.md",
+      "raw/papers/strategic_management/harnessing-green-intellectual-capital-to-drive-green-innovation-and-environmenta.md",
+      "raw/papers/strategic_management/rational-decisions-or-moral-obligations-a-systematic-review-of-tpb-nam-integrati.md",
+      "raw/papers/strategic_management/the-effect-of-ceo-narcissism-on-the-quality-of-environmental-social-and-governan.md",
+      "raw/papers/strategic_management/the-impact-of-family-ownership-and-ceo-risk-traits-on-tax-avoidance-in-jordan-th.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
   }
 ]
