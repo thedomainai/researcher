@@ -24669,5 +24669,155 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "theory-to-mechanism-translation-gap",
+    "title_ja": "理論から設計機構への変換ギャップと内発的動機の充足",
+    "title_en": "Theory-to-Mechanism Translation Gap and Intrinsic Need Satisfaction",
+    "tier": 1,
+    "description": "理論や規範が具体的な仕組みに翻訳されないと、初期採用後の持続的関与は失われ形式的遵守に終わる。自律性・有能感・関係性の充足が実質的関与を生む。",
+    "mechanisms": [
+      "理論と実装の乖離",
+      "基本的心理欲求の充足",
+      "形式的遵守と実質的関与の分離"
+    ],
+    "related_domains": [
+      "psychology"
+    ],
+    "source_files": [
+      "raw/papers/psychology/a-theory-driven-ucd-framework-for-young-adult-wellness-translating-sdt-and-care-.md",
+      "raw/papers/psychology/the-microfoundations-of-sustainability-reporting-a-selfdetermination-theory-on-i.md",
+      "raw/papers/psychology/bridging-inclusive-education-and-ai-a-technology-centric-taxonomy-and-systematic.md",
+      "raw/papers/psychology/the-impact-of-metaverse-and-virtual-reality-vr-on-gamified-physical-education-le.md",
+      "raw/papers/psychology/a-conceptual-framework-for-ai-enabled-digital-twin-based-production-planning.md",
+      "raw/papers/psychology/ai-agentic-automation-and-the-future-of-design-and-engineering.md",
+      "raw/papers/psychology/from-threat-to-tool-ai-self-efficacy-and-user-profiles-in-higher-education.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "prior-attitude-filtered-trust-formation",
+    "title_ja": "事前態度に濾過される信頼形成と透明性の非対応",
+    "title_en": "Prior-Attitude-Filtered Trust Formation and the Transparency-Trust Mismatch",
+    "tier": 1,
+    "description": "信頼は客観的な機能や透明性ではなく、事前の態度・説明の見え方・社会的シグナルによって決まり、技術的検証可能性と人間の信頼は必ずしも対応しない。",
+    "mechanisms": [
+      "事前態度によるフィルタリング",
+      "シグナル検出の認知制約",
+      "説明可能性を介した信頼媒介"
+    ],
+    "related_domains": [
+      "psychology"
+    ],
+    "source_files": [
+      "raw/papers/psychology/ai-feelings-over-ai-features-how-messaging-about-risk-benefit-and-ai-shapes-cogn.md",
+      "raw/papers/psychology/the-trust-paradox-in-aiblockchain-systems-exploring-transparency-immutability-an.md",
+      "raw/papers/psychology/perceived-quality-of-ai-supported-recruitment-the-role-of-explainability-trust-a.md",
+      "raw/papers/psychology/human-ai-collaboration-vs-substitution-in-tourism-social-media-content-a-concept.md",
+      "raw/papers/psychology/when-the-agent-decides-trust-calibration-challenges-in-multi-agent-ai-systems-fo.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "fluency-induced-vigilance-loss-and-silence",
+    "title_ja": "流暢性による警戒低下と沈黙・同調",
+    "title_en": "Fluency-Induced Vigilance Loss and Conformity Silence",
+    "tier": 1,
+    "description": "滑らかなインタフェースや権威ある自動出力は、評価行動を弱め、異論の表明を抑え、誘導への自律性を侵食する。",
+    "mechanisms": [
+      "流暢性による認知的注意の低下",
+      "評価懸念による沈黙",
+      "誘導と自律性のトレードオフ"
+    ],
+    "related_domains": [
+      "psychology"
+    ],
+    "source_files": [
+      "raw/papers/psychology/voice-modality-engagement-and-trust-calibration-in-human-ai-co-creation.md",
+      "raw/papers/psychology/exploring-the-antecedents-and-consequences-of-ai-induced-silence-from-the-perspe.md",
+      "raw/papers/psychology/research-on-attention-guidance-and-user-autonomy-in-ai-powered-immersive-environ.md",
+      "raw/papers/psychology/when-the-agent-decides-trust-calibration-challenges-in-multi-agent-ai-systems-fo.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "assistance-mediated-capability-erosion-and-homogenization",
+    "title_ja": "支援による能力侵食と多様性の画一化",
+    "title_en": "Assistance-Mediated Capability Erosion and Homogenization",
+    "tier": 1,
+    "description": "認知負荷を肩代わりする支援は、助言的導入でも判断力・持久力・自己効力感を徐々に変質させ、平均を上げつつ分散を縮小させる。自己効力感と自己調整が分岐を決める。",
+    "mechanisms": [
+      "認知オフロードによる能力の萎縮",
+      "自己効力感による依存の調整",
+      "平均上昇と分散縮小のトレードオフ",
+      "技術ストレスによる高次認知の阻害"
+    ],
+    "related_domains": [
+      "psychology"
+    ],
+    "source_files": [
+      "raw/papers/psychology/does-technostress-impair-critical-thinking-artificial-intelligence-self-efficacy.md",
+      "raw/papers/psychology/reframing-humanai-collaboration-in-higher-education-behavioral-pathways-from-gen.md",
+      "raw/papers/psychology/reconfiguring-creativity-a-systematic-review-of-empirical-research-on-artificial.md",
+      "raw/papers/psychology/empowerment-or-disempowerment-the-impact-of-genai-use-on-graduate-students-resea.md",
+      "raw/papers/psychology/from-pen-to-prompt-costs-of-ai-overreliance-on-students-cognitive-endurance-self.md",
+      "raw/papers/psychology/risk-assessment-instruments-and-the-erasure-of-discretionary-judgment-rethinking.md",
+      "raw/papers/psychology/understanding-learning-engagement-in-indian-higher-education-through-epistemic-a.md",
+      "raw/papers/psychology/a-narrowed-creativity-a-systematic-review-and-meta-analysis-of-generative-ai-col.md",
+      "raw/papers/psychology/efficiency-vs-safety-in-ai-enabled-medical-education-an-ethical-analysis-of-ai-a.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "responsible-control-anchor-under-agentic-autonomy",
+    "title_ja": "主体的自律システムにおける責任制御の不動点",
+    "title_en": "Responsible Control Anchor under Agentic Autonomy",
+    "tier": 1,
+    "description": "受動的ツールから主体的エージェントへ移行し、タスク有界性が失われると、従来の統制は機能不全となる。説明責任の固定点と人間の監督を構造的に維持する必要がある。",
+    "mechanisms": [
+      "責任の不動点の設計",
+      "タスク有界性の喪失による統制の無効化",
+      "説明責任構造の維持"
+    ],
+    "related_domains": [
+      "psychology"
+    ],
+    "source_files": [
+      "raw/papers/psychology/from-automation-to-agency-the-paradigm-of-agentic-ai-across-technology-society-a.md",
+      "raw/papers/psychology/quality-assurance-checklist-for-human-ai-cps-integration-in-regulated-engineerin.md",
+      "raw/papers/psychology/why-public-service-ai-governance-frameworks-risk-failing-in-the-age-of-general-p.md",
+      "raw/papers/psychology/from-ai-readiness-to-accountable-centaur-readiness-organizational-governance-of-.md",
+      "raw/papers/psychology/when-the-agent-decides-trust-calibration-challenges-in-multi-agent-ai-systems-fo.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "hybrid-epistemic-stewardship-and-fusion-conditions",
+    "title_ja": "複数の認識主体による共同知識生成と検証の仕組み",
+    "title_en": "Hybrid Epistemic Stewardship and Fusion Conditions",
+    "tier": 1,
+    "description": "人間とAIが共同で知識を生む際、信頼・検証・問題志向の設計次第で認識の融合か隔絶かが決まり、認識の境界は再構成される。",
+    "mechanisms": [
+      "分散した主体性",
+      "検証と信頼の制度化",
+      "問題志向アーキテクチャによる融合と隔絶の分岐"
+    ],
+    "related_domains": [
+      "psychology"
+    ],
+    "source_files": [
+      "raw/papers/psychology/notes-on-a-sociology-of-generative-knowledge-human-ai-epistemic-stewardship.md",
+      "raw/papers/psychology/epistemic-fusion-or-epistemic-tunnel-a-phenomenology-anchored-global-literature-.md",
+      "raw/papers/psychology/reconfiguring-creativity-a-systematic-review-of-empirical-research-on-artificial.md",
+      "raw/papers/psychology/ai-agentic-automation-and-the-future-of-design-and-engineering.md",
+      "raw/papers/psychology/human-ai-collaboration-vs-substitution-in-tourism-social-media-content-a-concept.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
