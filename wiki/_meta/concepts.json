@@ -23648,5 +23648,169 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "representation-geometry-governs-adaptation-and-transfer",
+    "title_ja": "表現空間の幾何が適応・転移・制御可能性を規定する",
+    "title_en": "Representation-Space Geometry Governs Adaptation, Transfer and Controllability",
+    "tier": 1,
+    "description": "情報処理系の適応速度・転移範囲・介入可能性は、入力や状態が占める表現空間の幾何(多様体上か外か、共有下位機構の有無、個体の圧縮能力)で決まる。",
+    "mechanisms": [
+      "多様体制約による状態遷移の分解",
+      "共有下位機構を介した転移",
+      "表現の圧縮能力(表現力)への依存"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/input-space-geometry-shapes-adaptation-dynamics-underlying-repetition-suppressio.md",
+      "raw/papers/neuroscience/selective-transfer-of-perceptual-learning-in-parafoveal-second-order-motion-gene.md",
+      "raw/papers/neuroscience/identifying-neural-state-changes-due-to-gain-versus-off-manifold-displacement.md",
+      "raw/papers/neuroscience/ai-driven-neural-surrogates-for-in-silico-design-of-cognitive-affective-neuromod.md",
+      "raw/papers/neuroscience/the-computational-value-of-sensory-aligned-receptive-fields-depends-on-neuronal-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "productive-struggle-preservation-in-assisted-learning",
+    "title_ja": "支援による負荷削減と学習に不可欠な負荷の分離",
+    "title_en": "Separating Offloadable Load from Learning-Essential Effort in Assisted Systems",
+    "tier": 1,
+    "description": "支援系は外来的負荷のみを肩代わりし、理解形成に必要な内在的努力を学習者側に残す設計が必要で、その成否は個人資源を媒介する社会的影響にも左右される。",
+    "mechanisms": [
+      "内在的負荷と外来的負荷の区別",
+      "個人資源(自己効力感)による媒介",
+      "内発的動機による継続性"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/social-influence-and-academic-performance-a-serial-mediation-model-in-ai-enhance.md",
+      "raw/papers/neuroscience/designing-a-human-in-the-loop-ai-iterative-process-for-research-writing-a-framew.md",
+      "raw/papers/neuroscience/motivations-intrinsèque-et-extrinsèque-comme-déterminants-de-lintention-dadoptio.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "selection-mechanisms-determine-institutional-adaptability",
+    "title_ja": "選別機構と知識生成能力が長期適応力を決める",
+    "title_en": "Selection Mechanisms and Knowledge-Generation Capacity Determine Long-Run Adaptability",
+    "tier": 2,
+    "description": "組織・社会の長期競争力は技術ストックではなく、リーダー選別や知識統合・動的能力といった生成機構の構造で決まる。",
+    "mechanisms": [
+      "選択圧による淘汰",
+      "知識ベースの内部一貫性と統合",
+      "動的能力の文化的媒介"
+    ],
+    "related_domains": [
+      "neuroscience",
+      "operations_management"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/from-the-social-selection-of-leaders-to-evolutionary-advantage-leadership-models.md",
+      "raw/papers/neuroscience/architecture-dun-individu-artificiel---v2-enrichie-par-la-psychologie-et-la-phys.md",
+      "raw/papers/neuroscience/le-co-développement-des-rd-vaccinales-et-bio-informatiques-au-sein-des-grands-gr.md",
+      "raw/papers/operations_management/ai-driven-leadership-in-manufacturing-supply-chains-a-systematic-literature-revi.md",
+      "raw/papers/operations_management/smart-supply-chains-industry-40-and-resilience-in-the-uae-food-and-beverage-sect.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "task-codifiability-determines-automation-outcomes",
+    "title_ja": "タスクの形式化可能性が自動化の帰結と分配を決める",
+    "title_en": "Task Codifiability Determines Automation Outcomes and Distribution",
+    "tier": 1,
+    "description": "形式知化可能なタスクの有無と指標選択が、代替・補完の境界、労働所得の不平等、AI統合の階層的整合の成否を決める。",
+    "mechanisms": [
+      "代替と補完の境界",
+      "複数均衡の共存",
+      "意思決定階層のアライメント"
+    ],
+    "related_domains": [
+      "operations_management"
+    ],
+    "source_files": [
+      "raw/papers/operations_management/strategic-integration-of-ai-for-datadriven-decisions-and-automation-in-operation.md",
+      "raw/papers/operations_management/artificial-intelligence-and-the-strategic-reconfiguration-of-work-a-conceptual-a.md",
+      "raw/papers/operations_management/does-digitalization-widen-labor-income-inequality.md",
+      "raw/papers/operations_management/ai-copilots-and-knowledge-creation-in-maritime-fishing-operations.md",
+      "raw/papers/operations_management/leanagile-product-development-in-fda-relevant-and-regulated-medical-device-conte.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "hierarchical-integration-of-models-and-learned-control",
+    "title_ja": "物理モデルと学習制御の階層統合による複雑系管理",
+    "title_en": "Hierarchical Integration of Structural Models and Learned Control in Complex Systems",
+    "tier": 1,
+    "description": "部分観測・遅延・組合せ爆発・多目的矛盾を持つ複雑系は、構造モデル、デジタルツイン、学習制御を階層的に統合して予測・最適化する。",
+    "mechanisms": [
+      "部分観測下の状態推定",
+      "モデルと学習の階層分業",
+      "非定常性によるモデルドリフト"
+    ],
+    "related_domains": [
+      "neuroscience",
+      "operations_management"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/artificial-intelligence-for-predictive-mixture-toxicology.md",
+      "raw/papers/operations_management/an-fkfaidigital-twin-framework-for-intelligent-supply-chain-management.md",
+      "raw/papers/operations_management/machine-learning-enabled-innovation-in-automotive-manufacturing-under-industry-4.md",
+      "raw/papers/operations_management/ai-based-frameworks-for-indoor-air-quality-management-in-smart-cities.md",
+      "raw/papers/operations_management/digital-twins-for-hospital-and-healthcare-operations-a-systematic-review-of-reso.md",
+      "raw/papers/operations_management/optimizing-maritime-supply-chains-using-artificial-intelligence-and-big-data.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "closed-loop-safety-and-governance-of-autonomous-agents",
+    "title_ja": "閉ループ監視とモジュール型ガバナンスによる自律系の安全性",
+    "title_en": "Closed-Loop Monitoring and Modular Governance for Autonomous Systems",
+    "tier": 1,
+    "description": "不確実環境の自律エージェントの安全性と品質は、認知-推論-行動-監視の閉ループ、相互運用性、継続学習、透明・包摂的な説明責任で担保される。",
+    "mechanisms": [
+      "閉ループ安全監視",
+      "モジュール性と継続的学習",
+      "合成的リスクの相互依存伝播"
+    ],
+    "related_domains": [
+      "operations_management"
+    ],
+    "source_files": [
+      "raw/papers/operations_management/agentic-ai-for-livestock-housing-management-applications-benchmarking-and-readin.md",
+      "raw/papers/operations_management/from-smart-cities-to-smart-panchayats-a-responsible-ai-management-framework-for-.md",
+      "raw/papers/operations_management/quality-40-in-smart-city-management.md",
+      "raw/papers/operations_management/conclusion-and-recommendations.md",
+      "raw/papers/operations_management/ai-driven-software-supply-chain-security-and-risk-assessment.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "memory-wall-resource-scaling-constraint",
+    "title_ja": "資源スケーリングの非対称が設計を規定するボトルネック",
+    "title_en": "Asymmetric Resource Scaling as a Persistent Design Bottleneck",
+    "tier": 2,
+    "description": "計算と記憶帯域の成長差のような資源間の非対称が、知能の規模に関わらずシステムアーキテクチャの再編を強いる。",
+    "mechanisms": [
+      "ボトルネックの移動",
+      "データ移動コストの支配"
+    ],
+    "related_domains": [
+      "operations_management"
+    ],
+    "source_files": [
+      "raw/papers/operations_management/cracks-in-the-memory-wall-data-systems-on-disaggregated-memory.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
   }
 ]
