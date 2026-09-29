@@ -17553,5 +17553,152 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "structural-separation-of-verification-from-governed-system",
+    "title_ja": "被統治系からの検証機構の構造的分離",
+    "title_en": "Structural Separation of Verification from the Governed System",
+    "tier": 1,
+    "description": "自己改変・逸脱が可能な系では、統制や検証を系の内部(到達可能な空間)に置くと無効化されるため、権限・役割・実行経路を構造的に分離した外部の検証層が不変に必要となる。",
+    "mechanisms": [
+      "到達可能性による制御の無効化",
+      "権限・役割の分離(職務分掌)",
+      "独立した証拠アーキテクチャ"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/amagi-mem-v11-self-protecting-context-aware-memory-architecture-for-high-assuran.md",
+      "raw/papers/ai_governance/fifty-years-of-specification-completeness-what-aviation-certification-tells-ai-g.md",
+      "raw/papers/ai_governance/the-unfireable-safety-kernel-execution-time-ai-alignment-for-ai-agents-and-other.md",
+      "raw/papers/ai_governance/meta-governance-of-autonomous-ai-agents-a-policy-as-code-architecture-for-real-t.md",
+      "raw/papers/ai_governance/cagf-constitutional-ai-governance-framework-formal-specification-governance-reco.md",
+      "raw/papers/ai_governance/human-ai-foundational-alignment.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "surface-substrate-divergence",
+    "title_ja": "宣言と実質の乖離と意図・原因の切り分け",
+    "title_en": "Surface-Substrate Divergence and Causal Attribution of Behavior",
+    "tier": 1,
+    "description": "複雑な系は提示・宣言されるインターフェースと実際の内部挙動が必然的に乖離し、観察可能な出力だけでは悪意・誤解・無知を区別できないため、内部状態に基づく検証と原因帰属が要る。",
+    "mechanisms": [
+      "情報の非対称性",
+      "観測可能性と内部状態のギャップ",
+      "プリンシパル＝エージェント問題"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/model-forensics-investigating-whether-concerning-behavior-reflects-misalignment.md",
+      "raw/papers/ai_governance/structural-honesty-axioms-for-detecting-surface-substrate-divergence-in-ai-syste.md",
+      "raw/papers/ai_governance/beyond-the-transcript-detecting-covert-co-ordination-in-latent-multi-agent-commu.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "context-bounded-validity-and-revalidation",
+    "title_ja": "文脈境界付き妥当性と再検証トリガー",
+    "title_en": "Context-Bounded Validity and Revalidation Triggers",
+    "tier": 1,
+    "description": "仕様・データ・安全マージンの妥当性は成立した文脈に束縛されるため、文脈変化を検知して再検証する仕組みと、文脈に応じた適応的な余裕設計が必要になる。",
+    "mechanisms": [
+      "文脈依存の有効性",
+      "変化検知による再検証",
+      "固定閾値の較正ずれ"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/amagi-mem-v11-self-protecting-context-aware-memory-architecture-for-high-assuran.md",
+      "raw/papers/ai_governance/fifty-years-of-specification-completeness-what-aviation-certification-tells-ai-g.md",
+      "raw/papers/ai_governance/learning-adaptive-safety-margins-for-visual-navigation.md",
+      "raw/papers/ai_governance/from-legal-databases-to-ai-assisted-justice-a-risk-sensitive-framework-for-the-a.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "bias-compounding-across-interacting-distortion-sources",
+    "title_ja": "複数の歪み源の相互作用による偏りの累積・増幅",
+    "title_en": "Bias Compounding Across Interacting Distortion Sources",
+    "tier": 1,
+    "description": "偏りはデータ設計から意思決定までの各段階に埋め込まれ、人間とアルゴリズムの双方向作用や複数バイアスの相互作用でフィードバック的に増幅・累積するため、単一段階や単純な因果判定では捉えられない。",
+    "mechanisms": [
+      "フィードバックループ",
+      "段階間の誤差累積",
+      "経路依存性"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/bias-and-fairness-in-social-data.md",
+      "raw/papers/ai_governance/a-hybrid-distortion-architecture-of-bias-in-humanalgorithm-decision-systems.md",
+      "raw/papers/ai_governance/a-lifecycle-framework-of-ai-fairness-and-research-agenda-in-information-systems.md",
+      "raw/papers/ai_governance/discrimination-drift-a-practical-framework-for-responsible-ai.md",
+      "raw/papers/ai_governance/from-fair-graphs-to-fair-data-a-dag-based-approach-to-mitigating-bias-in-ai-syst.md",
+      "raw/papers/ai_governance/the-unfairness-of-multifactorial-bias-in-recommendation.md",
+      "raw/papers/ai_governance/against-the-causal-account-of-algorithmic-fairness.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "machine-speed-oversight-asymmetry",
+    "title_ja": "機械速度と人間速度の統治非対称性",
+    "title_en": "Machine-Speed vs Human-Speed Governance Asymmetry",
+    "tier": 1,
+    "description": "自律エージェントの動作速度・規模が人間速度の監督を上回るとき、統治はポリシーのコード化やリアルタイム実行など、監督の階層を一段上げたメタ統治へ移行せざるを得ない。",
+    "mechanisms": [
+      "時間スケールの不整合",
+      "メタレベルの統制",
+      "創発と集合行為問題"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/meta-governance-of-autonomous-ai-agents-a-policy-as-code-architecture-for-real-t.md",
+      "raw/papers/ai_governance/an-approach-to-systemic-risks-of-ai-through-the-lens-of-emergence-collective-act.md",
+      "raw/papers/ai_governance/responsible-ai-through-algorithmic-control.md",
+      "raw/papers/ai_governance/organisational-challenges-and-capabilities-for-responsible-use-of-data.md",
+      "raw/papers/ai_governance/human-ai-foundational-alignment.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "pluralistic-legitimacy-and-trust-signaling",
+    "title_ja": "多元的正当性と信頼シグナリングの構造",
+    "title_en": "Pluralistic Legitimacy and Trust Signaling",
+    "tier": 1,
+    "description": "利害・文化・情報が分散した多元的主体の間では、正当性は参加・文脈適応・非ゼロサムな協力領域での信頼醸成によって築かれ、利害関係者の発言の信頼性はシグナリング問題として現れる。",
+    "mechanisms": [
+      "正当性赤字と参加による補完",
+      "シグナリングと利益相反",
+      "非ゼロサム協力による信頼醸成"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/formation-ethics-a-cross-cultural-framework-for-ai-governance.md",
+      "raw/papers/ai_governance/outer-space-as-the-minimum-safety-net-a-policy-strategy-for-agi-governance-beyon.md",
+      "raw/papers/ai_governance/the-ai-lobbyists-dilemma-navigating-credibility-commercial-interest-and-genuine-.md",
+      "raw/papers/ai_governance/building-ethical-ai-systems-for-competitive-advantage-in-commerce.md",
+      "raw/papers/ai_governance/a-citizens-track-on-ai-governance-agency-alignment-accountability.md",
+      "raw/papers/ai_governance/building-trustworthy-ai-governance-for-critical-infrastructure-foundations-of-th.md",
+      "raw/papers/ai_governance/navigating-the-dialogue-structure-and-explanation-style-in-ai-diagnostics.md",
+      "raw/papers/ai_governance/navigating-the-ai-paradox-in-higher-education-governance-frameworks-for-responsi.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
