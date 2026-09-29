@@ -17342,5 +17342,68 @@
       "ai_governance",
       "human_ai_collaboration"
     ]
+  },
+  {
+    "slug": "temporal-erosion-of-procedural-legitimacy-under-opacity",
+    "title_ja": "不透明性の累積露出による手続的正当性の時間的侵食",
+    "title_en": "Temporal Erosion of Procedural Legitimacy Under Opacity",
+    "tier": 2,
+    "description": "説明・異議申立て経路を欠く判定システムへの反復的な露出は、当初の予測不能性の感覚を、時間とともに制度そのものへの不正当性認知へと変質させる。公正性は時点判断ではなく累積的に形成される。",
+    "mechanisms": [
+      "累積的露出による認知遷移",
+      "情報の非対称性",
+      "異議申立て経路の欠如による正当性の低下"
+    ],
+    "related_domains": [
+      "accounting"
+    ],
+    "source_files": [
+      "raw/papers/accounting/why-black-box-ai-performance-reviews-undermine-procedural-justice-over-time.md",
+      "raw/papers/accounting/ai-safety-and-reliability-auditing-distilbart-zero-shot-pipeline-for-humanrobot-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "evidence-obligation-and-ambiguity-retention-in-autonomous-systems",
+    "title_ja": "自律システムにおける証拠義務と曖昧性の保持",
+    "title_en": "Evidence Obligations and Ambiguity Retention in Autonomous Systems",
+    "tier": 2,
+    "description": "識別情報が欠落した状態や複雑系の実行時状態に対し、単一の解釈へ早期に確定せず、複数仮説を並存させて検証可能な証拠を積み上げることで、状態の真実性を保つ構造。",
+    "mechanisms": [
+      "複数仮説の並行保持",
+      "実行時検証による状態真実性の担保",
+      "定量と定性判断の統合"
+    ],
+    "related_domains": [
+      "accounting"
+    ],
+    "source_files": [
+      "raw/papers/accounting/suspense-management-framework-for-life-annuities-and-enterprise-financial-system.md",
+      "raw/papers/accounting/shenhuaai-an-llm-powered-software-platform-for-multi-dimensional-corporate-healt.md",
+      "raw/papers/accounting/runtime-verifiability-and-anti-simulation-layer-evidence-obligations-for-bounded.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "computational-limits-forcing-decentralized-autonomy",
+    "title_ja": "中央集約制御の計算限界が強制する分散自律化",
+    "title_en": "Computational Limits of Central Control Forcing Decentralized Autonomy",
+    "tier": 2,
+    "description": "取引や主体の数と変動が増えると、周期的・決定論的な中央制御は処理速度の限界に達し、意思決定を自律的な主体間の調整へ移すことが構造的に強制される。",
+    "mechanisms": [
+      "中央制御の処理能力限界",
+      "分散的な調整",
+      "周期処理から連続処理への移行"
+    ],
+    "related_domains": [
+      "accounting"
+    ],
+    "source_files": [
+      "raw/papers/accounting/from-meter-to-cash-to-agent-to-agent-utilities-an-enterprise-architecture-framew.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
   }
 ]
