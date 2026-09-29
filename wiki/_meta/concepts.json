@@ -22788,5 +22788,134 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "functional-attribution-of-intent-to-accountable-principals",
+    "title_ja": "機能的意図帰属と責任主体への遡及構造",
+    "title_en": "Functional Attribution of Intent and Principal Traceability",
+    "tier": 1,
+    "description": "意図や責任は内的心理の報告ではなく、行為の帰属機能として構成され、自律的エージェントが介在しても背後の設置者・主体へ遡及される。人格付与は責任の所在を曖昧にし失敗する。",
+    "mechanisms": [
+      "機能的帰属(法的虚構)",
+      "プリンシパル＝エージェント問題",
+      "責任の遡及可能性の保存"
+    ],
+    "related_domains": [
+      "law",
+      "leadership_ob"
+    ],
+    "source_files": [
+      "raw/papers/law/intelligence-is-not-personhood-an-ethiopian-orthodox-contribution-to-christian-t.md",
+      "raw/papers/law/the-phantom-agent-artificial-intentionality-and-legal-responsibility.md",
+      "raw/papers/law/the-anthropological-sovereignty-of-law-artificial-intelligence-interpretation-an.md",
+      "raw/papers/law/the-delegation-illusion-why-deploying-autonomous-ai-agents-does-not-diminish-pri.md",
+      "raw/papers/law/reconfiguring-identity-ownership-and-legal-framework-in-the-digital-world.md",
+      "raw/papers/law/decisive-refutation-of-ai-personhood-the-logical-collapse-of-agency-risk-and-att.md",
+      "raw/papers/law/modular-legal-personhood-for-ai-use-cases-an-enterprise-systems-engineering-fram.md",
+      "raw/papers/leadership_ob/transformational-leadership-in-the-age-of-artificial-intelligence-a-systematic-r.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "multi-actor-value-chain-liability-reallocation",
+    "title_ja": "多主体価値連鎖における責任配分の再構成",
+    "title_en": "Liability Reallocation in Opaque Multi-Actor Value Chains",
+    "tier": 1,
+    "description": "不透明性・適応的挙動・証拠の非対称性・分散した関与者の下では、単一の過失基準は機能せず、制御・リスク・証拠・データを軸に責任と保険を再配分する必要が生じる。",
+    "mechanisms": [
+      "情報の非対称性",
+      "因果関係の不確定性",
+      "リスクの内部化と保険化"
+    ],
+    "related_domains": [
+      "law"
+    ],
+    "source_files": [
+      "raw/papers/law/civil-liability-in-a-data-driven-economy-proposal-for-a-data-centric-liability.md",
+      "raw/papers/law/regulating-the-unseen-ai-accountability-in-uk-healthcare-sector.md",
+      "raw/papers/law/ai-liability-and-liability-insurance-for-ai.md",
+      "raw/papers/law/civil-liability-for-artificial-intelligence-induced-harm-in-indonesia-reconstruc.md",
+      "raw/papers/law/mitigating-ai-privacy-risks-in-latin-america-identity-infrastructure-institution.md",
+      "raw/papers/law/algorithmic-oversight-caremarks-fiduciary-framework-applied-to-artificial-intell.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "formal-rule-shadow-labor-accountability-gap",
+    "title_ja": "形式的規則と不可視の実務のあいだの説明責任ギャップ",
+    "title_en": "Accountability Gap between Formal Rules and Invisible Practice",
+    "tier": 1,
+    "description": "法的責任は形式上の主体に置かれる一方、実際の決定は不可視の労働・コード設計・分散した実務で生産され、この乖離が手続的保護を侵食し権力の非対称を固定化する。",
+    "mechanisms": [
+      "形式と実態の乖離",
+      "権力の官吏から設計者への移転",
+      "ブラックボックス化による異議申立ての無効化"
+    ],
+    "related_domains": [
+      "law"
+    ],
+    "source_files": [
+      "raw/papers/law/the-accountability-gap-shadow-digital-labor-and-the-crisis-of-accountability-in-.md",
+      "raw/papers/law/artificial-intelligence-in-the-police-innovation-and-ethical-use.md",
+      "raw/papers/law/algorithmic-accountability-and-protection-of-fair-procedure-rights-in-ai-driven-.md",
+      "raw/papers/law/ai-deepfakes-and-democratic-accountability-the-role-of-rti-laws.md",
+      "raw/papers/law/ethics-and-governance-of-ai-in-healthcare.md",
+      "raw/papers/law/the-sociology-of-ai-ethical-framework-for-healthcare.md",
+      "raw/papers/law/responsible-ai-in-healthcare-navigating-ethics-and-governance-challenges.md",
+      "raw/papers/law/the-el-rakhawi-unified-analytical-framework-for-constitutional-competence-a-comp.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "boundary-invariant-first-architecture-and-modular-governance",
+    "title_ja": "境界制約を第一義とするアーキテクチャと用途別モジュール型統治",
+    "title_en": "Boundary-First Architecture and Use-Case-Modular Governance",
+    "tier": 1,
+    "description": "管轄・データ境界などの制約は最適化対象ではなく許容構造を決定する先行事実であり、用途のリスクプロファイルごとに法的・組織的構造を展開前に設計する必要がある。",
+    "mechanisms": [
+      "制約による設計空間の限定",
+      "リスク階層別のモジュール化",
+      "文言・定義による義務の固定"
+    ],
+    "related_domains": [
+      "law"
+    ],
+    "source_files": [
+      "raw/papers/law/when-words-become-obligations-terminology-contracts-and-compliance-in-artificial.md",
+      "raw/papers/law/cross-border-ai-architecture-patterns-three-patterns-and-why-the-fourth-is-not-a.md",
+      "raw/papers/law/modular-legal-personhood-for-ai-use-cases-an-enterprise-systems-engineering-fram.md",
+      "raw/papers/law/mitigating-ai-privacy-risks-in-latin-america-identity-infrastructure-institution.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "socio-technical-fit-as-implementation-condition",
+    "title_ja": "社会技術的適合と役割再編が導入成否を規定する構造",
+    "title_en": "Socio-Technical Fit and Role Reconfiguration as Determinants of Implementation",
+    "tier": 1,
+    "description": "技術の成果は技術性能ではなく組織文化・規範・役割スコープ・信頼形成との適合に規定され、新技術導入は既存の役割と分散的リーダーシップを再編成する。",
+    "mechanisms": [
+      "社会技術システムの整合",
+      "役割スコープの再編",
+      "共同学習による信頼形成"
+    ],
+    "related_domains": [
+      "leadership_ob"
+    ],
+    "source_files": [
+      "raw/papers/leadership_ob/distributed-leadership-applied-the-role-of-professional-learning-communities-in-.md",
+      "raw/papers/leadership_ob/beyond-shiny-ai-promises-focusing-on-social-factors-of-implementation-success.md",
+      "raw/papers/leadership_ob/do-caios-replace-traditional-cios-an-investigation-into-the-responsibilities-of-.md",
+      "raw/papers/leadership_ob/studying-multi-team-membership-and-ai-use-an-experimental-platform.md",
+      "raw/papers/leadership_ob/ethical-leadership-in-healthcare-a-multilevel-framework-for-physician-leaders.md",
+      "raw/papers/leadership_ob/transformational-leadership-in-the-age-of-artificial-intelligence-a-systematic-r.md",
+      "raw/papers/leadership_ob/resolving-circumarctic-zero-curtain-phenomena-with-ai-integrated-earth-observati.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
