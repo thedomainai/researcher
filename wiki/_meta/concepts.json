@@ -19525,5 +19525,159 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "haiku"
+  },
+  {
+    "slug": "excess-over-consensus-credit-assignment",
+    "title_ja": "合意超過分への信用割当と統合位置の設計",
+    "title_en": "Credit Assignment for Excess-over-Consensus and Placement of Aggregation",
+    "tier": 1,
+    "description": "協調学習では、全体信号(advantage)は統合し個別の調整(ratio)は分離し、平均を超える貢献を明示的に最適化することで、集団の冗長化を避けつつ協調を得る。",
+    "mechanisms": [
+      "信用割当",
+      "集約位置の非対称性",
+      "平均からの超過改善の最適化"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/mada-rl-multi-agent-debate-aware-reinforcement-learning-for-parameter-efficient-.md",
+      "raw/papers/complexity_science/aggregate-in-the-advantage-not-the-ratio-a-canonical-form-analysis-of-cooperativ.md",
+      "raw/papers/complexity_science/one-model-many-minds-unlocking-multi-agent-synergy-in-a-single-agent-via-mixture.md",
+      "raw/papers/complexity_science/collective-emergence-in-multi-agent-reinforcement-learning.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "local-rules-to-emergent-collective-order",
+    "title_ja": "局所ルールと選別から創発する集団秩序とその操舵",
+    "title_en": "Emergent Collective Order from Local Rules and Selection, and Its Steering",
+    "tier": 1,
+    "description": "単純な局所相互作用・非線形性・選別圧から集団的秩序が創発し、間接的な環境介入や上位制御で方向づけられるが、検証・計算負荷は非線形に増大する。",
+    "mechanisms": [
+      "局所相互作用の非線形性",
+      "スティグマジー(環境媒介の調整)",
+      "自己組織化と選別",
+      "多時間スケール相互作用"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/towards-agentic-agent-based-models-feasibility-performance-and-statistical-model.md",
+      "raw/papers/complexity_science/ant-swarm-functional-control-via-stigmergic-reinforcement-learning-agents.md",
+      "raw/papers/complexity_science/experimental-demonstration-of-steerable-emergence-on-156-qubits-a-microcontrolle.md",
+      "raw/papers/complexity_science/mixed-mode-bursting-oscillations-in-a-three-timescale-biophysical-neuronal-oscil.md",
+      "raw/papers/complexity_science/algorithmic-self-organization-of-complex-systems.md",
+      "raw/papers/complexity_science/collective-emergence-in-multi-agent-reinforcement-learning.md",
+      "raw/papers/complexity_science/entomopathogenic-nematodes-and-volatile-organic-compounds-to-control-wireworms.md",
+      "raw/papers/complexity_science/computational-processor-ontology-cpo-mathematical-formulation-of-operational-tim.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "self-monitoring-feedback-and-adaptive-plasticity",
+    "title_ja": "内部状態の自己監視フィードバックと適応可塑性の維持",
+    "title_en": "Self-Monitoring Feedback Loops and Preservation of Adaptive Plasticity",
+    "tier": 1,
+    "description": "非定常環境下で自律適応するには、外部環境だけでなく内部状態(休止・劣化・価値)を監視し、遷移の連続性を保ちつつ回復させるループが必要。",
+    "mechanisms": [
+      "フィードバックループ",
+      "内部状態の監視(内受容)",
+      "価値システムによる適応",
+      "状態遷移の連続性維持"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/prime-plasticity-recovery-in-multi-agent-environments-for-uav-assisted-emergency.md",
+      "raw/papers/complexity_science/ennory-a-computational-framework-for-transition-intelligence-in-formula-one-engi.md",
+      "raw/papers/complexity_science/life-inspired-interoceptive-artificial-intelligence-for-autonomous-and-adaptive-.md",
+      "raw/papers/complexity_science/emotions-and-a-functional-test-for-intelligence-in-artificial-systems.md",
+      "raw/papers/complexity_science/pharmacodynamic-modeling-of-colistin-and-imipenem-against-in-vitro-pseudomonas-a.md",
+      "raw/papers/complexity_science/artificial-intelligence-based-cash-flow-forecasting-for-early-financial-distress.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "evidence-grounded-role-separated-agent-coordination",
+    "title_ja": "根拠中心・役割分離型のエージェント協調と検証の構造的分離",
+    "title_en": "Evidence-Grounded, Role-Separated Agent Coordination with Structural Verification",
+    "tier": 1,
+    "description": "専門化された役割、永続記憶と省察、根拠の追跡可能性、生成と独立検証の分離によって、不確実な出力を統合し信頼可能な意思決定にする。",
+    "mechanisms": [
+      "役割分離と専門化",
+      "記憶と省察によるフィードバック",
+      "生成と検証の構造的分離",
+      "異質な根拠の統合"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/autonomous-cyber-defense-in-connected-vehicles-a-multi-agent-approach-to-v2x-sec.md",
+      "raw/papers/complexity_science/adaptive-memory-and-reflection-multi-agent-system-for-medical-question-answering.md",
+      "raw/papers/complexity_science/dentagent-evidence-centric-multi-agent-coordination-for-multimodal-dental-reason.md",
+      "raw/papers/complexity_science/autoresearch-insight-in-hallucination-out.md",
+      "raw/papers/complexity_science/one-model-many-minds-unlocking-multi-agent-synergy-in-a-single-agent-via-mixture.md",
+      "raw/papers/complexity_science/dsa-evidence-aware-llm-agent-orchestration-for-multi-market-stock-research.md",
+      "raw/papers/complexity_science/ai-for-productivity-in-the-age-of-agentic-ai.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "decision-loops-and-layered-decentralized-control",
+    "title_ja": "意思決定ループと分散アクティブ制御の多層構造",
+    "title_en": "Decision Loops and Layered Decentralized Active Control",
+    "tier": 1,
+    "description": "中央管理から分散自律へ移行するシステムは、認知→最適化→実行・交換という多層の意思決定ループと、時間的非同期性(遅延・タイミング)の管理を必然的に要する。",
+    "mechanisms": [
+      "認知・最適化・交換の階層化",
+      "意思決定ループ",
+      "時間的非同期性の制約",
+      "分散化による中央集権の限界"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/see-balance-exchange-building-an-operational-toolkit-for-active-distribution-net.md",
+      "raw/papers/complexity_science/autonomous-enterprise-platforms-a-framework-for-ai-guided-decision-loops-predict.md",
+      "raw/papers/complexity_science/artificial-intelligence-based-cash-flow-forecasting-for-early-financial-distress.md",
+      "raw/papers/complexity_science/ai-for-productivity-in-the-age-of-agentic-ai.md",
+      "raw/papers/complexity_science/autonomous-cyber-defense-in-connected-vehicles-a-multi-agent-approach-to-v2x-sec.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "unobservable-control-and-emergent-collusion-limits",
+    "title_ja": "可観測性・制御の原理的限界と創発的暗黙協調のリスク",
+    "title_en": "Fundamental Limits of Observability/Control and Emergent Tacit Coordination Risks",
+    "tier": 1,
+    "description": "組織境界を越える自律エージェント群では、完全な可視性・事前認可は原理的に困難で、独立学習から不可逆な暗黙協調が創発するため、制御設計は限界を前提とする必要がある。",
+    "mechanisms": [
+      "情報の非対称性",
+      "創発的な暗黙協調",
+      "不可能性による制御の限界",
+      "正当性圧力下の検証崩壊"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/the-authorization-artifact-test-applying-the-impossibility-result-to-ex-ante-aut.md",
+      "raw/papers/complexity_science/ai-agents-in-algorithmic-electricity-markets-on-the-emergence-of-tacit-collusion.md",
+      "raw/papers/complexity_science/risks-and-controls-for-multi-agent-systems-an-analytical-framework-for-deploymen.md",
+      "raw/papers/complexity_science/ai-washing-as-a-knowledge-governance-failure-in-organizations.md",
+      "raw/papers/complexity_science/the-human-intelligence-imperative-human-cognitive-agency-in-the-age-of-artificia.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
