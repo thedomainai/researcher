@@ -20398,5 +20398,167 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "productivity-labor-decoupling-and-inclusion-gap",
+    "title_ja": "生産性と人間の経済的包摂のデカップリング",
+    "title_en": "Productivity–Inclusion Decoupling under Scalable Cognition",
+    "tier": 1,
+    "description": "認知機能が限界費用ほぼゼロで複製可能になると、価値創出が労働投入から切り離され、再分配の経路(賃金)が機能しなくなる構造。",
+    "mechanisms": [
+      "限界費用逓減によるスケール複製",
+      "創造的破壊の補償メカニズム破綻",
+      "所得分配経路の断絶"
+    ],
+    "related_domains": [
+      "economics"
+    ],
+    "source_files": [
+      "raw/papers/economics/fair-share-economic-protocol-fsep.md",
+      "raw/papers/economics/evaluating-the-socio-economic-impacts-of-the-energy-system-transition-the-implic.md",
+      "raw/papers/economics/beyond-ai-safety-designing-the-transition-to-an-intelligence-economy.md",
+      "raw/papers/economics/creative-destruction-without-creation-artificial-intelligence-and-the-decoupling.md",
+      "raw/papers/economics/ai-and-the-economy-an-economic-examination-of-production-distribution-firms-labo.md",
+      "raw/papers/economics/ai-human-labor-and-the-task-frontier-automation-complementarity-and-the-net-effe.md",
+      "raw/papers/economics/ai-and-labor-present-and-future-scenarios.md",
+      "raw/papers/economics/generative-artificial-intelligence-and-labour-displacement-and-augmentation-at-t.md",
+      "raw/papers/economics/artificial-intelligence-and-the-changing-architecture-of-work-skill-adaptation-o.md",
+      "raw/papers/economics/the-impact-of-artificial-intelligence-on-labor-employment-contracts-and-professi.md",
+      "raw/papers/economics/artificial-intelligence-and-the-future-of-the-labour-market-opportunities-challe.md",
+      "raw/papers/economics/the-sectoral-trilemma-a-contingent-theory-of-divergent-productivity-employment-r.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "task-standardizability-determines-substitution-boundary",
+    "title_ja": "タスク標準化可能性による代替境界の決定",
+    "title_en": "Task Standardizability as Substitution Boundary",
+    "tier": 1,
+    "description": "機能・タスクの標準化・検証可能性の度合いが、代替か補完か、また三者トレードオフ(生産性・雇用・規模)の配置をセクターごとに選別する。",
+    "mechanisms": [
+      "選別的代替",
+      "トレードオフ(トリレンマ)制約",
+      "新タスク創出とのレース"
+    ],
+    "related_domains": [
+      "economics"
+    ],
+    "source_files": [
+      "raw/papers/economics/ai-human-labor-and-the-task-frontier-automation-complementarity-and-the-net-effe.md",
+      "raw/papers/economics/ai-and-labor-present-and-future-scenarios.md",
+      "raw/papers/economics/generative-artificial-intelligence-and-labour-displacement-and-augmentation-at-t.md",
+      "raw/papers/economics/the-sectoral-trilemma-a-contingent-theory-of-divergent-productivity-employment-r.md",
+      "raw/papers/economics/artificial-intelligence-and-the-changing-architecture-of-work-skill-adaptation-o.md",
+      "raw/papers/economics/from-automation-to-bounded-cognitive-partnership-a-functional-framework-of-artif.md",
+      "raw/papers/economics/artificial-intelligence-in-physiotherapy-and-the-limits-of-clinical-reasoning-a-.md",
+      "raw/papers/economics/the-economics-of-artificial-intelligence-scaling-verification-assignment-capital.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "capacity-release-without-allocation-decision",
+    "title_ja": "解放された能力の配分決定なき価値不在",
+    "title_en": "Released Capacity Requires Allocation Decisions",
+    "tier": 1,
+    "description": "生産能力の増大は自動的に価値へ転換されず、資本・能力の配分に関する戦略的判断と評価の非同期が価値と評価の乖離を生む。",
+    "mechanisms": [
+      "不完全情報下の資本配分",
+      "内生的な技術速度による資産陳腐化",
+      "投資と価値実現の時間的非同期"
+    ],
+    "related_domains": [
+      "economics"
+    ],
+    "source_files": [
+      "raw/papers/economics/the-economics-of-artificial-intelligence-scaling-verification-assignment-capital.md",
+      "raw/papers/economics/the-three-dimensional-economics-of-ai---rethinking-returns-when-capital-revenue-.md",
+      "raw/papers/economics/the-margin-cap-trap-using-value-based-ai-arbitrage-to-turn-ai-productivity-into-.md",
+      "raw/papers/economics/beyond-the-ai-bubble-analogy-valuation-productivity-and-infrastructure-in-the-ge.md",
+      "raw/papers/economics/the-inner-directed-executive-directional-outsourcing-and-the-preservation-of-exe.md",
+      "raw/papers/economics/towards-generative-relational-economics-a-preliminary-research-programme.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "scale-driven-concentration-and-institutional-lag",
+    "title_ja": "規模の経済による集中と制度適応の遅れ",
+    "title_en": "Scale-Driven Concentration and Institutional Lag",
+    "tier": 1,
+    "description": "情報配分権とデータのスケール経済が不可逆的な集中を生み、技術進化速度が制度適応速度を上回るため多層的な相互抑制が必要となる。",
+    "mechanisms": [
+      "収穫逓増による集中",
+      "情報配分権による競争歪曲",
+      "多層的相互抑制",
+      "制度適応の遅延"
+    ],
+    "related_domains": [
+      "economics"
+    ],
+    "source_files": [
+      "raw/papers/economics/democracy-without-borders-global-citizenship-between-platform-power-ai-and-the-c.md",
+      "raw/papers/economics/the-economics-of-ai-governance-evaluating-data-sovereignty-platform-monopolies-a.md",
+      "raw/papers/economics/antitrust-regulation-of-algorithmic-platform-driven-involution-from-governing-th.md",
+      "raw/papers/economics/systemic-risks-and-governance-of-advanced-artificial-intelligence-a-structured-l.md",
+      "raw/papers/economics/data-protection-laws-in-the-age-of-artificial-intelligence.md",
+      "raw/papers/economics/relative-development-and-the-intelligence-divide-human-capital-technology-diffus.md",
+      "raw/papers/economics/how-prosocial-ai-can-catalyze-quality-of-life-and-positive-social-change-at-scal.md",
+      "raw/papers/economics/fair-share-economic-protocol-fsep.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "epistemic-responsibility-and-authorship-anchoring",
+    "title_ja": "認識論的責任・著者性の人間への固定",
+    "title_en": "Epistemic Responsibility and Authorship Anchoring",
+    "tier": 1,
+    "description": "生成能力が増しても、方向性決定・責任・検証の主体は固定されねばならず、検証を欠く出力は可視的兆候なく失敗する。",
+    "mechanisms": [
+      "生成と検証の非対称性",
+      "責任帰属の固定化",
+      "沈黙の失敗(検出困難な誤り)"
+    ],
+    "related_domains": [
+      "economics"
+    ],
+    "source_files": [
+      "raw/papers/economics/the-inner-directed-executive-directional-outsourcing-and-the-preservation-of-exe.md",
+      "raw/papers/economics/scientific-agentic-engineering-a-framework-for-reliable-ai-agents-in-research-so.md",
+      "raw/papers/economics/on-generating-text-editorial-guidance-on-generative-and-agentic-ai-for-authors-a.md",
+      "raw/papers/economics/from-automation-to-bounded-cognitive-partnership-a-functional-framework-of-artif.md",
+      "raw/papers/economics/artificial-intelligence-in-physiotherapy-and-the-limits-of-clinical-reasoning-a-.md",
+      "raw/papers/economics/a-pathway-to-general-purpose-scientific-ai-multimodal-comprehension-of-scientifi.md",
+      "raw/papers/economics/data-protection-laws-in-the-age-of-artificial-intelligence.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "multilayer-capital-inequality-in-technology-diffusion",
+    "title_ja": "技術普及における多層的資本不均等",
+    "title_en": "Multilayer Capital Inequality in Technology Diffusion",
+    "tier": 1,
+    "description": "採用・適用・効果実現の各層で人的・制度的資本の格差が累積し、アクセスの平等だけでは成果の格差が解消しない。",
+    "mechanisms": [
+      "累積的優位",
+      "吸収能力の格差",
+      "個人と制度の二層統合"
+    ],
+    "related_domains": [
+      "economics"
+    ],
+    "source_files": [
+      "raw/papers/economics/relative-development-and-the-intelligence-divide-human-capital-technology-diffus.md",
+      "raw/papers/economics/how-prosocial-ai-can-catalyze-quality-of-life-and-positive-social-change-at-scal.md",
+      "raw/papers/economics/towards-generative-relational-economics-a-preliminary-research-programme.md",
+      "raw/papers/economics/the-impact-of-artificial-intelligence-on-labor-employment-contracts-and-professi.md",
+      "raw/papers/economics/evaluating-the-socio-economic-impacts-of-the-energy-system-transition-the-implic.md",
+      "raw/papers/economics/beyond-ai-safety-designing-the-transition-to-an-intelligence-economy.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
