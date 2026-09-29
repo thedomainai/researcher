@@ -21104,5 +21104,152 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "shared-editable-state-and-evaluability-design",
+    "title_ja": "共有可変状態と評価可能性を担保する情報設計",
+    "title_en": "Shared Editable State and Evaluability-Aware Information Design",
+    "tier": 1,
+    "description": "有限な認知資源の下では、提案・状態・表現を検査可能かつ編集可能な形で提示する設計が協調の質を決め、主体の対象(人間/AI)を問わず成立する。",
+    "mechanisms": [
+      "有限合理性",
+      "状態の透明化と編集可能性",
+      "フレーミングによる認知誘導"
+    ],
+    "related_domains": [
+      "hci"
+    ],
+    "source_files": [
+      "raw/papers/hci/propose-to-learn-learn-to-propose-evaluability-aware-assistance-under-bounded-ra.md",
+      "raw/papers/hci/transfiver-human-ai-co-inference-through-a-shared-editable-state.md",
+      "raw/papers/hci/from-interpretability-methods-to-interpretable-models.md",
+      "raw/papers/hci/the-convention-gap-towards-measuring-implicit-communication-in-cooperative-ai-ev.md",
+      "raw/papers/hci/quick-view-takeaways-how-does-title-framing-influences-pattern-identification-in.md",
+      "raw/papers/hci/mmai-mental-models-in-human-ai-interaction-methods-and-challenges-in-the-generat.md",
+      "raw/papers/hci/affora-a-design-system-for-agent-friendly-interfaces.md",
+      "raw/papers/hci/evaluating-multimodal-explainable-ai-in-ambiguous-driving-scenarios-effects-on-u.md",
+      "raw/papers/hci/explainable-ai-for-fraud-prevention-building-trust-and-sustainability-in-digital.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "deterministic-boundary-gating-of-autonomous-effects",
+    "title_ja": "自律的決定と現実効果の間の決定論的境界ゲート",
+    "title_en": "Deterministic Boundary Gating Between Decision and Real-World Effect",
+    "tier": 1,
+    "description": "不確実性と帰結の大きさに応じ、決定と実効果の間に検証可能な強制境界と人間の上書き権を置くことが、自律主体の権限を拘束する。",
+    "mechanisms": [
+      "実行時の権限拘束",
+      "不確実性×帰結による権限ゲート",
+      "人間による上書き権の保持"
+    ],
+    "related_domains": [
+      "hci"
+    ],
+    "source_files": [
+      "raw/papers/hci/execution-time-authorization-for-ai-agents-a-formal-framework-for-deterministic-.md",
+      "raw/papers/hci/n-coghci-a-reliability-aware-neutrosophic-cognitive-control-framework-for-cognit.md",
+      "raw/papers/hci/investigating-aiml-models-that-learn-the-preferences-and-constraints-of-human-de.md",
+      "raw/papers/hci/value-sensitive-delegation-in-everyday-ai-agent-use-evidence-from-openclaw.md",
+      "raw/papers/hci/sustainable-human-ai-collaboration-a-human-centered-institutional-design-for-ai-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "public-signal-cascade-and-judgment-homogenization",
+    "title_ja": "公開シグナルによる判断のカスケードと多様性の収斂",
+    "title_en": "Public Signal Cascades and Homogenization of Judgment",
+    "tier": 1,
+    "description": "共通のAIシグナルや生成物が個人判断へ埋め込まれ連鎖することで、個人の質向上と集団の多様性低下が同時に生じる。",
+    "mechanisms": [
+      "社会学習カスケード",
+      "共通入力による同質化",
+      "個人最適と集団多様性のトレードオフ"
+    ],
+    "related_domains": [
+      "hci"
+    ],
+    "source_files": [
+      "raw/papers/hci/one-ai-signal-many-human-judgments-a-bayesian-cascade-analysis-of-ai-based-credi.md",
+      "raw/papers/hci/generative-ai-makes-creative-output-more-homogeneous.md",
+      "raw/papers/hci/okay-ive-actually-softened-my-take-on-this-how-people-in-decentralized-social-me.md",
+      "raw/papers/hci/the-context-of-ai-transformation-perceptions-of-ai-ethicality-and-their-impact-o.md",
+      "raw/papers/hci/when-ai-recommends-who-decides-exploring-user-control-and-decision-making-in-ai-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "mediated-access-to-capability-conversion",
+    "title_ja": "アクセスから能力への変換を左右する社会的仲介",
+    "title_en": "Mediated Conversion from Access to Capability",
+    "tier": 1,
+    "description": "技術への到達は自動的に能力へ転換せず、教育・制度・運用条件・評価スキルといった仲介層の有無が成果を分ける。",
+    "mechanisms": [
+      "資本・能力の変換格差",
+      "仲介層のボトルネック",
+      "アクセスと評価スキルの乖離"
+    ],
+    "related_domains": [
+      "hci"
+    ],
+    "source_files": [
+      "raw/papers/hci/from-ai-access-to-perceived-learning-capability-in-rural-schools-a-capital-capab.md",
+      "raw/papers/hci/democratizing-ai-responsibly-through-research-software-a-case-study-in-suicide-p.md",
+      "raw/papers/hci/a-sociotechnical-review-of-algorithms-in-health-systems-technical-cost-and-human.md",
+      "raw/papers/hci/agent-readmes-an-empirical-study-of-context-files-for-agentic-coding.md",
+      "raw/papers/hci/pairit-a-platform-for-live-experiments-on-human-ai-collaboration.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "layered-governance-and-agency-retention",
+    "title_ja": "層別ガバナンスと主体性の保持",
+    "title_en": "Layered Governance and Retention of Human Agency",
+    "tier": 1,
+    "description": "データ・モデル・学習など層ごとに統治権が非対称に配分され、最下層での主体性喪失を防ぐ制度設計が持続的協働の条件となる。",
+    "mechanisms": [
+      "統治権の非対称配分",
+      "制度的評価と行動正規化のループ",
+      "権力集中の構造化"
+    ],
+    "related_domains": [
+      "hci"
+    ],
+    "source_files": [
+      "raw/papers/hci/govern-the-model-not-only-the-data-storage-circulation-and-learning-in-creative-.md",
+      "raw/papers/hci/sustainable-human-ai-collaboration-a-human-centered-institutional-design-for-ai-.md",
+      "raw/papers/hci/okay-ive-actually-softened-my-take-on-this-how-people-in-decentralized-social-me.md",
+      "raw/papers/hci/the-context-of-ai-transformation-perceptions-of-ai-ethicality-and-their-impact-o.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "continuous-human-signal-loop-and-temporary-support",
+    "title_ja": "継続的な人間シグナルの循環と一時的支援の原則",
+    "title_en": "Continuous Human Signal Loop and Temporary Support",
+    "tier": 1,
+    "description": "AIは永続的な依存先ではなく回復と再接続の拠点であるべきで、共存は固定的制御でなく人間由来の変化する情報との継続的交換に支えられる。",
+    "mechanisms": [
+      "継続的フィードバックループ",
+      "一時的支援と永続依存の区別",
+      "帰属感形成と擬人化の認知基盤"
+    ],
+    "related_domains": [
+      "hci"
+    ],
+    "source_files": [
+      "raw/papers/hci/a-human-signal-model-for-long-term-ai-alignment.md",
+      "raw/papers/hci/ai-as-a-harbor-not-a-home-subject-recovery-and-circulation-in-human-ai-relations.md",
+      "raw/papers/hci/feeling-included-by-ai-belonging-and-authenticity-in-human-ai-interaction.md",
+      "raw/papers/hci/does-voice-make-ai-feel-more-human-interaction-modality-anthropomorphization-and.md",
+      "raw/papers/hci/thermosaic-accelerating-perceived-thermal-transitions-through-spatiotemporal-the.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
