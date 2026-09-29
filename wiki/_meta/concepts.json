@@ -24393,5 +24393,153 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "knowledge-substrate-as-governance-premise",
+    "title_ja": "知識基盤が統治の前提を構成する構造",
+    "title_en": "Knowledge Substrate as Governance Premise",
+    "tier": 1,
+    "description": "統治は許可・制御の層ではなく、何を統治対象とし何を現実として認めるかという認識的前提の上に成立し、その前提の編成(キュレーション・統計的定着)が正統性と周縁化を同時に決定する。",
+    "mechanisms": [
+      "認識的前提の制度化",
+      "役割特定的な情報再構成",
+      "多数派規範のデフォルト化による周縁化"
+    ],
+    "related_domains": [
+      "philosophy"
+    ],
+    "source_files": [
+      "raw/papers/philosophy/curated-information-frameworks-and-the-governance-of-artificial-intelligence.md",
+      "raw/papers/philosophy/artificial-intelligence-as-an-epistemological-challenge-in-contemporary-islamic-.md",
+      "raw/papers/philosophy/an-audit-of-the-global-ai-agenda-17-july-2026.md",
+      "raw/papers/philosophy/epistemic-subordination-generative-ai-and-the-infrastructure-of-knowledge.md",
+      "raw/papers/philosophy/governance-is-knowledge-knowledge-is-governance-the-governance-of-ai-governance.md",
+      "raw/papers/philosophy/riverbot-reimagining-ai-technology-and-leadership-via-indigenous-coleadership-an.md",
+      "raw/papers/philosophy/beyond-transparency-reframing-ethical-explainability-in-humanai-teams.md",
+      "raw/papers/philosophy/from-scientific-method-to-architectures-of-inquiry-in-the-age-of-ai.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "repeated-reliance-erodes-judgment-capacity",
+    "title_ja": "反復的依存による判断・主体性能力の段階的侵食",
+    "title_en": "Repeated Reliance and Progressive Erosion of Judgment Capacity",
+    "tier": 1,
+    "description": "受動的な依存の反復は習慣化を通じて意図・判断・責任感覚を形成する能力自体を再形成し、道徳的責任の転位と麻痺を生む。責任の明示的保持が防御条件となる。",
+    "mechanisms": [
+      "習慣化による能力再形成",
+      "責任の転位",
+      "責任主体の明示的アンカリング"
+    ],
+    "related_domains": [
+      "philosophy"
+    ],
+    "source_files": [
+      "raw/papers/philosophy/habituation-and-the-human-will-how-passive-reliance-on-human-ai-collaboration-er.md",
+      "raw/papers/philosophy/the-unintended-consequences-of-ai-adoption-how-moral-displacement-and-ethical-nu.md",
+      "raw/papers/philosophy/ai-assisted-research-competency-in-secondary-education-a-framework-for-epistemic.md",
+      "raw/papers/philosophy/can-artificial-intelligence-become-a-moral-agent-philosophical-perspectives-on-r.md",
+      "raw/papers/philosophy/place-label-nudges-how-place-attachment-shapes-recycling-choice.md",
+      "raw/papers/philosophy/toward-an-internal-moral-purpose-like-normative-governance-function-in-artificia.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "metric-reduction-of-worth-and-value-formalization-limit",
+    "title_ja": "価値の指標還元と形式化の限界",
+    "title_en": "Metric Reduction of Worth and the Limits of Formalization",
+    "tier": 1,
+    "description": "身体性・情動・社会的埋め込みに根ざす規範的能力は目的関数へ完全翻訳できず、測定可能な能力を価値の代理指標とする還元自体が人間的価値の喪失を招く。",
+    "mechanisms": [
+      "代理指標への還元(グッドハートの法則)",
+      "暗黙的規範の形式化不可能性",
+      "階層的義務構造の創発"
+    ],
+    "related_domains": [
+      "philosophy"
+    ],
+    "source_files": [
+      "raw/papers/philosophy/seventy-years-of-ground-truth-the-dear-abby-corpus-as-an-empirical-foundation-fo.md",
+      "raw/papers/philosophy/the-embodied-ethics-alignment-problem-of-ai.md",
+      "raw/papers/philosophy/the-new-babel-builders-artificial-intelligence-and-the-crisis-of-human-centralit.md",
+      "raw/papers/philosophy/artificial-intelligence-consciousness-and-moral-agency-rethinking-human-uniquene.md",
+      "raw/papers/philosophy/philosophy-and-the-question-of-the-human-being-a-critical-and-knowledge-generati.md",
+      "raw/papers/philosophy/simone-de-beauvoirs-concept-of-otherness-and-contemporary-gender-politics-an-exi.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "intelligence-as-externalizable-relational-capacity",
+    "title_ja": "知能の外部化可能な関係的能力への転換",
+    "title_en": "Intelligence as Externalizable Relational Capacity",
+    "tier": 1,
+    "description": "知能を内的本質でなく外部化・委譲・再結合可能な機能とみなす転換は、権力・認識・分業を再編し、機能分化と比較優位に基づく役割分担を必然化する。",
+    "mechanisms": [
+      "機能の外部化と委譲",
+      "比較優位による機能分化",
+      "関係的帰属としての心の知覚"
+    ],
+    "related_domains": [
+      "philosophy"
+    ],
+    "source_files": [
+      "raw/papers/philosophy/why-artificial-intelligence-because-artificial.md",
+      "raw/papers/philosophy/the-professions-of-the-future-in-the-age-of-collective-intelligence.md",
+      "raw/papers/philosophy/tracing-uncertainty-in-mind-perception-examining-the-role-of-affirming-versus-de.md",
+      "raw/papers/philosophy/what-is-artificial-intelligence.md",
+      "raw/papers/philosophy/the-quest-for-genuine-artificial-intelligence.md",
+      "raw/papers/philosophy/introducing-philosophy-of-mind-today.md",
+      "raw/papers/philosophy/rebooting-the-hindu-mind.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "multi-dimensional-explanation-and-architecture-of-inquiry",
+    "title_ja": "多次元的説明と探究アーキテクチャの組織化",
+    "title_en": "Multi-Dimensional Explanation and Architectures of Inquiry",
+    "tier": 1,
+    "description": "知性や探究の理解には行動・内部機構・発達過程という相補的次元が必要で、機能が分散・モジュール化するほど個別手法でなく探究全体の組織化が問われる。",
+    "mechanisms": [
+      "相補的説明次元の統合",
+      "モジュール化と分散化",
+      "経験的自然主義による統一的把握"
+    ],
+    "related_domains": [
+      "philosophy"
+    ],
+    "source_files": [
+      "raw/papers/philosophy/from-observable-behaviour-to-developing-intelligence.md",
+      "raw/papers/philosophy/通信教育部論集第29号全文.md",
+      "raw/papers/philosophy/from-scientific-method-to-architectures-of-inquiry-in-the-age-of-ai.md",
+      "raw/papers/philosophy/introducing-philosophy-of-mind-today.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "opaque-purpose-layering-and-selective-enlistment",
+    "title_ja": "多層組織における目的の非透明化と選別的動員",
+    "title_en": "Opaque Purpose Layering and Selective Enlistment",
+    "tier": 1,
+    "description": "資金・制度の多層構造では、表面的フレーミングと実装目的の乖離が制度的に組織化され、参加者は目的を知らぬまま動員される。他者化も同様に構造的に再生産される。",
+    "mechanisms": [
+      "表層フレーミングと実装目的の乖離",
+      "資金提供による選別",
+      "他者化による自由の抑圧"
+    ],
+    "related_domains": [
+      "philosophy"
+    ],
+    "source_files": [
+      "raw/papers/philosophy/basic-research-lethal-effects-military-artificial-intelligence-research-funding-.md",
+      "raw/papers/philosophy/simone-de-beauvoirs-concept-of-otherness-and-contemporary-gender-politics-an-exi.md",
+      "raw/papers/philosophy/an-audit-of-the-global-ai-agenda-17-july-2026.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
