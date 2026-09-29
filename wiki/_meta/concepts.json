@@ -20843,5 +20843,131 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "relational-coupling-determines-future-possibility-space",
+    "title_ja": "関係性の結合が将来の可能性空間を規定する構造",
+    "title_en": "Relational Coupling Shaping the Future Possibility Space",
+    "tier": 1,
+    "description": "反復的に相互作用する系は互いの発展条件を書き換え合い、個々の系ではなく『関係そのもの』の変化が方向・速度・安定性を決める(人間/AI/組織/技術に共通)。",
+    "mechanisms": [
+      "相互因果的な結合",
+      "多層的相互作用の集積による創発",
+      "多様性と情報交換の均衡"
+    ],
+    "related_domains": [
+      "evolutionary_biology"
+    ],
+    "source_files": [
+      "raw/papers/evolutionary_biology/are-we-going-towards-human-ai-coevolution-a-multi-leveled-framework-to-study-the.md",
+      "raw/papers/evolutionary_biology/a-case-for-coevolution.md",
+      "raw/papers/evolutionary_biology/enactive-alignment-and-the-preservation-of-noodiversity-in-a-coevolving-noospher.md",
+      "raw/papers/evolutionary_biology/coupled-evolution-how-interacting-systems-become-causes-of-each-others-change.md",
+      "raw/papers/evolutionary_biology/language-ideology-formation-in-ai-mediated-educational-context-a-sociolinguistic.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "scale-invariant-tradeoffs-in-autonomous-systems",
+    "title_ja": "自律システムにおける規模不変のトレードオフ",
+    "title_en": "Scale-Invariant Tradeoffs in Autonomous Systems",
+    "tier": 1,
+    "description": "安定性と適応性、透明性と安全性、プライバシーとデータ利用可能性など、規模や主体が変わっても消えない相反関係は、解消ではなく調停の設計対象となる。",
+    "mechanisms": [
+      "トレードオフの不可避性",
+      "有限合理性",
+      "制約下の調停メカニズム"
+    ],
+    "related_domains": [
+      "evolutionary_biology",
+      "finance_corporate"
+    ],
+    "source_files": [
+      "raw/papers/evolutionary_biology/a-review-of-safety-ethical-issues-and-governance-approaches-for-large-language-m.md",
+      "raw/papers/finance_corporate/agentic-ai-vision-and-challenges.md",
+      "raw/papers/finance_corporate/artificial-intelligence-in-financial-decision-making-opportunities-challenges-an.md",
+      "raw/papers/finance_corporate/are-synthetic-data-and-privacy-protection-the-future-of-artificial-intelligence-.md",
+      "raw/papers/finance_corporate/behavioral-finance-perspectives-on-investment-intention-and-decision-making-in-e.md",
+      "raw/papers/finance_corporate/ethical-and-responsible-use-of-data-analytics-principles-challenges-and-best-pra.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "layered-hybridization-of-technology-and-institution",
+    "title_ja": "技術層と制度層の混成による規制化された自律性",
+    "title_en": "Layered Hybridization of Technological and Institutional Structures",
+    "tier": 1,
+    "description": "技術的能力と制度的規制・正統性が相互作用し、集中/分散のアーキテクチャ転換や『規制された自律性』を生む。スケール不適合が構造変化を強制する。",
+    "mechanisms": [
+      "スケール制約による構造転換",
+      "多層の相互補完",
+      "制度的インセンティブによる経路形成"
+    ],
+    "related_domains": [
+      "finance_corporate"
+    ],
+    "source_files": [
+      "raw/papers/finance_corporate/hybridization-of-technological-and-institutional-layers-in-blockchain-adoption-i.md",
+      "raw/papers/finance_corporate/institutional-empowerment-how-national-pilot-zones-for-innovative-development-of.md",
+      "raw/papers/finance_corporate/capital-market-infrastructure-regulation-and-financial-technology.md",
+      "raw/papers/finance_corporate/the-twin-pillars-of-financial-stability-navigating-convergence-disruption-and-su.md",
+      "raw/papers/finance_corporate/institutional-design-of-investment-security-in-conditions-of-global-instability.md",
+      "raw/papers/finance_corporate/regional-ai-development-and-firms-cost-of-equity-capital-evidence-from-chinas-ai.md",
+      "raw/papers/finance_corporate/transnationality-as-practice-an-analytical-proposal-for-applying-bourdieu-in-tra.md",
+      "raw/papers/finance_corporate/artificial-intelligence-and-digital-twin-in-airport-operations.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "explainability-and-human-governed-decision-loops",
+    "title_ja": "説明可能性と人間統制下の意思決定ループ",
+    "title_en": "Explainability and Human-Governed Decision Loops",
+    "tier": 1,
+    "description": "不完全情報下の意思決定は、不確実性の分離・更新と、説明・監査可能性を備えた人間-AI協働ガバナンスによって信頼と規制遵従を成立させる。",
+    "mechanisms": [
+      "認識論的/偶然的不確実性の分離とベイズ更新",
+      "情報の非対称性",
+      "エージェンシー費用の低減"
+    ],
+    "related_domains": [
+      "finance_corporate"
+    ],
+    "source_files": [
+      "raw/papers/finance_corporate/a-bayesian-composite-risk-approach-for-stochastic-optimal-control-and-markov-dec.md",
+      "raw/papers/finance_corporate/a-human-rightsbased-approach-to-ai-in-fintech.md",
+      "raw/papers/finance_corporate/from-fraud-signals-to-audit-response-a-humanai-decision-governance-framework-for.md",
+      "raw/papers/finance_corporate/buying-ai-buying-compliance-artificial-intelligence-investment-and-corporate-fra.md",
+      "raw/papers/finance_corporate/geopolitical-risk-ai-driven-strategic-adaptation-and-financial-resilience-in-glo.md",
+      "raw/papers/finance_corporate/explainable-ai-in-corporate-finance-a-shap-based-approach-to-enhancing-transpare.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "structural-reconfiguration-and-knowledge-asset-retention",
+    "title_ja": "組織再編と知識資産の保持・蓄積",
+    "title_en": "Organizational Restructuring and Knowledge Asset Retention",
+    "tier": 1,
+    "description": "新技術の採用は中間層や意思決定ラインを必然的に再編し、推論中間生成物など知識資産を再利用可能な資本として蓄積できるかが複利的成長と、専門職アイデンティティの葛藤を左右する。",
+    "mechanisms": [
+      "意思決定権限の再配置",
+      "資本としての知識の蓄積",
+      "目的に応じた不均衡投資"
+    ],
+    "related_domains": [
+      "finance_corporate"
+    ],
+    "source_files": [
+      "raw/papers/finance_corporate/token-capital-framework-adaptive-token-capital-scheduler-with-agent-token-auctio.md",
+      "raw/papers/finance_corporate/ai-driven-corporate-organizational-restructuring-in-the-european-union.md",
+      "raw/papers/finance_corporate/balance-is-bad-the-structure-of-basic-and-applied-research-and-firm-financial-pe.md",
+      "raw/papers/finance_corporate/strategic-agility-and-digital-orientation-as-drivers-of-fintech-capability-and-o.md",
+      "raw/papers/finance_corporate/exploring-auditors-perceptions-of-artificial-intelligence-adoption-in-profession.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
