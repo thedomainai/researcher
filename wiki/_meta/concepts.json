@@ -18056,5 +18056,133 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "upstream-representation-integrity-failure",
+    "title_ja": "上流の表現完全性が下流の統治を規定する構造",
+    "title_en": "Upstream Representation Integrity Determines Downstream Governance",
+    "tier": 1,
+    "description": "システムの失敗は実行時ではなく、現実を機械可読な表象へ変換する段階の欠落・歪み・語彙転移で既に決まっており、下流の統制では回復できない。",
+    "mechanisms": [
+      "現実から表象への変換損失",
+      "隠れた前提の転移(語彙・枠組みの持ち越し)",
+      "上流決定の下流拘束(経路依存性)"
+    ],
+    "related_domains": [
+      "ai_governance",
+      "anthropology"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/the-disciplinary-language-transfer-problem-how-psychological-vocabulary-produces.md",
+      "raw/papers/anthropology/representation-integrity-why-most-ai-governance-failures-begin-before-the-model-.md",
+      "raw/papers/anthropology/why-enterprise-ai-fails-before-the-model-runs-a-unified-framework-for-reality-re.md",
+      "raw/papers/anthropology/the-sociolinguistics-of-machine-identity-llm-personality-and-ideology-propagatio.md",
+      "raw/papers/anthropology/the-peripheral-machine-algorithmic-sovereignty-and-the-fractured-geographies-of-.md",
+      "raw/papers/ai_governance/the-decolonial-intelligence-algorithmic-dia-framework-seventeenth-edition.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "verification-to-authority-conversion-gap",
+    "title_ja": "検証可能性から実効的権威への変換ギャップ",
+    "title_en": "Verification-to-Enforcement Conversion Gap",
+    "tier": 1,
+    "description": "能力や違反が検証可能でも、それが制度的権威・執行力へ変換されなければ制約にならず、検証コストと不可視化の余地が統治の実効性を決める。",
+    "mechanisms": [
+      "検証と執行の分離",
+      "検証コストと隠蔽コストの非対称性",
+      "制度的権威への変換"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/pacing-capability-from-ai-alignment-to-governance-coherence.md",
+      "raw/papers/ai_governance/could-underwater-data-centers-pose-a-risk-to-ai-treaty-verification.md",
+      "raw/papers/ai_governance/compiling-governance-into-enforcement-risk-tiered-confidence-aware-fairness-gate.md",
+      "raw/papers/ai_governance/diavlo-diagnosing-behaviours-of-vision-language-models.md",
+      "raw/papers/ai_governance/rs-2026-080---capability-or-compliance-what-abliterated-models-and-guardrail-byp.md",
+      "raw/papers/ai_governance/navigating-artificial-intelligence-in-neuroregulation-practice-ethical-principle.md",
+      "raw/papers/ai_governance/open-platform-field-experiments-expanding-the-design-space-of-experimental-resea.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "plural-independent-checks-against-singular-power",
+    "title_ja": "単一権力の抑止と独立した複数判断者による牽制",
+    "title_en": "Plural Independent Checks Against Singular Power",
+    "tier": 1,
+    "description": "単一の主体(AI・人間・組織)が暴走・腐敗する故障モードは共通であり、独立した複数の判断者・利害の分離・権限の交錯の遮断で耐性が生まれる。",
+    "mechanisms": [
+      "多数決による故障許容(冗長性)",
+      "利害・制度の交錯によるチェック機能の侵食",
+      "自律と統制のバランス"
+    ],
+    "related_domains": [
+      "ai_governance",
+      "anthropology"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/oom-ai-governance-framework.md",
+      "raw/papers/anthropology/navigating-interlaced-spaces-the-corruptioncrime-nexus-and-the-erosion-of-democr.md",
+      "raw/papers/anthropology/team-autonomy-in-scaling-agility-themes-and-organizational-mechanisms.md",
+      "raw/papers/ai_governance/artificial-intelligence-as-an-economic-environmental-geopolitical-and-social-tra.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "incentive-driven-deferral-and-asymmetry",
+    "title_ja": "インセンティブによる長期価値の後回しと情報非対称の固定化",
+    "title_en": "Incentive-Driven Deferral of Long-Term Value and Entrenched Information Asymmetry",
+    "tier": 1,
+    "description": "短期の成長・収益インセンティブが、プライバシー・公正・透明性など長期的価値を後回しにし、複雑性や不可視な操作を通じて情報非対称を構造的に再生産する。",
+    "mechanisms": [
+      "短期インセンティブによる長期価値の割引",
+      "情報の非対称性",
+      "商業化経路による目的関数の支配"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/if-i-had-to-buy-just-one-galaxy-s26-ultra-auditing-ai-generated-product-recommen.md",
+      "raw/papers/ai_governance/humans-as-infrastructure-is-ai-initiated-steganography-in-social-media-possible.md",
+      "raw/papers/ai_governance/decoding-the-legalese-a-scalable-and-quantitative-framework-for-analyzing-corpor.md",
+      "raw/papers/ai_governance/well-fix-it-later-education-ai-and-the-deferral-of-privacy-in-edtech.md",
+      "raw/papers/ai_governance/when-ai-enters-the-workplace-who-faces-greater-risks-a-gendered-analysis.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "principles-to-practice-legitimacy-gap",
+    "title_ja": "原則から実践への翻訳ギャップと正当性の維持",
+    "title_en": "Principles-to-Practice Translation Gap and Legitimacy Maintenance",
+    "tier": 1,
+    "description": "倫理原則の列挙は政治的選択を中立に見せ、上位方針と現場行動の階層的乖離を生む。規範の正当性は論理でなく合意・儀式・段階的な実装で維持される。",
+    "mechanisms": [
+      "政治性の中立化(原則による隠蔽)",
+      "階層間の翻訳損失",
+      "象徴・儀式による正当性の再生産"
+    ],
+    "related_domains": [
+      "ai_governance",
+      "anthropology"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/principles-over-politics-a-critical-reading-of-india-ai-governance-framework.md",
+      "raw/papers/ai_governance/from-ai-ethics-principles-to-academic-design-practice-a-faculty-led-generative-a.md",
+      "raw/papers/ai_governance/ai-governance-framework-for-bridging-the-policyuser-gap.md",
+      "raw/papers/anthropology/the-final-foundation-of-law-religion-morality-or-human-agreement.md",
+      "raw/papers/ai_governance/freirean-pedagogy-for-equitable-assessment-decolonial-governance-and-cognitive-w.md",
+      "raw/papers/ai_governance/human-ai-relationships-at-the-intersection-of-engineering-ethics-and-policy-a-sy.md",
+      "raw/papers/ai_governance/value-sensitive-design-for-fair-online-recruitment-a-conceptual-framework-inform.md",
+      "raw/papers/anthropology/guest-editorial-organizational-ethnography-and-practice-theories-in-the-digital-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
