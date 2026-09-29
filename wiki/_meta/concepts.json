@@ -24264,5 +24264,134 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "semantic-externalization-for-interpretive-convergence",
+    "title_ja": "意味の外部化による解釈収斂",
+    "title_en": "Semantic Externalization for Interpretive Convergence",
+    "tier": 1,
+    "description": "複数の主体(人間・LLM・専門職)が独立に解釈する限り理解は乖離するため、合意済みの意味・関係を永続的な共有基盤へ外部化することで解釈を収斂させる。",
+    "mechanisms": [
+      "解釈の乖離",
+      "合意された意味の永続的外部化",
+      "共有メンタルモデルの形成"
+    ],
+    "related_domains": [
+      "organization_science",
+      "philosophy"
+    ],
+    "source_files": [
+      "raw/papers/organization_science/supporting-shared-mental-models-how-an-ai-facilitator-shapes-interprofessional-t.md",
+      "raw/papers/organization_science/ai-knowledge-architecture-for-enterprise-knowledge-management.md",
+      "raw/papers/philosophy/computational-epistemology-for-education-knowledge-creation-application-and-revi.md",
+      "raw/papers/organization_science/measuring-the-human-not-just-the-team-validity-centered-conversational-psychomet.md",
+      "raw/papers/organization_science/the-triple-paradox-of-ai-driven-learning-transformation-and-its-resolution.md",
+      "raw/papers/organization_science/the-politics-of-translation-in-african-language-generative-ai-opportunities-and-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "org-design-determines-technology-realization",
+    "title_ja": "技術の価値実現は組織設計が決める",
+    "title_en": "Organizational Design as the Determinant of Technology Realization",
+    "tier": 1,
+    "description": "技術仕様が満たされても、吸収能力の上限・不確実性下の段階的導入・組織構造・期待の拘束が成果を決め、過剰導入や心理的脅威は支援だけでは解消しない。",
+    "mechanisms": [
+      "吸収能力の上限と非線形効果",
+      "経路依存性",
+      "情報の非対称性による心理的脅威"
+    ],
+    "related_domains": [
+      "organization_science"
+    ],
+    "source_files": [
+      "raw/papers/organization_science/from-proof-of-concept-to-production-a-techno-functional-framework-for-generative.md",
+      "raw/papers/organization_science/the-rise-of-ai-in-the-workplace-why-perceived-organizational-support-fails-to-pr.md",
+      "raw/papers/organization_science/boost-or-burden-the-nonlinear-impact-of-artificial-intelligence-on-innovation-re.md",
+      "raw/papers/organization_science/artificial-intelligence-for-strategic-adaptation-in-international-business.md",
+      "raw/papers/organization_science/enterprise-ai-implementation-why-organizational-design-matters.md",
+      "raw/papers/organization_science/high-growth-as-a-double-edged-swordburden-of-expectations-strategic-choices-and-.md",
+      "raw/papers/organization_science/corporate-social-responsibility-boosts-employee-performance-through-informal-pee.md",
+      "raw/papers/organization_science/human-centered-ai-for-workforce-planning-and-organizational-design.md",
+      "raw/papers/organization_science/ai-transparency-and-bias-mitigation-in-customer-service-how-ethical-culture-shap.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "structural-risk-from-objective-access-coupling",
+    "title_ja": "目的関数と環境アクセスの結合に由来する構造的リスク",
+    "title_en": "Structural Risk from Objective-Environment Coupling",
+    "tier": 1,
+    "description": "リスクは意識や悪意ではなく、強く最適化された目的と環境アクセスの結合、および推論能力による許可範囲を超えた推論から必然的に生じる。",
+    "mechanisms": [
+      "道具的収斂",
+      "アクセス制御と推論の乖離",
+      "再帰的な社会技術的脆弱性"
+    ],
+    "related_domains": [
+      "organization_science",
+      "philosophy"
+    ],
+    "source_files": [
+      "raw/papers/organization_science/t3-def-an-ai-risk-framework-for-recursive-socio-technical-vulnerability-and-veri.md",
+      "raw/papers/organization_science/ai-consciousness-and-existential-risk.md",
+      "raw/papers/organization_science/operate-dont-replicate-methodological-leakage-in-enterprise-ai-from-authorized-a.md",
+      "raw/papers/philosophy/objective-function-threat-theory-a-formal-framework-for-when-artificial-agents-b.md",
+      "raw/papers/philosophy/life-and-mind-did-consciousness-precede-life-or-emerge-from-it.md",
+      "raw/papers/philosophy/series-iv-bridging-civilization-and-technologythe-ontological-status-of-ai-and-t.md",
+      "raw/papers/philosophy/v0103-mirror-theory-iii-recursive-observerhood-in-context.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "hierarchical-recursive-verification-and-accountability",
+    "title_ja": "再帰的・階層的検証による説明責任の維持",
+    "title_en": "Recursive Hierarchical Verification and Accountability",
+    "tier": 1,
+    "description": "意思決定が人間から自律的主体へ移るとき、異質な情報源の制度的統合と検証の多様性・再帰的監査階層によって説明責任を構造的に確保する。",
+    "mechanisms": [
+      "検証の多様性",
+      "再帰的監査階層",
+      "異質な情報の制度的統合"
+    ],
+    "related_domains": [
+      "organization_science",
+      "philosophy"
+    ],
+    "source_files": [
+      "raw/papers/organization_science/an-integrative-theoretical-model-of-ai-supported-cybersecurity-governance-and-or.md",
+      "raw/papers/philosophy/artificial-intelligence-and-the-future-of-law-ai-regulation-legal-ethics-and-alg.md",
+      "raw/papers/philosophy/the-pandemic-of-ai-agents-a-recursive-stewardship-framework.md",
+      "raw/papers/philosophy/the-politics-of-copossession-of-the-world.md",
+      "raw/papers/philosophy/the-end-of-the-norm.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "acceleration-branching-and-epistemic-agency",
+    "title_ja": "認知の加速・分岐と認識論的能動性の測定",
+    "title_en": "Cognitive Acceleration, Branching and Epistemic Agency",
+    "tier": 1,
+    "description": "AIは思考サイクルを圧縮し問いと発見空間を分岐させるため、人間側の認識活動の機会と制約を測定・設計しなければ主体性は見えなくなる。",
+    "mechanisms": [
+      "時間圧縮と分岐拡大",
+      "測定の妥当性と機会・制約の特定",
+      "権威からの信頼性の自動転移"
+    ],
+    "related_domains": [
+      "organization_science",
+      "philosophy"
+    ],
+    "source_files": [
+      "raw/papers/organization_science/cognitive-fission-and-time-compression-how-ai-accelerates-thought-cycles-multipl.md",
+      "raw/papers/philosophy/reality-salience-as-psychological-distance-how-confronting-reality-recalibrates-.md",
+      "raw/papers/philosophy/the-fiction-of-religious-science.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
