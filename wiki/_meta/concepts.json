@@ -25234,5 +25234,158 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "provenance-independent-validity-and-trust-value-collapse",
+    "title_ja": "出自非依存の妥当性と信頼価値の崩壊",
+    "title_en": "Provenance-Independent Validity and Collapse of Signal Trust Value",
+    "tier": 1,
+    "description": "命題の真理性は生成主体の属性から切り離して検証されるべきだが、偽造と真正の識別が不能になると、証拠・信号全般の信頼価値が0に近づく。",
+    "mechanisms": [
+      "検証可能性と出自の分離",
+      "シグナルの偽造コスト低下",
+      "識別不能性による信頼価値の希薄化"
+    ],
+    "related_domains": [
+      "sociology"
+    ],
+    "source_files": [
+      "raw/papers/sociology/written-by-ai-still-true-knower-fetishism-epistemic-pedigree-and-the-human-face-.md",
+      "raw/papers/sociology/the-crisis-of-digital-authenticity-in-the-age-of-ai-generated-content-and-new-me.md",
+      "raw/papers/sociology/public-trust-in-the-adoption-of-ai-for-cancer-diagnostics-developing-a-human-ai-.md",
+      "raw/papers/sociology/trends-in-ai-and-social-engineering-for-cyber-physical-systems.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "trust-as-recursive-observation-and-interactional-emergence",
+    "title_ja": "再帰的観察と相互行為による信頼の創発",
+    "title_en": "Trust as Recursive Observation and Interactional Emergence",
+    "tier": 1,
+    "description": "信頼は固定的な測定可能特性ではなく、相互行為の逐次的な理解再構成と社会的な再帰観察を通じて生産・安定化される自己参照的現象であり、能力認知と親和性認知の複数経路や制度・歴史経路に規定される。",
+    "mechanisms": [
+      "二次観察による自己参照",
+      "逐次的相互了解の再構成",
+      "多経路的な信頼形成",
+      "制度・経路依存性"
+    ],
+    "related_domains": [
+      "sociology"
+    ],
+    "source_files": [
+      "raw/papers/sociology/dual-pathways-to-trust-in-ai-how-competence-building-and-affinity-building-facto.md",
+      "raw/papers/sociology/trust-in-social-robots-experimental-outcomes-and-interactional-trajectories.md",
+      "raw/papers/sociology/observing-trust-a-second-order-cybernetics-model-of-organisational-trust-in-ai-d.md",
+      "raw/papers/sociology/artificial-intelligence-and-social-trust-in-earthquake-early-warning-systems-a-c.md",
+      "raw/papers/sociology/artificial-intelligence-and-leadership-practices-enhancing-engagement-and-produc.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "institutional-prerequisites-for-conversion-of-productivity-into-social-benefit",
+    "title_ja": "生産性向上が社会的利益へ変換される制度的前提条件",
+    "title_en": "Institutional Prerequisites for Converting Technical Gains into Social Benefit",
+    "tier": 1,
+    "description": "技術による生産性向上は自動的には便益とならず、複数の独立した制度的メカニズムの同時稼働や採用者の資本・人的資本・インフラ、知識減衰と制度更新の速度整合に依存し、初期集中と後期拡散のU字型軌道を含む格差構造を生む。",
+    "mechanisms": [
+      "必要条件のボトルネック",
+      "採用者の資源依存的な便益配分",
+      "更新速度の不整合",
+      "初期集中と後期拡散の動学"
+    ],
+    "related_domains": [
+      "sociology",
+      "strategic_management"
+    ],
+    "source_files": [
+      "raw/papers/sociology/the-institutional-prerequisites-a-contingent-theory-of-ai-facilitated-workweek-c.md",
+      "raw/papers/sociology/digital-dividend-or-digital-divide-the-u-shaped-effect-of-artificial-intelligenc.md",
+      "raw/papers/sociology/the-repercussions-of-artificial-intelligence-on-pathways-of-economic-growth-and-.md",
+      "raw/papers/sociology/artificial-intelligence-economic-development-and-human-rights.md",
+      "raw/papers/sociology/the-knowledge-half-life-theory-of-education-re-conceptualizing-human-capital-dev.md",
+      "raw/papers/strategic_management/skill-mismatch-and-underemployment-in-the-digital-era-a-theory-driven-systematic.md",
+      "raw/papers/sociology/is-open-distance-and-digital-education-odde-good-for-the-environment-a-systemati.md",
+      "raw/papers/strategic_management/the-curious-case-of-optech-novelty-does-optech-novelty-drive-strategic-conformit.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "structural-reproduction-of-bias-and-power-asymmetry-in-technology",
+    "title_ja": "技術による偏りと権力非対称の構造的再生産",
+    "title_en": "Structural Reproduction of Bias and Power Asymmetry in Technology",
+    "tier": 1,
+    "description": "システムは訓練データや開発過程に埋め込まれた歴史的不平等と権力配置を再現・増幅し、価値対立や境界の統制権を巡る権力構造は技術が進化しても不変であり、社会的攻撃面としても悪用される。",
+    "mechanisms": [
+      "履歴データを通じた不平等の代理再現",
+      "境界・移譲条件の統制による権力",
+      "価値対立と権力非対称の持続",
+      "人間の注意・予測可能性の悪用"
+    ],
+    "related_domains": [
+      "sociology"
+    ],
+    "source_files": [
+      "raw/papers/sociology/two-structures-of-ai-power-national-capacity-relational-boundary-control-and-sys.md",
+      "raw/papers/sociology/civil-society-resistance-to-anti-rights-mobilisation.md",
+      "raw/papers/sociology/the-first-global-dialogue-on-ai-governance-who-gets-to-govern-ai.md",
+      "raw/papers/sociology/the-ethical-ai-in-ai-sociology.md",
+      "raw/papers/sociology/ai-driven-health-interventions-on-health-inequality.md",
+      "raw/papers/sociology/trends-in-ai-and-social-engineering-for-cyber-physical-systems.md",
+      "raw/papers/sociology/oil-light-gift-and-trust-a-comparative-analysis-of-metaphor-relating-to-human-bi.md",
+      "raw/papers/sociology/current-and-future-directions-for-responsible-quantum-technologies-a-resqt-commu.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "accountability-legitimacy-and-regulatory-lag-under-heterogeneous-agents",
+    "title_ja": "異質な主体下での責任・正当性の残存と規制の遅延",
+    "title_en": "Residual Human Accountability, Legitimacy, and Regulatory Lag under Heterogeneous Agents",
+    "tier": 1,
+    "description": "能力強化は判断・責任・正当性の人的要件をむしろ高め、異質な行為者の共存が社会理論を再開させる一方、規制は常に現実に遅れ、透明性と説明責任が制度要件として持続する。",
+    "mechanisms": [
+      "判断責任の残余",
+      "規制と技術進化の速度差",
+      "透明性・説明責任による正当性確保",
+      "異質主体の共存による前提の崩れ"
+    ],
+    "related_domains": [
+      "sociology",
+      "strategic_management"
+    ],
+    "source_files": [
+      "raw/papers/sociology/management-leadership-and-governance-in-the-age-of-artificial-intelligence-the-c.md",
+      "raw/papers/sociology/digital-governance-and-artificial-intelligence-ai-ethics-in-public-administratio.md",
+      "raw/papers/sociology/the-age-of-heterogeneous-subjects-artificial-intelligence-and-the-reopening-of-s.md",
+      "raw/papers/strategic_management/the-digital-omnibus-on-ai-legislative-legitimacy-and-the-dynamics-of-ai-regulati.md",
+      "raw/papers/sociology/public-trust-in-the-adoption-of-ai-for-cancer-diagnostics-developing-a-human-ai-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "hierarchical-bounded-decision-under-incomplete-information",
+    "title_ja": "有限情報下の階層化と逐次的意思決定",
+    "title_en": "Hierarchical Structure and Sequential Decision under Bounded Information",
+    "tier": 1,
+    "description": "開放系は情報有界性ゆえに必然的に階層化し、不完全情報下では不確実性(エントロピー)を最も減らす情報収集を逐次的に行うことが最適化の原理となる。",
+    "mechanisms": [
+      "情報有界性による階層化",
+      "エントロピー誘導型の逐次情報収集",
+      "創発の計算可能な基準"
+    ],
+    "related_domains": [
+      "sociology",
+      "strategic_management"
+    ],
+    "source_files": [
+      "raw/papers/sociology/finiteness-and-hierarchical-structure-of-open-systems-a-computable-emergence-cri.md",
+      "raw/papers/strategic_management/extent-med-a-dynamic-decision-making-approach-under-incomplete-information-for-c.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
