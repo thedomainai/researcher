@@ -23204,5 +23204,155 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "selective-noticing-and-context-relevance-filtering",
+    "title_ja": "選択的注意と文脈的関連性フィルタリング",
+    "title_en": "Selective Noticing and Context-Relevance Filtering",
+    "tier": 1,
+    "description": "有限な処理能力の主体は、膨大な刺激から文脈的に関連する情報だけを選別し即座に推論する構造で専門性を成立させる。",
+    "mechanisms": [
+      "選択的知覚と知識に基づく推論",
+      "有限な注意資源の配分",
+      "課題-表現の認知的適合"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/developing-a-cognitive-model-of-advanced-teacher-professional-vision-for-underst.md",
+      "raw/papers/neuroscience/mitigating-attention-bias-in-index-fund-investment-ai-enabled-decision-support-f.md",
+      "raw/papers/neuroscience/task-driven-explanation-strategies-enhance-human-ai-collaboration-performance-by.md",
+      "raw/papers/neuroscience/to-tab-or-not-to-tab-measuring-critical-engagement-in-ai-code-completion-tools-u.md",
+      "raw/papers/neuroscience/ai-generated-traces-for-novice-programmers-learning-effects-and-learner-differen.md",
+      "raw/papers/neuroscience/when-can-ai-models-explain-learning-validity-criteria-for-ai-as-cognitive-models.md",
+      "raw/papers/neuroscience/ai-for-human-computer-interaction.md",
+      "raw/papers/neuroscience/from-evidence-to-impact-supporting-sensemaking-and-instructional-revision-in-ste.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "structure-determines-computation-and-emergent-dynamics",
+    "title_ja": "構造が計算能力と創発動態を規定する原理",
+    "title_en": "Structure Determines Computation and Emergent Dynamics",
+    "tier": 1,
+    "description": "ネットワーク構造・局所規則・時間表現が系の計算能力と大域的振る舞いを決め、基盤(脳/AI/組織)が変わっても構造と現象の対応が有効性を決める。",
+    "mechanisms": [
+      "局所規則からの大域的創発",
+      "構造-機能対応",
+      "時間・決定の状態表現"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/identifying-structural-design-principles-shaping-the-computational-abilities-of-.md",
+      "raw/papers/neuroscience/soliton-like-waves-in-a-two-dimensional-recurrent-spiking-neural-network-with-we.md",
+      "raw/papers/neuroscience/task-parametrized-dynamics-representation-of-time-and-decisions-in-recurrent-neu.md",
+      "raw/papers/neuroscience/when-can-ai-models-explain-learning-validity-criteria-for-ai-as-cognitive-models.md",
+      "raw/papers/neuroscience/s-ai-worldmodel-regulated-canonicalization-of-the-world-model.md",
+      "raw/papers/neuroscience/an-ai-prompt-for-strongly-inferring-the-presence-or-absence-of-subjectivity-iii-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "error-correcting-feedback-and-staged-refinement",
+    "title_ja": "誤差修正フィードバックと段階的精緻化",
+    "title_en": "Error-Correcting Feedback and Staged Refinement",
+    "tier": 1,
+    "description": "予測誤差の補正と反復的検証・改訂は、不完全情報下で欠陥の早期発見コストを下げる不変の学習・設計メカニズムである。",
+    "mechanisms": [
+      "予測誤差による学習",
+      "フィードバックループ",
+      "欠陥エスカレーションの経済学"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/feedback-learning-and-robustness-in-recurrent-neural-networks-implications-for-h.md",
+      "raw/papers/neuroscience/the-software-development-life-cycle-in-the-age-of-artificial-intelligence.md",
+      "raw/papers/neuroscience/from-evidence-to-impact-supporting-sensemaking-and-instructional-revision-in-ste.md",
+      "raw/papers/neuroscience/regular-light-intensity-exercise-accelerates-contextual-fear-extinction-with-red.md",
+      "raw/papers/neuroscience/auditing-historical-features-at-the-cold-start-boundary-public-safe-replication-.md",
+      "raw/papers/neuroscience/an-examination-of-lifetime-traumatic-brain-injury-and-anti-inflammatory-medicati.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "external-scaffolding-of-finite-cognitive-capacity",
+    "title_ja": "有限認知容量の外部足場による補完",
+    "title_en": "External Scaffolding of Finite Cognitive Capacity",
+    "tier": 1,
+    "description": "ワーキングメモリ等の認知容量の限界は不変であり、外部構造が負荷を肩代わりして自己調整を支えるが、過剰な委譲は批判的関与と主体性を損なう。",
+    "mechanisms": [
+      "認知的オフローディング",
+      "有限合理性",
+      "信頼形成と批判的関与のトレードオフ"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/mitigating-attention-bias-in-index-fund-investment-ai-enabled-decision-support-f.md",
+      "raw/papers/neuroscience/generative-ai-as-an-external-executive-function-scaffold-in-adhd-like-cognitive-.md",
+      "raw/papers/neuroscience/aiによる認知スキャフォールディングとアイデア発散傾向の構造化it実務家における論文執筆の民主化と認知拡張メカニズム.md",
+      "raw/papers/neuroscience/to-tab-or-not-to-tab-measuring-critical-engagement-in-ai-code-completion-tools-u.md",
+      "raw/papers/neuroscience/exploring-ai-audio-models-in-soundwalking-with-broader-audiences.md",
+      "raw/papers/neuroscience/designing-ai-tutors-response-quality-anthropomorphism-and-student-learning.md",
+      "raw/papers/neuroscience/llms-are-the-ideal-candidate-for-mixed-initiative-game-design-pillar-workflows.md",
+      "raw/papers/neuroscience/thinking-feeling-becoming-a-relational-competency-framework-for-humanai-companio.md",
+      "raw/papers/neuroscience/ai-for-human-computer-interaction.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "coupling-amplified-failure-and-legitimacy-gaps",
+    "title_ja": "結合度による障害増幅と正統性ギャップ",
+    "title_en": "Coupling-Amplified Failure and Legitimacy Gaps",
+    "tier": 1,
+    "description": "密結合系では単体の引き金が連鎖的に増幅され、約束と実態のギャップは階層的に拡大して制度的な正統性危機へ転化する。",
+    "mechanisms": [
+      "密結合による障害連鎖",
+      "期待と実態の乖離",
+      "正統性の階層的増幅"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/trigger-not-root-cause-re-examining-githubs-2024-to-2026-availability-decline-un.md",
+      "raw/papers/neuroscience/ai-winters-as-legitimacy-crises-from-the-history-of-technological-promises-to-go.md",
+      "raw/papers/neuroscience/is-my-brain-my-client-the-rise-of-neuro-evidence-in-criminal-defence.md",
+      "raw/papers/neuroscience/effects-of-perceived-anthropomorphism-of-educational-artificial-intelligence-on-.md",
+      "raw/papers/neuroscience/volunteerism-as-a-multidimensional-form-of-human-prosocial-engagement.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "vanishing-carrier-tacit-knowledge-preservation",
+    "title_ja": "担い手と共に消える暗黙知の保存問題",
+    "title_en": "Vanishing-Carrier Tacit Knowledge Preservation",
+    "tier": 2,
+    "description": "身体化された技能や認知スタイルは担い手と共に失われるため、過程そのものを記録・再現する外部化が必要となるが、その手段は技術依存的である。",
+    "mechanisms": [
+      "暗黙知の形式知化限界",
+      "過程の外部化・記録",
+      "担い手依存性"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/project-lingxi-the-implicit-archive-of-human-civilization-white-paper-v10.md",
+      "raw/papers/neuroscience/exploring-ai-audio-models-in-soundwalking-with-broader-audiences.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
   }
 ]
