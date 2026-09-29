@@ -173,6 +173,40 @@ python3 tools/compile_wiki.py --phase 8
 source .env && python3 tools/compile_wiki.py --incremental
 ```
 
+### 未コンパイル論文の記事化（claude -p・サブスクリプション課金）
+
+`raw/index.jsonl` で Tier 1/2 かつ未コンパイルの論文を分野ごとにバッチ化し、コンセプト抽出→記事生成→
+HTML 再ビルドまでを行います。API キーは使わず、ログイン済みの Claude Code（`claude -p`）で動きます。
+既存記事は上書きせず、新しいスラッグだけを追加します。
+日次パイプラインが呼ぶのは上の `compile_articles_cli.py` で、こちらは積み残しを大量に消化するときの
+一括実行用です(2026-09-29 の 1,695 件はこちらで処理)。既存概念への合流は行わず、常に新規概念として書きます。
+
+```bash
+# 30 件ぶん記事化して HTML を再ビルド（既定: 抽出 sonnet / 記事 auto）
+python3 tools/pipeline_compile.py --limit 30
+
+# 対象を数えるだけ
+python3 tools/pipeline_compile.py --dry-run --limit 300
+
+# 記事もすべて sonnet で書く / 分野を絞る
+python3 tools/pipeline_compile.py --limit 60 --article-model sonnet --domain neuroscience
+
+# HTML の再ビルドだけ（記事を手で直したあとなど）
+python3 tools/pipeline_compile.py --rebuild-only
+```
+
+モデルの使い分け（既定）:
+
+| 処理 | モデル | 理由 |
+| --- | --- | --- |
+| Tier 分類（`tier_classify_cli.py`） | haiku | 10 件まとめて JSON を返すだけ |
+| コンセプト抽出 | sonnet | バッチ 1 回の呼び出しで wiki の構造が決まる |
+| 記事生成 | auto = Tier 1 ソースを含めば sonnet、Tier 2 のみなら haiku | 出力トークンの大半を占めるため |
+
+認証切れは終了コード 3（`claude login` で復旧）、利用枠の上限は終了コード 4 で止まり、
+それまでの成果は `raw/index.jsonl` / `wiki/_meta/concepts.json` に書き戻されています。
+日次パイプラインは `--compile`（plist に設定済み）で 1 日 30 件ずつこの処理を実行します。
+
 ### 自動実行の設定（launchd）
 
 `launchd` を推奨します。登録すると毎朝6時に日次パイプラインを実行します。`cron` と同時に設定すると二重実行になります。

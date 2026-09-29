@@ -28,7 +28,6 @@ import sys
 import time
 from datetime import datetime
 
-import httpx
 from build_index_ui import build_index_ui
 from build_graph_ui import build_graph_ui
 from build_reader import build_reader
@@ -49,6 +48,8 @@ PHASE2_STATS = {"attempted": 0, "succeeded": 0, "failed": 0}
 
 
 def call_claude(system, user, max_tokens=4096):
+    import httpx  # Phase 4-8(再ビルドのみ)では不要なので、API を呼ぶときだけ読み込む
+
     if not API_KEY:
         print("ANTHROPIC_API_KEY not set. Run: source .env")
         sys.exit(1)
