@@ -18778,5 +18778,156 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "haiku"
+  },
+  {
+    "slug": "fluency-persuasion-validity-decoupling",
+    "title_ja": "流暢性と妥当性の分離による判断埋め込み出力の認知再編",
+    "title_en": "Fluency–Validity Decoupling and Cognitive Reconfiguration under Judgment-Embedded Outputs",
+    "tier": 1,
+    "description": "流暢で判断が埋め込まれた出力は、内容の正確性と独立に信頼を高め、受け手の検証過程を圧縮し責任を拡散させる。",
+    "mechanisms": [
+      "処理流暢性による信頼の代理指標化",
+      "メンタルシミュレーションの圧縮",
+      "責任の拡散"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/user-influence-and-model-vulnerability-human-like-cognitive-bias-in-conversation.md",
+      "raw/papers/cognitive_science/rethinking-professional-information-processing-in-the-age-of-generative-ai-how-j.md",
+      "raw/papers/cognitive_science/when-llm-rationales-become-user-facing-effects-on-trust-perception-decision-maki.md",
+      "raw/papers/cognitive_science/self-evaluation-in-ai-assisted-cognition-an-explanatory-framework-for-calibratio.md",
+      "raw/papers/cognitive_science/strategic-polysemy-in-ai-discourse-a-philosophical-analysis-of-language-hype-and.md",
+      "raw/papers/cognitive_science/vibe-coding-in-product-teams-reconfiguring-ai-assisted-workflows-prototyping-and.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "metacognitive-allocation-under-finite-resources",
+    "title_ja": "有限認知資源下のメタ認知的配分と外部化の代償",
+    "title_en": "Metacognitive Allocation under Finite Cognitive Resources and the Cost of Externalization",
+    "tier": 1,
+    "description": "有限な認知資源を外部主体へ配分する際、自己の思考過程への自覚が配分の質を決め、習慣的外部化は反省機会と技能を侵食する。",
+    "mechanisms": [
+      "認知負荷のトレードオフ",
+      "習慣化による自動化と技能退化",
+      "メタ認知による処理モード切替"
+    ],
+    "related_domains": [
+      "business_ethics_csr",
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/artificial-intelligence-in-pathology-a-framework-for-preserving-brain-capital-in.md",
+      "raw/papers/cognitive_science/artificial-intelligence-and-the-evolution-of-human-machine-collaboration-in-ever.md",
+      "raw/papers/cognitive_science/unlocking-the-power-of-metacognition-the-role-of-metacognitive-skills-in-decisio.md",
+      "raw/papers/cognitive_science/scan-a-decision-making-framework-for-effective-task-allocation-with-generative-a.md",
+      "raw/papers/cognitive_science/essays-in-human-and-machine-biases-in-financial-markets.md",
+      "raw/papers/cognitive_science/the-digital-pirahã-condition-ecological-mismatch-and-the-reconstruction-of-recur.md",
+      "raw/papers/cognitive_science/the-dark-side-of-generative-artificial-intelligence-in-personal-learning-a-cogni.md",
+      "raw/papers/business_ethics_csr/assessing-critical-thinking-and-ethics-in-business-education-an-integrated-frame.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "multilayer-interaction-determines-adoption-outcomes",
+    "title_ja": "人・プロセス・制度の多層相互作用が導入成果を決める",
+    "title_en": "Multilayer Interaction of Judgment, Process and Institution Determines Adoption Outcomes",
+    "tier": 1,
+    "description": "新技術の効果は性能そのものでなく、人的判断・組織プロセス・制度ガバナンスの整合と動的能力の構築によって決まる。",
+    "mechanisms": [
+      "動的ケイパビリティの構築",
+      "多層整合と相互依存",
+      "既存能力と新パラダイムの二重管理"
+    ],
+    "related_domains": [
+      "business_ethics_csr"
+    ],
+    "source_files": [
+      "raw/papers/business_ethics_csr/reframing-artificial-intelligence-in-project-management-a-systematic-review-and-.md",
+      "raw/papers/business_ethics_csr/the-impact-of-ai-based-information-system-integration-embedded-with-esg-consider.md",
+      "raw/papers/business_ethics_csr/advancing-ai-integration-exploring-business-process-management-capabilities-for-.md",
+      "raw/papers/business_ethics_csr/from-principles-to-capability-building-capacity-for-responsible-ai-adoption.md",
+      "raw/papers/business_ethics_csr/the-role-of-engagement-platforms-in-supporting-b2b-stakeholders-value-creation.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "pre-irreversibility-authority-and-constraint-embedding",
+    "title_ja": "不可逆化前の権限判断と制約の内部設計化",
+    "title_en": "Pre-Irreversibility Authority Judgment and Embedding Constraints into Design",
+    "tier": 1,
+    "description": "統治は効果が不可逆になる前に権限判断を置き、社会的・外部的制約を後付けでなく内部構造として組み込む必要がある。",
+    "mechanisms": [
+      "不可逆性前の介入点",
+      "制約の設計変数化",
+      "権力・透明性・信頼ギャップの拡大"
+    ],
+    "related_domains": [
+      "business_ethics_csr",
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/business_ethics_csr/execution-governance-eg1eg6-practical-handbook.md",
+      "raw/papers/business_ethics_csr/exploring-the-business-case-for-responsible-innovation.md",
+      "raw/papers/business_ethics_csr/the-esg-banking-model.md",
+      "raw/papers/business_ethics_csr/rethinking-overseas-expansion-climate-risk-and-chinese-corporations-cross-border.md",
+      "raw/papers/cognitive_science/strategic-polysemy-in-ai-discourse-a-philosophical-analysis-of-language-hype-and.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "coevolving-threat-defense-and-ecosystem-coordination",
+    "title_ja": "脅威と防御の共進化および生態系的協調ガバナンス",
+    "title_en": "Threat–Defense Co-evolution and Ecosystem-Based Collaborative Governance",
+    "tier": 1,
+    "description": "攻撃と防御、複数主体の利害は相互に適応し合う動的系であり、フィードバック機構と共創的な協働構造なしには制御できない。",
+    "mechanisms": [
+      "共進化的軍拡競争",
+      "フィードバックループ",
+      "ステークホルダー協創による共有理解"
+    ],
+    "related_domains": [
+      "business_ethics_csr",
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/augmented-offense-augmented-defense-co-evolving-information-assurance-in-an-ai-s.md",
+      "raw/papers/business_ethics_csr/collaborative-partnerships-and-ecosystem-building.md",
+      "raw/papers/business_ethics_csr/spatial-prediction-of-groundwater-nitrate-through-machine-learning-and-stakehold.md",
+      "raw/papers/business_ethics_csr/integration-of-digital-technologies-ai-iot-and-blockchain-for-circular-manufactu.md",
+      "raw/papers/cognitive_science/ai-privacy-risks-in-project-management.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "heterogeneous-value-pluralism-and-immediacy-risk-tradeoff",
+    "title_ja": "異質な価値の並立と即時効用対長期リスクのトレードオフ",
+    "title_en": "Heterogeneous Value Pluralism and the Immediate-Utility vs Long-Term-Risk Tradeoff",
+    "tier": 1,
+    "description": "異質な価値型の明示的序列化が正当性を支え、即時効用と長期リスクの認知的不協和が行動と選好の矛盾を生む。",
+    "mechanisms": [
+      "価値の序列化による正当性確保",
+      "時間割引と認知的不協和",
+      "価値観の齟齬"
+    ],
+    "related_domains": [
+      "business_ethics_csr",
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/business_ethics_csr/value-creation-in-sport-business-in-the-age-of-ai-a-multidimensional-framework.md",
+      "raw/papers/business_ethics_csr/hyper-personalization-vs-privacy-paradox-balancing-ai-driven-customer-insights-w.md",
+      "raw/papers/business_ethics_csr/the-role-of-engagement-platforms-in-supporting-b2b-stakeholders-value-creation.md",
+      "raw/papers/cognitive_science/ai-privacy-risks-in-project-management.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
