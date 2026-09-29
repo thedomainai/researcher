@@ -24819,5 +24819,136 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "formalization-gap-amplifies-institutional-fragility",
+    "title_ja": "形式化と現実のギャップによる制度的脆弱性の増幅",
+    "title_en": "Formalization-Reality Gap and Amplified Institutional Fragility",
+    "tier": 1,
+    "description": "測定・標準化・形式表現は現実の一部しか捉えられず、自動化はそのギャップに潜む既存の脆弱性を拡大し、測定可能な指標が社会的権威を獲得する。",
+    "mechanisms": [
+      "形式表現と現実の乖離",
+      "測定可能性による権威の構成",
+      "制度的脆弱性の増幅"
+    ],
+    "related_domains": [
+      "psychology",
+      "religious_studies"
+    ],
+    "source_files": [
+      "raw/papers/psychology/perspectives-on-the-limits-and-clinical-alignment-of-medical-ai-from-population-.md",
+      "raw/papers/psychology/beyond-automation-reimagining-human-centered-systems-for-ai-mediated-institution.md",
+      "raw/papers/psychology/from-model-risk-management-to-ai-assurance-integrating-ai-risk-management-indepe.md",
+      "raw/papers/psychology/big-data-and-psychiatry-advances-constraints-and-future-directions.md",
+      "raw/papers/religious_studies/on-artificial-intelligence-from-a-concept-of-measurable-human-ability-to-automat.md",
+      "raw/papers/psychology/who-saw-the-atlas-arithmetic-as-atlas-and-human-ai-collaboration.md",
+      "raw/papers/religious_studies/久那斗-kunato-core-ver300-truth-preserving-deliberation-refutation-persistence-and-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "scoped-trust-and-automatic-deference-asymmetry",
+    "title_ja": "機能限定的な信頼と権威への自動的追従の非対称性",
+    "title_en": "Scoped Trust and Automatic Deference to Authoritative Sources",
+    "tier": 1,
+    "description": "信頼は本来機能ごとに限定されるが、人間は権威的ソースに領域を問わず自動的に信頼を付与し、情報の非対称性が支援と管理の解釈を対立させる。",
+    "mechanisms": [
+      "情報の非対称性",
+      "自動的信頼付与(権威バイアス)",
+      "信頼の機能特異性と計測不能性"
+    ],
+    "related_domains": [
+      "psychology",
+      "religious_studies"
+    ],
+    "source_files": [
+      "raw/papers/psychology/agentic-artificial-intelligence-in-business-decision-making-a-framework-for-huma.md",
+      "raw/papers/psychology/automation-bias-and-legal-reasoning-in-law-students-experimental-dataset-on-gene.md",
+      "raw/papers/psychology/the-privacysupport-paradox-of-ai-based-employee-stress-management-the-role-of-pe.md",
+      "raw/papers/psychology/trust-talk-is-scoped-and-unlexicalized-how-people-express-trust-in-ai-and-what-s.md",
+      "raw/papers/psychology/investigating-science-teachers-experiences-of-generative-ai-in-science-teaching-.md",
+      "raw/papers/religious_studies/digital-religion-and-hybrid-religious-authority-in-algorithmically-mediated-envi.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "offloading-performance-skill-retention-tradeoff",
+    "title_ja": "認知オフロードにおける短期成果と長期能力維持のトレードオフ",
+    "title_en": "Short-Term Performance vs Long-Term Skill Retention under Cognitive Offloading",
+    "tier": 1,
+    "description": "認知を外部化するツールは短期成果を高める一方、依存が批判的思考や認識的自律を低下させ、その効果は自己効力感や協働の質に媒介される。",
+    "mechanisms": [
+      "認知的オフロード",
+      "依存による能力の萎縮",
+      "自己効力感による媒介"
+    ],
+    "related_domains": [
+      "psychology"
+    ],
+    "source_files": [
+      "raw/papers/psychology/effect-of-nursing-students-artificial-intelligence-self-efficacy-on-innovative-b.md",
+      "raw/papers/psychology/humanai-collaboration-in-product-management-a-systematic-review-of-ai-augmented-.md",
+      "raw/papers/psychology/the-ethics-and-accuracy-of-generative-ai-in-higher-education-evaluating-student-.md",
+      "raw/papers/psychology/artificial-intelligence-enabled-pedagogy-in-management-education-an-empirical-in.md",
+      "raw/papers/psychology/genai-dependence-and-graduate-students-research-creativity-the-roles-of-critical.md",
+      "raw/papers/psychology/thinking-with-ai-or-thinking-less-a-narrative-review-of-generative-ai-dependence.md",
+      "raw/papers/psychology/between-perceived-competence-and-artificial-intelligence-academic-self-efficacy-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "basic-psychological-needs-and-extrinsic-reward-crowding-out",
+    "title_ja": "基本的心理欲求の充足と外的報酬による内発的動機の侵食",
+    "title_en": "Basic Psychological Needs Satisfaction and Extrinsic Reward Crowding-Out",
+    "tier": 1,
+    "description": "学習・行動の成果は手法や技術形態よりも自律性・有能感・関係性の充足で決まり、外的報酬設計や主体性を奪う設計は内発的動機や参加を損なう。",
+    "mechanisms": [
+      "内発的動機の crowding-out",
+      "主体性設計による機会配分",
+      "選択的離脱による自律の防衛"
+    ],
+    "related_domains": [
+      "psychology"
+    ],
+    "source_files": [
+      "raw/papers/psychology/designing-for-ai-literacy-psychological-mechanisms-and-self-determination.md",
+      "raw/papers/psychology/gainful-or-dark-gamification-three-perspectives-on-unlocking-ais-potential-for-e.md",
+      "raw/papers/psychology/ai-collaboration-and-problem-based-learning.md",
+      "raw/papers/psychology/interdependent-navigation-and-pragmatic-disengagement-how-older-korean-immigrant.md",
+      "raw/papers/psychology/shaping-collaborations-with-algorithms-how-agency-and-heterogeneity-criteria-inf.md",
+      "raw/papers/psychology/consumer-experience-in-metaverse-environments.md",
+      "raw/papers/psychology/when-temperatures-rise-assessing-the-association-between-daily-maximum-temperatu.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "complementarity-and-task-allocation-determine-collaboration-outcomes",
+    "title_ja": "能力補完・タスク配分・組織支援による協働成果の決定",
+    "title_en": "Complementarity, Task Allocation and Organizational Support as Determinants of Collaboration",
+    "tier": 1,
+    "description": "協働成果は能力の補完性、明確な役割・意思決定権の配分、組織的支援の相互作用で決まり、認知資源の有限性が制約となる。",
+    "mechanisms": [
+      "有限合理性",
+      "意思決定権の最適配分",
+      "能力補完性"
+    ],
+    "related_domains": [
+      "psychology",
+      "religious_studies"
+    ],
+    "source_files": [
+      "raw/papers/psychology/from-ai-assistants-to-ai-teammates-a-systematic-review-of-humanai-collaboration-.md",
+      "raw/papers/psychology/humanai-collaboration-in-product-management-a-systematic-review-of-ai-augmented-.md",
+      "raw/papers/psychology/agentic-artificial-intelligence-in-business-decision-making-a-framework-for-huma.md",
+      "raw/papers/psychology/who-saw-the-atlas-arithmetic-as-atlas-and-human-ai-collaboration.md",
+      "raw/papers/religious_studies/integration-of-the-seci-knowledge-management-model-in-developing-islamic-religio.md",
+      "raw/papers/religious_studies/exploring-traditional-flood-resilience-strategies-at-historical-shrine-spaces-ev.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
