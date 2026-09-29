@@ -23812,5 +23812,158 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "haiku"
+  },
+  {
+    "slug": "measurement-induced-behavioral-displacement",
+    "title_ja": "測定・指標化が誘発する行動転位と評価の歪み",
+    "title_en": "Measurement-Induced Behavioral Displacement",
+    "tier": 1,
+    "description": "指標や評価基準が対象化された瞬間に、主体は指標を最適化する方向へ行動を転位させ、平均的・表層的な達成が真の目的(安全・真正性・良い意思決定)から乖離する。",
+    "mechanisms": [
+      "指標の目標化(グッドハートの法則)",
+      "不完全な検出と戦略的適応",
+      "平均値評価による分布の裾の不可視化"
+    ],
+    "related_domains": [
+      "operations_management",
+      "operations_research"
+    ],
+    "source_files": [
+      "raw/papers/operations_management/navigating-the-impacts-of-digital-transformation-in-waste-management.md",
+      "raw/papers/operations_research/incentivizing-authentic-human-effort-in-the-generative-ai-era-a-mechanism-design.md",
+      "raw/papers/operations_research/from-abandonment-to-completion-a-multi-objective-decision-support-approach-to-ch.md",
+      "raw/papers/operations_research/responsible-generative-engine-optimization-optimizing-llm-rankings-via-trustwort.md",
+      "raw/papers/operations_research/the-influence-of-exposure-to-ai-generated-social-media-content-on-verification-i.md",
+      "raw/papers/operations_research/extending-the-theory-of-planned-behaviour-to-explain-contract-cheating-in-the-ag.md",
+      "raw/papers/operations_research/evaluation-metrics-for-safe-reinforcement-learning.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "adaptive-adversary-strategic-equilibrium",
+    "title_ja": "適応的主体間の戦略的均衡と信頼性トレードオフ",
+    "title_en": "Strategic Equilibrium among Adaptive Agents",
+    "tier": 1,
+    "description": "利害の異なる複数主体が相互適応する系では、静的ルールは機能せず、インセンティブ設計・信頼性と効率性のトレードオフ・分散協調の均衡構造が結果を規定する。",
+    "mechanisms": [
+      "インセンティブ設計(メカニズムデザイン)",
+      "共進化的攻防",
+      "信頼性・効率・プライバシーの三すくみ"
+    ],
+    "related_domains": [
+      "operations_research"
+    ],
+    "source_files": [
+      "raw/papers/operations_research/incentivizing-authentic-human-effort-in-the-generative-ai-era-a-mechanism-design.md",
+      "raw/papers/operations_research/credible-marketplace-simulator-mechanism-design-simulation-for-credibility-in-po.md",
+      "raw/papers/operations_research/a-hybrid-federated-reinforcement-learning-and-game-theoretic-framework-for-energ.md",
+      "raw/papers/operations_research/privacy-preserving-federated-reinforcement-learning-for-bess-coordination-in-dis.md",
+      "raw/papers/operations_research/humanai-collaborative-neuromorphic-digital-twins-with-adaptive-game-theoretic-in.md",
+      "raw/papers/operations_research/strategic-game-theoretic-models-for-cybersecurity-integrating-ai-detection-and-d.md",
+      "raw/papers/operations_research/mouflon-multi-group-modularity-based-fairness-aware-community-detection.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "hierarchical-decomposition-under-information-limits",
+    "title_ja": "情報処理の根本制約が導く階層分解と資源配分",
+    "title_en": "Hierarchical Decomposition under Information-Processing Limits",
+    "tier": 1,
+    "description": "通信・計算・注意の有限性により、大域最適は不可能となり、局所と大域のトレードオフ、階層的分解、指標に基づく優先順位付けが不変の構造として現れる。",
+    "mechanisms": [
+      "通信・計算の下限による制約",
+      "局所-大域トレードオフ",
+      "資源制約下の優先順位付け(指標化)"
+    ],
+    "related_domains": [
+      "operations_management",
+      "operations_research"
+    ],
+    "source_files": [
+      "raw/papers/operations_research/communication-lower-bounds-and-algorithms-for-sketching-with-random-dense-matric.md",
+      "raw/papers/operations_research/simple-spectral-graph-convolution.md",
+      "raw/papers/operations_research/a-hierarchical-reinforcement-learning-based-framework-for-smart-cities-managemen.md",
+      "raw/papers/operations_research/minimax-optimal-reward-agnostic-exploration-in-reinforcement-learning.md",
+      "raw/papers/operations_research/model-based-learning-of-whittle-indices.md",
+      "raw/papers/operations_research/ai-based-prediction-and-optimization-of-energy-and-exergy-efficiency-in-thermal-.md",
+      "raw/papers/operations_management/the-industry-40-synergy-framework-integrating-ai-iot-and-lean-systems-for-resili.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "experiment-learning-reinforcing-cycle-and-capability-staging",
+    "title_ja": "実験と組織学習の相互強化サイクルと能力の段階的形成",
+    "title_en": "Experiment–Learning Reinforcing Cycle and Capability Staging",
+    "tier": 1,
+    "description": "新技術の価値実現は、技術実験と組織的学習・動的能力が相互強化するサイクルの速度と質に依存し、活用と探索の資源競争を伴いながら段階的に成熟する。",
+    "mechanisms": [
+      "フィードバックループ",
+      "活用と探索のトレードオフ",
+      "経路依存性",
+      "試行錯誤による学習(シミュレーション環境)"
+    ],
+    "related_domains": [
+      "operations_management",
+      "operations_research"
+    ],
+    "source_files": [
+      "raw/papers/operations_management/scaling-data-management-capabilities-for-enterprise-ai-a-maturity-model-for-the-.md",
+      "raw/papers/operations_management/digital-dynamic-capabilities-as-a-tool-for-digital-transformation-in-accounting-.md",
+      "raw/papers/operations_management/navigating-the-exploitationexploration-paradox-the-impact-of-industry-40-technol.md",
+      "raw/papers/operations_research/simulation-based-and-game-based-learning-in-finance-education-design-mechanisms-.md",
+      "raw/papers/operations_research/teaching-ai-governance-in-management-education-a-serious-game-for-accountable-de.md",
+      "raw/papers/operations_management/the-industry-40-synergy-framework-integrating-ai-iot-and-lean-systems-for-resili.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "accountability-integration-tradeoff-and-institutional-compromise",
+    "title_ja": "説明責任と情報統合のトレードオフ、および制度的妥協の再構成",
+    "title_en": "Accountability–Integration Tradeoff and Institutional Compromise",
+    "tier": 1,
+    "description": "複数の論理・目的・責任主体が衝突する組織では、統合ではなく妥協の再構成によってアイデンティティと説明責任が保たれ、AIによる情報統合は人間の責任要件と恒常的に緊張する。",
+    "mechanisms": [
+      "制度論理の衝突",
+      "プリンシパル＝エージェント問題",
+      "非対称な役割下での責任配分"
+    ],
+    "related_domains": [
+      "operations_management",
+      "operations_research"
+    ],
+    "source_files": [
+      "raw/papers/operations_management/from-reactive-compliance-to-predictive-resilience-governed-ai-for-knowledge-mana.md",
+      "raw/papers/operations_research/hybridity-in-the-face-of-digital-transformation-dynamics-of-reconfiguring-instit.md",
+      "raw/papers/operations_research/teaching-ai-governance-in-management-education-a-serious-game-for-accountable-de.md",
+      "raw/papers/operations_research/online-game-features-and-player-immersive-use.md",
+      "raw/papers/operations_research/from-virtual-aggression-to-school-aggression-a-conceptual-model-of-online-gaming.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "front-loaded-cost-and-operational-gain-offset",
+    "title_ja": "導入段階コストと運用段階便益の相殺構造",
+    "title_en": "Front-Loaded Cost and Operational Gain Offset",
+    "tier": 2,
+    "description": "技術導入は運用フェーズの効率を高める一方、インフラ構築など前段の資源コストが増大し、ライフサイクル全体では便益が相殺される構造を持つ。",
+    "mechanisms": [
+      "ライフサイクル全体での外部性の移転",
+      "物理的・資源的制約による効率の上限"
+    ],
+    "related_domains": [
+      "operations_management",
+      "operations_research"
+    ],
+    "source_files": [
+      "raw/papers/operations_management/life-cycle-assessment-of-ai-powered-fermentation-systems.md",
+      "raw/papers/operations_research/ai-based-prediction-and-optimization-of-energy-and-exergy-efficiency-in-thermal-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
   }
 ]
