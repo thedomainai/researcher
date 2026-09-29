@@ -17342,5 +17342,53 @@
       "ai_governance",
       "human_ai_collaboration"
     ]
+  },
+  {
+    "slug": "decision-time-evidence-binding",
+    "title_ja": "決定時点への証拠拘束と説明責任の遡及不能性",
+    "title_en": "Decision-Time Evidence Binding and the Irreversibility of Accountability Reconstruction",
+    "description": "意思決定の瞬間に証拠と方針バージョンが結合されていなければ、事後にその因果的説明を復元することは構造的に不可能であり、ガバナンス設計は行為主体がAIか人間かに関わらず事前に組み込まれねばならないという原理。",
+    "mechanisms": [
+      "証拠の時間的結合",
+      "説明責任の遡及不能性",
+      "ガバナンスの事前設計",
+      "責任帰属の役割固定"
+    ],
+    "related_sources": [
+      1,
+      2,
+      11
+    ],
+    "source_files": [
+      "raw/papers/organization_science/evidence-grounded-ai-operations-workflow-extending-a-human-designed-quality-moni.md",
+      "raw/papers/organization_science/the-ai-incident-response-protocol-six-stages-and-the-evidence-a-reconstruction-r.md",
+      "raw/papers/organization_science/human-ai-and-organizational-performance-haop-a-safety-framework-for-the-ai-era.md"
+    ],
+    "domain": "organization_science",
+    "compiled_at": "2026-09-29"
+  },
+  {
+    "slug": "cognitive-coupling-system-boundary",
+    "title_ja": "結合認知システムにおける能力のシステム境界帰属",
+    "title_en": "Cognitive Coupling and Capability as a System-Boundary Property",
+    "description": "能力は個々の主体(人間・AI)に内在するのではなく、人間・AIエージェント・外部記憶・環境フィードバックからなる結合システムの境界に帰属する特性であり、判断主権を人間に残したまま分散認知として設計可能であるという原理。",
+    "mechanisms": [
+      "システム境界への能力帰属",
+      "分散認知",
+      "閉ループフィードバック",
+      "役割分化した協調"
+    ],
+    "related_sources": [
+      4,
+      13,
+      20
+    ],
+    "source_files": [
+      "raw/papers/organization_science/the-new-normal-collaborative-information-behavior-with-generative-ai.md",
+      "raw/papers/organization_science/coupled-human-artificial-team-cognition-a-restricted-methodological-archive-2026.md",
+      "raw/papers/organization_science/an-agent-model-abstraction-for-human-ai-teaming-cognitive-coupling.md"
+    ],
+    "domain": "organization_science",
+    "compiled_at": "2026-09-29"
   }
 ]

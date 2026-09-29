@@ -46,3 +46,14 @@ Mandalapuら（2026）は、カレンダーや電卓といった従来の補助�
 
 *   Chen Zhong, Alper Yayla, Xueping Liang (2026). *The Paradox of Perfection: Hidden Risks of High-Performing AI in Human-in-the-Loop Governance*. (raw/The Paradox of Perfection: Hidden Risks of High-Performing AI in Human-in-the-Loop Governance)
 *   Pravinya Mandalapu, Adriane B. Randolph, Andrea Taylor (2026). *When Humans Stop Thinking: Cognitive Offloading, Atrophy Risk, and the Design of Human-AI Intelligence*. (raw/When Humans Stop Thinking: Cognitive Offloading, Atrophy Risk, and the Design of Human-AI Intelligence)
+
+## 追加ソース（2026-09-29）
+
+* **タイトル**: The Invisible Gap: How AI Productivity Masks Eroding Expertise in Knowledge Work – and what to do about it (2026)
+  **ファイルパス**: `raw/papers/organization_science/the-invisible-gap-how-ai-productivity-masks-eroding-expertise-in-knowledge-work-.md`
+* **タイトル**: When ChatGPT Is Down, So Are Our Brains: Cognitive Fragility Following AI Disruption in Knowledge Work (2026)
+  **ファイルパス**: `raw/papers/organization_science/when-chatgpt-is-down-so-are-our-brains-cognitive-fragility-following-ai-disrupti.md`
+* **タイトル**: AI Sabbatical: A conceptual framework for cognitive sustainability in AI-augmented knowledge work (2026)
+  **ファイルパス**: `raw/papers/organization_science/ai-sabbatical-a-conceptual-framework-for-cognitive-sustainability-in-ai-augmente.md`
+* **タイトル**: The Great Sorting, 2026–2040 Self-Domestication, AI, and the IQ Barbell (2026)
+  **ファイルパス**: `raw/papers/organization_science/the-great-sorting-20262040-self-domestication-ai-and-the-iq-barbell.md`

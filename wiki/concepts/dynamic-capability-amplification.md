@@ -75,3 +75,12 @@ AIが組織構造そのものを環境変化に応じて最適化：
 - Adaptation in Natural and Artificial Systems (raw/holland_1992.txt)
 - Dynamic capabilities: what are they? (raw/eisenhardt_martin_2000.txt)
 - System Dynamics: Systems Thinking and Modeling for a Complex World (raw/sterman_2002.txt)
+
+## 追加ソース（2026-09-29）
+
+* **タイトル**: The New AI Architect: Composing Intelligence Through AI Technology Stacks (2026)
+  **ファイルパス**: `raw/papers/organization_science/the-new-ai-architect-composing-intelligence-through-ai-technology-stacks.md`
+* **タイトル**: How AI Transforms IT-Enabled Dynamic Capabilities to Strengthen Organizational Resilience (2026)
+  **ファイルパス**: `raw/papers/organization_science/how-ai-transforms-it-enabled-dynamic-capabilities-to-strengthen-organizational-r.md`
+* **タイトル**: ORQUESTRAÇÃO ALGORÍTMICA E LATÊNCIA DECISÓRIA: INTELIGÊNCIA ARTIFICIAL COMO MECANISMO DE HABILITAÇÃO DE CAPACIDADES DINÂMICAS EM ORGANIZAÇÕES DESCENTRALIZADAS Algorithmic Orchestration and Decisional Latency: Artificial Intelligence as an Enabler of Dynamic Capabilities in Decentralized Organizations (2026)
+  **ファイルパス**: `raw/papers/organization_science/orquestração-algorítmica-e-latência-decisória-inteligência-artificial-como-mecan.md`
