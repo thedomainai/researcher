@@ -19972,5 +19972,139 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "local-compliance-global-failure-composability-gap",
+    "title_ja": "局所的適合の総和が全体適合を保証しない合成可能性の破綻",
+    "title_en": "Composability Gap: Local Compliance Does Not Sum to Global Fairness",
+    "tier": 1,
+    "description": "各主体が局所的に規則を満たしても、情報の局在化とインセンティブの非整合により、全体レベルの公平性・最適性は保証されず、上位の制約再設計が必要になる。",
+    "mechanisms": [
+      "情報の局在化",
+      "インセンティブの非整合",
+      "創発的経路の生成",
+      "上位統治による制約再設計"
+    ],
+    "related_domains": [
+      "complexity_science",
+      "corporate_governance"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/permission-fragmentation-inversely-stimulates-emergence-in-multi-agent-ai-system.md",
+      "raw/papers/complexity_science/compliant-with-local-controls-collectively-discriminatory-a-governance-architect.md",
+      "raw/papers/complexity_science/multi-agent-ai-architecture-for-regulated-insurers-a-generic-ai-framework-under-.md",
+      "raw/papers/corporate_governance/autonomous-event-driven-multi-agent-orchestration-for-enterprise-ai-at-scale.md",
+      "raw/papers/corporate_governance/automated-quantitative-impact-assessment-framework-for-artificial-intelligence-s.md",
+      "raw/papers/corporate_governance/who-speaks-for-the-affected-the-missing-stakeholder-problem-in-ai-policy-consult.md",
+      "raw/papers/complexity_science/behavior-is-not-enough-a-mechanism-based-evaluation-of-social-norm-emergence-in-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "control-induced-disturbance-and-timing-of-intervention",
+    "title_ja": "制御自身が生む撹乱と介入タイミングの原理",
+    "title_en": "Control-Generated Disturbance and Intervention Timing",
+    "tier": 1,
+    "description": "規制・制御・支援は対象状態を自ら撹乱し得るため、撹乱源の種類と介入の順序・環境条件(豊富/希少)が系の安定性を決定する。",
+    "mechanisms": [
+      "フィードバックループ",
+      "制御による撹乱の自己生成",
+      "環境状態依存の介入効果",
+      "支援が脅威として認知される利害非対称"
+    ],
+    "related_domains": [
+      "complexity_science",
+      "corporate_governance"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/a-boon-or-a-bane-demystifying-employee-ai-awareness-aia-a-systematic-review-and-.md",
+      "raw/papers/complexity_science/proactive-incentive-regulation-in-multi-agent-systems-with-environmental-feedbac.md",
+      "raw/papers/complexity_science/the-source-of-disturbance-matters-external-internal-and-control-generated-noise-.md",
+      "raw/papers/complexity_science/ai-driven-systems-for-advancing-smart-building-infrastructure-an-integrated-revi.md",
+      "raw/papers/corporate_governance/the-adaptive-ecological-trap-a-grounded-theory-study-of-adolescent-ai-dependency.md",
+      "raw/papers/corporate_governance/mobile-power-and-burden-behavioral-reasoning-on-stakeholder-conflicts-in-goyong2.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "heterogeneity-and-decentralized-order-emergence",
+    "title_ja": "異質性と分散的秩序創発による安定性",
+    "title_en": "Heterogeneity and Decentralized Emergence of Order",
+    "tier": 1,
+    "description": "中央調整なしでも、局所的相互作用・共有ワークスペース・限定情報下の接続性制約から秩序が生まれ、異質性(無秩序)がむしろ安定資源となる。",
+    "mechanisms": [
+      "自己組織化",
+      "局所ルールからの創発",
+      "異質性による安定化",
+      "スケール間のスペクトル転移"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/artificial-intelligence-and-synergetic-thinking-interpretation-of-the-self-organ.md",
+      "raw/papers/complexity_science/agensh-scaling-organizational-intelligence-to-1024-agents.md",
+      "raw/papers/complexity_science/disorder-promoted-stability.md",
+      "raw/papers/complexity_science/connectivity-preservation-and-graph-stretching-in-range-only-swarm-dispersion.md",
+      "raw/papers/complexity_science/transfer-dynamics-and-spectral-cascades-in-graph-coupled-kuramoto-networks.md",
+      "raw/papers/complexity_science/on-the-analysis-of-potential-games-from-constraints-price-of-anarchy-and-reinfor.md",
+      "raw/papers/complexity_science/behavior-is-not-enough-a-mechanism-based-evaluation-of-social-norm-emergence-in-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "multi-layer-independent-control-and-institutional-durability",
+    "title_ja": "複数の独立した制御レイヤーと制度的耐久性",
+    "title_en": "Plural Independent Control Layers and Institutional Durability",
+    "tier": 1,
+    "description": "変革的技術の統制と組織の持続的優位は、単一の権力源ではなく所有・取締役会・インフラ・法制度など独立レイヤーの相互作用と、ガバナンス進化速度に依存する。",
+    "mechanisms": [
+      "権力の分散と相互牽制",
+      "制度の経路依存性",
+      "ガバナンス進化速度",
+      "認証・監督制度の構造転移"
+    ],
+    "related_domains": [
+      "corporate_governance"
+    ],
+    "source_files": [
+      "raw/papers/corporate_governance/artificial-intelligence-ai-in-is-research-disrupting-journals-conferences-and-pe.md",
+      "raw/papers/corporate_governance/the-chokepoint-is-not-the-chain-ownership-board-control-infrastructure-power-and.md",
+      "raw/papers/corporate_governance/the-intelligent-enterprise-review-volume-1-issue-1-the-institutional-durability-.md",
+      "raw/papers/corporate_governance/stabilize-or-destabilize-tokenbased-ownership-under-legitimacy-shocks.md",
+      "raw/papers/corporate_governance/command-and-code-how-ceo-military-experience-and-ai-curb-corporate-greenwashing.md",
+      "raw/papers/corporate_governance/rd-accounting-and-innovation-signaling-insights-from-japans-pre-regulation-era.md",
+      "raw/papers/corporate_governance/genai-enabled-dark-data-circularity-for-sustainable-intelligence.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "crystallized-structure-to-generative-resonance-and-shared-artifacts",
+    "title_ja": "結晶化構造から生成的共鳴への価値転換と共有アーティファクト",
+    "title_en": "From Crystallized Structure to Generative Resonance",
+    "tier": 1,
+    "description": "資格・知識など結晶化された構造に基づく価値配分が、生成的共鳴と共有された媒介物(アーティファクト・共同意図性)へ移行し、異質な知の協働を成立させる。",
+    "mechanisms": [
+      "価値の源泉の転位",
+      "共有アーティファクトによる相互理解",
+      "共同意図性",
+      "補償的依存の自己強化"
+    ],
+    "related_domains": [
+      "complexity_science",
+      "corporate_governance"
+    ],
+    "source_files": [
+      "raw/papers/corporate_governance/from-crystallization-to-generative-resonance---an-ontological-theory-of-value-tr.md",
+      "raw/papers/complexity_science/ai-lego-scaffolding-cross-functional-collaboration-in-industrial-responsible-ai-.md",
+      "raw/papers/corporate_governance/genai-agency-mediating-skill-development-and-algorithmic-trust.md",
+      "raw/papers/complexity_science/artificial-intelligence-and-the-development-of-critical-thinking-in-science-educ.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
