@@ -19679,5 +19679,152 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "recursive-feedback-criticality-threshold",
+    "title_ja": "再帰的フィードバックの臨界閾値と自己増幅",
+    "title_en": "Recursive Feedback Criticality and Self-Amplification Thresholds",
+    "tier": 1,
+    "description": "システムが自らの出力を入力として循環させるとき、フィードバック強度と進展の困難度の比が臨界値を超えると増幅か減衰かが質的に分岐する。",
+    "mechanisms": [
+      "再生産数による臨界条件",
+      "フィードバックループ",
+      "観察者依存的な再帰的構成"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/generative-ai-as-a-recursive-observation-system-a-second-order-cybernetic-perspe.md",
+      "raw/papers/complexity_science/reproducible-macroscopic-dynamics-in-a-closed-loop-human-ai-learning-system.md",
+      "raw/papers/complexity_science/recursive-criticality-of-ai-self-improvement.md",
+      "raw/papers/complexity_science/artificial-intelligence-a-threshold-toward-universal-intelligence.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "multistability-and-tipping-in-coupled-networks",
+    "title_ja": "結合ネットワークの多安定性・転移点と低次元縮約",
+    "title_en": "Multistability, Tipping Boundaries and Dimension Reduction in Coupled Networks",
+    "tier": 1,
+    "description": "相互作用系の挙動は構造の固有スペクトルと分岐点の相対配置で決まり、複雑な相転移も低次元の有効系で予測できる。",
+    "mechanisms": [
+      "分岐と履歴現象(ヒステリシス)",
+      "構造による引力域の決定",
+      "次元削減による有効記述"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/phase-delays-shape-multistability-and-basin-sizes-in-kuramoto-networks-analytica.md",
+      "raw/papers/complexity_science/low-dimensional-phase-diagram-of-higher-order-networked-systems.md",
+      "raw/papers/complexity_science/double-explosive-transitions-in-adaptive-multilayer-networks-with-higher-order-i.md",
+      "raw/papers/complexity_science/efficiently-classifying-shocks-in-complex-systems-requires-dormant-reporters.md",
+      "raw/papers/complexity_science/time-varying-data-as-sheaves-an-invitation-to-narratives.md",
+      "raw/papers/complexity_science/probabilistic-differential-geometry-in-artificial-intelligence.md",
+      "raw/papers/complexity_science/design-principles-for-reproducible-networks.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "local-information-limits-and-decentralized-guarantees",
+    "title_ja": "局所情報下の分散協調・安全保証と不可避な性能限界",
+    "title_en": "Decentralized Coordination under Local Information: Guarantees and Fundamental Limits",
+    "tier": 1,
+    "description": "通信・観測が局所に限られる系では、創発的協調や数学的安全保証が成立する一方、伝達制約に由来する性能低下は避けられない。",
+    "mechanisms": [
+      "局所ルールからの創発的秩序",
+      "情報制約下の制約充足による安全性",
+      "分散化による情報伝達損失"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/provably-safe-decentralized-contingency-mpc-under-state-only-information-and-lim.md",
+      "raw/papers/complexity_science/from-euclidean-to-graph-structured-data-a-survey-of-collaborative-learning.md",
+      "raw/papers/complexity_science/emergent-charging-coordination-in-electric-delivery-fleets.md",
+      "raw/papers/complexity_science/a-fundamental-limit-in-decentralized-decision-making.md",
+      "raw/papers/complexity_science/online-change-point-detection-for-cooperative-multi-agent-reinforcement-learning.md",
+      "raw/papers/complexity_science/trust-aware-adaptive-disclosure-for-inference-privacy-preservation-in-multi-agen.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "message-as-reasoning-trace-and-authority-anchoring",
+    "title_ja": "メッセージは推論の痕跡である:信念モデリングと権限アンカー",
+    "title_en": "Messages as Reasoning Traces: Belief Modeling and Authority Anchoring",
+    "tier": 1,
+    "description": "エージェント間メッセージは客観事実でなく送り手の主観的推論の痕跡であり、相手の信念のモデル化、可視外の権限状態の明示、主権的アンカー、圧力下の記号体系の乖離が協調の信頼基盤を決める。",
+    "mechanisms": [
+      "情報の非対称性",
+      "相手の隠れた推論のモデル化",
+      "権限情報と計画可視状態の乖離",
+      "効率化圧による記号体系の分化"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/agents-that-model-agents-five-principles-toward-a-theory-of-mind-for-6g-networks.md",
+      "raw/papers/complexity_science/the-civilization-framework-sovereign-anchored-communication-between-personal-mul.md",
+      "raw/papers/complexity_science/beyond-agent-harnesses-cross-substrate-authority-for-multi-agent-systems.md",
+      "raw/papers/complexity_science/glossogen-emergent-language-in-complex-multi-agent-llm-interactions.md",
+      "raw/papers/complexity_science/trust-aware-adaptive-disclosure-for-inference-privacy-preservation-in-multi-agen.md",
+      "raw/papers/complexity_science/artificial-intelligence-as-the-nervous-system-of-cyberspace-a-conceptual-model-o.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "structural-separation-and-hierarchical-verification",
+    "title_ja": "機能分離と階層的検証によるエラー伝播の抑制",
+    "title_en": "Functional Separation and Hierarchical Verification against Error Propagation",
+    "tier": 1,
+    "description": "制御とデータの分離、多段階の階層的検証、永続的な成果物への紐付け、構造化された統合によって、多段階系での誤りの連鎖と絡まり合いを抑える。",
+    "mechanisms": [
+      "関心の分離による絡まり回避",
+      "階層的検証による誤り伝播の遮断",
+      "外部化された状態による追跡可能性",
+      "推測実行と権威的コミットの二層化"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/evidence-logic-and-compliance-multi-agent-structured-graph-reasoning-with-expert.md",
+      "raw/papers/complexity_science/hirs-agent-a-hierarchical-multi-agent-system-for-reliable-long-horizon-remote-se.md",
+      "raw/papers/complexity_science/control-data-flow-separation-stable-prompt-optimization-in-multi-agent-llms.md",
+      "raw/papers/complexity_science/when-agents-implement-systems-a-case-study-in-defects-detection-and-evaluation-r.md",
+      "raw/papers/complexity_science/bioinfoysis-technical-report.md",
+      "raw/papers/complexity_science/speculative-macro-commit-for-faster-tool-using-agents.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "capability-externalization-dual-effects",
+    "title_ja": "能力外部化の二面性と非定常環境での再適応",
+    "title_en": "Dual Effects of Capability Externalization and Re-adaptation in Nonstationary Environments",
+    "tier": 1,
+    "description": "能力を技術へ外部化すると自己効力感の向上と置換不安が同時に生じ、科学など全過程への介入や環境変化の検出と再適応が新たな課題となる。",
+    "mechanisms": [
+      "認知的オフロード",
+      "自己決定と置換不安の並存",
+      "変化点検出による再学習"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/the-double-edged-mechanism-of-organizational-ai-adoption-on-employee-creativity.md",
+      "raw/papers/complexity_science/transforming-science-with-large-language-models-a-survey-on-ai-assisted-scientif.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
