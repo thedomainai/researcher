@@ -23056,5 +23056,153 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "logic-plurality-conditioned-acceptance-of-autonomous-systems",
+    "title_ja": "複数の正当性ロジックの競合が規定する自律システム受容",
+    "title_en": "Competing Logics Conditioning Acceptance of Autonomous Systems",
+    "tier": 1,
+    "description": "組織や社会に併存する専門職論理・価値ビジョン・規範が、新技術の受容や統治枠組みの収束・分裂を決める構造。対象が変わっても、価値基盤の違いが制度対立を生む。",
+    "mechanisms": [
+      "制度論理の競合",
+      "価値ビジョンの分岐による制度分裂",
+      "規範の再生産と脱規律化"
+    ],
+    "related_domains": [
+      "marketing",
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/marketing/how-professional-logics-shape-ai-implementation-in-mental-healthcare-a-qualitati.md",
+      "raw/papers/marketing/opportunities-and-challenges-of-technology-adoption-in-customer-service-in-the-h.md",
+      "raw/papers/marketing/undisciplining-service-design-towards-a-grammar-of-possibility.md",
+      "raw/papers/neuroscience/governing-ai-in-the-military-domain-in-a-multi-order-world-china-the-us-and-visi.md",
+      "raw/papers/neuroscience/artificial-intelligence-and-the-transformation-of-global-order-toward-algorithmi.md",
+      "raw/papers/marketing/national-readiness-for-the-transformation-of-digital-banking-from-mobile-applica.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "agency-as-context-and-interaction-design-outcome",
+    "title_ja": "主体性は内的属性ではなく相互作用設計で決まる",
+    "title_en": "Agency as an Outcome of Interaction Context and Design",
+    "tier": 1,
+    "description": "エージェントの役割(資源・主体・受益者)は内部特性ではなく、関与する文脈・相互作用形式・設計によって決まり、価値共創と継続意向を規定する。",
+    "mechanisms": [
+      "文脈依存的な役割割当",
+      "心理的ニーズ充足による関与の持続",
+      "相互作用モダリティによる協働効果の規定"
+    ],
+    "related_domains": [
+      "marketing"
+    ],
+    "source_files": [
+      "raw/papers/marketing/human-ai-value-co-creation-and-continuance-intention-toward-ai-shopping-agents.md",
+      "raw/papers/marketing/influence-of-agentic-capability-of-ai-chatbots-on-value-co-creation-and-self-dir.md",
+      "raw/papers/marketing/human-ai-interactions-in-digital-customer-service-exploring-the-role-of-interact.md",
+      "raw/papers/marketing/resource-actor-beneficiary-or-agent-a-service-dominant-perspective-on-generative.md",
+      "raw/papers/marketing/pragmatically-speaking-humor-in-interactions-with-ai.md",
+      "raw/papers/marketing/the-impact-of-ai-on-customer-experience-a-service-recovery-context.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "unified-substrate-for-individualized-processing",
+    "title_ja": "個別化処理の統一基盤への統合と効果検証の乖離",
+    "title_en": "Unified Substrate for Individualized Processing and the Claim-Effect Gap",
+    "tier": 1,
+    "description": "個別化を分断された複数基盤で運用すると非効率になり、統合で効率が上がる。一方、個別化への期待と実際の行動変化には乖離があり、限られた資源配分の問題として扱われる。",
+    "mechanisms": [
+      "基盤統合による規模の経済",
+      "有限資源の配分問題",
+      "主張と実効果の測定齟齬"
+    ],
+    "related_domains": [
+      "marketing"
+    ],
+    "source_files": [
+      "raw/papers/marketing/micro-segmentation-and-customer-personalization-in-the-age-of-ai-and-big-data.md",
+      "raw/papers/marketing/ai-powered-personalization-at-work-and-in-the-marketexamining-the-convergence-of.md",
+      "raw/papers/marketing/evaluating-the-effectiveness-of-digital-personalization-and-ai-in-consumer-behav.md",
+      "raw/papers/marketing/analysis-of-consumer-brand-identity-and-purchase-decision-model-driven-by-social.md",
+      "raw/papers/marketing/ai-generated-marketing-videos-consumer-trust-and-perceived-deception-on-social-m.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "epistemic-ecology-restructuring-and-complementary-cognition",
+    "title_ja": "認知生態系の再編と異なる認識主体の補完",
+    "title_en": "Restructuring of Cognitive Ecologies and Complementary Knowers",
+    "tier": 1,
+    "description": "ツールは認知労働の分配や知識の生産・評価の生態系を再構成し、異なる認識主体は見える範囲が異なるため補完的に働く。認知は基質非依存の情報処理として捉えられる。",
+    "mechanisms": [
+      "認知負荷の再分配",
+      "認識主体ごとの可視領域の差異",
+      "身体性・基質に依存しない情報計算"
+    ],
+    "related_domains": [
+      "marketing",
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/marketing/integrating-ai-into-pre-service-teacher-training-for-reflective-interpretation-o.md",
+      "raw/papers/marketing/educating-minds-with-generative-ai.md",
+      "raw/papers/marketing/human-led-and-ai-led-customer-journey-mapping-as-complementary-knowledge-product.md",
+      "raw/papers/neuroscience/from-overload-to-agency-chatgpt-cognitive-load-and-international-students.md",
+      "raw/papers/neuroscience/exploring-cognition-through-a-morphological-info-computational-framework.md",
+      "raw/papers/neuroscience/observation-note-embodied-cognition-gap-in-ai-visual-spatial-reasoning.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "decision-process-visibility-and-reliance-calibration",
+    "title_ja": "意思決定過程の可視性と依存度の較正",
+    "title_en": "Decision Process Visibility and Reliance Calibration",
+    "tier": 1,
+    "description": "システムの正当性と信頼は予測精度ではなく、過程の可視性・権力の制約可能性・価値の明示化で形成され、人間の依存度が調整される。介入は道具側と人間側の二経路がある。",
+    "mechanisms": [
+      "過程の可視性による正当性形成",
+      "価値の明示化による無批判依存の抑制",
+      "道具側介入と人間側訓練の二経路"
+    ],
+    "related_domains": [
+      "marketing",
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/marketing/the-impact-of-ai-on-customer-experience-a-service-recovery-context.md",
+      "raw/papers/neuroscience/shaping-the-tool-or-shaping-the-mind-an-investigation-of-dual-pathways-in-human-.md",
+      "raw/papers/neuroscience/from-user-experience-to-trust-a-data-driven-model-of-satisfaction-and-trust-form.md",
+      "raw/papers/neuroscience/beyond-accuracy-designing-artificial-intelligence-systems-for-trustworthy-deploy.md",
+      "raw/papers/neuroscience/framing-an-ai-with-values-reduces-ai-reliance-in-ai-supported-writing-tasks.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "constraint-driven-computation-and-precision-weighted-inference",
+    "title_ja": "局所制約下での選別性創発と精度加重推論",
+    "title_en": "Constraint-Driven Selectivity and Precision-Weighted Inference",
+    "tier": 1,
+    "description": "局所計算や生物的資源の制約こそが選別性・効率的適応を生み、予測誤差の精度加重による階層的推論や内部表現の幾何構造が高次元の交絡を分離する。",
+    "mechanisms": [
+      "予測誤差による学習",
+      "抑制による選別性の創発",
+      "内部表現の幾何構造による交絡分離"
+    ],
+    "related_domains": [
+      "neuroscience"
+    ],
+    "source_files": [
+      "raw/papers/neuroscience/causal-inference-with-generative-artificial-intelligence-application-to-texts-as.md",
+      "raw/papers/neuroscience/the-effects-of-inhibitory-plasticity-and-the-emerging-network-dynamics-on-proces.md",
+      "raw/papers/neuroscience/pyhgf-a-neural-network-library-for-predictive-coding.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
