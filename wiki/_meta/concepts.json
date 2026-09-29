@@ -24541,5 +24541,133 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "option-space-preservation-under-capability-asymmetry",
+    "title_ja": "能力非対称下における選択肢空間の保全",
+    "title_en": "Option-Space Preservation under Capability Asymmetry",
+    "tier": 1,
+    "description": "能力・知能の差が拡大しても、正当な行為主体は成果生成力ではなく、他者の将来の選択可能性と主権・非支配を保全する責務によって定義される。",
+    "mechanisms": [
+      "能力と権威の分離",
+      "選択肢の将来的複数性の保全",
+      "非支配条件の制度化"
+    ],
+    "related_domains": [
+      "philosophy"
+    ],
+    "source_files": [
+      "raw/papers/philosophy/agency-preserving-agency-a-continuity-ontology-for-human-and-artificial-moral-ac.md",
+      "raw/papers/philosophy/the-sovereign-minds-guarding-human-agency-in-the-age-of-autonomous-machines.md",
+      "raw/papers/philosophy/care-without-sovereignty-a-conceptual-framework-for-preserving-moral-considerati.md",
+      "raw/papers/philosophy/the-coupled-intelligence-hypothesis-humanai-co-evolution-and-alignment-stability.md",
+      "raw/papers/philosophy/the-grounding-problem-in-ai-alignment-a-case-for-a-personal-source-of-normative-.md",
+      "raw/papers/philosophy/the-principle-of-non-closure-in-mathematical-exploration-toward-a-new-oceanic-ma.md",
+      "raw/papers/philosophy/written-by-ai-still-true-when-ai-expands-human-potential-a-systematic-epistemolo.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "process-bypassing-empowerment-paradox",
+    "title_ja": "過程迂回による見かけの賦権と能力剥奪",
+    "title_en": "Process-Bypassing Empowerment Paradox",
+    "tier": 1,
+    "description": "能力は行使の過程を通じて形成されるため、支援が過程を短縮・代替するほど成果は増えても主体の能力形成は損なわれる。身体的・暗黙的な知の不可欠性もこの原理に支えられる。",
+    "mechanisms": [
+      "行使による能力形成",
+      "支援による過程の代替",
+      "暗黙知・身体知の非代替性"
+    ],
+    "related_domains": [
+      "philosophy",
+      "psychology"
+    ],
+    "source_files": [
+      "raw/papers/psychology/towards-a-framework-for-understanding-digital-health-empowerment-through-ai.md",
+      "raw/papers/philosophy/beyond-automation-artificial-intelligence-and-embodied-craft-in-artistic-practic.md",
+      "raw/papers/philosophy/artificial-intelligence-from-the-perspectives-of-philosophy-sociology-and-commun.md",
+      "raw/papers/psychology/beyond-functionality-a-qualitative-study-of-ai-roles-in-fitness-user-experiences.md",
+      "raw/papers/psychology/paradoxes-in-human-ai-interaction-a-diary-study.md",
+      "raw/papers/psychology/humangenerative-ai-coordination-and-the-dynamics-of-artistic-style-evolution.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "fluent-surface-misrecognition-of-agency-and-authority",
+    "title_ja": "流暢な表層による主体性・権威の誤認",
+    "title_en": "Fluent-Surface Misrecognition of Agency and Authority",
+    "tier": 1,
+    "description": "出力の流暢さ・擬人的手がかり・視覚的信号が、内実(理解・意図・検証可能性)の有無と無関係に主体性や認識的権威の帰属と過剰な信頼を誘発する。",
+    "mechanisms": [
+      "表層シグナルによる代理指標化",
+      "擬人化バイアス",
+      "認知的権威の誤帰属"
+    ],
+    "related_domains": [
+      "philosophy",
+      "psychology"
+    ],
+    "source_files": [
+      "raw/papers/philosophy/as-if-agents-misrecognition-and-the-ethics-of-non-agentive-ai.md",
+      "raw/papers/philosophy/large-language-model-attributes-and-perceived-moral-agency-of-artificial-moral-a.md",
+      "raw/papers/psychology/trust-in-the-account-visual-evidence-cues-and-appropriate-reliance-on-ai-prepare.md",
+      "raw/papers/philosophy/a-dilemma-for-skeptics-of-trustworthy-ai.md",
+      "raw/papers/philosophy/beyond-the-tool-paradigm-artificial-agency-moral-uncertainty-and-the-ethics-of-a.md",
+      "raw/papers/psychology/human-ai-collaboration-in-hrm-implications-for-employee-engagement-and-organizat.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "regulative-responsibility-and-conscience-emergence-conditions",
+    "title_ja": "是正的責任と良心の出現条件の設計",
+    "title_en": "Regulative Responsibility and Design of Conscience-Emergence Conditions",
+    "tier": 1,
+    "description": "苦痛能力に依存する分配的責任が適用できない主体に対しては、是正メカニズムに基づく規制的責任と、持続・不確実性耐性・相互性といった良心の出現条件の設計が責任の実装形態となる。実装現場の知見が倫理的証拠となる。",
+    "mechanisms": [
+      "是正的フィードバックによる責任実装",
+      "責任ギャップ",
+      "実装過程の証拠化"
+    ],
+    "related_domains": [
+      "philosophy"
+    ],
+    "source_files": [
+      "raw/papers/philosophy/regulative-but-not-distributive-a-dual-layer-model-of-artificial-moral-responsib.md",
+      "raw/papers/philosophy/the-space-of-conscience-reflection-relation-and-the-governance-of-artificial-int.md",
+      "raw/papers/philosophy/healthcare-ai-ethics-in-real-world-implementation-implementation-findings-as-eth.md",
+      "raw/papers/philosophy/the-fear-of-algorithms-moral-choice-and-the-intellectual-journey-of-the-architec.md",
+      "raw/papers/philosophy/will-ai-save-ethicsand-make-ethicists-obsolete.md",
+      "raw/papers/philosophy/the-grounding-problem-in-ai-alignment-a-case-for-a-personal-source-of-normative-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "epistemic-pluralism-and-non-closure-of-knowledge-space",
+    "title_ja": "知識空間の非閉包性と認識的多元性",
+    "title_en": "Epistemic Pluralism and Non-Closure of Knowledge Space",
+    "tier": 1,
+    "description": "知識は単一の方法・規範・計算効率基準では閉じず、複数の問い方や文脈が必要である。効率的選別による知識体系の抹消は暗黙の権力として作動する。",
+    "mechanisms": [
+      "効率要求による選別と多様性の消失",
+      "暗黙の規範性の制度化",
+      "方法論的多元性"
+    ],
+    "related_domains": [
+      "philosophy"
+    ],
+    "source_files": [
+      "raw/papers/philosophy/decolonizing-ai-ethics-in-education-a-systematic-review-and-glocalized-framework.md",
+      "raw/papers/philosophy/the-principle-of-non-closure-in-mathematical-exploration-toward-a-new-oceanic-ma.md",
+      "raw/papers/philosophy/epistemicide-with-a-compute-budget-why-the-artificial-intelligence-industrys-cla.md",
+      "raw/papers/philosophy/generative-relational-economics---chapter-6-research-praxis-of-generative-relati.md",
+      "raw/papers/philosophy/umosu-and-umokwai-an-ontological-and-epistemic-operational-model-for-the-classif.md",
+      "raw/papers/philosophy/strategic-uncertainty-paradox-theory-supt.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
