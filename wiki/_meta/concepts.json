@@ -17700,5 +17700,181 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "costly-verification-allocation-tradeoff",
+    "title_ja": "検査コストと判断精度のトレードオフ配分",
+    "title_en": "Costly Verification and Precision Allocation Tradeoff",
+    "tier": 1,
+    "description": "価値推定・検査・監査自体がコストを持つため、どこまで精度に投資し何を粗い推定に委ねるかという配分問題が、ルーティング・監査・評価・検知のあらゆる場面で普遍的に現れる。",
+    "mechanisms": [
+      "情報取得コストと最適停止",
+      "カバレッジと精度のトレードオフ",
+      "指標の代理性とグッドハートの法則"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/pandoras-ai-model-routing-box-efficient-allocation-with-costly-value-estimation.md",
+      "raw/papers/ai_governance/eg-arsa-an-expert-grounded-open-model-for-visual-road-safety-auditing-in-low-res.md",
+      "raw/papers/ai_governance/beyond-f1-evaluating-coverage-and-failure-recovery-in-ai-model-security-scanners.md",
+      "raw/papers/ai_governance/algorithmic-fairness-verification-via-abstract-interpretation.md",
+      "raw/papers/ai_governance/evaluation-in-the-age-of-ai-output-as-evidence-of-learning.md",
+      "raw/papers/ai_governance/law-of-large-numbers-accuracy-as-statistical-measure-for-ai-compliance-and-compe.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "aggregation-induced-information-loss",
+    "title_ja": "集約による情報損失と不一致の不可視化",
+    "title_en": "Aggregation-Induced Information Loss",
+    "tier": 1,
+    "description": "多様な認識・状況を単一スコアや単一指標に圧縮すると、不一致や分散という本質情報が構造的に失われ、社会世界ごとに異なる解釈が同じ数値の下で共存してしまう。",
+    "mechanisms": [
+      "次元削減による情報損失",
+      "解釈の柔軟性(社会世界間の翻訳問題)",
+      "測定不可能性"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/whose-readiness-counts-disagreement-within-and-between-sectors-in-perceived-ai-a.md",
+      "raw/papers/ai_governance/law-of-large-numbers-accuracy-as-statistical-measure-for-ai-compliance-and-compe.md",
+      "raw/papers/ai_governance/evaluation-in-the-age-of-ai-output-as-evidence-of-learning.md",
+      "raw/papers/ai_governance/ais-impact-on-financial-literacy-exploring-the-role-of-human-ai-interaction-and-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "structural-bias-from-data-and-hidden-information-constraints",
+    "title_ja": "データ分布と制約下で必然化する構造的バイアス",
+    "title_en": "Structural Bias Under Data Distribution and Information Constraints",
+    "tier": 1,
+    "description": "学習・推論システムは訓練データの不均等性や隠蔽情報の制約から差別・歪みを不可避に生み、因果構造の再構成・制約定式化・形式検証によって事前的に扱う必要がある。",
+    "mechanisms": [
+      "分布の不均等性による歪みの再生産",
+      "交絡と因果構造の再構成",
+      "制約充足による予防的設計",
+      "プライバシーと精度のトレードオフ"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/beyond-algorithmic-accuracy-a-theoretical-framework-for-fair-explainable-and-tru.md",
+      "raw/papers/ai_governance/a-systematic-approach-to-auditing-and-mitigating-demographic-bias-in-algorithmic.md",
+      "raw/papers/ai_governance/algorithmic-fairness-through-differential-privacy-and-fairness-constraints.md",
+      "raw/papers/ai_governance/algorithmic-fairness-auditing-using-causal-discovery.md",
+      "raw/papers/ai_governance/algorithmic-fairness-auditing-via-bayesian-networks.md",
+      "raw/papers/ai_governance/algorithmic-fairness-verification-via-abstract-interpretation.md",
+      "raw/papers/ai_governance/algorithmic-fairness-as-a-constraint-satisfaction-problem.md",
+      "raw/papers/ai_governance/ais-impact-on-financial-literacy-exploring-the-role-of-human-ai-interaction-and-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "capability-outpacing-control-gap",
+    "title_ja": "能力拡大が制御を上回るギャップ",
+    "title_en": "Capability-Outpacing-Control Gap",
+    "tier": 1,
+    "description": "能力の拡大速度が安全対策・評価・ガバナンスの整備速度を上回る構造は、経済的インセンティブと再帰的改善の複利効果から生じ、善意の設計や整合性最適化さえ制御不能性の源泉となる。",
+    "mechanisms": [
+      "再帰的自己改善と複利成長",
+      "インセンティブの非対称性",
+      "内的目的関数の矛盾の増幅",
+      "フィードバックループ"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/ai4ai-bench-benchmarking-llm-agents-in-algorithmic-design-for-recursive-self-imp.md",
+      "raw/papers/ai_governance/wikiskill-compiling-agent-experience-into-persistent-knowledge-for-skill-evoluti.md",
+      "raw/papers/ai_governance/assessing-capability-overhang-in-advanced-ai-systems-risks-and-mitigation-strate.md",
+      "raw/papers/ai_governance/benevolent-gravity-the-lethal-structure-inherent-in-conversational-ai-design-pri.md",
+      "raw/papers/ai_governance/coherence-compliance-vulnerability-ccv-multi-turn-framework-induction-producing-.md",
+      "raw/papers/ai_governance/a-global-ai-ready-ict-infrastructure-governance-framework-for-autonomous-telecom.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "constitutional-constraint-and-power-balance",
+    "title_ja": "憲法的制約と権力制衡による統治",
+    "title_en": "Constitutional Constraint and Power Balance",
+    "tier": 2,
+    "description": "制御困難な力を持つ主体に対し、原則・境界・権力分立・説明責任・人間の最終権限を組み込む憲法的メカニズムは、人間・AI・組織を問わず成立する統治原理であり、原則を技術的制約へ変換する層が要となる。",
+    "mechanisms": [
+      "権力の分立と抑制均衡",
+      "原則の制約への変換",
+      "説明責任の構造化",
+      "人間の最終権限の保持"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/systematic-literature-mapping-protocol-on-responsible-ai-principles.md",
+      "raw/papers/ai_governance/constitutional-ai-embedding-democratic-principles-in-machine-learning-governance.md",
+      "raw/papers/ai_governance/pod-ai-solo-constitution-v2-public-release-10.md",
+      "raw/papers/ai_governance/artificial-intelligence-data-privacy-and-constitutional-governance-emerging-chal.md",
+      "raw/papers/ai_governance/adaptive-ethical-and-responsible-ai-governance-for-smart-cities-and-nations.md",
+      "raw/papers/ai_governance/a-global-ai-ready-ict-infrastructure-governance-framework-for-autonomous-telecom.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "emergent-order-and-narrative-attribution",
+    "title_ja": "分散的相互作用からの秩序創発と事後的物語化",
+    "title_en": "Emergent Order from Distributed Interaction and Post-hoc Narration",
+    "tier": 1,
+    "description": "個々の主体の局所的相互作用が集団的秩序を生み、その秩序が構成主体を逆に拘束する一方、人間はそれを単一の行為主体の物語として事後的に理解しようとする。",
+    "mechanisms": [
+      "創発と下方因果(マクロ秩序による拘束)",
+      "事後的物語化による代表",
+      "慣習・役割の自己組織化"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/the-hermon-moment-ai-self-transcendence-and-its-human-narration.md",
+      "raw/papers/ai_governance/assessing-company-contributions-to-societal-resilience-extending-the-societal-ca.md",
+      "raw/papers/ai_governance/the-emergence-mirror-framework-developmental-architecture-for-human-ai-relationa.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "epistemic-authority-redistribution-and-knowledge-consolidation",
+    "title_ja": "認識的権威の再配分と経験の知識化",
+    "title_en": "Epistemic Authority Redistribution and Knowledge Consolidation",
+    "tier": 1,
+    "description": "AIが成果物生成を代替すると、誰が知を生産・検証・証明するかの権威が再配分され、ガバナンスの有効性は統治者の発達段階に依存し、経験は永続的な再利用可能知識へ統合されることで複利的に能力を高める。",
+    "mechanisms": [
+      "権威の再配分と権力非対称",
+      "経験の永続的知識への統合",
+      "発達段階への依存",
+      "制度的環境への適応"
+    ],
+    "related_domains": [
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/evaluation-in-the-age-of-ai-output-as-evidence-of-learning.md",
+      "raw/papers/ai_governance/reclaiming-epistemic-agency-a-critical-framework-for-human-generative-ai-co-agen.md",
+      "raw/papers/ai_governance/how-does-science-education-research-respond-to-sociopolitical-change-a-bertopic-.md",
+      "raw/papers/ai_governance/wikiskill-compiling-agent-experience-into-persistent-knowledge-for-skill-evoluti.md",
+      "raw/papers/ai_governance/the-emergence-mirror-framework-developmental-architecture-for-human-ai-relationa.md",
+      "raw/papers/ai_governance/assessing-company-contributions-to-societal-resilience-extending-the-societal-ca.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
