@@ -25101,5 +25101,138 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "conversion-factor-gated-capability-realization",
+    "title_ja": "変換因子による能力実現の門番構造",
+    "title_en": "Conversion-Factor-Gated Capability Realization",
+    "tier": 1,
+    "description": "資源やスキルの保有だけでは能力は実現せず、個人差・環境・制度的支援という変換因子が実際に使える機会を規定し、格差は認知・知覚能力の差として再生産される。",
+    "mechanisms": [
+      "変換因子による資源の機能化",
+      "認知資源配分の格差",
+      "規範的能力定義による構造的排除"
+    ],
+    "related_domains": [
+      "sociology"
+    ],
+    "source_files": [
+      "raw/papers/sociology/fostering-digital-citizenship-a-capability-approach-to-immigrants-inclusion-in-h.md",
+      "raw/papers/sociology/bridging-the-ai-divide-digital-capabilities-ai-literacy-and-life-satisfaction-in.md",
+      "raw/papers/sociology/the-digital-divide-in-pharmacy-socioeconomic-determinants-of-ai-adoption-and-the.md",
+      "raw/papers/sociology/hidden-barriers-of-education-and-artificial-intelligence-rethinking-equity-affor.md",
+      "raw/papers/sociology/developing-and-optimising-an-intervention-prototype-for-addressing-health-and-so.md",
+      "raw/papers/sociology/turning-schools-into-ai-testing-grounds-and-sites-of-extraction-the-strategic-se.md",
+      "raw/papers/sociology/the-geopolitics-of-artificial-intelligence-technological-dependence-and-digital-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "trust-formation-via-institutional-bridging-of-asymmetry",
+    "title_ja": "制度による情報非対称性の橋渡しと二重経路の信頼形成",
+    "title_en": "Institutional Bridging of Information Asymmetry and Dual-Path Trust",
+    "tier": 1,
+    "description": "リスク評価が困難な対象への信頼は、制度・ガバナンスが認知的信頼と感情的信頼の二経路を通じて媒介し、継続利用か抵抗かを分岐させる。",
+    "mechanisms": [
+      "情報の非対称性",
+      "制度ベース信頼の媒介",
+      "認知的信頼と感情的信頼の二重経路",
+      "段階的相互作用による信頼の共進化"
+    ],
+    "related_domains": [
+      "sociology"
+    ],
+    "source_files": [
+      "raw/papers/sociology/trusting-to-continue-or-resist-how-ai-governance-shapes-ai-based-emotional-suppo.md",
+      "raw/papers/sociology/renewable-energy-acceptance-and-responsible-actors-unravelling-the-influence-of-.md",
+      "raw/papers/sociology/when-ai-becomes-a-teammate-agent-based-modeling-of-triadic-human-ai-relationship.md",
+      "raw/papers/sociology/the-influence-of-trust-and-need-satisfaction-on-young-adults-interactions-with-a.md",
+      "raw/papers/sociology/trustworthy-ai-for-sustainable-cities-a-multimodal-orchestration-agent-based-fra.md",
+      "raw/papers/sociology/attachment-by-design-ai-attachment-under-provider-controlled-relational-architec.md",
+      "raw/papers/sociology/artificial-intelligence-ai-at-the-threshold-of-personhood-death-and-grieving.md",
+      "raw/papers/sociology/artificial-intelligence-and-the-dynamics-of-social-relationships-in-modern-socie.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "asynchronous-growth-between-adoption-and-institutional-design",
+    "title_ja": "採用速度と制度設計速度の非同期によるミスフィット",
+    "title_en": "Asynchronous Growth Between Adoption Speed and Institutional Design",
+    "tier": 1,
+    "description": "技術の普及速度がガバナンス構築・倫理統合の速度を上回ると、需要と能力の方向性ミスフィットが累積し、原則と実践の乖離や抵抗の制度的類型が生じる。",
+    "mechanisms": [
+      "需要と能力の動的ミスフィット",
+      "遅延を伴うフィードバック",
+      "組織権力構造による抵抗の類型化",
+      "原則と実践のギャップ"
+    ],
+    "related_domains": [
+      "sociology"
+    ],
+    "source_files": [
+      "raw/papers/sociology/when-governance-lags-behind-adoption-a-dynamic-misfit-theory-of-ai-governance-de.md",
+      "raw/papers/sociology/deep-ethics-integration-in-technology-research-and-development-bridging-the-prin.md",
+      "raw/papers/sociology/institutional-archetypes-of-resistance-to-artificial-intelligence.md",
+      "raw/papers/sociology/ai-as-collective-effort-an-empirical-study-on-the-introduction-of-ai-in-the-norw.md",
+      "raw/papers/sociology/the-impact-of-artificial-intelligence-ai-and-customer-relationship-management-cr.md",
+      "raw/papers/sociology/from-public-debate-to-institutional-meaning-a-process-theory-of-artificial-intel.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "co-constitution-of-technology-and-social-meaning-across-arenas",
+    "title_ja": "技術と社会的意味・主体性の共構成と多アリーナ安定化",
+    "title_en": "Co-Constitution of Technology and Social Meaning Across Arenas",
+    "tier": 1,
+    "description": "汎用技術の意味や主体性は一方向の因果ではなく、複数のアリーナ間の順次的相互作用と再帰的関係の中で争点化・安定化し、文明・都市・関係性を再編する。",
+    "mechanisms": [
+      "再帰的共構成",
+      "アリーナ間の順次的意味形成",
+      "戦略的選択性による制度再編",
+      "依存と周縁化の構造的強化"
+    ],
+    "related_domains": [
+      "sociology"
+    ],
+    "source_files": [
+      "raw/papers/sociology/ai-urbanism.md",
+      "raw/papers/sociology/artificial-intelligence-and-civilizational-transformation.md",
+      "raw/papers/sociology/turning-schools-into-ai-testing-grounds-and-sites-of-extraction-the-strategic-se.md",
+      "raw/papers/sociology/the-geopolitics-of-artificial-intelligence-technological-dependence-and-digital-.md",
+      "raw/papers/sociology/the-n-universe-a-mathematical-framework-for-the-representation-of-human-abstract.md",
+      "raw/papers/sociology/layered-intelligence-theory-in-the-logic-of-reality-a-process-logical-case-for-d.md",
+      "raw/papers/sociology/artificial-intelligence-and-the-dynamics-of-social-relationships-in-modern-socie.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "structure-constrained-dynamics-and-budgeted-intervention",
+    "title_ja": "ネットワーク構造が規定するダイナミクスと予算制約下の介入",
+    "title_en": "Structure-Constrained Dynamics and Budgeted Intervention",
+    "tier": 1,
+    "description": "システムの振る舞いは要素の性質よりネットワーク構造(固有値・化学量論・スケール間結合)に規定され、限られた介入予算は構造上の要所に配分すると最大効果を生む。",
+    "mechanisms": [
+      "構造による動力学の決定",
+      "中心性に基づく資源配分",
+      "スケール間の非線形結合",
+      "相互依存と権力不均衡による脆弱性"
+    ],
+    "related_domains": [
+      "sociology"
+    ],
+    "source_files": [
+      "raw/papers/sociology/stoichiometric-recipes-for-periodic-oscillations-in-reaction-networks.md",
+      "raw/papers/sociology/spectral-methods-for-immunization-of-large-networks.md",
+      "raw/papers/sociology/bridging-the-weather-and-climate-divide-with-artificial-intelligence.md",
+      "raw/papers/sociology/understanding-vulnerabilities-and-resilience-in-circular-business-ecosystems.md",
+      "raw/papers/sociology/sustainable-value-co-creation-in-digital-platform.md",
+      "raw/papers/sociology/developing-and-optimising-an-intervention-prototype-for-addressing-health-and-so.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
