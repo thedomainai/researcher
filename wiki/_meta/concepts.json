@@ -19351,5 +19351,179 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "phase-differentiated-support-against-premature-convergence",
+    "title_ja": "局面別支援設計と早期収束の回避",
+    "title_en": "Phase-Differentiated Support Against Premature Convergence",
+    "tier": 1,
+    "description": "創発的・探索的プロセスでは局面(発散/収束、探索/深化)ごとに必要な支援が異なり、一様な支援は多様性を損ない早期収束と過度依存を招く。",
+    "mechanisms": [
+      "探索と深化のトレードオフ",
+      "早期収束による多様性の喪失",
+      "局面依存的な認知状態"
+    ],
+    "related_domains": [
+      "cognitive_science",
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/exploring-or-exploiting-generative-ai-a-dual-path-dual-horizon-theory-of-employe.md",
+      "raw/papers/complexity_science/should-artificial-intelligence-align-with-human-thinking-in-innovation-processes.md",
+      "raw/papers/complexity_science/psychological-characteristics-of-the-relationship-between-artificial-intelligenc.md",
+      "raw/papers/complexity_science/management-talks-part-3-artificial-intelligence-human-adaptability-and-the-futur.md",
+      "raw/papers/complexity_science/from-anxiety-to-advantage-a-multi-level-framework-for-ai-driven-performance.md",
+      "raw/papers/complexity_science/the-role-of-generative-artificial-intelligence-in-korean-language-learning-appli.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "externalized-state-and-representation-fidelity",
+    "title_ja": "外部化された状態と表象の忠実度",
+    "title_en": "Externalized State and Representation Fidelity",
+    "tier": 1,
+    "description": "エージェントや組織の挙動は内部計算能力よりも、外部化された状態(スキル・メモリ・スキーマ・コーパス構造)の完全性・鮮度・整合性によって規定され、フィードバックを通じて統治される。",
+    "mechanisms": [
+      "フィードバックループ",
+      "表象の不完全性・陳腐化",
+      "自己言及的な観察と修正"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/recursive-self-observation-in-cognitive-ai-second-order-metacognition-as-foundat.md",
+      "raw/papers/complexity_science/why-ai-agents-cannot-govern-themselves-a-representation-based-explanation-of-ent.md",
+      "raw/papers/complexity_science/cybernetics-after-prompt-engineering-skillopt-autoresearch-and-the-governance-of.md",
+      "raw/papers/complexity_science/knot-nourishment-and-identity-a-seven-week-operational-record-of-an-ai-peer-orga.md",
+      "raw/papers/complexity_science/finsagent-corpus-aligned-multi-agent-rag-framework-for-evidence-grounded-sec-fil.md",
+      "raw/papers/complexity_science/how-complexity-contributes-to-learning-opacity-in-machine-learning.md",
+      "raw/papers/complexity_science/banya-ai-2-gradient-free-self-organization-of-concept-embeddings-by-frequency-pr.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "decentralized-coordination-and-power-concentration",
+    "title_ja": "分散協調の創発と権力集中の力学",
+    "title_en": "Decentralized Coordination and Power Concentration Dynamics",
+    "tier": 1,
+    "description": "多主体系では局所相互作用から秩序が創発する一方、利害衝突の回避・秩序維持のために権力や役割が集中・分業化する。ネットワーク構造と切替ダイナミクスが頑健性を決める。",
+    "mechanisms": [
+      "局所相互作用からの自己組織化",
+      "利害衝突と権力集中",
+      "分業による認知的複雑性への対応",
+      "スイッチングダイナミクスによる頑健性"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/artificial-leviathan-exploring-social-evolution-of-llm-agents-through-the-lens-o.md",
+      "raw/papers/complexity_science/robustness-and-leadership-in-markov-switching-consensus-networks.md",
+      "raw/papers/complexity_science/an-isochron-free-framework-for-phase-reduction-and-coupling-inference.md",
+      "raw/papers/complexity_science/dynamics-and-stability-of-inertial-flexible-chains-under-follower-activity.md",
+      "raw/papers/complexity_science/a-multi-agent-engineering-team-for-prompt-based-application-generation.md",
+      "raw/papers/complexity_science/agentic-task-allocation-for-heterogeneous-multi-robot-systems-a-hybrid-llm-and-l.md",
+      "raw/papers/complexity_science/the-generative-architecture-v70-a-unified-theory-of-physics-mind-and-meaning-fro.md",
+      "raw/papers/complexity_science/scheduling-without-foresight-reactive-observation-based-runtime-scheduling-syste.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "capability-perception-and-responsibility-diffusion-in-trust",
+    "title_ja": "能力知覚・代理性知覚と信頼・責任転嫁",
+    "title_en": "Perceived Capability, Agency and Responsibility Diffusion in Trust",
+    "tier": 1,
+    "description": "信頼は能力評価と善意(共感)の知覚から形成され、システムを代理実行者と見なす知覚は道徳的責任の転嫁を促す。導入の要求と資源の両義性が受容・遵守を左右する。",
+    "mechanisms": [
+      "信頼形成の多次元性",
+      "道徳的離脱と責任転嫁",
+      "要求と資源の両義性",
+      "人間-AI信頼の不一致"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/patient-trust-in-ai-self-diagnosis.md",
+      "raw/papers/complexity_science/compliance-with-ai-generated-infosec-recommendations.md",
+      "raw/papers/complexity_science/from-anxiety-to-advantage-a-multi-level-framework-for-ai-driven-performance.md",
+      "raw/papers/complexity_science/from-tools-to-proxy-executors-the-role-of-perceived-ai-agency-in-unethical-consu.md",
+      "raw/papers/complexity_science/the-beets-framework-for-responsible-artificial-intelligence.md",
+      "raw/papers/complexity_science/psychological-characteristics-of-the-relationship-between-artificial-intelligenc.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "bias-embedding-and-safety-as-dynamic-process",
+    "title_ja": "訓練データ由来バイアスの埋め込みと動的安全ガバナンス",
+    "title_en": "Embedded Bias and Safety as a Dynamic Process",
+    "tier": 1,
+    "description": "システムは学習源の規範や偏りを内包して特定の変異を正当化・周辺化し、安全・公正・信頼・セキュリティは相互依存するため、静的解決でなく動的相互作用として統治する必要がある。",
+    "mechanisms": [
+      "バイアスの再生産と周辺化",
+      "相互依存システムとしての統合的統治",
+      "自己敵対的な動的均衡",
+      "社会技術的セキュリティ設計"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/standard-language-ideology-in-ai-generated-language.md",
+      "raw/papers/complexity_science/the-beets-framework-for-responsible-artificial-intelligence.md",
+      "raw/papers/complexity_science/wuxing-architecture-a-self-adversarial-ai-safety-framework-based-on-classical-ch.md",
+      "raw/papers/complexity_science/security-by-design-in-artificial-intelligence-enabled-energy-management-systems-.md",
+      "raw/papers/complexity_science/the-role-of-generative-artificial-intelligence-in-korean-language-learning-appli.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "scarcity-and-reactive-resource-allocation",
+    "title_ja": "希少性と観測に基づく反応的資源配分",
+    "title_en": "Scarcity and Observation-Based Reactive Allocation",
+    "tier": 1,
+    "description": "有限資源と無限の内部状態・需要の相克は人間経済にもAIシステムにも成立し、予測不能な需要下では事前最適化より観測に基づく反応的配分が根本メカニズムとなる。",
+    "mechanisms": [
+      "有限資源と無限需要の相克",
+      "観測に基づく反応的制御",
+      "異質主体への最適割当"
+    ],
+    "related_domains": [
+      "complexity_science"
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/ai-ai-scarcity-aasc.md",
+      "raw/papers/complexity_science/scheduling-without-foresight-reactive-observation-based-runtime-scheduling-syste.md",
+      "raw/papers/complexity_science/agentic-task-allocation-for-heterogeneous-multi-robot-systems-a-hybrid-llm-and-l.md",
+      "raw/papers/complexity_science/management-talks-part-3-artificial-intelligence-human-adaptability-and-the-futur.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "environmental-stressor-mediated-cognitive-degradation",
+    "title_ja": "環境ストレッサーによる媒介的認知劣化",
+    "title_en": "Environmental Stressor-Mediated Cognitive Degradation",
+    "tier": 2,
+    "description": "環境ストレッサーは構造的・形態的変化を媒介として、機能に段階的・累積的な影響を及ぼす。",
+    "mechanisms": [
+      "媒介変数を通じた段階的影響",
+      "累積的曝露",
+      "発達期の脆弱性"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/outdoor-air-pollution-perivascular-space-morphology-and-cognition-in-preadolesce.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
   }
 ]
