@@ -22485,5 +22485,156 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "generative-gap-and-representation-mediated-selfhood",
+    "title_ja": "生成と実在の乖離と表象媒介による自己・信念の再構成",
+    "title_en": "Generative Gap and Representation-Mediated Reconstruction of Belief and Self",
+    "tier": 1,
+    "description": "生成システムや情報媒介は実在との間に閉じない乖離を生み、想像可能な選択肢の範囲を通じて信念・規範・自己像を再構成する。",
+    "mechanisms": [
+      "表象と実在の構造的乖離",
+      "想像可能性の境界拡張",
+      "再帰的な自己再構成"
+    ],
+    "related_domains": [
+      "international_business",
+      "law"
+    ],
+    "source_files": [
+      "raw/papers/international_business/ai-mediated-imaginaries-and-the-reconstruction-of-self-cross-cultural-travel-nor.md",
+      "raw/papers/international_business/ai-synthetic-data-and-the-tensions-of-the-generative-gap.md",
+      "raw/papers/international_business/time-machine-experiments-using-historically-bounded-ai-for-inquiry-into-the-huma.md",
+      "raw/papers/law/the-inner-life-of-ai-criticism-patterns-of-resistance-to-technological-innovatio.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "principle-to-practice-gap-and-layered-responsibility-allocation",
+    "title_ja": "原則と実装の乖離と多層的責任配置",
+    "title_en": "Principle-Practice Gap and Layered Responsibility Allocation",
+    "tier": 1,
+    "description": "高水準の原則と日常実装の間には必ず溝が生じ、単一主体への責任集中は不可能なため、ライフサイクル全体に責任を多層で配置する構造が必然となる。",
+    "mechanisms": [
+      "規範と実践の解釈的乖離",
+      "責任の分散と多層配置",
+      "埋め込まれた義務としてのアーキテクチャ"
+    ],
+    "related_domains": [
+      "international_business",
+      "law"
+    ],
+    "source_files": [
+      "raw/papers/international_business/taking-a-business-and-human-rights-approach-to-addressing-technology-facilitated.md",
+      "raw/papers/international_business/ethical-dilemmas-in-current-ethnology-vol-iii.md",
+      "raw/papers/international_business/how-ethics-operationalization-breaks-down-in-practice-expert-perspectives-from-h.md",
+      "raw/papers/law/an-initial-assessment-of-standards-in-technology-tort-litigation.md",
+      "raw/papers/law/from-embedded-finance-to-embedded-obligation-a-law-and-economics-theory-of-consu.md",
+      "raw/papers/law/beyond-algorithmic-diagnosis-legal-accountability-and-islamic-ethical-governance.md",
+      "raw/papers/law/endowing-ai-with-legal-personhood.md",
+      "raw/papers/law/allocating-responsibility-in-autonomous-ai-systems-a-tiered-governance-model-und.md",
+      "raw/papers/law/tort-before-retrieval-in-code-a-rail-routing-architecture-for-pre-retrieval-lega.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "graduated-autonomy-with-tamper-evident-human-veto",
+    "title_ja": "段階的自律性と改ざん耐性のある人間拒否権",
+    "title_en": "Graduated Autonomy with Tamper-Evident Human Veto",
+    "tier": 2,
+    "description": "自律主体の権限を段階化し、自己解除不能な拒否権と改ざん検知可能な記録で、速度と説明責任の緊張を構造的に調停する。",
+    "mechanisms": [
+      "権限の段階的付与",
+      "フェイルクローズ型拒否権",
+      "改ざん耐性のある監査記録",
+      "権限集中とアイデンティティドリフトの設計時制御"
+    ],
+    "related_domains": [
+      "international_business",
+      "law"
+    ],
+    "source_files": [
+      "raw/papers/international_business/prereview-of-governed-human-ai-prioritization-under-uncertainty-adaptive-estimat.md",
+      "raw/papers/law/agi-charter-for-project-ai-internal-constitutional-framework-version-23.md",
+      "raw/papers/law/cre-agent-audit-governance-patterns-for-ai-in-commercial-real-estate-operations.md",
+      "raw/papers/law/banking-agent-audit-governance-patterns-for-autonomous-ai-agents-in-regulated-ba.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "adoption-velocity-versus-institutional-absorption-capacity",
+    "title_ja": "技術採用速度と制度・組織の吸収能力の不均衡",
+    "title_en": "Adoption Velocity versus Institutional Absorption Capacity",
+    "tier": 1,
+    "description": "技術導入は実験から企業規模運用へ段階的に進むが、データ・統合・ガバナンス・スキルの整備が追いつかず、職務の創出と削減が同時に進行し、構造的ミスアライメントが持続する。",
+    "mechanisms": [
+      "採用速度とガバナンス能力の非対称",
+      "段階的移行と必要条件のボトルネック",
+      "職務創出と削減の同時進行",
+      "制度的準備状況による採用の制約"
+    ],
+    "related_domains": [
+      "international_business",
+      "law"
+    ],
+    "source_files": [
+      "raw/papers/international_business/reported-and-anticipated-workforce-reconfiguration-during-artificial-intelligenc.md",
+      "raw/papers/international_business/toward-a-cohesive-integrated-thinking-and-reporting-strategy-a-systematic-review.md",
+      "raw/papers/international_business/ai-in-real-estate-from-experimentation-to-enterprise-transformation.md",
+      "raw/papers/international_business/artificial-intelligence-skills-mismatch-and-inclusive-industrial-transformation-.md",
+      "raw/papers/international_business/the-effect-of-artificial-intelligence-in-smart-cities-on-foreign-direct-investme.md",
+      "raw/papers/international_business/supplementary-material-for-same-same-but-different-how-dedicated-ai-leadership-r.md",
+      "raw/papers/law/indias-ai-policy-vacuum-between-digital-public-infrastructure-ambition-and-gover.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "sequential-chain-to-parallel-ecosystem-restructuring",
+    "title_ja": "逐次的チェーンから並列的エコシステムへの構造転換",
+    "title_en": "Restructuring from Sequential Chains to Parallel Ecosystems",
+    "tier": 1,
+    "description": "配信可能性の向上と制約(計算・遅延)のトレードオフが価値創造の構造を規定し、階層的チェーンを並列ネットワークへ移行させ、中核技術への支配は報復と多元化・分散化を招く。",
+    "mechanisms": [
+      "制約トレードオフによる構造決定",
+      "支配への反作用としての分散化",
+      "ネットワーク媒介によるスケーリング",
+      "複雑性への計算的対応"
+    ],
+    "related_domains": [
+      "international_business"
+    ],
+    "source_files": [
+      "raw/papers/international_business/the-global-value-chain-of-edge-artificial-intelligence-a-technological-and-strat.md",
+      "raw/papers/international_business/geopolitical-risk-mapping-and-ai-driven-strategic-decision-making.md",
+      "raw/papers/international_business/the-scaling-of-social-innovations-in-africa-and-beyond.md",
+      "raw/papers/international_business/from-chain-based-global-value-chains-to-intelligent-service-ecosystems-new-forms.md",
+      "raw/papers/international_business/the-geoeconomics-of-chips-policy-retaliation-and-the-ai-driven-reshoring-phenome.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "context-specific-structural-constraints-and-vanishing-conditions",
+    "title_ja": "文脈特異的な構造的制約と消滅条件の分離",
+    "title_en": "Separating Context-Specific Constraints from Enduring Structural Principles",
+    "tier": 2,
+    "description": "人間と環境の隔離や知識獲得と倫理のトレードオフなど、構造的原理は歴史的文脈に埋め込まれており、文脈が変わる際に何が消え何が残るかを見極める必要がある。",
+    "mechanisms": [
+      "文脈依存的な妥当性",
+      "価値間トレードオフの内在性",
+      "環境的ストレッサーの累積効果"
+    ],
+    "related_domains": [
+      "international_business"
+    ],
+    "source_files": [
+      "raw/papers/international_business/editorial-greening-urban-spaces-and-human-health-volume-iii.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
   }
 ]
