@@ -20560,5 +20560,136 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "necessary-condition-bottleneck-logic",
+    "title_ja": "必要条件ボトルネック論理と多層因果の可視化",
+    "title_en": "Necessary-Condition Bottleneck Logic and Hidden Causal Layers",
+    "tier": 1,
+    "description": "成果は平均効果ではなく「欠けると全体が成立しない必須条件」に律速され、可視的な道具より不可視の人的・制度的能力が支配的な層を成すという因果構造。",
+    "mechanisms": [
+      "必要だが十分でない条件(ボトルネック)",
+      "可視性バイアスによる因果の誤認",
+      "階層的因果構造"
+    ],
+    "related_domains": [
+      "entrepreneurship"
+    ],
+    "source_files": [
+      "raw/papers/entrepreneurship/necessary-condition-analysis-nca.md",
+      "raw/papers/entrepreneurship/a-hierarchical-causal-architecture-for-governing-ai-mediated-e-collaboration-ris.md",
+      "raw/papers/entrepreneurship/generative-ai-in-education-for-sdg-4-insights-from-indonesia-and-kazakhstan.md",
+      "raw/papers/entrepreneurship/sustainable-development-and-industry-40-in-europe.md",
+      "raw/papers/entrepreneurship/from-digital-literacy-to-responsible-ai-driven-entrepreneurship-institutional-re.md",
+      "raw/papers/entrepreneurship/ai-capability-of-startups-in-qatar.md",
+      "raw/papers/entrepreneurship/ai-enabled-decision-intelligence-for-supply-chain-resilience-the-roles-of-humana.md",
+      "raw/papers/entrepreneurship/ai-driven-human-capital-analytics-for-enhancing-financial-decision--making-and-w.md",
+      "raw/papers/entrepreneurship/bridging-knowledge-and-innovation-strengthening-entrepreneurship-literacy-for-su.md",
+      "raw/papers/entrepreneurship/the-ai-technological-shock-and-sustainable-development-a-systemic-analysis-of-en.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "irreversibility-option-timing-under-uncertainty",
+    "title_ja": "不可逆性下のオプション的意思決定と段階的コミット",
+    "title_en": "Option-Value Timing and Staged Commitment under Irreversibility",
+    "tier": 1,
+    "description": "技術が急速に変化し実装が部分的に不可逆なとき、小規模な試行で学習しコミットを遅らせることが期待値を最大化し、不完全な制度環境も能力へ転換し得る。",
+    "mechanisms": [
+      "リアルオプション価値",
+      "行動を通じた能力蓄積",
+      "不確実性下の待機の価値"
+    ],
+    "related_domains": [
+      "entrepreneurship"
+    ],
+    "source_files": [
+      "raw/papers/entrepreneurship/pilot-early-commit-late-a-real-options-model-of-enterprise-ai-adoption-under-rap.md",
+      "raw/papers/entrepreneurship/entrepreneurial-leadership-under-regulatory-uncertainty-reframing-compliance-as-.md",
+      "raw/papers/entrepreneurship/augmented-decision-making-in-venture-capital-integrating-digital-twins-and-ai-ba.md",
+      "raw/papers/entrepreneurship/innovation-driven-entrepreneurship-in-the-digital-economy-a-conceptual-synthesis.md",
+      "raw/papers/entrepreneurship/circular-economy-transition-in-brazil-the-power-of-institutional-entrepreneurshi.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "capability-overconfidence-and-cognitive-distortion",
+    "title_ja": "能力過信・感情・経歴不連続性による評価の系統的歪み",
+    "title_en": "Systematic Evaluation Distortion from Overconfidence, Affect and Signal Ambiguity",
+    "tier": 1,
+    "description": "強力な支援能力は計画謬誤を増幅し、離散的感情や経歴の一貫性の曖昧さは評価者・意思決定者の判断を系統的に歪め、支援ツールは能力を拡張すると同時に囲い込む。",
+    "mechanisms": [
+      "計画の誤謬と過信の増幅",
+      "感情によるヒューリスティック歪曲",
+      "シグナルの曖昧性による承認遅延",
+      "エンパワーメントと囲い込みの二面性"
+    ],
+    "related_domains": [
+      "entrepreneurship"
+    ],
+    "source_files": [
+      "raw/papers/entrepreneurship/ai-maturity-as-a-double-edged-capability-planning-fallacy-and-firm-performance-i.md",
+      "raw/papers/entrepreneurship/the-impact-of-emotions-on-the-evaluation-of-environmentally-damaging-entrepreneu.md",
+      "raw/papers/entrepreneurship/drifting-to-the-top-the-effects-of-category-erraticism-on-status-mobility-in-the.md",
+      "raw/papers/entrepreneurship/generative-ai-use-in-entrepreneurship-an-integrative-review-and-an-empowermenten.md",
+      "raw/papers/entrepreneurship/unpacking-the-link-between-entrepreneurial-education-and-intention-a-moderated-m.md",
+      "raw/papers/entrepreneurship/how-does-psychological-capital-shape-entrepreneurial-intention-the-mediating-rol.md",
+      "raw/papers/entrepreneurship/from-empathy-to-impact-examining-opportunity-recognition-for-impactful-socially-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "structural-origins-of-organizational-harm-and-power-framing",
+    "title_ja": "害悪・権力・正当化の組織的構造的生成",
+    "title_en": "Structural Generation of Harm, Power and Legitimating Narratives",
+    "tier": 1,
+    "description": "害悪は個人の逸脱でなく組織構造・文化・政治経済条件の相互作用から系統的に生じ、支配的主体は価値概念や解釈フレームを自らに有利に改編して正当化・責任配分を規定する。",
+    "mechanisms": [
+      "構造・文化に内在する系統的害悪生成",
+      "支配的言説による価値概念の再編",
+      "解釈フレームによる責任帰属",
+      "生産力と制度の構造的矛盾"
+    ],
+    "related_domains": [
+      "economics",
+      "entrepreneurship"
+    ],
+    "source_files": [
+      "raw/papers/economics/organisational-crimenature-dynamics-and-regulation.md",
+      "raw/papers/entrepreneurship/open-innovation-and-the-management-bias-the-critique-towards-the-management-pers.md",
+      "raw/papers/entrepreneurship/method-mind-and-morality-how-people-make-sense-of-artificial-intelligence.md",
+      "raw/papers/entrepreneurship/sustainable-renewable-growth-forces-of-production-the-triple-helix-and-environme.md",
+      "raw/papers/entrepreneurship/bridging-the-mirror-a-multidimensional-examination-of-brand-architecture-and-inc.md",
+      "raw/papers/economics/technology-convergence-and-the-future-of-human-purpose.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "proprietary-context-specific-assets-and-uneven-access",
+    "title_ja": "専有的・文脈特定的資源と不均等アクセスによる優位と格差",
+    "title_en": "Proprietary, Context-Specific Assets and Uneven Access as Sources of Advantage",
+    "tier": 1,
+    "description": "競争優位は専有性・特定性を持つ資源(データ・知識・聴取)と、その入手困難性・制度的乖離に規定され、能力の不完全な供給が代替的関係や格差を生む。",
+    "mechanisms": [
+      "資源の専有性と特定性",
+      "知識アクセスの制約と翻訳",
+      "供給の不完全性による代替関係の形成"
+    ],
+    "related_domains": [
+      "entrepreneurship"
+    ],
+    "source_files": [
+      "raw/papers/entrepreneurship/how-does-ai-data-shape-the-competitive-advantage-of-artificial-intelligence-star.md",
+      "raw/papers/entrepreneurship/i-really-feel-heard-by-ai-a-cultural-case-study-of-ai-mediated-listening-across-.md",
+      "raw/papers/entrepreneurship/from-empathy-to-impact-examining-opportunity-recognition-for-impactful-socially-.md",
+      "raw/papers/entrepreneurship/bridging-knowledge-and-innovation-strengthening-entrepreneurship-literacy-for-su.md",
+      "raw/papers/entrepreneurship/innovation-driven-entrepreneurship-in-the-digital-economy-a-conceptual-synthesis.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
