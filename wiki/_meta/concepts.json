@@ -24950,5 +24950,156 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "mediated-authority-transfer-and-function-invariance",
+    "title_ja": "仲介媒体の交代に伴う権威移転と機能不変性",
+    "title_en": "Mediated Authority Transfer and Function Invariance",
+    "tier": 2,
+    "description": "権威や超越的媒介の担い手が制度・人間から統計的/非人間媒体へ移っても、権威が果たす社会的機能(信頼の付与・意味の指針)は保存され、正統性の根拠だけが差し替わる。",
+    "mechanisms": [
+      "正統性根拠の置換",
+      "機能の保存と担い手の交代",
+      "信頼の制度から統計への移行"
+    ],
+    "related_domains": [
+      "religious_studies"
+    ],
+    "source_files": [
+      "raw/papers/religious_studies/from-pulpit-to-prompt-ai-generated-spiritual-guidance-and-the-transformation-of-.md",
+      "raw/papers/religious_studies/can-artificial-intelligence-mediate-the-divine-a-theological-analysis-of-machine.md",
+      "raw/papers/religious_studies/guru-logics-after-artificial-intelligence.md",
+      "raw/papers/religious_studies/from-ritual-to-memory-how-tea-tasting-ritual-interaction-creates-memorable-exper.md",
+      "raw/papers/religious_studies/artificial-intellegence-and-techno-religion-reframing-tawhid-and-maqasid-al-shar.md",
+      "raw/papers/religious_studies/meaning-fields-living-zero-points-and-non-stationary-external-centersa-dynamical.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "training-distribution-compression-and-epistemic-homogenization",
+    "title_ja": "学習分布の圧縮による認識論的同質化と周縁知の消去",
+    "title_en": "Distribution Compression and Epistemic Homogenization",
+    "tier": 1,
+    "description": "知識を統計的に圧縮・再生成する仲介系は、多数派の視点を標準として固定し、周縁的・多元的な知や意味体系を他者化・単一化する。",
+    "mechanisms": [
+      "統計的圧縮による情報損失",
+      "多数派バイアスの再生産",
+      "知識ヘゲモニーの権力構造"
+    ],
+    "related_domains": [
+      "religious_studies"
+    ],
+    "source_files": [
+      "raw/papers/religious_studies/from-objective-reason-to-instrumental-rationality-a-global-systematic-review-of-.md",
+      "raw/papers/religious_studies/knowledge-hegemony-and-epistemic-reclamation-in-central-asian-higher-education-a.md",
+      "raw/papers/religious_studies/visual-representation-of-chinoiserie-in-western-ai-image-models-a-case-study-of-.md",
+      "raw/papers/religious_studies/enhancing-heritage-oriented-design-learning-through-a-value-sensitive-approach-t.md",
+      "raw/papers/religious_studies/media-transformation-and-environmental-communication-resilience-in-the-kajang-in.md",
+      "raw/papers/religious_studies/religious-moderation-digital-literacy-in-social-cohesion-interaction-among-the-u.md",
+      "raw/papers/religious_studies/digital-transformation-of-quranic-interpretation-in-the-contemporary-era.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "cost-collapse-of-cognitive-effort-and-capacity-preservation-design",
+    "title_ja": "認知コスト低下下での判断能力維持設計",
+    "title_en": "Cost Collapse of Cognitive Effort and Capacity-Preservation Design",
+    "tier": 1,
+    "description": "代替可能になった認知努力は迂回されやすくなり、注意・推論・判断・知恵を維持する能力は意図的な設計と形成環境の相互依存的配置がなければ失われる。",
+    "mechanisms": [
+      "努力コストの相対価格変化",
+      "使わない能力の萎縮",
+      "多次元的形成生態系"
+    ],
+    "related_domains": [
+      "religious_studies",
+      "sociology"
+    ],
+    "source_files": [
+      "raw/papers/religious_studies/designing-for-cognitive-resilience-a-distributed-cognition-approach-to-education.md",
+      "raw/papers/religious_studies/christian-discernment-in-an-ai-mediated-age-towards-a-four-dimensional-formative.md",
+      "raw/papers/religious_studies/beyond-information-wisdom-human-judgment-and-catholic-religious-education-in-the.md",
+      "raw/papers/religious_studies/cognitive-efficiency-vs-spiritual-depth-pedagogical-readiness-and-digital-ethics.md",
+      "raw/papers/religious_studies/digital-health-literacy-in-somali-higher-education-a-public-health-agenda-for-na.md",
+      "raw/papers/sociology/work-integrated-learning-in-the-age-of-artificial-intelligence-equity-innovation.md",
+      "raw/papers/religious_studies/madrasah-digital-transformation-and-the-development-of-digital-religious-literac.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "external-center-absorption-of-meaning-autonomy",
+    "title_ja": "外部中心による意味自律性の吸収と非対称な侵食",
+    "title_en": "External-Center Absorption of Meaning Autonomy",
+    "tier": 2,
+    "description": "非定常で制御不能な外部中心や仲介技術は、当初の利便性から注意・欲望・意味形成を段階的に支配する吸収障壁へ変質し、内部主体の自律性を侵食する。",
+    "mechanisms": [
+      "吸収障壁としての外部中心",
+      "利便性から依存への段階的変質",
+      "アルゴリズム的増幅"
+    ],
+    "related_domains": [
+      "religious_studies"
+    ],
+    "source_files": [
+      "raw/papers/religious_studies/meaning-fields-living-zero-points-and-non-stationary-external-centersa-dynamical.md",
+      "raw/papers/religious_studies/the-digital-soul-social-media-ai-influencers-and-synthetic-spirituality.md",
+      "raw/papers/religious_studies/negotiating-religious-truth-claims-in-the-digital-era-a-communication-ethics-per.md",
+      "raw/papers/religious_studies/how-digital-technology-transforms-consumption-a-critical-reflection-on-theoretic.md",
+      "raw/papers/religious_studies/religious-moderation-digital-literacy-in-social-cohesion-interaction-among-the-u.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "verification-erosion-and-proof-burden-recalibration",
+    "title_ja": "検証不能化に伴う信頼基盤の侵食と立証責任の再配分",
+    "title_en": "Verification Erosion and Proof-Burden Recalibration",
+    "tier": 2,
+    "description": "生成コンテンツの真正性が検証できなくなると信頼基盤が脆弱化し、制度は立証責任・証拠規則・説明責任の再配分によって機能的等価性を維持しようとする。",
+    "mechanisms": [
+      "検証コストの非対称化",
+      "立証責任の再配分",
+      "自律性と説明責任の緊張"
+    ],
+    "related_domains": [
+      "religious_studies"
+    ],
+    "source_files": [
+      "raw/papers/religious_studies/journalism-in-the-shadows-ai-deepfakes-credibility-and-the-fragility-of-media-tr.md",
+      "raw/papers/religious_studies/artificial-intelligence-and-automated-decision-making-under-the-nigeria-data-pro.md",
+      "raw/papers/religious_studies/civil-liability-in-digital-contexts.md",
+      "raw/papers/religious_studies/artificial-intellegence-and-techno-religion-reframing-tawhid-and-maqasid-al-shar.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "technology-institution-co-constitution-and-boundary-ambivalence",
+    "title_ja": "技術と制度・社会の共構成および境界の両価性",
+    "title_en": "Technology-Institution Co-Constitution and Boundary Ambivalence",
+    "tier": 1,
+    "description": "技術は社会の外部要因ではなく、物質性・慣行・制度の層に織り込まれ、異種主体間の境界物として連携を促す一方で新たな境界や不均等・法体系の衝突も生む。",
+    "mechanisms": [
+      "共構成(co-constitution)",
+      "境界オブジェクトの両価性",
+      "インフラ・リテラシーの不均等な空間分布"
+    ],
+    "related_domains": [
+      "religious_studies",
+      "sociology"
+    ],
+    "source_files": [
+      "raw/papers/sociology/toward-a-technocultural-perspective-on-technology-and-society-reintegrating-tech.md",
+      "raw/papers/sociology/the-role-of-digital-technologies-in-collaboration-amongst-heterogeneous-actors-i.md",
+      "raw/papers/sociology/bridging-the-digital-divide-equitable-access-to-ai-enhanced-geographical-work-in.md",
+      "raw/papers/religious_studies/legal-pluralism-in-the-digital-governance-of-contemporary-hajj-emerging-question.md",
+      "raw/papers/religious_studies/how-digital-technology-transforms-consumption-a-critical-reflection-on-theoretic.md",
+      "raw/papers/religious_studies/media-transformation-and-environmental-communication-resilience-in-the-kajang-in.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
