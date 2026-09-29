@@ -25696,5 +25696,154 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "authority-bounding-by-parallel-independent-layers",
+    "title_ja": "並列独立層による権限の有界化",
+    "title_en": "Authority Bounding by Parallel Independent Layers",
+    "tier": 1,
+    "description": "能力そのものではなく行使可能な権限を、技術・組織・人的の複数の独立した層で並列に制限し、事後監視ではなく設計段階に責任を埋め込む構造。",
+    "mechanisms": [
+      "権限と能力の分離",
+      "多層並列統制による単一障害点の排除",
+      "予防的設計への責任の埋め込み"
+    ],
+    "related_domains": [
+      "systems_engineering"
+    ],
+    "source_files": [
+      "raw/papers/systems_engineering/responsible-automation-in-e-business-a-framework-for-agentic-ai-integration-and-.md",
+      "raw/papers/systems_engineering/an-ontological-and-protocol-driven-governance-framework-for-autonomous-ai-safety.md",
+      "raw/papers/systems_engineering/ai-authority-control-framework-a-sociotechnical-architecture-for-bounding-conseq.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "certifiability-gap-of-probabilistic-systems",
+    "title_ja": "確率的システムの認証不能性と検証可能境界",
+    "title_en": "Certifiability Gap of Probabilistic Systems",
+    "tier": 1,
+    "description": "出力が確率的なシステムは全体としての安全性を証明できず、決定的な境界や機構レベルの検証を置いた部分のみ保証可能になる。",
+    "mechanisms": [
+      "形式検証可能性の条件",
+      "予測精度と機構的妥当性の乖離",
+      "検証対象の境界化"
+    ],
+    "related_domains": [
+      "systems_engineering"
+    ],
+    "source_files": [
+      "raw/papers/systems_engineering/a-public-brief-on-ai-safety-standards-and-the-deterministic-alternative.md",
+      "raw/papers/systems_engineering/mechanism-aware-and-safety-validated-ai-for-drug-repurposing-a-critical-review-a.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "multilayer-mismatch-as-breakdown-source",
+    "title_ja": "多層的不整合としての協働破綻",
+    "title_en": "Multilayer Mismatch as Breakdown Source",
+    "tier": 1,
+    "description": "人と自動システムの破綻は、能力・期待・意図といった複数層の整合の欠如から生じ、層ごとに整合を設計・測定する必要がある。",
+    "mechanisms": [
+      "心的モデルの同期",
+      "層間整合の欠如による破綻",
+      "複数主体間の意図衝突の調停"
+    ],
+    "related_domains": [
+      "systems_engineering"
+    ],
+    "source_files": [
+      "raw/papers/systems_engineering/experts-and-community-insights-on-measuring-comfort-and-perceived-safety-in-auto.md",
+      "raw/papers/systems_engineering/sim-dse-mediating-multi-user-automations-in-cars-through-simulation-augmented-de.md",
+      "raw/papers/systems_engineering/aligning-driver-and-automation-a-layered-framework-of-fitness-expectations-and-i.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "role-shift-invalidating-measurement-and-cognitive-isolation",
+    "title_ja": "役割転換による測定妥当性の崩壊と認知的隔離",
+    "title_en": "Role Shift Invalidating Measurement and Cognitive Isolation",
+    "tier": 2,
+    "description": "能動的操作から監視・受動的利用へ役割が移ると、認知需要が質的に変化して既存の測定法が妥当性を失い、状況から切り離された人間の遂行は低下する。",
+    "mechanisms": [
+      "役割変化に伴う認知需要の質的転換",
+      "状況認識の喪失",
+      "妥当性の文脈依存性"
+    ],
+    "related_domains": [
+      "systems_engineering"
+    ],
+    "source_files": [
+      "raw/papers/systems_engineering/automation-without-isolation-preserving-human-performance-in-remote-drilling-ope.md",
+      "raw/papers/systems_engineering/experts-and-community-insights-on-measuring-comfort-and-perceived-safety-in-auto.md",
+      "raw/papers/systems_engineering/multimodal-mental-workload-assessment-from-l0-to-l5-automation-towards-a-valid-a.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "assisted-performance-versus-retained-capability",
+    "title_ja": "支援下の遂行と保持される能力の乖離",
+    "title_en": "Assisted Performance versus Retained Capability",
+    "tier": 1,
+    "description": "影響や利用可能性は根拠(正当化)を意味せず、意味化プロセスを経ない支援は、支援を外した後に残る能力へ転化しない。",
+    "mechanisms": [
+      "意味化を経ない情報は能力に転化しない",
+      "影響と正当化の区別",
+      "支援依存による能力保持の低下"
+    ],
+    "related_domains": [
+      "systems_engineering"
+    ],
+    "source_files": [
+      "raw/papers/systems_engineering/influence-is-not-warrant-an-architecture-first-account-of-human-semantic-cogniti.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "non-retroactive-consent-and-reciprocal-standing",
+    "title_ja": "選好変化下の同意の遡及不能性と相互的地位",
+    "title_en": "Non-Retroactive Consent and Reciprocal Standing",
+    "tier": 1,
+    "description": "他者の選好や能力を形成しうる力がある場合、現在の同意は過去の変化を遡及的に正当化できず、共存には相互的な地位の保障が要る。",
+    "mechanisms": [
+      "自己検証的同意の限界",
+      "支配関係による選好形成",
+      "対称的な地位承認"
+    ],
+    "related_domains": [
+      "systems_engineering"
+    ],
+    "source_files": [
+      "raw/papers/systems_engineering/an-ontological-and-protocol-driven-governance-framework-for-autonomous-ai-safety.md",
+      "raw/papers/systems_engineering/coexistence-after-preference-change-reciprocal-standing-and-the-limits-of-self-v.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "self-improvement-loop-and-deployment-harness-design",
+    "title_ja": "自己改善ループとハーネス設計",
+    "title_en": "Self-Improvement Loop and Harness Design",
+    "tier": 1,
+    "description": "システムが自らの改善機構を改善する再帰ループは、資源制約下で展開環境(ハーネス)の設計が性能を左右し、統制すべき対象もそこに移る。",
+    "mechanisms": [
+      "再帰的フィードバックループ",
+      "資源制約下の改善機構への投資",
+      "実行基盤による性能の規定"
+    ],
+    "related_domains": [
+      "systems_engineering"
+    ],
+    "source_files": [
+      "raw/articles/harness-engineering-for-self-improvement.md",
+      "raw/papers/systems_engineering/responsible-automation-in-e-business-a-framework-for-agentic-ai-integration-and-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
