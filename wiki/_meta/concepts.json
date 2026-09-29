@@ -19200,5 +19200,156 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "fluent-output-capability-decoupling",
+    "title_ja": "流暢な成果と内在的能力の乖離(支援の内在化阻害)",
+    "title_en": "Fluent Output–Capability Decoupling under External Support",
+    "tier": 1,
+    "description": "外部支援が成果の基準達成を可能にする一方で、スキーマ形成や技能の内在化を阻害し、成果と実能力が乖離する。短期の依存低減と長期の技能維持は緊張関係にあり、設計次第で足場にも代替にもなる。",
+    "mechanisms": [
+      "認知的オフロードの二重経路",
+      "スキーマ構築の阻害",
+      "短期効率と長期能力維持のトレードオフ"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/reliability-risks-of-generative-ai-in-education-a-systematic-review-of-hallucina.md",
+      "raw/papers/cognitive_science/fluent-dependence-a-validity-framework-for-human-capability-in-human-ai-interact.md",
+      "raw/papers/cognitive_science/heuristic-or-algorithmic-thinking-assessing-generative-ais-impact-on-human-decis.md",
+      "raw/papers/cognitive_science/conversational-ai-as-a-cognitive-scaffold-or-a-substitute-for-thinking-a-dual-pa.md",
+      "raw/papers/cognitive_science/scaffolding-students-ai-dialogue-for-safe-educational-interactions.md",
+      "raw/papers/cognitive_science/open-questions-towards-skill-sustaining-reliance-in-reflective-ai-engagement.md",
+      "raw/papers/cognitive_science/from-human-factors-to-human-technology-factors-an-hci-perspective-on-technology-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "source-attribution-and-reliance-miscalibration",
+    "title_ja": "情報源帰属バイアスと信頼較正の歪み",
+    "title_en": "Source Attribution Bias and Reliance Miscalibration",
+    "tier": 1,
+    "description": "同一内容でも助言の帰属先で評価が変わり、また適応・流暢さの向上が安全性を損なうなど、信頼は内容の妥当性と乖離して形成される。信頼の較正には多層的な信頼性アーキテクチャが必要となる。",
+    "mechanisms": [
+      "源泉帰属バイアス",
+      "流暢性による信頼の誤較正",
+      "多層的な信頼性担保"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/when-the-machine-advises-ai-advice-and-managerial-judgment-in-international-busi.md",
+      "raw/papers/cognitive_science/the-adaptation-dilemma-cultural-fit-does-not-guarantee-safety-during-mental-heal.md",
+      "raw/papers/cognitive_science/mind2dialogue-training-human-aware-language-models-by-simulating-user-mental-sta.md",
+      "raw/papers/cognitive_science/review-of-knowledge-and-communication-with-ai.md",
+      "raw/papers/cognitive_science/reliability-risks-of-generative-ai-in-education-a-systematic-review-of-hallucina.md",
+      "raw/papers/cognitive_science/scaffolding-students-ai-dialogue-for-safe-educational-interactions.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "finite-attention-and-heterogeneous-agent-coupling",
+    "title_ja": "有限な認知資源と異質主体間の結合設計",
+    "title_en": "Finite Cognitive Resources and Heterogeneous Agent Coupling Design",
+    "tier": 1,
+    "description": "限られた注意・認知資源と能力非対称性を前提に、異質な主体間の協調は同期ではなく相互予測可能性と段階的な支援調整、状況に応じた構成選択によって成立する。",
+    "mechanisms": [
+      "有限合理性",
+      "相互予測可能性",
+      "能力非対称性に応じた段階的調整"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/media-multitasking-and-attentional-control-a-theory-driven-research-agenda.md",
+      "raw/papers/cognitive_science/the-human-ai-resonance-protocol-20-a-testable-framework-for-representational-coh.md",
+      "raw/papers/cognitive_science/mind2dialogue-training-human-aware-language-models-by-simulating-user-mental-sta.md",
+      "raw/papers/cognitive_science/leveraging-cognitive-inspired-machine-learning-to-understand-multi-attribute-pre.md",
+      "raw/papers/cognitive_science/dual-process-theories-beyond-cognitive-psychology-psychodynamic-clinical-and-neu.md",
+      "raw/papers/cognitive_science/beyond-reactive-assistance-pv-care-using-low-density-eeg-and-ai-to-provide-proac.md",
+      "raw/papers/cognitive_science/depressive-symptoms-are-reflected-differently-across-digital-contexts.md",
+      "raw/papers/cognitive_science/touvigation-embodied-adaptive-object-acquisition-for-blind-and-low-vision-users-.md",
+      "raw/papers/cognitive_science/the-hybrid-intelligence-configuration-matrix-a-conceptual-framework-for-designin.md",
+      "raw/papers/cognitive_science/what-is-the-role-of-small-models-in-the-llm-era-a-survey.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "single-objective-optimization-misalignment-and-autonomy-risk",
+    "title_ja": "単一最適化ツールによる多目標システムの破壊と自律性-リスク管理",
+    "title_en": "Single-Objective Optimization Misalignment and Autonomy–Risk Management",
+    "tier": 1,
+    "description": "複数目標を持つ組織や社会に単一最適化の道具を導入すると意図せぬ不整合が生じる。自律性・価値・リスクのトレードオフはシステム思考で段階的に管理する必要がある。",
+    "mechanisms": [
+      "部分最適化による全体不整合",
+      "自律性とリスクのトレードオフ",
+      "既得権益と抵抗の非対称性"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/the-alignment-paradox-a-theory-of-ai-driven-misalignment-in-hr-systems.md",
+      "raw/papers/cognitive_science/realizing-agentic-ai-valuea-systems-approach-to-autonomy-and-risk.md",
+      "raw/papers/cognitive_science/data-want-to-be-free-an-innovation-resistance-theory-model-for-identifying-barri.md",
+      "raw/papers/cognitive_science/the-hybrid-intelligence-configuration-matrix-a-conceptual-framework-for-designin.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "distributed-epistemic-commons-and-identity-separation",
+    "title_ja": "分散的知のコモンズと関係・同一性の分離",
+    "title_en": "Distributed Epistemic Commons and Separation of Relation from Identity",
+    "tier": 1,
+    "description": "知識・記憶・責任は特定の主体や基盤に閉じず分散的に保持されるべきだが、分散的関係基盤と主体の同一性・責任帰属は区別して設計する必要がある。統合体の一体性には高次の組織化が要る。",
+    "mechanisms": [
+      "基盤と主体の分離",
+      "責任帰属の再編成",
+      "階層的統合による個体性の形成"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/the-cognitive-university-a-civilization-scale-architecture-for-learning-humanai-.md",
+      "raw/papers/cognitive_science/distributed-scientific-cognition-commons-dscc.md",
+      "raw/papers/cognitive_science/from-evolutionary-individuality-to-cognitive-integration-a-cross-modular-perspec.md",
+      "raw/papers/cognitive_science/between-methodological-expansion-and-epistemic-boundary-dissolution-generative-a.md",
+      "raw/papers/cognitive_science/distributed-relation-is-not-distributed-identity.md",
+      "raw/papers/cognitive_science/review-of-knowledge-and-communication-with-ai.md",
+      "raw/papers/cognitive_science/works-for-9172026---bea-arthur-bernice-frankel.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "threshold-phase-transition-in-technology-dependence",
+    "title_ja": "技術依存の閾値・相転移ダイナミクス",
+    "title_en": "Threshold Phase Transitions in Technology Dependence",
+    "tier": 1,
+    "description": "技術の集団的採用は感染様の拡散として閾値を超えると急激な依存状態へ相転移し、その後は不可逆的に定着する。技術は判断バイアスを緩和しつつ増幅もする両義性を持つ。",
+    "mechanisms": [
+      "相転移と閾値効果",
+      "正のフィードバックによる依存固定化",
+      "両義的な効果"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/large-language-models-as-a-cognitive-virus.md",
+      "raw/papers/cognitive_science/from-human-factors-to-human-technology-factors-an-hci-perspective-on-technology-.md",
+      "raw/papers/cognitive_science/what-is-the-role-of-small-models-in-the-llm-era-a-survey.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
