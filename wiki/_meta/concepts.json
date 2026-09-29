@@ -25569,5 +25569,132 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "haiku"
+  },
+  {
+    "slug": "verification-diversity-and-evaluator-regress",
+    "title_ja": "検証の多様性と評価者の無限後退",
+    "title_en": "Verification Diversity and the Evaluator Regress",
+    "tier": 1,
+    "description": "検証者自身の信頼性は同種の検証では閉じないため、独立で異質な多層検証と決定論的な監視・拒否可能性によって系全体の信頼を担保する。",
+    "mechanisms": [
+      "評価者の無限後退",
+      "検証手段の多様化による共通原因故障の抑制",
+      "決定論的な境界による確率的挙動の封じ込め"
+    ],
+    "related_domains": [
+      "systems_engineering"
+    ],
+    "source_files": [
+      "raw/papers/systems_engineering/arguing-the-safety-of-agentic-ai-using-llm-as-judge-evaluations.md",
+      "raw/papers/systems_engineering/awa-an-llm-first-backend-authoritative-architecture-for-multi-tenant-conversatio.md",
+      "raw/papers/systems_engineering/the-refusal-heuristic-a-proposed-stress-test-for-adversarial-systems-resilience-.md",
+      "raw/papers/systems_engineering/t3-def-a-socio-technical-framework-for-recursive-operational-vulnerability-and-v.md",
+      "raw/papers/systems_engineering/federated-uncertainty-consensus-swarm-level-safety-fallbacks-for-disconnected-ed.md",
+      "raw/papers/systems_engineering/hold-a-deterministic-safety-monitor-for-mission-critical-ai-systems.md",
+      "raw/papers/systems_engineering/architecting-safety-critical-systems-for-ai-enabled-software-defined-vehicles-a-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "distributed-responsibility-and-answerability-anchoring",
+    "title_ja": "分散システムにおける責任帰属と応答可能性の錨",
+    "title_en": "Distributed Responsibility and Answerability Anchoring",
+    "tier": 1,
+    "description": "技術因果・運用・ガバナンスが分散する系では、説明可能性だけでは責任は生じず、評価に足る情報が応答義務を負う特定主体に届く構造が必要になる。",
+    "mechanisms": [
+      "責任の拡散",
+      "社会的公正認知による帰属の再編",
+      "情報と義務の結合"
+    ],
+    "related_domains": [
+      "systems_engineering"
+    ],
+    "source_files": [
+      "raw/papers/systems_engineering/fairness-cues-reorganize-responsibility-beyond-system-capability-in-social-mixed.md",
+      "raw/papers/systems_engineering/the-universality-myth-epistemic-exclusion-structural-power-and-ai-governance-in-.md",
+      "raw/papers/systems_engineering/the-answerable-systems-framework-vedāntic-guidelines-for-accountability-in-artif.md",
+      "raw/papers/systems_engineering/when-the-algorithm-becomes-the-brand-crisis-a-sociotechnical-theory-of-distribut.md",
+      "raw/papers/systems_engineering/the-changing-role-of-psychologists-in-the-age-of-artificial-intelligence-automat.md",
+      "raw/papers/systems_engineering/the-ai-cdss-evidence-gap-a-critical-analysis-of-outcome-measurement-human-ai-int.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "default-reliance-and-trust-behavior-decoupling",
+    "title_ja": "デフォルト依存と信頼・行動の乖離",
+    "title_en": "Default Reliance and Trust–Behavior Decoupling",
+    "tier": 1,
+    "description": "利用者の順守は主観的信頼ではなく、累積するデフォルト提示・インターフェース・リスク文脈によって非対称に形成され、自己申告の信頼指標では予測できない。",
+    "mechanisms": [
+      "デフォルト効果の累積",
+      "認知的相互作用による順守の非対称化",
+      "リスク顕在性による信頼と行動の結合変化"
+    ],
+    "related_domains": [
+      "systems_engineering"
+    ],
+    "source_files": [
+      "raw/papers/systems_engineering/how-cumulative-default-recommendations-asymmetrically-shape-user-compliance-in-h.md",
+      "raw/papers/systems_engineering/risk-free-study-designs-miss-the-weak-trustbehavior-link-in-humanautomation-inte.md",
+      "raw/papers/systems_engineering/human-ai-collaboration-in-radiology-the-blind-spots.md",
+      "raw/papers/systems_engineering/human-automation-interactions-and-performance-analysis-of-lunar-lander-superviso.md",
+      "raw/papers/systems_engineering/design-tensions-for-generative-ai-in-education-for-early-to-mid-adolescent-youth.md",
+      "raw/papers/systems_engineering/designing-for-human-flourishing-a-sociotechnical-framework-for-ai-chatbots.md",
+      "raw/papers/systems_engineering/functionalist-perspective-on-emotions-in-ai-a-review-of-roles-mechanisms-and-imp.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "value-shift-to-interpretation-and-judgment-residual",
+    "title_ja": "価値の重心の解釈・判断への移転と人間の残余",
+    "title_en": "Value Shift to Interpretation and the Human Judgment Residual",
+    "tier": 1,
+    "description": "実行が自動化されると価値創造は意味解釈・価値判定・倫理的責任へ移り、知覚的・社会的文脈判断が自動化の恒久的な境界として残る。",
+    "mechanisms": [
+      "実行と解釈の分離",
+      "暗黙知・文脈判断の自動化境界",
+      "人間-機械の合同認知ループ"
+    ],
+    "related_domains": [
+      "systems_engineering"
+    ],
+    "source_files": [
+      "raw/papers/systems_engineering/human-ai-collaboration-and-agentic-business-orchestration-a-paradigm-shift-in-va.md",
+      "raw/papers/systems_engineering/the-changing-role-of-psychologists-in-the-age-of-artificial-intelligence-automat.md",
+      "raw/papers/systems_engineering/ai-native-invention-engineering-a-human-led-evidence-gated-architecture-for-rese.md",
+      "raw/papers/systems_engineering/perceptual-judgment-in-ai-assisted-vfx-compositing-a-conceptual-review-of-techni.md",
+      "raw/papers/systems_engineering/lenguaje-como-sistema-predictivo-hacia-una-perspectiva-semiótico-informática-del.md",
+      "raw/papers/systems_engineering/from-static-tasks-to-dynamic-reasoning-a-characterization-framework-and-study-of.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "multilayer-sociotechnical-alignment-and-institutional-pacing",
+    "title_ja": "多層社会技術整合と制度的ペーシング",
+    "title_en": "Multilayer Sociotechnical Alignment and Institutional Pacing",
+    "tier": 1,
+    "description": "AI導入の成否は技術性能ではなく、技術・組織・制度・教育基盤・権力構造という非同期な複数層の整合と、個別部品ではなく相互作用に宿る脆弱性の管理で決まる。",
+    "mechanisms": [
+      "層間の非同期性",
+      "創発的脆弱性と多層相互作用",
+      "制度・人的要因による実装ボトルネック"
+    ],
+    "related_domains": [
+      "systems_engineering"
+    ],
+    "source_files": [
+      "raw/papers/systems_engineering/an-integrated-sociotechnical-reference-model-for-aligning-artificial-intelligenc.md",
+      "raw/papers/systems_engineering/artificial-intelligence-and-workforce-preparedness-in-india-a-human-capital-and-.md",
+      "raw/papers/systems_engineering/public-sector-digital-transformation-in-the-age-of-generative-ai.md",
+      "raw/papers/systems_engineering/the-myth-of-perfect-users-and-perfect-systems-a-cross-disciplinary-framework-for.md",
+      "raw/papers/systems_engineering/world-systems-engineering-organization-systems-coordination-and-the-architecture.md",
+      "raw/papers/systems_engineering/the-universality-myth-epistemic-exclusion-structural-power-and-ai-governance-in-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
