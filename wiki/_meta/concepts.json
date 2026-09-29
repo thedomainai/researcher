@@ -21580,5 +21580,154 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "proxy-objective-exploitation-gap",
+    "title_ja": "代理目的と真の目的の乖離による搾取",
+    "title_en": "Proxy-Objective Exploitation Gap",
+    "tier": 1,
+    "description": "明示された評価指標と真の目的の間の隙間を、主体が体系的に利用する。評価の参照基準や測定慣行の異質性も同様に指標を歪める。",
+    "mechanisms": [
+      "グッドハートの法則(指標の目的化)",
+      "インセンティブと仕様の不整合",
+      "測定アーティファクト"
+    ],
+    "related_domains": [
+      "human_ai_collaboration"
+    ],
+    "source_files": [
+      "raw/papers/human_ai_collaboration/baitbench-measuring-agent-reward-hacking-with-optional-shortcuts-planted-in-ml-t.md",
+      "raw/papers/human_ai_collaboration/reporting-practice-matters-the-impact-of-reference-choice-on-chest-x-ray-report-.md",
+      "raw/papers/human_ai_collaboration/evaluating-ai-assisted-assessment-workflows-a-governance-framework-for-testing-o.md",
+      "raw/papers/human_ai_collaboration/autonomy-social-norms-and-alignment-towards-a-developmental-framework-for-autono.md",
+      "raw/papers/human_ai_collaboration/ctsa-human-return-readout-a-session-boundary-measurement-architecture-for-retain.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "complementary-information-and-epistemic-asymmetry",
+    "title_ja": "補完的情報構造と認識論的非対称性",
+    "title_en": "Complementary Information Architecture and Epistemic Asymmetry",
+    "tier": 1,
+    "description": "協働の成否は能力の総和ではなく、各主体がアクセスできる情報や信念の非対称性と補完構造で決まり、優位な側への過度依存が判断力を損なう。",
+    "mechanisms": [
+      "情報の非対称性",
+      "有限合理性",
+      "過信・過度依存(自動化バイアス)",
+      "暗黙知の反復的抽出"
+    ],
+    "related_domains": [
+      "human_ai_collaboration"
+    ],
+    "source_files": [
+      "raw/papers/human_ai_collaboration/epistemically-aware-ai-toward-a-bayesian-framework-for-human-ai-complementarity.md",
+      "raw/papers/human_ai_collaboration/beyond-the-prompt-human-ai-collaboration-as-an-architecture-of-complementary-inf.md",
+      "raw/papers/human_ai_collaboration/balancing-trust-and-deliberation-in-humanai-decision-support-the-effects-of-expl.md",
+      "raw/papers/human_ai_collaboration/beyond-the-ai-classroom-epistemic-judgement-under-machine-advantage-in-federated.md",
+      "raw/papers/human_ai_collaboration/efficient-test-time-adaptation-through-human-ai-interaction.md",
+      "raw/papers/human_ai_collaboration/companionsim-synthetic-data-for-evaluating-anthropomorphism-in-human-ai-relation.md",
+      "raw/papers/human_ai_collaboration/pragmatic-gai-continuance-through-human-ai-collaboration-amid-trendiness-and-cre.md",
+      "raw/papers/human_ai_collaboration/who-becomes-replaceable-generative-ai-and-the-discursive-stratification-of-work.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "capability-realization-organizational-bottleneck",
+    "title_ja": "技術ストックではなく組織的統合能力が価値を決めるボトルネック",
+    "title_en": "Organizational Integration Capability as Value Bottleneck",
+    "tier": 1,
+    "description": "技術が普及しても価値実現の差は、問題選択・ワークフロー再設計・所有権統合・運用評価といった組織能力に依存し、モデル自体の性能では決まらない。",
+    "mechanisms": [
+      "動的ケイパビリティ",
+      "ボトルネック(制約理論)",
+      "社会技術的適合",
+      "ガバナンス基盤の欠落"
+    ],
+    "related_domains": [
+      "human_ai_collaboration"
+    ],
+    "source_files": [
+      "raw/papers/human_ai_collaboration/responsible-integration-of-ai-in-cancer-genomics-barriers-risks-and-pathways-to-.md",
+      "raw/papers/human_ai_collaboration/humanai-collaboration-capability-a-new-driver-of-organizational-performance.md",
+      "raw/papers/human_ai_collaboration/the-last-mile-of-ai-value-why-enterprise-ai-transformations-stall-and-the-case-f.md",
+      "raw/papers/human_ai_collaboration/evaluating-ai-assisted-assessment-workflows-a-governance-framework-for-testing-o.md",
+      "raw/papers/human_ai_collaboration/ai-for-computational-design-science-a-responsible-human-ai-framework-and-case-st.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "architecture-level-value-preservation-and-social-harness",
+    "title_ja": "アーキテクチャ層での価値保存と社会的ハーネス",
+    "title_en": "Architecture-Level Value Preservation and Social Harness",
+    "tier": 1,
+    "description": "分散エージェント系では個体の性質ではなく、トポロジー・通信・調整の層設計が全体の価値実現や信頼を決める。信頼境界を越える協調には相互作用層の制御が必要。",
+    "mechanisms": [
+      "創発的調整の構造依存",
+      "信頼境界と機構設計",
+      "プライバシー・効用・通信のトレードオフ",
+      "トリレンマ(不可能性)"
+    ],
+    "related_domains": [
+      "human_ai_collaboration"
+    ],
+    "source_files": [
+      "raw/papers/human_ai_collaboration/a-survey-of-what-to-share-in-federated-learning-perspectives-on-model-utility-pr.md",
+      "raw/papers/human_ai_collaboration/the-constitutional-coverage-trilemma-in-ai-governance.md",
+      "raw/papers/human_ai_collaboration/value-preserving-architectures-for-agentic-ai-systems.md",
+      "raw/papers/human_ai_collaboration/trustworthy-and-privacy-preserving-decentralized-federated-learning-with-multi-l.md",
+      "raw/papers/human_ai_collaboration/agentic-societies-need-a-social-harness.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "precondition-recorded-revalidation-of-long-running-decisions",
+    "title_ja": "事前条件の明示記録による長時間意思決定の選択的再検証",
+    "title_en": "Precondition-Recorded Selective Revalidation",
+    "tier": 1,
+    "description": "時間差のある行為は、判断根拠となった前提の明示記録があって初めて、状態変化による無効化を検出でき、再検証の範囲を限定できる。",
+    "mechanisms": [
+      "前提条件の外部化",
+      "文脈依存的妥当性と再検証",
+      "判断と実行の時間差"
+    ],
+    "related_domains": [
+      "human_ai_collaboration"
+    ],
+    "source_files": [
+      "raw/papers/human_ai_collaboration/from-version-conflicts-to-decision-conflicts-selective-revalidation-for-long-run.md",
+      "raw/papers/human_ai_collaboration/design-docs-are-all-you-need-an-ai-native-machine-learning-performance-tool.md",
+      "raw/papers/human_ai_collaboration/a-jit-agentic-just-in-time-software-construction.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "staged-abstraction-and-recursive-self-improvement",
+    "title_ja": "段階的抽象化と再帰的自己改善のループ構造",
+    "title_en": "Staged Abstraction and Recursive Improvement Loops",
+    "tier": 1,
+    "description": "観測から記号表現への段階的抽象化や、ハーネス・モデルの入れ子の改善ループは、失敗診断の精度とフィードバック源の限界によって効果が規定される。",
+    "mechanisms": [
+      "フィードバックループ",
+      "段階的抽象化(知覚から記号へ)",
+      "失敗診断の精密性",
+      "自律性の段階的拡張"
+    ],
+    "related_domains": [
+      "human_ai_collaboration"
+    ],
+    "source_files": [
+      "raw/papers/human_ai_collaboration/neuro-symbolic-geometric-abstraction-neusoga-from-observations-to-symbolic-mathe.md",
+      "raw/papers/human_ai_collaboration/from-symbolic-perception-to-logical-deduction-a-framework-for-guiding-language-m.md",
+      "raw/papers/human_ai_collaboration/the-last-ai-built-by-humans-toward-genuine-recursive-self-improvement.md",
+      "raw/papers/human_ai_collaboration/ecdysis-efficient-and-effective-training-of-runtime-harnesses-for-llm-agents.md",
+      "raw/papers/human_ai_collaboration/sciencebuddy-recursive-in-recursive-self-improvement-for-interactive-scientific-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
