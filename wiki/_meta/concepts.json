@@ -22917,5 +22917,144 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "shared-knowledge-substrate-compounding-integration",
+    "title_ja": "共有知識基盤への統合による価値の複利化",
+    "title_en": "Shared Knowledge Substrate and Compounding Integration",
+    "tier": 1,
+    "description": "個別に分散した利用や予測特徴量は価値が積み上がらず、統一された表現層・計測・説明責任の基盤に統合されて初めて価値が複利的に蓄積する。",
+    "mechanisms": [
+      "表現層による断片化の解消",
+      "分散利用と統合のスピード差",
+      "累積的価値創出の前提条件"
+    ],
+    "related_domains": [
+      "leadership_ob",
+      "marketing"
+    ],
+    "source_files": [
+      "raw/papers/leadership_ob/organizational-culture-as-a-driver-of-strategic-ai-integration-in-european-highe.md",
+      "raw/papers/leadership_ob/the-pivot-model-for-strategic-academic-transformation-in-ai-powered-higher-educa.md",
+      "raw/papers/leadership_ob/leading-for-the-future-a-critical-narrative-synthesis-of-future-ready-leadership.md",
+      "raw/papers/leadership_ob/from-process-oriented-ai-to-shared-organizational-intelligence.md",
+      "raw/papers/marketing/knowledge-graphs-as-a-representational-layer-for-agentic-ai-in-customer-experien.md",
+      "raw/papers/leadership_ob/the-meta-hr-framework-a-systematic-literature-review-on-ai-accelerated-hr-system.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "trust-recalibration-cycle-in-human-machine-coupling",
+    "title_ja": "人間-機械結合における信頼再調整サイクルと制御ループ",
+    "title_en": "Trust Recalibration Cycles in Human-Machine Coupling",
+    "tier": 1,
+    "description": "人間と機械の協働は、信頼を実績・透明性・情報品質に応じて継続的に再調整する入れ子状のフィードバックループとして成立し、能力そのものより信頼形成が採用と効果を規定する。",
+    "mechanisms": [
+      "フィードバックループ",
+      "信頼の較正",
+      "情報品質による信頼形成",
+      "アフォーダンス知覚から行動への逐次変換"
+    ],
+    "related_domains": [
+      "leadership_ob",
+      "marketing"
+    ],
+    "source_files": [
+      "raw/papers/leadership_ob/ai-perception-work-changes-and-readiness-for-change-in-organizations-a-cross-sec.md",
+      "raw/papers/leadership_ob/the-human-ai-leadership-nexus-integrating-emotional-intelligence-and-artificial-.md",
+      "raw/papers/leadership_ob/trust-recalibration-in-human-ai-agile-teams-a-nested-cycle-framework-linking-tea.md",
+      "raw/papers/leadership_ob/decision-making-dynamics-in-secure-software-development-teams-the-role-of-ai-sup.md",
+      "raw/papers/leadership_ob/the-cybernetic-future-of-investment-management-insights-from-42-finance-middle-m.md",
+      "raw/papers/leadership_ob/frontier-leadership-in-the-age-of-artificial-intelligence.md",
+      "raw/papers/marketing/data-mapping-the-impact-of-multifaceted-information-quality-on-customer-satisfac.md",
+      "raw/papers/marketing/humanized-artificial-intelligence-in-tourism-drivers-of-traveler-adoption-and-va.md",
+      "raw/papers/marketing/creating-customer-value-through-smart-interactive-technology-affordances-the-seq.md",
+      "raw/papers/leadership_ob/towards-actionable-surgical-team-dynamics-from-teamwork-to-counterfactual-annota.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "psychological-safety-and-novelty-fear-adoption-friction",
+    "title_ja": "新奇性由来の恐れと心理的安全性による導入摩擦",
+    "title_en": "Novelty-Driven Fear and Psychological Safety in Adoption Friction",
+    "tier": 1,
+    "description": "新技術の導入摩擦は能力不足より新奇性への恐れや認識に由来し、心理的安全性・透明なリーダーシップ・価値観の整合が変化への準備度と文化的統合を決める。",
+    "mechanisms": [
+      "認知的評価と脅威知覚",
+      "心理的安全性",
+      "価値整合による準備度形成",
+      "文化と個人認識の共構成"
+    ],
+    "related_domains": [
+      "leadership_ob"
+    ],
+    "source_files": [
+      "raw/papers/leadership_ob/organizational-culture-as-a-driver-of-strategic-ai-integration-in-european-highe.md",
+      "raw/papers/leadership_ob/ai-perception-work-changes-and-readiness-for-change-in-organizations-a-cross-sec.md",
+      "raw/papers/leadership_ob/instructional-design-communication-through-ai-assisted-storytelling-a-hybrid-mod.md",
+      "raw/papers/leadership_ob/from-fear-to-fluency-cultivating-ai-confidence-and-socio-economic-wellbeing-in-t.md",
+      "raw/papers/leadership_ob/artificial-intelligence-and-the-new-science-of-culture.md",
+      "raw/papers/leadership_ob/frontier-leadership-in-the-age-of-artificial-intelligence.md",
+      "raw/papers/leadership_ob/human-centered-ai-in-hr-transforming-employee-well-being-and-workplace-culture-i.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "verification-capacity-versus-generation-speed-inversion",
+    "title_ja": "生成速度が検証容量を超えたときの価値反転と媒介層の変容",
+    "title_en": "Generation Speed Exceeding Verification Capacity and Mediation Distortion",
+    "tier": 2,
+    "description": "生成・自動化の速度が検証容量を超えると共創は共毀へ反転し、媒介層の逐次変換が解釈と権威・責任を再配置し、柔軟性と脆弱性のトレードオフが顕在化する。",
+    "mechanisms": [
+      "検証容量のボトルネック",
+      "逐次変換による誤差の累積",
+      "柔軟性と脆弱性のトレードオフ",
+      "情報非対称性と権力への変換"
+    ],
+    "related_domains": [
+      "leadership_ob",
+      "marketing"
+    ],
+    "source_files": [
+      "raw/papers/leadership_ob/algorithms-in-battle-ai-international-relations-and-future-warfare.md",
+      "raw/papers/leadership_ob/systematic-literature-review-digital-transformation-and-ai-integration-in-anti-c.md",
+      "raw/papers/leadership_ob/window-theory-ai-paper-i-closure-dynamics.md",
+      "raw/papers/marketing/from-augmentation-to-substitution-governing-humanai-boundaries-in-generative-eco.md",
+      "raw/papers/marketing/preserving-participant-meaning-in-ai-mediated-multilingual-qualitative-research.md",
+      "raw/papers/marketing/generative-ai-in-brand-activism-impacts-on-consumers-negative-affect-and-decisio.md",
+      "raw/papers/marketing/algorithmic-branding.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "automation-layer-elevating-residual-human-complexity",
+    "title_ja": "自動化層の強化による人間層の問題複雑度上昇と役割再分化",
+    "title_en": "Automation Layers Elevating Residual Human Complexity and Role Differentiation",
+    "tier": 1,
+    "description": "定型処理を自動化すると人間に残る課題は複雑化し、認知負荷の再分配を通じて代替から補完へ、役割分化と意思決定権限の再編が進む。人間による致死的判断など残余判断は構造的に保持される。",
+    "mechanisms": [
+      "認知負荷の再分配",
+      "代替から補完への転換",
+      "残余判断の保持",
+      "階層的な役割分化"
+    ],
+    "related_domains": [
+      "leadership_ob",
+      "marketing"
+    ],
+    "source_files": [
+      "raw/papers/leadership_ob/algorithms-in-battle-ai-international-relations-and-future-warfare.md",
+      "raw/papers/leadership_ob/methodology-of-ai-driven-personnel-substitution-for-leadership-and-management-ad.md",
+      "raw/papers/leadership_ob/the-meta-hr-framework-a-systematic-literature-review-on-ai-accelerated-hr-system.md",
+      "raw/papers/marketing/replacing-rule-based-bots-with-ai-agents-customer-experience-in-b2b-saas-support.md",
+      "raw/papers/marketing/from-automation-to-augmentation-the-changing-role-of-ai-in-management.md",
+      "raw/papers/leadership_ob/human-centered-ai-in-hr-transforming-employee-well-being-and-workplace-culture-i.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
