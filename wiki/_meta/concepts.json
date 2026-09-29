@@ -23965,5 +23965,177 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "haiku"
+  },
+  {
+    "slug": "inspectable-causal-structure-as-decision-legitimacy-condition",
+    "title_ja": "検査可能な因果構造による意思決定の正当化",
+    "title_en": "Inspectable Causal Structure as Legitimacy Condition of Decisions",
+    "tier": 1,
+    "description": "複雑系の予測・配分を人間が検証できる形(木構造・説明可能な仲介層)に写像することが、意思決定の正当性と責任帰属の前提となる。",
+    "mechanisms": [
+      "構造の可視化による検証可能性",
+      "複雑性と人間認知の形態的不整合",
+      "説明を介した責任の接続"
+    ],
+    "related_domains": [
+      "operations_research",
+      "organization_science"
+    ],
+    "source_files": [
+      "raw/papers/operations_research/tree-like-pairwise-interaction-networks.md",
+      "raw/papers/operations_research/an-explainable-ai-driven-multi-objective-framework-for-predictive-workforce-plan.md",
+      "raw/papers/operations_research/polymer-informatics-a-review-of-ai-driven-structure-property-modeling-and-materi.md",
+      "raw/papers/organization_science/the-new-normal-collaborative-information-behavior-with-generative-ai.md",
+      "raw/papers/organization_science/human-ai-and-organizational-performance-haop-a-safety-framework-for-the-ai-era.md",
+      "raw/papers/organization_science/regulating-the-frontier-model-level-evidence-from-the-eu-ai-act.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "peer-credential-algebra-and-delegation-boundaries",
+    "title_ja": "対等行為者間の権限代数と委譲境界",
+    "title_en": "Peer Credential Algebra and Delegation Boundaries",
+    "tier": 1,
+    "description": "人間とAIを構造的に対等な行為者とみなし、権限を集合演算で合成することで、委譲・信頼・拒否権の配分条件を形式化する。",
+    "mechanisms": [
+      "権限の合成(単調縮小の一般化)",
+      "委譲による信頼の非対称性",
+      "境界での判断権保持"
+    ],
+    "related_domains": [
+      "operations_research",
+      "organization_science"
+    ],
+    "source_files": [
+      "raw/papers/operations_research/the-game-of-peers-toward-a-credential-algebra-for-human-ai-actor-networks.md",
+      "raw/papers/organization_science/when-should-your-team-override-ai-a-trust-calibration-routine.md",
+      "raw/papers/organization_science/from-intelligence-to-delegation-in-human-agent-teams-in-software-development.md",
+      "raw/papers/organization_science/human-ai-and-organizational-performance-haop-a-safety-framework-for-the-ai-era.md",
+      "raw/papers/organization_science/coupled-human-artificial-team-cognition-a-restricted-methodological-archive-2026.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "capability-as-system-boundary-property-and-composed-intelligence",
+    "title_ja": "システム境界に帰属する能力と合成知能",
+    "title_en": "Capability as System-Boundary Property and Composed Intelligence",
+    "tier": 1,
+    "description": "知能・能力は単一構成要素ではなく、複製された下位ユニット・ツール・記憶・人間が結合したシステム全体の合意形成と統合から創発する。",
+    "mechanisms": [
+      "複数ユニットの合意による創発",
+      "結合系への能力の帰属",
+      "分散認知と経路依存的統合"
+    ],
+    "related_domains": [
+      "operations_research",
+      "organization_science"
+    ],
+    "source_files": [
+      "raw/papers/operations_research/the-thousand-brains-theory-20-an-extension-for-the-long-range-connections-of-the.md",
+      "raw/papers/organization_science/the-new-normal-collaborative-information-behavior-with-generative-ai.md",
+      "raw/papers/organization_science/the-new-ai-architect-composing-intelligence-through-ai-technology-stacks.md",
+      "raw/papers/organization_science/ai-driven-organizational-change-a-competency-based-framework-for-classifying-ai-.md",
+      "raw/papers/organization_science/coupled-human-artificial-team-cognition-a-restricted-methodological-archive-2026.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "hidden-skill-erosion-under-cognitive-infrastructure-dependence",
+    "title_ja": "認知インフラ依存下での潜在的な能力侵食",
+    "title_en": "Hidden Skill Erosion under Cognitive Infrastructure Dependence",
+    "tier": 1,
+    "description": "補助が日常作業を吸収すると習熟機会と判断の基礎が失われ、生産性指標に隠れたまま、途絶時に脆弱性として顕在化する。",
+    "mechanisms": [
+      "学習機会の代替による技能減衰",
+      "指標の隠蔽効果",
+      "依存による基礎能力への復帰不能"
+    ],
+    "related_domains": [
+      "organization_science"
+    ],
+    "source_files": [
+      "raw/papers/organization_science/it-workforce-resilience-ai-governance-and-skill-readiness.md",
+      "raw/papers/organization_science/the-invisible-gap-how-ai-productivity-masks-eroding-expertise-in-knowledge-work-.md",
+      "raw/papers/organization_science/when-chatgpt-is-down-so-are-our-brains-cognitive-fragility-following-ai-disrupti.md",
+      "raw/papers/organization_science/unpacking-the-complexity-of-treatment-adherence-in-cancer-care-a-conceptual-map-.md",
+      "raw/papers/organization_science/generative-ai-epistemic-authority-and-knowledge-governance-tension-implications-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "adaptive-control-under-nonstationarity-and-exploration-exploitation-tension",
+    "title_ja": "非定常環境下の適応制御と探索-活用の緊張",
+    "title_en": "Adaptive Control under Nonstationarity and Exploration-Exploitation Tension",
+    "tier": 1,
+    "description": "静的ルールは環境の非定常性で破綻し、逐次学習による動的適応と、探索と活用の両立管理(両利き)が不可避となる。",
+    "mechanisms": [
+      "静的規則から動的適応への転換",
+      "探索と活用のジレンマ",
+      "感知→判断→再構成の連鎖"
+    ],
+    "related_domains": [
+      "operations_research",
+      "organization_science"
+    ],
+    "source_files": [
+      "raw/papers/operations_research/reply-on-rc1.md",
+      "raw/papers/operations_research/reply-on-rc2.md",
+      "raw/papers/operations_research/online-learning-based-adaptive-hybrid-benders-decomposition-for-risk-averse-opti.md",
+      "raw/papers/organization_science/microfoundations-of-dynamic-capabilities-in-artificial-intelligence-adoption-for.md",
+      "raw/papers/organization_science/artificial-intelligence-decision-quality-and-supply-chain-performance-a-dynamic-.md",
+      "raw/papers/organization_science/enacting-it-ambidexterity-in-organizational-ai-embedding.md",
+      "raw/papers/organization_science/enterprise-architecture-as-an-enabler-of-organisational-ambidexterity-for-sustai.md",
+      "raw/papers/organization_science/dynamic-capabilities-for-ai-enabled-exploration-antecedents-mechanisms-and-innov.md",
+      "raw/papers/organization_science/how-ai-transforms-it-enabled-dynamic-capabilities-to-strengthen-organizational-r.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "technology-as-amplifier-of-institutional-tension-and-capability-gap",
+    "title_ja": "技術導入による既存制度的緊張の増幅と能力ギャップ",
+    "title_en": "Technology as Amplifier of Institutional Tension and Capability Gap",
+    "tier": 1,
+    "description": "新技術は新規の力学ではなく既存の制度・組織上の緊張を増幅する触媒であり、導入速度と人材・ガバナンス能力の乖離を露呈させる。",
+    "mechanisms": [
+      "既存緊張の触媒的増幅",
+      "導入速度と吸収能力の非対称",
+      "コンピテンシー構成の再配置"
+    ],
+    "related_domains": [
+      "organization_science"
+    ],
+    "source_files": [
+      "raw/papers/organization_science/ai-and-open-data-policy-implementation-in-saudi-arabia-institutional-processes-a.md",
+      "raw/papers/organization_science/unpacking-the-complexity-of-treatment-adherence-in-cancer-care-a-conceptual-map-.md",
+      "raw/papers/organization_science/it-workforce-resilience-ai-governance-and-skill-readiness.md",
+      "raw/papers/organization_science/knowledge-management-and-aidriven-green-practices-for-sustainable-performance.md",
+      "raw/papers/organization_science/ai-driven-organizational-change-a-competency-based-framework-for-classifying-ai-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "environment-dependent-prosociality-and-human-ai-social-boundary",
+    "title_ja": "環境の豊かさに依存する向社会性と人間-AI社会境界",
+    "title_en": "Environment-Dependent Prosociality and the Human-AI Social Boundary",
+    "tier": 2,
+    "description": "資源環境が行動選択を変える採餌的原理は、相手が人間かAIかで社会的適用境界が分かれ、協調の動機構造が非対称になる。",
+    "mechanisms": [
+      "環境の豊かさによる行動閾値の変化",
+      "相手属性による社会的動機の分岐"
+    ],
+    "related_domains": [
+      "operations_research"
+    ],
+    "source_files": [
+      "raw/papers/operations_research/poor-environments-make-people-more-prosocial-to-humans-but-not-to-ai-a-social-bo.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
   }
 ]
