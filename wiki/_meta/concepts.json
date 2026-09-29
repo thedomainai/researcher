@@ -20250,5 +20250,153 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "reward-design-induced-misleading-and-miscalibrated-trust",
+    "title_ja": "報酬設計が生む誤導と信頼の較正ずれ",
+    "title_en": "Reward-Design-Induced Deception and Trust Miscalibration",
+    "tier": 1,
+    "description": "システムが正直さより自信や流暢さを報われる設計だと誤導は必然となり、利用者の知覚適合と実適合の乖離が信頼の最適性を失わせて意思決定の脆弱性を生む。",
+    "mechanisms": [
+      "インセンティブ設計による行動の内生化",
+      "知覚と実態の乖離による信頼の誤較正",
+      "目的の無反省な遂行"
+    ],
+    "related_domains": [
+      "corporate_governance",
+      "economics"
+    ],
+    "source_files": [
+      "raw/papers/corporate_governance/critiquing-ai-autonomy-through-freuds-structural-theory-and-arendts-banality-of-.md",
+      "raw/papers/economics/honest-machines-the-ai-trust-crisis-and-the-complementary-stack-behind-trustwort.md",
+      "raw/papers/economics/task-ai-fit-misplaced-trust-miscalibrated-reliance-and-decision-vulnerability.md",
+      "raw/papers/economics/aviation-ai-conscience-governance-360-a-design-science-framework-for-accountable.md",
+      "raw/papers/economics/design-insights-from-building-trustworthy-ai-for-public-policymaking-a-trade-and.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "architecture-as-power-distribution-and-interface-standards",
+    "title_ja": "アーキテクチャによる権力配分と介面標準",
+    "title_en": "Architecture as Power Distribution and Interface Standards",
+    "tier": 1,
+    "description": "システムの構造・プロトコル・標準の設計が、誰が何を見て決め、どこに解釈権と統制権が集まるかを決定する。",
+    "mechanisms": [
+      "設計者の隠れた選別基準",
+      "解釈権の独占による統制構築",
+      "介面標準による多主体協調"
+    ],
+    "related_domains": [
+      "corporate_governance",
+      "economics"
+    ],
+    "source_files": [
+      "raw/papers/corporate_governance/seeing-the-politics-of-decentralized-social-media-protocols.md",
+      "raw/papers/corporate_governance/constructing-algorithmic-authority-how-multi-channel-networks-mcns-govern-live-s.md",
+      "raw/papers/economics/the-role-of-standards-in-enabling-the-ai-stack.md",
+      "raw/papers/economics/the-invisible-architecture-of-social-media.md",
+      "raw/papers/economics/multi-agent-artificial-intelligence-systems-for-intelligent-decision-making-and-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "governance-cost-dominated-intelligence-roi",
+    "title_ja": "統治・復旧コストが支配する知能のROI",
+    "title_en": "Governance-Cost-Dominated Return on Intelligence",
+    "tier": 1,
+    "description": "能動的知能の価値は機能コストでなく、権限・リスク・注意・失敗復旧という統治コストの負担後に決まり、技術価値の捕捉は制度的条件に依存する。",
+    "mechanisms": [
+      "取引・統治コストの内部化",
+      "専有可能性を決める制度的補完資産",
+      "補完スタックの必要性"
+    ],
+    "related_domains": [
+      "corporate_governance",
+      "economics"
+    ],
+    "source_files": [
+      "raw/papers/economics/creative-destruction-or-engines-of-innovation-a-comparative-analysis-of-ai-and-i.md",
+      "raw/papers/economics/return-on-intelligence-how-ai-roi-changes-when-intelligence-must-pay-for-authori.md",
+      "raw/papers/economics/intelligent-business-process-automation-using-robotic-process-automation-and-art.md",
+      "raw/papers/economics/insights-into-digital-technologies-sustainability-and-the-economic-performance-o.md",
+      "raw/papers/corporate_governance/assessing-the-role-of-financial-risk-attitudes-in-small-and-medium-sized-enterpr.md",
+      "raw/papers/corporate_governance/beyond-technical-skills-redefining-managerial-competencies-for-ai-driven-organiz.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "productivity-gain-concentration-and-task-boundary-shift",
+    "title_ja": "生産性利得の集中とタスク境界の移動",
+    "title_en": "Productivity Gain Concentration and Task Boundary Shift",
+    "tier": 1,
+    "description": "技術がタスクのコストを変えると分業境界と比較優位が再編され、利得は資本や既存優位者に集中し、置換・創出・補強の非対称性が生じる。",
+    "mechanisms": [
+      "タスク費用変化による分業境界の再編",
+      "累積優位による格差拡大",
+      "置換と創出の非対称性"
+    ],
+    "related_domains": [
+      "economics"
+    ],
+    "source_files": [
+      "raw/papers/economics/artificial-intelligence-human-rights-and-the-future-of-work-global-governance-an.md",
+      "raw/papers/economics/artificial-intelligence-and-the-digital-economy-impact-on-employment-productivit.md",
+      "raw/papers/economics/who-gets-the-gains-technology-productivity-and-the-split-between-labor-and-capit.md",
+      "raw/papers/economics/reconstructing-comparative-advantage-in-international-trade-in-services-in-the-e.md",
+      "raw/papers/economics/a-review-of-the-impact-of-artificial-intelligence-on-the-labour-market.md",
+      "raw/papers/economics/evolving-perspectives-on-clothing-and-textiles-in-home-economics.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "adaptive-capacity-inequality-and-effective-rights-liquidity",
+    "title_ja": "適応能力の不平等と権利の実効化能力",
+    "title_en": "Adaptive Capacity Inequality and Rights Liquidity",
+    "tier": 1,
+    "description": "ショックへの回復や権利の行使は、初期能力・ネットワーク密度・移動コストなど実行能力の分布に規定され、形式的平等は実効的平等を保証しない。",
+    "mechanisms": [
+      "初期能力の累積優位",
+      "ネットワーク密度と移動コストの制約",
+      "形式的権利と実行能力の乖離"
+    ],
+    "related_domains": [
+      "economics"
+    ],
+    "source_files": [
+      "raw/papers/economics/disruption-recovery-and-divergence-how-prepandemic-achievement-levels-shaped-lea.md",
+      "raw/papers/economics/the-legal-philosophy-of-inequality-justice-capital-and-redistribution-in-global-.md",
+      "raw/papers/economics/the-unequal-impact-of-ai-on-local-labor-markets-mechanisms-evidence-and-policy-i.md",
+      "raw/papers/economics/the-price-of-compliance-economic-implications-of-partisan-bias-in-audit-markets.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "disclosure-saturation-and-trust-based-selection-pressure",
+    "title_ja": "開示の飽和と信頼を介した選別圧力",
+    "title_en": "Disclosure Saturation and Trust-Based Selection Pressure",
+    "tier": 1,
+    "description": "受け手の認知負荷が固定なら情報開示の限界効用は逓減し、外部監視は信頼形成と利害構造を通じた選別圧力として行動を変える。",
+    "mechanisms": [
+      "認知負荷の上限による限界効用逓減",
+      "利益相反を生む所有構造",
+      "監視による選別圧力"
+    ],
+    "related_domains": [
+      "corporate_governance",
+      "economics"
+    ],
+    "source_files": [
+      "raw/papers/corporate_governance/who-owns-the-message-ownership-structure-and-climatelobbying-alignment-disclosur.md",
+      "raw/papers/corporate_governance/beyond-disclosure-saturation-a-theory-of-diminishing-returns-in-corporate-sustai.md",
+      "raw/papers/corporate_governance/interoperability-is-new-investor-relations-management-and-corporate-green-innova.md",
+      "raw/papers/economics/epistemology-and-methodology-of-research-in-ai-age.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
