@@ -19054,5 +19054,151 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "epistemic-labor-displacement-under-delegation",
+    "title_ja": "委譲による認識的労働の代替と判断力の空洞化",
+    "title_en": "Epistemic Labor Displacement under Delegation",
+    "tier": 1,
+    "description": "外部エージェントへ知的作業を委譲すると、成果と同時に判断力を形成する認識的労働そのものが失われ、依存度に応じて内発的統制感と複数性が縮小する。",
+    "mechanisms": [
+      "認知的オフロード",
+      "スキル代替ループ",
+      "メタ認知的較正の低下"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/epistemic-dependence-in-ai-mediated-learning.md",
+      "raw/papers/cognitive_science/developing-the-haki-model-as-a-conceptual-framework-for-ai-assisted-academic-res.md",
+      "raw/papers/cognitive_science/cognitive-offloading-and-metacognitive-calibration-in-generative-ai-mediated-doc.md",
+      "raw/papers/cognitive_science/multimodal-generative-ai-for-pre-practicum-mental-health-support-competency-deve.md",
+      "raw/papers/cognitive_science/generative-ai-in-education-a-humanai-pedagogical-agency-framework-for-learning-c.md",
+      "raw/papers/cognitive_science/cognitive-processes-in-developing-techno-pedagogical-competency-among-prospectiv.md",
+      "raw/papers/cognitive_science/between-cognitive-offloading-and-critical-autonomy-a-systematic-review-of-the-ep.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "capability-profile-based-task-allocation",
+    "title_ja": "能力プロファイルに基づく役割分担と協働設計",
+    "title_en": "Capability-Profile-Based Task Allocation",
+    "tier": 1,
+    "description": "主体ごとに異なる能力の輪郭を測り、自動化・共有・人間保持を配分する設計は、技術形態が変わっても成立する。",
+    "mechanisms": [
+      "能力の非対称性",
+      "補完性による分業",
+      "段階的スキャフォルディング"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/using-profiles-of-cognitive-capability-to-assess-ai-suitability-for-workplace-ta.md",
+      "raw/papers/cognitive_science/does-ai-strengthen-business-leadership-decision-making-literature-review.md",
+      "raw/papers/cognitive_science/insighttoast-proactive-information-retrieval-glanceable-visualization-in-the-sid.md",
+      "raw/papers/cognitive_science/towards-cognitive-process-aware-proactive-writing-support.md",
+      "raw/papers/cognitive_science/landmarklens-predicting-and-presenting-effective-landmarks-for-mixed-reality-urb.md",
+      "raw/papers/cognitive_science/ideaforge-ai-a-dual-mode-auditable-research-question-laboratory-for-converting-s.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "human-continuity-and-orchestration-role",
+    "title_ja": "文脈継続性の提供とオーケストレーション役割",
+    "title_en": "Continuity Provision and Orchestration Role",
+    "tier": 1,
+    "description": "状態を保持できない主体が多数相互作用する系では、文脈・軌跡・規範を維持し調整する機能が外部化され、特定の担い手に集中する。",
+    "mechanisms": [
+      "コンテキスト管理の外部化",
+      "調整コストの集中",
+      "ドリフト補正"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/towards-general-embodied-intelligence-integrating-large-language-models-knowledg.md",
+      "raw/papers/cognitive_science/algorithmic-intentionality-a-distributed-cognition-framework.md",
+      "raw/papers/cognitive_science/primary-continuity-provider-theory-the-human-role-as-present-day-structural-requ.md",
+      "raw/papers/cognitive_science/the-orchestrator-role-in-human-ai-evolution-ai-intelligence-orchestration-as-an-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "multidimensional-trust-formation-and-oversight",
+    "title_ja": "多次元的な信頼形成と監督による自律性の媒介",
+    "title_en": "Multidimensional Trust Formation and Oversight",
+    "tier": 1,
+    "description": "信頼は認知経路と感情経路の二重過程で形成され、透明性・人間参加型監督・来歴が信頼と自律性を媒介する。一方で欺瞞的シグナルへの脆弱性も生む。",
+    "mechanisms": [
+      "二重経路の信頼形成",
+      "透明性と監督による媒介",
+      "シグナル依存の脆弱性"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/multidimensional-trust-perceptions-of-ai-medical-conversational-agents-framework.md",
+      "raw/papers/cognitive_science/governing-algorithms-empowering-people-how-ethical-ai-oversight-shapes-trust-tec.md",
+      "raw/papers/cognitive_science/generative-ai-and-linguistic-mediation-relational-knowledge-expression-dynamics-.md",
+      "raw/papers/cognitive_science/human-cognition-deceptive-cues-and-ai-a-computational-study-of-phishing-decision.md",
+      "raw/papers/cognitive_science/understanding-user-acceptance-of-ai-medical-conversational-agents-through-dual-p.md",
+      "raw/papers/cognitive_science/developing-the-haki-model-as-a-conceptual-framework-for-ai-assisted-academic-res.md",
+      "raw/papers/cognitive_science/auditing-contextual-bias-in-human-ball-strike-calls-using-kbos-automated-umpirin.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "role-asymmetry-projection-in-simulated-interaction",
+    "title_ja": "学習データの役割非対称性の射影と相互作用シミュレーションの妥当性",
+    "title_en": "Role Asymmetry Projection in Simulated Interaction",
+    "tier": 1,
+    "description": "学習系の出力は訓練分布の役割の偏り(過剰協力など)を写像するため、開示ゲートなど条件付き設計が評価妥当性と創発的社会挙動の再現に必要となる。",
+    "mechanisms": [
+      "分布バイアスの射影",
+      "条件付き情報開示",
+      "個体間相互作用からの創発"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/disclosure-gated-user-simulation-for-companion-agent-evaluation.md",
+      "raw/papers/cognitive_science/investigating-assistant-bias-in-llm-user-simulators-using-a-role-vector.md",
+      "raw/papers/cognitive_science/beyond-static-responses-multi-agent-llm-systems-as-a-new-paradigm-for-social-sci.md",
+      "raw/papers/cognitive_science/shaping-the-future-of-generative-ai-for-black-communities-a-frame-analysis-of-pu.md",
+      "raw/papers/cognitive_science/cooperation-or-ai-driven-self-reliance-supplier-channel-exit-decisions-in-live-s.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "reward-driven-skill-acquisition-and-embodied-constraints",
+    "title_ja": "報酬による学習再構成と身体的制約下のスキル獲得",
+    "title_en": "Reward-Driven Skill Acquisition under Embodied Constraints",
+    "tier": 1,
+    "description": "学習は報酬信号が刺激-行動結合へ再構成されることで進み、直接経験の不可替性と物理的・生体的制約が高リスク技能習得の設計条件になる。",
+    "mechanisms": [
+      "予測誤差による学習",
+      "報酬信号の再構成",
+      "身体的制約と安全な模擬のトレードオフ"
+    ],
+    "related_domains": [
+      "cognitive_science"
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/myomechanix-biomechanically-grounded-compositional-skilled-activity-understandin.md",
+      "raw/papers/cognitive_science/purkinje-cells-in-crus-i-and-ii-encode-the-visual-stimulus-and-the-impending-cho.md",
+      "raw/papers/cognitive_science/multimodal-generative-ai-for-pre-practicum-mental-health-support-competency-deve.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
