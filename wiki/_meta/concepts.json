@@ -21729,5 +21729,136 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "irreversible-capability-loss-in-slow-recovery-fallbacks",
+    "title_ja": "低速回復型フォールバックの不可逆的能力喪失(ヒステリシス)",
+    "title_en": "Hysteresis of Slow-Recovering Fallback Capability",
+    "tier": 1,
+    "description": "基礎能力の形成経路が停止・空洞化すると、再構築に年単位を要するためバックアップとしての人的能力が不可逆的に失われ、依存と脆弱性が固定化する。",
+    "mechanisms": [
+      "ヒステリシス(履歴依存性)",
+      "形成経路の遮断による能力枯渇",
+      "依存の固定化とレジリエンス低下"
+    ],
+    "related_domains": [
+      "human_ai_collaboration",
+      "human_resource_management"
+    ],
+    "source_files": [
+      "raw/papers/human_ai_collaboration/understanding-automation-bias-in-humanai-collaboration-in-healthcare-a-scoping-r.md",
+      "raw/papers/human_resource_management/when-the-backup-takes-a-decade-ai-dependency-active-human-fallback-and-hysteresi.md",
+      "raw/papers/human_resource_management/ai-and-work-loneliness-study.md",
+      "raw/papers/human_resource_management/ai-and-the-future-of-software-engineering-expertise-employment-and-policy.md",
+      "raw/papers/human_resource_management/human-ai-co-apprenticeships-and-the-transformation-of-training-in-aviation-groun.md",
+      "raw/papers/human_resource_management/transforming-enterprise-sales-order-management-through-ai-driven-automation-a-fr.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "verifiable-signal-erosion-and-artificial-credibility",
+    "title_ja": "検証可能シグナルの消失と人工的信頼性の生成",
+    "title_en": "Verifiable Signal Erosion and Artificial Credibility",
+    "tier": 1,
+    "description": "生成コストが下がると能力・努力・品質を示すシグナルが流暢さと乖離し、無能の隠蔽や評価の劣化が生じ、価値は検証と責任へ移動する。",
+    "mechanisms": [
+      "シグナルと実質の乖離",
+      "情報の非対称性",
+      "検証コストへの価値シフト"
+    ],
+    "related_domains": [
+      "human_ai_collaboration",
+      "human_resource_management"
+    ],
+    "source_files": [
+      "raw/papers/human_resource_management/establishing-gender-ground-truth-the-epistemic-practices-of-ai-work.md",
+      "raw/papers/human_resource_management/ai-assisted-incompetence-and-fraud-in-it-separating-real-talent-from-artificial-.md",
+      "raw/papers/human_resource_management/generative-ai-and-the-reconfiguration-of-the-digital-gig-economy-an-integrative-.md",
+      "raw/papers/human_resource_management/artificial-intelligence-in-football-talent-identification-a-systematic-review.md",
+      "raw/papers/human_resource_management/beware-of-explanations-of-ai.md",
+      "raw/papers/human_resource_management/ai-driven-talent-management-human-centered-competency-based-recruitment.md",
+      "raw/papers/human_ai_collaboration/shopping-by-algorithm-how-agentic-ai-deploys-human-heuristics-as-a-surrogate-con.md",
+      "raw/papers/human_ai_collaboration/eadc-evaluation-of-advanced-and-deep-level-compliance-in-large-language-models.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "speed-accountability-tiered-control-for-autonomous-agents",
+    "title_ja": "自律エージェントの速度と責任を両立する階層的統制",
+    "title_en": "Tiered Control Balancing Machine Speed and Human Accountability",
+    "tier": 1,
+    "description": "意思決定を加速する自律システムでは、権限の定義・実行時強制・撤回を担う不変量と、説明に基づく意図的な停止点を組み込み、責任の所在を維持する。",
+    "mechanisms": [
+      "権限委譲と撤回可能性",
+      "熟慮のための意図的摩擦",
+      "多層的な統制とアカウンタビリティ"
+    ],
+    "related_domains": [
+      "human_resource_management"
+    ],
+    "source_files": [
+      "raw/papers/human_resource_management/balancing-speed-and-slow-decision-making-agility-the-role-of-ai-explainability-a.md",
+      "raw/papers/human_resource_management/ai-governance-implications-and-research-directions-for-organization-and-human-re.md",
+      "raw/papers/human_resource_management/sovereign-ai-orchestration-control-framework-machine-speed-controls-with-human-a.md",
+      "raw/papers/human_resource_management/co-determination-as-an-anticipatory-practice-german-works-councils-and-the-democ.md",
+      "raw/papers/human_resource_management/artificial-intelligence-as-a-co-worker-transforming-employment-skills-productivi.md",
+      "raw/papers/human_resource_management/emergent-learner-agency-in-implicit-human-ai-collaboration-how-supportive-and-co.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "recursive-loops-and-efficiency-dividend-absorption",
+    "title_ja": "再帰的改善ループと効率配当の吸収",
+    "title_en": "Recursive Improvement Loops and Efficiency Dividend Absorption",
+    "tier": 1,
+    "description": "自己改善や効率化のループは、収束性が未解明なまま、期待値の適応により配当が相殺される負のフィードバックや、再配分判断の欠如を生む。",
+    "mechanisms": [
+      "フィードバックループ",
+      "期待値適応による配当の相殺",
+      "収束性と限界の未解明"
+    ],
+    "related_domains": [
+      "human_ai_collaboration",
+      "human_resource_management"
+    ],
+    "source_files": [
+      "raw/papers/human_ai_collaboration/recursive-self-improvement-of-ai-research-agents.md",
+      "raw/papers/human_resource_management/beyond-more-papers-reinvesting-ais-research-efficiency-dividend-in-international.md",
+      "raw/papers/human_resource_management/research-on-the-problems-of-artificial-intelligence-empowering-comprehensive-bud.md",
+      "raw/papers/human_resource_management/research-on-the-impact-of-industrial-intelligence-on-export-resilience.md",
+      "raw/papers/human_resource_management/impact-pathway-beyond-automation-and-augmentation-a-relational-ontology-of-ai-in.md",
+      "raw/papers/human_resource_management/analysis-of-generative-ai-acceptance-using-the-technology-acceptance-model-tam-a.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "excess-safety-and-agreeable-partner-filtering-loss",
+    "title_ja": "過度な支持環境による機能的フィルタリングの喪失",
+    "title_en": "Loss of Functional Filtering under Excess Support and Agreeableness",
+    "tier": 1,
+    "description": "心理的安全性やAIの支持的・追従的な振る舞いが行き過ぎると批判的選別や規範が弱まり、一方で適度な異論や関係性の質が主体性を支える。",
+    "mechanisms": [
+      "二重経路による逆効果",
+      "批判的摩擦の欠如",
+      "認知負荷下の権威依存"
+    ],
+    "related_domains": [
+      "human_ai_collaboration",
+      "human_resource_management"
+    ],
+    "source_files": [
+      "raw/papers/human_resource_management/how-safe-is-too-safe-a-dual-pathway-framework-for-understanding-the-dark-side-of.md",
+      "raw/papers/human_resource_management/better-leaders-safer-spaces-relationship-between-coaches-identity-leadership-psy.md",
+      "raw/papers/human_ai_collaboration/enhancing-collaboration-quality-in-adaptive-learning-systems-perspectives-on-hum.md",
+      "raw/papers/human_resource_management/emergent-learner-agency-in-implicit-human-ai-collaboration-how-supportive-and-co.md",
+      "raw/papers/human_ai_collaboration/understanding-automation-bias-in-humanai-collaboration-in-healthcare-a-scoping-r.md",
+      "raw/papers/human_resource_management/the-role-of-employer-branding-in-attracting-top-talent-in-the-industry-50-era.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
