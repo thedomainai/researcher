@@ -21251,5 +21251,185 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "narrative-mediated-technology-institutionalization",
+    "title_ja": "ナラティブ媒介による技術の制度化",
+    "title_en": "Narrative-Mediated Technology Institutionalization",
+    "tier": 1,
+    "description": "技術の採択・統治・評価は客観的性能ではなく、利害と信念が織りなすナラティブが経験空間を因果構造へ組織化し、集団的実践を反復化する過程で規定される。",
+    "mechanisms": [
+      "社会的構成によるナラティブ形成",
+      "利害と信念による枠組み固定",
+      "二項対立による役割配置の反転",
+      "権力的支配の制度化"
+    ],
+    "related_domains": [
+      "history_of_technology"
+    ],
+    "source_files": [
+      "raw/papers/history_of_technology/automation-in-the-age-of-artificial-intelligence.md",
+      "raw/papers/history_of_technology/why-social-inclusion-matters-in-sustainable-intensification.md",
+      "raw/papers/history_of_technology/dialectic-of-salvation-the-circulation-of-narrative-and-structure-a-treatise-in-.md",
+      "raw/papers/history_of_technology/weaponized-ai-narratives-fiction-or-prediction.md",
+      "raw/papers/history_of_technology/no-more-work-to-do-american-education-after-ai.md",
+      "raw/papers/history_of_technology/beyond-the-binary-definition-of-stupid-and-smart-education-towards-smupid-educat.md",
+      "raw/papers/history_of_technology/the-power-of-control-of-communication-technologies-the-marconi-case-in-historica.md",
+      "raw/papers/history_of_technology/from-disruption-to-agency-ai-computing-cultures-and-the-future-of-digital-ethics.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "recurrent-automation-deskilling-dilemma",
+    "title_ja": "自動化と脱スキル化の反復ジレンマ",
+    "title_en": "Recurrent Automation–Deskilling Dilemma",
+    "tier": 1,
+    "description": "自動化は技術的利得と人間的能力・主体性の喪失を不可分に伴い、労働・教育・専門性の目的と社会的配分の再定義を歴史的に反復して迫る。",
+    "mechanisms": [
+      "認知的オフローディングによる能力代替",
+      "経路依存的な反復パターン",
+      "労働と富配分の制度的結合の解体",
+      "技術利得と人間的損失のトレードオフ"
+    ],
+    "related_domains": [
+      "history_of_technology",
+      "human_ai_collaboration"
+    ],
+    "source_files": [
+      "raw/papers/history_of_technology/21-integrating-practical-skills-in-higher-education-challenges-and-solutions.md",
+      "raw/papers/history_of_technology/from-automation-to-symbiosis-in-industry-50-manufacturing-the-human-centered-ai-.md",
+      "raw/papers/history_of_technology/no-more-work-to-do-american-education-after-ai.md",
+      "raw/papers/history_of_technology/towers-of-babel-academic-labor-in-the-age-of-ai.md",
+      "raw/papers/history_of_technology/autonomous-revolution-and-the-reconstruction-of-social-forms.md",
+      "raw/papers/human_ai_collaboration/an-experiment-on-the-effects-of-conversational-ai-assessments-on-delayed-knowled.md",
+      "raw/papers/human_ai_collaboration/when-ai-learns-the-worker-enterprise-ai-and-the-institutionalization-of-expertis.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "sequence-and-perceived-agency-in-collaboration",
+    "title_ja": "協働における順序と行為者認知の効果",
+    "title_en": "Sequence and Perceived Agency in Collaboration",
+    "tier": 1,
+    "description": "協働の成果は能力そのものより、誰が先に関与するかという順序と相手を何者と認知するかが規定する公正性認知・生理反応・満足度に左右される。",
+    "mechanisms": [
+      "順序効果による公正性認知の形成",
+      "行為者認知による信頼の変調",
+      "不確実性下の心理的反応",
+      "共有言語による意図統合"
+    ],
+    "related_domains": [
+      "hci",
+      "human_ai_collaboration"
+    ],
+    "source_files": [
+      "raw/papers/hci/negotiating-control-rethinking-agency-in-architectural-design-through-human-ai-i.md",
+      "raw/papers/human_ai_collaboration/who-leads-the-dance-individual-perceptions-of-order-in-human-ai-collaboration.md",
+      "raw/papers/human_ai_collaboration/covert-perception-of-ai-adversely-impacts-team-performance-and-changes-physiolog.md",
+      "raw/papers/human_ai_collaboration/adapting-teams-to-humanai-collaboration-purposive-programs-and-distinction-based.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "judgment-residual-and-accountability-gap",
+    "title_ja": "判断の残余と説明責任ギャップ",
+    "title_en": "Judgment Residual and Accountability Gap",
+    "tier": 1,
+    "description": "不透明性・文脈依存・権力分散により、機械が客観的タスクを担っても解釈・社会的意味・責任の判断は人間に残り、相互統制を伴う説明責任の設計が必要となる。",
+    "mechanisms": [
+      "認識的限界による不透明性",
+      "責任の分散と希薄化",
+      "相互制御による説明責任構造",
+      "解釈・文脈判断の人間残余"
+    ],
+    "related_domains": [
+      "hci",
+      "history_of_technology"
+    ],
+    "source_files": [
+      "raw/papers/hci/the-ethics-of-artificial-intelligence-in-military-operations.md",
+      "raw/papers/hci/can-vision-language-models-analyze-human-centered-video-mapping-model-capabiliti.md",
+      "raw/papers/history_of_technology/perspective-chapter-from-ledgers-to-algorithms-a-historical-and-contemporary-gui.md",
+      "raw/papers/history_of_technology/weaponized-ai-narratives-fiction-or-prediction.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "representation-and-evaluation-validity-distortion",
+    "title_ja": "表現と評価の妥当性歪み",
+    "title_en": "Representation and Evaluation Validity Distortion",
+    "tier": 1,
+    "description": "AIの生成・評価は学習元の偏りを再現・増幅し、表層的指標(追従と受容の混同など)が実質と乖離することで、正義と構成的妥当性を損なう。",
+    "mechanisms": [
+      "バイアスの再生産と増幅",
+      "測定における構成的妥当性の欠如",
+      "多次元的品質基準の混同",
+      "表層指標と実質の乖離"
+    ],
+    "related_domains": [
+      "hci"
+    ],
+    "source_files": [
+      "raw/papers/hci/intersectional-gender-representation-in-corporate-social-media-and-corresponding.md",
+      "raw/papers/hci/stepping-into-the-margins-how-readers-want-ai-to-generate-footnotes.md",
+      "raw/papers/hci/receptiveness-not-sycophancy-distinguishing-engagement-from-deference-in-languag.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "cognitive-infrastructure-and-recursive-tech-production",
+    "title_ja": "認知インフラ設計と技術の自己再帰",
+    "title_en": "Cognitive Infrastructure and Recursive Technology Production",
+    "tier": 1,
+    "description": "知識・知能の可能性は認識・記録・検索を可能にする基盤の設計に依存し、AIが自らの生産基盤に作用する再帰によって技術秩序と組織の自己観察が変容する。",
+    "mechanisms": [
+      "認知インフラによる可思考性の規定",
+      "自己再帰的フィードバックループ",
+      "知識の組織的資産化と権力再編",
+      "区別に基づく自己観察"
+    ],
+    "related_domains": [
+      "history_of_technology",
+      "human_ai_collaboration"
+    ],
+    "source_files": [
+      "raw/papers/history_of_technology/the-auditory-pathway-as-a-general-purpose-data-channel-capability-scope-physical.md",
+      "raw/papers/history_of_technology/when-digitalization-transforms-itself-ai-software-and-the-next-technical-order.md",
+      "raw/papers/history_of_technology/from-ibn-khaldūn-to-artificial-intelligence-the-historical-construction-of-world.md",
+      "raw/papers/human_ai_collaboration/when-ai-learns-the-worker-enterprise-ai-and-the-institutionalization-of-expertis.md",
+      "raw/papers/human_ai_collaboration/adapting-teams-to-humanai-collaboration-purposive-programs-and-distinction-based.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "context-dependent-adaptation-and-inclusive-diffusion",
+    "title_ja": "文脈依存の適応と包摂的普及",
+    "title_en": "Context-Dependent Adaptation and Inclusive Diffusion",
+    "tier": 2,
+    "description": "システムの成果は性能や多様性そのものでなく、環境条件・社会的位置づけ・利益配分設計・時間的劣化といった文脈が条件づける。",
+    "mechanisms": [
+      "条件依存的な多様性効果",
+      "利益配分設計による包摂",
+      "時間的劣化と不完全情報",
+      "歴史的現象の再定義による隠れた機構の顕在化"
+    ],
+    "related_domains": [
+      "history_of_technology",
+      "human_ai_collaboration"
+    ],
+    "source_files": [
+      "raw/papers/history_of_technology/why-social-inclusion-matters-in-sustainable-intensification.md",
+      "raw/papers/history_of_technology/coating-breakdown-prediction-for-ships-and-inspection-planning.md",
+      "raw/papers/history_of_technology/a-brief-history-of-metal-casting-from-the-creative-fire-to-the-science-of-high-t.md",
+      "raw/papers/human_ai_collaboration/climate-modulates-plant-diversity-effects-on-productivity-in-global-plant-mixtur.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
   }
 ]
