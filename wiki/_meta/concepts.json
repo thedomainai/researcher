@@ -18184,5 +18184,184 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "situated-evidence-over-decontextualized-benchmarks",
+    "title_ja": "文脈内証拠による評価:脱文脈的指標の限界",
+    "title_en": "Situated Evidence over Decontextualized Metrics",
+    "tier": 1,
+    "description": "システムの価値・リスクは実際の利用文脈での適応・工作・長期帰結でしか観測できず、開発用の脱文脈的指標や導入前検証だけでは導入判断の根拠として不十分である。",
+    "mechanisms": [
+      "文脈依存的妥当性",
+      "測定と実態の乖離",
+      "創発的帰結の観測不能性"
+    ],
+    "related_domains": [
+      "anthropology",
+      "behavioral_economics"
+    ],
+    "source_files": [
+      "raw/papers/anthropology/from-diagnosis-to-redesign-using-quantitative-ethnography-to-improve-multi-agent.md",
+      "raw/papers/anthropology/発表genai-and-education-in-the-humanities-insight-from-critical-and-social-realism.md",
+      "raw/papers/anthropology/epistemological-configurations-and-the-structural-positioning-of-ethnography-in-.md",
+      "raw/papers/anthropology/wild-thick-and-wicked-situated-evidence-on-ai-in-use-for-decisions-about-deployi.md",
+      "raw/papers/anthropology/problem-solving-ontologies-on-steroids-the-space-for-critique-in-policy-research.md",
+      "raw/papers/anthropology/specialeafhandling-scaling-ai-in-organisations-an-empirical-study-of-organisatio.md",
+      "raw/papers/behavioral_economics/from-ethical-discourse-to-empirical-evidence-how-ethical-concerns-are-operationa.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "accountability-requires-ontological-conditions",
+    "title_ja": "責任の帰属条件:判断・追跡可能性・承認",
+    "title_en": "Ontological Conditions of Accountability",
+    "tier": 1,
+    "description": "責任は主体が判断性・可追跡性・承認性を満たす場合にのみ成立し、能力や自動化の度合いに関わらず、責任の帰属先が空白化する構造的衝突が生じる。",
+    "mechanisms": [
+      "責任の帰属構造",
+      "判断権限の委譲と保持",
+      "不可逆コストの内部化"
+    ],
+    "related_domains": [
+      "anthropology",
+      "behavioral_economics"
+    ],
+    "source_files": [
+      "raw/papers/anthropology/the-sentientification-doctrine-beyond-artificial-intelligence-a-collaborative-fr.md",
+      "raw/papers/anthropology/co-constructing-ai-boundaries-agency-judgment-and-ethical-literacy-in-ai-mediate.md",
+      "raw/papers/anthropology/artificial-intelligence-and-bioethics-human-dignity-autonomy-and-responsibility-.md",
+      "raw/papers/anthropology/why-ai-cannot-sign.md",
+      "raw/papers/anthropology/ethical-legal-and-culturalanthropological-aspects-of-noncontact-vital-sign-monit.md",
+      "raw/papers/anthropology/human-culture-security-assessment-hcsa-an-ethnographic-framework-for-assessing-o.md",
+      "raw/papers/behavioral_economics/generative-ai-and-managerial-decision-making-reconfiguring-decision-processes-in.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "distributed-agency-and-assemblage-reconfiguration",
+    "title_ja": "分散的行為者性と組織アセンブリッジの再構成",
+    "title_en": "Distributed Agency and Organizational Reconfiguration",
+    "tier": 1,
+    "description": "小さな行為者の局所的参入が累積し、ワークフローと組織全体を再編する。スケールの成否は技術より組織整列・ガバナンス・横断性で決まり、多主体推論の質も相互の発話が規則に根拠を持つ構造に依存する。",
+    "mechanisms": [
+      "創発的再構成",
+      "組織整列とガバナンスの欠落",
+      "根拠づけられた相互作用構造"
+    ],
+    "related_domains": [
+      "anthropology",
+      "behavioral_economics"
+    ],
+    "source_files": [
+      "raw/papers/anthropology/from-diagnosis-to-redesign-using-quantitative-ethnography-to-improve-multi-agent.md",
+      "raw/papers/anthropology/the-office-with-ai-distributed-agency-and-the-making-of-a-new-sociotechnical-ass.md",
+      "raw/papers/anthropology/specialeafhandling-scaling-ai-in-organisations-an-empirical-study-of-organisatio.md",
+      "raw/papers/behavioral_economics/generative-ai-and-managerial-decision-making-reconfiguring-decision-processes-in.md",
+      "raw/papers/anthropology/a-triptych-of-care-an-anthropological-interpretation-of-morning-bedbaths-in-gree.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "choice-architecture-and-reliance-shaping",
+    "title_ja": "選択アーキテクチャによる依存・信頼の形成",
+    "title_en": "Choice Architecture and Reliance Shaping",
+    "tier": 1,
+    "description": "インターフェース、デフォルト、フレーミング、感情の一致は、人間にもAIにも作用して依存や信念を形成する。非公式な誘導と公式な統制は分離して作用し、統制が意図せぬ副作用を生むこともある。",
+    "mechanisms": [
+      "選択アーキテクチャ",
+      "非対称なフレーミング効果",
+      "統制の相互干渉"
+    ],
+    "related_domains": [
+      "behavioral_economics"
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/interface-design-as-behavioral-governance-how-gameful-cues-and-accountability-sh.md",
+      "raw/papers/behavioral_economics/do-you-feel-what-i-feel-how-profile-human-likeness-and-emotion-congruence-influe.md",
+      "raw/papers/behavioral_economics/strategic-integration-of-generative-ai-on-ecommerce-platforms-balancing-ai-with-.md",
+      "raw/papers/behavioral_economics/the-trust-paradox-in-green-nudges-in-the-indian-context-mediating-the-efficacy-o.md",
+      "raw/papers/behavioral_economics/framing-artificial-intelligence-risk-and-benefit-narratives-in-a-preregistered-e.md",
+      "raw/papers/behavioral_economics/ai-agents-are-sensitive-to-nudges.md",
+      "raw/papers/behavioral_economics/dual-process-model-of-consumer-responses-to-deceptive-patterns-in-e-commerce.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "capability-transparency-gap-and-trust-loss",
+    "title_ja": "能力と透明性の乖離による信頼の喪失と証拠境界の喪失",
+    "title_en": "Capability-Transparency Gap and Trust Erosion",
+    "tier": 1,
+    "description": "非対称リスク下では、システム能力が透明性・説明責任を上回ると忌避が生じる。また認知負荷下では推論と証拠の境界が見失われ、ヒューリスティクスが正確性より一貫性を優先する。",
+    "mechanisms": [
+      "有限合理性",
+      "情報の非対称性",
+      "認知的過負荷による境界喪失"
+    ],
+    "related_domains": [
+      "anthropology",
+      "behavioral_economics"
+    ],
+    "source_files": [
+      "raw/papers/anthropology/cognitive-traps-in-mental-health-de-biasing-techniques-psychotherapeutic-approac.md",
+      "raw/papers/behavioral_economics/termination-correctness-how-users-perceive-ai-output-beyond-the-evidence.md",
+      "raw/papers/behavioral_economics/designing-for-trust-an-explainable-decision-support-framework-to-mitigate-algori.md",
+      "raw/papers/behavioral_economics/maintain-preference-for-autonomous-system-or-human-controlled-system-the-influen.md",
+      "raw/papers/behavioral_economics/dual-process-model-of-consumer-responses-to-deceptive-patterns-in-e-commerce.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "dialogic-imitation-and-narrative-contested-meaning",
+    "title_ja": "模倣・変形による共鳴と意味・問題定義の競合",
+    "title_en": "Dialogic Resonance and Contested Problem Definition",
+    "tier": 1,
+    "description": "意味や問題の定義は、再利用と変形を伴う対話的共鳴と、実践者間のナラティブ競合によって形成され、技術仕様には内在しない。認識論的な構成の多様性もこれを支える。",
+    "mechanisms": [
+      "模倣と変形による意味交渉",
+      "ナラティブ競合",
+      "認識論的多元性"
+    ],
+    "related_domains": [
+      "anthropology"
+    ],
+    "source_files": [
+      "raw/papers/anthropology/language-imitation-and-creativity-dialogic-resonance-in-grammar-and-pragmatics.md",
+      "raw/papers/anthropology/the-sentientification-doctrine-beyond-artificial-intelligence-a-collaborative-fr.md",
+      "raw/papers/anthropology/epistemological-configurations-and-the-structural-positioning-of-ethnography-in-.md",
+      "raw/papers/anthropology/whose-ai-problem-critical-narratives-and-practitioner-problematizations.md",
+      "raw/papers/anthropology/problem-solving-ontologies-on-steroids-the-space-for-critique-in-policy-research.md",
+      "raw/papers/anthropology/発表genai-and-education-in-the-humanities-insight-from-critical-and-social-realism.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "culturally-embedded-power-and-institutional-vulnerability",
+    "title_ja": "文化に埋め込まれた権力関係と制度的脆弱性",
+    "title_en": "Culturally Embedded Power and Institutional Vulnerability",
+    "tier": 1,
+    "description": "ケアや監視、セキュリティの実践は文化的・組織的構造に埋め込まれた権力関係を具現化する。個人責任モデルは文脈性を見落とし、環境の可変制約と普遍的な空間的アフォーダンスが混在する。",
+    "mechanisms": [
+      "権力の儀礼的具現化",
+      "構造的脆弱性",
+      "同意と監視の非対称性"
+    ],
+    "related_domains": [
+      "anthropology"
+    ],
+    "source_files": [
+      "raw/papers/anthropology/performing-power-and-transitional-space-the-use-of-acoustics-and-multimodal-ai-i.md",
+      "raw/papers/anthropology/a-triptych-of-care-an-anthropological-interpretation-of-morning-bedbaths-in-gree.md",
+      "raw/papers/anthropology/ethical-legal-and-culturalanthropological-aspects-of-noncontact-vital-sign-monit.md",
+      "raw/papers/anthropology/human-culture-security-assessment-hcsa-an-ethnographic-framework-for-assessing-o.md",
+      "raw/papers/anthropology/artificial-intelligence-and-bioethics-human-dignity-autonomy-and-responsibility-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
