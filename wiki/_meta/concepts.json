@@ -22334,5 +22334,156 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "haiku"
+  },
+  {
+    "slug": "validation-regime-shift-and-performance-inflation",
+    "title_ja": "検証環境の乖離による性能インフレーション",
+    "title_en": "Validation-Deployment Regime Shift and Performance Inflation",
+    "tier": 1,
+    "description": "学習・検証時の条件(ランダム分割、統制環境、単一データ源)と実環境の分布が構造的に乖離するため、報告された精度や有効性は実運用で必ず目減りし、研究から実装への移行に信頼性ギャップが生じる。",
+    "mechanisms": [
+      "分布シフト",
+      "選択バイアスによる過大評価",
+      "再現性と因果推論のギャップ"
+    ],
+    "related_domains": [
+      "innovation_management",
+      "international_business"
+    ],
+    "source_files": [
+      "raw/papers/innovation_management/reimagining-education-innovations-in-teaching-learning-and-ai-in-higher-educatio.md",
+      "raw/papers/innovation_management/generative-ai-in-science-challenges-and-opportunities.md",
+      "raw/papers/innovation_management/decoding-the-cancer-microbiome-multi-omics-ai-and-translational-opportunities.md",
+      "raw/papers/innovation_management/accelerated-discovery-of-thermostable-vaccines-using-data-efficient-ai.md",
+      "raw/papers/innovation_management/can-artificial-intelligence-accelerate-technological-progress-researchers-perspe.md",
+      "raw/papers/international_business/current-advances-in-age-and-sex-estimation-using-artificial-intelligence-in-fore.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "technical-success-value-realization-gap",
+    "title_ja": "技術的成功と価値実現の断絶",
+    "title_en": "Technical Success versus Value Realization Gap",
+    "tier": 1,
+    "description": "仕様を満たす導入が成功しても、サイロ化・利害関係者の抵抗・戦略不整合により価値が実現せず、技術は組織内で象徴的シグナルとして権力を再配分する。",
+    "mechanisms": [
+      "サイロ化と部分最適",
+      "シグナリングによる権力再配分",
+      "利害関係者の抵抗"
+    ],
+    "related_domains": [
+      "innovation_management",
+      "international_business"
+    ],
+    "source_files": [
+      "raw/papers/innovation_management/governing-the-algorithm-sustaining-the-environment-how-authentic-leadership-vali.md",
+      "raw/papers/innovation_management/the-innovation-enervation-paradox-in-higher-education-ai-and-the-dunning-kruger-.md",
+      "raw/papers/international_business/zombie-ai-investments-from-technical-success-to-business-failure.md",
+      "raw/papers/innovation_management/organizational-change-and-management-innovation-in-the-construction-of-ai-data-c.md",
+      "raw/papers/international_business/analysis-of-management-approaches-and-development-of-a-methods-for-integrating-m.md",
+      "raw/papers/international_business/agentic-ai-in-business-processes-a-conceptually-grounded-analysis-of-open-source.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "multistage-transfer-bottleneck-and-evaluability",
+    "title_ja": "多段階移転のボトルネックと評価可能性の連鎖",
+    "title_en": "Multistage Transfer Bottlenecks and Evaluability Chain",
+    "tier": 1,
+    "description": "知識・技術・情報の移転は供給チェーン状の多段階過程であり、情報の存在よりも証拠への追跡可能性と受け手の評価手続きへの接続性、情報フロー障壁の所在が採用を律速する。",
+    "mechanisms": [
+      "制約理論的ボトルネック",
+      "情報フロー障壁",
+      "追跡可能性と評価接続性"
+    ],
+    "related_domains": [
+      "innovation_management",
+      "international_business"
+    ],
+    "source_files": [
+      "raw/papers/innovation_management/from-discovery-to-deployment-technology-transfer-as-a-supply-chain-process.md",
+      "raw/papers/innovation_management/from-research-knowledge-to-adoption-ready-information-how-science-communication-.md",
+      "raw/papers/international_business/the-locus-of-psychic-distance.md",
+      "raw/papers/international_business/working-with-ai-a-practice-based-study-of-knowledge-sharing-in-a-multinational-e.md",
+      "raw/papers/international_business/understanding-rural-community-resilience-to-natural-disasters-challenges-for-coa.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "capability-contingent-absorption-and-progressive-layering",
+    "title_ja": "組織能力依存の吸収と段階的レイヤリング",
+    "title_en": "Capability-Contingent Absorption and Progressive Layering",
+    "tier": 1,
+    "description": "新能力の効果は受け手の吸収能力・柔軟性・成熟度に条件づけられ、既存システムへの統合は置換ではなく動的再構成を伴う段階的な積層として進む。",
+    "mechanisms": [
+      "吸収能力",
+      "動的再構成",
+      "経路依存的な段階的積層"
+    ],
+    "related_domains": [
+      "innovation_management",
+      "international_business"
+    ],
+    "source_files": [
+      "raw/papers/innovation_management/strengthening-ai-innovation-through-organizational-flexibility-in-bangladesh.md",
+      "raw/papers/innovation_management/when-does-ai-adoption-enhance-sme-innovation-performance-the-roles-of-absorptive.md",
+      "raw/papers/innovation_management/intelligence-layering-in-accounting-information-systems-a-theory-of-progressive-.md",
+      "raw/papers/international_business/ai-and-digital-transformation-in-the-renewable-energy-sector-a-strategic-framewo.md",
+      "raw/papers/international_business/a-mixed-methods-evaluation-of-an-ai-powered-adaptive-learning-system-for-profess.md",
+      "raw/papers/international_business/sustainable-artificial-intelligence-adoption-in-e7-economies-the-roles-of-educat.md",
+      "raw/papers/innovation_management/artificial-intelligence-in-physical-education.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "regulatory-fragmentation-and-institutional-incentive-drift",
+    "title_ja": "規制の断片化と制度的インセンティブによる漂流",
+    "title_en": "Regulatory Fragmentation and Institutional Incentive Drift",
+    "tier": 2,
+    "description": "多主体・多管轄のガバナンスは、規制機関のインセンティブと産業加速圧力の相互作用により当初設計から漂流し、データフローとイノベーション戦略を制約する。",
+    "mechanisms": [
+      "制度的インセンティブの相互作用",
+      "多元的制約による自由度低下",
+      "構造的引力と地政学的緊張"
+    ],
+    "related_domains": [
+      "innovation_management",
+      "international_business"
+    ],
+    "source_files": [
+      "raw/papers/innovation_management/governing-ai-and-digital-platforms-a-systematic-literature-review-of-multi-secto.md",
+      "raw/papers/innovation_management/governing-data-flows-and-ai-innovation-in-a-fragmented-regulatory-environment.md",
+      "raw/papers/international_business/emulating-brussels-but-recalibrating-in-seoul-challenges-in-south-koreas-ai-fram.md",
+      "raw/papers/international_business/foreign-direct-investment-multiplier-effects-and-economic-impact-assessment-of-m.md",
+      "raw/papers/international_business/can-artificial-intelligence-be-the-answer-to-green-development-evidence-from-chi.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "threshold-nonlinearity-in-technology-externalities",
+    "title_ja": "技術導入の外部性における閾値的非線形性",
+    "title_en": "Threshold Nonlinearity in Technology Externalities",
+    "tier": 1,
+    "description": "技術導入の資源負荷は初期段階で高く、閾値超過後に効率化の便益が発現する非線形・段階的パターンを示し、制約下ではコミュニティが局所知識で適応する。",
+    "mechanisms": [
+      "閾値と相転移",
+      "局所知識による適応",
+      "初期コストと後期便益のJカーブ"
+    ],
+    "related_domains": [
+      "international_business"
+    ],
+    "source_files": [
+      "raw/papers/international_business/artificial-intelligence-and-environmental-sustainability-a-nonlinear-analysis-of.md",
+      "raw/papers/international_business/understanding-rural-community-resilience-to-natural-disasters-challenges-for-coa.md",
+      "raw/papers/international_business/can-artificial-intelligence-be-the-answer-to-green-development-evidence-from-chi.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
