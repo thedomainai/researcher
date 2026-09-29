@@ -17405,5 +17405,153 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "haiku"
+  },
+  {
+    "slug": "opacity-verification-gap",
+    "title_ja": "不透明性と検証可能性の非対称ギャップ",
+    "title_en": "Opacity–Verifiability Gap",
+    "tier": 1,
+    "description": "出力の精度・複雑性が上がるほど内部が不透明になり、検証コストが増大して事後検証・説明責任が構造的に追いつかなくなる。検証可能な証跡の設計が不変要件となる。",
+    "mechanisms": [
+      "精度と解釈可能性のトレードオフ",
+      "情報の非対称性",
+      "検証コストの増大"
+    ],
+    "related_domains": [
+      "accounting"
+    ],
+    "source_files": [
+      "raw/papers/accounting/the-level-of-artificial-intelligence-application-and-audit-efficiency.md",
+      "raw/papers/accounting/governance-and-reporting-of-artificial-intelligence-used-as-a-research-method-in.md",
+      "raw/papers/accounting/auditing-artificial-intelligence-systems-a-survey-of-current-frameworks-principl.md",
+      "raw/papers/accounting/model-audit-tata-kelola-ai-pada-chatbot-layanan-publik-berbasis-cobit-2019.md",
+      "raw/papers/accounting/artificial-intelligence-in-sustainability-assurance-accounting-challenges-audit-.md",
+      "raw/papers/accounting/a-cross-sectional-safety-audit-of-ai-generated-clinical-advice-for-nitroglycerin.md",
+      "raw/papers/accounting/artificial-intelligence-in-financial-forecasting-accuracy-and-limitations.md",
+      "raw/papers/accounting/diligenceprov-a-truth-ledger-benchmark-for-verifiable-financial-due-diligence-an.md",
+      "raw/papers/accounting/prereview-of-ethical-audit-of-artificial-intelligence-algorithms-problems-and-ch.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "runtime-authorization-control-points",
+    "title_ja": "実行時認可と定量的制御点の設計",
+    "title_en": "Runtime Authorization and Quantified Control Points",
+    "tier": 1,
+    "description": "設計時の規範やチェックリストだけでは不十分で、可視性・整列・認可を区別し、実行の各時点で制御点・限界値・自動応答・検証主体を持たせる必要がある。",
+    "mechanisms": [
+      "設計時と実行時のガバナンス分離",
+      "フィードバック制御",
+      "権限の最小化と即時遮断"
+    ],
+    "related_domains": [
+      "accounting",
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/accounting/next-generation-privileged-access-management.md",
+      "raw/papers/accounting/haccp-for-ai-an-auditable-self-control-standard-for-artificial-intelligence.md",
+      "raw/papers/accounting/personal-decision-execution-os-a-user-owned-control-plane-for-ai-mediated-decisi.md",
+      "raw/papers/accounting/governance-is-a-runtime-dependency-an-evidence-map-and-operational-ai-readiness-.md",
+      "raw/papers/ai_governance/non-human-identity-governance-a-governance-framework-for-agentic-ai-credentials-.md",
+      "raw/papers/ai_governance/a-taxonomy-of-ai-governance-approaches-distinguishing-visibility-alignment-and-a.md",
+      "raw/papers/ai_governance/amagi-nipu-v11-neuro-immune-processing-unit-for-ethical-high-assurance-ai-system.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "human-verification-loop-bias-amplification",
+    "title_ja": "人間による検証ループとバイアス増幅",
+    "title_en": "Human Verification Loop and Bias Amplification",
+    "tier": 1,
+    "description": "不完全な自動提案を人間が責任を持って検証・適用する構造が必要だが、自動化は既存バイアスや認知の偏りを増幅し、寛容さや信頼も認知スタイルに左右される。",
+    "mechanisms": [
+      "自動化バイアス",
+      "責任の所在の固定",
+      "認知スタイルによる信頼の較正"
+    ],
+    "related_domains": [
+      "accounting",
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/accounting/askauditapply-a-framework-for-clinical-reasoning-with-artificial-intelligence.md",
+      "raw/papers/accounting/managing-llm-bias-in-investing-from-detection-to-mitigation.md",
+      "raw/papers/accounting/generative-ai-in-accounting-policies-and-estimates-safeguarding-professional-jud.md",
+      "raw/papers/ai_governance/the-relational-roots-of-algorithmic-forgiveness-how-reflective-skepticism-and-se.md",
+      "raw/papers/ai_governance/from-innovation-to-inequity-evaluating-bias-in-ai-based-healthcare-systems.md",
+      "raw/papers/ai_governance/diagnosing-algorithmic-bias-a-group-influence-framework-for-fairness-auditing.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "proxy-inference-structural-discrimination",
+    "title_ja": "代理変数推論による構造的差別と監視の統合",
+    "title_en": "Proxy Inference and Structural Discrimination",
+    "tier": 1,
+    "description": "高精度の属性推論は直接的禁止規定をすり抜けて差別を可能にし、自動化インフラは監視機能と融合しやすい。規制概念の粒度が対象の推論能力に遅れる。",
+    "mechanisms": [
+      "代理変数による規制回避",
+      "制度速度の不均衡",
+      "監視と自動化の融合"
+    ],
+    "related_domains": [
+      "accounting",
+      "ai_governance"
+    ],
+    "source_files": [
+      "raw/papers/accounting/the-impact-of-artificial-intelligence-on-human-safety-and-data-protection-in-sma.md",
+      "raw/papers/accounting/beyond-genetic-discrimination-emerging-challenges-in-the-age-of-artificial-intel.md",
+      "raw/papers/accounting/artificial-intelligence-in-tax-administration.md",
+      "raw/papers/ai_governance/shaping-trustworthy-generative-ai-ethical-principles-and-governance-frameworks.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "cognitive-limits-information-overload",
+    "title_ja": "認知資源の限界と情報過多による意思決定劣化",
+    "title_en": "Cognitive Limits and Information Overload",
+    "tier": 1,
+    "description": "情報量や業務連鎖の拡張は認知資源の有限性により意思決定品質を改善せず、追加作業やコストを生む。導入の便益は逓減・反転する。",
+    "mechanisms": [
+      "有限合理性",
+      "収穫逓減",
+      "業務鎖延伸による複雑性増大"
+    ],
+    "related_domains": [
+      "accounting"
+    ],
+    "source_files": [
+      "raw/papers/accounting/the-level-of-artificial-intelligence-application-and-audit-efficiency.md",
+      "raw/papers/accounting/information-noise-and-managerial-decision-quality-in-project-based-operations-an.md",
+      "raw/papers/accounting/the-sustainable-ai-development-contradiction-chinese-policy-on-sustainability-an.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "self-revising-systems-and-operational-existence",
+    "title_ja": "自己修正的知識生成と操作的実在性の分離",
+    "title_en": "Self-Revising Systems and Operational Existence",
+    "tier": 1,
+    "description": "知識生成システムは帰納的修正ループで成立し、観察不能な内的性質と観測可能な操作的事実は次元を分離して扱うべきという原理。",
+    "mechanisms": [
+      "帰納的修正フィードバック",
+      "内的性質と操作的実在の層分離",
+      "再帰的メタ保護"
+    ],
+    "related_domains": [
+      "accounting"
+    ],
+    "source_files": [
+      "raw/papers/accounting/sδϕ-74-operational-existence-requires-no-permission-ai-operational-non-exclusion.md",
+      "raw/papers/accounting/self-revising-discovery-systems-for-science-a-categorical-framework-for-agentic-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
