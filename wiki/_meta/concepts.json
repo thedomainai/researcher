@@ -21860,5 +21860,159 @@
     ],
     "compiled_at": "2026-09-29",
     "model": "sonnet"
+  },
+  {
+    "slug": "technical-capability-readiness-decoupling-gated-adoption",
+    "title_ja": "技術的能力と組織的準備の乖離と段階的ゲート",
+    "title_en": "Capability–Readiness Decoupling and Stage-Gated Adoption",
+    "tier": 1,
+    "description": "導入された技術の性能は、ガバナンス・人的準備・文化・タスク適合という組織側の条件が整わない限り価値に変換されず、強力な技術がむしろ準備不足を覆い隠すため、段階的ゲートで検証が必要になる。",
+    "mechanisms": [
+      "必要条件のボトルネック",
+      "能力と価値実現のギャップ",
+      "段階的検証ゲート"
+    ],
+    "related_domains": [
+      "human_resource_management",
+      "information_systems"
+    ],
+    "source_files": [
+      "raw/papers/human_resource_management/a-gated-digital-maturity-framework-for-governing-ai-adoption-in-the-built-enviro.md",
+      "raw/papers/human_resource_management/human-centred-ai-workforce-transformation.md",
+      "raw/papers/human_resource_management/enterprise-ai-operating-model.md",
+      "raw/papers/information_systems/sustainable-digital-transformation-is-no-longer-optional-in-the-age-of-artificia.md",
+      "raw/papers/information_systems/strategic-misalignment-of-ai-and-digital-transformation-dt-in-organizations.md",
+      "raw/papers/information_systems/adopted-then-what-post-adoption-business-value-realization-in-enterprise-ai.md",
+      "raw/papers/information_systems/reimagining-executive-roles-for-the-ai-era-conceptualizing-the-ai-transformation.md",
+      "raw/papers/information_systems/a-study-on-the-mechanism-and-ways-to-improve-new-quality-productivity-of-enterpr.md",
+      "raw/papers/information_systems/generative-ai-and-digital-transformation-in-organizational-roadmaps-employee-val.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "opacity-sycophancy-error-correction-closure",
+    "title_ja": "不透明性と迎合による誤り訂正経路の遮断",
+    "title_en": "Opacity and Sycophancy Closing Error-Correction Pathways",
+    "tier": 1,
+    "description": "委譲先が観察不能で、かつ報告が正確さより同意に傾くと、監視と自己申告の双方が失われ、委譲連鎖上のあらゆる誤り訂正経路が閉じる。",
+    "mechanisms": [
+      "プリンシパル＝エージェント問題",
+      "情報の非対称性",
+      "インセンティブ歪みによる報告バイアス"
+    ],
+    "related_domains": [
+      "human_resource_management",
+      "information_systems"
+    ],
+    "source_files": [
+      "raw/papers/human_resource_management/auditable-ai-governance-for-autonomous-procurement-in-malaysia-government-linked.md",
+      "raw/papers/information_systems/ai-foundations-governance-layer.md",
+      "raw/papers/information_systems/into-the-hyperreal-ai-hallucinations-and-trolling-as-simulacra.md",
+      "raw/papers/information_systems/opacity-sycophancy-and-the-ai-governance-gap.md",
+      "raw/papers/information_systems/reflexive-admissibility-commit-controls-for-doctrine-policy-and-governance-publi.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "transparency-monitoring-trust-erosion-cycle",
+    "title_ja": "不透明な監視・評価が引き起こす信頼喪失と離脱の連鎖",
+    "title_en": "Opaque Monitoring, Trust Loss and Disengagement Cycle",
+    "tier": 1,
+    "description": "不透明で一方的な監視・フィードバックは自律性と心理的安全を損ない、冷笑・抵抗・沈黙退職を生む。説明可能性や較正された可視性はこの連鎖を緩和し、同じ手段が創造性と疲弊の二面性を持つ。",
+    "mechanisms": [
+      "心理的安全による脅威反応の調整",
+      "認知負荷と抵抗の関係",
+      "二重経路トレードオフ"
+    ],
+    "related_domains": [
+      "human_resource_management",
+      "information_systems"
+    ],
+    "source_files": [
+      "raw/papers/human_resource_management/banter-focus-and-suitable-monitoring-perspectives-on-virtual-team-effectiveness.md",
+      "raw/papers/human_resource_management/the-mediating-role-of-neuroception-of-psychological-safety-in-the-relationship-b.md",
+      "raw/papers/human_resource_management/ai-driven-feedback-systems-digital-labour-and-silent-quitting-transforming-afric.md",
+      "raw/papers/human_resource_management/perks-or-perils-the-dual-effect-of-artificial-intelligence-augmented-human-resou.md",
+      "raw/papers/human_resource_management/reframing-human-resource-leadership-through-human-centred-ai.md",
+      "raw/papers/information_systems/decoding-individuals-resistance-toward-the-adoption-of-gen-ai-technology-in-the-.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "layered-role-separated-governance-under-heterogeneous-agents",
+    "title_ja": "異質なエージェント群における役割分離と多層ガバナンス",
+    "title_en": "Role-Separated Layered Governance for Heterogeneous Agents",
+    "tier": 1,
+    "description": "非決定論的な出力を持つ多数の異質な主体が限られた資源で自律動作する系では、役割分離・集中ガードレール・分散所有・整合した構成が全体安定の条件となる。",
+    "mechanisms": [
+      "役割分離と権限の分割",
+      "多層統制",
+      "ガバナンス次元の整合性(コヒーレンス)"
+    ],
+    "related_domains": [
+      "human_resource_management",
+      "information_systems"
+    ],
+    "source_files": [
+      "raw/papers/human_resource_management/editorial-inclusive-leadership-in-multicultural-teams-innovations-challenges-and.md",
+      "raw/papers/human_resource_management/enterprise-ai-operating-model.md",
+      "raw/papers/information_systems/ai-foundations-governance-layer.md",
+      "raw/papers/information_systems/reimagining-executive-roles-for-the-ai-era-conceptualizing-the-ai-transformation.md",
+      "raw/papers/information_systems/rethinking-ai-governance-policy-configurations-and-ecosystem-performance.md",
+      "raw/papers/information_systems/a-layered-governance-perspective-on-generative-aienabled-platforms.md",
+      "raw/papers/information_systems/reflexive-admissibility-commit-controls-for-doctrine-policy-and-governance-publi.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
+  },
+  {
+    "slug": "task-structure-dependent-substitution-and-complementarity",
+    "title_ja": "タスク構造に依存する代替・補完と能力差の協働最適化",
+    "title_en": "Task-Structure-Dependent Substitution and Complementary Collaboration",
+    "tier": 2,
+    "description": "自動化の代替か補完かは、タスクの標準化可能性・計算可能性と主体間の認識能力差で決まり、地域・職種で不均等に現れる。障壁除去や誤りパターンの相補性が協働価値を生む。",
+    "mechanisms": [
+      "タスク標準化による代替境界",
+      "能力プロファイルの相補性",
+      "障壁除去による包摂"
+    ],
+    "related_domains": [
+      "human_resource_management",
+      "information_systems"
+    ],
+    "source_files": [
+      "raw/papers/human_resource_management/artificial-intelligence-assisted-detection-of-intracranial-aneurysms-on-cta-and-.md",
+      "raw/papers/human_resource_management/ai-as-reasonable-accommodation-and-disability-employment.md",
+      "raw/papers/human_resource_management/augment-or-replace-uneven-labour-market-consequences-of-ai-expansion-across-asia.md",
+      "raw/papers/information_systems/does-generative-ai-mean-the-end-of-history-for-pharmacovigilance-automation-towa.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "haiku"
+  },
+  {
+    "slug": "standardized-selection-suppresses-diversity-and-context-fit",
+    "title_ja": "標準化された選抜・設計が抑圧する多様性と文脈適合",
+    "title_en": "Standardized Selection Suppressing Diversity and Contextual Fit",
+    "tier": 1,
+    "description": "標準化された評価や画一的な設計は特定の型を優遇し多様性・文化的文脈を周縁化する。所属感の確認や文脈適合した設計への転換が包摂と創造性を回復する。",
+    "mechanisms": [
+      "標準化による選択圧",
+      "所属感とアイデンティティ確認",
+      "文脈適応的設計"
+    ],
+    "related_domains": [
+      "human_resource_management",
+      "information_systems"
+    ],
+    "source_files": [
+      "raw/papers/human_resource_management/editorial-inclusive-leadership-in-multicultural-teams-innovations-challenges-and.md",
+      "raw/papers/information_systems/building-an-indigenous-information-system-with-generative-ai-a-technoficing-pers.md",
+      "raw/papers/information_systems/structural-defects-of-traditional-screening-oriented-education-in-the-ai-era.md"
+    ],
+    "compiled_at": "2026-09-29",
+    "model": "sonnet"
   }
 ]
