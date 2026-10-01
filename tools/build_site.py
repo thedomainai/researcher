@@ -24,6 +24,7 @@
 
 import argparse
 import datetime as dt
+import hashlib
 import html
 import json
 import os
@@ -32,6 +33,7 @@ import shutil
 import subprocess
 import sys
 from collections import OrderedDict, defaultdict
+from urllib.parse import quote
 
 import yaml
 
@@ -40,6 +42,7 @@ CONCEPTS_DIR = os.path.join(BASE, "wiki", "concepts")
 META_FILE = os.path.join(BASE, "wiki", "_meta", "concepts.json")
 BACKLINKS_FILE = os.path.join(BASE, "wiki", "_meta", "backlinks.json")
 OVERRIDES_FILE = os.path.join(BASE, "wiki", "_meta", "domain_overrides.json")
+SUMMARIES_FILE = os.path.join(BASE, "wiki", "_meta", "summaries.json")
 INDEX_FILE = os.path.join(BASE, "raw", "index.jsonl")
 SITE_CONFIG = os.path.join(BASE, "config", "site.yaml")
 SOURCES_CONFIG = os.path.join(BASE, "config", "sources.yaml")
@@ -80,10 +83,75 @@ def load_config():
     return config
 
 
+SOURCE_RECORDS = defaultdict(list)   # slug -> [index.jsonl の record]
+SOURCE_BY_TITLE = {}                 # 正規化した題名 -> record
+SOURCE_BY_FILE = {}                  # raw からの相対パス -> record
+RAW_PATH = re.compile(r"`?raw/((?:papers|articles)/[^\s`)）]+?\.md)`?")
+
+
+def scrub_paths(text):
+    """本文に紛れた内部ファイルパスを消す(括弧ごと、または題名に置き換える)。"""
+    text = re.sub(r"\s*[（(]\s*`?raw/[^)）\n]*?`?\s*[)）]", "", text)
+    text = re.sub(r"\s*(?:—\s*)?[（(]+パス未確認[)）]+", "", text)
+    text = re.sub(r"\n[ \t]*\*\*ファイルパス\*\*:[^\n]*", "", text)
+
+    def named(match):
+        record = SOURCE_BY_FILE.get(match.group(1))
+        return record["title"] if record and record.get("title") else ""
+
+    return RAW_PATH.sub(named, text)
+
+
+def norm_title(text):
+    return re.sub(r"[\W_]+", "", (text or "").lower())
+
+
+def source_meta(record):
+    """raw ファイルの frontmatter から、出典表示に使う著者・年・リンクを読む。"""
+    meta = {"title": record.get("title") or "", "authors": record.get("authors") or record.get("author") or "",
+            "year": str(record.get("year") or ""), "url": ""}
+    path = os.path.join(BASE, "raw", record.get("file") or "")
+    if os.path.isfile(path):
+        with open(path, encoding="utf-8") as handle:
+            head = handle.read(2500)
+        if head.startswith("---"):
+            front = {}
+            for line in head.split("---", 2)[1].splitlines():
+                m = re.match(r"^([a-z_]+):\s*(.*)$", line.strip())
+                if m:
+                    front[m.group(1)] = m.group(2).strip().strip('"\'')
+            meta["authors"] = meta["authors"] or front.get("authors") or front.get("author") or ""
+            meta["year"] = meta["year"] or front.get("year") or ""
+            doi = front.get("doi") or ""
+            if doi and doi.lower() not in ("none", "null"):
+                meta["url"] = doi if doi.startswith("http") else "https://doi.org/" + doi
+            elif front.get("url", "").startswith("http"):
+                meta["url"] = front["url"]
+            elif front.get("arxiv_id") and front["arxiv_id"].lower() not in ("none", "null"):
+                meta["url"] = "https://arxiv.org/abs/" + front["arxiv_id"]
+            elif front.get("semantic_scholar_id") and front["semantic_scholar_id"].lower() not in ("none", "null"):
+                meta["url"] = "https://www.semanticscholar.org/paper/" + front["semantic_scholar_id"]
+            elif front.get("openalex_id") and front["openalex_id"].lower() not in ("none", "null"):
+                oid = front["openalex_id"]
+                meta["url"] = oid if oid.startswith("http") else "https://openalex.org/" + oid
+    letters = [ch for ch in meta["title"] if ch.isalpha()]
+    if letters and sum(1 for ch in letters if ch.isupper()) > 0.8 * len(letters):
+        small = {"a", "an", "the", "and", "or", "of", "in", "on", "for", "to", "with", "by", "at", "from", "as"}
+        words = meta["title"].lower().split()
+        meta["title"] = " ".join(w if (i and w in small) else w[:1].upper() + w[1:] for i, w in enumerate(words))
+    names = [a.strip() for a in re.split(r",|;", meta["authors"]) if a.strip()]
+    if len(names) > 3:
+        meta["authors"] = ", ".join(names[:3]) + " ほか"
+    return meta
+
+
 def load_source_domains():
     """raw/index.jsonl から slug -> [domain...] と slug -> [tier...] を集める。"""
     by_slug = defaultdict(list)
     tiers = defaultdict(list)
+    SOURCE_RECORDS.clear()
+    SOURCE_BY_TITLE.clear()
+    SOURCE_BY_FILE.clear()
     if not os.path.exists(INDEX_FILE):
         return by_slug, tiers
     with open(INDEX_FILE, encoding="utf-8") as handle:
@@ -100,7 +168,13 @@ def load_source_domains():
                 slugs = [slugs]
             domain = record.get("domain")
             tier = record.get("tier")
+            if record.get("title"):
+                SOURCE_BY_TITLE.setdefault(norm_title(record["title"]), record)
+            if record.get("file"):
+                SOURCE_BY_FILE[record["file"]] = record
             for slug in slugs or []:
+                if slug:
+                    SOURCE_RECORDS[slug].append(record)
                 if slug and domain and domain not in by_slug[slug]:
                     by_slug[slug].append(domain)
                 if slug and tier in (1, 2, 3):
@@ -186,6 +260,7 @@ def load_catalog(config=None):
     config = config or load_config()
     meta_by_slug = {item["slug"]: item for item in load_json(META_FILE, []) if item.get("slug")}
     overrides = load_json(OVERRIDES_FILE, {})
+    summaries = load_json(SUMMARIES_FILE, {})
     source_domains, source_tiers = load_source_domains()
     published, modified = load_git_dates()
     domain_to_cluster = config["domain_to_cluster"]
@@ -223,7 +298,8 @@ def load_catalog(config=None):
             tier = min(source_tiers[slug])
         else:
             tier = 2
-        description = item.get("description") or truncate(first_paragraph(markdown), 120)
+        extra = summaries.get(slug) or {}
+        description = extra.get("summary") or item.get("description") or truncate(first_paragraph(markdown), 120)
         if slug not in published:
             # まだコミットされていない新しい記事は、ファイルの更新時刻を公開日とみなす
             stamp = dt.datetime.fromtimestamp(os.path.getmtime(path), dt.timezone.utc).astimezone().isoformat(timespec="seconds")
@@ -232,10 +308,11 @@ def load_catalog(config=None):
         catalog.append({
             "slug": slug,
             "title": item.get("title_ja") or title,
-            "title_en": item.get("title_en") or "",
+            "title_en": item.get("title_en") or extra.get("title_en") or "",
+            "why": extra.get("why") or "",
             "tier": tier,
             "description": description,
-            "has_lead": bool(item.get("description")),
+            "has_lead": bool(extra.get("summary") or item.get("description")),
             "domains": domains,
             "domain_source": domain_source,
             "cluster": cluster,
@@ -330,13 +407,10 @@ class Renderer:
         return value
 
     def render(self, slug, markdown, root):
+        self.toc = []
+        self.subtoc = {}
+        used_anchors = set()
         body = re.sub(r"^# .+\n+", "", markdown.lstrip(), count=1)
-        # 追加ソースの「ファイルパス: `raw/...`」は、公開リポジトリ上の原文へのリンクに置き換える
-        body = re.sub(
-            r"\*\*ファイルパス\*\*: `(raw/[^`]+)`",
-            lambda m: "**原文**: [GitHub](%s/blob/main/%s)" % (self.repo_url, m.group(1)),
-            body,
-        )
         lines = body.splitlines()
         out = []
         i = 0
@@ -366,9 +440,21 @@ class Renderer:
                 continue
             heading = re.match(r"^(#{1,6})\s+(.+)$", stripped)
             if heading:
-                level = min(len(heading.group(1)) + 1, 6)  # 記事の ## を h2 に揃える
+                level = min(max(len(heading.group(1)), 2), 6)  # 記事の ## が h2(h1 はページ見出し)
                 text = heading.group(2).strip()
                 anchor = re.sub(r"[^\w\-ぁ-んァ-ヶ一-龠]+", "-", text).strip("-").lower() or "section"
+                base_anchor, n_dup = anchor, 2
+                while anchor in used_anchors:
+                    anchor = "%s-%d" % (base_anchor, n_dup)
+                    n_dup += 1
+                used_anchors.add(anchor)
+                if level in (2, 3):
+                    plain = re.sub(r"\[\[(?:[^\]|]+\|)?([^\]]+)\]\]", r"\1", text)
+                    plain = re.sub(r"[*`]", "", plain)
+                    if level == 2:
+                        self.toc.append((anchor, plain))
+                    else:
+                        self.subtoc.setdefault(self.toc[-1][0] if self.toc else "", []).append((anchor, plain))
                 out.append('<h%d id="%s">%s</h%d>' % (level, html.escape(anchor), self.inline(slug, text, root), level))
                 i += 1
                 continue
@@ -405,9 +491,11 @@ class Renderer:
                     parts.append("<thead><tr>%s</tr></thead>" % "".join(
                         "<th>%s</th>" % self.inline(slug, c, root) for c in cells(header)))
                 parts.append("<tbody>")
+                labels = [re.sub(r"[*`\[\]]", "", c) for c in cells(header)] if header else []
                 for row in body_rows:
                     parts.append("<tr>%s</tr>" % "".join(
-                        "<td>%s</td>" % self.inline(slug, c, root) for c in cells(row)))
+                        '<td data-label="%s">%s</td>' % (html.escape(labels[k] if k < len(labels) else "", quote=True), self.inline(slug, c, root))
+                        for k, c in enumerate(cells(row))))
                 parts.append("</tbody></table></div>")
                 out.append("".join(parts))
                 continue
@@ -482,61 +570,51 @@ class Renderer:
 
 
 # ---------------------------------------------------------------------------
-# ページ生成
+# ページ生成(デザイン v2: config/site_assets/site.css・site.js と対で動く)
 # ---------------------------------------------------------------------------
 
-CSS = """
-:root{--bg:#fbfaf7;--fg:#1f2430;--muted:#5d6675;--line:#e3dfd6;--accent:#1f6f8b;--accent-2:#b65c2e;--chip:#eef2f5;--card:#ffffff;--code:#f1efe9;--max:760px}
-@media (prefers-color-scheme:dark){:root{--bg:#0f1319;--fg:#e8ecf2;--muted:#9aa5b5;--line:#2a313c;--accent:#7cc4dd;--accent-2:#e3a07a;--chip:#1b222c;--card:#151b23;--code:#1b222c}}
-*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Segoe UI",sans-serif;line-height:1.85;font-size:16px}
-a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
-.wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
-header.top{border-bottom:1px solid var(--line);background:var(--card)}
-header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 20px;flex-wrap:wrap}
-header.top .brand{font-weight:700;letter-spacing:.02em;color:var(--fg)}
-header.top nav{display:flex;gap:16px;font-size:14px;flex-wrap:wrap}
-main{padding:28px 0 56px}
-.crumbs{font-size:13px;color:var(--muted);margin-bottom:14px;display:flex;flex-wrap:wrap;gap:6px}
-.crumbs a{color:var(--muted)}
-h1{font-size:1.75rem;line-height:1.35;margin:.2em 0 .3em}
-h2{font-size:1.3rem;margin:2em 0 .6em;padding-bottom:.25em;border-bottom:1px solid var(--line)}
-h3{font-size:1.1rem;margin:1.6em 0 .5em}h4{font-size:1rem;margin:1.4em 0 .4em}
-.sub{color:var(--muted);font-size:.95rem;margin:0 0 .6em}
-.chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 18px}
-.chip{display:inline-block;font-size:12px;padding:2px 10px;border-radius:999px;background:var(--chip);color:var(--fg);border:1px solid var(--line)}
-.chip.tier1{background:var(--accent);color:#fff;border-color:var(--accent)}
-.chip.tier2{background:var(--accent-2);color:#fff;border-color:var(--accent-2)}
-.lead{font-size:1.05rem;color:var(--muted);border-left:3px solid var(--accent);padding-left:14px;margin:0 0 22px}
-article p{margin:0 0 1.1em}article ul,article ol{padding-left:1.5em;margin:0 0 1.1em}article li{margin:.2em 0}
-article blockquote{margin:1em 0;padding:.4em 1em;border-left:3px solid var(--line);color:var(--muted)}
-article code{background:var(--code);padding:.1em .35em;border-radius:4px;font-size:.9em}
-article pre{background:var(--code);padding:12px;border-radius:6px;overflow:auto;font-size:.85em}
-.table-wrap{overflow-x:auto;margin:1em 0}table{border-collapse:collapse;width:100%;font-size:.92em}
-th,td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}th{background:var(--chip)}
-hr{border:0;border-top:1px solid var(--line);margin:2em 0}
-.wikilink.unresolved{color:var(--muted);border-bottom:1px dotted var(--muted)}
-.notice{margin-top:40px;padding:14px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);font-size:.9rem;color:var(--muted)}
-.meta{font-size:.85rem;color:var(--muted);margin:6px 0 18px}
-.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin:16px 0 28px}
-.card{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)}
-.card:hover{text-decoration:none;border-color:var(--accent)}
-.card .t{font-weight:700;margin-bottom:4px}.card .d{font-size:.85rem;color:var(--muted)}
-.list{list-style:none;padding:0;margin:0}.list li{padding:12px 0;border-bottom:1px solid var(--line)}
-.list .t{font-weight:600}.list .d{font-size:.9rem;color:var(--muted);margin-top:2px}
-.list .m{font-size:.78rem;color:var(--muted);margin-top:4px}
-.related{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;list-style:none;padding:0}
-.related li{border:1px solid var(--line);border-radius:8px;padding:8px 12px;background:var(--card);font-size:.92rem}
-footer.bottom{border-top:1px solid var(--line);padding:22px 0 40px;font-size:.85rem;color:var(--muted)}
-footer.bottom .wrap{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
-.hero{padding:10px 0 8px}.hero p{font-size:1.05rem;color:var(--muted)}
-.stats{display:flex;gap:18px;flex-wrap:wrap;font-size:.9rem;color:var(--muted);margin:6px 0 10px}
-@media (max-width:600px){h1{font-size:1.45rem}body{font-size:15.5px}}
-"""
+ASSETS_DIR = os.path.join(BASE, "config", "site_assets")
+FONTS_URL = (
+    "https://fonts.googleapis.com/css2?"
+    "family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600"
+    "&family=JetBrains+Mono:wght@400;500"
+    "&family=Shippori+Mincho+B1:wght@500;600;700;800"
+    "&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap"
+)
+FAVICON = (
+    "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E"
+    "%3Crect width='32' height='32' rx='7' fill='%2316150f'/%3E"
+    "%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%23f4f0e8' stroke-width='2'/%3E"
+    "%3Ccircle cx='16' cy='16' r='4' fill='%23ff6b4f'/%3E%3C/svg%3E"
+)
+THEME_BOOT = (
+    "<script>(function(){var d=document.documentElement;d.classList.add('js');"
+    "try{var t=localStorage.getItem('theme');if(t)d.setAttribute('data-theme',t)}catch(e){}})()</script>"
+)
+ICON_SEARCH = '<svg viewBox="0 0 20 20" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="9" cy="9" r="6"/><path d="M14 14l4 4" stroke-linecap="round"/></svg>'
+ICON_THEME = '<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg>'
+BRAND_MARK = '<svg class="mark" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="8.2"/><circle cx="9" cy="9" r="3"/></svg>'
+
+_asset_versions = {}
+
+
+def asset_version(name):
+    if name not in _asset_versions:
+        path = os.path.join(ASSETS_DIR, name)
+        digest = "0"
+        if os.path.exists(path):
+            with open(path, "rb") as handle:
+                digest = hashlib.sha1(handle.read()).hexdigest()[:10]
+        _asset_versions[name] = digest
+    return _asset_versions[name]
 
 
 def esc(value):
     return html.escape(str(value or ""), quote=True)
+
+
+def num(value):
+    return "{:,}".format(value)
 
 
 def analytics_snippet(config):
@@ -559,107 +637,151 @@ def verification_tags(config):
     search = config.get("search") or {}
     tags = []
     if search.get("google_site_verification"):
-        tags.append('\n<meta name="google-site-verification" content="%s">' % esc(search["google_site_verification"]))
+        tags.append('<meta name="google-site-verification" content="%s">' % esc(search["google_site_verification"]))
     if search.get("bing_site_verification"):
-        tags.append('\n<meta name="msvalidate.01" content="%s">' % esc(search["bing_site_verification"]))
-    return "".join(tags)
+        tags.append('<meta name="msvalidate.01" content="%s">' % esc(search["bing_site_verification"]))
+    return "\n".join(tags)
 
 
-def layout(config, root, title, description, body, canonical, og_type="website", extra_head="", crumbs=None, og_key="default"):
-    site = config["site"]
-    nav = (
-        '<a href="%sconcepts/">記事一覧</a>'
-        '<a href="%s#clusters">領域</a>'
-        '<a href="%sgraph/">知識グラフ</a>'
-        '<a href="%sfeed.xml">RSS</a>'
-        '<a href="%s" rel="noopener">GitHub</a>' % (root, root, root, root, esc(site["repo_url"]))
-    )
-    crumbs_html = ""
-    if crumbs:
-        crumbs_html = '<div class="crumbs">%s</div>' % " › ".join(
-            ('<a href="%s">%s</a>' % (esc(href), esc(label))) if href else "<span>%s</span>" % esc(label)
-            for label, href in crumbs)
-    return """<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>%(title)s</title>
-<meta name="description" content="%(description)s">
-<link rel="canonical" href="%(canonical)s">
-<meta property="og:site_name" content="%(site_title)s">
-<meta property="og:type" content="%(og_type)s">
-<meta property="og:title" content="%(title)s">
-<meta property="og:description" content="%(description)s">
-<meta property="og:url" content="%(canonical)s">
-<meta property="og:locale" content="ja_JP">
-<meta property="og:image" content="%(og_image)s">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="%(og_image)s">%(verification)s
-<link rel="alternate" type="application/rss+xml" title="%(site_title)s" href="%(root)sfeed.xml">
-<link rel="stylesheet" href="%(root)sassets/site.css">
-%(extra_head)s
-%(analytics)s
-</head>
-<body>
-<header class="top"><div class="wrap"><a class="brand" href="%(root)s">%(short)s</a><nav>%(nav)s</nav></div></header>
-<main><div class="wrap">
-%(crumbs)s
-%(body)s
-</div></main>
-<footer class="bottom"><div class="wrap"><span>© %(year)d %(author)s · 記事は学術論文をもとに AI が自動生成しています</span><span><a href="%(root)sconcepts/">記事一覧</a> · <a href="%(root)ssitemap.xml">sitemap</a></span></div></footer>
-</body>
-</html>
-""" % {
-        "title": esc(title),
-        "description": esc(truncate(description, 160)),
-        "canonical": esc(canonical),
-        "site_title": esc(site["short_title"]),
-        "og_type": og_type,
-        "og_image": esc("%s/assets/og-%s.png" % (site["url"], og_key)),
-        "verification": verification_tags(config),
-        "root": root,
-        "extra_head": extra_head,
-        "analytics": analytics_snippet(config),
-        "short": esc(site["short_title"]),
-        "nav": nav,
-        "crumbs": crumbs_html,
-        "body": body,
-        "year": dt.date.today().year,
-        "author": esc(site["author"]),
-    }
+def short_label(cluster):
+    return cluster.get("short") or cluster["label"].split("・")[0]
 
 
-def tier_chip(tier):
-    return '<span class="chip tier%d">Tier %d · %s</span>' % (tier, tier, TIER_LABEL.get(tier, ""))
-
-
-def domain_chips(item, config, root):
-    chips = [tier_chip(item["tier"])]
-    cluster = next(c for c in config["clusters"] if c["key"] == item["cluster"])
-    chips.append('<a class="chip" href="%sclusters/%s/">%s</a>' % (root, cluster["key"], esc(cluster["label"])))
-    for domain in item["domains"]:
-        chips.append('<a class="chip" href="%sdomains/%s/">%s</a>' % (root, domain, esc(config["domain_labels"].get(domain, domain))))
-    return '<div class="chips">%s</div>' % "".join(chips)
+def cluster_of(config, key):
+    return next(c for c in config["clusters"] if c["key"] == key)
 
 
 def fmt_date(value):
     return value[:10] if value else ""
 
 
-def list_items(items, root, show_date=False):
-    parts = ['<ul class="list">']
-    for item in items:
-        meta = " · ".join(filter(None, [
-            "Tier %d" % item["tier"],
-            fmt_date(item["published"]) if show_date else "",
-        ]))
-        parts.append(
-            '<li><a class="t" href="%sconcepts/%s/">%s</a>'
-            '<div class="d">%s</div><div class="m">%s</div></li>' % (
-                root, item["slug"], esc(item["title"]), esc(truncate(item["description"], 110)), esc(meta)))
-    parts.append("</ul>")
-    return "".join(parts)
+def dot_date(value):
+    return value[:10].replace("-", ".") if value else ""
+
+
+def tier_span(tier):
+    return '<span class="tier" data-t="%d">%s</span>' % (tier, TIER_LABEL.get(tier, ""))
+
+
+def layout(config, root, title, description, body, canonical, og_type="website", extra_head="",
+           og_key="default", current="", footer=True, body_attrs=""):
+    site = config["site"]
+    def cur(name):
+        return ' aria-current="page"' if current == name else ""
+    header = (
+        '<a class="skip" href="#main">本文へ移動</a>'
+        '<header class="top"><div class="shell">'
+        '<a class="brand" href="%(root)s" aria-label="%(short)s ホーム">%(mark)s<span class="word">%(short)s</span></a>'
+        '<nav class="nav" aria-label="主要ナビゲーション">'
+        '<a href="%(root)s#clusters"%(c1)s>領域</a><a href="%(root)sconcepts/"%(c2)s>記事</a>'
+        '<a class="opt" href="%(root)sgraph/"%(c3)s>アトラス</a></nav>'
+        '<div class="tools"><button class="search-btn" type="button" data-search aria-label="記事を検索">%(isearch)s<span>検索</span><kbd>⌘K</kbd></button>'
+        '<button class="icon-btn" type="button" data-theme-toggle aria-label="配色を切り替える">%(itheme)s</button></div>'
+        '</div></header>'
+    ) % {"root": root or "./", "short": esc(site["short_title"]), "mark": BRAND_MARK,
+         "c1": cur("clusters"), "c2": cur("concepts"), "c3": cur("graph"),
+         "isearch": ICON_SEARCH, "itheme": ICON_THEME}
+    foot = ""
+    if footer:
+        cluster_links = "".join(
+            '<li data-c="%s"><a href="%sclusters/%s/"><i class="dot"></i>%s</a></li>' % (c["key"], root, c["key"], esc(c["label"]))
+            for c in config["clusters"])
+        foot = (
+            '<footer class="foot"><div class="shell"><div class="foot-grid">'
+            '<div><h2 class="mono">About</h2><p>%(about)s</p></div>'
+            '<div><h2 class="mono">領域</h2><ul>%(clusters)s</ul></div>'
+            '<div><h2 class="mono">索引</h2><ul>'
+            '<li><a href="%(root)sconcepts/">記事索引</a></li><li><a href="%(root)sgraph/">アトラス(知識グラフ)</a></li>'
+            '<li><a href="%(root)sfeed.xml">RSS</a></li><li><a href="%(repo)s" rel="noopener">GitHub</a></li></ul></div>'
+            '</div><div class="foot-wrap"><div class="foot-word" aria-hidden="true">%(short)s</div></div>'
+            '<div class="foot-base mono"><span>© %(year)d %(author)s</span><span>記事は学術論文をもとに AI が生成 · 順次追加</span></div>'
+            '</div></footer>'
+        ) % {"about": esc(site["description"].replace("30 を超える学問分野", "%d の学問分野" % config.get("_domain_count", 30))), "clusters": cluster_links, "root": root, "repo": esc(site["repo_url"]),
+             "short": esc(site["short_title"]), "year": dt.date.today().year, "author": esc(site["author"])}
+    og_image = "%s/assets/og-%s.png" % (site["url"], og_key)
+    head = "\n".join(filter(None, [
+        '<meta charset="utf-8">',
+        '<meta name="viewport" content="width=device-width, initial-scale=1">',
+        "<title>%s</title>" % esc(title),
+        '<meta name="description" content="%s">' % esc(truncate(description, 160)),
+        '<link rel="canonical" href="%s">' % esc(canonical),
+        '<meta name="theme-color" content="#f4f0e8" media="(prefers-color-scheme: light)">',
+        '<meta name="theme-color" content="#0f0f0c" media="(prefers-color-scheme: dark)">',
+        '<meta property="og:site_name" content="%s">' % esc(site["short_title"]),
+        '<meta property="og:type" content="%s">' % og_type,
+        '<meta property="og:title" content="%s">' % esc(title),
+        '<meta property="og:description" content="%s">' % esc(truncate(description, 160)),
+        '<meta property="og:url" content="%s">' % esc(canonical),
+        '<meta property="og:locale" content="ja_JP">',
+        '<meta property="og:image" content="%s">' % esc(og_image),
+        '<meta name="twitter:card" content="summary_large_image">',
+        '<meta name="twitter:image" content="%s">' % esc(og_image),
+        verification_tags(config),
+        '<link rel="icon" href="%s">' % FAVICON,
+        '<link rel="alternate" type="application/rss+xml" title="%s" href="%sfeed.xml">' % (esc(site["short_title"]), root),
+        '<link rel="preconnect" href="https://fonts.googleapis.com">',
+        '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>',
+        '<link rel="stylesheet" href="%s">' % FONTS_URL,
+        '<link rel="stylesheet" href="%sassets/site.css?v=%s">' % (root, asset_version("site.css")),
+        THEME_BOOT,
+        extra_head,
+        analytics_snippet(config),
+    ]))
+    return (
+        '<!DOCTYPE html>\n<html lang="ja" data-root="%s">\n<head>\n%s\n</head>\n<body%s>\n%s\n<main id="main">\n%s\n</main>\n%s\n'
+        '<script src="%sassets/site.js?v=%s" defer></script>\n</body>\n</html>\n'
+    ) % (root, head, (" " + body_attrs) if body_attrs else "", header, body, foot, root, asset_version("site.js"))
+
+
+def brk(label):
+    """「・」区切りの名称を、区切りの位置でだけ折り返すようにする。"""
+    parts = label.split("・")
+    return "".join('<span class="nb">%s%s</span>' % (esc(part), "・" if i < len(parts) - 1 else "") for i, part in enumerate(parts))
+
+
+def crumbs_html(items):
+    parts = []
+    for index, (label, href) in enumerate(items):
+        if index:
+            parts.append('<span aria-hidden="true">/</span>')
+        parts.append(('<a href="%s">%s</a>' % (esc(href), esc(label))) if href else "<span>%s</span>" % esc(label))
+    return '<nav class="crumbs mono" aria-label="パンくず">%s</nav>' % "".join(parts)
+
+
+def row_html(item, root, config):
+    cluster = cluster_of(config, item["cluster"])
+    search_text = " ".join([item["title"], item["title_en"], item["slug"]]).lower()
+    return (
+        '<li class="row" data-c="%s" data-t="%d" data-s="%s"><a href="%sconcepts/%s/">'
+        '<span class="when mono">%s</span><span class="t">%s</span>'
+        '<span class="m mono"><span class="cl"><i class="dot"></i>%s</span> %s</span>'
+        '<span class="d">%s</span></a></li>'
+    ) % (cluster["key"], item["tier"], esc(search_text), root, item["slug"], ("%d 参照" % item["degree"]) if item.get("degree") else "—",
+         esc(item["title"]), esc(short_label(cluster)), tier_span(item["tier"]), esc(item["description"]))
+
+
+def rows_html(items, root, config):
+    return '<ul class="rows">%s</ul>' % "".join(row_html(i, root, config) for i in items)
+
+
+def filters_html(config, with_clusters, total):
+    chips = []
+    if with_clusters:
+        chips.append('<div class="chips" role="group" aria-label="領域で絞り込む">%s</div>' % "".join(
+            '<button class="chip" type="button" data-c="%s" data-f="c:%s" aria-pressed="false"><i class="dot"></i>%s</button>' % (
+                c["key"], c["key"], esc(short_label(c))) for c in config["clusters"]))
+    chips.append('<div class="chips" role="group" aria-label="Tier で絞り込む">%s</div>' % "".join(
+        '<button class="chip" type="button" data-f="t:%d" aria-pressed="false">%s</button>' % (t, TIER_LABEL[t]) for t in (1, 2, 3)))
+    return (
+        '<div class="filters"><span class="mono lab">絞り込み</span><input type="text" inputmode="search" placeholder="この一覧を絞り込む" aria-label="一覧を絞り込む">%s'
+        '<button class="clear" type="button" hidden>条件を解除</button><span class="count mono" aria-live="polite">%s 件</span></div>'
+    ) % ("".join(chips), num(total))
+
+
+TIER_KEY = (
+    '<ul class="tier-key"><li><b>◆ 不変原理</b>制度や技術が替わっても成り立つ構造</li>'
+    '<li><b>◇ 設計原理</b>いまの制約を前提にした設計の指針</li><li><b>▫ 参考</b>条件に依存する個別の知見</li></ul>'
+)
 
 
 def write(path, content):
@@ -668,63 +790,248 @@ def write(path, content):
         handle.write(content)
 
 
-def related_items(slug, backlinks, by_slug, limit=12):
+def build_graph_data(catalog, backlinks, config):
+    """記事どうしの参照(解決済みリンク)から、無向グラフと次数を作る。"""
+    index = {item["slug"]: i for i, item in enumerate(catalog)}
+    nodes = (backlinks or {}).get("nodes", {})
+    pairs = set()
+    for slug, i in index.items():
+        for edge in (nodes.get(slug) or {}).get("outbound", []):
+            j = index.get(edge.get("id"))
+            if edge.get("resolved") and j is not None and j != i:
+                pairs.add((min(i, j), max(i, j)))
+    degree = [0] * len(catalog)
+    neighbors = defaultdict(set)
+    for i, j in pairs:
+        degree[i] += 1
+        degree[j] += 1
+        neighbors[i].add(j)
+        neighbors[j].add(i)
+    for i, item in enumerate(catalog):
+        item["degree"] = degree[i]
+    return sorted(pairs), neighbors
+
+
+def graph_payload(catalog, pairs, config, subset=None, with_desc=True):
+    keys = [c["key"] for c in config["clusters"]]
+    if subset is None:
+        subset = list(range(len(catalog)))
+    remap = {old: new for new, old in enumerate(subset)}
+    nodes = []
+    for old in subset:
+        item = catalog[old]
+        node = [item["slug"], item["title"], keys.index(item["cluster"]), item["tier"], item["degree"]]
+        if with_desc:
+            node.append(truncate(item["description"], 140))
+        nodes.append(node)
+    edges = [[remap[i], remap[j]] for i, j in pairs if i in remap and j in remap]
+    return {"clusters": [[c["key"], c["label"], short_label(c)] for c in config["clusters"]], "nodes": nodes, "edges": edges}
+
+
+def hero_subset(catalog, config, total=120, per_cluster=12):
+    order = sorted(range(len(catalog)), key=lambda i: -catalog[i]["degree"])
+    chosen = []
+    for cluster in config["clusters"]:
+        chosen.extend([i for i in order if catalog[i]["cluster"] == cluster["key"]][:per_cluster])
+    seen = set(chosen)
+    for i in order:
+        if len(chosen) >= total:
+            break
+        if i not in seen:
+            chosen.append(i)
+            seen.add(i)
+    return chosen
+
+
+def related_items(slug, backlinks, by_slug, limit=6):
     node = (backlinks or {}).get("nodes", {}).get(slug) or {}
     seen = OrderedDict()
     for edge in node.get("outbound", []) + node.get("inbound", []):
         target = edge.get("id")
         if edge.get("resolved") and target in by_slug and target != slug:
             seen[target] = seen.get(target, 0) + (edge.get("weight") or 1)
-    ranked = sorted(seen.items(), key=lambda kv: (-kv[1], by_slug[kv[0]]["title"]))
+    ranked = sorted(seen.items(), key=lambda kv: (-kv[1], -by_slug[kv[0]].get("degree", 0), by_slug[kv[0]]["title"]))
     return [by_slug[s] for s, _ in ranked[:limit]]
 
 
-def build_article(item, config, renderer, backlinks, by_slug, out_dir):
+SECTION_SPLIT = re.compile(r"\n(?=##\s)")
+
+
+def split_article(markdown, slug, drop_related):
+    """本文と、出典の節・関連概念の節を分ける。出典は index の書誌から組み直す。"""
+    sections = SECTION_SPLIT.split("\n" + markdown.strip())
+    body, tail = [], []
+    for section in sections:
+        head = section.strip().splitlines()[0] if section.strip() else ""
+        if re.match(r"##\s*(参考ソース|追加ソース|参考文献|出典|ソース)", head):
+            tail.append(section)
+        elif drop_related and re.match(r"##\s*関連(概念|コンセプト|する概念)", head):
+            continue
+        else:
+            body.append(section)
+    records = list(SOURCE_RECORDS.get(slug, []))
+    seen = {r.get("file") for r in records}
+    tail_text = "\n".join(tail)
+    for path in RAW_PATH.findall(tail_text):
+        record = SOURCE_BY_FILE.get(path)
+        if record and record.get("file") not in seen:
+            records.append(record)
+            seen.add(record.get("file"))
+    for candidate in re.findall(r"\[([^\]]{12,})\]\(|\"([^\"\n]{12,})\"|「([^」\n]{12,})」|\*\*タイトル\*\*:\s*([^\n(（]{12,})", tail_text):
+        text = next((c for c in candidate if c), "")
+        text = re.sub(r"\s*\(\d{4}\)\s*$", "", text).strip()
+        record = SOURCE_BY_TITLE.get(norm_title(text))
+        if record and record.get("file") not in seen:
+            records.append(record)
+            seen.add(record.get("file"))
+    return scrub_paths("\n".join(body).strip()), tail_text, records
+
+
+def clean_source_tail(text):
+    text = scrub_paths(text)
+    text = re.sub(r"`?raw/[^\s`)）]*`?", "", text)
+    text = re.sub(r"##\s*追加ソース[^\n]*", "", text)
+    text = re.sub(r"##\s*(参考ソース|参考文献|ソース)[^\n]*", "## 出典", text, count=1)
+    return re.sub(r"##\s*(参考ソース|参考文献|ソース)[^\n]*", "", text)
+
+
+def bibliography_html(records):
+    items = []
+    for record in records:
+        meta = source_meta(record)
+        title = esc(meta["title"])
+        if meta["url"]:
+            title = '<a href="%s" target="_blank" rel="noopener nofollow">%s</a>' % (esc(meta["url"]), title)
+        lead = " ".join(filter(None, [esc(meta["authors"]), ("(%s)" % esc(meta["year"])) if meta["year"] else ""]))
+        link_text = re.sub(r"^https?://(www\.)?", "", meta["url"]) if meta["url"] else ""
+        items.append("<li>%s%s<cite>%s</cite>%s</li>" % (
+            lead, ". " if lead else "", title, ('<span class="mono src-id">%s</span>' % esc(link_text)) if link_text else ""))
+    return '<h2 id="sources">出典</h2><ol class="refs">%s</ol>' % "".join(items)
+
+
+def count_sources(markdown):
+    parts = re.split(r"(?:^|\n)## (?:参考ソース|追加ソース|参考文献|出典|ソース)[^\n]*\n", markdown)
+    if len(parts) < 2:
+        return 0
+    total = 0
+    for part in parts[1:]:
+        block = re.split(r"\n## ", part)[0]
+        table = [l for l in block.splitlines() if l.strip().startswith("|")]
+        total += max(0, len(table) - 2) if table else 0
+        total += sum(1 for l in block.splitlines() if re.match(r"^\s*[-*]\s+", l))
+    return total
+
+
+def build_article(item, config, renderer, backlinks, by_slug, out_dir, catalog=None, pairs=None, neighbors=None, index=None):
     root = "../../"
     site = config["site"]
     url = "%s/%s" % (site["url"], item["path"])
-    body_html = renderer.render(item["slug"], item["markdown"], root)
-    cluster = next(c for c in config["clusters"] if c["key"] == item["cluster"])
+    cluster = cluster_of(config, item["cluster"])
     related = related_items(item["slug"], backlinks, by_slug)
+    body_md, tail_md, records = split_article(item["markdown"], item["slug"], drop_related=len(related) >= 3)
+    body_html = renderer.render(item["slug"], body_md, root)
+    toc = list(renderer.toc)
+    subtoc = dict(renderer.subtoc)
+    if records:
+        body_html += bibliography_html(records)
+        toc.append(("sources", "出典"))
+        sources = len(records)
+    else:
+        cleaned = clean_source_tail(tail_md)
+        sources = count_sources(tail_md)
+        if cleaned.strip():
+            body_html += renderer.render(item["slug"], "# x\n\n" + cleaned, root)
+            toc.extend(renderer.toc)
+    source_anchor = next((a for a, t in toc if t == "出典"), "")
+    minutes = max(1, int(round(len(item["markdown"]) / 600.0)))
+
+    toc_items = "".join('<li><a href="#%s">%s</a></li>' % (esc(anchor), esc(text)) for anchor, text in toc)
+    toc_full = "".join(
+        '<li><a href="#%s">%s</a>%s</li>' % (
+            esc(anchor), esc(text),
+            ("<ul>%s</ul>" % "".join('<li><a href="#%s">%s</a></li>' % (esc(a), esc(t)) for a, t in subtoc[anchor][:8])) if subtoc.get(anchor) else "")
+        for anchor, text in toc)
+    toc_side = '<aside class="art-side side-toc">%s</aside>' % (
+        ('<div class="side-block"><h2 class="mono">目次</h2><ol class="toc">%s</ol></div>' % toc_full) if toc else "")
+    toc_mobile = ('<details class="art-toc-m"><summary>目次</summary><ol class="toc">%s</ol></details>' % toc_items) if toc else ""
+    domain_links = "、".join(
+        '<a href="%sdomains/%s/">%s</a>' % (root, d, esc(config["domain_labels"].get(d, d))) for d in item["domains"]) or "分野横断"
+    ego_html = ""
+    if neighbors is not None and index is not None:
+        me = index[item["slug"]]
+        near = sorted(neighbors.get(me, ()), key=lambda j: -catalog[j]["degree"])[:14]
+        if len(near) >= 2:
+            payload = graph_payload(catalog, pairs, config, [me] + near, with_desc=True)
+            ego_html = (
+                '<figure class="ego" aria-label="この概念とつながる記事の図"><canvas></canvas><div class="graph-tip"></div>'
+                '<figcaption class="mono"><span>近傍 %d 概念 · 点に触れると名前</span><a href="%sgraph/#%s">アトラスで開く</a></figcaption>'
+                '<script type="application/json" id="ego-graph">%s</script></figure>'
+            ) % (len(neighbors.get(me, ())), root, item["slug"],
+                 json.dumps(payload, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
+    facts = [
+        ("領域", '<a href="%sclusters/%s/">%s</a>' % (root, cluster["key"], esc(cluster["label"]))),
+        ("分野", domain_links),
+        ("Tier", "%d · %s" % (item["tier"], TIER_LABEL.get(item["tier"], ""))),
+        ("公開", dot_date(item["published"])),
+    ]
+    if item["modified"] and item["modified"][:10] != item["published"][:10]:
+        facts.append(("更新", dot_date(item["modified"])))
+    facts.append(("参照", "%d 記事とつながる" % item.get("degree", 0)))
+    facts_html = "".join("<dt>%s</dt><dd>%s</dd>" % (k, v) for k, v in facts)
+    share_text = quote("%s | %s" % (item["title"], site["short_title"]))
+    share = (
+        '<div class="side-block"><h2 class="mono">共有</h2><div class="share">'
+        '<a href="https://x.com/intent/post?text=%s&amp;url=%s" target="_blank" rel="noopener">X でポスト</a>'
+        '<button type="button" data-copy>リンクをコピー</button></div></div>'
+    ) % (share_text, quote(url, safe=""))
+    side_meta = '<aside class="art-side side-meta"><div class="side-block"><h2 class="mono">この記事</h2><dl class="facts">%s</dl></div>%s</aside>' % (
+        facts_html, share)
+
     related_html = ""
     if related:
-        related_html = "<h2>関連コンセプト</h2><ul class=\"related\">%s</ul>" % "".join(
-            '<li><a href="%sconcepts/%s/">%s</a></li>' % (root, r["slug"], esc(r["title"])) for r in related)
-    dates = " · ".join(filter(None, [
-        ("公開 " + fmt_date(item["published"])) if item["published"] else "",
-        ("更新 " + fmt_date(item["modified"])) if item["modified"] and item["modified"][:10] != item["published"][:10] else "",
-    ]))
+        cards = "".join(
+            '<a href="%sconcepts/%s/" data-c="%s"><span class="t">%s</span><span class="d">%s</span>'
+            '<span class="f mono"><i class="dot"></i>%s</span></a>' % (
+                root, r["slug"], r["cluster"], esc(r["title"]), esc(r["description"]),
+                esc(short_label(cluster_of(config, r["cluster"]))))
+            for r in related)
+        related_html = (
+            '<section class="sec art-end"><div class="shell"><header class="sec-head reveal">'
+            '<span class="sec-no mono">次に読む</span><h2>つながる概念</h2>'
+            '<a class="more" href="%sgraph/#%s">アトラスで見る <span class="arr">→</span></a></header>'
+            '<div class="rel reveal">%s</div></div></section>'
+        ) % (root, item["slug"], cards)
+
     source_md = "%s/blob/main/wiki/concepts/%s.md" % (site["repo_url"], item["slug"])
-    body = """
-<article>
-<h1>%(title)s</h1>
-%(sub)s
-%(chips)s
-%(lead)s
-<div class="meta">%(dates)s</div>
-%(body)s
-%(related)s
-<div class="notice">%(notice)s<br>原稿(Markdown): <a href="%(source_md)s" rel="noopener">GitHub</a></div>
-</article>
-""" % {
+    body = (
+        '<div class="progress" aria-hidden="true"></div>'
+        '<article data-c="%(ckey)s">'
+        '<header class="art-head"><div class="shell">%(crumbs)s<div>'
+        '<div class="art-kicker mono"><a href="%(root)sclusters/%(ckey)s/"><i class="dot"></i>%(clabel)s</a>%(tier)s</div>'
+        '<h1>%(title)s</h1>%(en)s%(lede)s%(why)s%(src)s</div>%(ego)s</div></header>'
+        '<div class="shell art-grid">%(toc_side)s<div class="art-main">%(toc_m)s<div class="prose">%(body)s'
+        '<div class="notice"><span class="mono">Note</span><p>%(notice)s <a href="%(source)s" rel="noopener">原稿(Markdown)を GitHub で見る</a></p></div>'
+        '</div></div>%(side_meta)s</div></article>%(related)s'
+    ) % {
+        "ckey": cluster["key"], "clabel": esc(cluster["label"]), "root": root,
+        "crumbs": crumbs_html([(site["short_title"], root), (cluster["label"], root + "clusters/%s/" % cluster["key"]), (item["title"], None)]),
+        "tier": tier_span(item["tier"]),
+        "why": ('<p class="art-why"><span class="mono">実務への含意</span><span>%s</span></p>' % esc(item["why"])) if item.get("why") else "",
+        "src": '<p class="art-src">%s</p>' % (
+            ('<a href="#%s">出典 %d 本をもとに AI が執筆</a> · 約 %d 分' % (esc(source_anchor), sources, minutes)) if sources and source_anchor
+            else "論文をもとに AI が執筆 · 約 %d 分" % minutes),
+        "ego": ego_html + (
+            '<a class="art-atlas" href="%sgraph/#%s">%d 記事とつながる · アトラスで開く <span class="arr">→</span></a>' % (
+                root, item["slug"], item.get("degree", 0)) if item.get("degree") else ""),
         "title": esc(item["title"]),
-        "sub": ('<p class="sub">%s</p>' % esc(item["title_en"])) if item["title_en"] else "",
-        "chips": domain_chips(item, config, root),
-        "lead": ('<p class="lead">%s</p>' % esc(item["description"])) if item["has_lead"] else "",
-        "dates": esc(dates),
-        "body": body_html,
-        "related": related_html,
-        "notice": esc(site["ai_notice"]),
-        "source_md": esc(source_md),
+        "en": ('<p class="art-en" lang="en">%s</p>' % esc(item["title_en"])) if item["title_en"] else "",
+        "lede": ('<p class="art-lede">%s</p>' % esc(item["description"])) if item["has_lead"] else "",
+        "toc_side": toc_side, "side_meta": side_meta, "toc_m": toc_mobile, "body": body_html,
+        "notice": esc(site["ai_notice"]), "source": esc(source_md), "related": related_html,
     }
     json_ld = {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": item["title"],
-        "description": item["description"],
-        "inLanguage": "ja",
-        "isAccessibleForFree": True,
-        "url": url,
+        "@context": "https://schema.org", "@type": "Article", "headline": item["title"],
+        "description": item["description"], "inLanguage": "ja", "isAccessibleForFree": True, "url": url,
         "author": {"@type": "Organization", "name": site["author"]},
         "publisher": {"@type": "Organization", "name": site["author"]},
         "about": [config["domain_labels"].get(d, d) for d in item["domains"]],
@@ -734,43 +1041,57 @@ def build_article(item, config, renderer, backlinks, by_slug, out_dir):
     if item["modified"]:
         json_ld["dateModified"] = item["modified"]
     extra_head = '<script type="application/ld+json">%s</script>' % json.dumps(json_ld, ensure_ascii=False).replace("</", "<\\/")
-    page = layout(
-        config, root,
-        title="%s | %s" % (item["title"], site["short_title"]),
-        description=item["description"],
-        body=body, canonical=url, og_type="article", extra_head=extra_head,
-        crumbs=[(site["short_title"], root), (cluster["label"], root + "clusters/%s/" % cluster["key"]), (item["title"], None)],
-        og_key=cluster["key"],
-    )
+    page = layout(config, root, "%s | %s" % (item["title"], site["short_title"]), item["description"], body, url,
+                  og_type="article", extra_head=extra_head, og_key=cluster["key"], current="concepts")
     write(os.path.join(out_dir, "concepts", item["slug"], "index.html"), page)
 
 
 def build_cluster_pages(catalog, config, out_dir):
     site = config["site"]
     root = "../../"
-    for cluster in config["clusters"]:
+    for number, cluster in enumerate(config["clusters"], 1):
         items = [i for i in catalog if i["cluster"] == cluster["key"]]
         by_domain = defaultdict(list)
         for item in items:
-            key = item["domains"][0] if item["domains"] else "_other"
-            by_domain[key].append(item)
+            by_domain[item["domains"][0] if item["domains"] else "_other"].append(item)
         sections = []
+        jumps = []
+        starts = sorted(items, key=lambda i: (i["tier"] != 1, -i.get("degree", 0)))[:3]
+        starts_html = (
+            '<div class="starts"><span class="mono">まず読む 3 本</span><div class="rel">%s</div></div>' % "".join(
+                '<a href="%sconcepts/%s/" data-c="%s"><span class="t">%s</span><span class="d">%s</span>'
+                '<span class="f mono">%s · %d 件の参照</span></a>' % (
+                    root, i["slug"], i["cluster"], esc(i["title"]), esc(i["description"]),
+                    TIER_LABEL.get(i["tier"], ""), i.get("degree", 0)) for i in starts)) if len(starts) == 3 else ""
         for domain in cluster["domains"] + ["_other"]:
             group = by_domain.get(domain)
             if not group:
                 continue
-            label = config["domain_labels"].get(domain, "その他(分野推定)") if domain != "_other" else "分野横断"
-            group.sort(key=lambda i: (i["tier"], i["title"]))
-            heading = '<h2 id="%s">%s <span class="sub">(%d)</span></h2>' % (esc(domain), esc(label), len(group))
-            if domain != "_other":
-                heading += '<p class="sub">%s · <a href="%sdomains/%s/">分野ページへ</a></p>' % (
-                    esc(config["domain_questions"].get(domain, "")), root, domain)
-            sections.append(heading + list_items(group, root))
-        body = '<h1>%s</h1><p class="lead">%s</p><div class="stats"><span>%d 記事</span><span>Tier 1: %d</span></div>%s' % (
-            esc(cluster["label"]), esc(cluster["tagline"]), len(items), sum(1 for i in items if i["tier"] == 1), "".join(sections))
+            group.sort(key=lambda i: (i["tier"], -i.get("degree", 0), i["title"]))
+            label = config["domain_labels"].get(domain, "分野横断") if domain != "_other" else "分野横断"
+            question = config["domain_questions"].get(domain, "") if domain != "_other" else ""
+            sections.append(
+                '<section class="group" id="%s"><div class="group-head"><span class="mono">%02d</span>'
+                '<h2><em>%s</em>%s%s</h2><span class="mono"><span class="n">%s</span> 記事 · 参照の多い順</span></div>%s</section>' % (
+                    esc(domain), len(sections) + 1, esc(domain.replace("_", " ").upper()), esc(label),
+                    ("<small>%s</small>" % esc(question)) if question else "", num(len(group)), rows_html(group, root, config)))
+            jumps.append((len(group), '<a class="chip" href="#%s">%s <span class="mono">%s</span></a>' % (esc(domain), esc(label), num(len(group)))))
+        body = (
+            '<header class="page-head" data-c="%(key)s"><div class="shell">%(crumbs)s'
+            '<div><h1>%(label)s</h1><p class="lede">%(tag)s</p></div>'
+            '<div class="big-no" aria-hidden="true">%(count)s<small>CONCEPTS · 領域 %(no)02d / %(total)02d</small></div></div></header>'
+            '<div class="shell" data-c="%(key)s">%(starts)s<nav class="jump" aria-label="分野へ移動"><span class="mono lab">分野へ移動</span>%(jumps)s</nav></div>'
+            '<div class="shell" data-c="%(key)s" style="margin-top:26px">%(filters)s%(sections)s<p class="empty" hidden>条件に合う記事がありません。</p></div>'
+            '<div style="height:clamp(60px,9vw,130px)"></div>'
+        ) % {"key": cluster["key"], "label": brk(cluster["label"]), "tag": esc(cluster["tagline"]), "count": num(len(items)),
+             "no": number, "total": len(config["clusters"]),
+             "crumbs": crumbs_html([(site["short_title"], root), ("領域", root + "#clusters"), (cluster["label"], None)]),
+             "filters": filters_html(config, False, len(items)), "sections": "".join(sections),
+             "starts": starts_html, "jumps": "".join(h for _, h in sorted(jumps, key=lambda x: -x[0]))}
         url = "%s/clusters/%s/" % (site["url"], cluster["key"])
-        page = layout(config, root, "%s | %s" % (cluster["label"], site["short_title"]), cluster["tagline"], body, url,
-                      crumbs=[(site["short_title"], root), (cluster["label"], None)], og_key=cluster["key"])
+        page = layout(config, root, "%s | %s" % (cluster["label"], site["short_title"]),
+                      "%s — %s の概念記事 %d 本。" % (cluster["tagline"], cluster["label"], len(items)), body, url,
+                      og_key=cluster["key"], current="clusters")
         write(os.path.join(out_dir, "clusters", cluster["key"], "index.html"), page)
 
 
@@ -781,63 +1102,185 @@ def build_domain_pages(catalog, config, out_dir):
         items = [i for i in catalog if domain in i["domains"]]
         if not items:
             continue
-        items.sort(key=lambda i: (i["tier"], i["title"]))
-        cluster_key = config["domain_to_cluster"].get(domain)
-        cluster = next((c for c in config["clusters"] if c["key"] == cluster_key), None)
-        body = '<h1>%s</h1><p class="lead">%s</p><div class="stats"><span>%d 記事</span></div>%s' % (
-            esc(label), esc(config["domain_questions"].get(domain, "")), len(items), list_items(items, root))
-        url = "%s/domains/%s/" % (site["url"], domain)
+        items.sort(key=lambda i: (i["tier"], -i.get("degree", 0), i["title"]))
+        cluster = cluster_of(config, config["domain_to_cluster"][domain]) if domain in config["domain_to_cluster"] else None
+        question = config["domain_questions"].get(domain, "")
         crumbs = [(site["short_title"], root)]
         if cluster:
             crumbs.append((cluster["label"], root + "clusters/%s/" % cluster["key"]))
         crumbs.append((label, None))
-        page = layout(config, root, "%s | %s" % (label, site["short_title"]),
-                      config["domain_questions"].get(domain, "") or label, body, url, crumbs=crumbs)
+        ckey = cluster["key"] if cluster else ""
+        body = (
+            '<header class="page-head" data-c="%(ckey)s"><div class="shell">%(crumbs)s'
+            '<div><h1>%(label)s</h1><p class="lede">%(q)s</p></div>'
+            '<div class="big-no" aria-hidden="true">%(count)s<small>CONCEPTS · %(en)s</small></div></div></header>'
+            '<div class="shell" data-c="%(ckey)s">%(filters)s%(rows)s<p class="empty" hidden>条件に合う記事がありません。</p></div>'
+            '<div style="height:clamp(60px,9vw,130px)"></div>'
+        ) % {"ckey": ckey, "crumbs": crumbs_html(crumbs), "label": esc(label), "q": esc(question), "count": num(len(items)),
+             "en": esc(domain.replace("_", " ").upper()), "filters": filters_html(config, False, len(items)),
+             "rows": rows_html(items, root, config)}
+        url = "%s/domains/%s/" % (site["url"], domain)
+        page = layout(config, root, "%s | %s" % (label, site["short_title"]), question or label, body, url,
+                      og_key=ckey or "default", current="clusters")
         write(os.path.join(out_dir, "domains", domain, "index.html"), page)
 
 
 def build_all_index(catalog, config, out_dir):
     site = config["site"]
     root = "../"
-    items = sorted(catalog, key=lambda i: (i["tier"], i["title"]))
-    body = '<h1>記事一覧</h1><div class="stats"><span>%d 記事</span><span>Tier 1: %d</span><span>Tier 2: %d</span></div>%s' % (
-        len(items), sum(1 for i in items if i["tier"] == 1), sum(1 for i in items if i["tier"] == 2), list_items(items, root, show_date=True))
-    page = layout(config, root, "記事一覧 | %s" % site["short_title"], site["description"], body, site["url"] + "/concepts/",
-                  crumbs=[(site["short_title"], root), ("記事一覧", None)])
+    items = catalog
+    day_sections = []
+    for number, cluster in enumerate(config["clusters"], 1):
+        group = sorted([i for i in catalog if i["cluster"] == cluster["key"]], key=lambda i: (-i.get("degree", 0), i["tier"], i["title"]))
+        if not group:
+            continue
+        day_sections.append(
+            '<section class="group" id="%s" data-c="%s"><div class="group-head"><span class="mono">%02d</span>'
+            '<h2><a href="%sclusters/%s/">%s</a><small>%s</small></h2>'
+            '<span class="mono"><span class="n">%s</span> 記事 · 参照の多い順</span></div>%s</section>' % (
+                cluster["key"], cluster["key"], number, root, cluster["key"], esc(cluster["label"]), esc(cluster["tagline"]),
+                num(len(group)), rows_html(group, root, config)))
+    body = (
+        '<header class="page-head"><div class="shell">%(crumbs)s'
+        '<div><h1>記事索引</h1><p class="lede">すべての概念記事を、領域ごとに参照の多い順で並べています。領域・分類・語で絞り込めます。</p>%(key)s</div>'
+        '<div class="big-no" aria-hidden="true" style="color:var(--ink)">%(count)s<small>CONCEPTS</small></div></div></header>'
+        '<div class="shell">%(filters)s%(rows)s<p class="empty" hidden>条件に合う記事がありません。</p></div>'
+        '<div style="height:clamp(60px,9vw,130px)"></div>'
+    ) % {"crumbs": crumbs_html([(site["short_title"], root), ("記事索引", None)]), "count": num(len(items)),
+         "filters": filters_html(config, True, len(items)), "rows": "".join(day_sections), "key": TIER_KEY}
+    page = layout(config, root, "記事索引 | %s" % site["short_title"], site["description"], body, site["url"] + "/concepts/",
+                  current="concepts")
     write(os.path.join(out_dir, "concepts", "index.html"), page)
 
 
-def build_home(catalog, config, out_dir):
+def build_home(catalog, config, out_dir, pairs, paper_count):
     site = config["site"]
     root = ""
-    latest = sorted([i for i in catalog if i["published"]], key=lambda i: i["published"], reverse=True)[:12]
-    tier1 = sorted([i for i in catalog if i["tier"] == 1], key=lambda i: i["published"], reverse=True)[:8]
-    cards = []
-    for cluster in config["clusters"]:
-        count = sum(1 for i in catalog if i["cluster"] == cluster["key"])
-        cards.append('<a class="card" href="clusters/%s/"><div class="t">%s</div><div class="d">%s · %d 記事</div></a>' % (
-            cluster["key"], esc(cluster["label"]), esc(cluster["tagline"]), count))
-    body = """
-<div class="hero"><h1>%(title)s</h1><p>%(description)s</p>
-<div class="stats"><span>%(count)d 記事</span><span>%(domains)d 分野</span><span>Tier 1(不変原理): %(t1)d</span></div></div>
-<h2 id="clusters">領域から探す</h2>
-<div class="cards">%(cards)s</div>
-<h2>最新の記事</h2>%(latest)s
-<h2>不変原理(Tier 1)から読む</h2>%(tier1)s
-<p><a href="concepts/">すべての記事を見る →</a> · <a href="graph/">知識グラフで探索する →</a></p>
-<div class="notice">このサイトの記事は、学術論文(主に系統的レビュー・メタ分析・古典)をもとに AI が日本語で自動生成し、毎日追加されています。各記事の末尾に出典を示しています。Tier 1 は AGI 時代にも変わらないと判断した構造的原理、Tier 2 は消えゆく制約を前提にした設計原理です。</div>
-""" % {
-        "title": esc(site["title"]),
-        "description": esc(site["description"]),
-        "count": len(catalog),
-        "domains": len({d for i in catalog for d in i["domains"]}),
-        "t1": sum(1 for i in catalog if i["tier"] == 1),
-        "cards": "".join(cards),
-        "latest": list_items(latest, root, show_date=True),
-        "tier1": list_items(tier1, root),
+    tier1 = sorted([i for i in catalog if i["tier"] == 1], key=lambda i: -i["degree"])[:6]
+    shown = {i["slug"] for i in tier1}
+    latest = sorted([i for i in catalog if i["slug"] not in shown], key=lambda i: (i["published"][:10], i["modified"], i["degree"]), reverse=True)[:8]
+    domain_count = len({d for i in catalog for d in i["domains"]})
+
+    rows = []
+    for number, cluster in enumerate(config["clusters"], 1):
+        members = [i for i in catalog if i["cluster"] == cluster["key"]]
+        samples = sorted(members, key=lambda i: -i["degree"])[:3]
+        rows.append(
+            '<li><a class="cl-row" data-c="%s" href="clusters/%s/"><span class="cl-no mono"><i></i>%02d</span>'
+            '<span class="cl-name">%s</span><span class="cl-tag">%s<small>%s</small></span>'
+            '<span class="cl-count">%s<small>CONCEPTS</small></span><span class="cl-arr" aria-hidden="true">→</span></a></li>' % (
+                cluster["key"], cluster["key"], number, brk(cluster["label"]), esc(cluster["tagline"]),
+                esc(" / ".join(s["title"] for s in samples)), num(len(members))))
+    cards = "".join(
+        '<a class="card" data-c="%s" href="concepts/%s/"><span class="n">%02d</span><span class="t">%s</span>'
+        '<span class="d">%s</span><span class="f mono"><i class="dot"></i>%s · %d LINKS</span></a>' % (
+            item["cluster"], item["slug"], n, esc(item["title"]), esc(item["description"]),
+            esc(short_label(cluster_of(config, item["cluster"]))), item["degree"])
+        for n, item in enumerate(tier1, 1))
+    hero_graph = json.dumps(graph_payload(catalog, pairs, config, hero_subset(catalog, config), with_desc=True),
+                            ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    body = (
+        '<section class="hero"><div class="hero-main">'
+        '<div class="hero-canvas fade"><canvas aria-label="概念どうしのつながりを示す図。点を選ぶと記事を開けます"></canvas><div class="graph-tip"></div></div>'
+        '<div class="shell hero-body"><div class="kicker mono fade">An atlas of invariant principles</div>'
+        '<h1><span class="l"><span>AI が変えるもの。</span></span><span class="l"><span><em>変わらないもの。</em></span></span></h1>'
+        '<p class="hero-lede fade">%(domains)d の学問分野、%(papers)s 本の論文から、知能が安くなった後にも残る構造を読み解く研究アトラス。'
+        '記事は論文をもとに AI が書き、出典とともに順次追加されます。</p>'
+        '<div class="hero-cta fade"><a class="btn solid" href="#clusters">領域から読む <span class="arr">↓</span></a>'
+        '<a class="btn ghost" href="graph/">アトラスを開く <span class="arr">→</span></a></div>'
+        '<div class="fade"><a class="hero-latest" href="concepts/%(latest_slug)s/"><span class="mono">新着</span><b>%(latest_title)s</b><span class="arr">→</span></a></div></div>'
+        '<div class="hero-legend mono fade" aria-label="点の色は領域を表します">%(legend)s</div></div>'
+        '<div class="shell"><div class="hero-stats fade">'
+        '<div class="stat"><b>%(count)s</b><span class="mono">概念記事</span></div>'
+        '<div class="stat"><b>%(papers)s</b><span class="mono">収録論文</span></div>'
+        '<div class="stat"><b>%(domains)d</b><span class="mono">学問分野</span></div>'
+        '<div class="stat"><b>%(edges)s</b><span class="mono">概念間の参照</span></div></div></div>'
+        '<script type="application/json" id="hero-graph">%(graph)s</script></section>'
+
+        '<section class="sec" id="clusters"><div class="shell"><header class="sec-head reveal"><span class="sec-no mono">01 — Fields</span>'
+        '<h2>六つの領域</h2><p>%(domains)d の分野を、問いの近さで六つに束ねています。</p></header>'
+        '<ul class="cl-list reveal">%(clusters)s</ul></div></section>'
+
+        '<section class="sec"><div class="shell"><header class="sec-head reveal"><span class="sec-no mono">02 — Invariants</span>'
+        '<h2>不変原理から読む</h2><a class="more" href="concepts/">すべての記事 <span class="arr">→</span></a>'
+        '<p>制度や技術が入れ替わっても成り立つと判断した原理のうち、他の概念から最も多く参照されているもの。</p></header>'
+        '<div class="cards reveal">%(cards)s</div></div></section>'
+
+        '<section class="sec"><div class="shell"><header class="sec-head reveal"><span class="sec-no mono">03 — Latest</span>'
+        '<h2>最近の追加</h2><a class="more" href="concepts/">記事索引 <span class="arr">→</span></a>'
+        '<p>直近に追加した記事から、ほかの概念とのつながりが多い順に。</p></header>'
+        '<div class="reveal">%(latest)s</div></div></section>'
+
+        '<section class="sec"><div class="shell"><header class="sec-head reveal"><span class="sec-no mono">04 — Method</span>'
+        '<h2>つくりかた</h2><p>このサイトは、人が選び AI が読むという分担で運用しています。</p></header>'
+        '<div class="method reveal">'
+        '<div class="step"><span class="n mono">Step 01</span><h3>集める</h3><p>毎朝、%(domains)d 分野の検索式で学術データベースから論文を取得します。系統的レビュー、メタ分析、古典を優先します。</p></div>'
+        '<div class="step"><span class="n mono">Step 02</span><h3>ふるいにかける</h3><p>抽象度・制約不変・メカニズムの 3 つの試験で分類します。すべて満たすものが Tier 1(不変原理)、消えゆく制約に依るが構造的に価値があるものが Tier 2(設計原理)です。</p></div>'
+        '<div class="step"><span class="n mono">Step 03</span><h3>書く</h3><p>残った論文から概念を抽出し、1 概念 1 記事で日本語にまとめます。記事どうしの参照は知識グラフとして保持します。取得は毎朝、公開はまとめて順次行います。</p></div></div>'
+        '<div class="colophon reveal"><span class="mono">Note</span><p>記事は AI(大規模言語モデル)による自動生成で、人による査読を経ていません。各記事の末尾に出典を示しています。内容は必ず原典で確認してください。</p></div>'
+        '</div></section>'
+    ) % {
+        "domains": domain_count, "papers": num(paper_count), "count": num(len(catalog)), "edges": num(len(pairs)),
+        "graph": hero_graph, "clusters": "".join(rows), "cards": cards, "latest": rows_html(latest, root, config),
+        "legend": "".join('<a data-c="%s" href="clusters/%s/"><i class="dot"></i>%s</a>' % (c["key"], c["key"], esc(short_label(c))) for c in config["clusters"]),
+        "latest_slug": latest[0]["slug"], "latest_title": esc(latest[0]["title"]),
     }
-    page = layout(config, root, site["title"], site["description"], body, site["url"] + "/")
+    json_ld = {"@context": "https://schema.org", "@type": "WebSite", "name": site["short_title"], "url": site["url"] + "/",
+               "description": site["description"], "inLanguage": "ja"}
+    extra = '<script type="application/ld+json">%s</script>' % json.dumps(json_ld, ensure_ascii=False)
+    page = layout(config, root, site["title"], site["description"], body, site["url"] + "/", extra_head=extra)
     write(os.path.join(out_dir, "index.html"), page)
+
+
+def build_atlas(catalog, config, out_dir, pairs):
+    site = config["site"]
+    root = "../"
+    legend = "".join(
+        '<button type="button" data-c="%s" aria-pressed="true"><i class="dot"></i>%s <small>%s</small></button>' % (
+            c["key"], esc(c["label"]), num(sum(1 for i in catalog if i["cluster"] == c["key"])))
+        for c in config["clusters"])
+    body = (
+        '<div class="atlas"><canvas aria-label="知識グラフ。点は概念、線は記事どうしの参照"></canvas>'
+        '<div class="atlas-panel"><div class="kicker mono">Atlas</div><h1>概念の地図</h1>'
+        '<p>%s の概念と、記事どうしの参照 %s 本。点を選ぶと概要が開きます。領域名を押すと表示を切り替えられます。</p>'
+        '<div class="legend" role="group" aria-label="領域の表示切り替え">%s</div>'
+        '<div class="atlas-help mono"><span class="for-mouse">ドラッグで移動 · ホイールで拡大</span><span class="for-touch">ドラッグで移動 · ピンチで拡大</span></div></div>'
+        '<div class="atlas-zoom"><button type="button" data-zoom="in" aria-label="拡大">+</button>'
+        '<button type="button" data-zoom="out" aria-label="縮小">−</button>'
+        '<button type="button" data-zoom="fit" aria-label="全体を表示">◎</button></div>'
+        '<div class="atlas-card" aria-live="polite"></div>'
+        '<noscript><p style="padding:120px 24px">地図の表示には JavaScript が必要です。<a href="../concepts/">記事索引</a>をご覧ください。</p></noscript></div>'
+    ) % (num(len(catalog)), num(len(pairs)), legend)
+    page = layout(config, root, "アトラス(知識グラフ) | %s" % site["short_title"],
+                  "%s の概念と %s 本の参照関係を地図として探索できます。" % (num(len(catalog)), num(len(pairs))),
+                  body, site["url"] + "/graph/", current="graph", footer=False)
+    write(os.path.join(out_dir, "graph", "index.html"), page)
+    write(os.path.join(out_dir, "graph.json"),
+          json.dumps(graph_payload(catalog, pairs, config), ensure_ascii=False, separators=(",", ":")))
+
+
+def build_search_index(catalog, config, out_dir):
+    keys = [c["key"] for c in config["clusters"]]
+    items = sorted(catalog, key=lambda i: (i["published"], i["degree"]), reverse=True)
+    payload = {
+        "clusters": [[c["key"], short_label(c)] for c in config["clusters"]],
+        "items": [[i["slug"], i["title"], i["title_en"], truncate(i["description"], 140), keys.index(i["cluster"]), i["tier"]] for i in items],
+    }
+    write(os.path.join(out_dir, "search.json"), json.dumps(payload, ensure_ascii=False, separators=(",", ":")))
+
+
+def build_404(config, out_dir):
+    site = config["site"]
+    base_path = "/" + site["url"].split("/", 3)[3].strip("/") + "/" if site["url"].count("/") > 2 else "/"
+    body = (
+        '<header class="page-head" style="border-bottom:0"><div class="shell"><div class="crumbs mono"><span>Error 404</span></div>'
+        '<h1>この頁は、<br>まだ書かれていません。</h1><p class="lede">URL が変わったか、記事が統合された可能性があります。</p>'
+        '<div class="hero-cta"><a class="btn solid" href="%sconcepts/">記事索引へ <span class="arr">→</span></a>'
+        '<button class="btn ghost" type="button" data-search>検索する</button></div></div></header>'
+        '<div style="height:18vh"></div>'
+    ) % base_path
+    page = layout(config, base_path, "ページが見つかりません | %s" % site["short_title"], site["description"], body, site["url"] + "/404.html")
+    write(os.path.join(out_dir, "404.html"), page)
 
 
 def build_feeds(catalog, config, out_dir):
@@ -895,25 +1338,32 @@ def build(out_dir=None, site_url=None, quiet=False):
     if os.path.isdir(out_dir):
         shutil.rmtree(out_dir)
     os.makedirs(out_dir)
-    write(os.path.join(out_dir, "assets", "site.css"), CSS.strip() + "\n")
     write(os.path.join(out_dir, ".nojekyll"), "")
     assets_src = os.path.join(BASE, "config", "site_assets")
+    os.makedirs(os.path.join(out_dir, "assets"), exist_ok=True)
     if os.path.isdir(assets_src):
         for name in sorted(os.listdir(assets_src)):
             shutil.copyfile(os.path.join(assets_src, name), os.path.join(out_dir, "assets", name))
     indexnow_key = (config.get("search") or {}).get("indexnow_key") or ""
     if indexnow_key:
         write(os.path.join(out_dir, indexnow_key + ".txt"), indexnow_key)
+    pairs, _neighbors = build_graph_data(catalog, backlinks, config)
+    config["_domain_count"] = len({d for i in catalog for d in i["domains"]})
+    paper_count = 0
+    if os.path.exists(INDEX_FILE):
+        with open(INDEX_FILE, encoding="utf-8") as handle:
+            paper_count = sum(1 for line in handle if line.strip())
+    index = {item["slug"]: i for i, item in enumerate(catalog)}
     for item in catalog:
-        build_article(item, config, renderer, backlinks, by_slug, out_dir)
+        build_article(item, config, renderer, backlinks, by_slug, out_dir, catalog, pairs, _neighbors, index)
     build_cluster_pages(catalog, config, out_dir)
     build_domain_pages(catalog, config, out_dir)
     build_all_index(catalog, config, out_dir)
-    build_home(catalog, config, out_dir)
+    build_home(catalog, config, out_dir, pairs, paper_count)
+    build_atlas(catalog, config, out_dir, pairs)
+    build_search_index(catalog, config, out_dir)
+    build_404(config, out_dir)
     build_feeds(catalog, config, out_dir)
-    if os.path.exists(GRAPH_UI):
-        os.makedirs(os.path.join(out_dir, "graph"), exist_ok=True)
-        shutil.copyfile(GRAPH_UI, os.path.join(out_dir, "graph", "index.html"))
 
     sources = defaultdict(int)
     for item in catalog:

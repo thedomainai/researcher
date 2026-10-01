@@ -176,6 +176,15 @@ def main():
             env,
         )
 
+    summarize_result = None
+    if not args.no_compile:
+        # 公開サイトの記事ヘッダーと一覧に出す 1 文の要約・実務への含意・英語名を、まだ無い記事に付ける
+        summarize_result = run_step(
+            "4c/6 記事の要約と含意の生成",
+            [python, str(TOOLS / "summarize_articles_cli.py"), "--limit", "120"],
+            env,
+        )
+
     publish_result = None
     if not args.no_publish:
         publish_result = run_step(
@@ -197,7 +206,7 @@ def main():
     else:
         print("\n6/6 X への自動投稿: スキップ(--no-x)")
 
-    results = [sync_result, fetch_result, tier_result, reading_result, compile_result, classify_result, publish_result, x_result]
+    results = [sync_result, fetch_result, tier_result, reading_result, compile_result, classify_result, summarize_result, publish_result, x_result]
     failures = [result for result in results if result is not None and result.returncode != 0]
     print("\n" + "=" * 60)
     print("日次パイプライン完了: %s" % ("失敗あり" if failures else "成功"))

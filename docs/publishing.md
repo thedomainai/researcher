@@ -51,3 +51,12 @@
 - サイト PV: GA4(ボット除外は GA4 の既定で有効)。記事別・流入元別に見る
 - X: 各アカウントのアナリティクス(インプレッション・リンククリック)。サイト側では流入元 `t.co` で見分ける
 - 投稿の記録: `config/x_post_state.json`(slug ごとの tweet id と日時)
+
+## デザイン(v2、2026-10-01)
+
+- 見た目は `config/site_assets/site.css`、動きは `config/site_assets/site.js`(依存なし)。`tools/build_site.py` の HTML と対で動く。ビルド時に `assets/` へ複製し、内容のハッシュを `?v=` に付ける
+- 記事ヘッダーの 1 文要約・実務への含意・英語名は `wiki/_meta/summaries.json`(`tools/summarize_articles_cli.py`、sonnet、日次で未生成分だけ)
+- 出典は `raw/index.jsonl` と raw ファイルの frontmatter(doi / url / arxiv_id)から書誌として組み直す。記事本文の内部パスは表示しない
+- アトラス(`/graph/`)は `graph.json`、検索パレットは `search.json` を読む。どちらもビルドで生成する
+- 審査の記録: 独立レビュワー 2 体(Opus・Sonnet)に Awwwards の配点で 6 ラウンド採点させた。最終は 8.25 / 8.00(合格条件: 両者 8.0 以上かつ重大な指摘 0 件)
+- 既知の残り(minor): 概念名と h2 の節名(概要 / 詳細)が抽象的、出典に掲載誌名が無い、検索結果は一致箇所の前後ではなく要約の冒頭を出す、モバイルの記事ヘッダーに近傍グラフが無い(アトラスへのリンクで代替)

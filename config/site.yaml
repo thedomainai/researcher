@@ -6,12 +6,12 @@ site:
   url: "https://thedomainai.github.io/researcher"
   title: "Researcher — AI Native 社会・組織・システム設計の研究ノート"
   short_title: "Researcher"
-  description: "38 の学問分野の論文から、AI 時代にも変わらない構造的原理を日本語で読み解く研究ナレッジベース。記事は論文をもとに AI が自動生成し、出典を明記しています。"
+  description: "30 を超える学問分野の論文から、AI 時代にも変わらない構造的原理を日本語で読み解く研究アトラス。記事は論文をもとに AI が書き、出典を明記しています。"
   author: "thedomainai"
   language: "ja"
   repo_url: "https://github.com/thedomainai/researcher"
   # 記事ページの末尾に出す注意書き
-  ai_notice: "この記事は、参考ソースに挙げた学術論文をもとに AI(大規模言語モデル)が自動生成したものです。内容の正確さは出典で確認してください。誤りに気づいた場合は GitHub の Issue でお知らせください。"
+  ai_notice: "この記事は、出典に挙げた学術論文をもとに AI(大規模言語モデル)が自動生成したもので、人による査読を経ていません。内容は出典で確認してください。誤りに気づいた場合は GitHub の Issue でお知らせください。"
 
 # 検索エンジンの所有権確認と更新通知
 search:
@@ -32,31 +32,37 @@ analytics:
 # domains の先頭ほど代表性が高い。記事の所属クラスターは、記事の第一分野が属するクラスター。
 clusters:
   - key: cognition
+    short: "認知"
     label: "認知・心理・脳"
     tagline: "人間の思考はどこまで AI と溶け合えるか"
     domains: [cognitive_science, psychology, neuroscience]
     x_handle: ""
   - key: economics
+    short: "経済"
     label: "行動経済・経済・金融"
     tagline: "インセンティブと市場は AI でどう変わるか"
     domains: [behavioral_economics, economics, finance_corporate, accounting, marketing]
     x_handle: ""
   - key: organization
+    short: "組織"
     label: "組織・経営・リーダーシップ"
     tagline: "AI Native な組織はどう設計するか"
     domains: [organization_science, strategic_management, leadership_ob, human_resource_management, corporate_governance, entrepreneurship, innovation_management, operations_management, project_management, information_systems, operations_research, international_business, business_ethics_csr, business_history]
     x_handle: ""
   - key: society
+    short: "社会"
     label: "社会・制度・哲学・歴史"
     tagline: "制度と規範は技術変化にどう応答してきたか"
     domains: [sociology, law, philosophy, anthropology, religious_studies, history_of_technology]
     x_handle: ""
   - key: systems
+    short: "複雑系"
     label: "複雑系・システム・進化"
     tagline: "人と AI の系はどんな創発を起こすか"
     domains: [complexity_science, systems_engineering, evolutionary_biology]
     x_handle: ""
   - key: ai
+    short: "AI ガバナンス"
     label: "AI ガバナンス・人間と AI の協調"
     tagline: "人と AI の役割分担と統治をどう決めるか"
     domains: [human_ai_collaboration, ai_governance, ai_ml, hci]

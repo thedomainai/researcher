@@ -6,7 +6,6 @@ on:
     paths:
       - "wiki/concepts/**"
       - "wiki/_meta/**"
-      - "wiki/graph/**"
       - "raw/index.jsonl"
       - "config/site.yaml"
       - "config/sources.yaml"
