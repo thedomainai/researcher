@@ -1,0 +1,1024 @@
+{
+ "adaptive-human-ai-coupling": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "hci",
+   "cognitive_science"
+  ]
+ },
+ "adaptive-intelligence-emergence": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "cognition",
+  "domains": [
+   "cognitive_science",
+   "complexity_science",
+   "systems_engineering"
+  ]
+ },
+ "agentic-ai-and-llm-applications": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "systems_engineering",
+   "information_systems"
+  ]
+ },
+ "agi-governance-digital-nudging": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "economics",
+  "domains": [
+   "behavioral_economics",
+   "ai_ml",
+   "corporate_governance"
+  ]
+ },
+ "agi-governance-nudging": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "economics",
+  "domains": [
+   "behavioral_economics",
+   "ai_ml",
+   "corporate_governance"
+  ]
+ },
+ "ai-adoption-in-hospitality": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "operations_management",
+   "information_systems"
+  ]
+ },
+ "ai-and-future-of-work": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "economics",
+  "domains": [
+   "economics",
+   "ai_ml",
+   "human_resource_management"
+  ]
+ },
+ "ai-applications-in-sustainability": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "systems_engineering",
+   "business_ethics_csr"
+  ]
+ },
+ "ai-as-cognitive-extension": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "cognition",
+  "domains": [
+   "cognitive_science",
+   "ai_ml",
+   "hci"
+  ]
+ },
+ "ai-augmented-decision-making": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "operations_research",
+   "cognitive_science"
+  ]
+ },
+ "ai-corporate-governance": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "organization",
+  "domains": [
+   "corporate_governance",
+   "ai_ml",
+   "information_systems"
+  ]
+ },
+ "ai-decision-support-systems": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "operations_research",
+   "information_systems"
+  ]
+ },
+ "ai-deepfakes-misinformation-framing": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "sociology",
+   "psychology"
+  ]
+ },
+ "ai-developer-productivity": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "information_systems",
+   "human_resource_management"
+  ]
+ },
+ "ai-devsecops-cicd-security": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "information_systems",
+   "operations_management"
+  ]
+ },
+ "ai-driven-job-displacement": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "economics",
+  "domains": [
+   "economics",
+   "ai_ml",
+   "human_resource_management"
+  ]
+ },
+ "ai-driven-job-displacement-economic-sovereignty": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "economics",
+  "domains": [
+   "economics",
+   "ai_ml",
+   "human_resource_management"
+  ]
+ },
+ "ai-driven-labor-displacement": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "economics",
+  "domains": [
+   "economics",
+   "ai_ml",
+   "human_resource_management"
+  ]
+ },
+ "ai-driven-surgical-transformation": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "information_systems",
+   "systems_engineering"
+  ]
+ },
+ "ai-economic-impact-and-research": {
+  "at": "2026-10-01T05:09:37+00:00",
+  "cluster": "economics",
+  "domains": [
+   "economics",
+   "ai_ml",
+   "innovation_management"
+  ]
+ },
+ "ai-feedback-attribution": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "cognition",
+  "domains": [
+   "psychology",
+   "cognitive_science",
+   "hci"
+  ]
+ },
+ "ai-feedback-attribution-learning": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "cognition",
+  "domains": [
+   "cognitive_science",
+   "psychology",
+   "hci"
+  ]
+ },
+ "ai-for-web-exploration-and-personalization": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "hci",
+   "information_systems",
+   "ai_ml"
+  ]
+ },
+ "ai-generated-code-detection": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "information_systems"
+  ]
+ },
+ "ai-governance-algorithmic-inequality": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "organization",
+  "domains": [
+   "corporate_governance",
+   "sociology",
+   "business_ethics_csr"
+  ]
+ },
+ "ai-governance-and-risk-management": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "organization",
+  "domains": [
+   "corporate_governance",
+   "ai_ml"
+  ]
+ },
+ "ai-in-human-resource-management": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "organization",
+  "domains": [
+   "human_resource_management",
+   "ai_ml",
+   "psychology"
+  ]
+ },
+ "ai-in-surgical-digital-transformation": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "information_systems",
+   "systems_engineering"
+  ]
+ },
+ "ai-infrastructure-and-development": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "information_systems",
+   "systems_engineering"
+  ]
+ },
+ "ai-intellectual-property-copyright": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "society",
+  "domains": [
+   "law",
+   "ai_ml",
+   "business_ethics_csr"
+  ]
+ },
+ "ai-language-brain-alignment": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "cognition",
+  "domains": [
+   "neuroscience",
+   "cognitive_science",
+   "ai_ml"
+  ]
+ },
+ "ai-language-learning-tools": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "hci",
+   "ai_ml",
+   "psychology"
+  ]
+ },
+ "ai-language-models-and-human-cognition": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "cognition",
+  "domains": [
+   "cognitive_science",
+   "neuroscience",
+   "ai_ml"
+  ]
+ },
+ "ai-precision-agriculture": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "operations_management",
+   "systems_engineering"
+  ]
+ },
+ "ai-precision-agriculture-uav-remote-sensing": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "systems_engineering",
+   "operations_management"
+  ]
+ },
+ "ai-prompt-engineering-and-skills": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "hci"
+  ]
+ },
+ "ai-psychological-effects-work": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "cognition",
+  "domains": [
+   "psychology",
+   "organization_science",
+   "leadership_ob"
+  ]
+ },
+ "ai-sensemaking-human-agency": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "cognition",
+  "domains": [
+   "cognitive_science",
+   "psychology",
+   "hci"
+  ]
+ },
+ "ai-tools-in-language-education": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "hci",
+   "ai_ml",
+   "psychology"
+  ]
+ },
+ "ai-tools-language-learning-education": {
+  "at": "2026-10-01T05:10:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "hci",
+   "ai_ml",
+   "international_business"
+  ]
+ },
+ "ai-workflow-automation-ux": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "ai",
+  "domains": [
+   "hci",
+   "information_systems",
+   "ai_ml"
+  ]
+ },
+ "algorithm-auditing-and-bias": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "philosophy",
+   "law"
+  ]
+ },
+ "algorithmic-transparency-paradox": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "psychology",
+   "hci"
+  ]
+ },
+ "ambidextrous-organization-model": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "organization",
+  "domains": [
+   "organization_science",
+   "innovation_management",
+   "strategic_management"
+  ]
+ },
+ "artificial-intelligence-security": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "strategic_management"
+  ]
+ },
+ "attention-mechanisms": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml"
+  ]
+ },
+ "autopoietic-system-maintenance": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "systems",
+  "domains": [
+   "systems_engineering",
+   "complexity_science",
+   "ai_ml"
+  ]
+ },
+ "blockchain-financial-regulation": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "economics",
+  "domains": [
+   "finance_corporate",
+   "law",
+   "information_systems"
+  ]
+ },
+ "blockchain-public-procurement": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "society",
+  "domains": [
+   "law",
+   "information_systems",
+   "operations_management"
+  ]
+ },
+ "clinical-ai-governance": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "law",
+   "business_ethics_csr"
+  ]
+ },
+ "coding-agents": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "information_systems"
+  ]
+ },
+ "cognitive-offloading-ai": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "cognition",
+  "domains": [
+   "cognitive_science",
+   "psychology",
+   "ai_ml"
+  ]
+ },
+ "conversational-agent-embodied-interaction": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "ai",
+  "domains": [
+   "hci",
+   "cognitive_science",
+   "ai_ml"
+  ]
+ },
+ "cultural-intelligence-hybridization": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "society",
+  "domains": [
+   "anthropology",
+   "cognitive_science",
+   "ai_ml"
+  ]
+ },
+ "deterministic-vs-probabilistic-ai": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "philosophy",
+   "complexity_science"
+  ]
+ },
+ "digital-political-polarization": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "society",
+  "domains": [
+   "sociology",
+   "psychology"
+  ]
+ },
+ "digital-privacy-location-data": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "society",
+  "domains": [
+   "law",
+   "philosophy",
+   "information_systems"
+  ]
+ },
+ "distributed-cognitive-load": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "cognition",
+  "domains": [
+   "cognitive_science",
+   "hci",
+   "ai_ml"
+  ]
+ },
+ "efficient-llm-reasoning": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "operations_research"
+  ]
+ },
+ "embodied-interaction-design": {
+  "at": "2026-10-01T05:10:41+00:00",
+  "cluster": "ai",
+  "domains": [
+   "hci",
+   "cognitive_science",
+   "ai_ml"
+  ]
+ },
+ "entrepreneurial-digilantism": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "organization",
+  "domains": [
+   "entrepreneurship",
+   "sociology"
+  ]
+ },
+ "entrepreneurship-education": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "organization",
+  "domains": [
+   "entrepreneurship",
+   "psychology"
+  ]
+ },
+ "epistemic-risk-llm-higher-education": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "society",
+  "domains": [
+   "philosophy",
+   "ai_ml"
+  ]
+ },
+ "generative-ai-and-llms": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "information_systems"
+  ]
+ },
+ "generative-ai-in-creative-domains": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "hci"
+  ]
+ },
+ "generative-ai-intellectual-property": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "society",
+  "domains": [
+   "law",
+   "ai_ml"
+  ]
+ },
+ "generative-conversational-ai": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "hci"
+  ]
+ },
+ "generative-ml-professional-work": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "organization_science"
+  ]
+ },
+ "geofence-warrants-fourth-amendment": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "society",
+  "domains": [
+   "law",
+   "information_systems"
+  ]
+ },
+ "global-ai-governance-legitimacy": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "society",
+  "domains": [
+   "law",
+   "ai_ml"
+  ]
+ },
+ "global-ai-regulation-governance": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "society",
+  "domains": [
+   "law",
+   "ai_ml"
+  ]
+ },
+ "grounded-token-initialization": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml"
+  ]
+ },
+ "higher-order-brain-networks": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "cognition",
+  "domains": [
+   "neuroscience",
+   "complexity_science"
+  ]
+ },
+ "human-ai-advice-taking-behavior": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "economics",
+  "domains": [
+   "behavioral_economics",
+   "hci"
+  ]
+ },
+ "human-ai-assemblage": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "society",
+  "domains": [
+   "sociology",
+   "hci"
+  ]
+ },
+ "human-ai-cognitive-augmentation": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "cognition",
+  "domains": [
+   "cognitive_science",
+   "hci"
+  ]
+ },
+ "human-ai-collaboration-performance": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "hci",
+   "organization_science"
+  ]
+ },
+ "human-ai-interaction": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "hci",
+   "psychology"
+  ]
+ },
+ "human-ai-interaction-extreme-environments": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "hci",
+   "cognitive_science"
+  ]
+ },
+ "human-ai-teaming-and-collaboration": {
+  "at": "2026-10-01T05:11:04+00:00",
+  "cluster": "ai",
+  "domains": [
+   "hci",
+   "organization_science"
+  ]
+ },
+ "human-provenance-attribution-framework": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "information_systems",
+   "corporate_governance"
+  ]
+ },
+ "intelligent-healthcare-ai-systems": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "information_systems"
+  ]
+ },
+ "inter-brain-synchronization": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "cognition",
+  "domains": [
+   "neuroscience",
+   "cognitive_science"
+  ]
+ },
+ "interaction-awareness": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "hci"
+  ]
+ },
+ "interface-design-and-environmental-impact": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "ai",
+  "domains": [
+   "hci",
+   "behavioral_economics"
+  ]
+ },
+ "jagged-frontier-analysis": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "complexity_science"
+  ]
+ },
+ "llm-alignment-trust-sycophancy": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "philosophy"
+  ]
+ },
+ "llm-architectures-and-workflow": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "information_systems"
+  ]
+ },
+ "llm-based-embodied-robot-cognition": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "cognitive_science",
+   "systems_engineering"
+  ]
+ },
+ "llm-epistemic-risk-governance": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "philosophy",
+   "corporate_governance"
+  ]
+ },
+ "llm-interaction-awareness": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "cognitive_science",
+   "hci"
+  ]
+ },
+ "llm-multi-agent-interaction": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "systems_engineering"
+  ]
+ },
+ "llm-product-evaluation-practices": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "information_systems"
+  ]
+ },
+ "llm-product-evaluation-results-actionability-gap": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "information_systems"
+  ]
+ },
+ "multi-agent-system-security-and-trust": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "systems_engineering",
+   "corporate_governance"
+  ]
+ },
+ "multi-agent-world-model": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "systems_engineering"
+  ]
+ },
+ "multi-scale-governance-architecture": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "organization",
+  "domains": [
+   "corporate_governance",
+   "systems_engineering",
+   "law"
+  ]
+ },
+ "neurolinguistic-morphosyntactic-processing": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "cognition",
+  "domains": [
+   "neuroscience",
+   "cognitive_science"
+  ]
+ },
+ "niche-construction-dynamics": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "systems",
+  "domains": [
+   "evolutionary_biology",
+   "complexity_science",
+   "systems_engineering"
+  ]
+ },
+ "online-platform-reciprocity-engagement": {
+  "at": "2026-10-01T05:11:32+00:00",
+  "cluster": "economics",
+  "domains": [
+   "behavioral_economics",
+   "sociology",
+   "psychology"
+  ]
+ },
+ "ontological-status-of-ai-generated-creativity": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "society",
+  "domains": [
+   "philosophy",
+   "ai_ml",
+   "cognitive_science"
+  ]
+ },
+ "ontology-for-educational-support": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "organization",
+  "domains": [
+   "information_systems",
+   "hci"
+  ]
+ },
+ "organizational-ethical-translation": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "organization",
+  "domains": [
+   "business_ethics_csr",
+   "organization_science"
+  ]
+ },
+ "path-dependent-ai-evolution": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "society",
+  "domains": [
+   "history_of_technology",
+   "ai_ml"
+  ]
+ },
+ "predictive-processing-architecture": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "cognition",
+  "domains": [
+   "neuroscience",
+   "cognitive_science",
+   "ai_ml"
+  ]
+ },
+ "prospect-guided-ai-adoption": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "economics",
+  "domains": [
+   "behavioral_economics",
+   "ai_ml"
+  ]
+ },
+ "queering-robotics-ethics": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "ai",
+  "domains": [
+   "hci",
+   "philosophy",
+   "business_ethics_csr"
+  ]
+ },
+ "reward-hacking": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "systems_engineering"
+  ]
+ },
+ "self-determination-theory": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "cognition",
+  "domains": [
+   "psychology",
+   "organization_science"
+  ]
+ },
+ "sequential-decision-making-under-uncertainty": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "organization",
+  "domains": [
+   "operations_research",
+   "economics"
+  ]
+ },
+ "situated-knowledge-validation": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "society",
+  "domains": [
+   "philosophy",
+   "sociology",
+   "ai_ml"
+  ]
+ },
+ "social-construction": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "society",
+  "domains": [
+   "sociology"
+  ]
+ },
+ "sociotechnical-assemblage": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "organization",
+  "domains": [
+   "organization_science",
+   "hci"
+  ]
+ },
+ "statistical-decision-making-in-medical-research": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "organization",
+  "domains": [
+   "operations_research",
+   "information_systems"
+  ]
+ },
+ "steerable-visual-representations": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml"
+  ]
+ },
+ "technological-determinism-resistance": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "society",
+  "domains": [
+   "history_of_technology",
+   "sociology"
+  ]
+ },
+ "technological-revolutions-and-financial-capital": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "society",
+  "domains": [
+   "history_of_technology",
+   "economics",
+   "business_history"
+  ]
+ },
+ "test-time-compute": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "cognitive_science"
+  ]
+ },
+ "transdiagnostic-neuropsychiatry": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "cognition",
+  "domains": [
+   "neuroscience",
+   "psychology"
+  ]
+ },
+ "voice-based-ai-clinical-decision-support": {
+  "at": "2026-10-01T05:12:02+00:00",
+  "cluster": "ai",
+  "domains": [
+   "hci",
+   "ai_ml",
+   "information_systems"
+  ]
+ }
+}

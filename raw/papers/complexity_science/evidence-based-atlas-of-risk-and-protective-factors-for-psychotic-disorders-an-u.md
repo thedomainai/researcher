@@ -1,0 +1,22 @@
+---
+title: "Evidence-based atlas of risk and protective factors for psychotic disorders: an umbrella review to inform personalized prognosis and prevention."
+authors: "Clàudia Aymerich, Michele De Prisco, Antonio Melillo, Borja Pedruzo, A. Catalan"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "complexity_science"
+fetched: "2026-10-01T06:00:50.645098"
+doi: "https://doi.org/10.1002/wps.70093"
+openalex_id: "https://openalex.org/W7134148812"
+source_api: "openalex"
+---
+
+# Evidence-based atlas of risk and protective factors for psychotic disorders: an umbrella review to inform personalized prognosis and prevention.
+
+**著者**: Clàudia Aymerich, Michele De Prisco, Antonio Melillo, Borja Pedruzo, A. Catalan
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: 複雑系科学
+
+## Abstract
+
+Identifying updated, evidence-based risk and protective factors for psychotic disorders is essential to advancing scientific and clinical knowledge of their etiology. Since the most recent umbrella review published in this journal, the evidence base has expanded substantially. Following a pre-registered protocol, we searched the Web of Science for systematic reviews with meta-analyses of observational studies published between the search date of the last umbrella review (February 1, 2017) and March 31, 2025, examining associations of sociodemographic, parental, perinatal, and later factors or antecedents with ICD/DSM (any version) diagnoses of non-organic psychotic disorders. We graded associations between each putative factor and psychotic disorders using standardized international classification criteria: convincing (class I), highly suggestive (class II), suggestive (class III), and weak (class IV). We also conducted sensitivity analyses: a) lowering the classification criterion requiring more than 1,000 cases to 500 cases, b) restricted to prospective studies (class I-II factors), and c) testing more robust estimates of uncertainty (Hartung-Knapp-Sidik-Jonkman method). Then, we estimated the population attributable fraction (PAF) for potentially modifiable class I-III factors. Study quality was assessed with A MeaSurement Tool to Assess systematic Reviews (AMSTAR). A total of 69 systematic reviews and meta-analyses were included, reporting on 970 individual studies and 221 risk or protective factors for psychotic disorders. Six risk factors showed convincing (class I) evidence of association: Black-African ethnicity in England (odds ratio, OR=4.89, 95% CI: 4.04-5.92), South Asian ethnicity in England (OR=2.15, 95% CI: 1.69-2.73), paternal age <20 years (OR=1.34, 95% CI: 1.20-1.50), birthweight under 2,000 g (OR=1.77, 95% CI: 1.48-2.13), birthweight under 2,500 g (OR=1.50, 95% CI: 1.38-1.64), and maternal history of three or more previous pregnancies (OR=1.32, 95% CI: 1.20-1.45). Eighteen additional factors were highly suggestive (class II): maternal psychosis, Black-Caribbean ethnicity in England, any maternal mental health disorder, ethnic minority status in a low ethnic density area, first-generation immigrant status, cannabis use 5 to 7 days per week, Toxoplasma gondii IgG positivity, history of attention-deficit/hyperactivity disorder (ADHD), trait anhedonia, olfactory identification ability, premorbid IQ, and seven factors pertaining to minor physical anomalies. Two additional factors were upgraded from class IV to class II in our sensitivity analyses: clinical high-risk for psychosis (CHR-P) state, and soft neurological signs. Twenty-six factors (including four protective factors) were suggestive (class III), 75 were weak (class IV), and 96 were non-significant. Sensitivity analyses restricted to prospective studies downgraded some of the above factors, but only total minor physical anomalies became non-significant. The largest PAFs (>10%) were found for childhood adversities (40.69%), Toxoplasma gondii IgG positivity (20.47%), cannabis use 5-7 days per week (12.75%), and CHR-P state (12.68%). The sensitivity analyses employing robust uncertainty estimates confirmed that, among class I factors, Black-African ethnicity in England, birthweight under 2,000 g, and birthweight under 2,500 g retained their level of evidence. The mean AMSTAR score was 7.73 (SD=2.09). These findings provide an evidence-based, updated atlas of risk and protective factors for psychosis, advancing epidemiological knowledge, refining precision psychiatry, identifying targets for preventive intervention, and guiding global public health research.
