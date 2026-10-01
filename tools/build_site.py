@@ -555,7 +555,17 @@ def analytics_snippet(config):
     return "".join(parts)
 
 
-def layout(config, root, title, description, body, canonical, og_type="website", extra_head="", crumbs=None):
+def verification_tags(config):
+    search = config.get("search") or {}
+    tags = []
+    if search.get("google_site_verification"):
+        tags.append('\n<meta name="google-site-verification" content="%s">' % esc(search["google_site_verification"]))
+    if search.get("bing_site_verification"):
+        tags.append('\n<meta name="msvalidate.01" content="%s">' % esc(search["bing_site_verification"]))
+    return "".join(tags)
+
+
+def layout(config, root, title, description, body, canonical, og_type="website", extra_head="", crumbs=None, og_key="default"):
     site = config["site"]
     nav = (
         '<a href="%sconcepts/">記事一覧</a>'
@@ -583,7 +593,9 @@ def layout(config, root, title, description, body, canonical, og_type="website",
 <meta property="og:description" content="%(description)s">
 <meta property="og:url" content="%(canonical)s">
 <meta property="og:locale" content="ja_JP">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="%(og_image)s">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="%(og_image)s">%(verification)s
 <link rel="alternate" type="application/rss+xml" title="%(site_title)s" href="%(root)sfeed.xml">
 <link rel="stylesheet" href="%(root)sassets/site.css">
 %(extra_head)s
@@ -604,6 +616,8 @@ def layout(config, root, title, description, body, canonical, og_type="website",
         "canonical": esc(canonical),
         "site_title": esc(site["short_title"]),
         "og_type": og_type,
+        "og_image": esc("%s/assets/og-%s.png" % (site["url"], og_key)),
+        "verification": verification_tags(config),
         "root": root,
         "extra_head": extra_head,
         "analytics": analytics_snippet(config),
@@ -726,6 +740,7 @@ def build_article(item, config, renderer, backlinks, by_slug, out_dir):
         description=item["description"],
         body=body, canonical=url, og_type="article", extra_head=extra_head,
         crumbs=[(site["short_title"], root), (cluster["label"], root + "clusters/%s/" % cluster["key"]), (item["title"], None)],
+        og_key=cluster["key"],
     )
     write(os.path.join(out_dir, "concepts", item["slug"], "index.html"), page)
 
@@ -755,7 +770,7 @@ def build_cluster_pages(catalog, config, out_dir):
             esc(cluster["label"]), esc(cluster["tagline"]), len(items), sum(1 for i in items if i["tier"] == 1), "".join(sections))
         url = "%s/clusters/%s/" % (site["url"], cluster["key"])
         page = layout(config, root, "%s | %s" % (cluster["label"], site["short_title"]), cluster["tagline"], body, url,
-                      crumbs=[(site["short_title"], root), (cluster["label"], None)])
+                      crumbs=[(site["short_title"], root), (cluster["label"], None)], og_key=cluster["key"])
         write(os.path.join(out_dir, "clusters", cluster["key"], "index.html"), page)
 
 
@@ -882,6 +897,13 @@ def build(out_dir=None, site_url=None, quiet=False):
     os.makedirs(out_dir)
     write(os.path.join(out_dir, "assets", "site.css"), CSS.strip() + "\n")
     write(os.path.join(out_dir, ".nojekyll"), "")
+    assets_src = os.path.join(BASE, "config", "site_assets")
+    if os.path.isdir(assets_src):
+        for name in sorted(os.listdir(assets_src)):
+            shutil.copyfile(os.path.join(assets_src, name), os.path.join(out_dir, "assets", name))
+    indexnow_key = (config.get("search") or {}).get("indexnow_key") or ""
+    if indexnow_key:
+        write(os.path.join(out_dir, indexnow_key + ".txt"), indexnow_key)
     for item in catalog:
         build_article(item, config, renderer, backlinks, by_slug, out_dir)
     build_cluster_pages(catalog, config, out_dir)

@@ -13,6 +13,15 @@ site:
   # 記事ページの末尾に出す注意書き
   ai_notice: "この記事は、参考ソースに挙げた学術論文をもとに AI(大規模言語モデル)が自動生成したものです。内容の正確さは出典で確認してください。誤りに気づいた場合は GitHub の Issue でお知らせください。"
 
+# 検索エンジンの所有権確認と更新通知
+search:
+  # Google Search Console の HTML タグ確認コード(content="..." の中身)。空なら出さない。
+  google_site_verification: ""
+  # Bing Webmaster Tools の確認コード(msvalidate.01)。空なら出さない。
+  bing_site_verification: ""
+  # IndexNow の鍵(公開してよい値)。サイトの <key>.txt として配信し、更新した URL を Bing 等へ通知する。
+  indexnow_key: "1e3397d1151b2ae99bea5a1ca8a5f828"
+
 analytics:
   # Google Analytics 4 の測定 ID(例: G-XXXXXXXXXX)。空なら計測タグを出さない。
   ga4_measurement_id: ""

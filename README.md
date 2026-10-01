@@ -1,5 +1,7 @@
 # Researcher — AI Native 社会設計のための研究ナレッジベース
 
+**公開サイト: https://thedomainai.github.io/researcher/** (記事は論文をもとに AI が自動生成し、毎日更新されます。運用は [docs/publishing.md](docs/publishing.md))
+
 ## 概要
 
 17の学問分野にまたがるAI関連の最新論文を自動的に収集し、LLMによってwikiにコンパイルするパイプライン。

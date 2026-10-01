@@ -11,8 +11,15 @@ on:
       - "config/site.yaml"
       - "config/sources.yaml"
       - "tools/build_site.py"
+      - "tools/indexnow.py"
+      - "config/site_assets/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
+    inputs:
+      indexnow_all:
+        description: "IndexNow へ全 URL を通知する"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -47,3 +54,17 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+  notify:
+    # 配置が終わってから、更新した URL を IndexNow(Bing 等)へ通知する。失敗しても公開には影響させない
+    needs: deploy
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - run: python3 tools/indexnow.py ${{ inputs.indexnow_all && '--all' || '--since-days 3' }}

@@ -26,6 +26,12 @@
 5. **各アカウントの認可**: `python3 tools/x_authorize.py --cluster cognition` のように 6 回。表示された URL をそのアカウントでログインしたブラウザで開き、PIN を入力する。
 6. **独自ドメイン(任意)**: `research.thedomainai.com` などを使うなら、DNS に CNAME `research → thedomainai.github.io` を追加し、`gh api -X PUT repos/thedomainai/researcher/pages -f cname=research.thedomainai.com` を実行して `config/site.yaml` の `site.url` を変える。
 
+## 検索エンジンへの通知
+
+- **IndexNow(Bing ほか)**: アカウント不要。`config/site.yaml` の `search.indexnow_key` をサイトの `<key>.txt` として配信し、Pages の配置後に `tools/indexnow.py` が直近 3 日の更新 URL を通知する(workflow の notify ジョブ)。全 URL を送り直すときは `python3 tools/indexnow.py --all`
+- **Google**: Search Console で URL プレフィックスを登録し、「HTML タグ」の確認コードを `search.google_site_verification` に入れて push する。確認後に `sitemap.xml` を送信する
+- OGP 画像は `config/site_assets/og-<cluster>.png`(1200×630)。クラスター名を変えたら作り直す
+
 ## 日次で自動で起きること
 
 - 新しい記事が `wiki/concepts/` に増える → `publish_site.py` がコミットして push → Actions が 1〜2 分でサイトを更新
