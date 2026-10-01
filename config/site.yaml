@@ -1,0 +1,63 @@
+# 公開サイト(static site)と X 配信の設定。tools/build_site.py と tools/post_x.py が読む。
+# 秘密情報は書かない(X の API キーは .env に置く)。
+
+site:
+  # 公開 URL(末尾スラッシュなし)。独自ドメインへ移すときはここを変える。
+  url: "https://thedomainai.github.io/researcher"
+  title: "Researcher — AI Native 社会・組織・システム設計の研究ノート"
+  short_title: "Researcher"
+  description: "38 の学問分野の論文から、AI 時代にも変わらない構造的原理を日本語で読み解く研究ナレッジベース。記事は論文をもとに AI が自動生成し、出典を明記しています。"
+  author: "thedomainai"
+  language: "ja"
+  repo_url: "https://github.com/thedomainai/researcher"
+  # 記事ページの末尾に出す注意書き
+  ai_notice: "この記事は、参考ソースに挙げた学術論文をもとに AI(大規模言語モデル)が自動生成したものです。内容の正確さは出典で確認してください。誤りに気づいた場合は GitHub の Issue でお知らせください。"
+
+analytics:
+  # Google Analytics 4 の測定 ID(例: G-XXXXXXXXXX)。空なら計測タグを出さない。
+  ga4_measurement_id: ""
+  # Cloudflare Web Analytics のビーコントークン。空なら出さない。
+  cloudflare_beacon_token: ""
+
+# 38 分野を 6 つの領域クラスターに束ねる。X アカウントもこの単位で持つ。
+# domains の先頭ほど代表性が高い。記事の所属クラスターは、記事の第一分野が属するクラスター。
+clusters:
+  - key: cognition
+    label: "認知・心理・脳"
+    tagline: "人間の思考はどこまで AI と溶け合えるか"
+    domains: [cognitive_science, psychology, neuroscience]
+    x_handle: ""
+  - key: economics
+    label: "行動経済・経済・金融"
+    tagline: "インセンティブと市場は AI でどう変わるか"
+    domains: [behavioral_economics, economics, finance_corporate, accounting, marketing]
+    x_handle: ""
+  - key: organization
+    label: "組織・経営・リーダーシップ"
+    tagline: "AI Native な組織はどう設計するか"
+    domains: [organization_science, strategic_management, leadership_ob, human_resource_management, corporate_governance, entrepreneurship, innovation_management, operations_management, project_management, information_systems, operations_research, international_business, business_ethics_csr, business_history]
+    x_handle: ""
+  - key: society
+    label: "社会・制度・哲学・歴史"
+    tagline: "制度と規範は技術変化にどう応答してきたか"
+    domains: [sociology, law, philosophy, anthropology, religious_studies, history_of_technology]
+    x_handle: ""
+  - key: systems
+    label: "複雑系・システム・進化"
+    tagline: "人と AI の系はどんな創発を起こすか"
+    domains: [complexity_science, systems_engineering, evolutionary_biology]
+    x_handle: ""
+  - key: ai
+    label: "AI ガバナンス・人間と AI の協調"
+    tagline: "人と AI の役割分担と統治をどう決めるか"
+    domains: [human_ai_collaboration, ai_governance, ai_ml, hci]
+    x_handle: ""
+
+# 分野情報が無い記事を slug / タイトルの語でクラスターへ振り分けるときの手がかり(上から順に評価)
+cluster_keywords:
+  cognition: [cognit, neuro, psycholog, memory, attention, emotion, motivation, self-determination, learning, perception, embodied, metacogn, bias, sensemaking, agency]
+  economics: [econom, market, financ, price, incentive, account, nudge, consumer, auction, labor]
+  organization: [organiz, management, leader, team, firm, enterprise, hr-, human-resource, strateg, innovation, startup, entrepreneur, project, operation, supply, workforce, employee, corporate]
+  society: [societ, social, law, legal, regulat, privacy, ethic, philosoph, histor, religio, cultur, democra, institution, justice, norm]
+  systems: [complex, system, emergen, evolution, autopoie, network, resilien, adaptive, dynamic, scale, feedback]
+  ai: [ai-, llm, agent, algorithm, model, alignment, governance, automation, machine, human-ai, trust, explain]

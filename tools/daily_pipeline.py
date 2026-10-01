@@ -8,6 +8,10 @@
   4. compile_articles_cli.py で未コンパイルの Tier 1/2 論文から wiki 記事を増分生成し、
      新規記事があれば知識グラフと HTML(reader / graph / index)を再生成する
      (claude -p 経由・サブスクリプション課金。1 日 --compile-limit 件まで。--no-compile で止める)
+  5. publish_site.py で raw/ と wiki/ の変更をコミットして origin へ push する
+     (GitHub Actions が公開サイトを再生成する。--no-publish で止める)
+  6. post_x.py で領域クラスター別の X アカウントへ記事を自動投稿する
+     (config/x_accounts.yaml と .env の鍵が揃ったアカウントだけ。--no-x で止める)
 
 compile_wiki.py は使わない。全コーパス再抽出型で concepts.json を上書きし、
 Phase 4 のバリデーションが既存記事の内部リンクを潰すため(2026-08-18 の破損の原因)。
@@ -95,6 +99,8 @@ def main():
     parser.add_argument("--no-reading", action="store_true", help="日次リーディングリストをスキップ")
     parser.add_argument("--no-compile", action="store_true", help="wiki 記事の増分生成をスキップ")
     parser.add_argument("--compile-limit", type=int, default=60, help="1回に概念抽出へかける論文数の上限(既定: 60)")
+    parser.add_argument("--no-publish", action="store_true", help="成果のコミットと push をスキップ")
+    parser.add_argument("--no-x", action="store_true", help="X への自動投稿をスキップ")
     args = parser.parse_args()
 
     LOG_DIR.mkdir(parents=True, exist_ok=True)
@@ -120,7 +126,7 @@ def main():
         fetch_command.extend(["--since", args.since])
     if args.no_rss:
         fetch_command.append("--no-rss")
-    fetch_result = run_step("1/4 新着論文・記事の取得", fetch_command, env)
+    fetch_result = run_step("1/6 新着論文・記事の取得", fetch_command, env)
 
     if args.dry_run:
         return fetch_result.returncode
@@ -130,7 +136,7 @@ def main():
         # Gemini の無料枠(1日20リクエスト)では足りないため、Claude Code の headless モードで分類する。
         # 従量課金の API キーは tier_classify_cli.py 側で子プロセスから外す。認証切れは終了コード 3。
         tier_result = run_step(
-            "2/4 未分類論文のTier分類",
+            "2/6 未分類論文のTier分類",
             [python, str(TOOLS / "tier_classify_cli.py"), "--limit", str(args.tier_limit)],
             env,
         )
@@ -138,7 +144,7 @@ def main():
     reading_result = None
     if not args.no_reading:
         reading_result = run_step(
-            "3/4 日次リーディングリストの生成",
+            "3/6 日次リーディングリストの生成",
             [python, str(TOOLS / "daily_reading.py")],
             env,
         )
@@ -149,14 +155,44 @@ def main():
         # 取得の成否とは独立に走らせる(取得が失敗した日も積み残しの消化は進める)。
         # モデルは compile_articles_cli.py の既定(抽出・記事とも sonnet。根拠は同スクリプトの docstring)。認証切れは終了コード 3。
         compile_result = run_step(
-            "4/4 wiki 記事の増分生成と HTML 再生成",
+            "4/6 wiki 記事の増分生成と HTML 再生成",
             [python, str(TOOLS / "compile_articles_cli.py"), "--limit", str(args.compile_limit)],
             env,
         )
     else:
-        print("\n4/4 wiki 記事の増分生成: スキップ(--no-compile または --compile-limit 0)")
+        print("\n4/6 wiki 記事の増分生成: スキップ(--no-compile または --compile-limit 0)")
 
-    results = [fetch_result, tier_result, reading_result, compile_result]
+    classify_result = None
+    if not args.no_compile:
+        # 分野情報の無い記事(メタデータにも出典にも分野が無いもの)に分野を付ける。公開サイトの領域分けに使う
+        classify_result = run_step(
+            "4b/6 分野の無い記事の分類",
+            [python, str(TOOLS / "classify_domains_cli.py"), "--limit", "60"],
+            env,
+        )
+
+    publish_result = None
+    if not args.no_publish:
+        publish_result = run_step(
+            "5/6 成果のコミットと push(公開サイトの再生成を起動)",
+            [python, str(TOOLS / "publish_site.py")],
+            env,
+        )
+    else:
+        print("\n5/6 成果のコミットと push: スキップ(--no-publish)")
+
+    x_result = None
+    if not args.no_x:
+        # 鍵の無いアカウントは post_x.py 側でスキップされる(終了コード 0)
+        x_result = run_step(
+            "6/6 X への自動投稿",
+            [python, str(TOOLS / "post_x.py")],
+            env,
+        )
+    else:
+        print("\n6/6 X への自動投稿: スキップ(--no-x)")
+
+    results = [fetch_result, tier_result, reading_result, compile_result, classify_result, publish_result, x_result]
     failures = [result for result in results if result is not None and result.returncode != 0]
     print("\n" + "=" * 60)
     print("日次パイプライン完了: %s" % ("失敗あり" if failures else "成功"))

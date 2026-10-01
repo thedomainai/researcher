@@ -45,5 +45,13 @@ logs/daily_pipeline.lock
 # reference corpus API cache
 reference/.cache/
 logs/tier_classify.lock
-logs/pipeline_compile.lock
 logs/compile_articles.lock
+
+# llm corpus API cache
+llm/.cache/
+
+# 公開サイトの生成物(GitHub Actions が生成する)
+site/
+
+# 実行ログ(ローカルのパス等を含むため公開しない)
+logs/

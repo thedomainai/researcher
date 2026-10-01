@@ -1,0 +1,41 @@
+# 領域クラスター別の X アカウント。tools/post_x.py が読む。
+# 鍵は書かない。各アカウントの鍵は .env に <env_prefix>_ACCESS_TOKEN / <env_prefix>_ACCESS_SECRET として置く。
+# アプリ(Developer Portal)の鍵は X_CONSUMER_KEY / X_CONSUMER_SECRET(全アカウント共通)。
+# アクセストークンは tools/x_authorize.py --cluster <key> で取得する(ブラウザで各アカウントとしてログインして PIN を入力)。
+
+defaults:
+  posts_per_day: 2          # 1 アカウントあたりの 1 日の投稿数
+  new_article_days: 14      # この日数以内に公開した記事を「新着」として優先する
+  hashtags_max: 2
+
+accounts:
+  - cluster: cognition
+    handle: ""              # 例: ResearcherCog(@ は不要)。未設定でも鍵があれば投稿する
+    env_prefix: X_COGNITION
+    hashtags: ["#認知科学", "#AI"]
+    enabled: true
+  - cluster: economics
+    handle: ""
+    env_prefix: X_ECONOMICS
+    hashtags: ["#行動経済学", "#AI"]
+    enabled: true
+  - cluster: organization
+    handle: ""
+    env_prefix: X_ORGANIZATION
+    hashtags: ["#組織論", "#AI経営"]
+    enabled: true
+  - cluster: society
+    handle: ""
+    env_prefix: X_SOCIETY
+    hashtags: ["#社会学", "#AI"]
+    enabled: true
+  - cluster: systems
+    handle: ""
+    env_prefix: X_SYSTEMS
+    hashtags: ["#複雑系", "#AI"]
+    enabled: true
+  - cluster: ai
+    handle: ""
+    env_prefix: X_AI
+    hashtags: ["#AIガバナンス", "#AI"]
+    enabled: true
