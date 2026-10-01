@@ -36,3 +36,8 @@ Human, AI, and Organizational Performance(HAOP)フレームワークは、この
 
 * **タイトル**: Human, AI, and Organizational Performance (HAOP): A Safety Framework for the AI Era (2026)
   **ファイルパス**: `raw/papers/organization_science/human-ai-and-organizational-performance-haop-a-safety-framework-for-the-ai-era.md`
+
+## 追加ソース（2026-10-02）
+
+* **タイトル**: Machine-Verifiable Legal Transactions and Quantum-Secure Cryptographic Agility for Trusted AI-Native 6G Digital Infrastructure (2026)
+  **ファイルパス**: `raw/papers/psychology/machine-verifiable-legal-transactions-and-quantum-secure-cryptographic-agility-f.md`

@@ -66,3 +66,8 @@ Angara、Yellapuの糖尿病予測研究(BRFSS2015)では、反事実説明LICE�
 - Angara, D., Yellapu, J. (2026). LICE-guided Sensitivity-oriented Model Refinement for Diabetes Prediction: An Ablation Analysis of Interaction Features and Sample Weighting. `raw/papers/behavioral_economics/lice-guided-sensitivity-oriented-model-refinement-for-diabetes-prediction-an-abl.md`
 - Shah, M. (2026). Information architecture debt: Why legacy platform schema decisions constrain enterprise AI capability. `raw/papers/behavioral_economics/information-architecture-debt-why-legacy-platform-schema-decisions-constrain-ent.md`
 - González-Martín, J. A. (2026). Artificial Intelligence and Androcentric Normativity. `raw/papers/behavioral_economics/artificial-intelligence-and-androcentric-normativity.md`
+
+## 追加ソース（2026-10-02）
+
+* **タイトル**: Building Trust in AI for Project Controls: A Governance-Embedded Data Engineering Framework (2026)
+  **ファイルパス**: `raw/papers/ai_governance/building-trust-in-ai-for-project-controls-a-governance-embedded-data-engineering.md`

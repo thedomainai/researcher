@@ -6191,6 +6191,12 @@
   "title_en": "Productivity-Inclusion Decoupling under Scalable Cognition",
   "why": "所得分配を賃金経路だけに依存する設計は成立しにくくなり、労働市場以外の再分配手段を組み込む必要がある。"
  },
+ "professional-duty-anchoring-of-technology-integration": {
+  "at": "2026-10-01T21:10:11+00:00",
+  "summary": "新技術導入時に新規規制を作らず、専門職が既に負う能力・監督・誠実性・手続的公正の義務を拡張適用して統治する構造的原理だ。",
+  "title_en": "Professional Duty Anchoring of Technology Integration",
+  "why": "AI統治設計では新規制度より既存義務の拡張適用を優先し、立法ラグと制度構築コストを抑える判断が求められる。"
+ },
  "project-scheduling-methods": {
   "at": "2026-10-01T10:00:54+00:00",
   "summary": "プロジェクト・スケジューリング理論は、時間と資源の制約下でタスクを最適配置し、工期短縮やコスト管理を実現する数理的手法の体系である。",

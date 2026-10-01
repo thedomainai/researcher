@@ -1,0 +1,22 @@
+---
+title: "AI-Enabled Autonomous Gas Lift System Enhances Performance in Producer Wells"
+authors: "Chris Carpenter"
+year: 2026
+citations: 0
+paper_type: "meta_analysis"
+domain: "human_resource_management"
+fetched: "2026-10-02T06:05:00.799757"
+doi: "https://doi.org/10.2118/1026-0015-jpt"
+openalex_id: "https://openalex.org/W7214974585"
+source_api: "openalex"
+---
+
+# AI-Enabled Autonomous Gas Lift System Enhances Performance in Producer Wells
+
+**著者**: Chris Carpenter
+**年**: 2026 | **被引用数**: 0
+**タイプ**: meta_analysis | **分野**: 人的資源管理
+
+## Abstract
+
+_ This article, written by JPT Technology Editor Chris Carpenter, contains highlights of paper SPE 230130, “AI-Enabled Autonomous Gas Lift Optimization: Challenges and Innovations From Digital Oilfield in Abu Dhabi,” by Gaurav Gupta, SPE, Erismar Rubio, SPE, and Jigar Modi, ADNOC, et al. The paper has not been peer-reviewed. _ This paper presents the deployment of an artificial-intelligence (AI)-enabled autonomous gas lift optimization system, integrating real-time centralized advanced process control (APC) with cloud-based analytics to enhance artificial gas lift performance in producer wells. The paper emphasizes work-process transformation, legacy-system integration, and cross-functional collaboration to deliver a scalable, adaptive, and production-optimized control solution in complex field environments. Introduction With access to continuous data streams and computational tools, it is now possible to achieve real-time optimization of gas lifted wells. The highlighted autonomous control system exemplifies this shift by introducing a scalable, adaptive, and intelligent system that operates autonomously, adhering to operational and safety constraints. Physics-based models combined with AI algorithms can manage multiple variables dynamically to stabilize production, optimize gas lift usage, and minimize human intervention across complex production environments. Field and System Overview Abu Dhabi Digital Oilfield Context. The case study is based on a mature onshore oil field in Abu Dhabi, consisting of more than 200 producing wells using gas lift. The field presents significant operational complexity because of the heterogeneity of reservoir characteristics, well productivity, and artificial lift performance across the asset. Wells exhibit varying production profiles influenced by reservoir depletion, fluid properties, and historical intervention strategies. The field is integrated into a centralized infrastructure and is managed through a distributed control system (DCS) that provides real-time monitoring and supervisory control. Despite this level of instrumentation, historical well-management practices relied heavily on manual processes. This context provided the foundation for implementing the well autonomous control system, a scalable, AI-enabled autonomous framework designed to modernize field operations, enhance well-level optimization, and improve overall lift gas allocation efficiency. Architecture and Methodology. The proposed solution framework integrates both the operational-technology-network layers (Levels 1–3) and the enterprise-business-network layer (Level 4), enabling seamless and secure optimization across domains. At Level 3, a centralized APC performs multivariable predictive control on gas lifted wells. It interfaces directly with the DCS, which supplies real-time field data. This data is processed by the APC server located in the field control room. Communication between the APC server and wellsite controllers uses secure, latency-tolerant protocols over a fiber-optic network to maintain system stability and data integrity. At Level 4, a cloud-hosted support tool complements the APC by monitoring performance trends, managing model updates in response to changing well and reservoir conditions, and guiding engineers in refining optimization strategies. A secure data flow from the field to the business network and the cloud is maintained by a plant data historian and a unidirectional data diode, while an asset framework structures well data for efficient access and analysis. Fig. 1 illustrates high-level system architecture, depicting the integration points between field instrumentation, centralized control elements, and cloud-enabled analytics. This layered architecture ensures that each domain, from wellhead sensors and local control hardware to enterprise platforms and cloud resources, contributes to a cohesive automation and optimization strategy.

@@ -74,3 +74,8 @@ ESGを「コミュニケーション活動」ではなく「制度的アーキ�
 3. The ESG Banking Model — Gulzar Singh, 2026 — `raw/papers/business_ethics_csr/the-esg-banking-model.md`
 4. Rethinking overseas expansion: climate risk and Chinese corporations' cross-border mergers and acquisitions — Yue Guo, Yangyulong Wu, 2026 — `raw/papers/business_ethics_csr/rethinking-overseas-expansion-climate-risk-and-chinese-corporations-cross-border.md`
 5. Strategic Polysemy in AI Discourse: A Philosophical Analysis of Language, Hype, and Power — Travis LaCroix, Fintan Mallory, Sasha Luccioni, 2026 — `raw/papers/cognitive_science/strategic-polysemy-in-ai-discourse-a-philosophical-analysis-of-language-hype-and.md`
+
+## 追加ソース（2026-10-02）
+
+* **タイトル**: Pre-Irreversibility Safety for Advanced AI: Distributed Irreversible Authority, Timely Refusal, and Human-Revisable Development (2026)
+  **ファイルパス**: `raw/papers/ai_governance/pre-irreversibility-safety-for-advanced-ai-distributed-irreversible-authority-ti.md`

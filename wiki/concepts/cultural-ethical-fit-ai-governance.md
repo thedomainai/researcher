@@ -39,3 +39,8 @@ Symeonidisら（2026）は、系統的文献レビューに基づき、文化的
 
 * Dimitrios Symeonidis, Johannes Schneider, Anastasija Nikiforova (2026). *Toward Cultural–Ethical Fit In Ai Governance: A Global Typology Of Governance Profiles*.
 * raw/W7162054662 (OpenAlex ID)
+
+## 追加ソース（2026-10-02）
+
+* **タイトル**: Pastoral AI ethics for chatbots in religious education (2026)
+  **ファイルパス**: `raw/papers/ai_governance/pastoral-ai-ethics-for-chatbots-in-religious-education.md`

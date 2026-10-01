@@ -76,3 +76,8 @@ AI Nativeな社会設計において、AIは採用・融資・医療などの意
 6. Zhang, J. (2026). *Algorithmic Fairness Verification via Abstract Interpretation*. File: raw/papers/ai_governance/algorithmic-fairness-verification-via-abstract-interpretation.md
 7. Zhang, J. (2026). *Algorithmic Fairness as a Constraint Satisfaction Problem*. File: raw/papers/ai_governance/algorithmic-fairness-as-a-constraint-satisfaction-problem.md
 8. Jalaja, K., Ashoka, G. (2026). *AI's Impact on Financial Literacy: Exploring the Role of Human-AI Interaction and Algorithmic Bias in AI-driven Finance*. File: raw/papers/ai_governance/ais-impact-on-financial-literacy-exploring-the-role-of-human-ai-interaction-and-.md
+
+## 追加ソース（2026-10-02）
+
+* **タイトル**: Fairness in histopathology AI — systematic review: extraction, audit, and verification artifacts (79-study corpus, manuscript v0.3.6) (2026)
+  **ファイルパス**: `raw/papers/ai_governance/fairness-in-histopathology-ai-systematic-review-extraction-audit-and-verificatio.md`

@@ -25893,5 +25893,24 @@
     ],
     "domain": "organization_science",
     "compiled_at": "2026-09-29"
+  },
+  {
+    "slug": "professional-duty-anchoring-of-technology-integration",
+    "title_ja": "専門職の既存義務体系による新技術統合の係留",
+    "title_en": "Professional Duty Anchoring of Technology Integration",
+    "description": "新技術(AI等)の統治を、専門職が既に負う能力・監督・誠実性・手続的公正などの義務体系の内側で吸収させることで、新規制度を要さず統合する構造的原理。",
+    "mechanisms": [
+      "制度的慣性による吸収",
+      "既存規範の拡張適用",
+      "段階的統合による漸進的内部化"
+    ],
+    "related_sources": [
+      2
+    ],
+    "source_files": [
+      "raw/papers/psychology/disciplined-integration-ai-and-the-legal-professions-existing-duties.md"
+    ],
+    "domain": "psychology",
+    "compiled_at": "2026-10-02"
   }
 ]

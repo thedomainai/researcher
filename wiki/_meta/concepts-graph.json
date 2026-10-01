@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-29T04:07:54.617308",
+  "generated_at": "2026-10-02T06:10:06.063485",
   "summary": {
-    "articles_scanned": 1306,
-    "nodes": 3576,
-    "resolved_nodes": 1306,
+    "articles_scanned": 1307,
+    "nodes": 3577,
+    "resolved_nodes": 1307,
     "unresolved_nodes": 2270,
-    "edges": 6530,
-    "resolved_edges": 3570,
+    "edges": 6535,
+    "resolved_edges": 3575,
     "unresolved_edges": 2960,
-    "link_mentions": 6828,
-    "valid_source_refs": 2122,
+    "link_mentions": 6833,
+    "valid_source_refs": 2128,
     "invalid_source_refs": 117,
     "isolated_concepts": 80
   },
@@ -1331,9 +1331,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 3,
+      "inbound_count": 4,
       "outbound_count": 0,
-      "degree": 3
+      "degree": 4
     },
     {
       "id": "reflective-use-of-ai",
@@ -5402,9 +5402,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 5,
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "algorithmic-co-supervision",
@@ -11014,9 +11014,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 4,
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "ai-in-hardware-synthesis",
@@ -18300,9 +18300,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 8,
+      "inbound_count": 9,
       "outbound_count": 8,
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "participatory-culture-media-literacy",
@@ -18556,9 +18556,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 5,
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "excess-over-consensus-credit-assignment",
@@ -20902,6 +20902,34 @@
         "専門分野におけるAI応用 (AI in Specialized Applications)",
         "専門分野におけるAI応用(AI in Specialized Applications)",
         "専門分野におけるAI応用（AI in Specialized Applications）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
+    },
+    {
+      "id": "professional-duty-anchoring-of-technology-integration",
+      "slug": "professional-duty-anchoring-of-technology-integration",
+      "label": "専門職の既存義務体系による新技術統合の係留",
+      "title": "専門職の既存義務体系による新技術統合の係留",
+      "title_ja": "専門職の既存義務体系による新技術統合の係留",
+      "title_en": "Professional Duty Anchoring of Technology Integration",
+      "tier": null,
+      "description": "新技術(AI等)の統治を、専門職が既に負う能力・監督・誠実性・手続的公正などの義務体系の内側で吸収させることで、新規制度を要さず統合する構造的原理。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/professional-duty-anchoring-of-technology-integration.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Professional Duty Anchoring of Technology Integration",
+        "professional-duty-anchoring-of-technology-integration",
+        "専門職の既存義務体系による新技術統合の係留",
+        "専門職の既存義務体系による新技術統合の係留 (Professional Duty Anchoring of Technology Integration)",
+        "専門職の既存義務体系による新技術統合の係留(Professional Duty Anchoring of Technology Integration)",
+        "専門職の既存義務体系による新技術統合の係留（Professional Duty Anchoring of Technology Integration）"
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
@@ -241478,6 +241506,161 @@
       "ambiguous": false,
       "candidates": [
         "task-standardizability-determines-substitution-boundary"
+      ]
+    },
+    {
+      "id": "professional-duty-anchoring-of-technology-integration->ai-legal-liability-personhood",
+      "source": "professional-duty-anchoring-of-technology-integration",
+      "target": "ai-legal-liability-personhood",
+      "source_label": "専門職の既存義務体系による新技術統合の係留",
+      "target_label": "AIの法的責任と法人格",
+      "source_file": "concepts/professional-duty-anchoring-of-technology-integration.md",
+      "target_file": "concepts/ai-legal-liability-personhood.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "ai-legal-liability-personhood"
+      ],
+      "display_labels": [
+        "ai-legal-liability-personhood"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ai-legal-liability-personhood",
+          "label": "ai-legal-liability-personhood",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-legal-liability-personhood"
+      ]
+    },
+    {
+      "id": "professional-duty-anchoring-of-technology-integration->algorithmic-governance-and-legality",
+      "source": "professional-duty-anchoring-of-technology-integration",
+      "target": "algorithmic-governance-and-legality",
+      "source_label": "専門職の既存義務体系による新技術統合の係留",
+      "target_label": "アルゴリズム・ガバナンスと法的道徳性",
+      "source_file": "concepts/professional-duty-anchoring-of-technology-integration.md",
+      "target_file": "concepts/algorithmic-governance-and-legality.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "algorithmic-governance-and-legality"
+      ],
+      "display_labels": [
+        "algorithmic-governance-and-legality"
+      ],
+      "mentions": [
+        {
+          "raw_target": "algorithmic-governance-and-legality",
+          "label": "algorithmic-governance-and-legality",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "algorithmic-governance-and-legality"
+      ]
+    },
+    {
+      "id": "professional-duty-anchoring-of-technology-integration->hybrid-legal-decision-making",
+      "source": "professional-duty-anchoring-of-technology-integration",
+      "target": "hybrid-legal-decision-making",
+      "source_label": "専門職の既存義務体系による新技術統合の係留",
+      "target_label": "ハイブリッド型司法意思決定",
+      "source_file": "concepts/professional-duty-anchoring-of-technology-integration.md",
+      "target_file": "concepts/hybrid-legal-decision-making.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "hybrid-legal-decision-making"
+      ],
+      "display_labels": [
+        "hybrid-legal-decision-making"
+      ],
+      "mentions": [
+        {
+          "raw_target": "hybrid-legal-decision-making",
+          "label": "hybrid-legal-decision-making",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "hybrid-legal-decision-making"
+      ]
+    },
+    {
+      "id": "professional-duty-anchoring-of-technology-integration->principle-to-practice-gap-and-layered-responsibility-allocation",
+      "source": "professional-duty-anchoring-of-technology-integration",
+      "target": "principle-to-practice-gap-and-layered-responsibility-allocation",
+      "source_label": "専門職の既存義務体系による新技術統合の係留",
+      "target_label": "原則と実装の乖離と多層的責任配置",
+      "source_file": "concepts/professional-duty-anchoring-of-technology-integration.md",
+      "target_file": "concepts/principle-to-practice-gap-and-layered-responsibility-allocation.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "principle-to-practice-gap-and-layered-responsibility-allocation"
+      ],
+      "display_labels": [
+        "principle-to-practice-gap-and-layered-responsibility-allocation"
+      ],
+      "mentions": [
+        {
+          "raw_target": "principle-to-practice-gap-and-layered-responsibility-allocation",
+          "label": "principle-to-practice-gap-and-layered-responsibility-allocation",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "principle-to-practice-gap-and-layered-responsibility-allocation"
+      ]
+    },
+    {
+      "id": "professional-duty-anchoring-of-technology-integration->responsible-ai-in-judiciary",
+      "source": "professional-duty-anchoring-of-technology-integration",
+      "target": "responsible-ai-in-judiciary",
+      "source_label": "専門職の既存義務体系による新技術統合の係留",
+      "target_label": "司法プロセスにおける責任あるAI",
+      "source_file": "concepts/professional-duty-anchoring-of-technology-integration.md",
+      "target_file": "concepts/responsible-ai-in-judiciary.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "responsible-ai-in-judiciary"
+      ],
+      "display_labels": [
+        "responsible-ai-in-judiciary"
+      ],
+      "mentions": [
+        {
+          "raw_target": "responsible-ai-in-judiciary",
+          "label": "responsible-ai-in-judiciary",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "responsible-ai-in-judiciary"
       ]
     },
     {
