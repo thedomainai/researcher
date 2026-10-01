@@ -2,6 +2,7 @@
 """日次の取得・リーディング・Wikiコンパイルを実行するオーケストレータ。
 
 処理順:
+  0. sync_origin.py でローカル main を origin/main に追従させる(fast-forward のみ)
   1. fetch_latest.py で新着論文・記事を取得
   2. tier_classify_cli.py で未分類の論文にTier分類を付与(claude -p 経由・サブスクリプション課金、1日あたり上限あり)
   3. daily_reading.py で当日のリーディングリストを生成
@@ -117,6 +118,10 @@ def main():
     env.setdefault("PYTHONUNBUFFERED", "1")
     python = sys.executable
 
+    # 0. origin/main に追従する(fast-forward のみ)。遅れたまま記事生成すると論文を二重に記事化するため。
+    #    分岐しているときは終了コード 2 で知らせるだけで、後続は続ける(publish 側で push が止まる)
+    sync_result = run_step("0/6 origin/main への追従", [python, str(TOOLS / "sync_origin.py")], env)
+
     fetch_command = [python, str(TOOLS / "fetch_latest.py")]
     if args.dry_run:
         fetch_command.append("--dry-run")
@@ -192,7 +197,7 @@ def main():
     else:
         print("\n6/6 X への自動投稿: スキップ(--no-x)")
 
-    results = [fetch_result, tier_result, reading_result, compile_result, classify_result, publish_result, x_result]
+    results = [sync_result, fetch_result, tier_result, reading_result, compile_result, classify_result, publish_result, x_result]
     failures = [result for result in results if result is not None and result.returncode != 0]
     print("\n" + "=" * 60)
     print("日次パイプライン完了: %s" % ("失敗あり" if failures else "成功"))
