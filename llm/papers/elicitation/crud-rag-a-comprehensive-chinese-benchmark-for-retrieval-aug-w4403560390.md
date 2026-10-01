@@ -1,0 +1,21 @@
+---
+title: "CRUD-RAG: A Comprehensive Chinese Benchmark for Retrieval-Augmented Generation of Large Language Models"
+authors: ["Yuanjie Lyu", "Zhiyu Li", "Simin Niu", "Feiyu Xiong", "Bo Tang", "Wenjin Wang", "Hao Wu", "Huanyong Liu", "et al."]
+year: 2024
+cited_by_count: 96
+doi: "https://doi.org/10.1145/3701228"
+openalex_id: W4403560390
+paper_type: article
+evidence_kind: article
+topics: ["elicitation"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# CRUD-RAG: A Comprehensive Chinese Benchmark for Retrieval-Augmented Generation of Large Language Models
+
+**Authors**: Yuanjie Lyu, Zhiyu Li, Simin Niu, Feiyu Xiong, Bo Tang, Wenjin Wang, Hao Wu, Huanyong Liu, et al. | **Year**: 2024 | **Cited by**: 96 | **Kind**: article | **Relevance**: elicitation: core
+
+## Abstract
+
+Retrieval-augmented generation (RAG) is a technique that enhances the capabilities of large language models (LLMs) by incorporating external knowledge sources. This method addresses common LLM limitations, including outdated information and the tendency to produce inaccurate “hallucinated” content. However, evaluating RAG systems is a challenge. Most benchmarks focus primarily on question-answering applications, neglecting other potential scenarios where RAG could be beneficial. Accordingly, in the experiments, these benchmarks often assess only the LLM components of the RAG pipeline or the retriever in knowledge-intensive scenarios, overlooking the impact of external knowledge base construction and the retrieval component on the entire RAG pipeline in non-knowledge-intensive scenarios. To address these issues, this article constructs a large-scale and more comprehensive benchmark and evaluates all the components of RAG systems in various RAG application scenarios. Specifically, we refer to the CRUD actions that describe interactions between users and knowledge bases and also categorize the range of RAG applications into four distinct types—create, read, update, and delete (CRUD). “Create” refers to scenarios requiring the generation of original, varied content. “Read” involves responding to intricate questions in knowledge-intensive situations. “Update” focuses on revising and rectifying inaccuracies or inconsistencies in pre-existing texts. “Delete” pertains to the task of summarizing extensive texts into more concise forms. For each of these CRUD categories, we have developed different datasets to evaluate the performance of RAG systems. We also analyze the effects of various components of the RAG system, such as the retriever, context length, knowledge base construction, and LLM. Finally, we provide useful insights for optimizing the RAG technology for different scenarios. The source code is available at GitHub: https://github.com/IAAR-Shanghai/CRUD_RAG .

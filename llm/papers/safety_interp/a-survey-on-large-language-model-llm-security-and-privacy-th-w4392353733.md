@@ -1,0 +1,21 @@
+---
+title: "A survey on large language model (LLM) security and privacy: The Good, The Bad, and The Ugly"
+authors: ["Yifan Yao", "Jinhao Duan", "Kaidi Xu", "Yuanfang Cai", "Zhibo Sun", "Yue Zhang"]
+year: 2024
+cited_by_count: 1047
+doi: "https://doi.org/10.1016/j.hcc.2024.100211"
+openalex_id: W4392353733
+paper_type: article
+evidence_kind: article
+topics: ["safety_interp"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# A survey on large language model (LLM) security and privacy: The Good, The Bad, and The Ugly
+
+**Authors**: Yifan Yao, Jinhao Duan, Kaidi Xu, Yuanfang Cai, Zhibo Sun, Yue Zhang | **Year**: 2024 | **Cited by**: 1047 | **Kind**: article | **Relevance**: safety_interp: core
+
+## Abstract
+
+Large Language Models (LLMs), such as ChatGPT and Bard, have revolutionized natural language understanding and generation. They possess deep language comprehension, human-like text generation capabilities, contextual awareness, and robust problem-solving skills, making them invaluable in various domains (e.g., search engines, customer support, translation). In the meantime, LLMs have also gained traction in the security community, revealing security vulnerabilities and showcasing their potential in security-related tasks. This paper explores the intersection of LLMs with security and privacy. Specifically, we investigate how LLMs positively impact security and privacy, potential risks and threats associated with their use, and inherent vulnerabilities within LLMs. Through a comprehensive literature review, the paper categorizes the papers into “The Good” (beneficial LLM applications), “The Bad” (offensive applications), and “The Ugly” (vulnerabilities of LLMs and their defenses). We have some interesting findings. For example, LLMs have proven to enhance code security (code vulnerability detection) and data privacy (data confidentiality protection), outperforming traditional methods. However, they can also be harnessed for various attacks (particularly user-level attacks) due to their human-like reasoning abilities. We have identified areas that require further research efforts. For example, Research on model and parameter extraction attacks is limited and often theoretical, hindered by LLM parameter scale and confidentiality. Safe instruction tuning, a recent development, requires more exploration. We hope that our work can shed light on the LLMs’ potential to both bolster and jeopardize cybersecurity.

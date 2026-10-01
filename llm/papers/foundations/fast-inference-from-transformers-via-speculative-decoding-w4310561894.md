@@ -1,0 +1,21 @@
+---
+title: "Fast Inference from Transformers via Speculative Decoding"
+authors: ["Yaniv Leviathan", "Matan Kalman", "Yossi Matias"]
+year: 2022
+cited_by_count: 32
+doi: "https://doi.org/10.48550/arxiv.2211.17192"
+openalex_id: W4310561894
+paper_type: preprint
+evidence_kind: article
+topics: ["foundations"]
+landmark: true
+abstract_source: "openalex"
+---
+
+# Fast Inference from Transformers via Speculative Decoding
+
+**Authors**: Yaniv Leviathan, Matan Kalman, Yossi Matias | **Year**: 2022 | **Cited by**: 32 | **Kind**: article | **Relevance**: foundations: core
+
+## Abstract
+
+Inference from large autoregressive models like Transformers is slow - decoding K tokens takes K serial runs of the model. In this work we introduce speculative decoding - an algorithm to sample from autoregressive models faster without any changes to the outputs, by computing several tokens in parallel. At the heart of our approach lie the observations that (1) hard language-modeling tasks often include easier subtasks that can be approximated well by more efficient models, and (2) using speculative execution and a novel sampling method, we can make exact decoding from the large models faster, by running them in parallel on the outputs of the approximation models, potentially generating several tokens concurrently, and without changing the distribution. Our method can accelerate existing off-the-shelf models without retraining or architecture changes. We demonstrate it on T5-XXL and show a 2X-3X acceleration compared to the standard T5X implementation, with identical outputs.

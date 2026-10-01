@@ -1,0 +1,21 @@
+---
+title: "Assessing The Factual Accuracy of Generated Text"
+authors: ["Ben Goodrich", "Vinay Rao", "Peter J. Liu", "Mohammad Saleh"]
+year: 2019
+cited_by_count: 155
+doi: "https://doi.org/10.1145/3292500.3330955"
+openalex_id: W2947681066
+paper_type: conference-paper
+evidence_kind: article
+topics: ["safety_interp"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# Assessing The Factual Accuracy of Generated Text
+
+**Authors**: Ben Goodrich, Vinay Rao, Peter J. Liu, Mohammad Saleh | **Year**: 2019 | **Cited by**: 155 | **Kind**: article | **Relevance**: safety_interp: supporting
+
+## Abstract
+
+We propose a model-based metric to estimate the factual accuracy of generated text that is complementary to typical scoring schemes like ROUGE (Recall-Oriented Understudy for Gisting Evaluation) and BLEU (Bilingual Evaluation Understudy). We introduce and release a new large-scale dataset based on Wikipedia and Wikidata to train relation classifiers and end-to-end fact extraction models. The end-to-end models are shown to be able to extract complete sets of facts from datasets with full pages of text. We then analyse multiple models that estimate factual accuracy on a Wikipedia text summarization task, and show their efficacy compared to ROUGE and other model-free variants by conducting a human evaluation study.

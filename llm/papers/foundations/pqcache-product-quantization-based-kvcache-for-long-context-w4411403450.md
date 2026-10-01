@@ -1,0 +1,21 @@
+---
+title: "PQCache: Product Quantization-based KVCache for Long Context LLM Inference"
+authors: ["Hailin Zhang", "Xiaodong Ji", "Yilin Chen", "Fangcheng Fu", "Xupeng Miao", "Xiaonan Nie", "Weipeng Chen", "Bin Cui"]
+year: 2025
+cited_by_count: 13
+doi: "https://doi.org/10.1145/3725338"
+openalex_id: W4411403450
+paper_type: article
+evidence_kind: article
+topics: ["foundations"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# PQCache: Product Quantization-based KVCache for Long Context LLM Inference
+
+**Authors**: Hailin Zhang, Xiaodong Ji, Yilin Chen, Fangcheng Fu, Xupeng Miao, Xiaonan Nie, Weipeng Chen, Bin Cui | **Year**: 2025 | **Cited by**: 13 | **Kind**: article | **Relevance**: foundations: core
+
+## Abstract
+
+As the field of Large Language Models (LLMs) continues to evolve, the context length in inference is steadily growing. Key-Value Cache (KVCache), the intermediate representations of tokens within LLM inference, has now become the primary memory bottleneck due to limited GPU memory. Current methods selectively determine suitable keys and values for self-attention computation in LLMs to address the issue. However, they either fall short in maintaining model quality or result in high serving latency. Drawing inspiration from advanced embedding retrieval techniques prevalent in the data management community, we consider the storage and retrieval of KVCache as a typical embedding retrieval problem. We propose PQCache , which employs Product Quantization (PQ) to manage KVCache, maintaining model quality while ensuring low serving latency. During the prefilling phase, we apply PQ to tokens' keys for each LLM layer and head. During the autoregressive decoding phase, we use PQ codes and centroids to approximately identify important preceding tokens, then fetch the corresponding key-value pairs for self-attention computation. Through meticulous design of overlapping and caching, we minimize any additional computation and communication overhead during both phases. Extensive experiments demonstrate that PQCache achieves both effectiveness and efficiency, with 4.60% score improvement over existing methods on InfiniteBench and low system latency in both prefilling and decoding.

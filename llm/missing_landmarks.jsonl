@@ -1,0 +1,27 @@
+{"topic": "foundations", "title": "Language Models are Unsupervised Multitask Learners"}
+{"topic": "foundations", "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models"}
+{"topic": "foundations", "title": "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale"}
+{"topic": "post_training", "title": "Constitutional AI: Harmlessness from AI Feedback"}
+{"topic": "post_training", "title": "Let's Verify Step by Step"}
+{"topic": "post_training", "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning"}
+{"topic": "post_training", "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models"}
+{"topic": "elicitation", "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection"}
+{"topic": "evaluation", "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"}
+{"topic": "evaluation", "title": "Humanity's Last Exam"}
+{"topic": "evaluation", "title": "RULER: What's the Real Context Size of Your Long-Context Language Models?"}
+{"topic": "safety_interp", "title": "Universal and Transferable Adversarial Attacks on Aligned Language Models"}
+{"topic": "safety_interp", "title": "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection"}
+{"topic": "safety_interp", "title": "Frontier Models are Capable of In-context Scheming"}
+{"topic": "safety_interp", "title": "Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs"}
+{"topic": "safety_interp", "title": "Towards Understanding Sycophancy in Language Models"}
+{"topic": "safety_interp", "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting"}
+{"topic": "safety_interp", "title": "A Mathematical Framework for Transformer Circuits"}
+{"topic": "safety_interp", "title": "Towards Monosemanticity: Decomposing Language Models With Dictionary Learning"}
+{"topic": "safety_interp", "title": "Representation Engineering: A Top-Down Approach to AI Transparency"}
+{"topic": "safety_interp", "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"}
+{"topic": "theory_cognition", "title": "Theory of Mind May Have Spontaneously Emerged in Large Language Models"}
+{"topic": "agents", "title": "ReAct: Synergizing Reasoning and Acting in Language Models"}
+{"topic": "agents", "title": "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents"}
+{"topic": "agents", "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation"}
+{"topic": "agents", "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs"}
+{"topic": "agents", "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents"}

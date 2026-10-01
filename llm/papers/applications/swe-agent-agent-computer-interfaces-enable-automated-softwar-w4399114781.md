@@ -1,0 +1,21 @@
+---
+title: "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering"
+authors: ["Yang, John", "Jimenez, Carlos E.", "Alexander Wettig", "K. Lieret", "Shunyu Yao", "Karthik Narasimhan", "Ofir Press"]
+year: 2024
+cited_by_count: 30
+doi: "https://doi.org/10.48550/arxiv.2405.15793"
+openalex_id: W4399114781
+paper_type: preprint
+evidence_kind: article
+topics: ["applications"]
+landmark: true
+abstract_source: "openalex"
+---
+
+# SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering
+
+**Authors**: Yang, John, Jimenez, Carlos E., Alexander Wettig, K. Lieret, Shunyu Yao, Karthik Narasimhan, Ofir Press | **Year**: 2024 | **Cited by**: 30 | **Kind**: article | **Relevance**: applications: core
+
+## Abstract
+
+Language model (LM) agents are increasingly being used to automate complicated tasks in digital environments. Just as humans benefit from powerful software applications, such as integrated development environments, for complex tasks like software engineering, we posit that LM agents represent a new category of end users with their own needs and abilities, and would benefit from specially-built interfaces to the software they use. We investigate how interface design affects the performance of language model agents. As a result of this exploration, we introduce SWE-agent: a system that facilitates LM agents to autonomously use computers to solve software engineering tasks. SWE-agent's custom agent-computer interface (ACI) significantly enhances an agent's ability to create and edit code files, navigate entire repositories, and execute tests and other programs. We evaluate SWE-agent on SWE-bench and HumanEvalFix, achieving state-of-the-art performance on both with a pass@1 rate of 12.5% and 87.7%, respectively, far exceeding the previous state-of-the-art achieved with non-interactive LMs. Finally, we provide insight on how the design of the ACI can impact agents' behavior and performance.

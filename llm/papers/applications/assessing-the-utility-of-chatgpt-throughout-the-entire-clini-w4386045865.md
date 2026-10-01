@@ -1,0 +1,21 @@
+---
+title: "Assessing the Utility of ChatGPT Throughout the Entire Clinical Workflow: Development and Usability Study"
+authors: ["Arya S Rao", "Michael Pang", "John Kim", "Meghana Kamineni", "Winston Lie", "Anoop K. Prasad", "Adam Landman", "Keith J. Dreyer", "et al."]
+year: 2023
+cited_by_count: 415
+doi: "https://doi.org/10.2196/48659"
+openalex_id: W4386045865
+paper_type: article
+evidence_kind: article
+topics: ["applications"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# Assessing the Utility of ChatGPT Throughout the Entire Clinical Workflow: Development and Usability Study
+
+**Authors**: Arya S Rao, Michael Pang, John Kim, Meghana Kamineni, Winston Lie, Anoop K. Prasad, Adam Landman, Keith J. Dreyer, et al. | **Year**: 2023 | **Cited by**: 415 | **Kind**: article | **Relevance**: applications: supporting
+
+## Abstract
+
+BACKGROUND: Large language model (LLM)-based artificial intelligence chatbots direct the power of large training data sets toward successive, related tasks as opposed to single-ask tasks, for which artificial intelligence already achieves impressive performance. The capacity of LLMs to assist in the full scope of iterative clinical reasoning via successive prompting, in effect acting as artificial physicians, has not yet been evaluated. OBJECTIVE: This study aimed to evaluate ChatGPT's capacity for ongoing clinical decision support via its performance on standardized clinical vignettes. METHODS: We inputted all 36 published clinical vignettes from the Merck Sharpe & Dohme (MSD) Clinical Manual into ChatGPT and compared its accuracy on differential diagnoses, diagnostic testing, final diagnosis, and management based on patient age, gender, and case acuity. Accuracy was measured by the proportion of correct responses to the questions posed within the clinical vignettes tested, as calculated by human scorers. We further conducted linear regression to assess the contributing factors toward ChatGPT's performance on clinical tasks. RESULTS: ChatGPT achieved an overall accuracy of 71.7% (95% CI 69.3%-74.1%) across all 36 clinical vignettes. The LLM demonstrated the highest performance in making a final diagnosis with an accuracy of 76.9% (95% CI 67.8%-86.1%) and the lowest performance in generating an initial differential diagnosis with an accuracy of 60.3% (95% CI 54.2%-66.6%). Compared to answering questions about general medical knowledge, ChatGPT demonstrated inferior performance on differential diagnosis (β=-15.8%; P<.001) and clinical management (β=-7.4%; P=.02) question types. CONCLUSIONS: ChatGPT achieves impressive accuracy in clinical decision-making, with increasing strength as it gains more clinical information at its disposal. In particular, ChatGPT demonstrates the greatest accuracy in tasks of final diagnosis as compared to initial diagnosis. Limitations include possible model hallucinations and the unclear composition of ChatGPT's training data set.

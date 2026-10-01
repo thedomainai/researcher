@@ -43,7 +43,8 @@ import anthropic
 import httpx
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-REF_DIR = os.path.join(BASE, "reference")
+CORPUS = "reference"  # fetch_llm.py など別コーパスのラッパーが差し替える
+REF_DIR = os.path.join(BASE, CORPUS)
 PAPERS_DIR = os.path.join(REF_DIR, "papers")
 INDEX_PATH = os.path.join(REF_DIR, "index.jsonl")
 EXCLUDED_PATH = os.path.join(REF_DIR, "excluded.jsonl")
@@ -71,6 +72,10 @@ CITES_MIN_CITED = 30
 SEARCH_RELEVANCE_N = 15
 SEARCH_CITED_N = 10
 SEARCH_CITED_MIN = 100
+# 直近年の重点取得(トピックに recent_queries がある場合のみ)。被引用が育っていない新しい論文を拾うため、閾値は低い
+RECENT_FROM_YEAR = 2024
+RECENT_N = 25
+RECENT_MIN_CITED = 5
 GATE_BATCH = 12
 
 # ============================================================
@@ -667,6 +672,8 @@ class OpenAlex:
         self.cache = cache
         self.requests = 0
         self.credits = 0
+        self.cached_only = False  # True なら API を呼ばない。未取得の検索は空を返して数える
+        self.cache_misses = 0
         self.http = httpx.Client(timeout=30, headers={"Authorization": "Bearer " + key})
 
     def rate_limit(self):
@@ -688,6 +695,9 @@ class OpenAlex:
         hit = self.cache.get("openalex", key)
         if hit is not None:
             return hit
+        if self.cached_only:
+            self.cache_misses += 1
+            return []
         if self.requests >= MAX_REQUESTS:
             raise RuntimeError("1回の上限 %d リクエストに達しました" % MAX_REQUESTS)
         last = None
@@ -1030,6 +1040,20 @@ def collect_topic(topic, cfg, oa):
             if add(w, "search_cited"):
                 n_search += 1
     print("  検索 %d 件" % n_search)
+
+    # 4. 直近年の重点取得(被引用が育つ前の新しい論文。被引用順と関連度順の 2 パス)
+    n_recent = 0
+    for query in cfg.get("recent_queries", []):
+        base = "title_and_abstract.search:%s,type:review|article|book|book-chapter,publication_year:>%d" % (query, RECENT_FROM_YEAR - 1)
+        for w in oa.works({"filter": base + ",cited_by_count:>%d" % (RECENT_MIN_CITED - 1),
+                           "sort": "cited_by_count:desc", "per_page": RECENT_N}):
+            if add(w, "recent"):
+                n_recent += 1
+        for w in oa.works({"filter": base, "sort": "relevance_score:desc", "per_page": RECENT_N}):
+            if add(w, "recent"):
+                n_recent += 1
+    if cfg.get("recent_queries"):
+        print("  直近(%d年以降) %d 件" % (RECENT_FROM_YEAR, n_recent))
     return cands, missing
 
 
@@ -1109,6 +1133,7 @@ def main():
     parser.add_argument("--topic", help="トピックを1つに限定 (%s)" % ", ".join(TOPICS))
     parser.add_argument("--dry-run", action="store_true", help="予算と見積りのみ表示し、取得しない")
     parser.add_argument("--verify", action="store_true", help="既存 index の実在確認のみ")
+    parser.add_argument("--cached-only", action="store_true", help="OpenAlex を呼ばず、キャッシュ済みの応答だけで再構築する(クレジット 0。未取得の検索は件数を表示して空として扱う)")
     parser.add_argument("--no-gate", action="store_true", help="API を呼ばない。キャッシュ済みの判定だけを使い、残りは unjudged にする")
     parser.add_argument("--dump-candidates", action="store_true", help="候補を集めて未判定分を reference/.cache/pending_<topic>.jsonl に書き出すだけ(判定はしない)")
     parser.add_argument("--gate-model", default=GATE_MODEL, help="ゲートに使うモデル(既定: %s)" % GATE_MODEL)
@@ -1125,7 +1150,10 @@ def main():
                 j = json.loads(line)
                 if j["verdict"] not in ("core", "supporting", "off_topic"):
                     raise SystemExit("不正な verdict: %s" % line)
-                cache.put("gate", j["topic"] + "|" + j["id"], {"verdict": j["verdict"], "reason": j.get("reason", "")[:120]})
+                res = {"verdict": j["verdict"], "reason": j.get("reason", "")[:120]}
+                if j.get("to") and j["to"] in TOPICS:
+                    res["topic"] = j["to"]  # 取得した領域ではなく、この領域の文献として扱う
+                cache.put("gate", j["topic"] + "|" + j["id"], res)
                 n += 1
         print("判定 %d 件を取り込みました" % n)
         return 0
@@ -1165,15 +1193,19 @@ def main():
             p = {"filter": "title.search:%s" % q, "per_page": 8, "sort": "relevance_score:desc", "select": SELECT}
             uncached_search += 0 if oa.cached(p) else 1
         uncached_search += sum("cites" in role for _, role in cfg["landmarks"])
-        uncached_search += 2 * len(cfg["queries"])
+        uncached_search += 2 * len(cfg["queries"]) + 2 * len(cfg.get("recent_queries", []))
     est_credits = uncached_search * SEARCH_COST + 200
-    limits = oa.rate_limit()
-    remaining = limits["credits_remaining"]
-    print("見積り: 検索 約%d 回 → 約%d クレジット | 残り %d | 予約 %d | 前払い残 %s ドル"
-          % (uncached_search, est_credits, remaining, RESERVE_CREDITS, limits["prepaid_remaining_usd"]))
-    if est_credits > remaining - RESERVE_CREDITS:
-        print("無料枠の残り(予約分を除く)を超えるため中止します。課金は発生させません。")
-        return 1
+    if args.cached_only:
+        oa.cached_only = True
+        print("キャッシュのみで再構築します(OpenAlex のクレジットは使いません)")
+    else:
+        limits = oa.rate_limit()
+        remaining = limits["credits_remaining"]
+        print("見積り: 検索 約%d 回 → 約%d クレジット | 残り %d | 予約 %d | 前払い残 %s ドル"
+              % (uncached_search, est_credits, remaining, RESERVE_CREDITS, limits["prepaid_remaining_usd"]))
+        if est_credits > remaining - RESERVE_CREDITS:
+            print("無料枠の残り(予約分を除く)を超えるため中止します。課金は発生させません。")
+            return 1
     if args.dry_run:
         return 0
 
@@ -1241,10 +1273,11 @@ def main():
                     "file": "", "file_verified": False, "fetched_at": datetime.now().strftime("%Y-%m-%d"),
                 }
                 entries[oa_id] = e
-            if topic not in e["topics"]:
-                e["topics"].append(topic)
-            e["channels"][topic] = c["channels"]
-            e["relevance"][topic] = rel
+            tgt = rel.get("topic") if rel.get("topic") in TOPICS else topic
+            if tgt not in e["topics"]:
+                e["topics"].append(tgt)
+            e["channels"][tgt] = c["channels"]
+            e["relevance"][tgt] = rel
             e["landmark"] = e["landmark"] or c["landmark"]
         stats[topic] = {"candidates": len(cands), "kept": kept, "off_topic": dropped, "missing_landmarks": len(missing)}
         print("  候補 %d → 採用 core %d / supporting %d / unjudged %d、除外 %d"
@@ -1291,7 +1324,7 @@ def main():
     # ファイル書き出し(主トピック = topics の先頭)と実在確認
     for e in entries.values():
         primary = e["topics"][0]
-        e["file"] = os.path.join("reference", "papers", primary, "%s-%s.md" % (slugify(e["title"]), e["openalex_id"].lower()))
+        e["file"] = os.path.join(CORPUS, "papers", primary, "%s-%s.md" % (slugify(e["title"]), e["openalex_id"].lower()))
         path = os.path.join(BASE, e["file"])
         os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, "w", encoding="utf-8") as f:
@@ -1327,6 +1360,8 @@ def main():
     n_abs = sum(1 for e in entries.values() if e["has_abstract"])
     print("index 合計 %d 件(アブストラクト有 %d / 書誌のみ %d)、除外 %d 件、定番の欠落 %d 件"
           % (len(entries), n_abs, len(entries) - n_abs, len(excluded), len(all_missing)))
+    if args.cached_only:
+        print("キャッシュに無く空として扱った検索: %d 件(0 でなければ候補が欠けている)" % oa.cache_misses)
     print("OpenAlex リクエスト %d 回 / 約 %d クレジット | ゲート %s 呼び出し %d 回(入力 %d / 出力 %d トークン)"
           % (oa.requests, oa.credits, gate.model, gate.calls, gate.tokens_in, gate.tokens_out))
     print("実在確認: 欠落 %d / 内容不一致 %d" % (len(missing), len(mismatch)))

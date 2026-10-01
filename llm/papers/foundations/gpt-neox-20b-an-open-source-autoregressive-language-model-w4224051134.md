@@ -1,0 +1,21 @@
+---
+title: "GPT-NeoX-20B: An Open-Source Autoregressive Language Model"
+authors: ["Sid Black", "Stella Biderman", "Eric Hallahan", "Quentin G. Anthony", "Leo Gao", "Laurence Golding", "Horace He", "Connor Leahy", "et al."]
+year: 2022
+cited_by_count: 68
+doi: "https://doi.org/10.48550/arxiv.2204.06745"
+openalex_id: W4224051134
+paper_type: preprint
+evidence_kind: article
+topics: ["foundations"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# GPT-NeoX-20B: An Open-Source Autoregressive Language Model
+
+**Authors**: Sid Black, Stella Biderman, Eric Hallahan, Quentin G. Anthony, Leo Gao, Laurence Golding, Horace He, Connor Leahy, et al. | **Year**: 2022 | **Cited by**: 68 | **Kind**: article | **Relevance**: foundations: core
+
+## Abstract
+
+We introduce GPT-NeoX-20B, a 20 billion parameter autoregressive language model trained on the Pile, whose weights will be made freely and openly available to the public through a permissive license. It is, to the best of our knowledge, the largest dense autoregressive model that has publicly available weights at the time of submission. In this work, we describe \model{}'s architecture and training and evaluate its performance on a range of language-understanding, mathematics, and knowledge-based tasks. We find that GPT-NeoX-20B is a particularly powerful few-shot reasoner and gains far more in performance when evaluated five-shot than similarly sized GPT-3 and FairSeq models. We open-source the training and evaluation code, as well as the model weights, at https://github.com/EleutherAI/gpt-neox.

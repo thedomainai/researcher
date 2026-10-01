@@ -1,0 +1,21 @@
+---
+title: "Making the most of small Software Engineering datasets with modern machine learning"
+authors: ["Julian Aron Prenner", "Romain Robbes"]
+year: 2021
+cited_by_count: 41
+doi: "https://doi.org/10.1109/tse.2021.3135465"
+openalex_id: W3174937647
+paper_type: article
+evidence_kind: article
+topics: ["applications"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# Making the most of small Software Engineering datasets with modern machine learning
+
+**Authors**: Julian Aron Prenner, Romain Robbes | **Year**: 2021 | **Cited by**: 41 | **Kind**: article | **Relevance**: applications: supporting
+
+## Abstract
+
+This paper provides a starting point for Software Engineering (SE) researchers and practitioners faced with the problem of training machine learning models on small datasets. Due to the high costs associated with labeling data, in Software Engineering, there exist many small (< 5,000 samples) and medium-sized (<100,000 samples) datasets. While deep learning has set the state of the art in many machine learning tasks, it is only recently that it has proven effective on small-sized datasets, primarily thanks to pre-training, a semi-supervised learning technique that leverages abundant unlabelled data alongside scarce labelled data. In this work, we evaluate pre-trained Transformer models on a selection of 13 smaller datasets from the SE literature, covering both, source code and natural language. Our results suggest that pre-trained Transformers are competitive and in some cases superior to previous models, especially for tasks involving natural language; whereas for source code tasks, in particular for very small datasets, traditional machine learning methods often has the edge. In addition, we experiment with several techniques that ought to aid training on small datasets, including active learning, data augmentation, soft labels, self-training and intermediate-task fine-tuning, and issue recommendations on when they are effective. We also release all the data, scripts, and most importantly pre-trained models for the community to reuse on their own datasets.

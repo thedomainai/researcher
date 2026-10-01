@@ -1,0 +1,21 @@
+---
+title: "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter"
+authors: ["Schmidt, Wilma Johanna", "Grangel-González, Irlan", "Paschke, Adrian", "Kharlamov, Evgeny"]
+year: 2019
+cited_by_count: 4537
+doi: "https://doi.org/10.4230/tgdk.3.3.5"
+openalex_id: W2978017171
+paper_type: preprint
+evidence_kind: article
+topics: ["foundations"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter
+
+**Authors**: Schmidt, Wilma Johanna, Grangel-González, Irlan, Paschke, Adrian, Kharlamov, Evgeny | **Year**: 2019 | **Cited by**: 4537 | **Kind**: article | **Relevance**: foundations: core
+
+## Abstract
+
+As Transfer Learning from large-scale pre-trained models becomes more prevalent in Natural Language Processing (NLP), operating these large models in on-the-edge and/or under constrained computational training or inference budgets remains challenging. In this work, we propose a method to pre-train a smaller general-purpose language representation model, called DistilBERT, which can then be fine-tuned with good performances on a wide range of tasks like its larger counterparts. While most prior work investigated the use of distillation for building task-specific models, we leverage knowledge distillation during the pre-training phase and show that it is possible to reduce the size of a BERT model by 40%, while retaining 97% of its language understanding capabilities and being 60% faster. To leverage the inductive biases learned by larger models during pre-training, we introduce a triple loss combining language modeling, distillation and cosine-distance losses. Our smaller, faster and lighter model is cheaper to pre-train and we demonstrate its capabilities for on-device computations in a proof-of-concept experiment and a comparative on-device study.

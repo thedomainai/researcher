@@ -1,0 +1,21 @@
+---
+title: "TidyBot: Personalized Robot Assistance with Large Language Models"
+authors: ["Jimmy Wu", "Rika Antonova", "Adam Kan", "Marion Lepert", "Andy Zeng", "Shuran Song", "Jeannette Bohg", "Szymon M. Rusinkiewicz", "et al."]
+year: 2023
+cited_by_count: 77
+doi: "https://doi.org/10.1109/iros55552.2023.10341577"
+openalex_id: W4389667233
+paper_type: conference-paper
+evidence_kind: article
+topics: ["agents"]
+landmark: false
+abstract_source: "openalex"
+---
+
+# TidyBot: Personalized Robot Assistance with Large Language Models
+
+**Authors**: Jimmy Wu, Rika Antonova, Adam Kan, Marion Lepert, Andy Zeng, Shuran Song, Jeannette Bohg, Szymon M. Rusinkiewicz, et al. | **Year**: 2023 | **Cited by**: 77 | **Kind**: article | **Relevance**: agents: supporting
+
+## Abstract
+
+For a robot to personalize physical assistance effectively, it must learn user preferences that can be generally reapplied to future scenarios. In this work, we investigate personalization of household cleanup with robots that can tidy up rooms by picking up objects and putting them away. A key challenge is determining the proper place to put each object, as people's preferences can vary greatly depending on personal taste or cultural background. For instance, one person may prefer storing shirts in the drawer, while another may prefer them on the shelf. We aim to build systems that can learn such preferences from just a handful of examples via prior interactions with a particular person. We show that robots can combine language-based planning and perception with the few-shot summarization capabilities of large language models (LLMs) to infer generalized user preferences that are broadly applicable to future interactions. This approach enables fast adaptation and achieves 91.2% accuracy on unseen objects in our benchmark dataset. We also demonstrate our approach on a real-world mobile manipulator called TidyBot, which successfully puts away 85.0% of objects in real-world test scenarios.
