@@ -76,3 +76,27 @@ cluster_keywords:
   society: [societ, social, law, legal, regulat, privacy, ethic, philosoph, histor, religio, cultur, democra, institution, justice, norm]
   systems: [complex, system, emergen, evolution, autopoie, network, resilien, adaptive, dynamic, scale, feedback]
   ai: [ai-, llm, agent, algorithm, model, alignment, governance, automation, machine, human-ai, trust, explain]
+
+# 論文・記事の仕分け(Tier)。公開サイトのあらゆる説明文はここから出す。
+# 判定の定義は config/sources.yaml の tier_classification が正本で、ここは読者向けの言い換え。
+tiers:
+  purpose: "論文を「AI 時代にも通用する知識か」で仕分けして、読む順番と記事化の優先度を決めています。"
+  items:
+    - tier: 1
+      label: "不変原理"
+      mark: "◆"
+      short: "時代や対象が替わっても成り立つ構造"
+      question: "対象を人間・AI・組織に入れ替えても、時代が変わっても成り立つか"
+      use: "最初に読む記事。記事化の優先度も最も高い。"
+    - tier: 2
+      label: "設計原理"
+      mark: "◇"
+      short: "いまの制約を前提にした設計の指針"
+      question: "AI で外れる制約を特定でき、外れたあとに何が起きるかを考える材料になるか"
+      use: "不変原理の次に読む記事。実務の設計に落とすときに使う。"
+    - tier: 3
+      label: "参考"
+      mark: "▫"
+      short: "条件に依存する個別の知見"
+      question: "特定の条件での現象の記述や、手法レベルの最適化にとどまるか"
+      use: "必要なときに引く記事。新しい論文は、この分類では記事にしません。"

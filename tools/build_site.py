@@ -50,6 +50,17 @@ GRAPH_UI = os.path.join(BASE, "wiki", "graph", "index.html")
 DEFAULT_OUT = os.path.join(BASE, "site")
 
 TIER_LABEL = {1: "不変原理", 2: "設計原理", 3: "参考"}
+TIER_INFO = {}
+TIER_PURPOSE = ""
+# 記事末尾「次の一歩」の列名。案内文(ガイド・導入文)もここから出す。
+NEXT_LABEL = {
+    "field": "同じ分野を読む",
+    "base": "この記事が参照する概念",
+    "apply": "この記事を参照する概念",
+    "forward": "設計原理に進む",
+    "back": "不変原理に戻る",
+    "cross": "別の領域の見方",
+}
 
 
 # ---------------------------------------------------------------------------
@@ -80,6 +91,18 @@ def load_config():
     for cluster in config["clusters"]:
         for domain in cluster["domains"]:
             config["domain_to_cluster"][domain] = cluster["key"]
+    global TIER_PURPOSE
+    notes = (sources.get("tier_classification") or {})
+    config["tier_notes"] = {
+        1: list((notes.get("tier1") or {}).get("invariant_constraints") or []),
+        2: list((notes.get("tier2") or {}).get("vanishing_constraints") or []),
+        3: list((notes.get("tier3") or {}).get("skip_indicators") or []),
+    }
+    tiers = config.get("tiers") or {}
+    TIER_PURPOSE = tiers.get("purpose") or ""
+    for entry in tiers.get("items") or []:
+        TIER_INFO[int(entry["tier"])] = entry
+        TIER_LABEL[int(entry["tier"])] = entry["label"]
     return config
 
 
@@ -393,7 +416,7 @@ class Renderer:
             inner = tokens[int(match.group(1))]
             target, label = self.resolve_wikilink(slug, inner)
             if target:
-                return '<a class="wikilink" href="%sconcepts/%s/">%s</a>' % (root, target, html.escape(label, quote=False))
+                return '<a class="wikilink" data-slug="%s" href="%sconcepts/%s/">%s</a>' % (target, root, target, html.escape(label, quote=False))
             return '<span class="wikilink unresolved">%s</span>' % html.escape(label, quote=False)
 
         value = re.sub(r"\x00WL(\d+)\x00", restore_wl, value)
@@ -659,8 +682,29 @@ def dot_date(value):
     return value[:10].replace("-", ".") if value else ""
 
 
-def tier_span(tier):
-    return '<span class="tier" data-t="%d">%s</span>' % (tier, TIER_LABEL.get(tier, ""))
+def tier_span(tier, tip=True):
+    info = TIER_INFO.get(tier) or {}
+    attr = ""
+    if tip and info:
+        attr = ' data-tip="%s"' % esc("%s: %s。%s" % (info.get("label", ""), info.get("short", ""), info.get("use", "")))
+    return '<span class="tier" data-t="%d"%s>%s</span>' % (tier, attr, TIER_LABEL.get(tier, ""))
+
+
+def tier_mark(tier):
+    """文字だけが使える場所(属性・JSON・本文の括弧)用。"""
+    return (TIER_INFO.get(tier) or {}).get("mark", "")
+
+
+def tier_mark_html(tier):
+    """分類の印。3 つとも同じ大きさの箱として CSS で描く(塗りの菱形 / 線の菱形 / 線の正方形)。色は領域に譲る。"""
+    return '<i class="tm" data-t="%d" aria-hidden="true"></i>' % tier
+
+
+def tier_counts(catalog):
+    counts = {1: 0, 2: 0, 3: 0}
+    for item in catalog:
+        counts[item["tier"]] = counts.get(item["tier"], 0) + 1
+    return counts
 
 
 def layout(config, root, title, description, body, canonical, og_type="website", extra_head="",
@@ -674,12 +718,12 @@ def layout(config, root, title, description, body, canonical, og_type="website",
         '<a class="brand" href="%(root)s" aria-label="%(short)s ホーム">%(mark)s<span class="word">%(short)s</span></a>'
         '<nav class="nav" aria-label="主要ナビゲーション">'
         '<a href="%(root)s#clusters"%(c1)s>領域</a><a href="%(root)sconcepts/"%(c2)s>記事</a>'
-        '<a class="opt" href="%(root)sgraph/"%(c3)s>アトラス</a></nav>'
+        '<a href="%(root)sgraph/"%(c3)s>アトラス</a><a class="guide" href="%(root)sguide/"%(c4)s>読み方</a></nav>'
         '<div class="tools"><button class="search-btn" type="button" data-search aria-label="記事を検索">%(isearch)s<span>検索</span><kbd>⌘K</kbd></button>'
         '<button class="icon-btn" type="button" data-theme-toggle aria-label="配色を切り替える">%(itheme)s</button></div>'
         '</div></header>'
     ) % {"root": root or "./", "short": esc(site["short_title"]), "mark": BRAND_MARK,
-         "c1": cur("clusters"), "c2": cur("concepts"), "c3": cur("graph"),
+         "c1": cur("clusters"), "c2": cur("concepts"), "c3": cur("graph"), "c4": cur("guide"),
          "isearch": ICON_SEARCH, "itheme": ICON_THEME}
     foot = ""
     if footer:
@@ -691,10 +735,12 @@ def layout(config, root, title, description, body, canonical, og_type="website",
             '<div><h2 class="mono">About</h2><p>%(about)s</p></div>'
             '<div><h2 class="mono">領域</h2><ul>%(clusters)s</ul></div>'
             '<div><h2 class="mono">索引</h2><ul>'
+            '<li><a href="%(root)sguide/">読み方ガイド</a></li>'
             '<li><a href="%(root)sconcepts/">記事索引</a></li><li><a href="%(root)sgraph/">アトラス(知識グラフ)</a></li>'
             '<li><a href="%(root)sfeed.xml">RSS</a></li><li><a href="%(repo)s" rel="noopener">GitHub</a></li></ul></div>'
             '</div><div class="foot-wrap"><div class="foot-word" aria-hidden="true">%(short)s</div></div>'
-            '<div class="foot-base mono"><span>© %(year)d %(author)s</span><span>記事は学術論文をもとに AI が生成 · 順次追加</span></div>'
+            '<div class="foot-base mono"><span>© %(year)d %(author)s</span><span>記事は学術論文をもとに AI が生成 · 順次追加</span>'
+            '<button type="button" class="foot-theme" data-theme-toggle>配色を切り替える</button></div>'
             '</div></footer>'
         ) % {"about": esc(site["description"].replace("30 を超える学問分野", "%d の学問分野" % config.get("_domain_count", 30))), "clusters": cluster_links, "root": root, "repo": esc(site["repo_url"]),
              "short": esc(site["short_title"]), "year": dt.date.today().year, "author": esc(site["author"])}
@@ -752,11 +798,11 @@ def row_html(item, root, config):
     cluster = cluster_of(config, item["cluster"])
     search_text = " ".join([item["title"], item["title_en"], item["slug"]]).lower()
     return (
-        '<li class="row" data-c="%s" data-t="%d" data-s="%s"><a href="%sconcepts/%s/">'
+        '<li class="row" data-c="%s" data-t="%d" data-s="%s" data-slug="%s"><a href="%sconcepts/%s/">'
         '<span class="when mono">%s</span><span class="t">%s</span>'
         '<span class="m mono"><span class="cl"><i class="dot"></i>%s</span> %s</span>'
         '<span class="d">%s</span></a></li>'
-    ) % (cluster["key"], item["tier"], esc(search_text), root, item["slug"], ("%d 参照" % item["degree"]) if item.get("degree") else "—",
+    ) % (cluster["key"], item["tier"], esc(search_text), item["slug"], root, item["slug"], ("%d 参照" % item["degree"]) if item.get("degree") else "参照なし",
          esc(item["title"]), esc(short_label(cluster)), tier_span(item["tier"]), esc(item["description"]))
 
 
@@ -770,18 +816,25 @@ def filters_html(config, with_clusters, total):
         chips.append('<div class="chips" role="group" aria-label="領域で絞り込む">%s</div>' % "".join(
             '<button class="chip" type="button" data-c="%s" data-f="c:%s" aria-pressed="false"><i class="dot"></i>%s</button>' % (
                 c["key"], c["key"], esc(short_label(c))) for c in config["clusters"]))
-    chips.append('<div class="chips" role="group" aria-label="Tier で絞り込む">%s</div>' % "".join(
-        '<button class="chip" type="button" data-f="t:%d" aria-pressed="false">%s</button>' % (t, TIER_LABEL[t]) for t in (1, 2, 3)))
+    chips.append('<div class="chips" role="group" aria-label="分類で絞り込む">%s</div>' % "".join(
+        '<button class="chip" type="button" data-f="t:%d" aria-pressed="false">%s %s</button>' % (t, tier_mark_html(t), TIER_LABEL[t]) for t in (1, 2, 3)))
     return (
         '<div class="filters"><span class="mono lab">絞り込み</span><input type="text" inputmode="search" placeholder="この一覧を絞り込む" aria-label="一覧を絞り込む">%s'
         '<button class="clear" type="button" hidden>条件を解除</button><span class="count mono" aria-live="polite">%s 件</span></div>'
     ) % ("".join(chips), num(total))
 
 
-TIER_KEY = (
-    '<ul class="tier-key"><li><b>◆ 不変原理</b>制度や技術が替わっても成り立つ構造</li>'
-    '<li><b>◇ 設計原理</b>いまの制約を前提にした設計の指針</li><li><b>▫ 参考</b>条件に依存する個別の知見</li></ul>'
-)
+def tier_key_html(catalog, root):
+    """仕分けの目的と 3 つの分類を、一覧の上に示す。"""
+    counts = tier_counts(catalog)
+    items = "".join(
+        '<li><b>%s %s</b><span class="n">%s</span>%s</li>' % (
+            tier_mark_html(t), TIER_LABEL[t], num(counts.get(t, 0)), esc((TIER_INFO.get(t) or {}).get("short", "")))
+        for t in (1, 2, 3))
+    return (
+        '<p class="tier-why">%s<a href="%sguide/">読み方ガイド <span class="arr">→</span></a></p>'
+        '<ul class="tier-key">%s</ul>'
+        '<details class="tier-key-m"><summary>%s%s%s の意味</summary><ul>%s</ul></details>' % (esc(TIER_PURPOSE), root, items, tier_mark_html(1), tier_mark_html(2), tier_mark_html(3), items))
 
 
 def write(path, content):
@@ -852,6 +905,145 @@ def related_items(slug, backlinks, by_slug, limit=6):
             seen[target] = seen.get(target, 0) + (edge.get("weight") or 1)
     ranked = sorted(seen.items(), key=lambda kv: (-kv[1], -by_slug[kv[0]].get("degree", 0), by_slug[kv[0]]["title"]))
     return [by_slug[s] for s, _ in ranked[:limit]]
+
+
+def cluster_bridges(catalog, pairs):
+    """領域どうしの参照の本数。"""
+    counts = defaultdict(int)
+    for i, j in pairs:
+        a, b = catalog[i]["cluster"], catalog[j]["cluster"]
+        if a != b:
+            counts[(a, b)] += 1
+            counts[(b, a)] += 1
+    return counts
+
+
+def next_row(c, root, config):
+    cl = cluster_of(config, c["cluster"])
+    return (
+        '<li data-slug="%s" data-c="%s"><a href="%sconcepts/%s/"><span class="t">%s</span>'
+        '<span class="m mono"><i class="dot"></i>%s %s</span><span class="d">%s</span></a></li>'
+    ) % (c["slug"], c["cluster"], root, c["slug"], esc(c["title"]), esc(short_label(cl)), tier_span(c["tier"]), esc(c["description"]))
+
+
+def next_steps_html(item, config, by_slug, backlinks, catalog, root):
+    """記事の末尾に出す「次の一歩」。読み手の意図(基礎へ・応用へ・設計へ・別の領域へ)ごとに道筋を分ける。"""
+    node = (backlinks or {}).get("nodes", {}).get(item["slug"]) or {}
+
+    def weights(edges):
+        out = OrderedDict()
+        for e in edges:
+            t = e.get("id")
+            if e.get("resolved") and t in by_slug and t != item["slug"]:
+                out[t] = out.get(t, 0) + (e.get("weight") or 1)
+        return out
+
+    outw, inw = weights(node.get("outbound", [])), weights(node.get("inbound", []))
+    both = OrderedDict()
+    for d in (outw, inw):
+        for t, w in d.items():
+            both[t] = both.get(t, 0) + w
+
+    def ranked(ws):
+        return [by_slug[t] for t, _ in sorted(ws.items(), key=lambda kv: (-kv[1], -by_slug[kv[0]].get("degree", 0), by_slug[kv[0]]["title"]))]
+
+    ranked_both = ranked(both)
+    isolated = not ranked_both
+    if isolated:
+        # 記事どうしの参照が無い記事(行き止まりを作らないため): 同じ分野、無ければ同じ領域から選ぶ
+        same_domain = [c for c in catalog if c["slug"] != item["slug"] and item["domains"] and c["domains"] and c["domains"][0] == item["domains"][0]]
+        same_cluster = [c for c in catalog if c["slug"] != item["slug"] and c["cluster"] == item["cluster"]]
+        pool = sorted(same_domain if len(same_domain) >= 3 else same_cluster, key=lambda c: (c["tier"] != 1, -c.get("degree", 0), c["title"]))
+        if not pool:
+            return ""
+        main = pool[0]
+    else:
+        main = ranked_both[0]
+    used = {main["slug"]}
+
+    def take(cands, n=3):
+        out = []
+        for c in cands:
+            if c["slug"] in used:
+                continue
+            out.append(c)
+            used.add(c["slug"])
+            if len(out) >= n:
+                break
+        return out
+
+    if isolated:
+        why = "同じ分野でよく参照される概念"
+    elif main["slug"] in outw and main["slug"] in inw:
+        why = "たがいに参照し合う概念"
+    elif main["slug"] in outw:
+        why = NEXT_LABEL["base"]
+    else:
+        why = NEXT_LABEL["apply"]
+    base = take(ranked(outw))
+    apply_ = take(ranked(inw))
+    cross = take([c for c in ranked_both if c["cluster"] != item["cluster"]])
+    field = take(pool[1:], 3) if isolated else []
+    if item["tier"] == 1:
+        want, head, sub = 2, NEXT_LABEL["forward"], "参照でつながっている設計原理"
+    else:
+        want, head, sub = 1, NEXT_LABEL["back"], "参照でつながっている不変原理"
+    bridge = take([c for c in ranked_both if c["tier"] == want], 3)
+    if not bridge:
+        fill = sorted([c for c in catalog if c["cluster"] == item["cluster"] and c["tier"] == want], key=lambda c: -c.get("degree", 0))
+        bridge = take(fill, 2)
+        sub = "この記事とは参照が無いため、同じ領域から選びました"
+
+    field_label = (config["domain_labels"].get(item["domains"][0], "同じ分野") if item["domains"] else "同じ領域")
+    m1, m2 = tier_mark_html(1), tier_mark_html(2)
+    rank_note = {1: "%s不変原理 → %s設計原理の順に読むと、原理から設計へ進めます" % (m1, m2),
+                 2: "%s設計原理から%s不変原理へ戻ると、根拠を確かめられます" % (m2, m1),
+                 3: "参考は辞書として引く記事です。不変原理に戻ると全体像がつかめます"}.get(item["tier"], "")
+    # 各列は 1 本だけ要約つきで見せ、残りは題名だけの行にする(選ぶ負担を減らす)
+    def col_html(ckey, title, hint, rows):
+        if not rows:
+            return ""
+        first = rows[0]
+        rest = "".join(
+            '<li class="more-row" data-slug="%s" data-c="%s"><a href="%sconcepts/%s/"><span class="t">%s</span>'
+            '<span class="m mono"><i class="dot"></i>%s %s</span></a></li>' % (
+                c["slug"], c["cluster"], root, c["slug"], esc(c["title"]), esc(short_label(cluster_of(config, c["cluster"]))), tier_span(c["tier"], tip=False))
+            for c in rows[1:])
+        return (
+            '<section class="next-col" data-k="%s"><h3><b>%s</b><small>%s</small></h3><ul>%s%s</ul></section>' % (
+                ckey, title, hint, next_row(first, root, config), rest))
+    cols = "".join(col_html(*spec) for spec in (
+        ("field", NEXT_LABEL["field"], "この記事とは参照が無い、%s でつながりの多い概念" % field_label, field),
+        ("base", NEXT_LABEL["base"], "背景として挙げられている記事(参照の向きから自動で選んでいます)", base),
+        ("apply", NEXT_LABEL["apply"], "この記事を土台にしている記事(参照の向きから自動で選んでいます)", apply_),
+        ("bridge", head, sub, bridge),
+        ("cross", NEXT_LABEL["cross"], "上の列に入らなかった、ほかの領域の概念", cross),
+    ))
+    main_mark = "%s %s" % (tier_mark_html(main["tier"]), esc(TIER_LABEL.get(main["tier"], "")))
+    cands = [main] + apply_ + base + bridge + cross
+    cand_json = json.dumps([[c["slug"], c["title"], c["tier"]] for c in cands[:10]], ensure_ascii=False, separators=(",", ":"))
+    cl = cluster_of(config, item["cluster"])
+    n_cluster = sum(1 for c in catalog if c["cluster"] == item["cluster"])
+    actions = (
+        '<div class="next-actions">'
+        '<a href="%sclusters/%s/"><span>この領域の記事を一覧する</span><b class="mono">%s</b></a>'
+        '<a href="%sconcepts/?t=1"><span>不変原理を参照の多い順に読む</span><b class="mono">%s</b></a>'
+        '<a href="%sgraph/#%s"><span>アトラスで位置を見る</span><b class="mono">→</b></a>'
+        '<button type="button" data-search><span>別の言葉で探す</span><b class="mono">⌘K</b></button></div>'
+    ) % (root, cl["key"], num(n_cluster), root, tier_mark_html(1), root, item["slug"])
+    return (
+        '<section class="sec art-end next" id="next-step" data-c="%s"><div class="shell"><header class="sec-head reveal">'
+        '<span class="sec-no mono">次に読む</span><h2>次の一歩</h2>'
+        '<p>%s。<a class="inline block" href="%sguide/">仕分けの基準を見る <span class="arr">→</span></a></p></header>'
+        '<div class="next-grid reveal">'
+        '<a class="next-main" data-slug="%s" data-c="%s" href="%sconcepts/%s/" data-cands="%s"><span class="mono">まず読むなら · %s · %s</span>'
+        '<span class="t">%s</span><span class="d">%s</span><span class="go">この記事から続けて読む <i class="arr">→</i></span></a>'
+        '<div class="next-cols">%s</div></div>'
+        '<div class="reveal">%s</div></div>'
+        '<aside class="next-bar" hidden aria-label="次に読む記事" data-cands="%s" data-root="%s"><span class="mono">次に読む</span>'
+        '<a href="%sconcepts/%s/"><b>%s</b><i class="arr">→</i></a><button type="button" aria-label="この案内を閉じる">×</button></aside></section>'
+    ) % (item["cluster"], ("この記事はまだ他の記事と参照でつながっていないため、同じ分野から選びました" if isolated else rank_note), root, main["slug"], main["cluster"], root, main["slug"], esc(cand_json), main_mark, esc(why),
+         esc(main["title"]), esc(main["description"]), cols, actions, esc(cand_json), root, root, main["slug"], esc(main["title"]))
 
 
 SECTION_SPLIT = re.compile(r"\n(?=##\s)")
@@ -932,13 +1124,17 @@ def build_article(item, config, renderer, backlinks, by_slug, out_dir, catalog=N
     body_html = renderer.render(item["slug"], body_md, root)
     toc = list(renderer.toc)
     subtoc = dict(renderer.subtoc)
+    handoff = ""
+    if backlinks is not None:
+        handoff = '<p class="handoff" hidden data-handoff><span class="mono">本文はここまで</span><a href="#next-step">次の一歩へ ↓</a><a class="hf-next" href="#"></a></p>'
     if records:
-        body_html += bibliography_html(records)
+        body_html += handoff + bibliography_html(records)
         toc.append(("sources", "出典"))
         sources = len(records)
     else:
         cleaned = clean_source_tail(tail_md)
         sources = count_sources(tail_md)
+        body_html += handoff
         if cleaned.strip():
             body_html += renderer.render(item["slug"], "# x\n\n" + cleaned, root)
             toc.extend(renderer.toc)
@@ -971,7 +1167,9 @@ def build_article(item, config, renderer, backlinks, by_slug, out_dir, catalog=N
     facts = [
         ("領域", '<a href="%sclusters/%s/">%s</a>' % (root, cluster["key"], esc(cluster["label"]))),
         ("分野", domain_links),
-        ("Tier", "%d · %s" % (item["tier"], TIER_LABEL.get(item["tier"], ""))),
+        ("分類", '%s %s<a class="fact-sub" href="%sguide/#tier-%d">%s</a>' % (
+            tier_mark_html(item["tier"]), esc(TIER_LABEL.get(item["tier"], "")), root, item["tier"],
+            esc((TIER_INFO.get(item["tier"]) or {}).get("short", "")))),
         ("公開", dot_date(item["published"])),
     ]
     if item["modified"] and item["modified"][:10] != item["published"][:10]:
@@ -987,25 +1185,12 @@ def build_article(item, config, renderer, backlinks, by_slug, out_dir, catalog=N
     side_meta = '<aside class="art-side side-meta"><div class="side-block"><h2 class="mono">この記事</h2><dl class="facts">%s</dl></div>%s</aside>' % (
         facts_html, share)
 
-    related_html = ""
-    if related:
-        cards = "".join(
-            '<a href="%sconcepts/%s/" data-c="%s"><span class="t">%s</span><span class="d">%s</span>'
-            '<span class="f mono"><i class="dot"></i>%s</span></a>' % (
-                root, r["slug"], r["cluster"], esc(r["title"]), esc(r["description"]),
-                esc(short_label(cluster_of(config, r["cluster"]))))
-            for r in related)
-        related_html = (
-            '<section class="sec art-end"><div class="shell"><header class="sec-head reveal">'
-            '<span class="sec-no mono">次に読む</span><h2>つながる概念</h2>'
-            '<a class="more" href="%sgraph/#%s">アトラスで見る <span class="arr">→</span></a></header>'
-            '<div class="rel reveal">%s</div></div></section>'
-        ) % (root, item["slug"], cards)
+    related_html = next_steps_html(item, config, by_slug, backlinks, catalog, root)
 
     source_md = "%s/blob/main/wiki/concepts/%s.md" % (site["repo_url"], item["slug"])
     body = (
         '<div class="progress" aria-hidden="true"></div>'
-        '<article data-c="%(ckey)s">'
+        '<article data-c="%(ckey)s" data-slug="%(slug)s">'
         '<header class="art-head"><div class="shell">%(crumbs)s<div>'
         '<div class="art-kicker mono"><a href="%(root)sclusters/%(ckey)s/"><i class="dot"></i>%(clabel)s</a>%(tier)s</div>'
         '<h1>%(title)s</h1>%(en)s%(lede)s%(why)s%(src)s</div>%(ego)s</div></header>'
@@ -1013,9 +1198,13 @@ def build_article(item, config, renderer, backlinks, by_slug, out_dir, catalog=N
         '<div class="notice"><span class="mono">Note</span><p>%(notice)s <a href="%(source)s" rel="noopener">原稿(Markdown)を GitHub で見る</a></p></div>'
         '</div></div>%(side_meta)s</div></article>%(related)s'
     ) % {
-        "ckey": cluster["key"], "clabel": esc(cluster["label"]), "root": root,
+        "ckey": cluster["key"], "clabel": esc(cluster["label"]), "root": root, "slug": item["slug"],
         "crumbs": crumbs_html([(site["short_title"], root), (cluster["label"], root + "clusters/%s/" % cluster["key"]), (item["title"], None)]),
-        "tier": tier_span(item["tier"]),
+        "tier": ('<a class="tier-link" data-t="%d" href="%sguide/#tier-%d"><span class="mk">%s</span> %s'
+                 '<span class="def">%s</span></a>') % (
+            item["tier"], root, item["tier"], tier_mark_html(item["tier"]), esc(TIER_LABEL.get(item["tier"], "")),
+            esc((TIER_INFO.get(item["tier"]) or {}).get("short", ""))) +
+            '<a class="why-sort" href="%sguide/">AI 時代にも通用するかで仕分けしています <i class="arr">→</i></a>' % root,
         "why": ('<p class="art-why"><span class="mono">実務への含意</span><span>%s</span></p>' % esc(item["why"])) if item.get("why") else "",
         "src": '<p class="art-src">%s</p>' % (
             ('<a href="#%s">出典 %d 本をもとに AI が執筆</a> · 約 %d 分' % (esc(source_anchor), sources, minutes)) if sources and source_anchor
@@ -1046,9 +1235,10 @@ def build_article(item, config, renderer, backlinks, by_slug, out_dir, catalog=N
     write(os.path.join(out_dir, "concepts", item["slug"], "index.html"), page)
 
 
-def build_cluster_pages(catalog, config, out_dir):
+def build_cluster_pages(catalog, config, out_dir, pairs=None):
     site = config["site"]
     root = "../../"
+    bridges = cluster_bridges(catalog, pairs or [])
     for number, cluster in enumerate(config["clusters"], 1):
         items = [i for i in catalog if i["cluster"] == cluster["key"]]
         by_domain = defaultdict(list)
@@ -1056,13 +1246,30 @@ def build_cluster_pages(catalog, config, out_dir):
             by_domain[item["domains"][0] if item["domains"] else "_other"].append(item)
         sections = []
         jumps = []
-        starts = sorted(items, key=lambda i: (i["tier"] != 1, -i.get("degree", 0)))[:3]
-        starts_html = (
-            '<div class="starts"><span class="mono">まず読む 3 本</span><div class="rel">%s</div></div>' % "".join(
-                '<a href="%sconcepts/%s/" data-c="%s"><span class="t">%s</span><span class="d">%s</span>'
-                '<span class="f mono">%s · %d 件の参照</span></a>' % (
-                    root, i["slug"], i["cluster"], esc(i["title"]), esc(i["description"]),
-                    TIER_LABEL.get(i["tier"], ""), i.get("degree", 0)) for i in starts)) if len(starts) == 3 else ""
+        def start_set(tier, number):
+            picks = sorted([i for i in items if i["tier"] == tier], key=lambda i: -i.get("degree", 0))[:3]
+            if len(picks) < 2:
+                return ""
+            info = TIER_INFO.get(tier) or {}
+            cards = "".join(
+                '<a href="%sconcepts/%s/" data-slug="%s" data-c="%s"><span class="t">%s</span><span class="d">%s</span>'
+                '<span class="f mono">%d 件の参照</span></a>' % (
+                    root, i["slug"], i["slug"], i["cluster"], esc(i["title"]), esc(i["description"]), i.get("degree", 0)) for i in picks)
+            return (
+                '<div class="start-set"><h3><b>%s %s %s</b><small>%s</small></h3><div class="rel">%s</div></div>' % (
+                    "①②"[number - 1], tier_mark_html(tier), esc(info.get("label", "")), esc(info.get("use", "")), cards))
+        starts_html = ""
+        blocks = start_set(1, 1) + start_set(2, 2)
+        if blocks:
+            starts_html = '<div class="starts"><span class="mono">読む順番</span><div class="start-sets">%s</div></div>' % blocks
+        near = sorted([(n, k) for (a_, k), n in bridges.items() if a_ == cluster["key"]], reverse=True)[:2]
+        bridge_html = ""
+        if near:
+            bridge_html = (
+                '<section class="bridge"><div class="shell"><span class="mono">隣の領域へ</span><div class="bridge-grid">%s</div></div></section>' % "".join(
+                    '<a class="bridge-card" data-c="%s" href="%sclusters/%s/"><span class="t">%s</span><span class="d">%s</span>'
+                    '<span class="f mono">この領域との参照 %s 本</span></a>' % (
+                        k, root, k, esc(cluster_of(config, k)["label"]), esc(cluster_of(config, k)["tagline"]), num(n)) for n, k in near))
         for domain in cluster["domains"] + ["_other"]:
             group = by_domain.get(domain)
             if not group:
@@ -1082,12 +1289,12 @@ def build_cluster_pages(catalog, config, out_dir):
             '<div class="big-no" aria-hidden="true">%(count)s<small>CONCEPTS · 領域 %(no)02d / %(total)02d</small></div></div></header>'
             '<div class="shell" data-c="%(key)s">%(starts)s<nav class="jump" aria-label="分野へ移動"><span class="mono lab">分野へ移動</span>%(jumps)s</nav></div>'
             '<div class="shell" data-c="%(key)s" style="margin-top:26px">%(filters)s%(sections)s<p class="empty" hidden>条件に合う記事がありません。</p></div>'
-            '<div style="height:clamp(60px,9vw,130px)"></div>'
+            '%(bridge)s<div style="height:clamp(60px,9vw,130px)"></div>'
         ) % {"key": cluster["key"], "label": brk(cluster["label"]), "tag": esc(cluster["tagline"]), "count": num(len(items)),
              "no": number, "total": len(config["clusters"]),
              "crumbs": crumbs_html([(site["short_title"], root), ("領域", root + "#clusters"), (cluster["label"], None)]),
              "filters": filters_html(config, False, len(items)), "sections": "".join(sections),
-             "starts": starts_html, "jumps": "".join(h for _, h in sorted(jumps, key=lambda x: -x[0]))}
+             "starts": starts_html, "bridge": bridge_html, "jumps": "".join(h for _, h in sorted(jumps, key=lambda x: -x[0]))}
         url = "%s/clusters/%s/" % (site["url"], cluster["key"])
         page = layout(config, root, "%s | %s" % (cluster["label"], site["short_title"]),
                       "%s — %s の概念記事 %d 本。" % (cluster["tagline"], cluster["label"], len(items)), body, url,
@@ -1142,15 +1349,31 @@ def build_all_index(catalog, config, out_dir):
                 num(len(group)), rows_html(group, root, config)))
     body = (
         '<header class="page-head"><div class="shell">%(crumbs)s'
-        '<div><h1>記事索引</h1><p class="lede">すべての概念記事を、領域ごとに参照の多い順で並べています。領域・分類・語で絞り込めます。</p>%(key)s</div>'
+        '<div><h1>記事索引</h1><p class="lede">すべての概念記事を、領域ごと(%(domains)d の学問分野を 6 つの領域に束ねています)に、参照の多い順で並べています。領域・分類・語で絞り込めます。</p>%(key)s</div>'
         '<div class="big-no" aria-hidden="true" style="color:var(--ink)">%(count)s<small>CONCEPTS</small></div></div></header>'
         '<div class="shell">%(filters)s%(rows)s<p class="empty" hidden>条件に合う記事がありません。</p></div>'
         '<div style="height:clamp(60px,9vw,130px)"></div>'
     ) % {"crumbs": crumbs_html([(site["short_title"], root), ("記事索引", None)]), "count": num(len(items)),
-         "filters": filters_html(config, True, len(items)), "rows": "".join(day_sections), "key": TIER_KEY}
+         "filters": filters_html(config, True, len(items)), "rows": "".join(day_sections), "key": tier_key_html(catalog, root),
+         "domains": len({d for i in catalog for d in i["domains"]})}
     page = layout(config, root, "記事索引 | %s" % site["short_title"], site["description"], body, site["url"] + "/concepts/",
                   current="concepts")
     write(os.path.join(out_dir, "concepts", "index.html"), page)
+
+
+def home_tiers_html(catalog, root):
+    counts = tier_counts(catalog)
+    out = []
+    for order, t in enumerate((1, 2, 3), 1):
+        info = TIER_INFO.get(t) or {}
+        out.append(
+            '<li data-t="%d"><span class="no mono">%s</span><span class="mk" aria-hidden="true">%s</span>'
+            '<h3>%s</h3><p class="def">%s</p><p class="q"><span class="mono">判定の問い</span>%s</p>'
+            '<p class="use">%s</p><a class="go %s" href="%sconcepts/?t=%d">%s</a></li>' % (
+                t, ("読む順 ①" if t == 1 else "読む順 ②") if t != 3 else "随時 · 必要なときに", tier_mark_html(t), esc(info.get("label", "")), esc(info.get("short", "")),
+                esc(info.get("question", "")), esc(info.get("use", "")), "go-text" if t == 3 else "", root, t,
+                ('<b>%s</b> 本を参照の多い順に読む <i class="arr">→</i>' % num(counts.get(t, 0))) if t != 3 else ('参考の記事 <b>%s</b> 本を見る <i class="arr">→</i>' % num(counts.get(t, 0)))))
+    return "".join(out)
 
 
 def build_home(catalog, config, out_dir, pairs, paper_count):
@@ -1187,13 +1410,14 @@ def build_home(catalog, config, out_dir, pairs, paper_count):
         '<p class="hero-lede fade">%(domains)d の学問分野、%(papers)s 本の論文から、知能が安くなった後にも残る構造を読み解く研究アトラス。'
         '記事は論文をもとに AI が書き、出典とともに順次追加されます。</p>'
         '<div class="hero-cta fade"><a class="btn solid" href="#clusters">領域から読む <span class="arr">↓</span></a>'
-        '<a class="btn ghost" href="graph/">アトラスを開く <span class="arr">→</span></a></div>'
-        '<div class="fade"><a class="hero-latest" href="concepts/%(latest_slug)s/"><span class="mono">新着</span><b>%(latest_title)s</b><span class="arr">→</span></a></div></div>'
-        '<div class="hero-legend mono fade" aria-label="点の色は領域を表します">%(legend)s</div></div>'
+        '<a class="btn ghost" href="concepts/?t=1">不変原理から読む <span class="arr">→</span></a></div>'
+        '<div class="fade hero-meta"><a class="hero-latest" href="concepts/%(latest_slug)s/"><span class="mono">新着</span><b>%(latest_title)s</b><span class="arr">→</span></a>'
+        '<a class="hero-latest hero-resume" href="#" hidden><span class="mono">次の未読</span><b></b><span class="arr">→</span><small class="why"></small></a></div></div>'
+        '<div class="hero-legend mono fade" aria-label="点の色は領域を表します">%(legend)s<a class="atlas-link" href="graph/">アトラスを開く →</a></div></div>'
         '<div class="shell"><div class="hero-stats fade">'
         '<div class="stat"><b>%(count)s</b><span class="mono">概念記事</span></div>'
         '<div class="stat"><b>%(papers)s</b><span class="mono">収録論文</span></div>'
-        '<div class="stat"><b>%(domains)d</b><span class="mono">学問分野</span></div>'
+        '<div class="stat"><b>%(domains)d</b><span class="mono">学問分野 · 6 領域に束ねる</span></div>'
         '<div class="stat"><b>%(edges)s</b><span class="mono">概念間の参照</span></div></div></div>'
         '<script type="application/json" id="hero-graph">%(graph)s</script></section>'
 
@@ -1201,21 +1425,26 @@ def build_home(catalog, config, out_dir, pairs, paper_count):
         '<h2>六つの領域</h2><p>%(domains)d の分野を、問いの近さで六つに束ねています。</p></header>'
         '<ul class="cl-list reveal">%(clusters)s</ul></div></section>'
 
-        '<section class="sec"><div class="shell"><header class="sec-head reveal"><span class="sec-no mono">02 — Invariants</span>'
+        '<section class="sec" id="sorting"><div class="shell"><header class="sec-head reveal"><span class="sec-no mono">02 — Sorting</span>'
+        '<h2>読む順番は、仕分けで決まります</h2><a class="more" href="guide/">読み方ガイド <span class="arr">→</span></a>'
+        '<p>%(purpose)s</p></header>'
+        '<ol class="tiers reveal">%(tiers)s</ol></div></section>'
+
+        '<section class="sec"><div class="shell"><header class="sec-head reveal"><span class="sec-no mono">03 — Invariants</span>'
         '<h2>不変原理から読む</h2><a class="more" href="concepts/">すべての記事 <span class="arr">→</span></a>'
-        '<p>制度や技術が入れ替わっても成り立つと判断した原理のうち、他の概念から最も多く参照されているもの。</p></header>'
+        '<p>%(inv_short)sと判断した原理のうち、他の概念から最も多く参照されているもの。</p></header>'
         '<div class="cards reveal">%(cards)s</div></div></section>'
 
-        '<section class="sec"><div class="shell"><header class="sec-head reveal"><span class="sec-no mono">03 — Latest</span>'
+        '<section class="sec"><div class="shell"><header class="sec-head reveal"><span class="sec-no mono">04 — Latest</span>'
         '<h2>最近の追加</h2><a class="more" href="concepts/">記事索引 <span class="arr">→</span></a>'
         '<p>直近に追加した記事から、ほかの概念とのつながりが多い順に。</p></header>'
         '<div class="reveal">%(latest)s</div></div></section>'
 
-        '<section class="sec"><div class="shell"><header class="sec-head reveal"><span class="sec-no mono">04 — Method</span>'
+        '<section class="sec"><div class="shell"><header class="sec-head reveal"><span class="sec-no mono">05 — Method</span>'
         '<h2>つくりかた</h2><p>このサイトは、人が選び AI が読むという分担で運用しています。</p></header>'
         '<div class="method reveal">'
         '<div class="step"><span class="n mono">Step 01</span><h3>集める</h3><p>毎朝、%(domains)d 分野の検索式で学術データベースから論文を取得します。系統的レビュー、メタ分析、古典を優先します。</p></div>'
-        '<div class="step"><span class="n mono">Step 02</span><h3>ふるいにかける</h3><p>抽象度・制約不変・メカニズムの 3 つの試験で分類します。すべて満たすものが Tier 1(不変原理)、消えゆく制約に依るが構造的に価値があるものが Tier 2(設計原理)です。</p></div>'
+        '<div class="step"><span class="n mono">Step 02</span><h3>ふるいにかける</h3><p>抽象度・制約不変・メカニズムの 3 つの試験で分類します。すべて満たすものが不変原理、消えゆく制約に依るが構造的に価値があるものが設計原理です。<a class="inline" href="guide/">基準の詳細</a></p></div>'
         '<div class="step"><span class="n mono">Step 03</span><h3>書く</h3><p>残った論文から概念を抽出し、1 概念 1 記事で日本語にまとめます。記事どうしの参照は知識グラフとして保持します。取得は毎朝、公開はまとめて順次行います。</p></div></div>'
         '<div class="colophon reveal"><span class="mono">Note</span><p>記事は AI(大規模言語モデル)による自動生成で、人による査読を経ていません。各記事の末尾に出典を示しています。内容は必ず原典で確認してください。</p></div>'
         '</div></section>'
@@ -1224,12 +1453,94 @@ def build_home(catalog, config, out_dir, pairs, paper_count):
         "graph": hero_graph, "clusters": "".join(rows), "cards": cards, "latest": rows_html(latest, root, config),
         "legend": "".join('<a data-c="%s" href="clusters/%s/"><i class="dot"></i>%s</a>' % (c["key"], c["key"], esc(short_label(c))) for c in config["clusters"]),
         "latest_slug": latest[0]["slug"], "latest_title": esc(latest[0]["title"]),
+        "purpose": esc(TIER_PURPOSE), "tiers": home_tiers_html(catalog, root),
+        "inv_short": esc((TIER_INFO.get(1) or {}).get("short", "")),
     }
     json_ld = {"@context": "https://schema.org", "@type": "WebSite", "name": site["short_title"], "url": site["url"] + "/",
                "description": site["description"], "inLanguage": "ja"}
     extra = '<script type="application/ld+json">%s</script>' % json.dumps(json_ld, ensure_ascii=False)
     page = layout(config, root, site["title"], site["description"], body, site["url"] + "/", extra_head=extra)
     write(os.path.join(out_dir, "index.html"), page)
+
+
+def build_guide(catalog, config, out_dir):
+    site = config["site"]
+    root = "../"
+    counts = tier_counts(catalog)
+    notes = config.get("tier_notes") or {}
+    panels = []
+    note_head = {1: "拠り所とする、変わらない制約", 2: "AI で外れる制約の例", 3: "該当しやすい例"}
+    for t in (1, 2, 3):
+        info = TIER_INFO.get(t) or {}
+        picks = sorted([i for i in catalog if i["tier"] == t], key=lambda i: -i.get("degree", 0))[:3]
+        examples = "".join(
+            '<li><a href="%sconcepts/%s/" data-slug="%s"><span class="t">%s</span><span class="d">%s</span></a></li>' % (
+                root, i["slug"], i["slug"], esc(i["title"]), esc(i["description"])) for i in picks)
+        note_items = "".join("<li>%s</li>" % esc(x) for x in notes.get(t, []))
+        panels.append(
+            '<article class="tier-panel" id="tier-%d" data-t="%d"><div class="tp-side"><header><span class="mk" aria-hidden="true">%s</span>'
+            '<div><h3>%s</h3><p class="def">%s</p></div></header><p class="cnt mono"><b>%s</b> 本の記事</p>'
+            '<a class="go" href="%sconcepts/?t=%d">%s %s %s 本を読む <i class="arr">→</i></a></div>'
+            '<div class="tp-main"><dl><dt class="mono">判定の問い</dt><dd>%s</dd><dt class="mono">読み方</dt><dd>%s</dd></dl>'
+            '%s<h4 class="mono">この分類の代表的な記事</h4><ul class="guide-ex">%s</ul></div></article>' % (
+                t, t, tier_mark_html(t), esc(info.get("label", "")), esc(info.get("short", "")), num(counts.get(t, 0)),
+                root, t, tier_mark_html(t), esc(info.get("label", "")), num(counts.get(t, 0)),
+                esc(info.get("question", "")), esc(info.get("use", "")),
+                ('<h4 class="mono">%s</h4><ul class="notes">%s</ul>' % (note_head[t], note_items)) if note_items else "",
+                examples))
+    steps = (
+        ("領域を選ぶ", "ホームの「六つの領域」から、関心に近い問いの領域を選びます。", root + "#clusters", "領域を見る"),
+        ("不変原理を 2〜3 本読む", "領域ページの「読む順番」の ① から。時代が変わっても残る考え方をつかみます。", root + "concepts/?t=1", "不変原理の一覧"),
+        ("設計原理で実務に落とす", "記事の末尾「%s」から、参照でつながっている設計原理へ進みます。" % NEXT_LABEL["forward"], root + "concepts/?t=2", "設計原理の一覧"),
+        ("出典で裏づける", "記事は AI が書いたものです。気になる主張は、記事末尾の出典から原典の論文で確かめてください。参考の記事は、必要なときに辞書のように引きます。", root + "guide/#limits", "分類と記事の限界"),
+    )
+    steps_html = "".join(
+        '<li><span class="n mono">%s</span><h3>%s</h3><p>%s</p><a class="more" href="%s">%s <span class="arr">→</span></a></li>' % (
+            "①②③④"[n - 1], esc(h), esc(p_), esc(href), esc(label)) for n, (h, p_, href, label) in enumerate(steps, 1))
+    parts = (
+        ("記事の冒頭", "1 文の要約と「実務への含意」だけで、読むかどうかを判断できます。分類は、冒頭の領域名の横にあります。"),
+        ("近傍グラフ", "右上の図は、その概念とつながる記事の近さを示します。点に触れると名前、押すとその記事へ移ります。"),
+        ("目次", "長い記事では、左の目次が現在地を示します。小見出しも辿れます。"),
+        ("出典", "末尾の書誌から原典へ移れます。記事は AI が書いたものなので、内容は必ず原典で確かめてください。"),
+        ("次の一歩", "末尾に「%s」「%s」「%s(不変原理の記事では「%s」)」「%s」を並べています。参照の向きから機械的に作った道筋です。" % (
+            NEXT_LABEL["base"], NEXT_LABEL["apply"], NEXT_LABEL["forward"], NEXT_LABEL["back"], NEXT_LABEL["cross"])),
+        ("検索と既読", "どのページからでも ⌘K か「/」で検索できます。読んだ記事には「既読」が付きます。この情報はお使いのブラウザの中にだけ保存し、外部には送りません。"),
+    )
+    parts_html = "".join("<li><b>%s</b><span>%s</span></li>" % (esc(h), esc(t)) for h, t in parts)
+    total = sum(counts.values())
+    body = (
+        '<header class="page-head"><div class="shell">%(crumbs)s<div><h1>読み方ガイド</h1>'
+        '<p class="lede">%(purpose)s このページでは、仕分けの基準と、おすすめの読み進め方を説明します。</p></div>'
+        '<div class="big-no" aria-hidden="true" style="color:var(--ink)">3<small>TIERS · %(total)s CONCEPTS</small></div></div></header>'
+        '<div class="shell guide">'
+        '<section class="sec g-sec" id="purpose"><header class="sec-head"><span class="sec-no mono">01 — Purpose</span><h2>仕分けの目的</h2></header>'
+        '<div class="g-two"><div><h3>読む順番を決める</h3><p>%(total)s 本の記事を、前から順に読む必要はありません。'
+        '時代が変わっても残る不変原理から読み、実務に落とす段階で設計原理を読みます。参考は順番に入れず、必要なときに引きます。これが基本の順番です。</p></div>'
+        '<div><h3>記事化の優先度を決める</h3><p>新しい論文は、不変原理と設計原理に当たるものだけを記事にします。'
+        '参考に分類された論文は、新たには記事にしません。すでにある参考の記事は残しています。</p></div></div></section>'
+        '<section class="sec g-sec" id="tiers"><header class="sec-head"><span class="sec-no mono">02 — Tiers</span><h2>三つの分類</h2>'
+        '<p>三つの試験(抽象度・制約の不変性・メカニズム)で論文を判定し、すべて満たすものを不変原理としています。</p></header>'
+        '<div class="tier-panels">%(panels)s</div></section>'
+        '<section class="sec g-sec" id="order"><header class="sec-head"><span class="sec-no mono">03 — Order</span><h2>おすすめの読み進め方</h2></header>'
+        '<ol class="g-steps">%(steps)s</ol></section>'
+        '<section class="sec g-sec" id="anatomy"><header class="sec-head"><span class="sec-no mono">04 — Anatomy</span><h2>記事の使い方</h2></header>'
+        '<ul class="g-parts">%(parts)s</ul></section>'
+        '<section class="sec g-sec" id="limits"><header class="sec-head"><span class="sec-no mono">05 — Limits</span><h2>分類の限界</h2></header>'
+        '<ul class="g-limits">'
+        '<li>判定は論文ごとに AI(大規模言語モデル)が行っています。人による査読は入っていません。</li>'
+        '<li>ほとんどの記事の分類は、出典にした論文の判定のうち、最も不変な側を引き継いでいます。記事そのものを個別に判定した結果ではありません。</li>'
+        '<li>不変原理は %(t1)s 本で、全記事の約 %(pct)d%% を占めます。分類だけでは優先度の差が小さいため、各一覧の中は「他の記事から参照される数」の多い順に並べています。</li>'
+        '<li>記事末尾の「%(nb)s」「%(na)s」は、記事どうしの参照の向きから機械的に作っています。内容の上で先に読むべき前提かどうかは、保証していません。</li>'
+        '<li>基準は設定ファイルで定義しており、今後見直すことがあります。誤りや疑問は <a href="%(repo)s/issues" rel="noopener">GitHub の Issue</a> でお知らせください。</li>'
+        '</ul></section></div><div style="height:clamp(60px,9vw,130px)"></div>'
+    ) % {"crumbs": crumbs_html([(site["short_title"], root), ("読み方ガイド", None)]), "purpose": esc(TIER_PURPOSE),
+         "total": num(total), "panels": "".join(panels), "steps": steps_html, "parts": parts_html, "repo": esc(site["repo_url"]),
+         "t1": num(counts.get(1, 0)), "pct": int(round(100.0 * counts.get(1, 0) / max(1, total))),
+         "nb": NEXT_LABEL["base"], "na": NEXT_LABEL["apply"]}
+    page = layout(config, root, "読み方ガイド | %s" % site["short_title"],
+                  "%s 三つの分類(不変原理・設計原理・参考)の基準と、おすすめの読み進め方。" % TIER_PURPOSE, body,
+                  site["url"] + "/guide/", current="guide")
+    write(os.path.join(out_dir, "guide", "index.html"), page)
 
 
 def build_atlas(catalog, config, out_dir, pairs):
@@ -1239,18 +1550,23 @@ def build_atlas(catalog, config, out_dir, pairs):
         '<button type="button" data-c="%s" aria-pressed="true"><i class="dot"></i>%s <small>%s</small></button>' % (
             c["key"], esc(c["label"]), num(sum(1 for i in catalog if i["cluster"] == c["key"])))
         for c in config["clusters"])
+    counts = tier_counts(catalog)
+    tier_legend = '<span class="legend-sep mono">分類で絞る</span>' + "".join(
+        '<button type="button" data-t="%d" aria-pressed="true"><span class="mk">%s</span>%s <small>%s</small></button>' % (
+            t, tier_mark_html(t), esc(TIER_LABEL[t]), num(counts.get(t, 0))) for t in (1, 2, 3))
     body = (
         '<div class="atlas"><canvas aria-label="知識グラフ。点は概念、線は記事どうしの参照"></canvas>'
         '<div class="atlas-panel"><div class="kicker mono">Atlas</div><h1>概念の地図</h1>'
         '<p>%s の概念と、記事どうしの参照 %s 本。点を選ぶと概要が開きます。領域名を押すと表示を切り替えられます。</p>'
-        '<div class="legend" role="group" aria-label="領域の表示切り替え">%s</div>'
+        '<div class="legend" role="group" aria-label="表示の切り替え">%s</div>'
+        '<p class="atlas-shown mono" aria-live="polite"></p>'
         '<div class="atlas-help mono"><span class="for-mouse">ドラッグで移動 · ホイールで拡大</span><span class="for-touch">ドラッグで移動 · ピンチで拡大</span></div></div>'
         '<div class="atlas-zoom"><button type="button" data-zoom="in" aria-label="拡大">+</button>'
         '<button type="button" data-zoom="out" aria-label="縮小">−</button>'
         '<button type="button" data-zoom="fit" aria-label="全体を表示">◎</button></div>'
         '<div class="atlas-card" aria-live="polite"></div>'
         '<noscript><p style="padding:120px 24px">地図の表示には JavaScript が必要です。<a href="../concepts/">記事索引</a>をご覧ください。</p></noscript></div>'
-    ) % (num(len(catalog)), num(len(pairs)), legend)
+    ) % (num(len(catalog)), num(len(pairs)), legend + tier_legend)
     page = layout(config, root, "アトラス(知識グラフ) | %s" % site["short_title"],
                   "%s の概念と %s 本の参照関係を地図として探索できます。" % (num(len(catalog)), num(len(pairs))),
                   body, site["url"] + "/graph/", current="graph", footer=False)
@@ -1263,8 +1579,9 @@ def build_search_index(catalog, config, out_dir):
     keys = [c["key"] for c in config["clusters"]]
     items = sorted(catalog, key=lambda i: (i["published"], i["degree"]), reverse=True)
     payload = {
+        "tiers": {str(t): "%s %s" % (tier_mark(t), TIER_LABEL[t]) for t in (1, 2, 3)},
         "clusters": [[c["key"], short_label(c)] for c in config["clusters"]],
-        "items": [[i["slug"], i["title"], i["title_en"], truncate(i["description"], 140), keys.index(i["cluster"]), i["tier"]] for i in items],
+        "items": [[i["slug"], i["title"], i["title_en"], truncate(i["description"], 140), keys.index(i["cluster"]), i["tier"], i.get("degree", 0)] for i in items],
     }
     write(os.path.join(out_dir, "search.json"), json.dumps(payload, ensure_ascii=False, separators=(",", ":")))
 
@@ -1275,10 +1592,11 @@ def build_404(config, out_dir):
     body = (
         '<header class="page-head" style="border-bottom:0"><div class="shell"><div class="crumbs mono"><span>Error 404</span></div>'
         '<h1>この頁は、<br>まだ書かれていません。</h1><p class="lede">URL が変わったか、記事が統合された可能性があります。</p>'
-        '<div class="hero-cta"><a class="btn solid" href="%sconcepts/">記事索引へ <span class="arr">→</span></a>'
+        '<div class="hero-cta"><a class="btn solid" href="%sconcepts/?t=1">不変原理から読む <span class="arr">→</span></a>'
+        '<a class="btn ghost" href="%sconcepts/">記事索引へ</a>'
         '<button class="btn ghost" type="button" data-search>検索する</button></div></div></header>'
         '<div style="height:18vh"></div>'
-    ) % base_path
+    ) % (base_path, base_path)
     page = layout(config, base_path, "ページが見つかりません | %s" % site["short_title"], site["description"], body, site["url"] + "/404.html")
     write(os.path.join(out_dir, "404.html"), page)
 
@@ -1288,7 +1606,8 @@ def build_feeds(catalog, config, out_dir):
     base = site["url"]
     now = dt.datetime.now(dt.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
     # sitemap
-    urls = [("%s/" % base, "daily", "1.0"), ("%s/concepts/" % base, "daily", "0.6"), ("%s/graph/" % base, "weekly", "0.4")]
+    urls = [("%s/" % base, "daily", "1.0"), ("%s/concepts/" % base, "daily", "0.6"), ("%s/graph/" % base, "weekly", "0.4"),
+            ("%s/guide/" % base, "monthly", "0.7")]
     for cluster in config["clusters"]:
         urls.append(("%s/clusters/%s/" % (base, cluster["key"]), "daily", "0.7"))
     for domain in config["domain_labels"]:
@@ -1356,9 +1675,10 @@ def build(out_dir=None, site_url=None, quiet=False):
     index = {item["slug"]: i for i, item in enumerate(catalog)}
     for item in catalog:
         build_article(item, config, renderer, backlinks, by_slug, out_dir, catalog, pairs, _neighbors, index)
-    build_cluster_pages(catalog, config, out_dir)
+    build_cluster_pages(catalog, config, out_dir, pairs)
     build_domain_pages(catalog, config, out_dir)
     build_all_index(catalog, config, out_dir)
+    build_guide(catalog, config, out_dir)
     build_home(catalog, config, out_dir, pairs, paper_count)
     build_atlas(catalog, config, out_dir, pairs)
     build_search_index(catalog, config, out_dir)
