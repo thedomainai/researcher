@@ -881,21 +881,6 @@ def graph_payload(catalog, pairs, config, subset=None, with_desc=True):
     return {"clusters": [[c["key"], c["label"], short_label(c)] for c in config["clusters"]], "nodes": nodes, "edges": edges}
 
 
-def hero_subset(catalog, config, total=120, per_cluster=12):
-    order = sorted(range(len(catalog)), key=lambda i: -catalog[i]["degree"])
-    chosen = []
-    for cluster in config["clusters"]:
-        chosen.extend([i for i in order if catalog[i]["cluster"] == cluster["key"]][:per_cluster])
-    seen = set(chosen)
-    for i in order:
-        if len(chosen) >= total:
-            break
-        if i not in seen:
-            chosen.append(i)
-            seen.add(i)
-    return chosen
-
-
 def related_items(slug, backlinks, by_slug, limit=6):
     node = (backlinks or {}).get("nodes", {}).get(slug) or {}
     seen = OrderedDict()
@@ -1400,11 +1385,9 @@ def build_home(catalog, config, out_dir, pairs, paper_count):
             item["cluster"], item["slug"], n, esc(item["title"]), esc(item["description"]),
             esc(short_label(cluster_of(config, item["cluster"]))), item["degree"])
         for n, item in enumerate(tier1, 1))
-    hero_graph = json.dumps(graph_payload(catalog, pairs, config, hero_subset(catalog, config), with_desc=True),
-                            ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     body = (
         '<section class="hero"><div class="hero-main">'
-        '<div class="hero-canvas fade"><canvas aria-label="概念どうしのつながりを示す図。点を選ぶと記事を開けます"></canvas><div class="graph-tip"></div></div>'
+        '<div class="hero-canvas fade"><canvas aria-label="概念どうしのつながりを示す図。クリックするとアトラスを開きます"></canvas><div class="graph-tip"></div></div>'
         '<div class="shell hero-body"><div class="kicker mono fade">An atlas of invariant principles</div>'
         '<h1><span class="l"><span>AI が変えるもの。</span></span><span class="l"><span><em>変わらないもの。</em></span></span></h1>'
         '<p class="hero-lede fade">%(domains)d の学問分野、%(papers)s 本の論文から、知能が安くなった後にも残る構造を読み解く研究アトラス。'
@@ -1419,7 +1402,7 @@ def build_home(catalog, config, out_dir, pairs, paper_count):
         '<div class="stat"><b>%(papers)s</b><span class="mono">収録論文</span></div>'
         '<div class="stat"><b>%(domains)d</b><span class="mono">学問分野 · 6 領域に束ねる</span></div>'
         '<div class="stat"><b>%(edges)s</b><span class="mono">概念間の参照</span></div></div></div>'
-        '<script type="application/json" id="hero-graph">%(graph)s</script></section>'
+        '</section>'
 
         '<section class="sec" id="clusters"><div class="shell"><header class="sec-head reveal"><span class="sec-no mono">01 — Fields</span>'
         '<h2>六つの領域</h2><p>%(domains)d の分野を、問いの近さで六つに束ねています。</p></header>'
@@ -1450,7 +1433,7 @@ def build_home(catalog, config, out_dir, pairs, paper_count):
         '</div></section>'
     ) % {
         "domains": domain_count, "papers": num(paper_count), "count": num(len(catalog)), "edges": num(len(pairs)),
-        "graph": hero_graph, "clusters": "".join(rows), "cards": cards, "latest": rows_html(latest, root, config),
+        "clusters": "".join(rows), "cards": cards, "latest": rows_html(latest, root, config),
         "legend": "".join('<a data-c="%s" href="clusters/%s/"><i class="dot"></i>%s</a>' % (c["key"], c["key"], esc(short_label(c))) for c in config["clusters"]),
         "latest_slug": latest[0]["slug"], "latest_title": esc(latest[0]["title"]),
         "purpose": esc(TIER_PURPOSE), "tiers": home_tiers_html(catalog, root),

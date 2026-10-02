@@ -680,14 +680,37 @@
     canvas.addEventListener("click", function () { if (hov) location.href = ROOT + "concepts/" + hov.slug + "/"; });
     return g;
   }
-  var heroCanvas = $(".hero-canvas canvas"), heroData = $("#hero-graph");
-  if (heroCanvas && heroData) {
-    mountMini(heroCanvas, JSON.parse(heroData.textContent), {
-      ring: 190, cell: 54, r0: 3.2, rk: 1.25, gravity: 0.02, link: 70, spring: 0.012, warm: reduce ? 260 : 46, drift: 5, edgeAlpha: 0.13, refit: true,
-      dot: 0.5, a1: 0.6, a2: 0.36, pad: 44, padB: 64, aspect: 0.95, labelMax: 13, perCluster: true,
-      avoid: function () { var r = heroCanvas.getBoundingClientRect(); return window.innerWidth > 900 ? [[0, 0, r.width * 0.2, r.height], [0, r.height - 44, r.width, r.height]] : []; },
-      labels: function () { return window.innerWidth > 900 ? 7 : 4; }
-    });
+  /* ホーム: アトラスと同じ全件の図。読み込みは描画後に遅らせ、クリックでアトラスへ */
+  var heroCanvas = $(".hero-canvas canvas");
+  if (heroCanvas) {
+    var startHero = function () {
+      fetch(ROOT + "graph.json").then(function (r) { return r.json(); }).then(function (gd) {
+        var tip = $(".graph-tip", heroCanvas.parentNode), narrow = function () { return window.innerWidth < 900; };
+        var g = new Graph(heroCanvas, gd, {
+          ring: 560, cell: 30, r0: 1.9, rk: 0.78, gravity: 0.014, link: 70, spring: 0.0016, warm: reduce ? 320 : 160, drift: 1.6, edgeAlpha: 0.07,
+          dot: 0.62, a1: 0.62, a2: 0.34, pad: 44, padB: 64, padL: function () { return narrow() ? 44 : heroCanvas.getBoundingClientRect().width * 0.24; }, aspect: narrow() ? 0.8 : 1.1, labelMax: 12, labelHits: 0, perCluster: true,
+          regions: gd.clusters.map(function (c) { return c[2] || c[1]; }),
+          avoid: function () { var r = heroCanvas.getBoundingClientRect(); return narrow() ? [] : [[0, r.height - 44, r.width, r.height]]; },
+          labels: function () { return narrow() ? 0 : 5; }
+        });
+        var hov = null;
+        heroCanvas.style.cursor = "pointer";
+        heroCanvas.addEventListener("pointermove", function (e) {
+          var r = heroCanvas.getBoundingClientRect(), n = g.pick(e.clientX - r.left, e.clientY - r.top);
+          hov = n; g.setHover(n);
+          if (n && tip) {
+            var p = g.pos(n);
+            tip.innerHTML = "<small>" + esc(gd.clusters[n.c][1]) + "</small>" + esc(n.title) + "<em>クリックでアトラスへ →</em>";
+            tip.style.transform = p[1] < 120 ? "translate(-50%, 18px)" : "";
+            tip.style.left = Math.max(156, Math.min(r.width - 156, p[0])) + "px"; tip.style.top = p[1] + "px"; tip.classList.add("on");
+          } else if (tip) tip.classList.remove("on");
+        });
+        heroCanvas.addEventListener("pointerleave", function () { hov = null; g.setHover(null); if (tip) tip.classList.remove("on"); });
+        heroCanvas.addEventListener("click", function () { location.href = ROOT + "graph/" + (hov ? "#" + hov.slug : ""); });
+      }).catch(function () {});
+    };
+    var later = function () { (window.requestIdleCallback || function (f) { setTimeout(f, 200); })(startHero); };
+    if (doc.readyState === "complete") later(); else window.addEventListener("load", later);
   }
   var egoCanvas = $(".ego canvas"), egoData = $("#ego-graph");
   if (egoCanvas && egoData && egoCanvas.offsetParent) {
