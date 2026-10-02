@@ -2,8 +2,9 @@
 """領域クラスター別の X アカウントへ、公開サイトの記事を自動投稿する。
 
 選定: そのクラスターの未投稿記事から、新着(new_article_days 以内に公開)→ Tier 1 → Tier 2 の順。
-本文: claude -p(haiku、サブスクリプション課金)で 110 字以内の日本語の紹介文を作り、記事 URL を添える。
-      LLM が使えないときは「タイトル + 説明」の定型文で代替する。
+本文: 【概念名】+ claude -p(haiku、サブスクリプション課金)が書く 80 字以内の紹介文 + 出典の行 + ハッシュタグ + URL。
+      出典の行は索引の書誌から機械的に作る(LLM に書かせない)。作れない記事は投稿しない。
+      LLM が使えないときは記事の要約で代替する。
 記録: config/x_post_state.json(slug ごとの投稿日時・tweet id)。同じ記事は同じアカウントに二度投稿しない。
 鍵:   .env の X_CONSUMER_KEY / X_CONSUMER_SECRET と、アカウントごとの <PREFIX>_ACCESS_TOKEN / _ACCESS_SECRET。
       鍵の無いアカウントは静かにスキップする(日次パイプラインを止めない)。
@@ -35,14 +36,14 @@ STATE = BASE / "config" / "x_post_state.json"
 URL_LENGTH = 23  # X は URL を t.co で 23 字に数える
 TEXT_LIMIT = 280
 
-SYSTEM_PROMPT = """あなたは研究ナレッジベース「Researcher」の編集者です。学術論文をもとに生成された日本語記事を、X(旧 Twitter)で紹介する投稿文を書きます。
+SYSTEM_PROMPT = """あなたは研究ナレッジベース「Researcher」の編集者です。学術論文をもとに生成された日本語記事を、X(旧 Twitter)で紹介する本文を書きます。
 
 制約:
-- 日本語。全角 110 字以内(URL は後から別に付けるので含めない)
+- 日本語。全角 80 字以内。見出し・出典・ハッシュタグ・URL は別の処理で付けるので、本文には含めない
 - 記事の核心の洞察を 1 つ、具体的に書く。「〜について解説」のような空疎な要約は禁止
 - 煽り・誇張・断定の強すぎる表現は禁止。論文に基づく記述であることが伝わる落ち着いた文体
-- 絵文字は使わない。ハッシュタグは最大 2 つ、末尾にまとめる(例: #組織設計 #AI)
-- 出力は投稿文だけ。前置き・引用符・説明は不要"""
+- 概念名(見出し)をそのまま繰り返さない。絵文字は使わない
+- 出力は本文だけ。前置き・引用符・説明は不要"""
 
 
 def load_state():
@@ -63,37 +64,67 @@ def weighted_len(text):
     return total
 
 
-def fallback_text(item, cluster_label, hashtags):
-    body = "【%s】%s" % (item["title"], item["description"])
-    body = build_site.truncate(body, 100)
-    return "%s\n%s" % (body, " ".join(hashtags)) if hashtags else body
+def surname(authors):
+    first = re.split(r",|;", authors)[0].strip()
+    first = re.sub(r"\s*ほか$", "", first).strip()
+    return first.split()[-1] if first.split() else ""
 
 
-def generate_text(item, cluster_label, hashtags, use_llm=True):
+def source_line(item):
+    """出典の行。索引の書誌(著者・年)から機械的に作り、LLM には書かせない。作れなければ None。"""
+    _body, _tail, records = build_site.split_article(item["markdown"], item["slug"], drop_related=False)
+    metas = [build_site.source_meta(r) for r in records]
+    metas = [m for m in metas if m["authors"] and m["year"] and surname(m["authors"])]
+    if not metas:
+        return None
+    main = metas[0]
+    names = [a for a in re.split(r",|;", re.sub(r"\s*ほか$", "", main["authors"])) if a.strip()]
+    many = main["authors"].rstrip().endswith("ほか") or len(names) >= 3
+    if len(names) == 2 and not many:
+        who = "%s & %s" % (surname(names[0]), surname(names[1]))
+    elif many:
+        who = "%s ほか" % surname(names[0])
+    else:
+        who = surname(names[0])
+    line = "出典: %s (%s)" % (who, main["year"])
+    if len(metas) > 1:
+        line += "、計 %d 本" % len(metas)
+    return line
+
+
+def fallback_body(item):
+    return build_site.truncate(item["description"], 78)
+
+
+def generate_body(item, cluster_label, use_llm=True):
     if use_llm:
         prompt = (
-            "記事タイトル: %s\n領域: %s\n要約: %s\n使ってよいハッシュタグ: %s\n\n本文(冒頭):\n%s\n\n上の記事を紹介する投稿文を 1 つ書いてください。"
-            % (item["title"], cluster_label, item["description"], " ".join(hashtags) or "なし", item["markdown"][:2500])
+            "記事タイトル: %s\n領域: %s\n要約: %s\n\n本文(冒頭):\n%s\n\n上の記事を紹介する本文を 1 つ書いてください。"
+            % (item["title"], cluster_label, item["description"], item["markdown"][:2500])
         )
         try:
             text, _usage = call_claude(prompt, SYSTEM_PROMPT, model="haiku", timeout=180, retries=2)
             text = text.strip().strip('"「」')
-            if text and len(text) <= 150:
+            if text and len(text) <= 90 and "#" not in text and "http" not in text:
                 return text, "llm"
         except AuthError as exc:
             print("post_x: claude の認証切れ。定型文で代替します(%s)" % str(exc)[:80], file=sys.stderr)
         except Exception as exc:  # noqa: BLE001
             print("post_x: 投稿文の生成に失敗。定型文で代替します(%s)" % str(exc)[:120], file=sys.stderr)
-    return fallback_text(item, cluster_label, hashtags), "fallback"
+    return fallback_body(item), "fallback"
 
 
-def compose(text, url):
-    full = "%s\n%s" % (text, url)
-    # URL は 23 字換算なので、本文側だけで上限を見る
-    while weighted_len(text) + 1 + URL_LENGTH > TEXT_LIMIT and len(text) > 10:
-        text = text[:-1]
-        full = "%s…\n%s" % (text.rstrip(), url)
-    return full
+def compose(title, body, source, hashtags, url):
+    """【概念名】本文 / 出典 / ハッシュタグ / URL。上限を超えるときは本文だけを削る。"""
+    head = "【%s】" % title
+    tail = "\n".join(filter(None, [source, " ".join(hashtags)]))
+    fixed = weighted_len(head) + weighted_len(tail) + 2 + 1 + URL_LENGTH   # 改行 3 つぶんを含む
+    room = TEXT_LIMIT - fixed
+    if weighted_len(body) > room:
+        while body and weighted_len(body) + 2 > room:
+            body = body[:-1]
+        body = body.rstrip("、。 ") + "…"
+    return "%s%s\n%s\n%s" % (head, body, tail, url)
 
 
 def pick_candidates(catalog, cluster_key, posted, new_days, limit):
@@ -105,6 +136,8 @@ def pick_candidates(catalog, cluster_key, posted, new_days, limit):
         key = "%s:%s" % (cluster_key, item["slug"])
         if key in posted:
             continue
+        if source_line(item) is None:
+            continue   # 出典を示せない記事は投稿しない(プロフィールで「出典つき」と述べているため)
         try:
             published = dt.datetime.fromisoformat(item["published"])
             if published.tzinfo is None:
@@ -165,8 +198,8 @@ def main():
             continue
         for item in candidates:
             url = "%s/%s" % (base_url, item["path"])
-            text, source = generate_text(item, labels[cluster], hashtags, use_llm=not args.no_llm)
-            full = compose(text, url)
+            body, source = generate_body(item, labels[cluster], use_llm=not args.no_llm)
+            full = compose(item["title"], body, source_line(item), hashtags, url)
             if args.dry_run:
                 print("\n--- [%s] %s (%s)\n%s" % (cluster, item["slug"], source, full))
                 continue

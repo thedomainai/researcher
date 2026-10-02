@@ -1,53 +1,70 @@
-# 領域クラスター別の X アカウント。tools/post_x.py が読む。
+# 領域クラスター別の X アカウント。tools/post_x.py と tools/build_x_assets.py が読む。
 # 鍵は書かない。各アカウントの鍵は .env に <env_prefix>_ACCESS_TOKEN / <env_prefix>_ACCESS_SECRET として置く。
 # アプリ(Developer Portal)の鍵は X_CONSUMER_KEY / X_CONSUMER_SECRET(全アカウント共通)。
 # アクセストークンは tools/x_authorize.py --cluster <key> で取得する(ブラウザで各アカウントとしてログインして PIN を入力)。
+#
+# 名前の型は「〇〇｜論文解説」、ハンドルは「ronbun_〇〇」。命名の検討記録は docs/x-accounts.md。
 
 defaults:
   posts_per_day: 2          # 1 アカウントあたりの 1 日の投稿数
   new_article_days: 14      # この日数以内に公開した記事を「新着」として優先する
   hashtags_max: 2
+  bio_template: "{label}({scope})の論文をもとに、AI が概念を日本語で解説。毎日 2 本、出典つき。記事は AI が書いており、人による査読はありません。全 6 領域。"
+  # 固定ポスト。X の文字数(全角 2・半角 1)で 280 以内に収める。{others} は他 5 領域のハンドル。
+  pinned_template: "{label}の論文をもとに、AI が概念を日本語で解説します。出典つき。AI が書いた記事で人の査読はなく、誤りは読み方ガイドの末尾から。他の領域: {others} {url}"
 
 accounts:
   - cluster: cognition
-    display_name: "認知・心理・脳を論文から読む"
-    bio: "人間の思考はどこまで AI と溶け合えるか。認知・心理・脳の学術論文をもとに、AI が日本語の概念記事を書き、毎日紹介します。出典つき。AI 生成のため人による査読はありません。"
-    handle: "rsch_cognition"              # 例: ResearcherCog(@ は不要)。未設定でも鍵があれば投稿する
+    label: "認知科学"
+    scope: "心理学・脳科学を含む"
+    avatar_text: "認知"
+    display_name: "認知科学｜論文解説"
+    handle: "ronbun_cogsci"              # @ は不要。未設定でも鍵があれば投稿する
     env_prefix: X_COGNITION
     hashtags: ["#認知科学", "#AI"]
     enabled: true
   - cluster: economics
-    display_name: "行動経済・経済・金融を論文から読む"
-    bio: "インセンティブと市場は AI でどう変わるか。行動経済・経済・金融の学術論文をもとに、AI が日本語の概念記事を書き、毎日紹介します。出典つき。AI 生成のため人による査読はありません。"
-    handle: "rsch_economics"
+    label: "経済学"
+    scope: "行動経済学・金融を含む"
+    avatar_text: "経済"
+    display_name: "経済学｜論文解説"
+    handle: "ronbun_econ"
     env_prefix: X_ECONOMICS
     hashtags: ["#行動経済学", "#AI"]
     enabled: true
   - cluster: organization
-    display_name: "組織・経営・リーダーシップを論文から読む"
-    bio: "AI Native な組織はどう設計するか。組織・経営・リーダーシップの学術論文をもとに、AI が日本語の概念記事を書き、毎日紹介します。出典つき。AI 生成のため人による査読はありません。"
-    handle: "rsch_org"
+    label: "経営学"
+    scope: "組織論・リーダーシップを含む"
+    avatar_text: "経営"
+    display_name: "経営学｜論文解説"
+    handle: "ronbun_mgmt"
     env_prefix: X_ORGANIZATION
     hashtags: ["#組織論", "#AI経営"]
     enabled: true
   - cluster: society
-    display_name: "社会・制度・哲学・歴史を論文から読む"
-    bio: "制度と規範は技術変化にどう応答してきたか。社会・制度・哲学・歴史の学術論文をもとに、AI が日本語の概念記事を書き、毎日紹介します。出典つき。AI 生成のため人による査読はありません。"
-    handle: "rsch_society"
+    label: "社会と制度"
+    scope: "社会学・哲学・歴史を含む"
+    avatar_text: "社会"
+    display_name: "社会と制度｜論文解説"
+    handle: "ronbun_society"
     env_prefix: X_SOCIETY
     hashtags: ["#社会学", "#AI"]
     enabled: true
   - cluster: systems
-    display_name: "複雑系・システム・進化を論文から読む"
-    bio: "人と AI の系はどんな創発を起こすか。複雑系・システム・進化の学術論文をもとに、AI が日本語の概念記事を書き、毎日紹介します。出典つき。AI 生成のため人による査読はありません。"
-    handle: "rsch_systems"
+    label: "複雑系"
+    scope: "システム論・進化を含む"
+    avatar_text: "複雑"
+    display_name: "複雑系｜論文解説"
+    handle: "ronbun_complex"
     env_prefix: X_SYSTEMS
     hashtags: ["#複雑系", "#AI"]
     enabled: true
   - cluster: ai
-    display_name: "AI ガバナンスと協調を論文から読む"
-    bio: "人と AI の役割分担と統治をどう決めるか。AI ガバナンス・人間と AI の協調の学術論文をもとに、AI が日本語の概念記事を書き、毎日紹介します。出典つき。AI 生成のため人による査読はありません。"
-    handle: "rsch_ai_gov"
+    label: "人とAIの協働"
+    scope: "AI ガバナンスを含む"
+    avatar_text: "協働"
+    display_name: "人とAIの協働｜論文解説"
+    handle: "ronbun_humanai"
     env_prefix: X_AI
     hashtags: ["#AIガバナンス", "#AI"]
     enabled: true
