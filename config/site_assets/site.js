@@ -684,7 +684,7 @@
   if (heroCanvas && heroData) {
     mountMini(heroCanvas, JSON.parse(heroData.textContent), {
       ring: 190, cell: 54, r0: 3.2, rk: 1.25, gravity: 0.02, link: 70, spring: 0.012, warm: reduce ? 260 : 46, drift: 5, edgeAlpha: 0.13, refit: true,
-      pad: 44, padB: 64, aspect: 0.95, labelMax: 13, perCluster: true,
+      dot: 0.5, a1: 0.6, a2: 0.36, pad: 44, padB: 64, aspect: 0.95, labelMax: 13, perCluster: true,
       avoid: function () { var r = heroCanvas.getBoundingClientRect(); return window.innerWidth > 900 ? [[0, 0, r.width * 0.2, r.height], [0, r.height - 44, r.width, r.height]] : []; },
       labels: function () { return window.innerWidth > 900 ? 7 : 4; }
     });
