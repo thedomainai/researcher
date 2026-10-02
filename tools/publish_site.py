@@ -19,7 +19,7 @@ import sys
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent
-PATHS = ["raw", "wiki", "config/fetch_state.json", "config/reading_state.json", "config/x_post_state.json"]
+PATHS = ["raw", "wiki", "config/fetch_state.json", "config/reading_state.json", "config/x_post_state.json", "config/metrics.json"]
 
 
 def git(*args, check=True, capture=True):

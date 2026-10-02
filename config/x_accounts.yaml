@@ -10,32 +10,32 @@ defaults:
 
 accounts:
   - cluster: cognition
-    handle: ""              # 例: ResearcherCog(@ は不要)。未設定でも鍵があれば投稿する
+    handle: "rsch_cognition"              # 例: ResearcherCog(@ は不要)。未設定でも鍵があれば投稿する
     env_prefix: X_COGNITION
     hashtags: ["#認知科学", "#AI"]
     enabled: true
   - cluster: economics
-    handle: ""
+    handle: "rsch_economics"
     env_prefix: X_ECONOMICS
     hashtags: ["#行動経済学", "#AI"]
     enabled: true
   - cluster: organization
-    handle: ""
+    handle: "rsch_org"
     env_prefix: X_ORGANIZATION
     hashtags: ["#組織論", "#AI経営"]
     enabled: true
   - cluster: society
-    handle: ""
+    handle: "rsch_society"
     env_prefix: X_SOCIETY
     hashtags: ["#社会学", "#AI"]
     enabled: true
   - cluster: systems
-    handle: ""
+    handle: "rsch_systems"
     env_prefix: X_SYSTEMS
     hashtags: ["#複雑系", "#AI"]
     enabled: true
   - cluster: ai
-    handle: ""
+    handle: "rsch_ai_gov"
     env_prefix: X_AI
     hashtags: ["#AIガバナンス", "#AI"]
     enabled: true

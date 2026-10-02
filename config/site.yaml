@@ -100,3 +100,11 @@ tiers:
       short: "条件に依存する個別の知見"
       question: "特定の条件での現象の記述や、手法レベルの最適化にとどまるか"
       use: "必要なときに引く記事。新しい論文は、この分類では記事にしません。"
+
+# 計測の取得(tools/report_metrics.py)。ゴール: 公開から 12 か月で累計 100 万 PV。
+metrics:
+  launch_date: "2026-10-01"
+  goal_date: "2027-09-30"
+  goal_pv: 1000000
+  ga4_property: "properties/557074857"
+  search_console_site: "https://thedomainai.github.io/researcher/"

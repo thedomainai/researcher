@@ -206,6 +206,13 @@ def main():
     else:
         print("\n6/6 X への自動投稿: スキップ(--no-x)")
 
+    metrics_result = None
+    # 計測の取得は読み取りのみ。失敗しても他の工程の成否には影響させない(終了コードに含めない)
+    metrics_result = run_step("7/7 計測値の取得", [python, str(TOOLS / "report_metrics.py")], env)
+    if metrics_result is not None and metrics_result.returncode != 0:
+        print("計測値の取得に失敗しました(日次の成否には含めません)")
+        metrics_result = None
+
     results = [sync_result, fetch_result, tier_result, reading_result, compile_result, classify_result, summarize_result, publish_result, x_result]
     failures = [result for result in results if result is not None and result.returncode != 0]
     print("\n" + "=" * 60)
