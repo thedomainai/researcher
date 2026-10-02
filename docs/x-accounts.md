@@ -11,14 +11,14 @@
 
 ## アカウント一覧
 
-| 領域 | ハンドル(@) | 表示名 | 認証情報の名前 |
+| 領域 | ハンドル(@) | 表示名(日本語、50 字以内) | 認証情報の名前 |
 |---|---|---|---|
-| cognition | `rsch_cognition` | Researcher | 認知 | `X_COGNITION` |
-| economics | `rsch_economics` | Researcher | 経済 | `X_ECONOMICS` |
-| organization | `rsch_org` | Researcher | 組織 | `X_ORGANIZATION` |
-| society | `rsch_society` | Researcher | 社会 | `X_SOCIETY` |
-| systems | `rsch_systems` | Researcher | 複雑系 | `X_SYSTEMS` |
-| ai | `rsch_ai_gov` | Researcher | AI ガバナンス | `X_AI` |
+| cognition | `rsch_cognition` | 認知・心理・脳の研究アトラス | `X_COGNITION` |
+| economics | `rsch_economics` | 行動経済・経済・金融の研究アトラス | `X_ECONOMICS` |
+| organization | `rsch_org` | 組織・経営・リーダーシップの研究アトラス | `X_ORGANIZATION` |
+| society | `rsch_society` | 社会・制度・哲学・歴史の研究アトラス | `X_SOCIETY` |
+| systems | `rsch_systems` | 複雑系・システム・進化の研究アトラス | `X_SYSTEMS` |
+| ai | `rsch_ai_gov` | AI ガバナンスと協調の研究アトラス | `X_AI` |
 
 ### 空き状況の確認(2026-10-02)
 
