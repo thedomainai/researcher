@@ -20,7 +20,20 @@
 | systems | `rsch_systems` | Researcher | 複雑系 | `X_SYSTEMS` |
 | ai | `rsch_ai_gov` | Researcher | AI ガバナンス | `X_AI` |
 
-ハンドルは提案で、使えない場合は近い名前でよい。決まった名前を `config/x_accounts.yaml` の `handle` に反映する。15 文字以内、英数字と下線のみ。
+### 空き状況の確認(2026-10-02)
+
+X の公開エンドポイントで確認した。実在する `elonmusk` が「使用済み」、候補が「利用できます」と返ることを対照で確かめている。ハンドルの空きは作成までの間に変わりうるので、作成時に画面で最終確認する。
+
+| 領域 | 候補 | 結果 | 予備(確認済み・空き) |
+|---|---|---|---|
+| cognition | `rsch_cognition` | 空き | `rsch_mind` `rsch_cog` |
+| economics | `rsch_economics` | 空き | `rsch_econ` |
+| organization | `rsch_org` | 空き | `rsch_work` `rsch_org_ai` |
+| society | `rsch_society` | 空き | `rsch_social` |
+| systems | `rsch_systems` | 空き | `rsch_complex` |
+| ai | `rsch_ai_gov` | 空き | `rsch_aigov` |
+
+ハンドルは提案で、使えない場合は予備か近い名前でよい。決まった名前を `config/x_accounts.yaml` の `handle` に反映する。15 文字以内、英数字と下線のみ。
 
 ## プロフィール文(160 字以内)
 
