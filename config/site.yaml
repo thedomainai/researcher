@@ -24,7 +24,7 @@ search:
 
 analytics:
   # Google Analytics 4 の測定 ID(例: G-XXXXXXXXXX)。空なら計測タグを出さない。
-  ga4_measurement_id: ""
+  ga4_measurement_id: "G-FY8R8T088M"
   # Cloudflare Web Analytics のビーコントークン。空なら出さない。
   cloudflare_beacon_token: ""
 
