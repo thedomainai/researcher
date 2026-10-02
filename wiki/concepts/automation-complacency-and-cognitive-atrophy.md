@@ -57,3 +57,8 @@ Mandalapuら（2026）は、カレンダーや電卓といった従来の補助�
   **ファイルパス**: `raw/papers/organization_science/ai-sabbatical-a-conceptual-framework-for-cognitive-sustainability-in-ai-augmente.md`
 * **タイトル**: The Great Sorting, 2026–2040 Self-Domestication, AI, and the IQ Barbell (2026)
   **ファイルパス**: `raw/papers/organization_science/the-great-sorting-20262040-self-domestication-ai-and-the-iq-barbell.md`
+
+## 追加ソース（2026-10-03）
+
+* **タイトル**: The Psychological Mechanisms and Social Implications of Over-Trust in AI Chat-Based on GPT-4 Persuasion Experiments (2026)
+  **ファイルパス**: `raw/papers/psychology/the-psychological-mechanisms-and-social-implications-of-over-trust-in-ai-chat-ba.md`
