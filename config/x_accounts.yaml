@@ -10,37 +10,43 @@ defaults:
 
 accounts:
   - cluster: cognition
-    display_name: "認知・心理・脳の研究アトラス"
+    display_name: "認知・心理・脳を論文から読む"
+    bio: "人間の思考はどこまで AI と溶け合えるか。認知・心理・脳の学術論文をもとに、AI が日本語の概念記事を書き、毎日紹介します。出典つき。AI 生成のため人による査読はありません。"
     handle: "rsch_cognition"              # 例: ResearcherCog(@ は不要)。未設定でも鍵があれば投稿する
     env_prefix: X_COGNITION
     hashtags: ["#認知科学", "#AI"]
     enabled: true
   - cluster: economics
-    display_name: "行動経済・経済・金融の研究アトラス"
+    display_name: "行動経済・経済・金融を論文から読む"
+    bio: "インセンティブと市場は AI でどう変わるか。行動経済・経済・金融の学術論文をもとに、AI が日本語の概念記事を書き、毎日紹介します。出典つき。AI 生成のため人による査読はありません。"
     handle: "rsch_economics"
     env_prefix: X_ECONOMICS
     hashtags: ["#行動経済学", "#AI"]
     enabled: true
   - cluster: organization
-    display_name: "組織・経営・リーダーシップの研究アトラス"
+    display_name: "組織・経営・リーダーシップを論文から読む"
+    bio: "AI Native な組織はどう設計するか。組織・経営・リーダーシップの学術論文をもとに、AI が日本語の概念記事を書き、毎日紹介します。出典つき。AI 生成のため人による査読はありません。"
     handle: "rsch_org"
     env_prefix: X_ORGANIZATION
     hashtags: ["#組織論", "#AI経営"]
     enabled: true
   - cluster: society
-    display_name: "社会・制度・哲学・歴史の研究アトラス"
+    display_name: "社会・制度・哲学・歴史を論文から読む"
+    bio: "制度と規範は技術変化にどう応答してきたか。社会・制度・哲学・歴史の学術論文をもとに、AI が日本語の概念記事を書き、毎日紹介します。出典つき。AI 生成のため人による査読はありません。"
     handle: "rsch_society"
     env_prefix: X_SOCIETY
     hashtags: ["#社会学", "#AI"]
     enabled: true
   - cluster: systems
-    display_name: "複雑系・システム・進化の研究アトラス"
+    display_name: "複雑系・システム・進化を論文から読む"
+    bio: "人と AI の系はどんな創発を起こすか。複雑系・システム・進化の学術論文をもとに、AI が日本語の概念記事を書き、毎日紹介します。出典つき。AI 生成のため人による査読はありません。"
     handle: "rsch_systems"
     env_prefix: X_SYSTEMS
     hashtags: ["#複雑系", "#AI"]
     enabled: true
   - cluster: ai
-    display_name: "AI ガバナンスと協調の研究アトラス"
+    display_name: "AI ガバナンスと協調を論文から読む"
+    bio: "人と AI の役割分担と統治をどう決めるか。AI ガバナンス・人間と AI の協調の学術論文をもとに、AI が日本語の概念記事を書き、毎日紹介します。出典つき。AI 生成のため人による査読はありません。"
     handle: "rsch_ai_gov"
     env_prefix: X_AI
     hashtags: ["#AIガバナンス", "#AI"]
