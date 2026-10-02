@@ -592,8 +592,8 @@
       for (i = 0; i < N.length; i++) {
         n = N[i]; if (off(n)) continue;
         var x = sx(n, t), y = sy(n, t); if (x < -30 || y < -30 || x > W + 30 || y > H + 30) continue;
-        var r = n.r * zs * (n === focus ? 1.45 : 1);
-        ctx.globalAlpha = focus ? (near[n.i] ? 1 : 0.14) : (n.tier === 1 ? 0.95 : 0.62);
+        var r = n.r * zs * (opt.dot || 1) * (n === focus ? 1.45 : 1);
+        ctx.globalAlpha = focus ? (near[n.i] ? 0.95 : 0.1) : (n.tier === 1 ? (opt.a1 || 0.95) : (opt.a2 || 0.62));
         ctx.fillStyle = colors[n.c]; ctx.beginPath(); ctx.arc(x, y, r, 0, 6.283); ctx.fill();
         if (filtering) { ctx.strokeStyle = colors.ink; ctx.lineWidth = 1; ctx.globalAlpha = Math.min(1, ctx.globalAlpha + 0.1); ctx.stroke(); }
         if (n === selected || (opt.pin === n.i && !focus)) { ctx.globalAlpha = 1; ctx.strokeStyle = colors.ink; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.arc(x, y, r + 4.5, 0, 6.283); ctx.stroke(); }
@@ -707,7 +707,7 @@
       var small = function () { return window.innerWidth < 720; };
       var g = new Graph(ac, gd, {
         ring: 560, cell: 30, r0: 1.9, rk: 0.78, gravity: 0.014, link: 70, spring: 0.0016, warm: 320, drift: 1.6, edgeAlpha: 0.07,
-        pad: small() ? 30 : 84, aspect: small() ? 0.6 : 1.3, labelMax: 12, labelHits: 0, perCluster: true, regions: gd.clusters.map(function (c) { return c[2] || c[1]; }), regionsOnTop: small(),
+        dot: 0.62, a1: 0.62, a2: 0.34, pad: small() ? 30 : 84, aspect: small() ? 0.6 : 1.3, labelMax: 12, labelHits: 0, perCluster: true, regions: gd.clusters.map(function (c) { return c[2] || c[1]; }), regionsOnTop: small(),
         padL: function () { return small() ? 18 : panel.getBoundingClientRect().right - ac.getBoundingClientRect().left + 30; },
         padT: function () { return small() ? panel.getBoundingClientRect().bottom - ac.getBoundingClientRect().top + 36 : 70; },
         padB: small() ? 100 : 70,
@@ -720,7 +720,7 @@
         min = !!min && wide.matches;
         panel.classList.toggle("min", min);
         fold.setAttribute("aria-expanded", min ? "false" : "true");
-        var lbl = min ? "パネルを開く" : "パネルを閉じる"; fold.setAttribute("aria-label", lbl); fold.title = lbl;
+        var lbl = min ? "凡例を開く" : "凡例を閉じる"; fold.setAttribute("aria-label", lbl); fold.title = lbl;
         if (save) { try { localStorage.setItem(foldKey, min ? "1" : "0"); } catch (e) {} }
       }
       var storedMin = false; try { storedMin = localStorage.getItem(foldKey) === "1"; } catch (e) {}
@@ -775,14 +775,10 @@
       $$(".legend button[data-c]", atlas).forEach(function (b, i) {
         b.addEventListener("click", function () { var on = b.getAttribute("aria-pressed") !== "true"; b.setAttribute("aria-pressed", on ? "true" : "false"); g.toggle(i, on); });
       });
-      var shownEl = $(".atlas-shown", atlas), totalN = g.nodes.length, tOn = { 1: true, 2: true, 3: true };
-      var tCount = { 1: 0, 2: 0, 3: 0 }; g.nodes.forEach(function (n) { tCount[n.tier] = (tCount[n.tier] || 0) + 1; });
       $$(".legend button[data-t]", atlas).forEach(function (b) {
         b.addEventListener("click", function () {
-          var on = b.getAttribute("aria-pressed") !== "true", t = +b.getAttribute("data-t");
-          b.setAttribute("aria-pressed", on ? "true" : "false"); g.toggleTier(t, on); tOn[t] = on;
-          var n = 0; for (var k in tOn) if (tOn[k]) n += tCount[k] || 0;
-          if (shownEl) shownEl.textContent = n === totalN ? "" : n.toLocaleString() + " / " + totalN.toLocaleString() + " 概念を表示";
+          var on = b.getAttribute("aria-pressed") !== "true";
+          b.setAttribute("aria-pressed", on ? "true" : "false"); g.toggleTier(+b.getAttribute("data-t"), on);
         });
       });
       var h = decodeURIComponent(location.hash.slice(1));

@@ -1547,29 +1547,24 @@ def build_atlas(catalog, config, out_dir, pairs):
     site = config["site"]
     root = "../"
     legend = "".join(
-        '<button type="button" data-c="%s" aria-pressed="true"><i class="dot"></i>%s <small>%s</small></button>' % (
-            c["key"], esc(c["label"]), num(sum(1 for i in catalog if i["cluster"] == c["key"])))
+        '<button type="button" data-c="%s" aria-pressed="true"><i class="dot"></i>%s</button>' % (c["key"], esc(c["label"]))
         for c in config["clusters"])
     counts = tier_counts(catalog)
     tier_legend = '<span class="legend-sep mono">分類で絞る</span>' + "".join(
-        '<button type="button" data-t="%d" aria-pressed="true"><span class="mk">%s</span>%s <small>%s</small></button>' % (
-            t, tier_mark_html(t), esc(TIER_LABEL[t]), num(counts.get(t, 0))) for t in (1, 2, 3))
+        '<button type="button" data-t="%d" aria-pressed="true"><span class="mk">%s</span>%s</button>' % (
+            t, tier_mark_html(t), esc(TIER_LABEL[t])) for t in (1, 2, 3))
     body = (
         '<div class="atlas"><canvas aria-label="知識グラフ。点は概念、線は記事どうしの参照"></canvas>'
-        '<div class="atlas-panel"><button type="button" class="atlas-fold" aria-expanded="true" aria-label="パネルを閉じる" title="パネルを閉じる">'
-        '<span class="ic-close" aria-hidden="true">−</span>'
-        '<svg class="ic-open" aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M3 5h12M3 9h12M3 13h8"/></svg></button>'
-        '<div class="kicker mono">Atlas</div><h1>概念の地図</h1>'
-        '<p>%s の概念と、記事どうしの参照 %s 本。点を選ぶと概要が開きます。領域名を押すと表示を切り替えられます。</p>'
-        '<div class="legend" role="group" aria-label="表示の切り替え">%s</div>'
-        '<p class="atlas-shown mono" aria-live="polite"></p>'
-        '<div class="atlas-help mono"><span class="for-mouse">ドラッグで移動 · ホイールで拡大</span><span class="for-touch">ドラッグで移動 · ピンチで拡大</span></div></div>'
+        '<div class="atlas-panel"><h1 class="sr-only">概念の地図</h1>'
+        '<button type="button" class="atlas-fold" aria-expanded="true" aria-label="凡例を閉じる" title="凡例を閉じる">'
+        '<svg aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M3 5h12M3 9h12M3 13h8"/></svg></button>'
+        '<div class="legend" role="group" aria-label="表示の切り替え">%s</div></div>'
         '<div class="atlas-zoom"><button type="button" data-zoom="in" aria-label="拡大">+</button>'
         '<button type="button" data-zoom="out" aria-label="縮小">−</button>'
         '<button type="button" data-zoom="fit" aria-label="全体を表示">◎</button></div>'
         '<div class="atlas-card" aria-live="polite"></div>'
         '<noscript><p style="padding:120px 24px">地図の表示には JavaScript が必要です。<a href="../concepts/">記事索引</a>をご覧ください。</p></noscript></div>'
-    ) % (num(len(catalog)), num(len(pairs)), legend + tier_legend)
+    ) % (legend + tier_legend)
     page = layout(config, root, "アトラス(知識グラフ) | %s" % site["short_title"],
                   "%s の概念と %s 本の参照関係を地図として探索できます。" % (num(len(catalog)), num(len(pairs))),
                   body, site["url"] + "/graph/", current="graph", footer=False)
