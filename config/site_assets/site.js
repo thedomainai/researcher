@@ -447,15 +447,29 @@
       return k ? [sxm / k, sym / k] : a;
     });
     function resize() {
-      var r = canvas.getBoundingClientRect(); dpr = Math.min(2, window.devicePixelRatio || 1);
-      W = r.width; H = r.height; canvas.width = W * dpr; canvas.height = H * dpr;
-      if (!self.userMoved) fit();
+      var r = canvas.getBoundingClientRect(), nd = Math.min(2, window.devicePixelRatio || 1);
+      if (r.width < 2 || r.height < 2) return;
+      if (r.width === W && r.height === H && nd === dpr) return;
+      var ow = W, oh = H, os = view.s, ofit = fitS;
+      dpr = nd; W = r.width; H = r.height; canvas.width = Math.round(W * dpr); canvas.height = Math.round(H * dpr);
+      if (!self.userMoved || !ow) { fit(); return; }
+      /* 操作後は、画面中央に見えていた点と相対倍率を保つ */
+      var wx = (ow / 2 - view.x) / os, wy = (oh / 2 - view.y) / os;
+      fit(); view.s = Math.max(fitS * 0.6, Math.min(fitS * 14, fitS * (os / ofit)));
+      view.x = W / 2 - wx * view.s; view.y = H / 2 - wy * view.s;
     }
     function fit() {
-      var x0 = 1e9, x1 = -1e9, y0 = 1e9, y1 = -1e9;
-      N.forEach(function (n) { if (n.x < x0) x0 = n.x; if (n.x > x1) x1 = n.x; if (n.y < y0) y0 = n.y; if (n.y > y1) y1 = n.y; });
+      var xs = N.map(function (n) { return n.x; }).sort(function (a, b) { return a - b; }), ys = N.map(function (n) { return n.y; }).sort(function (a, b) { return a - b; });
+      /* 孤立した外れ値が全体を縮めないよう、両端 1% は外接矩形から除く(小さな図は全点) */
+      var cut = N.length > 200 ? Math.floor(N.length * 0.01) : 0;
+      var x0 = xs[cut], x1 = xs[xs.length - 1 - cut], y0 = ys[cut], y1 = ys[ys.length - 1 - cut];
       var pad = opt.pad || 60, pl = opt.padL != null ? opt.padL() : pad, pt = opt.padT != null ? opt.padT() : pad, pb = opt.padB != null ? opt.padB : pad;
       var s = Math.min((W - pl - pad) / Math.max(1, x1 - x0), (H - pt - pb) / Math.max(1, y1 - y0));
+      /* 広い画面: 図が高さで決まり、パネルと重ならないなら、画面全体の中央に置く */
+      if (pl > pad) {
+        var sf = Math.min((W - pad * 2) / Math.max(1, x1 - x0), (H - pt - pb) / Math.max(1, y1 - y0));
+        if ((W - (x1 - x0) * sf) / 2 >= pl) { s = sf; pl = pad; }
+      }
       view.s = Math.max(0.05, Math.min(opt.maxFit || 9, s)); fitS = view.s;
       view.x = pl + (W - pl - pad) / 2 - ((x0 + x1) / 2) * view.s; view.y = pt + (H - pt - pb) / 2 - ((y0 + y1) / 2) * view.s;
     }
@@ -586,7 +600,7 @@
       }
       if (opt.regions && !focus && opt.regionsOnTop) drawRegions();
       var key = [view.s.toFixed(3), view.x | 0, view.y | 0, focus ? focus.i : -1, W | 0, H | 0, Object.keys(hidden).filter(function (k) { return hidden[k]; }).join(","), Object.keys(hiddenT).filter(function (k) { return hiddenT[k]; }).join(",")].join("|");
-      if (!labelCache || key !== labelKey || frame % 90 === 0 || alpha > 0.05) { labelCache = layoutLabels(t, focus); labelKey = key; }
+      if (!labelCache || key !== labelKey || alpha > 0.05) { labelCache = layoutLabels(t, focus); labelKey = key; }
       ctx.textBaseline = "middle"; ctx.lineJoin = "round";
       for (i = 0; i < labelCache.length; i++) {
         var L = labelCache[i]; n = L.n;
@@ -637,7 +651,9 @@
       view.s = Math.max(fitS * 0.4, Math.min(fitS * 3.2, Math.min(bw / Math.max(60, x1 - x0), bh / Math.max(60, y1 - y0))));
       view.x = box[0] + bw / 2 - ((x0 + x1) / 2) * view.s; view.y = box[1] + bh / 2 - ((y0 + y1) / 2) * view.s; self.userMoved = true; kick();
     };
-    window.addEventListener("resize", function () { resize(); kick(); });
+    var onSize = function () { resize(); kick(); };
+    window.addEventListener("resize", onSize);
+    if ("ResizeObserver" in window) { var ro = new ResizeObserver(onSize); ro.observe(canvas); if (opt.watch) opt.watch.forEach(function (el) { ro.observe(el); }); }
     window.addEventListener("themechange", function () { colors = clusterColors(keys); kick(); });
     doc.addEventListener("visibilitychange", function () { visible = !doc.hidden; if (visible) kick(); });
     if ("IntersectionObserver" in window) new IntersectionObserver(function (es) { visible = es[0].isIntersecting && !doc.hidden; if (visible) kick(); }).observe(canvas);
@@ -695,6 +711,7 @@
         padL: function () { return small() ? 18 : panel.getBoundingClientRect().right - ac.getBoundingClientRect().left + 30; },
         padT: function () { return small() ? panel.getBoundingClientRect().bottom - ac.getBoundingClientRect().top + 36 : 70; },
         padB: small() ? 100 : 70,
+        watch: [panel],
         avoid: function () { var a = [rectOf(panel, 10), rectOf(zoomBox, 10)]; if (card.classList.contains("on")) a.push(rectOf(card, 10)); return a; },
         labels: function (rel) { return small() && rel < 1.35 ? 0 : Math.round(Math.min(70, (small() ? 4 : 12) + (rel - 1) * 26)); }
       });

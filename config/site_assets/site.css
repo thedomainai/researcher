@@ -483,7 +483,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .atlas { position: relative; height: calc(100svh - var(--head-h)); overflow: hidden; }
 .atlas canvas { width: 100%; height: 100%; cursor: grab; touch-action: none; }
 .atlas canvas.drag { cursor: grabbing; }
-.atlas-panel { position: absolute; left: var(--edge); top: 24px; z-index: 3; width: 300px; padding: 20px 22px 16px; background: color-mix(in srgb, var(--paper) 93%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid var(--rule); border-radius: 6px; }
+.atlas-panel { position: absolute; left: var(--gutter); top: 24px; z-index: 3; width: 300px; padding: 20px 22px 16px; background: color-mix(in srgb, var(--paper) 93%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid var(--rule); border-radius: 6px; }
 .atlas-panel h1 { font-family: var(--font-display); font-weight: 700; font-size: 1.9rem; line-height: 1.2; margin: 10px 0 10px; }
 .atlas-panel p { margin: 0 0 14px; font-size: 13px; line-height: 1.8; color: var(--ink-2); }
 .legend { display: flex; flex-direction: column; gap: 0; align-items: stretch; margin: 0 -8px; }
@@ -492,7 +492,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .legend button[aria-pressed="false"] { opacity: 0.35; }
 .legend small { margin-left: auto; font-family: var(--font-mono); font-size: 11.5px; color: var(--ink-2); }
 .atlas-help { margin: 12px 0 0; padding-top: 12px; border-top: 1px solid var(--rule); color: var(--ink-3); }
-.atlas-card { position: absolute; right: var(--edge); bottom: 24px; z-index: 3; width: min(360px, calc(100% - var(--gutter) * 2)); background: var(--ink); color: var(--paper); padding: 22px 24px 24px; border-radius: 6px; transform: translateY(16px); opacity: 0; pointer-events: none; transition: opacity 0.25s, transform 0.35s var(--ease); }
+.atlas-card { position: absolute; right: var(--gutter); bottom: 24px; z-index: 3; width: min(360px, calc(100% - var(--gutter) * 2)); background: var(--ink); color: var(--paper); padding: 22px 24px 24px; border-radius: 6px; transform: translateY(16px); opacity: 0; pointer-events: none; transition: opacity 0.25s, transform 0.35s var(--ease); }
 .atlas-card.on { opacity: 1; transform: none; pointer-events: auto; }
 .atlas-card .mono { display: flex; align-items: center; gap: 8px; opacity: 0.75; }
 .atlas-card h2 { font-family: var(--font-display); font-size: 1.3rem; line-height: 1.5; margin: 10px 0 8px; }
@@ -506,7 +506,7 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .atlas-help { white-space: nowrap; }
 .for-touch { display: none; }
 @media (hover: none), (max-width: 720px) { .for-touch { display: inline; } .for-mouse { display: none; } }
-.atlas-zoom { position: absolute; right: var(--edge); top: 24px; z-index: 3; display: flex; flex-direction: column; gap: 6px; }
+.atlas-zoom { position: absolute; right: var(--gutter); top: 24px; z-index: 3; display: flex; flex-direction: column; gap: 6px; }
 .atlas-zoom button { width: 44px; height: 44px; border: 1px solid var(--rule); border-radius: 50%; background: color-mix(in srgb, var(--paper) 90%, transparent); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); font-family: var(--font-mono); font-size: 16px; }
 .atlas-zoom button:hover { border-color: var(--ink); }
 @media (max-width: 720px) {
