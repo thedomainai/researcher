@@ -715,6 +715,18 @@
         avoid: function () { var a = [rectOf(panel, 10), rectOf(zoomBox, 10)]; if (card.classList.contains("on")) a.push(rectOf(card, 10)); return a; },
         labels: function (rel) { return small() && rel < 1.35 ? 0 : Math.round(Math.min(70, (small() ? 4 : 12) + (rel - 1) * 26)); }
       });
+      var fold = $(".atlas-fold", panel), foldKey = "atlas-panel-min", wide = window.matchMedia("(min-width: 721px)");
+      function setFold(min, save) {
+        min = !!min && wide.matches;
+        panel.classList.toggle("min", min);
+        fold.setAttribute("aria-expanded", min ? "false" : "true");
+        var lbl = min ? "パネルを開く" : "パネルを閉じる"; fold.setAttribute("aria-label", lbl); fold.title = lbl;
+        if (save) { try { localStorage.setItem(foldKey, min ? "1" : "0"); } catch (e) {} }
+      }
+      var storedMin = false; try { storedMin = localStorage.getItem(foldKey) === "1"; } catch (e) {}
+      setFold(storedMin, false);
+      fold.addEventListener("click", function () { setFold(!panel.classList.contains("min"), true); });
+      wide.addEventListener("change", function () { var m = false; try { m = localStorage.getItem(foldKey) === "1"; } catch (e) {} setFold(m, false); });
       var bySlug = {}; g.nodes.forEach(function (n) { bySlug[n.slug] = n; });
       function show(n) {
         g.select(n);

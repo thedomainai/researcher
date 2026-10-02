@@ -1556,7 +1556,10 @@ def build_atlas(catalog, config, out_dir, pairs):
             t, tier_mark_html(t), esc(TIER_LABEL[t]), num(counts.get(t, 0))) for t in (1, 2, 3))
     body = (
         '<div class="atlas"><canvas aria-label="知識グラフ。点は概念、線は記事どうしの参照"></canvas>'
-        '<div class="atlas-panel"><div class="kicker mono">Atlas</div><h1>概念の地図</h1>'
+        '<div class="atlas-panel"><button type="button" class="atlas-fold" aria-expanded="true" aria-label="パネルを閉じる" title="パネルを閉じる">'
+        '<span class="ic-close" aria-hidden="true">−</span>'
+        '<svg class="ic-open" aria-hidden="true" width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M3 5h12M3 9h12M3 13h8"/></svg></button>'
+        '<div class="kicker mono">Atlas</div><h1>概念の地図</h1>'
         '<p>%s の概念と、記事どうしの参照 %s 本。点を選ぶと概要が開きます。領域名を押すと表示を切り替えられます。</p>'
         '<div class="legend" role="group" aria-label="表示の切り替え">%s</div>'
         '<p class="atlas-shown mono" aria-live="polite"></p>'
@@ -1662,6 +1665,8 @@ def build(out_dir=None, site_url=None, quiet=False):
     os.makedirs(os.path.join(out_dir, "assets"), exist_ok=True)
     if os.path.isdir(assets_src):
         for name in sorted(os.listdir(assets_src)):
+            if not os.path.isfile(os.path.join(assets_src, name)):
+                continue  # x/ など、サイトに載せない作業用ディレクトリ
             shutil.copyfile(os.path.join(assets_src, name), os.path.join(out_dir, "assets", name))
     indexnow_key = (config.get("search") or {}).get("indexnow_key") or ""
     if indexnow_key:
