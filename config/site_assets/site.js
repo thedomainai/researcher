@@ -687,7 +687,7 @@
       fetch(ROOT + "graph.json").then(function (r) { return r.json(); }).then(function (gd) {
         var tip = $(".graph-tip", heroCanvas.parentNode), narrow = function () { return window.innerWidth < 900; };
         var g = new Graph(heroCanvas, gd, {
-          ring: 560, cell: 30, r0: 1.9, rk: 0.78, gravity: 0.014, link: 70, spring: 0.0016, warm: reduce ? 320 : 160, drift: 1.6, edgeAlpha: 0.07,
+          ring: 560, cell: 30, r0: 1.9, rk: 0.78, gravity: 0.014, link: 70, spring: 0.0016, warm: reduce ? 320 : 160, drift: 1.6, edgeAlpha: 0.045,
           dot: 0.62, a1: 0.62, a2: 0.34, pad: 44, padB: 64, padL: function () { return narrow() ? 44 : heroCanvas.getBoundingClientRect().width * 0.24; }, aspect: narrow() ? 0.8 : 1.1, labelMax: 12, labelHits: 0, perCluster: true,
           regions: gd.clusters.map(function (c) { return c[2] || c[1]; }),
           avoid: function () { var r = heroCanvas.getBoundingClientRect(); return narrow() ? [] : [[0, r.height - 44, r.width, r.height]]; },
@@ -729,7 +729,7 @@
     fetch(ROOT + "graph.json").then(function (r) { return r.json(); }).then(function (gd) {
       var small = function () { return window.innerWidth < 720; };
       var g = new Graph(ac, gd, {
-        ring: 560, cell: 30, r0: 1.9, rk: 0.78, gravity: 0.014, link: 70, spring: 0.0016, warm: 320, drift: 1.6, edgeAlpha: 0.07,
+        ring: 560, cell: 30, r0: 1.9, rk: 0.78, gravity: 0.014, link: 70, spring: 0.0016, warm: 320, drift: 1.6, edgeAlpha: 0.045,
         dot: 0.62, a1: 0.62, a2: 0.34, pad: small() ? 30 : 84, aspect: small() ? 0.6 : 1.3, labelMax: 12, labelHits: 0, perCluster: true, regions: gd.clusters.map(function (c) { return c[2] || c[1]; }), regionsOnTop: small(),
         padL: function () { return small() ? 18 : panel.getBoundingClientRect().right - ac.getBoundingClientRect().left + 30; },
         padT: function () { return small() ? panel.getBoundingClientRect().bottom - ac.getBoundingClientRect().top + 36 : 70; },
