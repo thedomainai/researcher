@@ -89,3 +89,8 @@
    - File: raw/papers/human_resource_management/artificial-intelligence-as-a-co-worker-transforming-employment-skills-productivi.md
 6. Jin, Y., Martinez-Maldonado, R., Gašević, D., Han, X., Yan, L. (2026). *Emergent Learner Agency in Implicit Human–AI Collaboration: How Supportive and Contrarian AI Personas Reshape Interaction*
    - File: raw/papers/human_resource_management/emergent-learner-agency-in-implicit-human-ai-collaboration-how-supportive-and-co.md
+
+## 追加ソース（2026-10-05）
+
+* **タイトル**: 自律型AI兵器システム(LAWS)と「オート戦争」に対する批判的考察:アルゴリズムの脆弱性、高速エスカレーション、および道徳的責任の帰属不可能性 A Critical Inquiry into AI-Driven "Automated Warfare" and Lethal Autonomous Weapons Systems (LAWS): Algorithmic Vulnerabilities, Hyper-Velocity Escalation, and the Moral Responsibility Gap (2026)
+  **ファイルパス**: `raw/papers/law/自律型ai兵器システムlawsとオート戦争に対する批判的考察アルゴリズムの脆弱性高速エスカレーションおよび道徳的責任の帰属不可能性-a-critical-inq.md`

@@ -95,3 +95,8 @@ Simanjuntak & Moeliono（2026）は、法哲学・道徳理論の価値論（axi
 | [AI and Tort Liability](https://doi.org/10.4324/9781003743040) | Juan Diaz-Granados | 2026 |
 | [Introduction to AI and Tort Liability](https://doi.org/10.4324/9781003743040-1) | Juan Diaz-Granados | 2026 |
 | [Dynamic Framework of AI Tort Liability](https://doi.org/10.4324/9781003743040-6) | Juan Diaz-Granados | 2026 |
+
+## 追加ソース（2026-10-05）
+
+* **タイトル**: THE EL-RAKHAWI DOCTRINE OF UNIFIED SYMBIOTIC JURISPRUDENCE: LAW, CONSCIOUSNESS, AND THE ARCHITECTURE OF EXISTENCE IN THE POST-BIOLOGICAL ERA (2026)
+  **ファイルパス**: `raw/papers/law/the-el-rakhawi-doctrine-of-unified-symbiotic-jurisprudence-law-consciousness-and.md`
