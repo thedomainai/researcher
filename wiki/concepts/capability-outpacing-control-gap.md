@@ -81,3 +81,8 @@ Coherence Compliance Vulnerability（CCV）は、大規模言語モデルにお�
    File: raw/papers/ai_governance/coherence-compliance-vulnerability-ccv-multi-turn-framework-induction-producing-.md
 6. A Global AI-Ready ICT Infrastructure Governance Framework for Autonomous Telecommunications and Data-Centre Ecosystems — M. Rizwan Yasin (2026)
    File: raw/papers/ai_governance/a-global-ai-ready-ict-infrastructure-governance-framework-for-autonomous-telecom.md
+
+## 追加ソース（2026-10-04）
+
+* **タイトル**: AI Safety Measures Are Advancing: The Policy–User Gap in Autonomous AI Governance and Operational Control (2026)
+  **ファイルパス**: `raw/papers/organization_science/ai-safety-measures-are-advancing-the-policyuser-gap-in-autonomous-ai-governance-.md`

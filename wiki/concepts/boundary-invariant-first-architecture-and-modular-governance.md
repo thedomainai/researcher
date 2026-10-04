@@ -72,3 +72,8 @@ OkunoとOkunoは、企業システム工学、社会技術的ガバナンス、�
 2. Nabeel A. Khan (2026). *Cross-Border AI Architecture Patterns: Three Patterns, and Why the Fourth Is Not a Choice*. `raw/papers/law/cross-border-ai-architecture-patterns-three-patterns-and-why-the-fourth-is-not-a.md`
 3. Mayumi J. Okuno, Hiroshi G. Okuno (2026). *Modular Legal Personhood for AI Use Cases: An Enterprise Systems Engineering Framework for Digital Transformation*. `raw/papers/law/modular-legal-personhood-for-ai-use-cases-an-enterprise-systems-engineering-fram.md`
 4. Claudio Cifuentes Lobo, Marcus Alburez (2026). *Mitigating AI Privacy Risks in Latin America: Identity Infrastructure, Institutional Capacity and the Path to Adoption*. `raw/papers/law/mitigating-ai-privacy-risks-in-latin-america-identity-infrastructure-institution.md`
+
+## 追加ソース（2026-10-04）
+
+* **タイトル**: A LAYERED REFERENCE FRAMEWORK FOR SCALABLE DATA ENGINEERING AND AI APPLICATIONS (2026)
+  **ファイルパス**: `raw/papers/organization_science/a-layered-reference-framework-for-scalable-data-engineering-and-ai-applications.md`

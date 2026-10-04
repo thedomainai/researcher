@@ -70,3 +70,8 @@
    File: raw/papers/hci/artificial-intelligence-and-cyber-law-in-india-recalibrating-legal-responsibilit.md
 7. From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation — Zhijun Gao, Jing Chen, 2026
    File: raw/papers/hci/from-agent-behaviour-to-agent-friendly-documentation-an-empirical-study-of-how-c.md
+
+## 追加ソース（2026-10-04）
+
+* **タイトル**: Operation SOLID GENESIS:自律分散システム(DAS)におけるメンタルデバッグ・プロトコルとAIハルシネーションの検知・物理的破砕仕様 (English Title: Operation SOLID GENESIS: Mental Debugging Protocol and Deterministic Crushing of Epistemic Hallucinations via Distributed Autonomous Systems (DAS)) (2026)
+  **ファイルパス**: `raw/papers/ai_governance/operation-solid-genesis自律分散システムdasにおけるメンタルデバッグプロトコルとaiハルシネーションの検知物理的破砕仕様-english.md`

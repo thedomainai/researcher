@@ -80,3 +80,8 @@
    File: raw/papers/marketing/knowledge-graphs-as-a-representational-layer-for-agentic-ai-in-customer-experien.md
 6. The Meta-HR framework: a systematic literature review on AI-accelerated HR systems for digital talent transformation — Adiabagus Wijaya, Apol Pribadi Subriadi, Reny Nadlifatin, Tining Haryanti (2026)
    File: raw/papers/leadership_ob/the-meta-hr-framework-a-systematic-literature-review-on-ai-accelerated-hr-system.md
+
+## 追加ソース（2026-10-04）
+
+* **タイトル**: Data Sherpa: An AI-Powered Assistant for Scientific Collaboration Knowledge Management (2026)
+  **ファイルパス**: `raw/papers/organization_science/data-sherpa-an-ai-powered-assistant-for-scientific-collaboration-knowledge-manag.md`
