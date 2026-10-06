@@ -114,3 +114,8 @@ AI媒介層が存在する場合、各変換段階を明示する（「誰がど
 7. **Generative AI in Brand Activism: Impacts on Consumers' Negative Affect and Decision Comfort**  
    著者: Zhao Lin, Alexis Yim, Annie Peng Cui | 年: 2026  
    File: raw/papers/marketing/generative-ai-in-brand-activism-impacts-on-consumers-negative-affect-and-decisio.md
+
+## 追加ソース（2026-10-07）
+
+* **タイトル**: Getting Perspectives on Quality in the Age of AI (2026)
+  **ファイルパス**: `raw/papers/human_ai_collaboration/getting-perspectives-on-quality-in-the-age-of-ai.md`
