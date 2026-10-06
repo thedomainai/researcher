@@ -57,3 +57,8 @@
    File: raw/papers/systems_engineering/a-public-brief-on-ai-safety-standards-and-the-deterministic-alternative.md
 2. Mechanism-aware and safety-validated AI for drug repurposing: a critical review and translational pharmacology framework — Moumita Hazra, Harishchander Anandaram (2026)
    File: raw/papers/systems_engineering/mechanism-aware-and-safety-validated-ai-for-drug-repurposing-a-critical-review-a.md
+
+## 追加ソース（2026-10-06）
+
+* **タイトル**: Governance e Qualità nei Progetti AI: Metodologie, Metriche e Lessons Learned nell'Adozione Enterprise di Modelli LLM (2026)
+  **ファイルパス**: `raw/papers/ai_governance/governance-e-qualità-nei-progetti-ai-metodologie-metriche-e-lessons-learned-nell.md`

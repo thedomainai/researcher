@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-05T06:07:36.813928",
+  "generated_at": "2026-10-06T09:33:22.520956",
   "summary": {
-    "articles_scanned": 1307,
-    "nodes": 3577,
-    "resolved_nodes": 1307,
+    "articles_scanned": 1308,
+    "nodes": 3578,
+    "resolved_nodes": 1308,
     "unresolved_nodes": 2270,
-    "edges": 6535,
-    "resolved_edges": 3575,
+    "edges": 6546,
+    "resolved_edges": 3586,
     "unresolved_edges": 2960,
-    "link_mentions": 6833,
-    "valid_source_refs": 2135,
+    "link_mentions": 6844,
+    "valid_source_refs": 2137,
     "invalid_source_refs": 117,
     "isolated_concepts": 80
   },
@@ -13323,9 +13323,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 6,
+      "inbound_count": 7,
       "outbound_count": 9,
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "irreversibility-option-timing-under-uncertainty",
@@ -13353,9 +13353,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 7,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "responsibility-as-irreversible-cost-internalization",
@@ -15142,9 +15142,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 6,
+      "inbound_count": 7,
       "outbound_count": 7,
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "human-ai-advice-taking-behavior",
@@ -15878,9 +15878,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 6,
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "value-co-creation",
@@ -17322,9 +17322,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 6,
+      "inbound_count": 7,
       "outbound_count": 8,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "constraint-anchored-validity-and-verifiable-boundaries",
@@ -20521,9 +20521,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 8,
+      "inbound_count": 9,
       "outbound_count": 5,
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "runtime-authorization-control-points",
@@ -20552,9 +20552,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 7,
+      "inbound_count": 8,
       "outbound_count": 9,
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "implementation-outcomes",
@@ -22173,9 +22173,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 10,
+      "inbound_count": 11,
       "outbound_count": 8,
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "decision-node-decomposition-and-bounded-relocation",
@@ -25876,9 +25876,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 10,
+      "inbound_count": 11,
       "outbound_count": 12,
-      "degree": 22
+      "degree": 23
     },
     {
       "id": "structural-separation-and-hierarchical-verification",
@@ -26173,9 +26173,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 5,
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "graduated-autonomy-framework",
@@ -26456,6 +26456,34 @@
       "inbound_count": 1,
       "outbound_count": 0,
       "degree": 1
+    },
+    {
+      "id": "control-invocation-before-decision-closure",
+      "slug": "control-invocation-before-decision-closure",
+      "label": "決定閉鎖前の制御到達可能性",
+      "title": "決定閉鎖前の制御到達可能性",
+      "title_ja": "決定閉鎖前の制御到達可能性",
+      "title_en": "Pre-Closure Reachability of Control Mechanisms",
+      "tier": null,
+      "description": "反省的警告や介入メカニズムが効果を持つには、意思決定の機会が閉じる前に制御プロセスへ到達・反映されなければならないという構造的制約",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/control-invocation-before-decision-closure.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Pre-Closure Reachability of Control Mechanisms",
+        "control-invocation-before-decision-closure",
+        "決定閉鎖前の制御到達可能性",
+        "決定閉鎖前の制御到達可能性 (Pre-Closure Reachability of Control Mechanisms)",
+        "決定閉鎖前の制御到達可能性(Pre-Closure Reachability of Control Mechanisms)",
+        "決定閉鎖前の制御到達可能性（Pre-Closure Reachability of Control Mechanisms）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 11,
+      "degree": 11
     },
     {
       "id": "legal-sports-isomorphic-evolution",
@@ -36033,9 +36061,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 4,
+      "inbound_count": 5,
       "outbound_count": 10,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "disclosure-saturation-and-trust-based-selection-pressure",
@@ -144074,6 +144102,347 @@
       "ambiguous": false,
       "candidates": [
         "unobservable-control-and-emergent-collusion-limits"
+      ]
+    },
+    {
+      "id": "control-invocation-before-decision-closure->closed-loop-safety-and-governance-of-autonomous-agents",
+      "source": "control-invocation-before-decision-closure",
+      "target": "closed-loop-safety-and-governance-of-autonomous-agents",
+      "source_label": "決定閉鎖前の制御到達可能性",
+      "target_label": "閉ループ監視とモジュール型ガバナンスによる自律系の安全性",
+      "source_file": "concepts/control-invocation-before-decision-closure.md",
+      "target_file": "concepts/closed-loop-safety-and-governance-of-autonomous-agents.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "closed-loop-safety-and-governance-of-autonomous-agents"
+      ],
+      "display_labels": [
+        "closed-loop-safety-and-governance-of-autonomous-agents"
+      ],
+      "mentions": [
+        {
+          "raw_target": "closed-loop-safety-and-governance-of-autonomous-agents",
+          "label": "closed-loop-safety-and-governance-of-autonomous-agents",
+          "section": "関連概念",
+          "line": 36,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "closed-loop-safety-and-governance-of-autonomous-agents"
+      ]
+    },
+    {
+      "id": "control-invocation-before-decision-closure->control-induced-disturbance-and-timing-of-intervention",
+      "source": "control-invocation-before-decision-closure",
+      "target": "control-induced-disturbance-and-timing-of-intervention",
+      "source_label": "決定閉鎖前の制御到達可能性",
+      "target_label": "制御自身が生む撹乱と介入タイミングの原理",
+      "source_file": "concepts/control-invocation-before-decision-closure.md",
+      "target_file": "concepts/control-induced-disturbance-and-timing-of-intervention.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "control-induced-disturbance-and-timing-of-intervention"
+      ],
+      "display_labels": [
+        "control-induced-disturbance-and-timing-of-intervention"
+      ],
+      "mentions": [
+        {
+          "raw_target": "control-induced-disturbance-and-timing-of-intervention",
+          "label": "control-induced-disturbance-and-timing-of-intervention",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "control-induced-disturbance-and-timing-of-intervention"
+      ]
+    },
+    {
+      "id": "control-invocation-before-decision-closure->decision-cycle-compression-and-residual-authority",
+      "source": "control-invocation-before-decision-closure",
+      "target": "decision-cycle-compression-and-residual-authority",
+      "source_label": "決定閉鎖前の制御到達可能性",
+      "target_label": "意思決定サイクルの圧縮と残余権限の設計",
+      "source_file": "concepts/control-invocation-before-decision-closure.md",
+      "target_file": "concepts/decision-cycle-compression-and-residual-authority.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "decision-cycle-compression-and-residual-authority"
+      ],
+      "display_labels": [
+        "decision-cycle-compression-and-residual-authority"
+      ],
+      "mentions": [
+        {
+          "raw_target": "decision-cycle-compression-and-residual-authority",
+          "label": "decision-cycle-compression-and-residual-authority",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "decision-cycle-compression-and-residual-authority"
+      ]
+    },
+    {
+      "id": "control-invocation-before-decision-closure->execution-time-governance",
+      "source": "control-invocation-before-decision-closure",
+      "target": "execution-time-governance",
+      "source_label": "決定閉鎖前の制御到達可能性",
+      "target_label": "実行時ガバナンスと権限委譲設計",
+      "source_file": "concepts/control-invocation-before-decision-closure.md",
+      "target_file": "concepts/execution-time-governance.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "execution-time-governance"
+      ],
+      "display_labels": [
+        "execution-time-governance"
+      ],
+      "mentions": [
+        {
+          "raw_target": "execution-time-governance",
+          "label": "execution-time-governance",
+          "section": "関連概念",
+          "line": 33,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "execution-time-governance"
+      ]
+    },
+    {
+      "id": "control-invocation-before-decision-closure->graduated-autonomy-with-tamper-evident-human-veto",
+      "source": "control-invocation-before-decision-closure",
+      "target": "graduated-autonomy-with-tamper-evident-human-veto",
+      "source_label": "決定閉鎖前の制御到達可能性",
+      "target_label": "段階的自律性と改ざん耐性のある人間拒否権",
+      "source_file": "concepts/control-invocation-before-decision-closure.md",
+      "target_file": "concepts/graduated-autonomy-with-tamper-evident-human-veto.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "graduated-autonomy-with-tamper-evident-human-veto"
+      ],
+      "display_labels": [
+        "graduated-autonomy-with-tamper-evident-human-veto"
+      ],
+      "mentions": [
+        {
+          "raw_target": "graduated-autonomy-with-tamper-evident-human-veto",
+          "label": "graduated-autonomy-with-tamper-evident-human-veto",
+          "section": "関連概念",
+          "line": 35,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "graduated-autonomy-with-tamper-evident-human-veto"
+      ]
+    },
+    {
+      "id": "control-invocation-before-decision-closure->human-oversight-mechanisms",
+      "source": "control-invocation-before-decision-closure",
+      "target": "human-oversight-mechanisms",
+      "source_label": "決定閉鎖前の制御到達可能性",
+      "target_label": "人間による監視メカニズム",
+      "source_file": "concepts/control-invocation-before-decision-closure.md",
+      "target_file": "concepts/human-oversight-mechanisms.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "human-oversight-mechanisms"
+      ],
+      "display_labels": [
+        "human-oversight-mechanisms"
+      ],
+      "mentions": [
+        {
+          "raw_target": "human-oversight-mechanisms",
+          "label": "human-oversight-mechanisms",
+          "section": "関連概念",
+          "line": 34,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "human-oversight-mechanisms"
+      ]
+    },
+    {
+      "id": "control-invocation-before-decision-closure->irreversibility-option-timing-under-uncertainty",
+      "source": "control-invocation-before-decision-closure",
+      "target": "irreversibility-option-timing-under-uncertainty",
+      "source_label": "決定閉鎖前の制御到達可能性",
+      "target_label": "不可逆性下のオプション的意思決定と段階的コミット",
+      "source_file": "concepts/control-invocation-before-decision-closure.md",
+      "target_file": "concepts/irreversibility-option-timing-under-uncertainty.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "irreversibility-option-timing-under-uncertainty"
+      ],
+      "display_labels": [
+        "irreversibility-option-timing-under-uncertainty"
+      ],
+      "mentions": [
+        {
+          "raw_target": "irreversibility-option-timing-under-uncertainty",
+          "label": "irreversibility-option-timing-under-uncertainty",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "irreversibility-option-timing-under-uncertainty"
+      ]
+    },
+    {
+      "id": "control-invocation-before-decision-closure->irreversible-capability-loss-in-slow-recovery-fallbacks",
+      "source": "control-invocation-before-decision-closure",
+      "target": "irreversible-capability-loss-in-slow-recovery-fallbacks",
+      "source_label": "決定閉鎖前の制御到達可能性",
+      "target_label": "低速回復型フォールバックの不可逆的能力喪失(ヒステリシス)",
+      "source_file": "concepts/control-invocation-before-decision-closure.md",
+      "target_file": "concepts/irreversible-capability-loss-in-slow-recovery-fallbacks.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "irreversible-capability-loss-in-slow-recovery-fallbacks"
+      ],
+      "display_labels": [
+        "irreversible-capability-loss-in-slow-recovery-fallbacks"
+      ],
+      "mentions": [
+        {
+          "raw_target": "irreversible-capability-loss-in-slow-recovery-fallbacks",
+          "label": "irreversible-capability-loss-in-slow-recovery-fallbacks",
+          "section": "関連概念",
+          "line": 37,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "irreversible-capability-loss-in-slow-recovery-fallbacks"
+      ]
+    },
+    {
+      "id": "control-invocation-before-decision-closure->machine-speed-oversight-asymmetry",
+      "source": "control-invocation-before-decision-closure",
+      "target": "machine-speed-oversight-asymmetry",
+      "source_label": "決定閉鎖前の制御到達可能性",
+      "target_label": "機械速度と人間速度の統治非対称性",
+      "source_file": "concepts/control-invocation-before-decision-closure.md",
+      "target_file": "concepts/machine-speed-oversight-asymmetry.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "machine-speed-oversight-asymmetry"
+      ],
+      "display_labels": [
+        "machine-speed-oversight-asymmetry"
+      ],
+      "mentions": [
+        {
+          "raw_target": "machine-speed-oversight-asymmetry",
+          "label": "machine-speed-oversight-asymmetry",
+          "section": "関連概念",
+          "line": 30,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "machine-speed-oversight-asymmetry"
+      ]
+    },
+    {
+      "id": "control-invocation-before-decision-closure->pre-irreversibility-authority-and-constraint-embedding",
+      "source": "control-invocation-before-decision-closure",
+      "target": "pre-irreversibility-authority-and-constraint-embedding",
+      "source_label": "決定閉鎖前の制御到達可能性",
+      "target_label": "不可逆化前の権限判断と制約の内部設計化",
+      "source_file": "concepts/control-invocation-before-decision-closure.md",
+      "target_file": "concepts/pre-irreversibility-authority-and-constraint-embedding.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "pre-irreversibility-authority-and-constraint-embedding"
+      ],
+      "display_labels": [
+        "pre-irreversibility-authority-and-constraint-embedding"
+      ],
+      "mentions": [
+        {
+          "raw_target": "pre-irreversibility-authority-and-constraint-embedding",
+          "label": "pre-irreversibility-authority-and-constraint-embedding",
+          "section": "関連概念",
+          "line": 28,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "pre-irreversibility-authority-and-constraint-embedding"
+      ]
+    },
+    {
+      "id": "control-invocation-before-decision-closure->runtime-authorization-control-points",
+      "source": "control-invocation-before-decision-closure",
+      "target": "runtime-authorization-control-points",
+      "source_label": "決定閉鎖前の制御到達可能性",
+      "target_label": "実行時認可と定量的制御点の設計",
+      "source_file": "concepts/control-invocation-before-decision-closure.md",
+      "target_file": "concepts/runtime-authorization-control-points.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "runtime-authorization-control-points"
+      ],
+      "display_labels": [
+        "runtime-authorization-control-points"
+      ],
+      "mentions": [
+        {
+          "raw_target": "runtime-authorization-control-points",
+          "label": "runtime-authorization-control-points",
+          "section": "関連概念",
+          "line": 32,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "runtime-authorization-control-points"
       ]
     },
     {

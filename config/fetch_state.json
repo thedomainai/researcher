@@ -1,6 +1,12 @@
 {
-  "last_fetch_date": "2026-10-05",
-  "last_fetch_count": 10,
-  "last_fetch_time": "2026-10-05T06:06:02.924010",
-  "retry_queue": []
+  "last_fetch_date": "2026-10-06",
+  "last_fetch_count": 13,
+  "last_fetch_time": "2026-10-06T09:30:14.850762",
+  "retry_queue": [
+    {
+      "domain": "cognitive_science",
+      "query": "cognitive load artificial intelligence",
+      "since": "2026-10-05"
+    }
+  ]
 }

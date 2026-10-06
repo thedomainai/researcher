@@ -2411,6 +2411,12 @@
   "title_en": "Control-Induced Disturbance and Intervention Timing",
   "why": "AIによる自動調整や支援導入では、撹乱の種類や導入タイミング、受け手の利害構造を設計変数として扱う必要がある。"
  },
+ "control-invocation-before-decision-closure": {
+  "at": "2026-10-06T00:33:42+00:00",
+  "summary": "どれほど優れた安全助言も、決定機会が閉じる前に制御プロセスへ到達しなければ効果を持たず、到達のタイミングこそが構造的な制約となる。",
+  "title_en": "Control Invocation Before Decision Closure",
+  "why": "AIが人間より速く決定を完結させる環境では、介入の到達タイミングを設計段階で保証する仕組みが要る。"
+ },
  "conversational-agent-embodied-interaction": {
   "at": "2026-10-01T09:45:15+00:00",
   "summary": "テキストや音声だけでなく手の動きや触覚的操作を認識し、身体的スキル習得をリアルタイムに支援する対話型AIの枠組みである。",

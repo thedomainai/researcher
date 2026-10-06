@@ -25912,5 +25912,25 @@
     ],
     "domain": "psychology",
     "compiled_at": "2026-10-02"
+  },
+  {
+    "slug": "control-invocation-before-decision-closure",
+    "title_ja": "決定閉鎖前の制御到達可能性",
+    "title_en": "Pre-Closure Reachability of Control Mechanisms",
+    "description": "反省的警告や介入メカニズムが効果を持つには、意思決定の機会が閉じる前に制御プロセスへ到達・反映されなければならないという構造的制約",
+    "mechanisms": [
+      "タイミング依存性",
+      "到達可能性の制約",
+      "不可逆性への接近",
+      "介入機会の消失"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/before-deliberation-closes-the-pre-deliberation-horizon-and-invocation-problem-f.md"
+    ],
+    "domain": "ai_governance",
+    "compiled_at": "2026-10-06"
   }
 ]
