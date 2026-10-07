@@ -63,3 +63,8 @@
 7. Zhuoyan Li ほか (2026)「Adaptive Selection of Effective AI Assistance in AI-assisted Decision Making Using Multi-Armed Bandits」 — `raw/papers/behavioral_economics/adaptive-selection-of-effective-ai-assistance-in-ai-assisted-decision-making-usi.md`
 8. Dolantina Hyka ほか (2026)「Human–AI Interaction in Cybersecurity: A Theoretical Study on Cognitive Bias and Decision Reliability」 — `raw/papers/behavioral_economics/humanai-interaction-in-cybersecurity-a-theoretical-study-on-cognitive-bias-and-d.md`
 10. Haibei Chen, Zhengyuan Qian, Xianglian Zhao (2026)「Empowerment or disempowerment? How generative AI consultation shapes the health decision-making among the new generation of older adults」 — `raw/papers/behavioral_economics/empowerment-or-disempowerment-how-generative-ai-consultation-shapes-the-health-d.md`
+
+## 追加ソース（2026-10-08）
+
+* **タイトル**: A dual path cognitive behavioural model of artificial intelligence assisted decision making for environmentally sustainable behaviour (2026)
+  **ファイルパス**: `raw/papers/behavioral_economics/a-dual-path-cognitive-behavioural-model-of-artificial-intelligence-assisted-deci.md`
