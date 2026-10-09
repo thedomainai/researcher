@@ -46,3 +46,8 @@ AIシステム、特にデータ中心型の適応的AI-Opsパイプラインや
 
 *   **ソースタイトル**: The Human Oversight approaches at the forefront of responsible and trustworthy AI, from data-centric adaptive AI-Ops pipelines to Multi-Agent Systems
 *   **ファイルパス**: `raw/W7163010827.json`（※OpenAlex ID: `https://openalex.org/W7163010827` / DOI: `https://doi.org/10.5281/zenodo.20491957`）
+
+## 追加ソース（2026-10-10）
+
+* **タイトル**: Human-in-the-Loop Intelligent Automation: A Review of Trust, Oversight, and Workforce Implications (2026)
+  **ファイルパス**: `raw/papers/psychology/human-in-the-loop-intelligent-automation-a-review-of-trust-oversight-and-workfor.md`

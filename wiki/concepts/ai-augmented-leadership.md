@@ -32,3 +32,8 @@ AI拡張リーダーシップとは、リーダーが意思決定プロセスに
 ## 参考ソース
 
 *   "AI-Augmented Leadership: Examining the Influence of Generative and Agentic AI Decision-Support Tools on Leadership Decision Quality and Psychological Safety in Organizational Teams" (raw/AI-Augmented Leadership Examining the Influence of Generative and Agentic AI Decision-Support Tools on Leadership Decision Quality and Psychological Safety in Organizational Teams ().md)
+
+## 追加ソース（2026-10-10）
+
+* **タイトル**: Evolution of Capability Leadership: From Leading People to Enabling Organisational Capability in the AI Era (2026)
+  **ファイルパス**: `raw/papers/human_ai_collaboration/evolution-of-capability-leadership-from-leading-people-to-enabling-organisationa.md`

@@ -69,3 +69,8 @@ Zhouらは、デジタルメンタルヘルスを高リスクな情報アクセ�
    File: raw/papers/cognitive_science/designing-social-robots-for-social-cognition-training-with-autistic-adults.md
 5. MotoSafety: Edge-AI with Learned Temporal Importance for Two-Wheeler Collision Risk Assessment Under Time Pressure — Sumit S. Shevtekar, Chandresh K. Maurya, Gourab Sil, Subasish Das (2026)
    File: raw/papers/cognitive_science/motosafety-edge-ai-with-learned-temporal-importance-for-two-wheeler-collision-ri.md
+
+## 追加ソース（2026-10-10）
+
+* **タイトル**: OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents (2026)
+  **ファイルパス**: `raw/papers/human_ai_collaboration/optimai-optimization-from-natural-language-using-llm-powered-ai-agents.md`

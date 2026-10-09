@@ -93,3 +93,8 @@ LLMsが大規模に「認識論的仲介者」として機能することで、�
 | Epistemic Injustice in Generative AI: Probabilistic Generation, Trust Erosion, and the Structural Conditions of Algorithmic Knowledge Harm | Shenghui Bao | 2026 |
 | A sociology without humans: Artificial intelligence as a threat to humanity, and sociology's response | Mike Zajko | 2026 |
 | The Social Construction of Reality: A Treatise in the Sociology of Knowledge (レビュー) | D. Light（原著: Berger & Luckmann） | 1967 |
+
+## 追加ソース（2026-10-10）
+
+* **タイトル**: From Human Judgment to Machine Learning: A Philosophical Study of Knowledge Creation in Modern Accounting (2026)
+  **ファイルパス**: `raw/papers/accounting/from-human-judgment-to-machine-learning-a-philosophical-study-of-knowledge-creat.md`

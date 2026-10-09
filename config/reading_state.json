@@ -308,6 +308,13 @@
       "papers/operations_research/resilience-and-stability-of-ecological-systems.md",
       "papers/behavioral_economics/prospect-theory-an-analysis-of-decision-under-risk.md",
       "papers/business_ethics_csr/stress-appraisal-and-coping.md"
+    ],
+    "2026-10-10": [
+      "papers/evolutionary_biology/niche-construction.md",
+      "papers/innovation_management/the-prisma-2020-statement-an-updated-guideline-for-reporting-systematic-reviews.md",
+      "papers/organization_science/dynamic-capabilities-and-strategic-management.md",
+      "papers/batched-contextual-reinforcement-a-task-scaling-law-for-efficient-reasoning.md",
+      "papers/entrepreneurship/investor-psychology-and-security-market-under-and-overreactions.md"
     ]
   }
 }
