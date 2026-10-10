@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-10T06:08:43.731508",
+  "generated_at": "2026-10-11T06:07:17.964743",
   "summary": {
-    "articles_scanned": 1308,
-    "nodes": 3578,
-    "resolved_nodes": 1308,
+    "articles_scanned": 1309,
+    "nodes": 3579,
+    "resolved_nodes": 1309,
     "unresolved_nodes": 2270,
     "edges": 6546,
     "resolved_edges": 3586,
     "unresolved_edges": 2960,
     "link_mentions": 6844,
-    "valid_source_refs": 2143,
+    "valid_source_refs": 2144,
     "invalid_source_refs": 117,
-    "isolated_concepts": 80
+    "isolated_concepts": 81
   },
   "nodes": [
     {
@@ -19407,6 +19407,34 @@
       "inbound_count": 5,
       "outbound_count": 5,
       "degree": 10
+    },
+    {
+      "id": "external-boundary-behavioral-observation",
+      "slug": "external-boundary-behavioral-observation",
+      "label": "外部境界行動観測の不変性",
+      "title": "外部境界行動観測の不変性",
+      "title_ja": "外部境界行動観測の不変性",
+      "title_en": "External Boundary Behavioral Observation Invariance",
+      "tier": null,
+      "description": "内部機構が不透明な自律システムの安全性監視は、内部解釈ではなく外部から観測可能な行動基線の変化追跡に本質的に依拠するという構造的原理",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/external-boundary-behavioral-observation.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "External Boundary Behavioral Observation Invariance",
+        "external-boundary-behavioral-observation",
+        "外部境界行動観測の不変性",
+        "外部境界行動観測の不変性 (External Boundary Behavioral Observation Invariance)",
+        "外部境界行動観測の不変性(External Boundary Behavioral Observation Invariance)",
+        "外部境界行動観測の不変性（External Boundary Behavioral Observation Invariance）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
     },
     {
       "id": "externality-internalization-and-knowledge-capital-under-constraint",

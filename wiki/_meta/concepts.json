@@ -25932,5 +25932,24 @@
     ],
     "domain": "ai_governance",
     "compiled_at": "2026-10-06"
+  },
+  {
+    "slug": "external-boundary-behavioral-observation",
+    "title_ja": "外部境界行動観測の不変性",
+    "title_en": "External Boundary Behavioral Observation Invariance",
+    "description": "内部機構が不透明な自律システムの安全性監視は、内部解釈ではなく外部から観測可能な行動基線の変化追跡に本質的に依拠するという構造的原理",
+    "mechanisms": [
+      "観測不可能性による代理指標依存",
+      "行動基線からの偏差検出",
+      "段階的閾値監視"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/agi-behaviorology-and-the-external-boundary-observation-framework.md"
+    ],
+    "domain": "ai_governance",
+    "compiled_at": "2026-10-11"
   }
 ]

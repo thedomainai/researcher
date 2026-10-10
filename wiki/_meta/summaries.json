@@ -3599,6 +3599,12 @@
   "title_en": "Extended Reality and Fundamental Rights",
   "why": "XRのような媒介技術を扱う組織は、企業によるデータ管理やコンテンツ統制が人権侵害リスクを生む構造を設計段階で考慮する必要がある。"
  },
+ "external-boundary-behavioral-observation": {
+  "at": "2026-10-10T21:07:24+00:00",
+  "summary": "内部機構が不透明な自律システムの安全監視は内部解釈に依拠できず、外部から観測可能な行動基線からの偏差検出に本質的に依存する。",
+  "title_en": "External Boundary Behavioral Observation",
+  "why": "AGI的システムの安全管理では、内部解釈への投資だけでなく発展段階ごとの外部行動基線と多層閾値監視を設計初期から組み込む必要がある。"
+ },
  "external-center-absorption-of-meaning-autonomy": {
   "at": "2026-10-01T09:50:37+00:00",
   "summary": "制御不能な外部エージェントは利便性の提供者から人間の注意・欲望・意味形成を支配する吸収障壁へ段階的に変質し、人間の自律性を非対称に侵食する。",
