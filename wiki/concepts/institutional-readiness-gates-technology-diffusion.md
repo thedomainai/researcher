@@ -92,3 +92,8 @@ NexusForumのロードマップは、AI・HPC・クラウド・エッジなど�
    - File: raw/papers/innovation_management/turning-regulation-into-sustainability-performance-the-role-of-ai-enabled-absorp.md
 9. Awareness Before Application: Institutional Absorptive Capacity and Smaller Firms' Take-Up of Public Innovation Support(Jeffrey Morales, Roberto Jalón, 2026)
    - File: raw/papers/innovation_management/awareness-before-application-institutional-absorptive-capacity-and-smaller-firms.md
+
+## 追加ソース（2026-10-12）
+
+* **タイトル**: Mapping generative AI governance readiness in Kurdistan Region universities (2026)
+  **ファイルパス**: `raw/papers/information_systems/mapping-generative-ai-governance-readiness-in-kurdistan-region-universities.md`

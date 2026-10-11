@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-11T06:07:17.964743",
+  "generated_at": "2026-10-12T06:07:42.968349",
   "summary": {
-    "articles_scanned": 1309,
-    "nodes": 3579,
-    "resolved_nodes": 1309,
+    "articles_scanned": 1310,
+    "nodes": 3580,
+    "resolved_nodes": 1310,
     "unresolved_nodes": 2270,
     "edges": 6546,
     "resolved_edges": 3586,
     "unresolved_edges": 2960,
     "link_mentions": 6844,
-    "valid_source_refs": 2144,
+    "valid_source_refs": 2148,
     "invalid_source_refs": 117,
-    "isolated_concepts": 81
+    "isolated_concepts": 82
   },
   "nodes": {
     "absorption-capacity-bottleneck-saturation": {
@@ -182432,6 +182432,16 @@
           ]
         }
       ]
+    },
+    "explainability-privacy-tradeoff-and-governance-layering": {
+      "id": "explainability-privacy-tradeoff-and-governance-layering",
+      "slug": "explainability-privacy-tradeoff-and-governance-layering",
+      "label": "説明可能性とプライバシーのトレードオフと多層ガバナンス",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/explainability-privacy-tradeoff-and-governance-layering.md",
+      "inbound": [],
+      "outbound": []
     },
     "explainable-ai-decision-confidence": {
       "id": "explainable-ai-decision-confidence",
@@ -398739,6 +398749,7 @@
         ]
       }
     ],
+    "explainability-privacy-tradeoff-and-governance-layering": [],
     "explainable-ai-decision-confidence": [
       {
         "id": "explainability-and-human-governed-decision-loops",

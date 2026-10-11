@@ -36,3 +36,8 @@
 
 - **タイトル**: Ai, Human, And Hybrid Judges: Effects On Fairness Perceptions In Legal Decisions (2026)
 - **ファイルパス**: `raw/W7162617372.json` （OpenAlex ID: https://openalex.org/W7162617372 ）
+
+## 追加ソース（2026-10-12）
+
+* **タイトル**: AI Applicability in Law: Opportunities,Limitations, and Governance in a Hybrid Legal Ecosystem (2026)
+  **ファイルパス**: `raw/papers/information_systems/ai-applicability-in-law-opportunitieslimitations-and-governance-in-a-hybrid-lega.md`

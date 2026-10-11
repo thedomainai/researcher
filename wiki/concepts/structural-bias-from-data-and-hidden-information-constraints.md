@@ -81,3 +81,8 @@ AI Nativeな社会設計において、AIは採用・融資・医療などの意
 
 * **タイトル**: Fairness in histopathology AI — systematic review: extraction, audit, and verification artifacts (79-study corpus, manuscript v0.3.6) (2026)
   **ファイルパス**: `raw/papers/ai_governance/fairness-in-histopathology-ai-systematic-review-extraction-audit-and-verificatio.md`
+
+## 追加ソース（2026-10-12）
+
+* **タイトル**: AI-Generated Synthetic Personas and Gender Representation in Large Language Models: Participatory and Feminist Perspectives on Emergent Technologies (2026)
+  **ファイルパス**: `raw/papers/information_systems/ai-generated-synthetic-personas-and-gender-representation-in-large-language-mode.md`

@@ -25951,5 +25951,25 @@
     ],
     "domain": "ai_governance",
     "compiled_at": "2026-10-11"
+  },
+  {
+    "slug": "explainability-privacy-tradeoff-and-governance-layering",
+    "title_ja": "説明可能性とプライバシーのトレードオフと多層ガバナンス",
+    "title_en": "Explainability-Privacy Tradeoff and Layered Governance",
+    "description": "透明性要求と情報保護義務という相互に制約し合う二つの規範を、技術設計ではなく組織的な多層ガバナンス構造で調整するメカニズム",
+    "mechanisms": [
+      "規範間の構造的対立",
+      "社会技術的統合",
+      "多層的意思決定アーキテクチャ",
+      "利害関係者間の要求競合"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/information_systems/a-governance-oriented-framework-for-balancing-explainability-and-privacy-in-ai-b.md"
+    ],
+    "domain": "information_systems",
+    "compiled_at": "2026-10-12"
   }
 ]

@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-11T06:07:17.964743",
+  "generated_at": "2026-10-12T06:07:42.968349",
   "summary": {
-    "articles_scanned": 1309,
-    "nodes": 3579,
-    "resolved_nodes": 1309,
+    "articles_scanned": 1310,
+    "nodes": 3580,
+    "resolved_nodes": 1310,
     "unresolved_nodes": 2270,
     "edges": 6546,
     "resolved_edges": 3586,
     "unresolved_edges": 2960,
     "link_mentions": 6844,
-    "valid_source_refs": 2144,
+    "valid_source_refs": 2148,
     "invalid_source_refs": 117,
-    "isolated_concepts": 81
+    "isolated_concepts": 82
   },
   "nodes": [
     {
@@ -34438,6 +34438,34 @@
       "inbound_count": 54,
       "outbound_count": 8,
       "degree": 62
+    },
+    {
+      "id": "explainability-privacy-tradeoff-and-governance-layering",
+      "slug": "explainability-privacy-tradeoff-and-governance-layering",
+      "label": "説明可能性とプライバシーのトレードオフと多層ガバナンス",
+      "title": "説明可能性とプライバシーのトレードオフと多層ガバナンス",
+      "title_ja": "説明可能性とプライバシーのトレードオフと多層ガバナンス",
+      "title_en": "Explainability-Privacy Tradeoff and Layered Governance",
+      "tier": null,
+      "description": "透明性要求と情報保護義務という相互に制約し合う二つの規範を、技術設計ではなく組織的な多層ガバナンス構造で調整するメカニズム",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/explainability-privacy-tradeoff-and-governance-layering.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Explainability-Privacy Tradeoff and Layered Governance",
+        "explainability-privacy-tradeoff-and-governance-layering",
+        "説明可能性とプライバシーのトレードオフと多層ガバナンス",
+        "説明可能性とプライバシーのトレードオフと多層ガバナンス (Explainability-Privacy Tradeoff and Layered Governance)",
+        "説明可能性とプライバシーのトレードオフと多層ガバナンス(Explainability-Privacy Tradeoff and Layered Governance)",
+        "説明可能性とプライバシーのトレードオフと多層ガバナンス（Explainability-Privacy Tradeoff and Layered Governance）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
     },
     {
       "id": "explainability-and-human-governed-decision-loops",

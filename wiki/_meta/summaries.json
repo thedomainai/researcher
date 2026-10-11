@@ -3563,6 +3563,12 @@
   "title_en": "Explainability and Human-Governed Decision Loops",
   "why": "AIを意思決定に組み込む組織は、判断根拠の追跡性と人間による修正可能性を性能と同等の設計要件として扱う必要がある。"
  },
+ "explainability-privacy-tradeoff-and-governance-layering": {
+  "at": "2026-10-11T21:07:50+00:00",
+  "summary": "AI意思決定における透明性要求とプライバシー保護義務は構造的に対立し、技術的最適化では解消できないため、文脈・利害関係者・設計・ガバナンスの四層に意思決定を分解して組織的に調整する必要がある。",
+  "title_en": "Explainability-Privacy Tradeoff and Layered Governance",
+  "why": "説明可能性を単発の技術機能ではなく組織プロセスに埋め込んだ継続的能力として設計しないと、プライバシー保護との衝突に場当たり的対応しかできなくなる。"
+ },
  "explainable-ai-decision-confidence": {
   "at": "2026-10-01T09:50:37+00:00",
   "summary": "AIの判断過程を人間が理解できる形で可視化することが、経営層が予測結果を信頼し迅速かつ確実な戦略的意思決定を下すための条件となる。",
