@@ -25971,5 +25971,25 @@
     ],
     "domain": "information_systems",
     "compiled_at": "2026-10-12"
+  },
+  {
+    "slug": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+    "title_ja": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+    "title_en": "Gatekeeper-to-Catalyst Role Transformation under Information Asymmetry",
+    "description": "フォーマルな記録が乏しい対象への評価において、評価者の役割をリスク排除的な門番機能から、代替データや関係性情報を用いて包摂を促進する触媒機能へと再構成する構造原理",
+    "mechanisms": [
+      "情報の非対称性",
+      "代替データによる補完",
+      "関係性ベースの評価",
+      "役割の段階的再構成"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/philosophy/transformative-credit-assessment-model-tcam-reconstructing-the-role-of-the-credi.md"
+    ],
+    "domain": "philosophy",
+    "compiled_at": "2026-10-13"
   }
 ]

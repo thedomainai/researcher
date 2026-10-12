@@ -3821,6 +3821,12 @@
   "title_en": "Gamification as Experiential Value Co-Creation",
   "why": "ゲーム要素を導入するだけでなく、利用者が自発的に関与し価値を生み出せる設計かどうかが成否を分ける。"
  },
+ "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry": {
+  "at": "2026-10-12T21:10:15+00:00",
+  "summary": "情報が構造的に欠落した評価場面では、評価者の役割を排除中心の門番から代替データと関係性情報を用いる包摂の触媒へ段階的に再構成することで回避可能な排除を減らせる。",
+  "title_en": "Gatekeeper to Catalyst Role Transformation",
+  "why": "AIスコアリングを単一の二値判定ではなく門番・解釈・関係性評価・触媒の段階構造として設計し、非対称性の縮小自体を評価指標に含めるべきだ。"
+ },
  "genai-anonymization-and-psychological-safety": {
   "at": "2026-10-01T09:51:27+00:00",
   "summary": "生成AIが文章の文体を書き換えて個人特定の手がかりを消すことで、投稿者の匿名性知覚と心理的安全性を高めることが実験で示された。",

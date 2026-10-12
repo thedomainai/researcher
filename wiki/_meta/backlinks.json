@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-12T06:07:42.968349",
+  "generated_at": "2026-10-13T06:10:07.580534",
   "summary": {
-    "articles_scanned": 1310,
-    "nodes": 3580,
-    "resolved_nodes": 1310,
+    "articles_scanned": 1311,
+    "nodes": 3581,
+    "resolved_nodes": 1311,
     "unresolved_nodes": 2270,
-    "edges": 6546,
-    "resolved_edges": 3586,
+    "edges": 6554,
+    "resolved_edges": 3594,
     "unresolved_edges": 2960,
-    "link_mentions": 6844,
-    "valid_source_refs": 2148,
+    "link_mentions": 6852,
+    "valid_source_refs": 2150,
     "invalid_source_refs": 117,
     "isolated_concepts": 82
   },
@@ -4194,6 +4194,22 @@
               "label": "adaptive-capacity-inequality-and-effective-rights-liquidity",
               "section": "関連コンセプト",
               "line": 87,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+          "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+          "mentions": [
+            {
+              "raw_target": "adaptive-capacity-inequality-and-effective-rights-liquidity",
+              "label": "adaptive-capacity-inequality-and-effective-rights-liquidity",
+              "section": "関連概念",
+              "line": 25,
               "resolved_via": "slug"
             }
           ]
@@ -64544,6 +64560,22 @@
               "label": "complementary-information-and-epistemic-asymmetry",
               "section": "関連コンセプト",
               "line": 61,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+          "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+          "mentions": [
+            {
+              "raw_target": "complementary-information-and-epistemic-asymmetry",
+              "label": "complementary-information-and-epistemic-asymmetry",
+              "section": "関連概念",
+              "line": 25,
               "resolved_via": "slug"
             }
           ]
@@ -160982,6 +161014,22 @@
           ]
         },
         {
+          "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+          "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+          "mentions": [
+            {
+              "raw_target": "digital-divide-and-ai-adoption",
+              "label": "digital-divide-and-ai-adoption",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "adoption-velocity-versus-institutional-absorption-capacity",
           "label": "技術採用速度と制度・組織の吸収能力の不均衡",
           "resolved": true,
@@ -192285,6 +192333,225 @@
         }
       ]
     },
+    "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry": {
+      "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+      "slug": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+      "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "islamic-eco-social-entrepreneurship",
+          "label": "イスラムのエコソーシャル起業",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/islamic-eco-social-entrepreneurship.md",
+          "raw_targets": [
+            "islamic-eco-social-entrepreneurship"
+          ],
+          "display_labels": [
+            "islamic-eco-social-entrepreneurship"
+          ],
+          "mentions": [
+            {
+              "raw_target": "islamic-eco-social-entrepreneurship",
+              "label": "islamic-eco-social-entrepreneurship",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "islamic-eco-social-entrepreneurship"
+          ]
+        },
+        {
+          "id": "digital-divide-and-ai-adoption",
+          "label": "デジタルデバイドとAI導入格差",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/digital-divide-and-ai-adoption.md",
+          "raw_targets": [
+            "digital-divide-and-ai-adoption"
+          ],
+          "display_labels": [
+            "digital-divide-and-ai-adoption"
+          ],
+          "mentions": [
+            {
+              "raw_target": "digital-divide-and-ai-adoption",
+              "label": "digital-divide-and-ai-adoption",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "digital-divide-and-ai-adoption"
+          ]
+        },
+        {
+          "id": "structural-bias-from-data-and-hidden-information-constraints",
+          "label": "データ分布と制約下で必然化する構造的バイアス",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/structural-bias-from-data-and-hidden-information-constraints.md",
+          "raw_targets": [
+            "structural-bias-from-data-and-hidden-information-constraints"
+          ],
+          "display_labels": [
+            "structural-bias-from-data-and-hidden-information-constraints"
+          ],
+          "mentions": [
+            {
+              "raw_target": "structural-bias-from-data-and-hidden-information-constraints",
+              "label": "structural-bias-from-data-and-hidden-information-constraints",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "structural-bias-from-data-and-hidden-information-constraints"
+          ]
+        },
+        {
+          "id": "proxy-inference-structural-discrimination",
+          "label": "代理変数推論による構造的差別と監視の統合",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/proxy-inference-structural-discrimination.md",
+          "raw_targets": [
+            "proxy-inference-structural-discrimination"
+          ],
+          "display_labels": [
+            "proxy-inference-structural-discrimination"
+          ],
+          "mentions": [
+            {
+              "raw_target": "proxy-inference-structural-discrimination",
+              "label": "proxy-inference-structural-discrimination",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "proxy-inference-structural-discrimination"
+          ]
+        },
+        {
+          "id": "phase-differentiated-support-against-premature-convergence",
+          "label": "局面別支援設計と早期収束の回避",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/phase-differentiated-support-against-premature-convergence.md",
+          "raw_targets": [
+            "phase-differentiated-support-against-premature-convergence"
+          ],
+          "display_labels": [
+            "phase-differentiated-support-against-premature-convergence"
+          ],
+          "mentions": [
+            {
+              "raw_target": "phase-differentiated-support-against-premature-convergence",
+              "label": "phase-differentiated-support-against-premature-convergence",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "phase-differentiated-support-against-premature-convergence"
+          ]
+        },
+        {
+          "id": "role-shift-from-producer-to-curator-and-demand-decoupling",
+          "label": "生産手段の機械化による主体役割の転換と人間の役割の切り離し",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/role-shift-from-producer-to-curator-and-demand-decoupling.md",
+          "raw_targets": [
+            "role-shift-from-producer-to-curator-and-demand-decoupling"
+          ],
+          "display_labels": [
+            "role-shift-from-producer-to-curator-and-demand-decoupling"
+          ],
+          "mentions": [
+            {
+              "raw_target": "role-shift-from-producer-to-curator-and-demand-decoupling",
+              "label": "role-shift-from-producer-to-curator-and-demand-decoupling",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "role-shift-from-producer-to-curator-and-demand-decoupling"
+          ]
+        },
+        {
+          "id": "complementary-information-and-epistemic-asymmetry",
+          "label": "補完的情報構造と認識論的非対称性",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/complementary-information-and-epistemic-asymmetry.md",
+          "raw_targets": [
+            "complementary-information-and-epistemic-asymmetry"
+          ],
+          "display_labels": [
+            "complementary-information-and-epistemic-asymmetry"
+          ],
+          "mentions": [
+            {
+              "raw_target": "complementary-information-and-epistemic-asymmetry",
+              "label": "complementary-information-and-epistemic-asymmetry",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "complementary-information-and-epistemic-asymmetry"
+          ]
+        },
+        {
+          "id": "adaptive-capacity-inequality-and-effective-rights-liquidity",
+          "label": "適応能力の不平等と権利の実効化能力",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/adaptive-capacity-inequality-and-effective-rights-liquidity.md",
+          "raw_targets": [
+            "adaptive-capacity-inequality-and-effective-rights-liquidity"
+          ],
+          "display_labels": [
+            "adaptive-capacity-inequality-and-effective-rights-liquidity"
+          ],
+          "mentions": [
+            {
+              "raw_target": "adaptive-capacity-inequality-and-effective-rights-liquidity",
+              "label": "adaptive-capacity-inequality-and-effective-rights-liquidity",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "adaptive-capacity-inequality-and-effective-rights-liquidity"
+          ]
+        }
+      ]
+    },
     "genai-anonymization-and-psychological-safety": {
       "id": "genai-anonymization-and-psychological-safety",
       "slug": "genai-anonymization-and-psychological-safety",
@@ -222806,7 +223073,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/islamic-eco-social-entrepreneurship.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+          "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+          "mentions": [
+            {
+              "raw_target": "islamic-eco-social-entrepreneurship",
+              "label": "islamic-eco-social-entrepreneurship",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": [
         {
           "id": "dangling:ab52fcdb1963",
@@ -253942,6 +254226,22 @@
       "file": "concepts/phase-differentiated-support-against-premature-convergence.md",
       "inbound": [
         {
+          "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+          "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+          "mentions": [
+            {
+              "raw_target": "phase-differentiated-support-against-premature-convergence",
+              "label": "phase-differentiated-support-against-premature-convergence",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "semantic-externalization-for-interpretive-convergence",
           "label": "意味の外部化による解釈収斂",
           "resolved": true,
@@ -261355,6 +261655,22 @@
               "label": "proxy-inference-structural-discrimination",
               "section": "関連コンセプト",
               "line": 49,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+          "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+          "mentions": [
+            {
+              "raw_target": "proxy-inference-structural-discrimination",
+              "label": "proxy-inference-structural-discrimination",
+              "section": "関連概念",
+              "line": 25,
               "resolved_via": "slug"
             }
           ]
@@ -272155,6 +272471,22 @@
               "label": "role-shift-from-producer-to-curator-and-demand-decoupling",
               "section": "関連コンセプト",
               "line": 60,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+          "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+          "mentions": [
+            {
+              "raw_target": "role-shift-from-producer-to-curator-and-demand-decoupling",
+              "label": "role-shift-from-producer-to-curator-and-demand-decoupling",
+              "section": "関連概念",
+              "line": 25,
               "resolved_via": "slug"
             }
           ]
@@ -289335,6 +289667,22 @@
               "label": "structural-bias-from-data-and-hidden-information-constraints",
               "section": "関連コンセプト",
               "line": 59,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+          "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+          "mentions": [
+            {
+              "raw_target": "structural-bias-from-data-and-hidden-information-constraints",
+              "label": "structural-bias-from-data-and-hidden-information-constraints",
+              "section": "関連概念",
+              "line": 25,
               "resolved_via": "slug"
             }
           ]
@@ -314842,6 +315190,22 @@
         ]
       },
       {
+        "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+        "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+        "mentions": [
+          {
+            "raw_target": "adaptive-capacity-inequality-and-effective-rights-liquidity",
+            "label": "adaptive-capacity-inequality-and-effective-rights-liquidity",
+            "section": "関連概念",
+            "line": 25,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "multilayer-capital-inequality-in-technology-diffusion",
         "label": "技術普及における多層的資本不均等",
         "resolved": true,
@@ -334695,6 +335059,22 @@
             "label": "complementary-information-and-epistemic-asymmetry",
             "section": "関連コンセプト",
             "line": 61,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+        "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+        "mentions": [
+          {
+            "raw_target": "complementary-information-and-epistemic-asymmetry",
+            "label": "complementary-information-and-epistemic-asymmetry",
+            "section": "関連概念",
+            "line": 25,
             "resolved_via": "slug"
           }
         ]
@@ -393627,6 +394007,22 @@
         ]
       },
       {
+        "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+        "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+        "mentions": [
+          {
+            "raw_target": "digital-divide-and-ai-adoption",
+            "label": "digital-divide-and-ai-adoption",
+            "section": "関連概念",
+            "line": 25,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "adoption-velocity-versus-institutional-absorption-capacity",
         "label": "技術採用速度と制度・組織の吸収能力の不均衡",
         "resolved": true,
@@ -401855,6 +402251,7 @@
     "game-theory-and-equilibria": [],
     "gamification": [],
     "gamification-in-marketing": [],
+    "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry": [],
     "genai-anonymization-and-psychological-safety": [
       {
         "id": "psychological-climate-and-fairness-mediated-acceptance",
@@ -409530,7 +409927,24 @@
       }
     ],
     "is-theory-taxonomy": [],
-    "islamic-eco-social-entrepreneurship": [],
+    "islamic-eco-social-entrepreneurship": [
+      {
+        "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+        "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+        "mentions": [
+          {
+            "raw_target": "islamic-eco-social-entrepreneurship",
+            "label": "islamic-eco-social-entrepreneurship",
+            "section": "関連概念",
+            "line": 25,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "it-value-organizational-transformation": [
       {
         "id": "irreversibility-option-timing-under-uncertainty",
@@ -415894,6 +416308,22 @@
     "pgg-with-game-transitions": [],
     "phase-differentiated-support-against-premature-convergence": [
       {
+        "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+        "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+        "mentions": [
+          {
+            "raw_target": "phase-differentiated-support-against-premature-convergence",
+            "label": "phase-differentiated-support-against-premature-convergence",
+            "section": "関連概念",
+            "line": 25,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "semantic-externalization-for-interpretive-convergence",
         "label": "意味の外部化による解釈収斂",
         "resolved": true,
@@ -417447,6 +417877,22 @@
             "label": "proxy-inference-structural-discrimination",
             "section": "関連コンセプト",
             "line": 49,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+        "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+        "mentions": [
+          {
+            "raw_target": "proxy-inference-structural-discrimination",
+            "label": "proxy-inference-structural-discrimination",
+            "section": "関連概念",
+            "line": 25,
             "resolved_via": "slug"
           }
         ]
@@ -419165,6 +419611,22 @@
             "label": "role-shift-from-producer-to-curator-and-demand-decoupling",
             "section": "関連コンセプト",
             "line": 60,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+        "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+        "mentions": [
+          {
+            "raw_target": "role-shift-from-producer-to-curator-and-demand-decoupling",
+            "label": "role-shift-from-producer-to-curator-and-demand-decoupling",
+            "section": "関連概念",
+            "line": 25,
             "resolved_via": "slug"
           }
         ]
@@ -422156,6 +422618,22 @@
             "label": "structural-bias-from-data-and-hidden-information-constraints",
             "section": "関連コンセプト",
             "line": 59,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+        "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+        "mentions": [
+          {
+            "raw_target": "structural-bias-from-data-and-hidden-information-constraints",
+            "label": "structural-bias-from-data-and-hidden-information-constraints",
+            "section": "関連概念",
+            "line": 25,
             "resolved_via": "slug"
           }
         ]

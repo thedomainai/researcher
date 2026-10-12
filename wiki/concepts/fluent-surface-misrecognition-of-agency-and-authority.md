@@ -76,3 +76,8 @@ Nayana M. G.は、人事管理(HRM)へのAI導入を扱い、アルゴリズム�
 4. Madeleine Ransom, Nicole Ménard (2026). "A dilemma for skeptics of trustworthy AI". File: raw/papers/philosophy/a-dilemma-for-skeptics-of-trustworthy-ai.md
 5. Jace (Jeong Hyeon) Kim (2026). "Beyond the Tool Paradigm: Artificial Agency, Moral Uncertainty, and the Ethics of Artificial Evolution". File: raw/papers/philosophy/beyond-the-tool-paradigm-artificial-agency-moral-uncertainty-and-the-ethics-of-a.md
 6. Nayana M. G. (2026). "Human-AI Collaboration in HRM: Implications for Employee Engagement and Organizational Performance". File: raw/papers/psychology/human-ai-collaboration-in-hrm-implications-for-employee-engagement-and-organizat.md
+
+## 追加ソース（2026-10-13）
+
+* **タイトル**: Against speech liberalism for generative AI (2026)
+  **ファイルパス**: `raw/papers/hci/against-speech-liberalism-for-generative-ai.md`
