@@ -81,3 +81,8 @@ Seoらは、2008〜2025年の韓国の科学教育研究をBERTopicで分析し�
    File: raw/papers/ai_governance/the-emergence-mirror-framework-developmental-architecture-for-human-ai-relationa.md
 6. Assessing Company Contributions to Societal Resilience: Extending the Societal Capacity Assessment Framework to Agentic AI — Catherine Simons, Alexander K. Saeri, Peter Slattery, Neil Thompson (2026)
    File: raw/papers/ai_governance/assessing-company-contributions-to-societal-resilience-extending-the-societal-ca.md
+
+## 追加ソース（2026-10-14）
+
+* **タイトル**: Measuring Google AI Overviews: Activation, Source Quality, Claim Fidelity, and Publisher Impact (2026)
+  **ファイルパス**: `raw/papers/sociology/measuring-google-ai-overviews-activation-source-quality-claim-fidelity-and-publi.md`

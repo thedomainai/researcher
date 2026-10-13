@@ -54,3 +54,8 @@ SΔϕ-06において提示された、責任を「不可逆的コストの内部
 
 *   **タイトル**: SΔϕ-06 — Responsibility as Irreversible Cost Internalization: Cost Attribution, Repair TCC, and Responsibility Completion (v1.1, AI-Readable Package)
 *   **ファイルパス**: `raw/SΔϕ-06 — Responsibility as Irreversible Cost Internalization: Cost Attribution, Repair TCC, and Responsibility Completion (v1.1, AI-Readable Package)`
+
+## 追加ソース（2026-10-14）
+
+* **タイトル**: THE EL-RAKHAWI DOCTRINE ON ALGORITHMIC ECOLOGICAL JUSTICE AND PLANETARY TRUSTEESHIP SUPPLEMENTARY VOLUME: MATHEMATICAL UNITY, GLOBAL DECLARATION, MULTILINGUAL GLOSSARY, COMPREHENSIVE PROTOCOL, AND SCIENTIFIC FOUNDATIONS (2026)
+  **ファイルパス**: `raw/papers/sociology/the-el-rakhawi-doctrine-on-algorithmic-ecological-justice-and-planetary-trustees.md`
