@@ -1,0 +1,22 @@
+---
+title: "Development and Integration of Digital Twin Control Modules for Automated Drilling Workflows"
+authors: "F. R. G. da Silva, C. N. Donatti, G. M. de Oliveira, B. S. Munhão, V. G. Silva"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "systems_engineering"
+fetched: "2026-10-15T08:03:33.047467"
+doi: "https://doi.org/10.2118/233962-ms"
+openalex_id: "https://openalex.org/W7221598233"
+source_api: "openalex"
+---
+
+# Development and Integration of Digital Twin Control Modules for Automated Drilling Workflows
+
+**著者**: F. R. G. da Silva, C. N. Donatti, G. M. de Oliveira, B. S. Munhão, V. G. Silva
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: システム工学
+
+## Abstract
+
+Abstract This paper presents the engineering approach used to design and implement automation modules for closed-loop drilling, including rate of penetration (ROP) optimization, tripping speed control, pump restart and stop sequencing, and friction testing. The objective is to detail the technical foundations, modeling strategies, and control philosophies that enable these workflows to operate within a digital twin architecture and interact with a rig's automated drilling control system (ADCS), which acts as the execution and governance layer responsible for enforcing equipment limits, safety envelopes, and human-in-the-loop supervision. The work demonstrates how domain physics, artificial intelligence (AI), operational constraints, and human supervisory requirements can be translated into robust automation logic applicable across different rigs and control environments. Each module was developed using a hybrid modeling strategy combining first-principles drilling mechanics with AI-based calibration and tuning. The ROP optimization module integrates bit-rock interaction models with surface equipment limits to compute optimal weight on bit (WOB) and rotary speed (RPM) setpoints. The tripping module applies hydraulics modeling to define safe velocity envelopes as well as acceleration and deceleration profiles. Pump restart and stop logic incorporates transient hydraulics, gel-breaking considerations, and procedural sequencing rules to mitigate pressure spikes. The friction test control module automatically feeds the ADCS with the inputs required to perform the free rotation, pick-up, and slack-off sequence, ensuring consistent execution. Standardized, vendor-agnostic interface definitions were used to ensure reliable command exchange, state monitoring, and supervisory control without direct coupling to native rig control logic. The engineering framework enabled consistent behavior across different operational scenarios, demonstrating that complex drilling workflows can be translated into executable automation logic while preserving physical fidelity and operational transparency. The integration further demonstrated the robustness of a layered control architecture, separating advanced control intelligence from rig-level execution while preserving operational integrity. A key observation is that clearly defined operating envelopes and explicit model assumptions are essential to user trust and effective human supervision. The development process also highlighted the importance of aligning control recommendations with established rig procedures and ADCS interaction models to ensure seamless adoption. This work provides a detailed, module-level perspective on how drilling automation functions are engineered from physics and AI models to operational control logic and integrated with rig-level automated drilling control systems through vendor-agnostic, application-based interfaces that preserve control system integrity and operational governance. It offers a practical blueprint for developing interoperable automation capabilities that balance algorithmic performance, operational safety, and human oversight, contributing to the advancement of scalable closed-loop drilling solutions. In the first field tests, the results were promising. Tripping speed and ROP modules were applied in fields and presented a significant reduction in operation time, while the tripping speed suggested by the digital twin results in reduction of 50% tripping out time, the potential reduction drilling a section with the given suggestion was around 27%. Pump restart and stop were only tested in shadow-mode, without recommendation being applied, but it suggested that the pump restart time should decrease from 29 to 2.6 seconds, and pump stop from 38 to 2.6 seconds.

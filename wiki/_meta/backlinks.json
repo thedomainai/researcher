@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-14T06:53:02.655707",
+  "generated_at": "2026-10-15T08:09:42.223050",
   "summary": {
-    "articles_scanned": 1311,
-    "nodes": 3581,
-    "resolved_nodes": 1311,
+    "articles_scanned": 1312,
+    "nodes": 3582,
+    "resolved_nodes": 1312,
     "unresolved_nodes": 2270,
-    "edges": 6554,
-    "resolved_edges": 3594,
+    "edges": 6559,
+    "resolved_edges": 3599,
     "unresolved_edges": 2960,
-    "link_mentions": 6852,
-    "valid_source_refs": 2152,
+    "link_mentions": 6857,
+    "valid_source_refs": 2156,
     "invalid_source_refs": 117,
     "isolated_concepts": 82
   },
@@ -68668,6 +68668,22 @@
               "label": "constraint-driven-computation-and-precision-weighted-inference",
               "section": "関連コンセプト",
               "line": 57,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "learned-model-amortization-of-optimization-cost",
+          "label": "学習モデルによる最適化コストの償却",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/learned-model-amortization-of-optimization-cost.md",
+          "mentions": [
+            {
+              "raw_target": "constraint-driven-computation-and-precision-weighted-inference",
+              "label": "constraint-driven-computation-and-precision-weighted-inference",
+              "section": "関連概念",
+              "line": 29,
               "resolved_via": "slug"
             }
           ]
@@ -160140,6 +160156,22 @@
       "file": "concepts/deterministic-vs-probabilistic-ai.md",
       "inbound": [
         {
+          "id": "learned-model-amortization-of-optimization-cost",
+          "label": "学習モデルによる最適化コストの償却",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/learned-model-amortization-of-optimization-cost.md",
+          "mentions": [
+            {
+              "raw_target": "deterministic-vs-probabilistic-ai",
+              "label": "deterministic-vs-probabilistic-ai",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "certifiability-gap-of-probabilistic-systems",
           "label": "確率的システムの認証不能性と検証可能境界",
           "resolved": true,
@@ -163665,7 +163697,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/digital-twins-in-fusion-engineering.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "learned-model-amortization-of-optimization-cost",
+          "label": "学習モデルによる最適化コストの償却",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/learned-model-amortization-of-optimization-cost.md",
+          "mentions": [
+            {
+              "raw_target": "digital-twins-in-fusion-engineering",
+              "label": "digital-twins-in-fusion-engineering",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": [
         {
           "id": "dangling:f1c976827dd9",
@@ -191299,6 +191348,22 @@
       "kind": "concept",
       "file": "concepts/front-loaded-cost-and-operational-gain-offset.md",
       "inbound": [
+        {
+          "id": "learned-model-amortization-of-optimization-cost",
+          "label": "学習モデルによる最適化コストの償却",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/learned-model-amortization-of-optimization-cost.md",
+          "mentions": [
+            {
+              "raw_target": "front-loaded-cost-and-operational-gain-offset",
+              "label": "front-loaded-cost-and-operational-gain-offset",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ]
+        },
         {
           "id": "experiment-learning-reinforcing-cycle-and-capability-staging",
           "label": "実験と組織学習の相互強化サイクルと能力の段階的形成",
@@ -226867,6 +226932,147 @@
           ],
           "ambiguous": false,
           "candidates": []
+        }
+      ]
+    },
+    "learned-model-amortization-of-optimization-cost": {
+      "id": "learned-model-amortization-of-optimization-cost",
+      "slug": "learned-model-amortization-of-optimization-cost",
+      "label": "学習モデルによる最適化コストの償却",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/learned-model-amortization-of-optimization-cost.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "test-time-compute",
+          "label": "テスト時計算と推論の拡張（Test-Time Compute and Extended Reasoning）",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/test-time-compute.md",
+          "raw_targets": [
+            "test-time-compute"
+          ],
+          "display_labels": [
+            "test-time-compute"
+          ],
+          "mentions": [
+            {
+              "raw_target": "test-time-compute",
+              "label": "test-time-compute",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "test-time-compute"
+          ]
+        },
+        {
+          "id": "front-loaded-cost-and-operational-gain-offset",
+          "label": "導入段階コストと運用段階便益の相殺構造",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/front-loaded-cost-and-operational-gain-offset.md",
+          "raw_targets": [
+            "front-loaded-cost-and-operational-gain-offset"
+          ],
+          "display_labels": [
+            "front-loaded-cost-and-operational-gain-offset"
+          ],
+          "mentions": [
+            {
+              "raw_target": "front-loaded-cost-and-operational-gain-offset",
+              "label": "front-loaded-cost-and-operational-gain-offset",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "front-loaded-cost-and-operational-gain-offset"
+          ]
+        },
+        {
+          "id": "constraint-driven-computation-and-precision-weighted-inference",
+          "label": "局所制約下での選別性創発と精度加重推論",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/constraint-driven-computation-and-precision-weighted-inference.md",
+          "raw_targets": [
+            "constraint-driven-computation-and-precision-weighted-inference"
+          ],
+          "display_labels": [
+            "constraint-driven-computation-and-precision-weighted-inference"
+          ],
+          "mentions": [
+            {
+              "raw_target": "constraint-driven-computation-and-precision-weighted-inference",
+              "label": "constraint-driven-computation-and-precision-weighted-inference",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "constraint-driven-computation-and-precision-weighted-inference"
+          ]
+        },
+        {
+          "id": "digital-twins-in-fusion-engineering",
+          "label": "核融合工学におけるデジタルツイン",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/digital-twins-in-fusion-engineering.md",
+          "raw_targets": [
+            "digital-twins-in-fusion-engineering"
+          ],
+          "display_labels": [
+            "digital-twins-in-fusion-engineering"
+          ],
+          "mentions": [
+            {
+              "raw_target": "digital-twins-in-fusion-engineering",
+              "label": "digital-twins-in-fusion-engineering",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "digital-twins-in-fusion-engineering"
+          ]
+        },
+        {
+          "id": "deterministic-vs-probabilistic-ai",
+          "label": "決定論的AIと確率論的AIのパラダイム対比",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/deterministic-vs-probabilistic-ai.md",
+          "raw_targets": [
+            "deterministic-vs-probabilistic-ai"
+          ],
+          "display_labels": [
+            "deterministic-vs-probabilistic-ai"
+          ],
+          "mentions": [
+            {
+              "raw_target": "deterministic-vs-probabilistic-ai",
+              "label": "deterministic-vs-probabilistic-ai",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "deterministic-vs-probabilistic-ai"
+          ]
         }
       ]
     },
@@ -301305,6 +301511,22 @@
               "resolved_via": "slug"
             }
           ]
+        },
+        {
+          "id": "learned-model-amortization-of-optimization-cost",
+          "label": "学習モデルによる最適化コストの償却",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/learned-model-amortization-of-optimization-cost.md",
+          "mentions": [
+            {
+              "raw_target": "test-time-compute",
+              "label": "test-time-compute",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ]
         }
       ],
       "outbound": [
@@ -336503,6 +336725,22 @@
             "label": "constraint-driven-computation-and-precision-weighted-inference",
             "section": "関連コンセプト",
             "line": 57,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "learned-model-amortization-of-optimization-cost",
+        "label": "学習モデルによる最適化コストの償却",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/learned-model-amortization-of-optimization-cost.md",
+        "mentions": [
+          {
+            "raw_target": "constraint-driven-computation-and-precision-weighted-inference",
+            "label": "constraint-driven-computation-and-precision-weighted-inference",
+            "section": "関連概念",
+            "line": 29,
             "resolved_via": "slug"
           }
         ]
@@ -393887,6 +394125,22 @@
     ],
     "deterministic-vs-probabilistic-ai": [
       {
+        "id": "learned-model-amortization-of-optimization-cost",
+        "label": "学習モデルによる最適化コストの償却",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/learned-model-amortization-of-optimization-cost.md",
+        "mentions": [
+          {
+            "raw_target": "deterministic-vs-probabilistic-ai",
+            "label": "deterministic-vs-probabilistic-ai",
+            "section": "関連概念",
+            "line": 29,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "certifiability-gap-of-probabilistic-systems",
         "label": "確率的システムの認証不能性と検証可能境界",
         "resolved": true,
@@ -394562,7 +394816,24 @@
         ]
       }
     ],
-    "digital-twins-in-fusion-engineering": [],
+    "digital-twins-in-fusion-engineering": [
+      {
+        "id": "learned-model-amortization-of-optimization-cost",
+        "label": "学習モデルによる最適化コストの償却",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/learned-model-amortization-of-optimization-cost.md",
+        "mentions": [
+          {
+            "raw_target": "digital-twins-in-fusion-engineering",
+            "label": "digital-twins-in-fusion-engineering",
+            "section": "関連概念",
+            "line": 29,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "digital_transformation": [],
     "disclosure-saturation-and-trust-based-selection-pressure": [
       {
@@ -402161,6 +402432,22 @@
       }
     ],
     "front-loaded-cost-and-operational-gain-offset": [
+      {
+        "id": "learned-model-amortization-of-optimization-cost",
+        "label": "学習モデルによる最適化コストの償却",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/learned-model-amortization-of-optimization-cost.md",
+        "mentions": [
+          {
+            "raw_target": "front-loaded-cost-and-operational-gain-offset",
+            "label": "front-loaded-cost-and-operational-gain-offset",
+            "section": "関連概念",
+            "line": 29,
+            "resolved_via": "slug"
+          }
+        ]
+      },
       {
         "id": "experiment-learning-reinforcing-cycle-and-capability-staging",
         "label": "実験と組織学習の相互強化サイクルと能力の段階的形成",
@@ -410714,6 +411001,7 @@
     "leader-ai-literacy-appropriation": [],
     "lean-manufacturing-and-industry-4-0": [],
     "lean-thinking-evolution": [],
+    "learned-model-amortization-of-optimization-cost": [],
     "legal-sports-isomorphic-evolution": [],
     "legal-wrapper-as-coordination-and-liability-anchor": [
       {
@@ -425034,6 +425322,22 @@
             "label": "test-time-compute",
             "section": "関連概念",
             "line": 51,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "learned-model-amortization-of-optimization-cost",
+        "label": "学習モデルによる最適化コストの償却",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/learned-model-amortization-of-optimization-cost.md",
+        "mentions": [
+          {
+            "raw_target": "test-time-compute",
+            "label": "test-time-compute",
+            "section": "関連概念",
+            "line": 29,
             "resolved_via": "slug"
           }
         ]

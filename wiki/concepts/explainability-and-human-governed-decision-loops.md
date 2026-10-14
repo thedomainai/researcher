@@ -94,3 +94,8 @@ Niguseらの章[5]は、地政学的混乱を旅行・観光プラットフォ�
    `raw/papers/finance_corporate/geopolitical-risk-ai-driven-strategic-adaptation-and-financial-resilience-in-glo.md`
 6. Explainable AI in Corporate Finance: A SHAP-Based Approach to Enhancing Transparency — Aryan Amrollah Majdabadi, Hamid Mostofi (2026)
    `raw/papers/finance_corporate/explainable-ai-in-corporate-finance-a-shap-based-approach-to-enhancing-transpare.md`
+
+## 追加ソース（2026-10-15）
+
+* **タイトル**: Design Research on an AI-Assisted Everyday Food Therapy Service System: A Case Study of the "Food Rhythm" Digital Food Therapy 4S Store (2026)
+  **ファイルパス**: `raw/papers/hci/design-research-on-an-ai-assisted-everyday-food-therapy-service-system-a-case-st.md`

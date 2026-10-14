@@ -5033,6 +5033,12 @@
   "title_en": "Evolution of Lean Thinking",
   "why": ""
  },
+ "learned-model-amortization-of-optimization-cost": {
+  "at": "2026-10-14T23:09:54+00:00",
+  "summary": "逐次シミュレーション最適化を事前学習済みニューラルネットワークの直接予測に置き換え、学習時に計算コストを一括償却して推論コストを構造的に下げる設計原理である。",
+  "title_en": "Amortization of Optimization Cost via Learned Models",
+  "why": "AI意思決定システムの導入では、シミュレーション精度と推論速度のトレードオフを学習と推論の分離として設計する必要がある。"
+ },
  "legal-sports-isomorphic-evolution": {
   "at": "2026-10-01T09:55:16+00:00",
   "summary": "スポーツガバナンスの機能不全は道徳的退廃ではなく、経済基盤の高度化にルールや組織構造が追いつかない構造的な「バージョン・ラプチャー」である。",

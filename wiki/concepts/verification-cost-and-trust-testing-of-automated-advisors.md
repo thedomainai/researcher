@@ -98,3 +98,8 @@ Ding(2026)はAI導入が企業の国際化の範囲・速度・リズムを高�
    - File: raw/papers/corporate_governance/artificial-intelligence-adoption-and-corporate-internationalization-process-evid.md
 5. Michael Oyedele Oyenuga (2026)「Policy Design for AI-Enabled Higher Institutions」
    - File: raw/papers/corporate_governance/policy-design-for-ai-enabled-higher-institutions.md
+
+## 追加ソース（2026-10-15）
+
+* **タイトル**: Evaluating the Trustworthiness of AI-Generated UX Feedback Across Multiple LLMs (2026)
+  **ファイルパス**: `raw/papers/hci/evaluating-the-trustworthiness-of-ai-generated-ux-feedback-across-multiple-llms.md`

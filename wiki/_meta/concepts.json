@@ -25991,5 +25991,26 @@
     ],
     "domain": "philosophy",
     "compiled_at": "2026-10-13"
+  },
+  {
+    "slug": "learned-model-amortization-of-optimization-cost",
+    "title_ja": "学習モデルによる最適化コストの償却",
+    "title_en": "Amortized Optimization via Learned Models",
+    "description": "計算コストの高い逐次シミュレーション最適化を、事前学習済みニューラルネットワークによる直接予測に置き換えることで、推論時のコストを構造的に償却する設計原理",
+    "mechanisms": [
+      "計算コストの償却",
+      "事前学習と推論の分離",
+      "物理モデルとパターン認識のトレードオフ"
+    ],
+    "related_sources": [
+      1,
+      2
+    ],
+    "source_files": [
+      "raw/papers/operations_research/accelerating-field-development-planning-with-generative-ai-a-transformer-based-f.md",
+      "raw/papers/operations_research/ai-driven-reservoir-modeling-for-field-scale-production-optimization-in-a-mature.md"
+    ],
+    "domain": "operations_research",
+    "compiled_at": "2026-10-15"
   }
 ]
