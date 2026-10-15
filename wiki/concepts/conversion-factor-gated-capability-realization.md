@@ -80,3 +80,8 @@ AI Nativeな社会設計では、AIツールの配布やAIリテラシー教育�
    File: raw/papers/sociology/turning-schools-into-ai-testing-grounds-and-sites-of-extraction-the-strategic-se.md
 7. The geopolitics of Artificial Intelligence: Technological Dependence and Digital Sovereignty in Developing States — Gulira'no Abdullayeva (2026)
    File: raw/papers/sociology/the-geopolitics-of-artificial-intelligence-technological-dependence-and-digital-.md
+
+## 追加ソース（2026-10-16）
+
+* **タイトル**: Beyond Technocentrism in AI-Supported Special Education: The PAISEN Model of Teacher-Mediated Inclusive Learning (2026)
+  **ファイルパス**: `raw/papers/hci/beyond-technocentrism-in-ai-supported-special-education-the-paisen-model-of-teac.md`

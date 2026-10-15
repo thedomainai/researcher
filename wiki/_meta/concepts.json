@@ -26012,5 +26012,45 @@
     ],
     "domain": "operations_research",
     "compiled_at": "2026-10-15"
+  },
+  {
+    "slug": "perspective-fidelity-factual-validity-decoupling",
+    "title_ja": "視点忠実性と事実妥当性の構造的分離",
+    "title_en": "Perspective Fidelity–Factual Validity Decoupling",
+    "description": "非対称な知能間の協働では、相手の視点を忠実に再構成できることと、その内容が外部参照に対して事実として妥当であることは原理的に異なる軸であり、一方の達成は他方を保証しない。",
+    "mechanisms": [
+      "認識論的非対称性",
+      "再構成と外部検証の分離",
+      "訂正フィードバックループ",
+      "変化の由来保持"
+    ],
+    "related_sources": [
+      2
+    ],
+    "source_files": [
+      "raw/papers/hci/transformative-mirroring-constrained-divergence-correction-and-theoretical-frami.md"
+    ],
+    "domain": "hci",
+    "compiled_at": "2026-10-16"
+  },
+  {
+    "slug": "simultaneous-multi-constraint-portfolio-optimization",
+    "title_ja": "結合系の同時制約最適化による逐次的人間判断の代替",
+    "title_en": "Simultaneous Multi-Constraint Optimization of Coupled Units Replacing Sequential Human Review",
+    "description": "個別ユニットを順番に見直す人間的・逐次的な意思決定プロセスを、リアルタイムモデルに基づき複数の制約（資源管理・系統の健全性・設備限界）を同時に満たしながらポートフォリオ全体を最適化する自律系へ置き換える構造的原理。",
+    "mechanisms": [
+      "リアルタイムモデルベース制御",
+      "制約充足型同時最適化",
+      "逐次処理から並列処理への移行",
+      "フィードバックによる継続的再調整"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/operations_management/from-manual-to-autonomous-field-experience-and-lessons-learned-from-implementing.md"
+    ],
+    "domain": "operations_management",
+    "compiled_at": "2026-10-16"
   }
 ]

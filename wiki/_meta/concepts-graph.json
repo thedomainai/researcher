@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-15T08:09:42.223050",
+  "generated_at": "2026-10-16T06:09:18.363673",
   "summary": {
-    "articles_scanned": 1312,
-    "nodes": 3582,
-    "resolved_nodes": 1312,
+    "articles_scanned": 1314,
+    "nodes": 3584,
+    "resolved_nodes": 1314,
     "unresolved_nodes": 2270,
-    "edges": 6559,
-    "resolved_edges": 3599,
+    "edges": 6565,
+    "resolved_edges": 3605,
     "unresolved_edges": 2960,
-    "link_mentions": 6857,
-    "valid_source_refs": 2156,
+    "link_mentions": 6863,
+    "valid_source_refs": 2161,
     "invalid_source_refs": 117,
-    "isolated_concepts": 82
+    "isolated_concepts": 83
   },
   "nodes": [
     {
@@ -14858,9 +14858,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 4,
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "human-ai-interaction-hci",
@@ -16882,9 +16882,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 9,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "distributed-responsibility-and-answerability-anchoring",
@@ -26748,9 +26748,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 4,
+      "inbound_count": 5,
       "outbound_count": 8,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "fluency-induced-trust-miscalibration",
@@ -27276,9 +27276,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 9,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "worker-driven-tacit-knowledge-capture",
@@ -30787,6 +30787,34 @@
       "degree": 8
     },
     {
+      "id": "simultaneous-multi-constraint-portfolio-optimization",
+      "slug": "simultaneous-multi-constraint-portfolio-optimization",
+      "label": "結合系の同時制約最適化による逐次的人間判断の代替",
+      "title": "結合系の同時制約最適化による逐次的人間判断の代替",
+      "title_ja": "結合系の同時制約最適化による逐次的人間判断の代替",
+      "title_en": "Simultaneous Multi-Constraint Optimization of Coupled Units Replacing Sequential Human Review",
+      "tier": null,
+      "description": "個別ユニットを順番に見直す人間的・逐次的な意思決定プロセスを、リアルタイムモデルに基づき複数の制約（資源管理・系統の健全性・設備限界）を同時に満たしながらポートフォリオ全体を最適化する自律系へ置き換える構造的原理。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/simultaneous-multi-constraint-portfolio-optimization.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Simultaneous Multi-Constraint Optimization of Coupled Units Replacing Sequential Human Review",
+        "simultaneous-multi-constraint-portfolio-optimization",
+        "結合系の同時制約最適化による逐次的人間判断の代替",
+        "結合系の同時制約最適化による逐次的人間判断の代替 (Simultaneous Multi-Constraint Optimization of Coupled Units Replacing Sequential Human Review)",
+        "結合系の同時制約最適化による逐次的人間判断の代替(Simultaneous Multi-Constraint Optimization of Coupled Units Replacing Sequential Human Review)",
+        "結合系の同時制約最適化による逐次的人間判断の代替（Simultaneous Multi-Constraint Optimization of Coupled Units Replacing Sequential Human Review）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
+    },
+    {
       "id": "cognitive-coupling-system-boundary",
       "slug": "cognitive-coupling-system-boundary",
       "label": "結合認知システムにおける能力のシステム境界帰属",
@@ -33116,6 +33144,34 @@
       "degree": 13
     },
     {
+      "id": "perspective-fidelity-factual-validity-decoupling",
+      "slug": "perspective-fidelity-factual-validity-decoupling",
+      "label": "視点忠実性と事実妥当性の構造的分離",
+      "title": "視点忠実性と事実妥当性の構造的分離",
+      "title_ja": "視点忠実性と事実妥当性の構造的分離",
+      "title_en": "Perspective Fidelity–Factual Validity Decoupling",
+      "tier": null,
+      "description": "非対称な知能間の協働では、相手の視点を忠実に再構成できることと、その内容が外部参照に対して事実として妥当であることは原理的に異なる軸であり、一方の達成は他方を保証しない。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/perspective-fidelity-factual-validity-decoupling.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Perspective Fidelity–Factual Validity Decoupling",
+        "perspective-fidelity-factual-validity-decoupling",
+        "視点忠実性と事実妥当性の構造的分離",
+        "視点忠実性と事実妥当性の構造的分離 (Perspective Fidelity–Factual Validity Decoupling)",
+        "視点忠実性と事実妥当性の構造的分離(Perspective Fidelity–Factual Validity Decoupling)",
+        "視点忠実性と事実妥当性の構造的分離（Perspective Fidelity–Factual Validity Decoupling）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 6,
+      "degree": 6
+    },
+    {
       "id": "capacity-release-without-allocation-decision",
       "slug": "capacity-release-without-allocation-decision",
       "label": "解放された能力の配分決定なき価値不在",
@@ -34400,9 +34456,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 4,
+      "inbound_count": 5,
       "outbound_count": 9,
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "explanation-verification-refinement-loop",
@@ -34430,9 +34486,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 9,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "uncertainty-in-explainable-ai",
@@ -236642,6 +236698,192 @@
       ],
       "ambiguous": false,
       "candidates": []
+    },
+    {
+      "id": "perspective-fidelity-factual-validity-decoupling->error-correcting-feedback-and-staged-refinement",
+      "source": "perspective-fidelity-factual-validity-decoupling",
+      "target": "error-correcting-feedback-and-staged-refinement",
+      "source_label": "視点忠実性と事実妥当性の構造的分離",
+      "target_label": "誤差修正フィードバックと段階的精緻化",
+      "source_file": "concepts/perspective-fidelity-factual-validity-decoupling.md",
+      "target_file": "concepts/error-correcting-feedback-and-staged-refinement.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "error-correcting-feedback-and-staged-refinement"
+      ],
+      "display_labels": [
+        "error-correcting-feedback-and-staged-refinement"
+      ],
+      "mentions": [
+        {
+          "raw_target": "error-correcting-feedback-and-staged-refinement",
+          "label": "error-correcting-feedback-and-staged-refinement",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "error-correcting-feedback-and-staged-refinement"
+      ]
+    },
+    {
+      "id": "perspective-fidelity-factual-validity-decoupling->explanation-verification-refinement-loop",
+      "source": "perspective-fidelity-factual-validity-decoupling",
+      "target": "explanation-verification-refinement-loop",
+      "source_label": "視点忠実性と事実妥当性の構造的分離",
+      "target_label": "説明・予測検証・知識洗練の閉ループによる不確実性下の推論",
+      "source_file": "concepts/perspective-fidelity-factual-validity-decoupling.md",
+      "target_file": "concepts/explanation-verification-refinement-loop.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "explanation-verification-refinement-loop"
+      ],
+      "display_labels": [
+        "explanation-verification-refinement-loop"
+      ],
+      "mentions": [
+        {
+          "raw_target": "explanation-verification-refinement-loop",
+          "label": "explanation-verification-refinement-loop",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "explanation-verification-refinement-loop"
+      ]
+    },
+    {
+      "id": "perspective-fidelity-factual-validity-decoupling->fluency-persuasion-validity-decoupling",
+      "source": "perspective-fidelity-factual-validity-decoupling",
+      "target": "fluency-persuasion-validity-decoupling",
+      "source_label": "視点忠実性と事実妥当性の構造的分離",
+      "target_label": "流暢性と妥当性の分離による判断埋め込み出力の認知再編",
+      "source_file": "concepts/perspective-fidelity-factual-validity-decoupling.md",
+      "target_file": "concepts/fluency-persuasion-validity-decoupling.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "fluency-persuasion-validity-decoupling"
+      ],
+      "display_labels": [
+        "fluency-persuasion-validity-decoupling"
+      ],
+      "mentions": [
+        {
+          "raw_target": "fluency-persuasion-validity-decoupling",
+          "label": "fluency-persuasion-validity-decoupling",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "fluency-persuasion-validity-decoupling"
+      ]
+    },
+    {
+      "id": "perspective-fidelity-factual-validity-decoupling->human-ai-common-ground",
+      "source": "perspective-fidelity-factual-validity-decoupling",
+      "target": "human-ai-common-ground",
+      "source_label": "視点忠実性と事実妥当性の構造的分離",
+      "target_label": "人間とAIの相互インタラクションにおける共通基盤",
+      "source_file": "concepts/perspective-fidelity-factual-validity-decoupling.md",
+      "target_file": "concepts/human-ai-common-ground.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "human-ai-common-ground"
+      ],
+      "display_labels": [
+        "human-ai-common-ground"
+      ],
+      "mentions": [
+        {
+          "raw_target": "human-ai-common-ground",
+          "label": "human-ai-common-ground",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "human-ai-common-ground"
+      ]
+    },
+    {
+      "id": "perspective-fidelity-factual-validity-decoupling->independent-interpretation-divergence-and-alignment-frame",
+      "source": "perspective-fidelity-factual-validity-decoupling",
+      "target": "independent-interpretation-divergence-and-alignment-frame",
+      "source_label": "視点忠実性と事実妥当性の構造的分離",
+      "target_label": "独立した解釈実装の乖離と調整枠組み",
+      "source_file": "concepts/perspective-fidelity-factual-validity-decoupling.md",
+      "target_file": "concepts/independent-interpretation-divergence-and-alignment-frame.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "independent-interpretation-divergence-and-alignment-frame"
+      ],
+      "display_labels": [
+        "independent-interpretation-divergence-and-alignment-frame"
+      ],
+      "mentions": [
+        {
+          "raw_target": "independent-interpretation-divergence-and-alignment-frame",
+          "label": "independent-interpretation-divergence-and-alignment-frame",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "independent-interpretation-divergence-and-alignment-frame"
+      ]
+    },
+    {
+      "id": "perspective-fidelity-factual-validity-decoupling->provenance-independent-validity-and-trust-value-collapse",
+      "source": "perspective-fidelity-factual-validity-decoupling",
+      "target": "provenance-independent-validity-and-trust-value-collapse",
+      "source_label": "視点忠実性と事実妥当性の構造的分離",
+      "target_label": "出自非依存の妥当性と信頼価値の崩壊",
+      "source_file": "concepts/perspective-fidelity-factual-validity-decoupling.md",
+      "target_file": "concepts/provenance-independent-validity-and-trust-value-collapse.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "provenance-independent-validity-and-trust-value-collapse"
+      ],
+      "display_labels": [
+        "provenance-independent-validity-and-trust-value-collapse"
+      ],
+      "mentions": [
+        {
+          "raw_target": "provenance-independent-validity-and-trust-value-collapse",
+          "label": "provenance-independent-validity-and-trust-value-collapse",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "provenance-independent-validity-and-trust-value-collapse"
+      ]
     },
     {
       "id": "pgg-with-game-transitions->dangling:3473e853b955",

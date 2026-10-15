@@ -6023,6 +6023,12 @@
   "title_en": "Personalized Clinical Decision-Making in Acute Ischemic Stroke",
   "why": "データ駆動型の個別化医療を進める医療機関は、多様な患者データを統合する基盤整備が求められる。"
  },
+ "perspective-fidelity-factual-validity-decoupling": {
+  "at": "2026-10-15T21:09:26+00:00",
+  "summary": "受け手が送り手の視点をどれだけ忠実に再構成できたかと、その内容が事実として正しいかは異なる検証プロセスを要する別軸であり、一方の達成は他方を保証しない。",
+  "title_en": "Perspective Fidelity vs Factual Validity",
+  "why": "AIが相手の立場を正確に理解しているように見えても、その内容が正しいとは限らないため、理解の評価と事実検証を別工程として設計する必要がある。"
+ },
  "pgg-with-game-transitions": {
   "at": "2026-10-01T10:00:08+00:00",
   "summary": "公共財ゲームにプレイヤーの協力度が環境状態を変化させ、変化した環境が再びゲームのルールに影響する双方向フィードバックを組み込んだモデルである。",
@@ -6826,6 +6832,12 @@
   "summary": "現実のシステムを模倣するモデルを構築し、統計的分析を通じて効率性や有効性を低コストで検証し意思決定を支える体系的手法である。",
   "title_en": "Simulation Model Development and Use",
   "why": "複雑な意思決定をリスクを抑えて検証できるため、組織の施策導入前の検証基盤として活用できる。"
+ },
+ "simultaneous-multi-constraint-portfolio-optimization": {
+  "at": "2026-10-15T21:09:26+00:00",
+  "summary": "個別ユニットを人間が順に見直す逐次的意思決定を、結合系全体を複数制約下でリアルタイムに同時最適化する自律系へ置き換える構造的原理である。",
+  "title_en": "Simultaneous Multi-Constraint Portfolio Optimization",
+  "why": "個別最適化の積み上げでは全体最適を保証できないため、ユニット間の結合をモデル化し制約充足を保ったまま並行処理する設計へ転換すべきである。"
  },
  "single-objective-optimization-misalignment-and-autonomy-risk": {
   "at": "2026-10-01T10:04:18+00:00",

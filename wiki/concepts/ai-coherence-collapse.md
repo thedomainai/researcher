@@ -32,3 +32,8 @@ AIコヒーレンス崩壊とは、大規模言語モデル（LLM）の出力に
 ## 参考ソース
 
 *   SIP-AI-08 Ontological Non-Determinism and the Geometry of Coherence Collapse (raw/SIP-AI-08 Ontological Non-Determinism and the Geometry of Coherence Collapse.md)
+
+## 追加ソース（2026-10-16）
+
+* **タイトル**: Structural AI Interpretability: A Geometry‑First Framework for Hallucination Detection, Drift Analysis, and Silicon‑Level Governance — Preprint v1.0 (Architecture Edition) (2026)
+  **ファイルパス**: `raw/papers/ai_governance/structural-ai-interpretability-a-geometryfirst-framework-for-hallucination-detec.md`
