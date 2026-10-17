@@ -1,6 +1,57 @@
 {
-  "last_fetch_date": "2026-10-16",
-  "last_fetch_count": 10,
-  "last_fetch_time": "2026-10-16T06:06:09.865873",
-  "retry_queue": []
+  "last_fetch_date": "2026-10-17",
+  "last_fetch_count": 9,
+  "last_fetch_time": "2026-10-17T12:03:16.718436",
+  "retry_queue": [
+    {
+      "domain": "complexity_science",
+      "query": "complex adaptive systems artificial intelligence",
+      "since": "2026-10-16"
+    },
+    {
+      "domain": "complexity_science",
+      "query": "cybernetics AI system",
+      "since": "2026-10-16"
+    },
+    {
+      "domain": "complexity_science",
+      "query": "emergence multi-agent systems",
+      "since": "2026-10-16"
+    },
+    {
+      "domain": "complexity_science",
+      "query": "self-organization AI",
+      "since": "2026-10-16"
+    },
+    {
+      "domain": "complexity_science",
+      "query": "systems thinking artificial intelligence",
+      "since": "2026-10-16"
+    },
+    {
+      "domain": "psychology",
+      "query": "creativity AI collaboration",
+      "since": "2026-10-16"
+    },
+    {
+      "domain": "psychology",
+      "query": "flow experience technology AI",
+      "since": "2026-10-16"
+    },
+    {
+      "domain": "psychology",
+      "query": "self-determination theory AI technology",
+      "since": "2026-10-16"
+    },
+    {
+      "domain": "psychology",
+      "query": "self-efficacy artificial intelligence",
+      "since": "2026-10-16"
+    },
+    {
+      "domain": "psychology",
+      "query": "trust automation AI",
+      "since": "2026-10-16"
+    }
+  ]
 }

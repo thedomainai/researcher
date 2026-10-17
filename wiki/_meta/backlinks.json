@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-16T06:09:18.363673",
+  "generated_at": "2026-10-17T12:05:33.482851",
   "summary": {
-    "articles_scanned": 1314,
-    "nodes": 3584,
-    "resolved_nodes": 1314,
+    "articles_scanned": 1315,
+    "nodes": 3585,
+    "resolved_nodes": 1315,
     "unresolved_nodes": 2270,
     "edges": 6565,
     "resolved_edges": 3605,
     "unresolved_edges": 2960,
     "link_mentions": 6863,
-    "valid_source_refs": 2161,
+    "valid_source_refs": 2164,
     "invalid_source_refs": 117,
-    "isolated_concepts": 83
+    "isolated_concepts": 84
   },
   "nodes": {
     "absorption-capacity-bottleneck-saturation": {
@@ -235035,6 +235035,16 @@
         }
       ]
     },
+    "meta-evolutionary-self-revision": {
+      "id": "meta-evolutionary-self-revision",
+      "slug": "meta-evolutionary-self-revision",
+      "label": "進化規則の自己改訂(メタ進化)",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/meta-evolutionary-self-revision.md",
+      "inbound": [],
+      "outbound": []
+    },
     "metacognition": {
       "id": "metacognition",
       "slug": "metacognition",
@@ -412715,6 +412725,7 @@
       }
     ],
     "meta-analysis-of-dialogue-research": [],
+    "meta-evolutionary-self-revision": [],
     "metacognition": [
       {
         "id": "reflective-use-of-ai",

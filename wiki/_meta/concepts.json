@@ -26052,5 +26052,25 @@
     ],
     "domain": "operations_management",
     "compiled_at": "2026-10-16"
+  },
+  {
+    "slug": "meta-evolutionary-self-revision",
+    "title_ja": "進化規則の自己改訂(メタ進化)",
+    "title_en": "Meta-Evolutionary Self-Revision of Selection Rules",
+    "description": "適応システムが自身の進化履歴を学習し、変異・選択・組換え・淘汰のルール自体を自己確認的最適化に陥らずに書き換える構造的メカニズム",
+    "mechanisms": [
+      "自己言及的フィードバック",
+      "二階の選択",
+      "自己確認バイアスの回避",
+      "進化可能性の進化"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/evolutionary_biology/tri-coupling-system-evolution-theory-iii-meta-evolution-ecology-learning-self-re.md"
+    ],
+    "domain": "evolutionary_biology",
+    "compiled_at": "2026-10-17"
   }
 ]

@@ -25,3 +25,8 @@
 ## 参考ソース
 
 * S-TCO: A Sustainable Teacher Context Ontology for Educational Support Systems (S-TCO: A Sustainable Teacher Context Ontology for Educational Support Systems.md)
+
+## 追加ソース（2026-10-17）
+
+* **タイトル**: THE ROLE OF ARTIFICIAL INTELLIGENCE IN LEARNING MANAGEMENT SYSTEMS (2026)
+  **ファイルパス**: `raw/papers/operations_management/the-role-of-artificial-intelligence-in-learning-management-systems.md`

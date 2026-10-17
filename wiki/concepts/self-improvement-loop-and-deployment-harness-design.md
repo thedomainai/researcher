@@ -53,3 +53,8 @@ AI Nativeな設計にとって重要なのは、このループの主戦場が�
 
 1. Lilian Weng (2026). *Harness Engineering for Self-Improvement*. File: `raw/articles/harness-engineering-for-self-improvement.md`
 2. Mohammad Talha Siddiqui, usuf Kamal (2026). *Responsible Automation in E-business: A Framework for Agentic AI Integration and Governance*. File: `raw/papers/systems_engineering/responsible-automation-in-e-business-a-framework-for-agentic-ai-integration-and-.md`
+
+## 追加ソース（2026-10-17）
+
+* **タイトル**: Agents Build Worlds for Agents, Agents Hunt Agents in Worlds (2026)
+  **ファイルパス**: `raw/papers/ai_governance/agents-build-worlds-for-agents-agents-hunt-agents-in-worlds.md`
