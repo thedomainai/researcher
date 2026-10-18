@@ -51,3 +51,8 @@ AI指向性がイノベーションスピードにもたらす効果は、企業
 * **タイトル**: Harnessing Ai For Speed: A Dynamic Capabilities View On How Ai Orientation Accelerates Innovation
 * **著者**: Annika Arbitter, Julie Saesen, Steffen Strese (2026)
 * **ファイルパス**: `raw/Harnessing_Ai_For_Speed_A_Dynamic_Capabilities_View_On_How_Ai_Orientation_Accelerates_Innovation`
+
+## 追加ソース（2026-10-19）
+
+* **タイトル**: A Framework for Building Resilience with Adaptive Leadership and AI Readiness in Contemporary South Asian Organizations (2026)
+  **ファイルパス**: `raw/papers/leadership_ob/a-framework-for-building-resilience-with-adaptive-leadership-and-ai-readiness-in.md`

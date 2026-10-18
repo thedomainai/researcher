@@ -77,3 +77,8 @@ Gunaratnegeは、生成AIが著者性や独創性、能力実証の前提を揺�
    File: raw/papers/systems_engineering/socio-technical-framework-for-ai-resilient-assessment-in-information-systems-edu.md
 5. Supply Chain Management Performance, Business Resilience, and AI-Enabled Decision-Making in Lebanon — 著者記載なし (2026)
    File: raw/papers/strategic_management/supply-chain-management-performance-business-resilience-and-ai-enabled-decision-.md
+
+## 追加ソース（2026-10-19）
+
+* **タイトル**: Educational leadership in the context of digital transformationa (2026)
+  **ファイルパス**: `raw/papers/leadership_ob/educational-leadership-in-the-context-of-digital-transformationa.md`

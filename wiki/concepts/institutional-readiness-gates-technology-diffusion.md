@@ -97,3 +97,8 @@ NexusForumのロードマップは、AI・HPC・クラウド・エッジなど�
 
 * **タイトル**: Mapping generative AI governance readiness in Kurdistan Region universities (2026)
   **ファイルパス**: `raw/papers/information_systems/mapping-generative-ai-governance-readiness-in-kurdistan-region-universities.md`
+
+## 追加ソース（2026-10-19）
+
+* **タイトル**: Organizational AI Readiness Maturity Model (AIRMM): A Conceptual Framework Bridging AI Readiness and Maturity Perspectives (2026)
+  **ファイルパス**: `raw/papers/leadership_ob/organizational-ai-readiness-maturity-model-airmm-a-conceptual-framework-bridging.md`

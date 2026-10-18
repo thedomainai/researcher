@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:54:50.532221",
+  "generated_at": "2026-10-19T07:08:42.072955",
   "summary": {
     "articles_scanned": 1316,
     "nodes": 3586,
@@ -9,7 +9,7 @@
     "resolved_edges": 3605,
     "unresolved_edges": 2960,
     "link_mentions": 6863,
-    "valid_source_refs": 2166,
+    "valid_source_refs": 2169,
     "invalid_source_refs": 117,
     "isolated_concepts": 85
   },
