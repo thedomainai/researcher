@@ -6065,6 +6065,12 @@
   "title_en": "Platform Governance and Engagement",
   "why": "AIを組み込むプラットフォームでも、説明責任の欠如やエンゲージメント偏重設計が社会的分断を招くリスクに注意が要る。"
  },
+ "platform-mediated-creative-work-embeddedness": {
+  "at": "2026-10-18T04:55:10+00:00",
+  "summary": "創造企業家活動の成否は才能だけでなく、アイデンティティ・関係資本・プラットフォーム統治・文化的正当性に依存し、経済活動と搾取構造は同じ関係的過程から分離不能に生じる。",
+  "title_en": "Social Embeddedness of Platform-Mediated Creative Labor",
+  "why": "AIが創造労働の評価・配分を担う際、効率化と同時に新たな支配・不可視化の構造を生む危険を見過ごしてはならない。"
+ },
  "plausibility-optimized-synthetic-cognition": {
   "at": "2026-10-01T10:00:12+00:00",
   "summary": "AIシステムは現実との接地や自己修正の検証機構を欠いたまま、言語的な首尾一貫性だけが突出した説得力ある出力を生成しうるという理論的枠組みである。",

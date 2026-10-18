@@ -26072,5 +26072,25 @@
     ],
     "domain": "evolutionary_biology",
     "compiled_at": "2026-10-17"
+  },
+  {
+    "slug": "platform-mediated-creative-work-embeddedness",
+    "title_ja": "プラットフォーム媒介型創造労働の社会的埋め込み",
+    "title_en": "Social Embeddedness of Platform-Mediated Creative Entrepreneurial Work",
+    "description": "創造的企業家活動がアイデンティティ構築・関係資本・プラットフォーム統治・文化的正当性・制度的埋め込みという複数層の社会関係に不可分に組み込まれており、経済活動と搾取構造が分析的に分離できない構造を持つという原理。",
+    "mechanisms": [
+      "社会的埋め込み",
+      "プラットフォームガバナンスによる統制",
+      "文化的正当性の配分",
+      "多層的制度的埋め込み"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/entrepreneurship/creative-entrepreneurship-as-a-socially-embedded-form-of-work-a-sociological-eco.md"
+    ],
+    "domain": "entrepreneurship",
+    "compiled_at": "2026-10-18"
   }
 ]

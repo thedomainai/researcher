@@ -82,3 +82,8 @@ Ballester(2026)は、カードベースのシリアスゲーム「Leading in the
    `raw/papers/operations_research/online-game-features-and-player-immersive-use.md`
 5. From Virtual Aggression to School Aggression: A Conceptual Model of Online Gaming, Moral Disengagement, Emotional Dysregulation, and Adolescent Violence — Ramon George O. Atento, Leah F. Quinto, Andrea Gwyneth Atento (2026)
    `raw/papers/operations_research/from-virtual-aggression-to-school-aggression-a-conceptual-model-of-online-gaming.md`
+
+## 追加ソース（2026-10-18）
+
+* **タイトル**: Artificial Intelligence and Digital Transformation in Higher Education: A Systematic Review of Opportunities, Challenges and Emerging Trends (2026)
+  **ファイルパス**: `raw/papers/leadership_ob/artificial-intelligence-and-digital-transformation-in-higher-education-a-systema.md`
