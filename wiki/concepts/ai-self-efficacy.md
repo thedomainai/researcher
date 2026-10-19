@@ -91,3 +91,8 @@ Winarni, Erwanto, & Hidayati（2026）は、自動化とAIの急速な発展が�
 2. Thompson, D. H., & Wilderman, M. (2026). *Artificial Intelligence Chatbots and Self-Efficacy in the Journalism Classroom.* DOI: [10.1177/10776958261428572](https://doi.org/10.1177/10776958261428572)
 3. Aydın, B., Saruhan, Y., & Saruhan, U. (2026). *Teachers' Artificial Intelligence Anxiety and Psychological Well-Being: The Mediating Role of Artificial Intelligence Self-Efficacy and Attitude.* DOI: [10.21203/rs.3.rs-8947045/v1](https://doi.org/10.21203/rs.3.rs-8947045/v1)
 4. Winarni, I., Erwanto, E., & Hidayati, I. (2026). *The Relationship between Career Anxiety and Digital Competence with Students' Self-Efficacy in the Era of Automation and Artificial Intelligence.* DOI: [10.58421/misro.v5i1.1161](https://doi.org/10.58421/misro.v5i1.1161)
+
+## 追加ソース（2026-10-20）
+
+* **タイトル**: A study of the impact of AI-employee collaboration on employee innovation behavior (2026)
+  **ファイルパス**: `raw/papers/complexity_science/a-study-of-the-impact-of-ai-employee-collaboration-on-employee-innovation-behavi.md`

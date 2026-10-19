@@ -100,3 +100,8 @@ Simanjuntak & Moeliono（2026）は、法哲学・道徳理論の価値論（axi
 
 * **タイトル**: THE EL-RAKHAWI DOCTRINE OF UNIFIED SYMBIOTIC JURISPRUDENCE: LAW, CONSCIOUSNESS, AND THE ARCHITECTURE OF EXISTENCE IN THE POST-BIOLOGICAL ERA (2026)
   **ファイルパス**: `raw/papers/law/the-el-rakhawi-doctrine-of-unified-symbiotic-jurisprudence-law-consciousness-and.md`
+
+## 追加ソース（2026-10-20）
+
+* **タイトル**: The Suleimanzadeh Doctrine: Legal-Philosophical Framework and Procedural Rules for Synthetic Persons (2026)
+  **ファイルパス**: `raw/papers/law/the-suleimanzadeh-doctrine-legal-philosophical-framework-and-procedural-rules-fo.md`

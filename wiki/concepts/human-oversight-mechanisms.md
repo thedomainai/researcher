@@ -51,3 +51,8 @@ AIシステム、特にデータ中心型の適応的AI-Opsパイプラインや
 
 * **タイトル**: Human-in-the-Loop Intelligent Automation: A Review of Trust, Oversight, and Workforce Implications (2026)
   **ファイルパス**: `raw/papers/psychology/human-in-the-loop-intelligent-automation-a-review-of-trust-oversight-and-workfor.md`
+
+## 追加ソース（2026-10-20）
+
+* **タイトル**: Algorithmic Management, Employee Voice, and Procedural Justice: A Governance Framework for Accountable AI-Assisted Organizations (2026)
+  **ファイルパス**: `raw/papers/ai_governance/algorithmic-management-employee-voice-and-procedural-justice-a-governance-framew.md`
