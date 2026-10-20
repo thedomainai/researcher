@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-20T06:08:27.871422",
+  "generated_at": "2026-10-21T06:07:34.288858",
   "summary": {
-    "articles_scanned": 1316,
-    "nodes": 3586,
-    "resolved_nodes": 1316,
+    "articles_scanned": 1317,
+    "nodes": 3587,
+    "resolved_nodes": 1317,
     "unresolved_nodes": 2270,
     "edges": 6565,
     "resolved_edges": 3605,
     "unresolved_edges": 2960,
     "link_mentions": 6863,
-    "valid_source_refs": 2172,
+    "valid_source_refs": 2175,
     "invalid_source_refs": 117,
-    "isolated_concepts": 85
+    "isolated_concepts": 86
   },
   "nodes": [
     {
@@ -28432,6 +28432,34 @@
       "inbound_count": 2,
       "outbound_count": 8,
       "degree": 10
+    },
+    {
+      "id": "financing-constraint-relief-via-productivity-gain",
+      "slug": "financing-constraint-relief-via-productivity-gain",
+      "label": "生産性向上を介した資金制約緩和による下方リスク低減",
+      "title": "生産性向上を介した資金制約緩和による下方リスク低減",
+      "title_ja": "生産性向上を介した資金制約緩和による下方リスク低減",
+      "title_en": "Financing Constraint Relief via Productivity Gains Reducing Downside Risk",
+      "tier": null,
+      "description": "技術導入が資金制約を緩和し総要素生産性を高めることで、情報の不透明性に起因する極端な下方リスク(クラッシュリスク)を抑制する構造的経路。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/financing-constraint-relief-via-productivity-gain.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Financing Constraint Relief via Productivity Gains Reducing Downside Risk",
+        "financing-constraint-relief-via-productivity-gain",
+        "生産性向上を介した資金制約緩和による下方リスク低減",
+        "生産性向上を介した資金制約緩和による下方リスク低減 (Financing Constraint Relief via Productivity Gains Reducing Downside Risk)",
+        "生産性向上を介した資金制約緩和による下方リスク低減(Financing Constraint Relief via Productivity Gains Reducing Downside Risk)",
+        "生産性向上を介した資金制約緩和による下方リスク低減（Financing Constraint Relief via Productivity Gains Reducing Downside Risk）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
     },
     {
       "id": "role-shift-from-producer-to-curator-and-demand-decoupling",

@@ -123,6 +123,21 @@
     "impressions": 0,
     "position": 0
    }
+  },
+  "2026-10-17": {
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   }
+  },
+  "2026-10-19": {
+   "channels": {
+    "Organic Search": 1
+   },
+   "pv": 1,
+   "sessions": 1,
+   "users": 1
   }
  },
  "sitemaps": [
@@ -155,7 +170,11 @@
   [
    "/researcher/concepts/ai-avatars-and-self-extension/",
    1
+  ],
+  [
+   "/researcher/concepts/political-corporate-social-responsibility/",
+   1
   ]
  ],
- "updated": "2026-10-19T07:10:05"
+ "updated": "2026-10-20T06:08:48"
 }

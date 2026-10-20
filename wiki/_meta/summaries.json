@@ -3689,6 +3689,12 @@
   "title_en": "Financial Market Equilibrium",
   "why": ""
  },
+ "financing-constraint-relief-via-productivity-gain": {
+  "at": "2026-10-20T21:07:40+00:00",
+  "summary": "企業のAI導入は資金制約緩和と総要素生産性向上を媒介して情報非対称性を縮小し、株価クラッシュリスクという下方リスクを抑制する。",
+  "title_en": "Financing Constraint Relief via Productivity Gain",
+  "why": "AI投資の効果評価には生産性指標だけでなく資金制約緩和や資本市場の尾部リスクへの影響も組み込むべきだ。"
+ },
  "finite-attention-and-heterogeneous-agent-coupling": {
   "at": "2026-10-01T09:50:06+00:00",
   "summary": "注意や能力が有限で非対称な主体同士は、同期や服従ではなく相互予測と段階的調整によって協調が成立する構造を持つ。",

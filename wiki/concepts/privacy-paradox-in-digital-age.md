@@ -31,3 +31,8 @@ Julia LaDukeによる2026年の研究「The privacy paradox: how does concern ab
 ## 参考ソース
 
 *   The privacy paradox: how does concern about privacy impact actions in the digital age? (raw/The privacy paradox; how does concern about privacy impact actions in the digital age_ Julia LaDuke_ 2026.md)
+
+## 追加ソース（2026-10-21）
+
+* **タイトル**: AI-DRIVEN PERSONALIZATION AND USER ACCEPTANCE: THE ROLE OF PERCEIVED RELEVANCE, PRIVACY CONCERNS AND DATA CONTROL (2026)
+  **ファイルパス**: `raw/papers/marketing/ai-driven-personalization-and-user-acceptance-the-role-of-perceived-relevance-pr.md`

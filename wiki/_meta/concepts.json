@@ -26092,5 +26092,25 @@
     ],
     "domain": "entrepreneurship",
     "compiled_at": "2026-10-18"
+  },
+  {
+    "slug": "financing-constraint-relief-via-productivity-gain",
+    "title_ja": "生産性向上を介した資金制約緩和による下方リスク低減",
+    "title_en": "Financing Constraint Relief via Productivity Gains Reducing Downside Risk",
+    "description": "技術導入が資金制約を緩和し総要素生産性を高めることで、情報の不透明性に起因する極端な下方リスク(クラッシュリスク)を抑制する構造的経路。",
+    "mechanisms": [
+      "資金制約緩和",
+      "総要素生産性向上",
+      "情報非対称性縮小",
+      "システムリスク低減"
+    ],
+    "related_sources": [
+      2
+    ],
+    "source_files": [
+      "raw/papers/economics/corporate-artificial-intelligence-and-stock-price-crash-risk-evidence-from-chine.md"
+    ],
+    "domain": "economics",
+    "compiled_at": "2026-10-21"
   }
 ]

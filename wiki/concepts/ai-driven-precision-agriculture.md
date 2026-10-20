@@ -22,3 +22,8 @@ Min Liang, Li Nan, Bi Peng, Gao Boらの2026年の研究「Economic Returns From
 
 ## 参考ソース
 *   Economic Returns From AI‐Driven Precision Agriculture in Degraded Ecosystems: Productivity Effects Measured Using UAV Remote Sensing
+
+## 追加ソース（2026-10-21）
+
+* **タイトル**: Ai-Driven Agricultural Practices And Their Contribution To Rural Economic Growth (2026)
+  **ファイルパス**: `raw/papers/economics/ai-driven-agricultural-practices-and-their-contribution-to-rural-economic-growth.md`
