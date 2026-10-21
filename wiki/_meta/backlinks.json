@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-21T06:07:34.288858",
+  "generated_at": "2026-10-22T06:20:06.780710",
   "summary": {
-    "articles_scanned": 1317,
-    "nodes": 3587,
-    "resolved_nodes": 1317,
+    "articles_scanned": 1319,
+    "nodes": 3589,
+    "resolved_nodes": 1319,
     "unresolved_nodes": 2270,
-    "edges": 6565,
-    "resolved_edges": 3605,
+    "edges": 6579,
+    "resolved_edges": 3619,
     "unresolved_edges": 2960,
-    "link_mentions": 6863,
-    "valid_source_refs": 2175,
+    "link_mentions": 6877,
+    "valid_source_refs": 2183,
     "invalid_source_refs": 117,
     "isolated_concepts": 86
   },
@@ -40207,6 +40207,22 @@
           ]
         },
         {
+          "id": "non-self-escalation-principle",
+          "label": "自己拡張禁止の原則(権限と性能学習の分離)",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/non-self-escalation-principle.md",
+          "mentions": [
+            {
+              "raw_target": "authority-bounding-by-parallel-independent-layers",
+              "label": "authority-bounding-by-parallel-independent-layers",
+              "section": "関連概念",
+              "line": 34,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "self-improvement-loop-and-deployment-harness-design",
           "label": "自己改善ループとハーネス設計",
           "resolved": true,
@@ -50987,6 +51003,22 @@
               "label": "capability-profile-based-task-allocation",
               "section": "関連コンセプト",
               "line": 46,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "non-self-escalation-principle",
+          "label": "自己拡張禁止の原則(権限と性能学習の分離)",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/non-self-escalation-principle.md",
+          "mentions": [
+            {
+              "raw_target": "capability-profile-based-task-allocation",
+              "label": "capability-profile-based-task-allocation",
+              "section": "関連概念",
+              "line": 34,
               "resolved_via": "slug"
             }
           ]
@@ -68404,6 +68436,22 @@
               "label": "constraint-anchored-validity-and-verifiable-boundaries",
               "section": "関連コンセプト",
               "line": 83,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "reversible-hold-dominance-in-value-alignment",
+          "label": "可逆的保留による不可逆行動の優越的排除",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+          "mentions": [
+            {
+              "raw_target": "constraint-anchored-validity-and-verifiable-boundaries",
+              "label": "constraint-anchored-validity-and-verifiable-boundaries",
+              "section": "関連概念",
+              "line": 31,
               "resolved_via": "slug"
             }
           ]
@@ -159920,6 +159968,22 @@
           ]
         },
         {
+          "id": "reversible-hold-dominance-in-value-alignment",
+          "label": "可逆的保留による不可逆行動の優越的排除",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+          "mentions": [
+            {
+              "raw_target": "deterministic-boundary-gating-of-autonomous-effects",
+              "label": "deterministic-boundary-gating-of-autonomous-effects",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "environment-dependent-prosociality-and-human-ai-social-boundary",
           "label": "環境の豊かさに依存する向社会性と人間-AI社会境界",
           "resolved": true,
@@ -177781,6 +177845,22 @@
               "label": "ethical-value-alignment-systems",
               "section": "関連コンセプト",
               "line": 61,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "reversible-hold-dominance-in-value-alignment",
+          "label": "可逆的保留による不可逆行動の優越的排除",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+          "mentions": [
+            {
+              "raw_target": "ethical-value-alignment-systems",
+              "label": "ethical-value-alignment-systems",
+              "section": "関連概念",
+              "line": 31,
               "resolved_via": "slug"
             }
           ]
@@ -199212,6 +199292,22 @@
           ]
         },
         {
+          "id": "non-self-escalation-principle",
+          "label": "自己拡張禁止の原則(権限と性能学習の分離)",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/non-self-escalation-principle.md",
+          "mentions": [
+            {
+              "raw_target": "graduated-autonomy-framework",
+              "label": "graduated-autonomy-framework",
+              "section": "関連概念",
+              "line": 34,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "autonomy-calibration-and-hierarchy-restructuring",
           "label": "自律度の較正と階層再編のトレードオフ",
           "resolved": true,
@@ -214646,6 +214742,22 @@
           ]
         },
         {
+          "id": "non-self-escalation-principle",
+          "label": "自己拡張禁止の原則(権限と性能学習の分離)",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/non-self-escalation-principle.md",
+          "mentions": [
+            {
+              "raw_target": "incentive-compatible-control-of-hidden-agents",
+              "label": "incentive-compatible-control-of-hidden-agents",
+              "section": "関連概念",
+              "line": 34,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "regulatory-fragmentation-and-institutional-incentive-drift",
           "label": "規制の断片化と制度的インセンティブによる漂流",
           "resolved": true,
@@ -222738,6 +222850,22 @@
           ]
         },
         {
+          "id": "reversible-hold-dominance-in-value-alignment",
+          "label": "可逆的保留による不可逆行動の優越的排除",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+          "mentions": [
+            {
+              "raw_target": "irreversibility-option-timing-under-uncertainty",
+              "label": "irreversibility-option-timing-under-uncertainty",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "control-invocation-before-decision-closure",
           "label": "決定閉鎖前の制御到達可能性",
           "resolved": true,
@@ -222963,6 +223091,22 @@
       "kind": "concept",
       "file": "concepts/irreversible-capability-loss-in-slow-recovery-fallbacks.md",
       "inbound": [
+        {
+          "id": "reversible-hold-dominance-in-value-alignment",
+          "label": "可逆的保留による不可逆行動の優越的排除",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+          "mentions": [
+            {
+              "raw_target": "irreversible-capability-loss-in-slow-recovery-fallbacks",
+              "label": "irreversible-capability-loss-in-slow-recovery-fallbacks",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ]
+        },
         {
           "id": "control-invocation-before-decision-closure",
           "label": "決定閉鎖前の制御到達可能性",
@@ -246937,6 +247081,147 @@
         }
       ]
     },
+    "non-self-escalation-principle": {
+      "id": "non-self-escalation-principle",
+      "slug": "non-self-escalation-principle",
+      "label": "自己拡張禁止の原則(権限と性能学習の分離)",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/non-self-escalation-principle.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "authority-bounding-by-parallel-independent-layers",
+          "label": "並列独立層による権限の有界化",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/authority-bounding-by-parallel-independent-layers.md",
+          "raw_targets": [
+            "authority-bounding-by-parallel-independent-layers"
+          ],
+          "display_labels": [
+            "authority-bounding-by-parallel-independent-layers"
+          ],
+          "mentions": [
+            {
+              "raw_target": "authority-bounding-by-parallel-independent-layers",
+              "label": "authority-bounding-by-parallel-independent-layers",
+              "section": "関連概念",
+              "line": 34,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "authority-bounding-by-parallel-independent-layers"
+          ]
+        },
+        {
+          "id": "runtime-authorization-control-points",
+          "label": "実行時認可と定量的制御点の設計",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/runtime-authorization-control-points.md",
+          "raw_targets": [
+            "runtime-authorization-control-points"
+          ],
+          "display_labels": [
+            "runtime-authorization-control-points"
+          ],
+          "mentions": [
+            {
+              "raw_target": "runtime-authorization-control-points",
+              "label": "runtime-authorization-control-points",
+              "section": "関連概念",
+              "line": 34,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "runtime-authorization-control-points"
+          ]
+        },
+        {
+          "id": "graduated-autonomy-framework",
+          "label": "段階的自律性フレームワーク",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/graduated-autonomy-framework.md",
+          "raw_targets": [
+            "graduated-autonomy-framework"
+          ],
+          "display_labels": [
+            "graduated-autonomy-framework"
+          ],
+          "mentions": [
+            {
+              "raw_target": "graduated-autonomy-framework",
+              "label": "graduated-autonomy-framework",
+              "section": "関連概念",
+              "line": 34,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "graduated-autonomy-framework"
+          ]
+        },
+        {
+          "id": "capability-profile-based-task-allocation",
+          "label": "能力プロファイルに基づく役割分担と協働設計",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/capability-profile-based-task-allocation.md",
+          "raw_targets": [
+            "capability-profile-based-task-allocation"
+          ],
+          "display_labels": [
+            "capability-profile-based-task-allocation"
+          ],
+          "mentions": [
+            {
+              "raw_target": "capability-profile-based-task-allocation",
+              "label": "capability-profile-based-task-allocation",
+              "section": "関連概念",
+              "line": 34,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "capability-profile-based-task-allocation"
+          ]
+        },
+        {
+          "id": "incentive-compatible-control-of-hidden-agents",
+          "label": "隠れた能力・選好を持つ主体のインセンティブ整合的制御",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/incentive-compatible-control-of-hidden-agents.md",
+          "raw_targets": [
+            "incentive-compatible-control-of-hidden-agents"
+          ],
+          "display_labels": [
+            "incentive-compatible-control-of-hidden-agents"
+          ],
+          "mentions": [
+            {
+              "raw_target": "incentive-compatible-control-of-hidden-agents",
+              "label": "incentive-compatible-control-of-hidden-agents",
+              "section": "関連概念",
+              "line": 34,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "incentive-compatible-control-of-hidden-agents"
+          ]
+        }
+      ]
+    },
     "nonadoption-and-abandonment-framework": {
       "id": "nonadoption-and-abandonment-framework",
       "slug": "nonadoption-and-abandonment-framework",
@@ -247886,6 +248171,22 @@
       "kind": "concept",
       "file": "concepts/ontological-safety.md",
       "inbound": [
+        {
+          "id": "reversible-hold-dominance-in-value-alignment",
+          "label": "可逆的保留による不可逆行動の優越的排除",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+          "mentions": [
+            {
+              "raw_target": "ontological-safety",
+              "label": "ontological-safety",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ]
+        },
         {
           "id": "accountability-requires-ontological-conditions",
           "label": "責任の帰属条件:判断・追跡可能性・承認",
@@ -249865,6 +250166,22 @@
       "kind": "concept",
       "file": "concepts/option-space-preservation-under-capability-asymmetry.md",
       "inbound": [
+        {
+          "id": "reversible-hold-dominance-in-value-alignment",
+          "label": "可逆的保留による不可逆行動の優越的排除",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+          "mentions": [
+            {
+              "raw_target": "option-space-preservation-under-capability-asymmetry",
+              "label": "option-space-preservation-under-capability-asymmetry",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ]
+        },
         {
           "id": "epistemic-pluralism-and-non-closure-of-knowledge-space",
           "label": "知識空間の非閉包性と認識的多元性",
@@ -257204,6 +257521,22 @@
               "label": "pre-irreversibility-authority-and-constraint-embedding",
               "section": "関連コンセプト",
               "line": 60,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "reversible-hold-dominance-in-value-alignment",
+          "label": "可逆的保留による不可逆行動の優越的排除",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+          "mentions": [
+            {
+              "raw_target": "pre-irreversibility-authority-and-constraint-embedding",
+              "label": "pre-irreversibility-authority-and-constraint-embedding",
+              "section": "関連概念",
+              "line": 31,
               "resolved_via": "slug"
             }
           ]
@@ -271173,6 +271506,251 @@
         }
       ]
     },
+    "reversible-hold-dominance-in-value-alignment": {
+      "id": "reversible-hold-dominance-in-value-alignment",
+      "slug": "reversible-hold-dominance-in-value-alignment",
+      "label": "可逆的保留による不可逆行動の優越的排除",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "pre-irreversibility-authority-and-constraint-embedding",
+          "label": "不可逆化前の権限判断と制約の内部設計化",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/pre-irreversibility-authority-and-constraint-embedding.md",
+          "raw_targets": [
+            "pre-irreversibility-authority-and-constraint-embedding"
+          ],
+          "display_labels": [
+            "pre-irreversibility-authority-and-constraint-embedding"
+          ],
+          "mentions": [
+            {
+              "raw_target": "pre-irreversibility-authority-and-constraint-embedding",
+              "label": "pre-irreversibility-authority-and-constraint-embedding",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "pre-irreversibility-authority-and-constraint-embedding"
+          ]
+        },
+        {
+          "id": "irreversibility-option-timing-under-uncertainty",
+          "label": "不可逆性下のオプション的意思決定と段階的コミット",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/irreversibility-option-timing-under-uncertainty.md",
+          "raw_targets": [
+            "irreversibility-option-timing-under-uncertainty"
+          ],
+          "display_labels": [
+            "irreversibility-option-timing-under-uncertainty"
+          ],
+          "mentions": [
+            {
+              "raw_target": "irreversibility-option-timing-under-uncertainty",
+              "label": "irreversibility-option-timing-under-uncertainty",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "irreversibility-option-timing-under-uncertainty"
+          ]
+        },
+        {
+          "id": "irreversible-capability-loss-in-slow-recovery-fallbacks",
+          "label": "低速回復型フォールバックの不可逆的能力喪失(ヒステリシス)",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/irreversible-capability-loss-in-slow-recovery-fallbacks.md",
+          "raw_targets": [
+            "irreversible-capability-loss-in-slow-recovery-fallbacks"
+          ],
+          "display_labels": [
+            "irreversible-capability-loss-in-slow-recovery-fallbacks"
+          ],
+          "mentions": [
+            {
+              "raw_target": "irreversible-capability-loss-in-slow-recovery-fallbacks",
+              "label": "irreversible-capability-loss-in-slow-recovery-fallbacks",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "irreversible-capability-loss-in-slow-recovery-fallbacks"
+          ]
+        },
+        {
+          "id": "ethical-value-alignment-systems",
+          "label": "倫理的価値整合システム",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/ethical-value-alignment-systems.md",
+          "raw_targets": [
+            "ethical-value-alignment-systems"
+          ],
+          "display_labels": [
+            "ethical-value-alignment-systems"
+          ],
+          "mentions": [
+            {
+              "raw_target": "ethical-value-alignment-systems",
+              "label": "ethical-value-alignment-systems",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "ethical-value-alignment-systems"
+          ]
+        },
+        {
+          "id": "constraint-anchored-validity-and-verifiable-boundaries",
+          "label": "制約による妥当性の担保と検証可能な境界",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/constraint-anchored-validity-and-verifiable-boundaries.md",
+          "raw_targets": [
+            "constraint-anchored-validity-and-verifiable-boundaries"
+          ],
+          "display_labels": [
+            "constraint-anchored-validity-and-verifiable-boundaries"
+          ],
+          "mentions": [
+            {
+              "raw_target": "constraint-anchored-validity-and-verifiable-boundaries",
+              "label": "constraint-anchored-validity-and-verifiable-boundaries",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "constraint-anchored-validity-and-verifiable-boundaries"
+          ]
+        },
+        {
+          "id": "single-objective-optimization-misalignment-and-autonomy-risk",
+          "label": "単一最適化ツールによる多目標システムの破壊と自律性-リスク管理",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/single-objective-optimization-misalignment-and-autonomy-risk.md",
+          "raw_targets": [
+            "single-objective-optimization-misalignment-and-autonomy-risk"
+          ],
+          "display_labels": [
+            "single-objective-optimization-misalignment-and-autonomy-risk"
+          ],
+          "mentions": [
+            {
+              "raw_target": "single-objective-optimization-misalignment-and-autonomy-risk",
+              "label": "single-objective-optimization-misalignment-and-autonomy-risk",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "single-objective-optimization-misalignment-and-autonomy-risk"
+          ]
+        },
+        {
+          "id": "ontological-safety",
+          "label": "存在論的安全（AI安全性）",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/ontological-safety.md",
+          "raw_targets": [
+            "ontological-safety"
+          ],
+          "display_labels": [
+            "ontological-safety"
+          ],
+          "mentions": [
+            {
+              "raw_target": "ontological-safety",
+              "label": "ontological-safety",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "ontological-safety"
+          ]
+        },
+        {
+          "id": "option-space-preservation-under-capability-asymmetry",
+          "label": "能力非対称下における選択肢空間の保全",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/option-space-preservation-under-capability-asymmetry.md",
+          "raw_targets": [
+            "option-space-preservation-under-capability-asymmetry"
+          ],
+          "display_labels": [
+            "option-space-preservation-under-capability-asymmetry"
+          ],
+          "mentions": [
+            {
+              "raw_target": "option-space-preservation-under-capability-asymmetry",
+              "label": "option-space-preservation-under-capability-asymmetry",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "option-space-preservation-under-capability-asymmetry"
+          ]
+        },
+        {
+          "id": "deterministic-boundary-gating-of-autonomous-effects",
+          "label": "自律的決定と現実効果の間の決定論的境界ゲート",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/deterministic-boundary-gating-of-autonomous-effects.md",
+          "raw_targets": [
+            "deterministic-boundary-gating-of-autonomous-effects"
+          ],
+          "display_labels": [
+            "deterministic-boundary-gating-of-autonomous-effects"
+          ],
+          "mentions": [
+            {
+              "raw_target": "deterministic-boundary-gating-of-autonomous-effects",
+              "label": "deterministic-boundary-gating-of-autonomous-effects",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "deterministic-boundary-gating-of-autonomous-effects"
+          ]
+        }
+      ]
+    },
     "reward-design-induced-misleading-and-miscalibrated-trust": {
       "id": "reward-design-induced-misleading-and-miscalibrated-trust",
       "slug": "reward-design-induced-misleading-and-miscalibrated-trust",
@@ -273611,6 +274189,22 @@
               "label": "runtime-authorization-control-points",
               "section": "関連コンセプト",
               "line": 82,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "non-self-escalation-principle",
+          "label": "自己拡張禁止の原則(権限と性能学習の分離)",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/non-self-escalation-principle.md",
+          "mentions": [
+            {
+              "raw_target": "runtime-authorization-control-points",
+              "label": "runtime-authorization-control-points",
+              "section": "関連概念",
+              "line": 34,
               "resolved_via": "slug"
             }
           ]
@@ -280417,6 +281011,22 @@
               "label": "single-objective-optimization-misalignment-and-autonomy-risk",
               "section": "関連コンセプト",
               "line": 42,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "reversible-hold-dominance-in-value-alignment",
+          "label": "可逆的保留による不可逆行動の優越的排除",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+          "mentions": [
+            {
+              "raw_target": "single-objective-optimization-misalignment-and-autonomy-risk",
+              "label": "single-objective-optimization-misalignment-and-autonomy-risk",
+              "section": "関連概念",
+              "line": 31,
               "resolved_via": "slug"
             }
           ]
@@ -327882,6 +328492,22 @@
         ]
       },
       {
+        "id": "non-self-escalation-principle",
+        "label": "自己拡張禁止の原則(権限と性能学習の分離)",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/non-self-escalation-principle.md",
+        "mentions": [
+          {
+            "raw_target": "authority-bounding-by-parallel-independent-layers",
+            "label": "authority-bounding-by-parallel-independent-layers",
+            "section": "関連概念",
+            "line": 34,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "self-improvement-loop-and-deployment-harness-design",
         "label": "自己改善ループとハーネス設計",
         "resolved": true,
@@ -331456,6 +332082,22 @@
             "label": "capability-profile-based-task-allocation",
             "section": "関連コンセプト",
             "line": 46,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "non-self-escalation-principle",
+        "label": "自己拡張禁止の原則(権限と性能学習の分離)",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/non-self-escalation-principle.md",
+        "mentions": [
+          {
+            "raw_target": "capability-profile-based-task-allocation",
+            "label": "capability-profile-based-task-allocation",
+            "section": "関連概念",
+            "line": 34,
             "resolved_via": "slug"
           }
         ]
@@ -336932,6 +337574,22 @@
             "label": "constraint-anchored-validity-and-verifiable-boundaries",
             "section": "関連コンセプト",
             "line": 83,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "reversible-hold-dominance-in-value-alignment",
+        "label": "可逆的保留による不可逆行動の優越的排除",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+        "mentions": [
+          {
+            "raw_target": "constraint-anchored-validity-and-verifiable-boundaries",
+            "label": "constraint-anchored-validity-and-verifiable-boundaries",
+            "section": "関連概念",
+            "line": 31,
             "resolved_via": "slug"
           }
         ]
@@ -394412,6 +395070,22 @@
         ]
       },
       {
+        "id": "reversible-hold-dominance-in-value-alignment",
+        "label": "可逆的保留による不可逆行動の優越的排除",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+        "mentions": [
+          {
+            "raw_target": "deterministic-boundary-gating-of-autonomous-effects",
+            "label": "deterministic-boundary-gating-of-autonomous-effects",
+            "section": "関連概念",
+            "line": 31,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "environment-dependent-prosociality-and-human-ai-social-boundary",
         "label": "環境の豊かさに依存する向社会性と人間-AI社会境界",
         "resolved": true,
@@ -398600,6 +399274,22 @@
             "label": "ethical-value-alignment-systems",
             "section": "関連コンセプト",
             "line": 61,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "reversible-hold-dominance-in-value-alignment",
+        "label": "可逆的保留による不可逆行動の優越的排除",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+        "mentions": [
+          {
+            "raw_target": "ethical-value-alignment-systems",
+            "label": "ethical-value-alignment-systems",
+            "section": "関連概念",
+            "line": 31,
             "resolved_via": "slug"
           }
         ]
@@ -404009,6 +404699,22 @@
         ]
       },
       {
+        "id": "non-self-escalation-principle",
+        "label": "自己拡張禁止の原則(権限と性能学習の分離)",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/non-self-escalation-principle.md",
+        "mentions": [
+          {
+            "raw_target": "graduated-autonomy-framework",
+            "label": "graduated-autonomy-framework",
+            "section": "関連概念",
+            "line": 34,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "autonomy-calibration-and-hierarchy-restructuring",
         "label": "自律度の較正と階層再編のトレードオフ",
         "resolved": true,
@@ -409074,6 +409780,22 @@
         ]
       },
       {
+        "id": "non-self-escalation-principle",
+        "label": "自己拡張禁止の原則(権限と性能学習の分離)",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/non-self-escalation-principle.md",
+        "mentions": [
+          {
+            "raw_target": "incentive-compatible-control-of-hidden-agents",
+            "label": "incentive-compatible-control-of-hidden-agents",
+            "section": "関連概念",
+            "line": 34,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "regulatory-fragmentation-and-institutional-incentive-drift",
         "label": "規制の断片化と制度的インセンティブによる漂流",
         "resolved": true,
@@ -410550,6 +411272,22 @@
         ]
       },
       {
+        "id": "reversible-hold-dominance-in-value-alignment",
+        "label": "可逆的保留による不可逆行動の優越的排除",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+        "mentions": [
+          {
+            "raw_target": "irreversibility-option-timing-under-uncertainty",
+            "label": "irreversibility-option-timing-under-uncertainty",
+            "section": "関連概念",
+            "line": 31,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "control-invocation-before-decision-closure",
         "label": "決定閉鎖前の制御到達可能性",
         "resolved": true,
@@ -410583,6 +411321,22 @@
       }
     ],
     "irreversible-capability-loss-in-slow-recovery-fallbacks": [
+      {
+        "id": "reversible-hold-dominance-in-value-alignment",
+        "label": "可逆的保留による不可逆行動の優越的排除",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+        "mentions": [
+          {
+            "raw_target": "irreversible-capability-loss-in-slow-recovery-fallbacks",
+            "label": "irreversible-capability-loss-in-slow-recovery-fallbacks",
+            "section": "関連概念",
+            "line": 31,
+            "resolved_via": "slug"
+          }
+        ]
+      },
       {
         "id": "control-invocation-before-decision-closure",
         "label": "決定閉鎖前の制御到達可能性",
@@ -415463,6 +416217,7 @@
     ],
     "non-hyperscaler-ml-platforms": [],
     "non-retroactive-consent-and-reciprocal-standing": [],
+    "non-self-escalation-principle": [],
     "nonadoption-and-abandonment-framework": [],
     "novice-designers-ai-sensemaking": [],
     "objective-indexed-representation-separation": [
@@ -415536,6 +416291,22 @@
     "offshoring-innovation-and-talent": [],
     "online-platform-reciprocity-engagement": [],
     "ontological-safety": [
+      {
+        "id": "reversible-hold-dominance-in-value-alignment",
+        "label": "可逆的保留による不可逆行動の優越的排除",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+        "mentions": [
+          {
+            "raw_target": "ontological-safety",
+            "label": "ontological-safety",
+            "section": "関連概念",
+            "line": 31,
+            "resolved_via": "slug"
+          }
+        ]
+      },
       {
         "id": "accountability-requires-ontological-conditions",
         "label": "責任の帰属条件:判断・追跡可能性・承認",
@@ -416114,6 +416885,22 @@
     ],
     "optimal-economic-growth-theory": [],
     "option-space-preservation-under-capability-asymmetry": [
+      {
+        "id": "reversible-hold-dominance-in-value-alignment",
+        "label": "可逆的保留による不可逆行動の優越的排除",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+        "mentions": [
+          {
+            "raw_target": "option-space-preservation-under-capability-asymmetry",
+            "label": "option-space-preservation-under-capability-asymmetry",
+            "section": "関連概念",
+            "line": 31,
+            "resolved_via": "slug"
+          }
+        ]
+      },
       {
         "id": "epistemic-pluralism-and-non-closure-of-knowledge-space",
         "label": "知識空間の非閉包性と認識的多元性",
@@ -417498,6 +418285,22 @@
             "label": "pre-irreversibility-authority-and-constraint-embedding",
             "section": "関連コンセプト",
             "line": 60,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "reversible-hold-dominance-in-value-alignment",
+        "label": "可逆的保留による不可逆行動の優越的排除",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+        "mentions": [
+          {
+            "raw_target": "pre-irreversibility-authority-and-constraint-embedding",
+            "label": "pre-irreversibility-authority-and-constraint-embedding",
+            "section": "関連概念",
+            "line": 31,
             "resolved_via": "slug"
           }
         ]
@@ -419974,6 +420777,7 @@
         ]
       }
     ],
+    "reversible-hold-dominance-in-value-alignment": [],
     "reward-design-induced-misleading-and-miscalibrated-trust": [
       {
         "id": "basic-psychological-needs-and-extrinsic-reward-crowding-out",
@@ -420500,6 +421304,22 @@
             "label": "runtime-authorization-control-points",
             "section": "関連コンセプト",
             "line": 82,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "non-self-escalation-principle",
+        "label": "自己拡張禁止の原則(権限と性能学習の分離)",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/non-self-escalation-principle.md",
+        "mentions": [
+          {
+            "raw_target": "runtime-authorization-control-points",
+            "label": "runtime-authorization-control-points",
+            "section": "関連概念",
+            "line": 34,
             "resolved_via": "slug"
           }
         ]
@@ -421575,6 +422395,22 @@
             "label": "single-objective-optimization-misalignment-and-autonomy-risk",
             "section": "関連コンセプト",
             "line": 42,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "reversible-hold-dominance-in-value-alignment",
+        "label": "可逆的保留による不可逆行動の優越的排除",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/reversible-hold-dominance-in-value-alignment.md",
+        "mentions": [
+          {
+            "raw_target": "single-objective-optimization-misalignment-and-autonomy-risk",
+            "label": "single-objective-optimization-misalignment-and-autonomy-risk",
+            "section": "関連概念",
+            "line": 31,
             "resolved_via": "slug"
           }
         ]

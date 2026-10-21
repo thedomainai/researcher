@@ -83,3 +83,8 @@ Leeは、設計された相互作用が人間の主体性、自己理解、身�
   File: raw/papers/hci/gratified-use-of-ai-moderating-the-pathway-from-sense-of-empowerment-towards-inf.md
 - Toward a Philosophy of Interaction: How Designed Interaction Constitutes the Human, and Why Its Reversibility Now Matters — Meng-Han Lee (2026)
   File: raw/papers/hci/toward-a-philosophy-of-interaction-how-designed-interaction-constitutes-the-huma.md
+
+## 追加ソース（2026-10-22）
+
+* **タイトル**: Master of One's Own Acts: Thomas Aquinas and Delegated Decision in Generative Artificial Intelligence (2026)
+  **ファイルパス**: `raw/papers/complexity_science/master-of-ones-own-acts-thomas-aquinas-and-delegated-decision-in-generative-arti.md`

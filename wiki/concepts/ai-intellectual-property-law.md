@@ -78,3 +78,8 @@ HCLの主要な構成要素は以下の通りである。
 2. Liao, Guozhao et al. "The dual-encoder detector for AI-generated go code." 2026. DOI: https://doi.org/10.1007/s44443-026-00626-5
 
 3. Chu, Melinda. "Human Conception Ledger (HCL): A Framework for Provenance, Attribution, and Human Inventorship in AI-Augmented Systems." 2026. DOI: https://doi.org/10.5281/zenodo.19198703
+
+## 追加ソース（2026-10-22）
+
+* **タイトル**: The Changing Architecture of Intellectual Property in the Age of Artificial Intelligence (2026)
+  **ファイルパス**: `raw/papers/law/the-changing-architecture-of-intellectual-property-in-the-age-of-artificial-inte.md`

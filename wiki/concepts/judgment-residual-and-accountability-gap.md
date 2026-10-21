@@ -67,3 +67,10 @@ Birherらは、SFを、軍事自動化・人間による統制の侵食・責任
 2. Shen, X., Lyu, J., Hwang, S., Yao, H., Patel, S. (2026). *Can Vision-Language Models Analyze Human-Centered Video? Mapping Model Capabilities and Human-AI Collaborative Workflows*. — `raw/papers/hci/can-vision-language-models-analyze-human-centered-video-mapping-model-capabiliti.md`
 3. Els, G. (2026). *Perspective Chapter: From Ledgers to Algorithms – A Historical and Contemporary Guide to Financial Statement Analysis*. — `raw/papers/history_of_technology/perspective-chapter-from-ledgers-to-algorithms-a-historical-and-contemporary-gui.md`
 4. Birher, N., Gábor, H., Nagy, A. (2026). *WEAPONIZED AI NARRATIVES – FICTION OR PREDICTION?* — `raw/papers/history_of_technology/weaponized-ai-narratives-fiction-or-prediction.md`
+
+## 追加ソース（2026-10-22）
+
+* **タイトル**: MACHINES MAY DETECT, OFFICERS MUST DECIDE: ALGORITHMIC ASSISTANCE AND THE LIMITS OF DELEGATION IN GST ADMINISTRATION (2026)
+  **ファイルパス**: `raw/papers/law/machines-may-detect-officers-must-decide-algorithmic-assistance-and-the-limits-o.md`
+* **タイトル**: Who Is Responsible When AI Shapes Corporate Decisions? Director Duties and Corporate Accountability under Indian Company Law (2026)
+  **ファイルパス**: `raw/papers/law/who-is-responsible-when-ai-shapes-corporate-decisions-director-duties-and-corpor.md`

@@ -26112,5 +26112,45 @@
     ],
     "domain": "economics",
     "compiled_at": "2026-10-21"
+  },
+  {
+    "slug": "reversible-hold-dominance-in-value-alignment",
+    "title_ja": "可逆的保留による不可逆行動の優越的排除",
+    "title_en": "Reversible-Hold Dominance over Irreversible Options",
+    "description": "価値整列エージェントが、同等の目的を達成できる可逆的な選択肢が存在する限り、不可逆（致死的）な行動を数学的に厳密劣位として排除する構造的決定原理。",
+    "mechanisms": [
+      "可逆性による支配戦略",
+      "価値の辞書式順序づけ",
+      "形式的証明による整列保証",
+      "不要な害の排除条件"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/universal-protection-theory-v14.md"
+    ],
+    "domain": "ai_governance",
+    "compiled_at": "2026-10-22"
+  },
+  {
+    "slug": "non-self-escalation-principle",
+    "title_ja": "自己拡張禁止の原則(権限と性能学習の分離)",
+    "title_en": "Non-Self-Escalation Principle",
+    "description": "異種エージェント(人間・AI・組織)が参加する適応的協調ネットワークにおいて、性能フィードバックが能力信頼度やルーティングを変化させても、それ自体がエージェントの権限を拡大してはならないという統治設計の構造原理。",
+    "mechanisms": [
+      "権限と性能評価の分離",
+      "適応的ルーティング学習",
+      "自己拡張の抑制",
+      "統治制約による階層的境界維持"
+    ],
+    "related_sources": [
+      2
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/societal-neural-networks-governance-aware-adaptive-coordination-among-human-ai-a.md"
+    ],
+    "domain": "complexity_science",
+    "compiled_at": "2026-10-22"
   }
 ]

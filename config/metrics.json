@@ -131,6 +131,13 @@
     "position": 0
    }
   },
+  "2026-10-18": {
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   }
+  },
   "2026-10-19": {
    "channels": {
     "Organic Search": 1
@@ -138,6 +145,12 @@
    "pv": 1,
    "sessions": 1,
    "users": 1
+  },
+  "2026-10-20": {
+   "channels": {},
+   "pv": 0,
+   "sessions": 1,
+   "users": 0
   }
  },
  "sitemaps": [
@@ -176,5 +189,5 @@
    1
   ]
  ],
- "updated": "2026-10-20T06:08:48"
+ "updated": "2026-10-21T06:07:54"
 }

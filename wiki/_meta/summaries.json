@@ -5765,6 +5765,12 @@
   "title_en": "Non-Retroactive Consent and Reciprocal Standing",
   "why": "AIが人間の選好を形成しうる場面では、満足度や継続利用の指標だけで設計の正当性を測れない。"
  },
+ "non-self-escalation-principle": {
+  "at": "2026-10-21T21:20:28+00:00",
+  "summary": "性能フィードバックに基づく能力信頼度やルーティング選好の更新が、行為者の権限そのものを自動的に拡張することを禁じ、統治構造の説明責任を保つ設計規則である。",
+  "title_en": "Non-Self-Escalation: Separating Authority from Performance",
+  "why": "性能評価と権限配分の経路を分離しないと、学習ループが統治構造を自動的に書き換えてしまう恐れがある。"
+ },
  "nonadoption-and-abandonment-framework": {
   "at": "2026-10-01T09:58:56+00:00",
   "summary": "医療・介護テクノロジーの普及失敗は技術単体の問題ではなく7領域の複雑性の組み合わせから生じるとし、導入前後の評価軸を体系化したフレームワークである。",
@@ -6568,6 +6574,12 @@
   "summary": "AIがタスク有界性を失い自律的主体となると既存の統制手段は前提ごと無効化するため、責任の帰属先を外側の不動点として固定する設計が必要になる。",
   "title_en": "Responsible Control Anchor under Agentic Autonomy",
   "why": "エージェントAIを導入する組織は能力拡張に連動させず、人間監督者の責任所在を構造的に固定しておくべきである。"
+ },
+ "reversible-hold-dominance-in-value-alignment": {
+  "at": "2026-10-21T21:20:28+00:00",
+  "summary": "可逆的な保留という代替手段が実行可能な限り、致死的・不可逆な行動は整列の定義上つねに厳密に劣位となり形式的に排除される。",
+  "title_en": "Reversible Hold Dominance in Value Alignment",
+  "why": "不要な害の排除を倫理的努力目標でなく形式証明で担保することで、整列保証を実装レベルで検証可能にする。"
  },
  "reward-design-induced-misleading-and-miscalibrated-trust": {
   "at": "2026-10-01T10:03:15+00:00",
