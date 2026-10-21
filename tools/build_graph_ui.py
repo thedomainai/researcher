@@ -4,7 +4,7 @@
 import json
 import os
 
-from lib.workspace_ui import render_workspace_sidebar
+from lib.workspace_ui import inject_panel_fit, render_workspace_sidebar
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GRAPH_FILE = os.path.join(BASE, "wiki", "_meta", "concepts-graph.json")
@@ -79,6 +79,7 @@ body{
     radial-gradient(circle at bottom, rgba(130,174,245,.11), transparent 30%),
     linear-gradient(180deg, rgba(17,25,42,.92), rgba(7,10,19,.98)),
     var(--paper);
+  background-attachment:fixed;
 }
 .app-shell{
   position:relative;
@@ -2062,7 +2063,7 @@ boot();
 
 def build_graph_ui():
     graph = load_graph()
-    html = render_html(graph)
+    html = inject_panel_fit(render_html(graph))
     os.makedirs(GRAPH_DIR, exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as handle:
         handle.write(html)

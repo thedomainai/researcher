@@ -5,7 +5,7 @@ from collections import Counter
 import json
 import os
 
-from lib.workspace_ui import render_workspace_sidebar
+from lib.workspace_ui import inject_panel_fit, render_workspace_sidebar
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WIKI_CONCEPTS = os.path.join(BASE, "wiki", "concepts")
@@ -126,6 +126,7 @@ body{
     radial-gradient(circle at bottom, rgba(130,174,245,.11), transparent 30%),
     linear-gradient(180deg, rgba(17,25,42,.92), rgba(7,10,19,.98)),
     var(--paper);
+  background-attachment:fixed;
 }
 body::before{
   content:"";
@@ -553,6 +554,21 @@ body::before{
 }
 .queue-list{
   margin-top:12px;
+}
+.queue-more{
+  width:100%;
+  margin-top:12px;
+  padding:12px 14px;
+  border-radius:16px;
+  border:1px dashed rgba(151,170,204,.28);
+  background:rgba(15,24,41,.6);
+  color:var(--ink);
+  font:inherit;
+  font-size:13px;
+  cursor:pointer;
+}
+.queue-more:hover{
+  border-color:rgba(151,170,204,.5);
 }
 .queue-card{
   border:1px solid rgba(151,170,204,.12);
@@ -1402,11 +1418,14 @@ const ARTICLES = META.map((item) => {
 
 const ARTICLE_MAP = Object.fromEntries(ARTICLES.map((article) => [article.slug, article]));
 
+const QUEUE_PAGE = 150;
 const state = {
   query: '',
   tier: 'all',
   sort: 'connected',
   selected: null,
+  queueLimit: QUEUE_PAGE,
+  queueKey: '',
 };
 
 function tierKind(tier){
@@ -1665,12 +1684,26 @@ function renderUnresolvedList(items){
 function renderQueue(items){
   const list = document.getElementById('article-list');
   const filtered = items || [];
-  document.getElementById('queue-status').textContent = filtered.length + ' article(s) shown';
+  // 全件を一度に描くと一覧の高さが約 24 万 px になり、パネル内スクロールがページ本体を飲み込む。
+  // 絞り込みが変わるたびに先頭 QUEUE_PAGE 件へ戻し、続きは「さらに表示」で足す。選択中の記事は必ず含める。
+  const key = state.query + '|' + state.tier + '|' + state.sort;
+  if (state.queueKey !== key){
+    state.queueKey = key;
+    state.queueLimit = QUEUE_PAGE;
+  }
+  let shown = state.queueLimit;
+  const selectedIndex = filtered.findIndex((article) => article.slug === state.selected);
+  if (selectedIndex >= shown){
+    shown = selectedIndex + 1;
+  }
+  shown = Math.min(shown, filtered.length);
+  document.getElementById('queue-status').textContent = filtered.length + ' article(s) shown'
+    + (shown < filtered.length ? '(先頭 ' + shown + ' 件を表示中)' : '');
   if (!filtered.length){
     list.innerHTML = '<div class="empty">一致するコンセプトがありません。検索語または tier を変えてください。</div>';
     return;
   }
-  list.innerHTML = filtered.map((article) => (
+  list.innerHTML = filtered.slice(0, shown).map((article) => (
     '<div class="queue-card' + (article.slug === state.selected ? ' active' : '') + '" data-slug="' + article.slug + '">'
       + tierBadge(article)
       + '<strong>' + esc(article.title) + '</strong>'
@@ -1682,10 +1715,19 @@ function renderQueue(items){
         + '<span>gaps ' + article.unresolvedCount + '</span>'
       + '</div>'
     + '</div>'
-  )).join('');
+  )).join('') + (shown < filtered.length
+    ? '<button type="button" class="queue-more" id="queue-more">さらに ' + Math.min(QUEUE_PAGE, filtered.length - shown) + ' 件を表示(残り ' + (filtered.length - shown) + ' 件)</button>'
+    : '');
   list.querySelectorAll('[data-slug]').forEach((button) => {
     button.addEventListener('click', () => selectArticle(button.dataset.slug));
   });
+  const more = document.getElementById('queue-more');
+  if (more){
+    more.addEventListener('click', () => {
+      state.queueLimit = shown + QUEUE_PAGE;
+      renderQueue(filtered);
+    });
+  }
 }
 
 function activeScopeLabel(items){
@@ -1925,7 +1967,7 @@ boot();
 </body>
 </html>"""
 
-    return (
+    return inject_panel_fit(
         template.replace("__ARTICLE_JSON__", article_json)
         .replace("__META_JSON__", meta_json)
         .replace("__GRAPH_JSON__", graph_json)
