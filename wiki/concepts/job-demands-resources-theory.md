@@ -59,3 +59,8 @@ JD-R理論の重要な知見の一つは、**「仕事の資源」が「仕事�
 *   **International Review of Industrial and Organizational Psychology**
     *   著者: Cary L. Cooper, Ivan T. Robertson (2003)
     *   URL: https://doi.org/10.1002/0470013311.oth1
+
+## 追加ソース（2026-10-23）
+
+* **タイトル**: Dual effects of AI on academic work performance: A job demands-resources theory systematic review (2026)
+  **ファイルパス**: `raw/papers/human_resource_management/dual-effects-of-ai-on-academic-work-performance-a-job-demands-resources-theory-s.md`

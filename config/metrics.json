@@ -143,14 +143,29 @@
     "Organic Search": 1
    },
    "pv": 1,
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   },
    "sessions": 1,
    "users": 1
   },
   "2026-10-20": {
-   "channels": {},
-   "pv": 0,
+   "channels": {
+    "Organic Search": 2
+   },
+   "pv": 2,
+   "sessions": 2,
+   "users": 1
+  },
+  "2026-10-21": {
+   "channels": {
+    "Organic Search": 1
+   },
+   "pv": 1,
    "sessions": 1,
-   "users": 0
+   "users": 1
   }
  },
  "sitemaps": [
@@ -177,6 +192,10 @@
    4
   ],
   [
+   "/researcher/concepts/nisq-quantum-computing/",
+   2
+  ],
+  [
    "/researcher/clusters/economics/",
    1
   ],
@@ -185,9 +204,13 @@
    1
   ],
   [
+   "/researcher/concepts/fungal-taxonomy-and-morphological-databases/",
+   1
+  ],
+  [
    "/researcher/concepts/political-corporate-social-responsibility/",
    1
   ]
  ],
- "updated": "2026-10-21T06:07:54"
+ "updated": "2026-10-22T06:20:41"
 }

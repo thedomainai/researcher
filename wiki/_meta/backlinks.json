@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-22T06:20:06.780710",
+  "generated_at": "2026-10-23T08:21:39.486846",
   "summary": {
-    "articles_scanned": 1319,
-    "nodes": 3589,
-    "resolved_nodes": 1319,
+    "articles_scanned": 1322,
+    "nodes": 3592,
+    "resolved_nodes": 1322,
     "unresolved_nodes": 2270,
-    "edges": 6579,
-    "resolved_edges": 3619,
+    "edges": 6581,
+    "resolved_edges": 3621,
     "unresolved_edges": 2960,
-    "link_mentions": 6877,
-    "valid_source_refs": 2183,
+    "link_mentions": 6879,
+    "valid_source_refs": 2190,
     "invalid_source_refs": 117,
-    "isolated_concepts": 86
+    "isolated_concepts": 88
   },
   "nodes": {
     "absorption-capacity-bottleneck-saturation": {
@@ -688,6 +688,22 @@
               "label": "absorptive-capacity",
               "section": "関連コンセプト",
               "line": 77,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "self-referential-system-boundary-transition",
+          "label": "自己参照系の境界問題と成長パラダイムの転換",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/self-referential-system-boundary-transition.md",
+          "mentions": [
+            {
+              "raw_target": "absorptive-capacity",
+              "label": "absorptive-capacity",
+              "section": "AI Native な設計への示唆",
+              "line": 23,
               "resolved_via": "slug"
             }
           ]
@@ -203074,6 +203090,16 @@
         }
       ]
     },
+    "hierarchical-visibility-asymmetry-in-value-measurement": {
+      "id": "hierarchical-visibility-asymmetry-in-value-measurement",
+      "slug": "hierarchical-visibility-asymmetry-in-value-measurement",
+      "label": "階層的位置による成果可視性の非対称性",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/hierarchical-visibility-asymmetry-in-value-measurement.md",
+      "inbound": [],
+      "outbound": []
+    },
     "higher-order-brain-networks": {
       "id": "higher-order-brain-networks",
       "slug": "higher-order-brain-networks",
@@ -210550,7 +210576,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/human-irreplaceable-competencies.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "self-referential-system-boundary-transition",
+          "label": "自己参照系の境界問題と成長パラダイムの転換",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/self-referential-system-boundary-transition.md",
+          "mentions": [
+            {
+              "raw_target": "human-irreplaceable-competencies",
+              "label": "human-irreplaceable-competencies",
+              "section": "AI Native な設計への示唆",
+              "line": 23,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": [
         {
           "id": "dangling:f142f0b49caf",
@@ -253704,6 +253747,16 @@
         }
       ]
     },
+    "parameter-identifiability-under-incomplete-observation": {
+      "id": "parameter-identifiability-under-incomplete-observation",
+      "slug": "parameter-identifiability-under-incomplete-observation",
+      "label": "不完全観測下のパラメータ識別可能性限界",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/parameter-identifiability-under-incomplete-observation.md",
+      "inbound": [],
+      "outbound": []
+    },
     "parasocial-interaction-in-e-commerce": {
       "id": "parasocial-interaction-in-e-commerce",
       "slug": "parasocial-interaction-in-e-commerce",
@@ -277537,6 +277590,69 @@
           "ambiguous": false,
           "candidates": [
             "multi-agent-systems"
+          ]
+        }
+      ]
+    },
+    "self-referential-system-boundary-transition": {
+      "id": "self-referential-system-boundary-transition",
+      "slug": "self-referential-system-boundary-transition",
+      "label": "自己参照系の境界問題と成長パラダイムの転換",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/self-referential-system-boundary-transition.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "human-irreplaceable-competencies",
+          "label": "AI時代における人間代替不可能なコア・コンピテンシー",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/human-irreplaceable-competencies.md",
+          "raw_targets": [
+            "human-irreplaceable-competencies"
+          ],
+          "display_labels": [
+            "human-irreplaceable-competencies"
+          ],
+          "mentions": [
+            {
+              "raw_target": "human-irreplaceable-competencies",
+              "label": "human-irreplaceable-competencies",
+              "section": "AI Native な設計への示唆",
+              "line": 23,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "human-irreplaceable-competencies"
+          ]
+        },
+        {
+          "id": "absorptive-capacity",
+          "label": "吸収能力",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/absorptive-capacity.md",
+          "raw_targets": [
+            "absorptive-capacity"
+          ],
+          "display_labels": [
+            "absorptive-capacity"
+          ],
+          "mentions": [
+            {
+              "raw_target": "absorptive-capacity",
+              "label": "absorptive-capacity",
+              "section": "AI Native な設計への示唆",
+              "line": 23,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "absorptive-capacity"
           ]
         }
       ]
@@ -315276,6 +315392,22 @@
             "label": "absorptive-capacity",
             "section": "関連コンセプト",
             "line": 77,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "self-referential-system-boundary-transition",
+        "label": "自己参照系の境界問題と成長パラダイムの転換",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/self-referential-system-boundary-transition.md",
+        "mentions": [
+          {
+            "raw_target": "absorptive-capacity",
+            "label": "absorptive-capacity",
+            "section": "AI Native な設計への示唆",
+            "line": 23,
             "resolved_via": "slug"
           }
         ]
@@ -405375,6 +405507,7 @@
         ]
       }
     ],
+    "hierarchical-visibility-asymmetry-in-value-measurement": [],
     "higher-order-brain-networks": [],
     "holonic-neuro-symbolic-systems": [
       {
@@ -408678,7 +408811,24 @@
         ]
       }
     ],
-    "human-irreplaceable-competencies": [],
+    "human-irreplaceable-competencies": [
+      {
+        "id": "self-referential-system-boundary-transition",
+        "label": "自己参照系の境界問題と成長パラダイムの転換",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/self-referential-system-boundary-transition.md",
+        "mentions": [
+          {
+            "raw_target": "human-irreplaceable-competencies",
+            "label": "human-irreplaceable-competencies",
+            "section": "AI Native な設計への示唆",
+            "line": 23,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "human-life-system-engineering": [],
     "human-like-vs-system-like-trust": [
       {
@@ -417691,6 +417841,7 @@
         ]
       }
     ],
+    "parameter-identifiability-under-incomplete-observation": [],
     "parasocial-interaction-in-e-commerce": [],
     "partial-least-squares-structural-equation-modeling": [],
     "participatory-culture-media-literacy": [],
@@ -421917,6 +422068,7 @@
         ]
       }
     ],
+    "self-referential-system-boundary-transition": [],
     "self-regulated-learning": [
       {
         "id": "transactional-distance-in-online-learning",

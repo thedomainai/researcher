@@ -26152,5 +26152,65 @@
     ],
     "domain": "complexity_science",
     "compiled_at": "2026-10-22"
+  },
+  {
+    "slug": "self-referential-system-boundary-transition",
+    "title_ja": "自己参照系の境界問題と成長パラダイムの転換",
+    "title_en": "Self-Referential System Boundary and Growth Paradigm Transition",
+    "description": "自己参照的に自らを観測・制御する知的主体は、量的成長が構造的限界に達すると質的成長への転換を迫られる、サイバネティクスに基づく普遍的境界問題。",
+    "mechanisms": [
+      "自己参照性",
+      "成長の限界",
+      "パラダイムシフト",
+      "希少資源の質的転換"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/beyond-doomsday-and-infinity-reaching-human-boundaries-in-the-age-of-ai-a-viewpo.md"
+    ],
+    "domain": "complexity_science",
+    "compiled_at": "2026-10-23"
+  },
+  {
+    "slug": "hierarchical-visibility-asymmetry-in-value-measurement",
+    "title_ja": "階層的位置による成果可視性の非対称性",
+    "title_en": "Hierarchical Visibility Asymmetry in Value Measurement",
+    "description": "組織内で観測者が占める階層的位置と価値基準の多元性により、同じ成果に対する可視性・測定可能性の認知が系統的に分かれる構造的メカニズム。",
+    "mechanisms": [
+      "階層的視点の差異",
+      "価値の多元性",
+      "測定手法の欠如による不確実性",
+      "可視性バイアス"
+    ],
+    "related_sources": [
+      2
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/the-visibility-gap.md"
+    ],
+    "domain": "complexity_science",
+    "compiled_at": "2026-10-23"
+  },
+  {
+    "slug": "parameter-identifiability-under-incomplete-observation",
+    "title_ja": "不完全観測下のパラメータ識別可能性限界",
+    "title_en": "Practical Parameter Identifiability Under Incomplete Observation",
+    "description": "観測ノイズと未知の初期条件により、モデルパラメータの実用的識別可能性は根本的に制約され、推定手法の選択よりも情報の不完全性そのものが支配的な限界要因となる。",
+    "mechanisms": [
+      "情報の不完全性",
+      "観測ノイズ",
+      "初期条件不確定性",
+      "統計的推定による不確実性の圧縮"
+    ],
+    "related_sources": [
+      3
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/practical-identifiability-and-parameter-estimation-of-compartmental-epidemiologi.md"
+    ],
+    "domain": "complexity_science",
+    "compiled_at": "2026-10-23"
   }
 ]

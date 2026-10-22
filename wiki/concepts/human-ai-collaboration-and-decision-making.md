@@ -34,3 +34,8 @@ AIシステムが人間の意思決定における協力者として展開され
 * AI as Relational Translator: Rethinking Belonging and Mutual Legibility in Cross-Cultural Contexts ([./AI as Relational Translator: Rethinking Belonging and Mutual Legibility in Cross-Cultural Contexts ().md](AI as Relational Translator: Rethinking Belonging and Mutual Legibility in Cross-Cultural Contexts ().md))
 * Bridging Pedagogy and Play: Introducing a Language Mapping Interface for Human-AI Co-Creation in Educational Game Design ([./Bridging Pedagogy and Play: Introducing a Language Mapping Interface for Human-AI Co-Creation in Educational Game Design ().md](Bridging Pedagogy and Play: Introducing a Language Mapping Interface for Human-AI Co-Creation in Educational Game Design ().md))
 * From Accuracy to Readiness: Metrics and Benchmarks for Human-AI Decision-Making: An Initial Exploration ([./From Accuracy to Readiness: Metrics and Benchmarks for Human-AI Decision-Making: An Initial Exploration ().md](From Accuracy to Readiness: Metrics and Benchmarks for Human-AI Decision-Making: An Initial Exploration ().md))
+
+## 追加ソース（2026-10-23）
+
+* **タイトル**: Human-AI collaboration in crisis response: understanding adoption barriers and enablers for generative AI in emergency decision-making (2026)
+  **ファイルパス**: `raw/papers/complexity_science/human-ai-collaboration-in-crisis-response-understanding-adoption-barriers-and-en.md`

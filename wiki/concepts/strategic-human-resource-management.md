@@ -43,3 +43,8 @@ SHRMにおける「適合性（Fit）」は、一様ではなく、主に以下�
 
 * John E. Delery (1998). "Issues of fit in strategic human resource management: Implications for research" (raw/Issues of fit in strategic human resource management: Implications for research)
 * Shoeb Ahmad (2015). "Green Human Resource Management: Policies and practices" (raw/Green Human Resource Management: Policies and practices)
+
+## 追加ソース（2026-10-23）
+
+* **タイトル**: Sustainable Talent Management sebagai Strategi untuk Meningkatkan Daya Saing Organisasi di Lingkungan Kerja yang Dinamis: Systematic Literature Review (2026)
+  **ファイルパス**: `raw/papers/human_resource_management/sustainable-talent-management-sebagai-strategi-untuk-meningkatkan-daya-saing-org.md`

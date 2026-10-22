@@ -4217,6 +4217,12 @@
   "title_en": "Hierarchical Recursive Verification and Accountability",
   "why": "AI判断の速度と量が人間の監督力を超える中で、単一の人間確認だけに頼る統制は形骸化するため検証構造自体を設計対象にする必要がある。"
  },
+ "hierarchical-visibility-asymmetry-in-value-measurement": {
+  "at": "2026-10-22T23:21:48+00:00",
+  "summary": "AI投資の価値実感は67%に達する一方、測定手段の存在を答えたのは21%に留まり、成果の可視性は階層的位置によって非対称に分布する。",
+  "title_en": "Hierarchical Visibility Asymmetry in Value Measurement",
+  "why": "測定手法の整備を投資の前提とし、階層間の可視性差を補正する合意形成プロセスを設計すべきだ。"
+ },
  "higher-order-brain-networks": {
   "at": "2026-10-01T09:51:54+00:00",
   "summary": "高次脳ネットワークは脳の相互作用を単体複体などのトポロジー構造で表し、3領域以上が関わる高次相互作用をHodge理論で分解してモデル化する枠組みである。",
@@ -5981,6 +5987,12 @@
   "title_en": "Paradox Management of Competing Legitimacy Logics",
   "why": "AI開発組織の統治設計は矛盾の解消でなく、暫定的均衡の継続的な再調整を前提とすべきだ。"
  },
+ "parameter-identifiability-under-incomplete-observation": {
+  "at": "2026-10-22T23:21:48+00:00",
+  "summary": "観測ノイズと未知の初期条件は推定手法の巧拙によらずパラメータ推定精度を制約し、モデル出力には常に情報不完全性の痕跡が残る。",
+  "title_en": "Practical Parameter Identifiability Under Incomplete Observation",
+  "why": "推定手法の高度化だけに頼らず、観測の質の改善と識別可能性の事前診断をパイプラインに組み込む必要がある。"
+ },
  "parasocial-interaction-in-e-commerce": {
   "at": "2026-10-01T09:59:32+00:00",
   "summary": "インフルエンサーとフォロワーの間に生じる一方向的だが親密な擬似相互作用は、信頼性とともに消費者の購買意図を直接的に高める。",
@@ -6754,6 +6766,12 @@
   "summary": "外部制御なしに局所的相互作用から高次秩序が自発的に形成される自己組織化と、要素還元では説明できない性質が全体として現れる創発は、複雑系に共通する現象である。",
   "title_en": "Self-Organization and Emergence",
   "why": "AIシステムの振る舞いは個々の構成要素からは予測できず、全体としての創発を前提に設計・評価する必要がある。"
+ },
+ "self-referential-system-boundary-transition": {
+  "at": "2026-10-22T23:21:48+00:00",
+  "summary": "自己参照的に自らを観測・制御する系は量的拡大が構造的限界に達すると、拡大自体を目的とする定義を捨て質的深化へ転換を迫られる。",
+  "title_en": "Self-Referential System Boundary Transition",
+  "why": "AIのガバナンス指標をスケールの単調増加だけに依存させず、限界到達後のパラダイム転換を組み込んだ設計が必要になる。"
  },
  "self-regulated-learning": {
   "at": "2026-10-01T10:04:19+00:00",

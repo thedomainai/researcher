@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-22T06:20:06.780710",
+  "generated_at": "2026-10-23T08:21:39.486846",
   "summary": {
-    "articles_scanned": 1319,
-    "nodes": 3589,
-    "resolved_nodes": 1319,
+    "articles_scanned": 1322,
+    "nodes": 3592,
+    "resolved_nodes": 1322,
     "unresolved_nodes": 2270,
-    "edges": 6579,
-    "resolved_edges": 3619,
+    "edges": 6581,
+    "resolved_edges": 3621,
     "unresolved_edges": 2960,
-    "link_mentions": 6877,
-    "valid_source_refs": 2183,
+    "link_mentions": 6879,
+    "valid_source_refs": 2190,
     "invalid_source_refs": 117,
-    "isolated_concepts": 86
+    "isolated_concepts": 88
   },
   "nodes": [
     {
@@ -3293,9 +3293,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 5,
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "ai-driven-job-displacement-economic-sovereignty",
@@ -13474,6 +13474,34 @@
       "degree": 28
     },
     {
+      "id": "parameter-identifiability-under-incomplete-observation",
+      "slug": "parameter-identifiability-under-incomplete-observation",
+      "label": "不完全観測下のパラメータ識別可能性限界",
+      "title": "不完全観測下のパラメータ識別可能性限界",
+      "title_ja": "不完全観測下のパラメータ識別可能性限界",
+      "title_en": "Practical Parameter Identifiability Under Incomplete Observation",
+      "tier": null,
+      "description": "観測ノイズと未知の初期条件により、モデルパラメータの実用的識別可能性は根本的に制約され、推定手法の選択よりも情報の不完全性そのものが支配的な限界要因となる。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/parameter-identifiability-under-incomplete-observation.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Practical Parameter Identifiability Under Incomplete Observation",
+        "parameter-identifiability-under-incomplete-observation",
+        "不完全観測下のパラメータ識別可能性限界",
+        "不完全観測下のパラメータ識別可能性限界 (Practical Parameter Identifiability Under Incomplete Observation)",
+        "不完全観測下のパラメータ識別可能性限界(Practical Parameter Identifiability Under Incomplete Observation)",
+        "不完全観測下のパラメータ識別可能性限界（Practical Parameter Identifiability Under Incomplete Observation）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
+    },
+    {
       "id": "uncertainty-quantification-and-common-measurement-for-trust",
       "slug": "uncertainty-quantification-and-common-measurement-for-trust",
       "label": "不確実性の定量化と共通尺度による信頼可能性の構築",
@@ -18838,9 +18866,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 12,
+      "inbound_count": 13,
       "outbound_count": 4,
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "absorptive-capacity-mediates-imitation-and-internalization",
@@ -31944,6 +31972,34 @@
       "degree": 1
     },
     {
+      "id": "self-referential-system-boundary-transition",
+      "slug": "self-referential-system-boundary-transition",
+      "label": "自己参照系の境界問題と成長パラダイムの転換",
+      "title": "自己参照系の境界問題と成長パラダイムの転換",
+      "title_ja": "自己参照系の境界問題と成長パラダイムの転換",
+      "title_en": "Self-Referential System Boundary and Growth Paradigm Transition",
+      "tier": null,
+      "description": "自己参照的に自らを観測・制御する知的主体は、量的成長が構造的限界に達すると質的成長への転換を迫られる、サイバネティクスに基づく普遍的境界問題。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/self-referential-system-boundary-transition.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Self-Referential System Boundary and Growth Paradigm Transition",
+        "self-referential-system-boundary-transition",
+        "自己参照系の境界問題と成長パラダイムの転換",
+        "自己参照系の境界問題と成長パラダイムの転換 (Self-Referential System Boundary and Growth Paradigm Transition)",
+        "自己参照系の境界問題と成長パラダイムの転換(Self-Referential System Boundary and Growth Paradigm Transition)",
+        "自己参照系の境界問題と成長パラダイムの転換（Self-Referential System Boundary and Growth Paradigm Transition）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 2,
+      "degree": 2
+    },
+    {
       "id": "self-reinforcing-instability-dynamics",
       "slug": "self-reinforcing-instability-dynamics",
       "label": "自己強化型不安定ダイナミクス",
@@ -36635,6 +36691,34 @@
       "inbound_count": 4,
       "outbound_count": 5,
       "degree": 9
+    },
+    {
+      "id": "hierarchical-visibility-asymmetry-in-value-measurement",
+      "slug": "hierarchical-visibility-asymmetry-in-value-measurement",
+      "label": "階層的位置による成果可視性の非対称性",
+      "title": "階層的位置による成果可視性の非対称性",
+      "title_ja": "階層的位置による成果可視性の非対称性",
+      "title_en": "Hierarchical Visibility Asymmetry in Value Measurement",
+      "tier": null,
+      "description": "組織内で観測者が占める階層的位置と価値基準の多元性により、同じ成果に対する可視性・測定可能性の認知が系統的に分かれる構造的メカニズム。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/hierarchical-visibility-asymmetry-in-value-measurement.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Hierarchical Visibility Asymmetry in Value Measurement",
+        "hierarchical-visibility-asymmetry-in-value-measurement",
+        "階層的位置による成果可視性の非対称性",
+        "階層的位置による成果可視性の非対称性 (Hierarchical Visibility Asymmetry in Value Measurement)",
+        "階層的位置による成果可視性の非対称性(Hierarchical Visibility Asymmetry in Value Measurement)",
+        "階層的位置による成果可視性の非対称性（Hierarchical Visibility Asymmetry in Value Measurement）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
     },
     {
       "id": "incentive-compatible-control-of-hidden-agents",
@@ -257892,6 +257976,68 @@
       "ambiguous": false,
       "candidates": [
         "multi-agent-systems"
+      ]
+    },
+    {
+      "id": "self-referential-system-boundary-transition->absorptive-capacity",
+      "source": "self-referential-system-boundary-transition",
+      "target": "absorptive-capacity",
+      "source_label": "自己参照系の境界問題と成長パラダイムの転換",
+      "target_label": "吸収能力",
+      "source_file": "concepts/self-referential-system-boundary-transition.md",
+      "target_file": "concepts/absorptive-capacity.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "absorptive-capacity"
+      ],
+      "display_labels": [
+        "absorptive-capacity"
+      ],
+      "mentions": [
+        {
+          "raw_target": "absorptive-capacity",
+          "label": "absorptive-capacity",
+          "section": "AI Native な設計への示唆",
+          "line": 23,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "absorptive-capacity"
+      ]
+    },
+    {
+      "id": "self-referential-system-boundary-transition->human-irreplaceable-competencies",
+      "source": "self-referential-system-boundary-transition",
+      "target": "human-irreplaceable-competencies",
+      "source_label": "自己参照系の境界問題と成長パラダイムの転換",
+      "target_label": "AI時代における人間代替不可能なコア・コンピテンシー",
+      "source_file": "concepts/self-referential-system-boundary-transition.md",
+      "target_file": "concepts/human-irreplaceable-competencies.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "human-irreplaceable-competencies"
+      ],
+      "display_labels": [
+        "human-irreplaceable-competencies"
+      ],
+      "mentions": [
+        {
+          "raw_target": "human-irreplaceable-competencies",
+          "label": "human-irreplaceable-competencies",
+          "section": "AI Native な設計への示唆",
+          "line": 23,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "human-irreplaceable-competencies"
       ]
     },
     {
