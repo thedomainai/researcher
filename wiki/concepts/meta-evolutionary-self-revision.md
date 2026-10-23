@@ -28,3 +28,8 @@
 
 * **タイトル**: TRI-COUPLING SYSTEM EVOLUTION THEORY III: META-EVOLUTION, ECOLOGY LEARNING & SELF-REVISING RESEARCH GRAMMARS AT THE LIMIT (2026)
   **ファイルパス**: `raw/papers/evolutionary_biology/tri-coupling-system-evolution-theory-iii-meta-evolution-ecology-learning-self-re.md`
+
+## 追加ソース（2026-10-24）
+
+* **タイトル**: THE EVOLVING BACKEND OF REALITY Meta-Rules, Effective Laws, Recursive Constraints, and the Evolution of Generative Order (2026)
+  **ファイルパス**: `raw/papers/complexity_science/the-evolving-backend-of-reality-meta-rules-effective-laws-recursive-constraints-.md`

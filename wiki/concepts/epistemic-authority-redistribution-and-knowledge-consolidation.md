@@ -86,3 +86,8 @@ Seoらは、2008〜2025年の韓国の科学教育研究をBERTopicで分析し�
 
 * **タイトル**: Measuring Google AI Overviews: Activation, Source Quality, Claim Fidelity, and Publisher Impact (2026)
   **ファイルパス**: `raw/papers/sociology/measuring-google-ai-overviews-activation-source-quality-claim-fidelity-and-publi.md`
+
+## 追加ソース（2026-10-24）
+
+* **タイトル**: Journalism Transformation in the Digital Era: Data, Algorithms, and Audiences (2026)
+  **ファイルパス**: `raw/papers/information_systems/journalism-transformation-in-the-digital-era-data-algorithms-and-audiences.md`

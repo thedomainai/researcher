@@ -77,3 +77,8 @@ Marciniakは、AI投資や計算基盤が少数の企業・国に集中してい
    File: raw/papers/anthropology/team-autonomy-in-scaling-agility-themes-and-organizational-mechanisms.md
 4. Artificial Intelligence as an Economic, Environmental, Geopolitical, and Social Transformation — Marcin Marciniak (2026)
    File: raw/papers/ai_governance/artificial-intelligence-as-an-economic-environmental-geopolitical-and-social-tra.md
+
+## 追加ソース（2026-10-24）
+
+* **タイトル**: Transcending the Weberian Paradox: Fluid Institutions, Agentic Artificial Intelligence, and the Evolution of Post-Bureaucratic State Systems (2026)
+  **ファイルパス**: `raw/papers/complexity_science/transcending-the-weberian-paradox-fluid-institutions-agentic-artificial-intellig.md`

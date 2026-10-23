@@ -59,3 +59,8 @@ AIの組織導入におけるアプローチは、大きく以下の二つに大
   * raw/内のファイルパス: `Generative AI at Work`
 * **Sebastian Raisch, Sebastian Krakowski (2021)**, *"Artificial Intelligence and Management: The Automation–Augmentation Paradox"*
   * raw/内のファイルパス: `Artificial Intelligence and Management: The Automation–Augmentation Paradox`
+
+## 追加ソース（2026-10-24）
+
+* **タイトル**: Transformasi Matriks Kompetensi-Strategi di Era Digital: Systematic Literature Review tentang Integrasi Kebutuhan Bisnis dan Pengembangan SDM (2026)
+  **ファイルパス**: `raw/papers/information_systems/transformasi-matriks-kompetensi-strategi-di-era-digital-systematic-literature-re.md`

@@ -46,3 +46,8 @@ AIを搭載した意思決定支援システムはこれらの課題を解決し
 
 * 論文タイトル: Designing An Ai-Augmented Decision Support System For Rfq Pricing In Smes: An Action Design Research Study (2026)
 * ファイルパス: `raw/Designing An Ai-Augmented Decision Support System For Rfq Pricing In Smes: An Action Design Research Study`
+
+## 追加ソース（2026-10-24）
+
+* **タイトル**: Graduated Autonomy for Artificial Intelligence Agents in Human Capital Management: A Systematic Review and a Consequence-Calibrated Governance Framework (2026)
+  **ファイルパス**: `raw/papers/ai_governance/graduated-autonomy-for-artificial-intelligence-agents-in-human-capital-managemen.md`

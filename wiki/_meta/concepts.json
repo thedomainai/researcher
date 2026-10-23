@@ -26212,5 +26212,63 @@
     ],
     "domain": "complexity_science",
     "compiled_at": "2026-10-23"
+  },
+  {
+    "slug": "trust-control-complementarity-in-complex-coordination",
+    "title_ja": "信頼と統制の相互補完性",
+    "title_en": "Trust-Control Complementarity in Complex Coordination",
+    "description": "複雑系の協働設計において、信頼は形式的統制の代替物ではなく、統制が吸収しきれない複雑性を補完する不変的な調整機構として機能する",
+    "mechanisms": [
+      "フィードバックループによる信頼校正",
+      "非対称性の動的調整",
+      "段階的な信頼再構築",
+      "一次・二次サイバネティクス的観察"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/dynamics-of-trust-in-collaborative-complex-system-design.md"
+    ],
+    "domain": "complexity_science",
+    "compiled_at": "2026-10-24"
+  },
+  {
+    "slug": "institutional-axiom-incompatibility-and-adoption-friction",
+    "title_ja": "制度的公理不整合による採用摩擦",
+    "title_en": "Institutional Axiom Incompatibility and Adoption Friction",
+    "description": "技術の機能的実現可能性とは無関係に、採用主体が依拠する制度的・教義的公理同士が矛盾することで構造的な採用摩擦が生じる普遍メカニズム。",
+    "mechanisms": [
+      "制度的公理の非互換性",
+      "技術可行性と採用摩擦の分離",
+      "規範的純粋性への選好優先"
+    ],
+    "related_sources": [
+      2
+    ],
+    "source_files": [
+      "raw/papers/information_systems/technology-adoption-in-islamic-finance-epistemological-dissonance-from-keynesian.md"
+    ],
+    "domain": "information_systems",
+    "compiled_at": "2026-10-24"
+  },
+  {
+    "slug": "derivative-based-early-warning-threshold-governance",
+    "title_ja": "導関数ベース早期警告閾値ガバナンス",
+    "title_en": "Derivative-Based Early Warning Threshold Governance",
+    "description": "形式的な均衡点判定とは別に、変化率(導関数)に基づく早期警告閾値を設けることで、劣化が臨界点に達する前に先制的な統治介入を可能にする二層制御メカニズム。",
+    "mechanisms": [
+      "二次コスト関数による均衡点導出",
+      "導関数ベースの早期警告",
+      "反応的評価と予防的介入の分離"
+    ],
+    "related_sources": [
+      4
+    ],
+    "source_files": [
+      "raw/papers/information_systems/mathematical-model-and-counter-slope-control-of-the-casino-protocol-deterministi.md"
+    ],
+    "domain": "information_systems",
+    "compiled_at": "2026-10-24"
   }
 ]

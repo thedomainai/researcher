@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-23T08:21:39.486846",
+  "generated_at": "2026-10-24T06:10:42.041129",
   "summary": {
-    "articles_scanned": 1322,
-    "nodes": 3592,
-    "resolved_nodes": 1322,
+    "articles_scanned": 1325,
+    "nodes": 3595,
+    "resolved_nodes": 1325,
     "unresolved_nodes": 2270,
-    "edges": 6581,
-    "resolved_edges": 3621,
+    "edges": 6589,
+    "resolved_edges": 3629,
     "unresolved_edges": 2960,
-    "link_mentions": 6879,
-    "valid_source_refs": 2190,
+    "link_mentions": 6887,
+    "valid_source_refs": 2200,
     "invalid_source_refs": 117,
-    "isolated_concepts": 88
+    "isolated_concepts": 90
   },
   "nodes": [
     {
@@ -14345,9 +14345,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 7,
+      "inbound_count": 8,
       "outbound_count": 0,
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "bidirectional-human-machine-coupling-and-autonomy-boundary",
@@ -14406,9 +14406,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 4,
+      "inbound_count": 5,
       "outbound_count": 12,
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "human-ai-collaborative-forecasting",
@@ -16174,6 +16174,34 @@
       "degree": 5
     },
     {
+      "id": "trust-control-complementarity-in-complex-coordination",
+      "slug": "trust-control-complementarity-in-complex-coordination",
+      "label": "信頼と統制の相互補完性",
+      "title": "信頼と統制の相互補完性",
+      "title_ja": "信頼と統制の相互補完性",
+      "title_en": "Trust-Control Complementarity in Complex Coordination",
+      "tier": null,
+      "description": "複雑系の協働設計において、信頼は形式的統制の代替物ではなく、統制が吸収しきれない複雑性を補完する不変的な調整機構として機能する",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/trust-control-complementarity-in-complex-coordination.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Trust-Control Complementarity in Complex Coordination",
+        "trust-control-complementarity-in-complex-coordination",
+        "信頼と統制の相互補完性",
+        "信頼と統制の相互補完性 (Trust-Control Complementarity in Complex Coordination)",
+        "信頼と統制の相互補完性(Trust-Control Complementarity in Complex Coordination)",
+        "信頼と統制の相互補完性（Trust-Control Complementarity in Complex Coordination）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 8,
+      "degree": 8
+    },
+    {
       "id": "trust-complexity-reduction",
       "slug": "trust-complexity-reduction",
       "label": "信頼と複雑性の縮減",
@@ -16221,9 +16249,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 3,
+      "inbound_count": 4,
       "outbound_count": 5,
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "trust-free-boundary-enforcement-for-autonomous-actors",
@@ -16316,9 +16344,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 18,
+      "inbound_count": 19,
       "outbound_count": 4,
-      "degree": 22
+      "degree": 23
     },
     {
       "id": "unified-substrate-for-individualized-processing",
@@ -16844,9 +16872,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 10,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "agency-as-recursive-transition-law-update",
@@ -17288,9 +17316,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 9,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "institution-economic-growth",
@@ -17319,6 +17347,34 @@
       "inbound_count": 1,
       "outbound_count": 5,
       "degree": 6
+    },
+    {
+      "id": "institutional-axiom-incompatibility-and-adoption-friction",
+      "slug": "institutional-axiom-incompatibility-and-adoption-friction",
+      "label": "制度的公理不整合による採用摩擦",
+      "title": "制度的公理不整合による採用摩擦",
+      "title_ja": "制度的公理不整合による採用摩擦",
+      "title_en": "Institutional Axiom Incompatibility and Adoption Friction",
+      "tier": null,
+      "description": "技術の機能的実現可能性とは無関係に、採用主体が依拠する制度的・教義的公理同士が矛盾することで構造的な採用摩擦が生じる普遍メカニズム。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/institutional-axiom-incompatibility-and-adoption-friction.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Institutional Axiom Incompatibility and Adoption Friction",
+        "institutional-axiom-incompatibility-and-adoption-friction",
+        "制度的公理不整合による採用摩擦",
+        "制度的公理不整合による採用摩擦 (Institutional Axiom Incompatibility and Adoption Friction)",
+        "制度的公理不整合による採用摩擦(Institutional Axiom Incompatibility and Adoption Friction)",
+        "制度的公理不整合による採用摩擦（Institutional Axiom Incompatibility and Adoption Friction）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
     },
     {
       "id": "institutional-readiness-gates-technology-diffusion",
@@ -19950,9 +20006,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 8,
+      "inbound_count": 9,
       "outbound_count": 13,
-      "degree": 21
+      "degree": 22
     },
     {
       "id": "multi-dimensional-explanation-and-architecture-of-inquiry",
@@ -21137,6 +21193,34 @@
       "inbound_count": 16,
       "outbound_count": 7,
       "degree": 23
+    },
+    {
+      "id": "derivative-based-early-warning-threshold-governance",
+      "slug": "derivative-based-early-warning-threshold-governance",
+      "label": "導関数ベース早期警告閾値ガバナンス",
+      "title": "導関数ベース早期警告閾値ガバナンス",
+      "title_ja": "導関数ベース早期警告閾値ガバナンス",
+      "title_en": "Derivative-Based Early Warning Threshold Governance",
+      "tier": null,
+      "description": "形式的な均衡点判定とは別に、変化率(導関数)に基づく早期警告閾値を設けることで、劣化が臨界点に達する前に先制的な統治介入を可能にする二層制御メカニズム。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/derivative-based-early-warning-threshold-governance.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Derivative-Based Early Warning Threshold Governance",
+        "derivative-based-early-warning-threshold-governance",
+        "導関数ベース早期警告閾値ガバナンス",
+        "導関数ベース早期警告閾値ガバナンス (Derivative-Based Early Warning Threshold Governance)",
+        "導関数ベース早期警告閾値ガバナンス(Derivative-Based Early Warning Threshold Governance)",
+        "導関数ベース早期警告閾値ガバナンス（Derivative-Based Early Warning Threshold Governance）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
     },
     {
       "id": "small-group-dynamics",
@@ -29369,9 +29453,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 4,
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "layered-synchronization-of-sociotechnical-transformation",
@@ -284708,6 +284792,254 @@
       ],
       "ambiguous": false,
       "candidates": []
+    },
+    {
+      "id": "trust-control-complementarity-in-complex-coordination->human-ai-trust-complementarity",
+      "source": "trust-control-complementarity-in-complex-coordination",
+      "target": "human-ai-trust-complementarity",
+      "source_label": "信頼と統制の相互補完性",
+      "target_label": "人間-AI間の信頼と相補性",
+      "source_file": "concepts/trust-control-complementarity-in-complex-coordination.md",
+      "target_file": "concepts/human-ai-trust-complementarity.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "human-ai-trust-complementarity"
+      ],
+      "display_labels": [
+        "human-ai-trust-complementarity"
+      ],
+      "mentions": [
+        {
+          "raw_target": "human-ai-trust-complementarity",
+          "label": "human-ai-trust-complementarity",
+          "section": "関連概念",
+          "line": 32,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "human-ai-trust-complementarity"
+      ]
+    },
+    {
+      "id": "trust-control-complementarity-in-complex-coordination->multidimensional-trust-formation-and-oversight",
+      "source": "trust-control-complementarity-in-complex-coordination",
+      "target": "multidimensional-trust-formation-and-oversight",
+      "source_label": "信頼と統制の相互補完性",
+      "target_label": "多次元的な信頼形成と監督による自律性の媒介",
+      "source_file": "concepts/trust-control-complementarity-in-complex-coordination.md",
+      "target_file": "concepts/multidimensional-trust-formation-and-oversight.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "multidimensional-trust-formation-and-oversight"
+      ],
+      "display_labels": [
+        "multidimensional-trust-formation-and-oversight"
+      ],
+      "mentions": [
+        {
+          "raw_target": "multidimensional-trust-formation-and-oversight",
+          "label": "multidimensional-trust-formation-and-oversight",
+          "section": "関連概念",
+          "line": 32,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "multidimensional-trust-formation-and-oversight"
+      ]
+    },
+    {
+      "id": "trust-control-complementarity-in-complex-coordination->trust-as-recursive-observation-and-interactional-emergence",
+      "source": "trust-control-complementarity-in-complex-coordination",
+      "target": "trust-as-recursive-observation-and-interactional-emergence",
+      "source_label": "信頼と統制の相互補完性",
+      "target_label": "再帰的観察と相互行為による信頼の創発",
+      "source_file": "concepts/trust-control-complementarity-in-complex-coordination.md",
+      "target_file": "concepts/trust-as-recursive-observation-and-interactional-emergence.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "trust-as-recursive-observation-and-interactional-emergence"
+      ],
+      "display_labels": [
+        "trust-as-recursive-observation-and-interactional-emergence"
+      ],
+      "mentions": [
+        {
+          "raw_target": "trust-as-recursive-observation-and-interactional-emergence",
+          "label": "trust-as-recursive-observation-and-interactional-emergence",
+          "section": "関連概念",
+          "line": 32,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "trust-as-recursive-observation-and-interactional-emergence"
+      ]
+    },
+    {
+      "id": "trust-control-complementarity-in-complex-coordination->trust-calibration-mechanisms",
+      "source": "trust-control-complementarity-in-complex-coordination",
+      "target": "trust-calibration-mechanisms",
+      "source_label": "信頼と統制の相互補完性",
+      "target_label": "信頼較正メカニズム",
+      "source_file": "concepts/trust-control-complementarity-in-complex-coordination.md",
+      "target_file": "concepts/trust-calibration-mechanisms.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "trust-calibration-mechanisms"
+      ],
+      "display_labels": [
+        "trust-calibration-mechanisms"
+      ],
+      "mentions": [
+        {
+          "raw_target": "trust-calibration-mechanisms",
+          "label": "trust-calibration-mechanisms",
+          "section": "関連概念",
+          "line": 32,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "trust-calibration-mechanisms"
+      ]
+    },
+    {
+      "id": "trust-control-complementarity-in-complex-coordination->trust-continuity",
+      "source": "trust-control-complementarity-in-complex-coordination",
+      "target": "trust-continuity",
+      "source_label": "信頼と統制の相互補完性",
+      "target_label": "信頼の継続性とアイデンティティ検証",
+      "source_file": "concepts/trust-control-complementarity-in-complex-coordination.md",
+      "target_file": "concepts/trust-continuity.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "trust-continuity"
+      ],
+      "display_labels": [
+        "trust-continuity"
+      ],
+      "mentions": [
+        {
+          "raw_target": "trust-continuity",
+          "label": "trust-continuity",
+          "section": "関連概念",
+          "line": 32,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "trust-continuity"
+      ]
+    },
+    {
+      "id": "trust-control-complementarity-in-complex-coordination->trust-formation-via-institutional-bridging-of-asymmetry",
+      "source": "trust-control-complementarity-in-complex-coordination",
+      "target": "trust-formation-via-institutional-bridging-of-asymmetry",
+      "source_label": "信頼と統制の相互補完性",
+      "target_label": "制度による情報非対称性の橋渡しと二重経路の信頼形成",
+      "source_file": "concepts/trust-control-complementarity-in-complex-coordination.md",
+      "target_file": "concepts/trust-formation-via-institutional-bridging-of-asymmetry.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "trust-formation-via-institutional-bridging-of-asymmetry"
+      ],
+      "display_labels": [
+        "trust-formation-via-institutional-bridging-of-asymmetry"
+      ],
+      "mentions": [
+        {
+          "raw_target": "trust-formation-via-institutional-bridging-of-asymmetry",
+          "label": "trust-formation-via-institutional-bridging-of-asymmetry",
+          "section": "関連概念",
+          "line": 32,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "trust-formation-via-institutional-bridging-of-asymmetry"
+      ]
+    },
+    {
+      "id": "trust-control-complementarity-in-complex-coordination->trust-recalibration-cycle-in-human-machine-coupling",
+      "source": "trust-control-complementarity-in-complex-coordination",
+      "target": "trust-recalibration-cycle-in-human-machine-coupling",
+      "source_label": "信頼と統制の相互補完性",
+      "target_label": "人間-機械結合における信頼再調整サイクルと制御ループ",
+      "source_file": "concepts/trust-control-complementarity-in-complex-coordination.md",
+      "target_file": "concepts/trust-recalibration-cycle-in-human-machine-coupling.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "trust-recalibration-cycle-in-human-machine-coupling"
+      ],
+      "display_labels": [
+        "trust-recalibration-cycle-in-human-machine-coupling"
+      ],
+      "mentions": [
+        {
+          "raw_target": "trust-recalibration-cycle-in-human-machine-coupling",
+          "label": "trust-recalibration-cycle-in-human-machine-coupling",
+          "section": "関連概念",
+          "line": 32,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "trust-recalibration-cycle-in-human-machine-coupling"
+      ]
+    },
+    {
+      "id": "trust-control-complementarity-in-complex-coordination->trust-violation-and-repair-in-sociotechnical-systems",
+      "source": "trust-control-complementarity-in-complex-coordination",
+      "target": "trust-violation-and-repair-in-sociotechnical-systems",
+      "source_label": "信頼と統制の相互補完性",
+      "target_label": "社会技術システムにおける信頼の毀損と修復フレームワーク",
+      "source_file": "concepts/trust-control-complementarity-in-complex-coordination.md",
+      "target_file": "concepts/trust-violation-and-repair-in-sociotechnical-systems.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "trust-violation-and-repair-in-sociotechnical-systems"
+      ],
+      "display_labels": [
+        "trust-violation-and-repair-in-sociotechnical-systems"
+      ],
+      "mentions": [
+        {
+          "raw_target": "trust-violation-and-repair-in-sociotechnical-systems",
+          "label": "trust-violation-and-repair-in-sociotechnical-systems",
+          "section": "関連概念",
+          "line": 32,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "trust-violation-and-repair-in-sociotechnical-systems"
+      ]
     },
     {
       "id": "trust-formation-via-institutional-bridging-of-asymmetry->adoption-outpacing-governance-capacity-asymmetry",

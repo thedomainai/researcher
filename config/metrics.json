@@ -156,10 +156,23 @@
     "Organic Search": 2
    },
    "pv": 2,
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   },
    "sessions": 2,
    "users": 1
   },
   "2026-10-21": {
+   "channels": {
+    "Organic Search": 1
+   },
+   "pv": 1,
+   "sessions": 1,
+   "users": 1
+  },
+  "2026-10-22": {
    "channels": {
     "Organic Search": 1
    },
@@ -210,7 +223,11 @@
   [
    "/researcher/concepts/political-corporate-social-responsibility/",
    1
+  ],
+  [
+   "/researcher/concepts/trust-violation-and-repair-in-sociotechnical-systems/",
+   1
   ]
  ],
- "updated": "2026-10-22T06:20:41"
+ "updated": "2026-10-23T08:22:04"
 }

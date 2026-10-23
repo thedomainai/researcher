@@ -84,3 +84,8 @@ Andriyanovはこれを物理的なアナロジーで説明する。
   - 著者：Dmitriy V. Andriyanov（2026年）
   - DOI：[https://doi.org/10.5281/zenodo.19230699](https://doi.org/10.5281/zenodo.19230699)
   - OpenAlex ID：https://openalex.org/W7140384827
+
+## 追加ソース（2026-10-24）
+
+* **タイトル**: AI AND EUROPE'S WORRIES : On Responsible AI, Global Governance, Copyright, Social Impact, and the Architecture That Answers (2026)
+  **ファイルパス**: `raw/papers/information_systems/ai-and-europes-worries-on-responsible-ai-global-governance-copyright-social-impa.md`

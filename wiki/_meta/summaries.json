@@ -2807,6 +2807,12 @@
   "title_en": "Democracy, Wealth Inequality, and Political Conflict",
   "why": "富の不平等が深刻な国家は政策転換や制度不安定のリスクが高く、企業の長期戦略投資に摩擦をもたらす。"
  },
+ "derivative-based-early-warning-threshold-governance": {
+  "at": "2026-10-23T21:10:53+00:00",
+  "summary": "均衡点の事後判定とは別に状態量の変化率を監視し、劣化が進行中である段階で先制的に介入する二層型の決定論的ガバナンス機構である。",
+  "title_en": "Derivative-Based Early Warning Threshold Governance",
+  "why": "ガバナンスAIは閾値到達の事後判定だけでなく変化率監視による予防的介入ロジックを分離実装すべきだと示唆する。"
+ },
  "design-challenge-brief-as-coordination-artefact": {
   "at": "2026-10-01T09:46:38+00:00",
   "summary": "デザインチャレンジブリーフは発散的探索・交渉と翻訳・収束的合意の3段階を経て、多様な関係者間でAI構想の価値と実現可能性への合意を形成する調整兼選別の道具である。",
@@ -4750,6 +4756,12 @@
   "summary": "財産権保護や政府の効率性といった制度の質が、投資リスクや資源配分を通じて国家の長期的経済成長と先進国への収束速度を左右する。",
   "title_en": "Institutions and Economic Growth",
   "why": ""
+ },
+ "institutional-axiom-incompatibility-and-adoption-friction": {
+  "at": "2026-10-23T21:10:53+00:00",
+  "summary": "技術が機能的に実現可能でも採用主体の制度的・教義的公理と矛盾すれば、性能とは無関係に採用摩擦が生じることをイスラーム金融の事例が示す。",
+  "title_en": "Institutional Axiom Incompatibility and Adoption Friction",
+  "why": "AI導入計画には性能評価と並行して採用主体の規範的公理との整合性を検証するゲートを設けるべきだと示唆する。"
  },
  "institutional-investors-and-corporate-behavior": {
   "at": "2026-10-01T09:54:52+00:00",
@@ -7702,6 +7714,12 @@
   "summary": "AIによるなりすましが高度化する中、ログイン時の一回限りの認証ではなく会話全体を通じて身元の真正性を動的に検証し続けるセキュリティ概念である。",
   "title_en": "Trust Continuity and Identity Verification",
   "why": "AIエージェントを業務に導入する組織は、セッション開始後も会話の完全性と属性特定を継続的に検証する仕組みが必要になる。"
+ },
+ "trust-control-complementarity-in-complex-coordination": {
+  "at": "2026-10-23T21:10:53+00:00",
+  "summary": "複雑な多組織協働では信頼は統制の代替ではなく、統制が吸収できない複雑性を補う動的な調整機構として継続的に校正・再構築される。",
+  "title_en": "Trust-Control Complementarity in Complex Coordination",
+  "why": "AIと人間が混在する協働設計では統制だけに頼らず、非対称な信頼の継続的校正と節目ごとの再構築を仕組み化すべきだと示唆する。"
  },
  "trust-formation-via-institutional-bridging-of-asymmetry": {
   "at": "2026-10-01T10:08:23+00:00",
