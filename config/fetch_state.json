@@ -1,6 +1,727 @@
 {
-  "last_fetch_date": "2026-10-24",
-  "last_fetch_count": 14,
-  "last_fetch_time": "2026-10-24T06:05:49.541757",
-  "retry_queue": []
+  "last_fetch_date": "2026-10-26",
+  "last_fetch_count": 1,
+  "last_fetch_time": "2026-10-26T07:04:32.175781",
+  "retry_queue": [
+    {
+      "domain": "accounting",
+      "query": "accounting AI automation",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "accounting",
+      "query": "audit AI artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "accounting",
+      "query": "balanced scorecard AI performance",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "accounting",
+      "query": "earnings management AI detection",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "accounting",
+      "query": "management accounting AI decision",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "ai_governance",
+      "query": "AI governance framework",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "ai_governance",
+      "query": "AI regulation policy",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "ai_governance",
+      "query": "AI safety alignment",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "ai_governance",
+      "query": "algorithmic fairness bias",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "ai_governance",
+      "query": "responsible AI principles",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "anthropology",
+      "query": "digital anthropology artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "anthropology",
+      "query": "organizational ethnography AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "anthropology",
+      "query": "technology anthropology AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "behavioral_economics",
+      "query": "algorithm aversion trust",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "behavioral_economics",
+      "query": "bounded rationality AI decision",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "behavioral_economics",
+      "query": "decision making AI behavioral",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "behavioral_economics",
+      "query": "default effect AI recommendation",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "behavioral_economics",
+      "query": "nudge artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "business_ethics_csr",
+      "query": "ESG AI governance",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "business_ethics_csr",
+      "query": "business ethics artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "business_ethics_csr",
+      "query": "corporate social responsibility AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "business_ethics_csr",
+      "query": "stakeholder AI value creation",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "business_ethics_csr",
+      "query": "sustainability AI business",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "complexity_science",
+      "query": "complex adaptive systems artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "complexity_science",
+      "query": "cybernetics AI system",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "complexity_science",
+      "query": "emergence multi-agent systems",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "complexity_science",
+      "query": "self-organization AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "complexity_science",
+      "query": "systems thinking artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "corporate_governance",
+      "query": "agency theory corporate governance AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "corporate_governance",
+      "query": "board directors AI decision making",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "corporate_governance",
+      "query": "executive compensation AI algorithm",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "corporate_governance",
+      "query": "ownership structure corporate AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "corporate_governance",
+      "query": "stakeholder theory AI governance",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "economics",
+      "query": "AI labor market automation",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "economics",
+      "query": "AI productivity economic",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "economics",
+      "query": "general purpose technology AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "economics",
+      "query": "platform economics artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "economics",
+      "query": "task automation artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "entrepreneurship",
+      "query": "effectuation AI entrepreneurship",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "entrepreneurship",
+      "query": "entrepreneurial decision making AI uncertainty",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "entrepreneurship",
+      "query": "entrepreneurship AI opportunity recognition",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "entrepreneurship",
+      "query": "innovation entrepreneurship AI ecosystem",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "entrepreneurship",
+      "query": "startup artificial intelligence venture",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "evolutionary_biology",
+      "query": "cultural evolution artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "evolutionary_biology",
+      "query": "human AI coevolution",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "evolutionary_biology",
+      "query": "niche construction technology AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "finance_corporate",
+      "query": "behavioral finance AI decision",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "finance_corporate",
+      "query": "capital structure AI firm value",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "finance_corporate",
+      "query": "corporate investment AI algorithm",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "finance_corporate",
+      "query": "fintech AI financial markets",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "finance_corporate",
+      "query": "risk management artificial intelligence finance",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "hci",
+      "query": "AI decision support system",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "hci",
+      "query": "explainable AI user study",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "hci",
+      "query": "human-AI interaction design",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "hci",
+      "query": "mixed-initiative AI interaction",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "history_of_technology",
+      "query": "automation labor history AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "history_of_technology",
+      "query": "general purpose technology historical",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "history_of_technology",
+      "query": "technological revolution automation history",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "human_ai_collaboration",
+      "query": "AI augmentation knowledge work",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "human_ai_collaboration",
+      "query": "AI productivity experiment",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "human_ai_collaboration",
+      "query": "human AI team performance",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "human_ai_collaboration",
+      "query": "human-AI collaboration",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "human_resource_management",
+      "query": "AI human resource management",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "human_resource_management",
+      "query": "future of work AI employment",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "human_resource_management",
+      "query": "performance management AI automation",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "human_resource_management",
+      "query": "psychological safety AI team",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "human_resource_management",
+      "query": "talent management artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "information_systems",
+      "query": "IT governance AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "information_systems",
+      "query": "digital transformation AI organization",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "information_systems",
+      "query": "enterprise AI system implementation",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "information_systems",
+      "query": "sociotechnical AI information systems",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "information_systems",
+      "query": "technology adoption AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "innovation_management",
+      "query": "absorptive capacity AI knowledge",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "innovation_management",
+      "query": "disruptive innovation artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "innovation_management",
+      "query": "innovation management AI organization",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "innovation_management",
+      "query": "open innovation AI platform",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "innovation_management",
+      "query": "technology S-curve AI innovation",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "international_business",
+      "query": "FDI artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "international_business",
+      "query": "cultural distance AI multinational",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "international_business",
+      "query": "global value chain AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "international_business",
+      "query": "international business AI technology",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "international_business",
+      "query": "multinational corporation AI strategy",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "law",
+      "query": "AI legal personhood",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "law",
+      "query": "AI liability tort",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "law",
+      "query": "AI regulation governance",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "law",
+      "query": "algorithmic accountability law",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "law",
+      "query": "intellectual property AI generated",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "leadership_ob",
+      "query": "change management AI digital transformation",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "leadership_ob",
+      "query": "leadership artificial intelligence organization",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "leadership_ob",
+      "query": "organizational culture AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "leadership_ob",
+      "query": "team dynamics AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "leadership_ob",
+      "query": "transformational leadership AI change",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "marketing",
+      "query": "AI marketing personalization",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "marketing",
+      "query": "brand equity AI consumer",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "marketing",
+      "query": "customer experience AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "marketing",
+      "query": "digital marketing AI platform",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "marketing",
+      "query": "service dominant logic AI value",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "operations_management",
+      "query": "AI operations management supply chain",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "operations_management",
+      "query": "Industry 4.0 AI operations",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "operations_management",
+      "query": "digital operations AI optimization",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "operations_management",
+      "query": "lean manufacturing AI automation",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "operations_management",
+      "query": "quality management AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "operations_research",
+      "query": "AI decision making optimization",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "operations_research",
+      "query": "game theory AI mechanism design",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "operations_research",
+      "query": "machine learning operations research optimization",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "operations_research",
+      "query": "multi-objective optimization AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "operations_research",
+      "query": "reinforcement learning operations research",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "organization_science",
+      "query": "AI organizational design",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "organization_science",
+      "query": "dynamic capabilities artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "organization_science",
+      "query": "knowledge management AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "organization_science",
+      "query": "organizational ambidexterity AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "organization_science",
+      "query": "organizational routines automation AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "organization_science",
+      "query": "team cognition AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "philosophy",
+      "query": "artificial moral agency",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "philosophy",
+      "query": "epistemology AI knowledge",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "philosophy",
+      "query": "philosophy of mind artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "philosophy",
+      "query": "political philosophy artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "philosophy",
+      "query": "value alignment AI ethics",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "psychology",
+      "query": "automation complacency AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "psychology",
+      "query": "creativity AI collaboration",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "psychology",
+      "query": "flow experience technology AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "psychology",
+      "query": "self-determination theory AI technology",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "psychology",
+      "query": "self-efficacy artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "psychology",
+      "query": "trust automation AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "religious_studies",
+      "query": "digital religion artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "religious_studies",
+      "query": "religion and artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "religious_studies",
+      "query": "religion ethics artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "religious_studies",
+      "query": "religious change digital media AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "religious_studies",
+      "query": "religious studies technology AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "religious_studies",
+      "query": "ritual theory technology AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "sociology",
+      "query": "actor-network theory AI technology",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "sociology",
+      "query": "digital divide artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "sociology",
+      "query": "institutional theory artificial intelligence",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "sociology",
+      "query": "network society AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "sociology",
+      "query": "trust social systems AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "strategic_management",
+      "query": "competitive dynamics AI industry",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "strategic_management",
+      "query": "dynamic capabilities artificial intelligence strategy",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "strategic_management",
+      "query": "resource-based view competitive advantage AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "strategic_management",
+      "query": "strategic decision making AI top management",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "strategic_management",
+      "query": "upper echelons CEO decision making AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "systems_engineering",
+      "query": "human-automation interaction",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "systems_engineering",
+      "query": "resilience engineering AI system",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "systems_engineering",
+      "query": "safety critical AI",
+      "since": "2026-10-24"
+    },
+    {
+      "domain": "systems_engineering",
+      "query": "sociotechnical systems AI",
+      "since": "2026-10-24"
+    }
+  ]
 }
