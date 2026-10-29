@@ -1,0 +1,22 @@
+---
+title: "Editorial: Winning by design: technology-integrated learning, performance, and recovery in team sports"
+authors: "Bruno Figueira, Jose Luis Felipe, Rūtenis Paulauskas, Bruno V. Gonçalves"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "human_ai_collaboration"
+fetched: "2026-10-29T20:24:32.437688"
+doi: "https://doi.org/10.3389/fpsyg.2026.2030251"
+openalex_id: "https://openalex.org/W7224093111"
+source_api: "openalex"
+---
+
+# Editorial: Winning by design: technology-integrated learning, performance, and recovery in team sports
+
+**著者**: Bruno Figueira, Jose Luis Felipe, Rūtenis Paulauskas, Bruno V. Gonçalves
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: 人間-AI協働
+
+## Abstract
+
+Augmented information can support learning when it clarifies relevant actions. In a randomized youth-football study, He and Wei (2025) reported greater improvements in tested skills, intrinsic motivation, and follow-up retention with augmented-reality feedback than with verbal instruction. Competitive transfer remains to be established. Saiki et al. (2026) developed a mixed-reality basketball environment to practice collective coordination; novices improved positioning and timing. Nonsignificant expert differences between simulated and real performances do not demonstrate equivalence. Consistent with Chan et al.'s (2024) review, these findings justify testing simulation against live opposition rather than assuming match benefits.Practice variability provides a complementary route to skill development. Recovery research therefore needs subsequent performance outcomes alongside physiological monitoring.An important observation emerging from this collection is that technological integration has advanced more rapidly in learning and monitoring than in recovery optimization, highlighting a critical opportunity for future interdisciplinary research.The feedback and simulation studies support starting with a defined learning objective. Coaches can pilot augmented cues and variable practice, then assess retention without cues and transfer against live opponents, following the questions raised by He and Wei (2025), Saiki et al. (2026), andBurkaitė et al. (2025). The developmental and acceptance findings of Shang et al. (2026) and Wu et al. (2026) likewise motivate combining validated measurements with maturation context and athlete experience. Individual baselines, perceived exertion, and sleep reports should inform explicit adjustment criteria; wearable outputs should prompt dialogue rather than automatic prescription. Across the studies included in this Research Topic, technology appears most valuable when supporting, rather than replacing, practitioner expertise, reinforcing a human-in-the-loop approach to athlete development and decision-making. Protecting sleep opportunities follows Cunha et al. ( 2023), while evaluating recovery through subsequent training responses addresses the distinction between data-collection feasibility and demonstrated benefit.Responsible implementation requires understandable explanations of data collection and decisions, appropriate youth consent and assent, and defined access, retention, and withdrawal procedures. Athletes should be able to question interpretations. Accessible alternatives can address equipment, connectivity, and disability barriers. Staff must communicate uncertainty and avoid treating maturation estimates as definitive selection criteria. Acceptance, staff workload, and costs require evaluation alongside measurement accuracy.Four priorities connect the collection. First, establish delayed retention and competitive transfer against credible conventional practice, documenting exposure and feedback schedules. Second, validate measurements across ages, sexes, maturation stages, parasport, and resource settings. Leckey et al. (2025) highlight injury-prediction limitations; external validation and decision utility should precede deployment. Third, test recovery interventions during congested schedules, linking sleep and cognitive demands to performance and well-being. Fourth, evaluate implementation over full seasons, including autonomy and unintended effects. Future systems should also move beyond isolated metrics toward integrated models combining tactical, physical, physiological, psychological, and developmental information to support context-sensitive decision making. Transparent protocols and shareable code can support reproducibility while protecting personal data.

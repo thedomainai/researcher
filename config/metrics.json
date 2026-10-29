@@ -209,6 +209,19 @@
     "Organic Search": 1
    },
    "pv": 1,
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   },
+   "sessions": 1,
+   "users": 1
+  },
+  "2026-10-27": {
+   "channels": {
+    "Organic Search": 1
+   },
+   "pv": 1,
    "sessions": 1,
    "users": 1
   }
@@ -249,6 +262,10 @@
    1
   ],
   [
+   "/researcher/concepts/ai-enabled-leadership-agents/",
+   1
+  ],
+  [
    "/researcher/concepts/fungal-taxonomy-and-morphological-databases/",
    1
   ],
@@ -259,11 +276,7 @@
   [
    "/researcher/concepts/theory-of-planned-behavior/",
    1
-  ],
-  [
-   "/researcher/concepts/trust-violation-and-repair-in-sociotechnical-systems/",
-   1
   ]
  ],
- "updated": "2026-10-27T06:06:50"
+ "updated": "2026-10-28T06:06:18"
 }

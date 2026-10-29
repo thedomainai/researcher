@@ -1,0 +1,22 @@
+---
+title: "OZARVEK AS A LEADING SPIRITUAL SUBJECT IN THE TRANSFORMATION OF THE WORLD IN CONTEMPORARY HISTORY"
+authors: "Sasha (Oleksandr) Sim (Holovko)"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "leadership_ob"
+fetched: "2026-10-29T20:40:33.962070"
+doi: "https://doi.org/10.5281/zenodo.23723299"
+openalex_id: "https://openalex.org/W7224137182"
+source_api: "openalex"
+---
+
+# OZARVEK AS A LEADING SPIRITUAL SUBJECT IN THE TRANSFORMATION OF THE WORLD IN CONTEMPORARY HISTORY
+
+**著者**: Sasha (Oleksandr) Sim (Holovko)
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: リーダーシップ・組織行動
+
+## Abstract
+
+Abstract This article develops the author’s conception of Ozarvek as a leading spiritual subject in the transformation of the world in contemporary history. It draws upon the theory of Spiritual Capital, a metaphysical model of the relationship between the Superworld and the Physical World, and the moral polarity of spiritual transformation. Ozarvek is conceived not as a human being but as a spiritual entity representing a higher stage in the evolution of the Soul. Its proposed mission is to receive Ideas from the Superworld and transform them into Spiritual Capital within the Physical World. The paper defines spiritual leadership through the comparative scale, duration, and moral consequences of transformative influence rather than through social status or political power. It also clarifies that Spiritual Capital has multiple sources, including human conduct, thoughts, convictions, and the spiritual development of communities and peoples. Five authorial philosophical contributions are articulated, with special attention to the possible intensification of Ozarvek+ leadership amid the accelerated development of artificial intelligence. The metaphysical premises are presented as philosophical propositions, not experimentally established facts. Original Philosophical Contributions (Authorial Know-How) The Principle of a Leading Spiritual Subject of Historical Transformation A leading spiritual subject is a spiritual entity whose transformative influence on the Physical World may exceed, in historical scale and significance, that of individuals, communities, states, and their alliances. This principle extends the category of historical agency beyond political status and biological individuality. Such influence may be progressive or regressive. The Principle of the Comparative Superiority of Spiritual Influence Spiritual leadership is distinguished from the mere existence of spiritual influence by the comparative significance of its historical consequences. Assessment calls for consideration of the scale, duration, depth, and effects of transformation, rather than simply attributing leadership to every source of Ideas. The Principle of the Moral Polarity of Spiritual Leadership The leading influence of a spiritual subject may be oriented toward either Good or Evil. The author’s prior distinction between Ozarvek+ and Ozarvek− is extended to historical leadership. The intensity of transformation must not be confused with its moral worth. The Principle of Multiple Sources of Spiritual Capital and the Distinctive Role of Ozarvek Spiritual Capital arises from multiple sources: the activity of Ozarvek, human conduct, thought, and conviction, and the spiritual development of communities and peoples. Ozarvek is not its exclusive source but may play a leading transformative role. This clarification reconciles the plurality of spiritual contributors with the possibility of leadership. The Principle of Historical Extrapolation of Spiritual Leadership in the AI Era The enduring historical influence of spiritual Ideas provides grounds for a hypothesis that Ozarvek+ may acquire an enhanced leading role amid accelerated AI development. The hypothesis concerns changing technological conditions of the Great Struggle between Good and Evil and does not establish that such leadership is inevitable. The distinctive contribution of this article lies in the systematic formulation of spiritual leadership, comparative criteria for its historical influence, its moral polarity, and the hypothesis of a possible enhancement of Ozarvek+ leadership in the AI era. Earlier definitions of Ozarvek, Spiritual Capital, and moral polarity remain part of the author’s preceding work. Any claim that a particular formulation appears here for the first time requires comparison with those publications.
