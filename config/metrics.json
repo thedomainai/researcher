@@ -217,13 +217,33 @@
    "sessions": 1,
    "users": 1
   },
+  "2026-10-26": {
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   }
+  },
   "2026-10-27": {
    "channels": {
     "Organic Search": 1
    },
    "pv": 1,
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   },
    "sessions": 1,
    "users": 1
+  },
+  "2026-10-29": {
+   "channels": {
+    "Organic Search": 3
+   },
+   "pv": 3,
+   "sessions": 4,
+   "users": 3
   }
  },
  "sitemaps": [
@@ -251,7 +271,7 @@
   ],
   [
    "/researcher/concepts/nisq-quantum-computing/",
-   2
+   3
   ],
   [
    "/researcher/clusters/economics/",
@@ -266,17 +286,17 @@
    1
   ],
   [
+   "/researcher/concepts/automation-augmentation-paradox/",
+   1
+  ],
+  [
    "/researcher/concepts/fungal-taxonomy-and-morphological-databases/",
    1
   ],
   [
-   "/researcher/concepts/political-corporate-social-responsibility/",
-   1
-  ],
-  [
-   "/researcher/concepts/theory-of-planned-behavior/",
+   "/researcher/concepts/multi-scale-governance-architecture/",
    1
   ]
  ],
- "updated": "2026-10-28T06:06:18"
+ "updated": "2026-10-29T20:44:38"
 }

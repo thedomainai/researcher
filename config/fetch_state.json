@@ -1,22 +1,6 @@
 {
-  "last_fetch_date": "2026-10-29",
-  "last_fetch_count": 128,
-  "last_fetch_time": "2026-10-29T20:43:14.360682",
-  "retry_queue": [
-    {
-      "domain": "cognitive_science",
-      "query": "cognitive bias machine learning",
-      "since": "2026-10-28"
-    },
-    {
-      "domain": "cognitive_science",
-      "query": "distributed cognition AI system",
-      "since": "2026-10-28"
-    },
-    {
-      "domain": "cognitive_science",
-      "query": "metacognition AI calibration",
-      "since": "2026-10-28"
-    }
-  ]
+  "last_fetch_date": "2026-10-30",
+  "last_fetch_count": 10,
+  "last_fetch_time": "2026-10-30T06:47:42.413118",
+  "retry_queue": []
 }
