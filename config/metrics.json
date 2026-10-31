@@ -237,6 +237,13 @@
    "sessions": 1,
    "users": 1
   },
+  "2026-10-28": {
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   }
+  },
   "2026-10-29": {
    "channels": {
     "AI Assistant": 1,
@@ -299,5 +306,5 @@
    1
   ]
  ],
- "updated": "2026-10-30T06:49:07"
+ "updated": "2026-10-31T12:13:40"
 }
