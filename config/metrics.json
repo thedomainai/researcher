@@ -239,11 +239,12 @@
   },
   "2026-10-29": {
    "channels": {
+    "AI Assistant": 1,
     "Organic Search": 3
    },
-   "pv": 3,
-   "sessions": 4,
-   "users": 3
+   "pv": 4,
+   "sessions": 5,
+   "users": 4
   }
  },
  "sitemaps": [
@@ -298,5 +299,5 @@
    1
   ]
  ],
- "updated": "2026-10-29T20:44:38"
+ "updated": "2026-10-30T06:49:07"
 }
