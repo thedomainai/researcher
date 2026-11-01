@@ -250,6 +250,11 @@
     "Organic Search": 3
    },
    "pv": 4,
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   },
    "sessions": 5,
    "users": 4
   }
@@ -306,5 +311,5 @@
    1
   ]
  ],
- "updated": "2026-10-31T12:13:40"
+ "updated": "2026-11-01T07:00:18"
 }
