@@ -1,22 +1,6 @@
 {
-  "last_fetch_date": "2026-11-05",
-  "last_fetch_count": 11,
-  "last_fetch_time": "2026-11-05T08:22:03.288526",
-  "retry_queue": [
-    {
-      "domain": "neuroscience",
-      "query": "decision making brain AI",
-      "since": "2026-11-04"
-    },
-    {
-      "domain": "neuroscience",
-      "query": "neural plasticity human-computer interaction",
-      "since": "2026-11-04"
-    },
-    {
-      "domain": "neuroscience",
-      "query": "social brain hypothesis AI",
-      "since": "2026-11-04"
-    }
-  ]
+  "last_fetch_date": "2026-11-06",
+  "last_fetch_count": 26,
+  "last_fetch_time": "2026-11-06T08:14:21.331528",
+  "retry_queue": []
 }
