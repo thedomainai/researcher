@@ -293,7 +293,22 @@
     "position": 0
    }
   },
+  "2026-11-04": {
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   }
+  },
   "2026-11-05": {
+   "channels": {
+    "Organic Search": 1
+   },
+   "pv": 1,
+   "sessions": 1,
+   "users": 1
+  },
+  "2026-11-06": {
    "channels": {
     "Organic Search": 1
    },
@@ -342,17 +357,17 @@
    1
   ],
   [
+   "/researcher/concepts/ai-generated-code-detection/",
+   1
+  ],
+  [
    "/researcher/concepts/ai-in-science-communication/",
    1
   ],
   [
    "/researcher/concepts/automation-augmentation-paradox/",
    1
-  ],
-  [
-   "/researcher/concepts/fungal-taxonomy-and-morphological-databases/",
-   1
   ]
  ],
- "updated": "2026-11-06T08:14:34"
+ "updated": "2026-11-07T09:18:10"
 }
