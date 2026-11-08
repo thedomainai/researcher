@@ -305,6 +305,11 @@
     "Organic Search": 1
    },
    "pv": 1,
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   },
    "sessions": 1,
    "users": 1
   },
@@ -314,6 +319,14 @@
    },
    "pv": 1,
    "sessions": 1,
+   "users": 1
+  },
+  "2026-11-07": {
+   "channels": {
+    "Organic Search": 1
+   },
+   "pv": 1,
+   "sessions": 2,
    "users": 1
   }
  },
@@ -369,5 +382,5 @@
    1
   ]
  ],
- "updated": "2026-11-07T09:18:10"
+ "updated": "2026-11-08T06:56:40"
 }
