@@ -1,66 +1,11 @@
 {
-  "last_fetch_date": "2026-11-13",
-  "last_fetch_count": 15,
-  "last_fetch_time": "2026-11-13T10:02:41.216239",
+  "last_fetch_date": "2026-11-14",
+  "last_fetch_count": 33,
+  "last_fetch_time": "2026-11-14T06:16:39.789280",
   "retry_queue": [
-    {
-      "domain": "ai_governance",
-      "query": "AI governance framework",
-      "since": "2026-11-12"
-    },
-    {
-      "domain": "cognitive_science",
-      "query": "cognitive bias machine learning",
-      "since": "2026-11-12"
-    },
-    {
-      "domain": "cognitive_science",
-      "query": "cognitive load artificial intelligence",
-      "since": "2026-11-12"
-    },
-    {
-      "domain": "cognitive_science",
-      "query": "distributed cognition AI system",
-      "since": "2026-11-12"
-    },
-    {
-      "domain": "cognitive_science",
-      "query": "dual process theory AI decision",
-      "since": "2026-11-12"
-    },
-    {
-      "domain": "cognitive_science",
-      "query": "mental model AI interaction",
-      "since": "2026-11-12"
-    },
-    {
-      "domain": "cognitive_science",
-      "query": "metacognition AI calibration",
-      "since": "2026-11-12"
-    },
-    {
-      "domain": "complexity_science",
-      "query": "complex adaptive systems artificial intelligence",
-      "since": "2026-11-12"
-    },
-    {
-      "domain": "complexity_science",
-      "query": "emergence multi-agent systems",
-      "since": "2026-11-12"
-    },
-    {
-      "domain": "complexity_science",
-      "query": "self-organization AI",
-      "since": "2026-11-12"
-    },
     {
       "domain": "neuroscience",
       "query": "decision making brain AI",
-      "since": "2026-11-12"
-    },
-    {
-      "domain": "neuroscience",
-      "query": "embodied cognition robot",
       "since": "2026-11-12"
     },
     {
@@ -76,11 +21,6 @@
     {
       "domain": "neuroscience",
       "query": "social brain hypothesis AI",
-      "since": "2026-11-12"
-    },
-    {
-      "domain": "neuroscience",
-      "query": "working memory cognitive AI",
       "since": "2026-11-12"
     }
   ]
