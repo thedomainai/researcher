@@ -373,6 +373,14 @@
    "pv": 3,
    "sessions": 3,
    "users": 3
+  },
+  "2026-11-13": {
+   "channels": {
+    "Organic Search": 3
+   },
+   "pv": 3,
+   "sessions": 2,
+   "users": 2
   }
  },
  "sitemaps": [
@@ -427,5 +435,5 @@
    1
   ]
  ],
- "updated": "2026-11-13T10:03:50"
+ "updated": "2026-11-14T06:16:58"
 }
