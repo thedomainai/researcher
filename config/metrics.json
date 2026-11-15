@@ -371,6 +371,11 @@
     "Organic Search": 3
    },
    "pv": 3,
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   },
    "sessions": 3,
    "users": 3
   },
@@ -381,6 +386,14 @@
    "pv": 3,
    "sessions": 2,
    "users": 2
+  },
+  "2026-11-14": {
+   "channels": {
+    "Organic Search": 3
+   },
+   "pv": 3,
+   "sessions": 3,
+   "users": 3
   }
  },
  "sitemaps": [
@@ -411,6 +424,10 @@
    3
   ],
   [
+   "/researcher/concepts/gene-set-variation-analysis/",
+   2
+  ],
+  [
    "/researcher/clusters/economics/",
    1
   ],
@@ -429,11 +446,7 @@
   [
    "/researcher/concepts/ai-in-science-communication/",
    1
-  ],
-  [
-   "/researcher/concepts/ai-psychological-effects-work/",
-   1
   ]
  ],
- "updated": "2026-11-14T06:16:58"
+ "updated": "2026-11-15T07:00:27"
 }
