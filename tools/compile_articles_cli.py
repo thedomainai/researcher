@@ -14,7 +14,7 @@ pipeline_compile.py(Gemini 版)の Phase 1〜3 を、tier_classify_cli.py と同
 
 取り決め:
   - 従量課金の API キーは子プロセスから外す(lib/claude_cli.py)
-  - 認証切れは何も書き換えず終了コード 3。`claude auth login` で復旧する
+  - 認証切れは何も書き換えず終了コード 3。`claude setup-token` で長期トークンを発行し直して復旧する(lib/claude_cli.py)
   - 概念に採用されなかった論文は wiki_compile_attempts を +1 し、MAX_ATTEMPTS 回で対象から外す
     (旧実装は先頭に居座って以降の論文が処理されなかった)
   - 新規記事の [[リンク]] は既存 slug に解決できるものだけ残し、raw/ のパスは実在確認する。
@@ -450,7 +450,7 @@ def main():
         try:
             concepts, usage = extract_concepts(items, domain, slugs, args.model_extract, tally)
         except AuthError as e:
-            print("認証エラー: %s\n`claude auth login` を実行してから再実行してください。" % str(e)[:200], flush=True)
+            print("認証エラー: %s\n`claude setup-token` でトークンを発行し直し、キーチェーンに入れてから再実行してください(手順は tools/lib/claude_cli.py)。" % str(e)[:200], flush=True)
             if not pilot:
                 write_index(index)
             return 3

@@ -116,7 +116,16 @@ def main():
     load_dotenv(BASE / ".env")
     env = os.environ.copy()
     env.setdefault("PYTHONUNBUFFERED", "1")
+    # Python 3.9 の EOL 警告(google-auth)と urllib3 の LibreSSL 警告で、エラーログが埋まるのを防ぐ
+    env.setdefault("PYTHONWARNINGS", "ignore::FutureWarning,ignore:urllib3 v2 only supports OpenSSL")
     python = sys.executable
+
+    # スリープ復帰直後の 6:00 はネットワークが上がっていないことがある。最大 15 分待つ
+    # (つながらなくても続ける。取得・push の各段階が失敗として記録する)
+    sys.path.insert(0, str(TOOLS))
+    from lib.net import wait_for_host
+    if not args.dry_run:
+        wait_for_host("github.com", 443, max_wait=900)
 
     # 0. origin/main に追従する(fast-forward のみ)。遅れたまま記事生成すると論文を二重に記事化するため。
     #    分岐しているときは終了コード 2 で知らせるだけで、後続は続ける(publish 側で push が止まる)

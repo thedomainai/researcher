@@ -8,8 +8,16 @@
   - `--tools "" --setting-sources ""` で Claude Code 本体のツール定義・CLAUDE.md・rules を
     読ませない。これが無いと 1 回の呼び出しごとに約 7.5 万トークンの固定文脈が乗る
     (2026-09-29 計測: 74,952 → 165 トークン)。`--bare` は OAuth を読まず "Not logged in" になる
+  - 認証は `claude setup-token` で発行した長期トークン(有効期限 1 年)を
+    CLAUDE_CODE_OAUTH_TOKEN として子プロセスに渡す。`claude auth login` のセッションは
+    無人実行のあいだにリフレッシュできず切れる(2026-11 に 4 日以上 exit=3 が続いた)ため使わない。
+    トークンは環境変数に無ければ macOS のキーチェーン(サービス名 KEYCHAIN_SERVICE)から読む。
+    plist・.env・git には書かない。発行と登録の手順(本人が対話シェルで行う):
+        claude setup-token            # ブラウザで認証し、表示された sk-ant-oat01-... を控える
+        security add-generic-password -U -a "$USER" -s researcher-claude-oauth-token -w
+                                      # 値を聞かれるので貼り付ける(履歴に残らない)
   - 認証切れ(OAuth session expired)は AuthError で区別する。呼び出し側は何も書き換えず
-    終了コード 3 で止め、`claude auth login` を待つ
+    終了コード 3 で止め、トークンの再発行を待つ
   - 応答は `--output-format json` で受け、本文と usage(トークン数・API 換算額)を返す
 """
 
@@ -44,10 +52,39 @@ def find_claude():
 
 CLAUDE_BIN = find_claude()
 
+# `claude setup-token` で発行したトークンを置くキーチェーンの項目(generic password のサービス名)
+KEYCHAIN_SERVICE = "researcher-claude-oauth-token"
+
+
+def load_oauth_token():
+    """長期トークンを返す。環境変数 CLAUDE_CODE_OAUTH_TOKEN を優先し、無ければキーチェーンから読む。
+    見つからなければ None(その場合は claude 本体のログイン状態に任せる)。"""
+    token = os.environ.get("CLAUDE_CODE_OAUTH_TOKEN")
+    if token:
+        return token
+    if "keychain" in _TOKEN_CACHE:
+        return _TOKEN_CACHE["keychain"]
+    try:
+        r = subprocess.run(
+            ["/usr/bin/security", "find-generic-password", "-s", KEYCHAIN_SERVICE, "-w"],
+            capture_output=True, text=True, timeout=20,
+        )
+    except (OSError, subprocess.TimeoutExpired):
+        return None
+    token = r.stdout.strip()
+    _TOKEN_CACHE["keychain"] = token if r.returncode == 0 and token else None
+    return _TOKEN_CACHE["keychain"]
+
+
+_TOKEN_CACHE = {}
+
 
 def _child_env():
     env = {k: v for k, v in os.environ.items() if k not in ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN")}
     env["CLAUDECODE"] = ""  # ネストした Claude Code セッションからでも起動できるようにする
+    token = load_oauth_token()
+    if token:
+        env["CLAUDE_CODE_OAUTH_TOKEN"] = token
     # 認証情報(キーチェーン)の読み出しには HOME / USER / LOGNAME が要る。最小環境では欠けるので補う
     home = os.path.expanduser("~")
     env.setdefault("HOME", home)

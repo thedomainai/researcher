@@ -145,7 +145,7 @@ def main():
             text = call_claude(CRITERIA.format(papers=papers))
             results = parse_batch(text, len(items))
         except AuthError as e:
-            print("認証エラー: %s\n`claude login` を実行してから再実行してください。" % str(e)[:200], flush=True)
+            print("認証エラー: %s\n`claude setup-token` でトークンを発行し直し、キーチェーンに入れてから再実行してください(手順は tools/lib/claude_cli.py)。" % str(e)[:200], flush=True)
             break_code = 3
             # ここまでの結果は書き戻す
             _write_back(index)

@@ -19,6 +19,8 @@ import sys
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(BASE / "tools"))
+from lib.net import git_retry  # noqa: E402
 PATHS = ["raw", "wiki", "config/fetch_state.json", "config/reading_state.json", "config/x_post_state.json", "config/metrics.json"]
 
 
@@ -59,7 +61,11 @@ def main():
     if args.no_push:
         return 0
 
-    git("fetch", "-q", "origin", "main")
+    fetch = git_retry(BASE, "fetch", "-q", "origin", "main")
+    if fetch.returncode != 0:
+        # コミットは手元に残る。次回の実行で fetch・rebase・push をやり直す
+        print("publish: fetch に失敗。push を見送る(次回に再試行)\n" + (fetch.stderr or fetch.stdout), file=sys.stderr)
+        return 1
     behind = git("rev-list", "--count", "HEAD..origin/main").stdout.strip()
     if behind != "0":
         # 他の場所からの push があれば、自分のコミットをその上に乗せ替える(未コミットの他ファイルは autostash で退避)
@@ -69,7 +75,7 @@ def main():
             print("publish: rebase に失敗。push を見送る(次回に再試行)", file=sys.stderr)
             print(rebase.stderr or rebase.stdout, file=sys.stderr)
             return 1
-    push = git("push", "-q", "origin", "HEAD:main", check=False)
+    push = git_retry(BASE, "push", "-q", "origin", "HEAD:main")
     if push.returncode != 0:
         print("publish: push 失敗\n" + (push.stderr or push.stdout), file=sys.stderr)
         return 1

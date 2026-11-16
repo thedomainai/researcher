@@ -18,6 +18,8 @@ import sys
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(BASE / "tools"))
+from lib.net import git_retry  # noqa: E402
 
 
 def git(*args, check=False):
@@ -25,7 +27,7 @@ def git(*args, check=False):
 
 
 def main():
-    fetch = git("fetch", "-q", "origin", "main")
+    fetch = git_retry(BASE, "fetch", "-q", "origin", "main")
     if fetch.returncode != 0:
         print("sync: fetch に失敗: %s" % (fetch.stderr.strip() or fetch.stdout.strip())[:300], file=sys.stderr)
         return 1
