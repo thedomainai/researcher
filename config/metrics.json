@@ -379,11 +379,23 @@
    "sessions": 3,
    "users": 3
   },
+  "2026-11-12": {
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   }
+  },
   "2026-11-13": {
    "channels": {
     "Organic Search": 3
    },
    "pv": 3,
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   },
    "sessions": 2,
    "users": 2
   },
@@ -394,6 +406,14 @@
    "pv": 3,
    "sessions": 3,
    "users": 3
+  },
+  "2026-11-15": {
+   "channels": {
+    "Organic Search": 1
+   },
+   "pv": 1,
+   "sessions": 1,
+   "users": 1
   }
  },
  "sitemaps": [
@@ -448,5 +468,5 @@
    1
   ]
  ],
- "updated": "2026-11-15T07:00:27"
+ "updated": "2026-11-16T06:06:30"
 }

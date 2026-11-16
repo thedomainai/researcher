@@ -26270,5 +26270,83 @@
     ],
     "domain": "information_systems",
     "compiled_at": "2026-10-24"
+  },
+  {
+    "slug": "default-extractive-architecture-and-center-periphery-value-flow",
+    "title_ja": "デフォルトで抽出的なシステム設計と中心-周辺間の価値流出",
+    "title_en": "Extractive-by-Default Architecture and Center-Periphery Value Flow",
+    "description": "意図的な介入がない限り、データ収集から計算基盤・自律エージェント展開まで各レイヤーで価値と解釈的権威が周辺(データ提供者・労働力)から中心(技術を所有・運用する側)へ構造的に流出するメカニズム。",
+    "mechanisms": [
+      "中心-周辺構造",
+      "価値・権威の非対称抽出",
+      "デフォルト設計によるバイアスの埋め込み",
+      "累積的インフラ格差"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/accounting/ai-and-digital-colonialism-in-africa-artificial-intelligence-as-currently-built-.md"
+    ],
+    "domain": "accounting",
+    "compiled_at": "2026-11-16"
+  },
+  {
+    "slug": "unverifiable-claim-exploitation-under-information-asymmetry",
+    "title_ja": "検証不能な主張による情報非対称性の悪用",
+    "title_en": "Exploitation of Information Asymmetry via Unverifiable Claims",
+    "description": "外部の検証手段が欠如した状況下で、発信者が有利な自己申告的主張（環境配慮・倫理性など）を行い、受信者側がそれを検証できないために価値や信頼が歪められる構造",
+    "mechanisms": [
+      "情報の非対称性",
+      "検証コストの不在",
+      "モラルハザード"
+    ],
+    "related_sources": [
+      2
+    ],
+    "source_files": [
+      "raw/papers/business_ethics_csr/environmental-hustlers-and-greenwashing-in-the-data-centre-economy.md"
+    ],
+    "domain": "business_ethics_csr",
+    "compiled_at": "2026-11-16"
+  },
+  {
+    "slug": "compute-locus-tradeoff-under-network-complexity",
+    "title_ja": "ネットワーク複雑性増大に伴う計算配置のトレードオフ",
+    "title_en": "Compute Locus Tradeoff under Network Complexity",
+    "description": "システムの複雑性が増すにつれ、計算処理を中枢(コア)に集中させるか端点(エッジ)に分散させるかという配置選択が、レイテンシ・帯域・制御可能性のトレードオフとして不可避になる構造。",
+    "mechanisms": [
+      "中央集権-分散化のトレードオフ",
+      "レイテンシ制約",
+      "計算資源配置の最適化",
+      "複雑性の増大"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/economics/telecommunications-and-artificial-intelligence-machine-learning-inside-the-netwo.md"
+    ],
+    "domain": "economics",
+    "compiled_at": "2026-11-16"
+  },
+  {
+    "slug": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+    "title_ja": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+    "title_en": "Scarcity-Constrained Optimization Invariance under Vanishing Market Mediation",
+    "description": "資源配分における希少性に基づく制約最適化という原理自体は不変だが、その配分を媒介する市場という制度的メカニズムはAI等の代替手段により不要になりうるという構造。",
+    "mechanisms": [
+      "希少性による制約最適化",
+      "市場メディエーション",
+      "制度的媒介の代替可能性"
+    ],
+    "related_sources": [
+      3
+    ],
+    "source_files": [
+      "raw/papers/economics/economics-and-the-business-environment.md"
+    ],
+    "domain": "economics",
+    "compiled_at": "2026-11-16"
   }
 ]

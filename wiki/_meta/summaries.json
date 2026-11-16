@@ -2291,6 +2291,12 @@
   "title_en": "Computational Thinking Assessment in Early Childhood",
   "why": "幼少期からのAIリテラシー教育を設計・評価する際に、妥当性の高い測定基盤として参照できる。"
  },
+ "compute-locus-tradeoff-under-network-complexity": {
+  "at": "2026-11-16T07:06:04+00:00",
+  "summary": "ネットワーク複雑性が増すほど、処理を中枢に集中させるかエッジに分散させるかの選択がレイテンシ・帯域・制御可能性の代償を伴う構造的トレードオフとして鋭くなる。",
+  "title_en": "Compute Locus Tradeoff Under Network Complexity",
+  "why": "AIの配置設計は実装詳細ではなく性能・コスト・ガバナビリティを左右する前提条件として扱う必要がある。"
+ },
  "concentration-driven-systemic-risk-propagation": {
   "at": "2026-10-01T09:43:53+00:00",
   "summary": "少数のAIベンダーやレジストリへの依存集中は、個々の損失を超えて障害を非線形に増幅し、規制対象とのずれが事後統制を困難にする。",
@@ -2770,6 +2776,12 @@
   "summary": "AIで経営幹部の音声・容姿をリアルタイムに模倣し、本人確認や多重承認の欠如を突いて不正送金や機密開示を引き起こす詐欺手法である。",
   "title_en": "Deepfake Executive Impersonation Fraud",
   "why": "本人確認の形式化や独立した事実確認手順がなければ、AI音声・映像のなりすましが財務プロセスを突破しうる。"
+ },
+ "default-extractive-architecture-and-center-periphery-value-flow": {
+  "at": "2026-11-16T07:06:04+00:00",
+  "summary": "AIは意図的な悪意がなくても現状の構築・統治のままではデフォルトで抽出的になり、データ収集から計算基盤・労働配置まで複数レイヤーで周辺から中心へ価値と権威が流出する。",
+  "title_en": "Default Extractive Architecture and Center-Periphery Value Flow",
+  "why": "設計者は各レイヤーの非対称性を既定の帰結として警戒し、言語シェアや労働条件などを継続的に監視・介入する責任を負う。"
  },
  "default-reliance-and-trust-behavior-decoupling": {
   "at": "2026-10-01T09:46:38+00:00",
@@ -6713,6 +6725,12 @@
   "title_en": "Scarcity and Reactive Resource Allocation",
   "why": "AIシステム設計では需要予測に頼るより、実行時観測に基づく動的配分の仕組みを優先すべきことを示唆する。"
  },
+ "scarcity-constrained-optimization-under-vanishing-market-mediation": {
+  "at": "2026-11-16T07:06:04+00:00",
+  "summary": "希少性のもとでの制約最適化という経済原理はスケール不変だが、それを媒介する市場という制度はAI等の代替手段の登場により必要性自体が消滅しうる。",
+  "title_en": "Scarcity-Constrained Optimization Under Vanishing Market Mediation",
+  "why": "AI導入時は目的関数としての制約最適化と市場という実装手段を分離して評価し、伝達経路の再構成に備える必要がある。"
+ },
  "scoped-trust-and-automatic-deference-asymmetry": {
   "at": "2026-10-01T10:03:40+00:00",
   "summary": "信頼は本来機能ごとに限定されるべきだが、人間は権威的に見える情報源に領域を越えて自動的に信頼を付与し、その機能特異性は標準的な尺度では捉えられない。",
@@ -7798,6 +7816,12 @@
   "summary": "データ全体を均一とみなして解析すると、内部に潜む未分類の異質な集団の影響で推定値が歪むため、FIMIX-PLSなどで検出し分割する必要がある。",
   "title_en": "Unobserved Heterogeneity",
   "why": "顧客や従業員のセグメント構造を調査前提にしない多変量解析は、誤った意思決定モデルを導きかねない。"
+ },
+ "unverifiable-claim-exploitation-under-information-asymmetry": {
+  "at": "2026-11-16T07:06:04+00:00",
+  "summary": "検証手段を受信者が持たない状況では発信者の自己申告的な主張がそのまま信頼配分の根拠となり、情報非対称性とモラルハザードが結びついて検証不能な主張が悪用される。",
+  "title_en": "Unverifiable Claim Exploitation Under Information Asymmetry",
+  "why": "AI基盤の環境負荷や公平性に関する主張は第三者監査なしに意思決定の根拠とせず、ドメイン固有の開示と法的執行を結びつける設計が要る。"
  },
  "upstream-representation-integrity-failure": {
   "at": "2026-10-01T10:08:26+00:00",

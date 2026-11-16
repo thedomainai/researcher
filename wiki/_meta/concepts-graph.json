@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-24T06:10:42.041129",
+  "generated_at": "2026-11-16T16:05:48.396034",
   "summary": {
-    "articles_scanned": 1325,
-    "nodes": 3595,
-    "resolved_nodes": 1325,
+    "articles_scanned": 1329,
+    "nodes": 3599,
+    "resolved_nodes": 1329,
     "unresolved_nodes": 2270,
-    "edges": 6589,
-    "resolved_edges": 3629,
+    "edges": 6594,
+    "resolved_edges": 3634,
     "unresolved_edges": 2960,
-    "link_mentions": 6887,
-    "valid_source_refs": 2200,
+    "link_mentions": 6892,
+    "valid_source_refs": 2207,
     "invalid_source_refs": 117,
-    "isolated_concepts": 90
+    "isolated_concepts": 93
   },
   "nodes": [
     {
@@ -10151,6 +10151,34 @@
       "degree": 6
     },
     {
+      "id": "default-extractive-architecture-and-center-periphery-value-flow",
+      "slug": "default-extractive-architecture-and-center-periphery-value-flow",
+      "label": "デフォルトで抽出的なシステム設計と中心-周辺間の価値流出",
+      "title": "デフォルトで抽出的なシステム設計と中心-周辺間の価値流出",
+      "title_ja": "デフォルトで抽出的なシステム設計と中心-周辺間の価値流出",
+      "title_en": "Extractive-by-Default Architecture and Center-Periphery Value Flow",
+      "tier": null,
+      "description": "意図的な介入がない限り、データ収集から計算基盤・自律エージェント展開まで各レイヤーで価値と解釈的権威が周辺(データ提供者・労働力)から中心(技術を所有・運用する側)へ構造的に流出するメカニズム。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/default-extractive-architecture-and-center-periphery-value-flow.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Extractive-by-Default Architecture and Center-Periphery Value Flow",
+        "default-extractive-architecture-and-center-periphery-value-flow",
+        "デフォルトで抽出的なシステム設計と中心-周辺間の価値流出",
+        "デフォルトで抽出的なシステム設計と中心-周辺間の価値流出 (Extractive-by-Default Architecture and Center-Periphery Value Flow)",
+        "デフォルトで抽出的なシステム設計と中心-周辺間の価値流出(Extractive-by-Default Architecture and Center-Periphery Value Flow)",
+        "デフォルトで抽出的なシステム設計と中心-周辺間の価値流出（Extractive-by-Default Architecture and Center-Periphery Value Flow）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
+    },
+    {
       "id": "default-reliance-and-trust-behavior-decoupling",
       "slug": "default-reliance-and-trust-behavior-decoupling",
       "label": "デフォルト依存と信頼・行動の乖離",
@@ -10795,6 +10823,34 @@
       "inbound_count": 0,
       "outbound_count": 8,
       "degree": 8
+    },
+    {
+      "id": "compute-locus-tradeoff-under-network-complexity",
+      "slug": "compute-locus-tradeoff-under-network-complexity",
+      "label": "ネットワーク複雑性増大に伴う計算配置のトレードオフ",
+      "title": "ネットワーク複雑性増大に伴う計算配置のトレードオフ",
+      "title_ja": "ネットワーク複雑性増大に伴う計算配置のトレードオフ",
+      "title_en": "Compute Locus Tradeoff under Network Complexity",
+      "tier": null,
+      "description": "システムの複雑性が増すにつれ、計算処理を中枢(コア)に集中させるか端点(エッジ)に分散させるかという配置選択が、レイテンシ・帯域・制御可能性のトレードオフとして不可避になる構造。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/compute-locus-tradeoff-under-network-complexity.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Compute Locus Tradeoff under Network Complexity",
+        "compute-locus-tradeoff-under-network-complexity",
+        "ネットワーク複雑性増大に伴う計算配置のトレードオフ",
+        "ネットワーク複雑性増大に伴う計算配置のトレードオフ (Compute Locus Tradeoff under Network Complexity)",
+        "ネットワーク複雑性増大に伴う計算配置のトレードオフ(Compute Locus Tradeoff under Network Complexity)",
+        "ネットワーク複雑性増大に伴う計算配置のトレードオフ（Compute Locus Tradeoff under Network Complexity）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
     },
     {
       "id": "structural-position-over-node-attributes-in-network-flow",
@@ -15595,9 +15651,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 8,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "intermediary-dual-effect-and-critical-threshold-dominance",
@@ -15625,9 +15681,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 5,
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "ai-technology-adoption-firms",
@@ -17286,9 +17342,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 6,
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "trust-formation-via-institutional-bridging-of-asymmetry",
@@ -21552,9 +21608,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 4,
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "market-structure-differences",
@@ -21613,6 +21669,34 @@
       "inbound_count": 0,
       "outbound_count": 6,
       "degree": 6
+    },
+    {
+      "id": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+      "slug": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+      "label": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+      "title": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+      "title_ja": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+      "title_en": "Scarcity-Constrained Optimization Invariance under Vanishing Market Mediation",
+      "tier": null,
+      "description": "資源配分における希少性に基づく制約最適化という原理自体は不変だが、その配分を媒介する市場という制度的メカニズムはAI等の代替手段により不要になりうるという構造。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/scarcity-constrained-optimization-under-vanishing-market-mediation.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Scarcity-Constrained Optimization Invariance under Vanishing Market Mediation",
+        "scarcity-constrained-optimization-under-vanishing-market-mediation",
+        "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+        "希少性制約最適化の不変性と市場メディエーションの消滅可能性 (Scarcity-Constrained Optimization Invariance under Vanishing Market Mediation)",
+        "希少性制約最適化の不変性と市場メディエーションの消滅可能性(Scarcity-Constrained Optimization Invariance under Vanishing Market Mediation)",
+        "希少性制約最適化の不変性と市場メディエーションの消滅可能性（Scarcity-Constrained Optimization Invariance under Vanishing Market Mediation）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
     },
     {
       "id": "conic-complementarity-in-planar-contacts",
@@ -22193,9 +22277,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 8,
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "semantic-externalization-for-interpretive-convergence",
@@ -25726,6 +25810,34 @@
       "inbound_count": 1,
       "outbound_count": 9,
       "degree": 10
+    },
+    {
+      "id": "unverifiable-claim-exploitation-under-information-asymmetry",
+      "slug": "unverifiable-claim-exploitation-under-information-asymmetry",
+      "label": "検証不能な主張による情報非対称性の悪用",
+      "title": "検証不能な主張による情報非対称性の悪用",
+      "title_ja": "検証不能な主張による情報非対称性の悪用",
+      "title_en": "Exploitation of Information Asymmetry via Unverifiable Claims",
+      "tier": null,
+      "description": "外部の検証手段が欠如した状況下で、発信者が有利な自己申告的主張（環境配慮・倫理性など）を行い、受信者側がそれを検証できないために価値や信頼が歪められる構造",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/unverifiable-claim-exploitation-under-information-asymmetry.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Exploitation of Information Asymmetry via Unverifiable Claims",
+        "unverifiable-claim-exploitation-under-information-asymmetry",
+        "検証不能な主張による情報非対称性の悪用",
+        "検証不能な主張による情報非対称性の悪用 (Exploitation of Information Asymmetry via Unverifiable Claims)",
+        "検証不能な主張による情報非対称性の悪用(Exploitation of Information Asymmetry via Unverifiable Claims)",
+        "検証不能な主張による情報非対称性の悪用（Exploitation of Information Asymmetry via Unverifiable Claims）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
     },
     {
       "id": "verification-erosion-and-proof-burden-recalibration",
@@ -256190,6 +256302,161 @@
       "ambiguous": false,
       "candidates": [
         "resource-based-view"
+      ]
+    },
+    {
+      "id": "scarcity-constrained-optimization-under-vanishing-market-mediation->gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+      "source": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+      "target": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+      "source_label": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+      "target_label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+      "source_file": "concepts/scarcity-constrained-optimization-under-vanishing-market-mediation.md",
+      "target_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry"
+      ],
+      "display_labels": [
+        "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry"
+      ],
+      "mentions": [
+        {
+          "raw_target": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+          "label": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry"
+      ]
+    },
+    {
+      "id": "scarcity-constrained-optimization-under-vanishing-market-mediation->institutions-and-economic-growth",
+      "source": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+      "target": "institutions-and-economic-growth",
+      "source_label": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+      "target_label": "制度と経済成長",
+      "source_file": "concepts/scarcity-constrained-optimization-under-vanishing-market-mediation.md",
+      "target_file": "concepts/institutions-and-economic-growth.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "institutions-and-economic-growth"
+      ],
+      "display_labels": [
+        "institutions-and-economic-growth"
+      ],
+      "mentions": [
+        {
+          "raw_target": "institutions-and-economic-growth",
+          "label": "institutions-and-economic-growth",
+          "section": "関連概念",
+          "line": 28,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "institutions-and-economic-growth"
+      ]
+    },
+    {
+      "id": "scarcity-constrained-optimization-under-vanishing-market-mediation->intermediary-dual-effect-and-critical-threshold-dominance",
+      "source": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+      "target": "intermediary-dual-effect-and-critical-threshold-dominance",
+      "source_label": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+      "target_label": "仲介構造の二重効果と臨界閾値での支配反転",
+      "source_file": "concepts/scarcity-constrained-optimization-under-vanishing-market-mediation.md",
+      "target_file": "concepts/intermediary-dual-effect-and-critical-threshold-dominance.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "intermediary-dual-effect-and-critical-threshold-dominance"
+      ],
+      "display_labels": [
+        "intermediary-dual-effect-and-critical-threshold-dominance"
+      ],
+      "mentions": [
+        {
+          "raw_target": "intermediary-dual-effect-and-critical-threshold-dominance",
+          "label": "intermediary-dual-effect-and-critical-threshold-dominance",
+          "section": "関連概念",
+          "line": 26,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "intermediary-dual-effect-and-critical-threshold-dominance"
+      ]
+    },
+    {
+      "id": "scarcity-constrained-optimization-under-vanishing-market-mediation->market-incentives-preservation-federalism",
+      "source": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+      "target": "market-incentives-preservation-federalism",
+      "source_label": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+      "target_label": "市場インセンティブの維持と連邦制",
+      "source_file": "concepts/scarcity-constrained-optimization-under-vanishing-market-mediation.md",
+      "target_file": "concepts/market-incentives-preservation-federalism.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "market-incentives-preservation-federalism"
+      ],
+      "display_labels": [
+        "market-incentives-preservation-federalism"
+      ],
+      "mentions": [
+        {
+          "raw_target": "market-incentives-preservation-federalism",
+          "label": "market-incentives-preservation-federalism",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "market-incentives-preservation-federalism"
+      ]
+    },
+    {
+      "id": "scarcity-constrained-optimization-under-vanishing-market-mediation->mediated-authority-transfer-and-function-invariance",
+      "source": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+      "target": "mediated-authority-transfer-and-function-invariance",
+      "source_label": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+      "target_label": "仲介媒体の交代に伴う権威移転と機能不変性",
+      "source_file": "concepts/scarcity-constrained-optimization-under-vanishing-market-mediation.md",
+      "target_file": "concepts/mediated-authority-transfer-and-function-invariance.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "mediated-authority-transfer-and-function-invariance"
+      ],
+      "display_labels": [
+        "mediated-authority-transfer-and-function-invariance"
+      ],
+      "mentions": [
+        {
+          "raw_target": "mediated-authority-transfer-and-function-invariance",
+          "label": "mediated-authority-transfer-and-function-invariance",
+          "section": "関連概念",
+          "line": 25,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "mediated-authority-transfer-and-function-invariance"
       ]
     },
     {

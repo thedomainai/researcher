@@ -71,3 +71,8 @@ Anthropic自身が2023年に実施した参加型憲法制定の実験は、こ�
 |---------|------|-----|
 | [Corporations Constitute Intelligence](http://arxiv.org/abs/2604.02912v1) | Gilad Abiri | 2026 |
 | [R* en 2 Lignes — Resolution Universelle IA](https://doi.org/10.5281/zenodo.18830890) | Stéphane Ochej | 2026 |
+
+## 追加ソース（2026-11-16）
+
+* **タイトル**: Business Ethics and Governance in Digital Transformation: Protecting Human Agency Through Inclusive Corporate Policies (2026)
+  **ファイルパス**: `raw/papers/business_ethics_csr/business-ethics-and-governance-in-digital-transformation-protecting-human-agency.md`

@@ -79,3 +79,8 @@ Michal Kubovics(2026)は、英米のメディア・マーケティング専門�
 4. Mari Serine Kannelønning, Miria Grisot (2026)「AI as collective effort: an empirical study on the introduction of AI in the Norwegian public healthcare services」 — `raw/papers/sociology/ai-as-collective-effort-an-empirical-study-on-the-introduction-of-ai-in-the-norw.md`
 5. Vera Butkouskaya (2026)「The impact of artificial intelligence (AI) and customer relationship management (CRM) on integrated marketing communications (IMC)」 — `raw/papers/sociology/the-impact-of-artificial-intelligence-ai-and-customer-relationship-management-cr.md`
 6. Annie Tian, Yuehua Chen (2026)「From Public Debate to Institutional Meaning: A Process Theory of Artificial Intelligence Framing Across Arenas」 — `raw/papers/sociology/from-public-debate-to-institutional-meaning-a-process-theory-of-artificial-intel.md`
+
+## 追加ソース（2026-11-16）
+
+* **タイトル**: When Business Ventures Scale Faster Than People Systems: HRD in the AI-Enabled Start-Up Boom (2026)
+  **ファイルパス**: `raw/papers/business_ethics_csr/when-business-ventures-scale-faster-than-people-systems-hrd-in-the-ai-enabled-st.md`

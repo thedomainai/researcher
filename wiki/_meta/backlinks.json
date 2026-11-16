@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-24T06:10:42.041129",
+  "generated_at": "2026-11-16T16:05:48.396034",
   "summary": {
-    "articles_scanned": 1325,
-    "nodes": 3595,
-    "resolved_nodes": 1325,
+    "articles_scanned": 1329,
+    "nodes": 3599,
+    "resolved_nodes": 1329,
     "unresolved_nodes": 2270,
-    "edges": 6589,
-    "resolved_edges": 3629,
+    "edges": 6594,
+    "resolved_edges": 3634,
     "unresolved_edges": 2960,
-    "link_mentions": 6887,
-    "valid_source_refs": 2200,
+    "link_mentions": 6892,
+    "valid_source_refs": 2207,
     "invalid_source_refs": 117,
-    "isolated_concepts": 90
+    "isolated_concepts": 93
   },
   "nodes": {
     "absorption-capacity-bottleneck-saturation": {
@@ -66801,6 +66801,16 @@
           "candidates": []
         }
       ]
+    },
+    "compute-locus-tradeoff-under-network-complexity": {
+      "id": "compute-locus-tradeoff-under-network-complexity",
+      "slug": "compute-locus-tradeoff-under-network-complexity",
+      "label": "ネットワーク複雑性増大に伴う計算配置のトレードオフ",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/compute-locus-tradeoff-under-network-complexity.md",
+      "inbound": [],
+      "outbound": []
     },
     "concentration-driven-systemic-risk-propagation": {
       "id": "concentration-driven-systemic-risk-propagation",
@@ -158215,6 +158225,16 @@
         }
       ]
     },
+    "default-extractive-architecture-and-center-periphery-value-flow": {
+      "id": "default-extractive-architecture-and-center-periphery-value-flow",
+      "slug": "default-extractive-architecture-and-center-periphery-value-flow",
+      "label": "デフォルトで抽出的なシステム設計と中心-周辺間の価値流出",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/default-extractive-architecture-and-center-periphery-value-flow.md",
+      "inbound": [],
+      "outbound": []
+    },
     "default-reliance-and-trust-behavior-decoupling": {
       "id": "default-reliance-and-trust-behavior-decoupling",
       "slug": "default-reliance-and-trust-behavior-decoupling",
@@ -192569,7 +192589,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+          "label": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/scarcity-constrained-optimization-under-vanishing-market-mediation.md",
+          "mentions": [
+            {
+              "raw_target": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+              "label": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": [
         {
           "id": "islamic-eco-social-entrepreneurship",
@@ -219838,6 +219875,22 @@
               "resolved_via": "slug"
             }
           ]
+        },
+        {
+          "id": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+          "label": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/scarcity-constrained-optimization-under-vanishing-market-mediation.md",
+          "mentions": [
+            {
+              "raw_target": "institutions-and-economic-growth",
+              "label": "institutions-and-economic-growth",
+              "section": "関連概念",
+              "line": 28,
+              "resolved_via": "slug"
+            }
+          ]
         }
       ],
       "outbound": [
@@ -221758,7 +221811,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/intermediary-dual-effect-and-critical-threshold-dominance.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+          "label": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/scarcity-constrained-optimization-under-vanishing-market-mediation.md",
+          "mentions": [
+            {
+              "raw_target": "intermediary-dual-effect-and-critical-threshold-dominance",
+              "label": "intermediary-dual-effect-and-critical-threshold-dominance",
+              "section": "関連概念",
+              "line": 26,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": [
         {
           "id": "access-driven-cumulative-concentration",
@@ -232310,7 +232380,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/market-incentives-preservation-federalism.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+          "label": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/scarcity-constrained-optimization-under-vanishing-market-mediation.md",
+          "mentions": [
+            {
+              "raw_target": "market-incentives-preservation-federalism",
+              "label": "market-incentives-preservation-federalism",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": [
         {
           "id": "dangling:2472971c2645",
@@ -233926,6 +234013,22 @@
               "label": "mediated-authority-transfer-and-function-invariance",
               "section": "関連コンセプト",
               "line": 62,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+          "label": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/scarcity-constrained-optimization-under-vanishing-market-mediation.md",
+          "mentions": [
+            {
+              "raw_target": "mediated-authority-transfer-and-function-invariance",
+              "label": "mediated-authority-transfer-and-function-invariance",
+              "section": "関連概念",
+              "line": 25,
               "resolved_via": "slug"
             }
           ]
@@ -275548,6 +275651,147 @@
         }
       ]
     },
+    "scarcity-constrained-optimization-under-vanishing-market-mediation": {
+      "id": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+      "slug": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+      "label": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/scarcity-constrained-optimization-under-vanishing-market-mediation.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "mediated-authority-transfer-and-function-invariance",
+          "label": "仲介媒体の交代に伴う権威移転と機能不変性",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/mediated-authority-transfer-and-function-invariance.md",
+          "raw_targets": [
+            "mediated-authority-transfer-and-function-invariance"
+          ],
+          "display_labels": [
+            "mediated-authority-transfer-and-function-invariance"
+          ],
+          "mentions": [
+            {
+              "raw_target": "mediated-authority-transfer-and-function-invariance",
+              "label": "mediated-authority-transfer-and-function-invariance",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "mediated-authority-transfer-and-function-invariance"
+          ]
+        },
+        {
+          "id": "intermediary-dual-effect-and-critical-threshold-dominance",
+          "label": "仲介構造の二重効果と臨界閾値での支配反転",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/intermediary-dual-effect-and-critical-threshold-dominance.md",
+          "raw_targets": [
+            "intermediary-dual-effect-and-critical-threshold-dominance"
+          ],
+          "display_labels": [
+            "intermediary-dual-effect-and-critical-threshold-dominance"
+          ],
+          "mentions": [
+            {
+              "raw_target": "intermediary-dual-effect-and-critical-threshold-dominance",
+              "label": "intermediary-dual-effect-and-critical-threshold-dominance",
+              "section": "関連概念",
+              "line": 26,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "intermediary-dual-effect-and-critical-threshold-dominance"
+          ]
+        },
+        {
+          "id": "institutions-and-economic-growth",
+          "label": "制度と経済成長",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/institutions-and-economic-growth.md",
+          "raw_targets": [
+            "institutions-and-economic-growth"
+          ],
+          "display_labels": [
+            "institutions-and-economic-growth"
+          ],
+          "mentions": [
+            {
+              "raw_target": "institutions-and-economic-growth",
+              "label": "institutions-and-economic-growth",
+              "section": "関連概念",
+              "line": 28,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "institutions-and-economic-growth"
+          ]
+        },
+        {
+          "id": "market-incentives-preservation-federalism",
+          "label": "市場インセンティブの維持と連邦制",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/market-incentives-preservation-federalism.md",
+          "raw_targets": [
+            "market-incentives-preservation-federalism"
+          ],
+          "display_labels": [
+            "market-incentives-preservation-federalism"
+          ],
+          "mentions": [
+            {
+              "raw_target": "market-incentives-preservation-federalism",
+              "label": "market-incentives-preservation-federalism",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "market-incentives-preservation-federalism"
+          ]
+        },
+        {
+          "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+          "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+          "raw_targets": [
+            "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry"
+          ],
+          "display_labels": [
+            "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry"
+          ],
+          "mentions": [
+            {
+              "raw_target": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+              "label": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry"
+          ]
+        }
+      ]
+    },
     "scoped-trust-and-automatic-deference-asymmetry": {
       "id": "scoped-trust-and-automatic-deference-asymmetry",
       "slug": "scoped-trust-and-automatic-deference-asymmetry",
@@ -310199,6 +310443,16 @@
         }
       ]
     },
+    "unverifiable-claim-exploitation-under-information-asymmetry": {
+      "id": "unverifiable-claim-exploitation-under-information-asymmetry",
+      "slug": "unverifiable-claim-exploitation-under-information-asymmetry",
+      "label": "検証不能な主張による情報非対称性の悪用",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/unverifiable-claim-exploitation-under-information-asymmetry.md",
+      "inbound": [],
+      "outbound": []
+    },
     "upstream-representation-integrity-failure": {
       "id": "upstream-representation-integrity-failure",
       "slug": "upstream-representation-integrity-failure",
@@ -337398,6 +337652,7 @@
     ],
     "computational-reference-models": [],
     "computational-thinking-assessment-for-children": [],
+    "compute-locus-tradeoff-under-network-complexity": [],
     "concentration-driven-systemic-risk-propagation": [
       {
         "id": "access-driven-cumulative-concentration",
@@ -395213,6 +395468,7 @@
     "deep-learning-for-genomic-prediction": [],
     "deep-learning-overview": [],
     "deepfake-executive-impersonation": [],
+    "default-extractive-architecture-and-center-periphery-value-flow": [],
     "default-reliance-and-trust-behavior-decoupling": [],
     "defensive-explainability-and-navigational-friction": [
       {
@@ -404084,7 +404340,24 @@
     "game-theory-and-equilibria": [],
     "gamification": [],
     "gamification-in-marketing": [],
-    "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry": [],
+    "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry": [
+      {
+        "id": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+        "label": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/scarcity-constrained-optimization-under-vanishing-market-mediation.md",
+        "mentions": [
+          {
+            "raw_target": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+            "label": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "genai-anonymization-and-psychological-safety": [
       {
         "id": "psychological-climate-and-fairness-mediated-acceptance",
@@ -411344,6 +411617,22 @@
             "resolved_via": "slug"
           }
         ]
+      },
+      {
+        "id": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+        "label": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/scarcity-constrained-optimization-under-vanishing-market-mediation.md",
+        "mentions": [
+          {
+            "raw_target": "institutions-and-economic-growth",
+            "label": "institutions-and-economic-growth",
+            "section": "関連概念",
+            "line": 28,
+            "resolved_via": "slug"
+          }
+        ]
       }
     ],
     "intelligence-as-externalizable-relational-capacity": [
@@ -411747,7 +412036,24 @@
       }
     ],
     "intergroup-contact-theory-with-ai": [],
-    "intermediary-dual-effect-and-critical-threshold-dominance": [],
+    "intermediary-dual-effect-and-critical-threshold-dominance": [
+      {
+        "id": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+        "label": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/scarcity-constrained-optimization-under-vanishing-market-mediation.md",
+        "mentions": [
+          {
+            "raw_target": "intermediary-dual-effect-and-critical-threshold-dominance",
+            "label": "intermediary-dual-effect-and-critical-threshold-dominance",
+            "section": "関連概念",
+            "line": 26,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "internalization-mechanisms-of-training": [
       {
         "id": "absorptive-capacity-mediates-imitation-and-internalization",
@@ -413776,7 +414082,24 @@
       }
     ],
     "management-four-point-zero": [],
-    "market-incentives-preservation-federalism": [],
+    "market-incentives-preservation-federalism": [
+      {
+        "id": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+        "label": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/scarcity-constrained-optimization-under-vanishing-market-mediation.md",
+        "mentions": [
+          {
+            "raw_target": "market-incentives-preservation-federalism",
+            "label": "market-incentives-preservation-federalism",
+            "section": "関連概念",
+            "line": 29,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "market-structure-differences": [],
     "markov-decision-processes-and-rl": [],
     "maximum-likelihood-power-law-estimation": [],
@@ -413976,6 +414299,22 @@
             "label": "mediated-authority-transfer-and-function-invariance",
             "section": "関連コンセプト",
             "line": 62,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "scarcity-constrained-optimization-under-vanishing-market-mediation",
+        "label": "希少性制約最適化の不変性と市場メディエーションの消滅可能性",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/scarcity-constrained-optimization-under-vanishing-market-mediation.md",
+        "mentions": [
+          {
+            "raw_target": "mediated-authority-transfer-and-function-invariance",
+            "label": "mediated-authority-transfer-and-function-invariance",
+            "section": "関連概念",
+            "line": 25,
             "resolved_via": "slug"
           }
         ]
@@ -422053,6 +422392,7 @@
       }
     ],
     "scarcity-and-reactive-resource-allocation": [],
+    "scarcity-constrained-optimization-under-vanishing-market-mediation": [],
     "scoped-trust-and-automatic-deference-asymmetry": [
       {
         "id": "trust-formation-via-institutional-bridging-of-asymmetry",
@@ -428529,6 +428869,7 @@
         ]
       }
     ],
+    "unverifiable-claim-exploitation-under-information-asymmetry": [],
     "upstream-representation-integrity-failure": [
       {
         "id": "upstream-schema-ceiling-on-downstream-capability",

@@ -79,3 +79,8 @@ FDA関連の医療機器開発を対象にLean・Agile・ハイブリッド手�
    File: raw/papers/operations_management/ai-copilots-and-knowledge-creation-in-maritime-fishing-operations.md
 5. Alliy Adewale Bello, Kelvin Ebo Rabbles, Victor Osemudiame, Benny Uhoranishema (2026)「Lean–Agile Product Development in FDA Relevant and Regulated Medical Device Contexts」
    File: raw/papers/operations_management/leanagile-product-development-in-fda-relevant-and-regulated-medical-device-conte.md
+
+## 追加ソース（2026-11-16）
+
+* **タイトル**: Robotic Process Automation in Service-Oriented Supply Chains (2026)
+  **ファイルパス**: `raw/papers/economics/robotic-process-automation-in-service-oriented-supply-chains.md`
