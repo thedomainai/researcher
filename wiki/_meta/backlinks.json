@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-16T16:05:48.396034",
+  "generated_at": "2026-11-17T07:52:22.790121",
   "summary": {
-    "articles_scanned": 1329,
-    "nodes": 3599,
-    "resolved_nodes": 1329,
+    "articles_scanned": 1333,
+    "nodes": 3603,
+    "resolved_nodes": 1333,
     "unresolved_nodes": 2270,
-    "edges": 6594,
-    "resolved_edges": 3634,
+    "edges": 6622,
+    "resolved_edges": 3662,
     "unresolved_edges": 2960,
-    "link_mentions": 6892,
-    "valid_source_refs": 2207,
+    "link_mentions": 6920,
+    "valid_source_refs": 2217,
     "invalid_source_refs": 117,
     "isolated_concepts": 93
   },
@@ -1920,6 +1920,22 @@
               "resolved_via": "slug"
             }
           ]
+        },
+        {
+          "id": "observation-to-inference-regulatory-gap",
+          "label": "観察から推論への規制対象のずれ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+          "mentions": [
+            {
+              "raw_target": "access-driven-cumulative-concentration",
+              "label": "access-driven-cumulative-concentration",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ]
         }
       ],
       "outbound": [
@@ -3008,6 +3024,22 @@
               "label": "accountability-requires-ontological-conditions",
               "section": "関連コンセプト",
               "line": 53,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+          "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+          "mentions": [
+            {
+              "raw_target": "accountability-requires-ontological-conditions",
+              "label": "accountability-requires-ontological-conditions",
+              "section": "関連概念",
+              "line": 26,
               "resolved_via": "slug"
             }
           ]
@@ -16948,7 +16980,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/ai-deepfakes-misinformation-framing.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "source-cue-motivation-interaction-in-credibility-judgment",
+          "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+          "mentions": [
+            {
+              "raw_target": "ai-deepfakes-misinformation-framing",
+              "label": "ai-deepfakes-misinformation-framing",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": []
     },
     "ai-dependency-and-academic-stress": {
@@ -17223,6 +17272,22 @@
               "label": "ai-disclosure-and-organizational-trust",
               "section": "関連コンセプト",
               "line": 86,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "source-cue-motivation-interaction-in-credibility-judgment",
+          "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+          "mentions": [
+            {
+              "raw_target": "ai-disclosure-and-organizational-trust",
+              "label": "ai-disclosure-and-organizational-trust",
+              "section": "関連概念",
+              "line": 33,
               "resolved_via": "slug"
             }
           ]
@@ -19079,6 +19144,22 @@
       "kind": "concept",
       "file": "concepts/ai-ethics-consent-privacy.md",
       "inbound": [
+        {
+          "id": "observation-to-inference-regulatory-gap",
+          "label": "観察から推論への規制対象のずれ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+          "mentions": [
+            {
+              "raw_target": "ai-ethics-consent-privacy",
+              "label": "ai-ethics-consent-privacy",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ]
+        },
         {
           "id": "non-retroactive-consent-and-reciprocal-standing",
           "label": "選好変化下の同意の遡及不能性と相互的地位",
@@ -22269,6 +22350,22 @@
               "label": "ai-governance-and-regulation",
               "section": "関連コンセプト",
               "line": 76,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "observation-to-inference-regulatory-gap",
+          "label": "観察から推論への規制対象のずれ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+          "mentions": [
+            {
+              "raw_target": "ai-governance-and-regulation",
+              "label": "ai-governance-and-regulation",
+              "section": "関連概念",
+              "line": 25,
               "resolved_via": "slug"
             }
           ]
@@ -36288,6 +36385,22 @@
               "label": "algorithmic-transparency",
               "section": "関連概念",
               "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "observation-to-inference-regulatory-gap",
+          "label": "観察から推論への規制対象のずれ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+          "mentions": [
+            {
+              "raw_target": "algorithmic-transparency",
+              "label": "algorithmic-transparency",
+              "section": "関連概念",
+              "line": 25,
               "resolved_via": "slug"
             }
           ]
@@ -52257,6 +52370,22 @@
           ]
         },
         {
+          "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+          "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+          "mentions": [
+            {
+              "raw_target": "capability-transparency-gap-and-trust-loss",
+              "label": "capability-transparency-gap-and-trust-loss",
+              "section": "関連概念",
+              "line": 26,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "governance-gap-between-capability-scaling-and-accountability",
           "label": "能力拡大と責任・統治設計の乖離",
           "resolved": true,
@@ -57375,6 +57504,22 @@
       "file": "concepts/cognitive-biases-in-ai.md",
       "inbound": [
         {
+          "id": "source-cue-motivation-interaction-in-credibility-judgment",
+          "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+          "mentions": [
+            {
+              "raw_target": "cognitive-biases-in-ai",
+              "label": "cognitive-biases-in-ai",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "fluency-persuasion-validity-decoupling",
           "label": "流暢性と妥当性の分離による判断埋め込み出力の認知再編",
           "resolved": true,
@@ -57557,6 +57702,22 @@
               "label": "認知バイオマーカーとプライバシー保護",
               "section": "関連コンセプト",
               "line": 63,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "observation-to-inference-regulatory-gap",
+          "label": "観察から推論への規制対象のずれ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+          "mentions": [
+            {
+              "raw_target": "cognitive-biomarkers-and-privacy",
+              "label": "cognitive-biomarkers-and-privacy",
+              "section": "関連概念",
+              "line": 25,
               "resolved_via": "slug"
             }
           ]
@@ -162420,6 +162581,22 @@
               "resolved_via": "slug"
             }
           ]
+        },
+        {
+          "id": "observation-to-inference-regulatory-gap",
+          "label": "観察から推論への規制対象のずれ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+          "mentions": [
+            {
+              "raw_target": "digital-privacy-location-data",
+              "label": "digital-privacy-location-data",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ]
         }
       ],
       "outbound": []
@@ -165870,6 +166047,22 @@
               "label": "distributed-responsibility-and-answerability-anchoring",
               "section": "関連コンセプト",
               "line": 55,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+          "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+          "mentions": [
+            {
+              "raw_target": "distributed-responsibility-and-answerability-anchoring",
+              "label": "distributed-responsibility-and-answerability-anchoring",
+              "section": "関連概念",
+              "line": 26,
               "resolved_via": "slug"
             }
           ]
@@ -186186,6 +186379,16 @@
         }
       ]
     },
+    "face-saving-resistance-and-mutual-respect-coconstruction": {
+      "id": "face-saving-resistance-and-mutual-respect-coconstruction",
+      "slug": "face-saving-resistance-and-mutual-respect-coconstruction",
+      "label": "面子防衛的抵抗と相互承認の共構築",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/face-saving-resistance-and-mutual-respect-coconstruction.md",
+      "inbound": [],
+      "outbound": []
+    },
     "fair-use-in-ai-training": {
       "id": "fair-use-in-ai-training",
       "slug": "fair-use-in-ai-training",
@@ -188810,6 +189013,22 @@
               "label": "fluency-induced-trust-miscalibration",
               "section": "関連コンセプト",
               "line": 82,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "source-cue-motivation-interaction-in-credibility-judgment",
+          "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+          "mentions": [
+            {
+              "raw_target": "fluency-induced-trust-miscalibration",
+              "label": "fluency-induced-trust-miscalibration",
+              "section": "関連概念",
+              "line": 33,
               "resolved_via": "slug"
             }
           ]
@@ -208609,6 +208828,22 @@
           ]
         },
         {
+          "id": "source-cue-motivation-interaction-in-credibility-judgment",
+          "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+          "mentions": [
+            {
+              "raw_target": "human-ai-trust",
+              "label": "human-ai-trust",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "simulated-reciprocity-attachment-and-trust-miscalibration",
           "label": "擬似的相互性による愛着形成と信頼の較正ずれ",
           "resolved": true,
@@ -211320,6 +211555,22 @@
               "label": "human-oversight-mechanisms",
               "section": "関連概念",
               "line": 44,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+          "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+          "mentions": [
+            {
+              "raw_target": "human-oversight-mechanisms",
+              "label": "human-oversight-mechanisms",
+              "section": "関連概念",
+              "line": 26,
               "resolved_via": "slug"
             }
           ]
@@ -224282,6 +224533,22 @@
           ]
         },
         {
+          "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+          "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+          "mentions": [
+            {
+              "raw_target": "judgment-residual-and-accountability-gap",
+              "label": "judgment-residual-and-accountability-gap",
+              "section": "関連概念",
+              "line": 26,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "recurrent-automation-deskilling-dilemma",
           "label": "自動化と脱スキル化の反復ジレンマ",
           "resolved": true,
@@ -231866,6 +232133,22 @@
               "label": "machine-speed-oversight-asymmetry",
               "section": "関連コンセプト",
               "line": 83,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+          "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+          "mentions": [
+            {
+              "raw_target": "machine-speed-oversight-asymmetry",
+              "label": "machine-speed-oversight-asymmetry",
+              "section": "関連概念",
+              "line": 26,
               "resolved_via": "slug"
             }
           ]
@@ -247864,6 +248147,277 @@
         }
       ]
     },
+    "observation-to-inference-regulatory-gap": {
+      "id": "observation-to-inference-regulatory-gap",
+      "slug": "observation-to-inference-regulatory-gap",
+      "label": "観察から推論への規制対象のずれ",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/observation-to-inference-regulatory-gap.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "ai-ethics-consent-privacy",
+          "label": "AIにおける倫理・同意・プライバシー",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/ai-ethics-consent-privacy.md",
+          "raw_targets": [
+            "ai-ethics-consent-privacy"
+          ],
+          "display_labels": [
+            "ai-ethics-consent-privacy"
+          ],
+          "mentions": [
+            {
+              "raw_target": "ai-ethics-consent-privacy",
+              "label": "ai-ethics-consent-privacy",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "ai-ethics-consent-privacy"
+          ]
+        },
+        {
+          "id": "ai-governance-and-regulation",
+          "label": "AIガバナンスと規制",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/ai-governance-and-regulation.md",
+          "raw_targets": [
+            "ai-governance-and-regulation"
+          ],
+          "display_labels": [
+            "ai-governance-and-regulation"
+          ],
+          "mentions": [
+            {
+              "raw_target": "ai-governance-and-regulation",
+              "label": "ai-governance-and-regulation",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "ai-governance-and-regulation"
+          ]
+        },
+        {
+          "id": "access-driven-cumulative-concentration",
+          "label": "アクセス格差による累積的集中と排除",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/access-driven-cumulative-concentration.md",
+          "raw_targets": [
+            "access-driven-cumulative-concentration"
+          ],
+          "display_labels": [
+            "access-driven-cumulative-concentration"
+          ],
+          "mentions": [
+            {
+              "raw_target": "access-driven-cumulative-concentration",
+              "label": "access-driven-cumulative-concentration",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "access-driven-cumulative-concentration"
+          ]
+        },
+        {
+          "id": "algorithmic-transparency",
+          "label": "アルゴリズムの透明性",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/algorithmic-transparency.md",
+          "raw_targets": [
+            "algorithmic-transparency"
+          ],
+          "display_labels": [
+            "algorithmic-transparency"
+          ],
+          "mentions": [
+            {
+              "raw_target": "algorithmic-transparency",
+              "label": "algorithmic-transparency",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "algorithmic-transparency"
+          ]
+        },
+        {
+          "id": "digital-privacy-location-data",
+          "label": "デジタルプライバシーと位置情報",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/digital-privacy-location-data.md",
+          "raw_targets": [
+            "digital-privacy-location-data"
+          ],
+          "display_labels": [
+            "digital-privacy-location-data"
+          ],
+          "mentions": [
+            {
+              "raw_target": "digital-privacy-location-data",
+              "label": "digital-privacy-location-data",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "digital-privacy-location-data"
+          ]
+        },
+        {
+          "id": "privacy-paradox-in-digital-age",
+          "label": "デジタル時代のプライバシーパラドックス",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/privacy-paradox-in-digital-age.md",
+          "raw_targets": [
+            "privacy-paradox-in-digital-age"
+          ],
+          "display_labels": [
+            "privacy-paradox-in-digital-age"
+          ],
+          "mentions": [
+            {
+              "raw_target": "privacy-paradox-in-digital-age",
+              "label": "privacy-paradox-in-digital-age",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "privacy-paradox-in-digital-age"
+          ]
+        },
+        {
+          "id": "privacy-assurance-mechanisms",
+          "label": "プライバシー保証メカニズム",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/privacy-assurance-mechanisms.md",
+          "raw_targets": [
+            "privacy-assurance-mechanisms"
+          ],
+          "display_labels": [
+            "privacy-assurance-mechanisms"
+          ],
+          "mentions": [
+            {
+              "raw_target": "privacy-assurance-mechanisms",
+              "label": "privacy-assurance-mechanisms",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "privacy-assurance-mechanisms"
+          ]
+        },
+        {
+          "id": "proxy-inference-structural-discrimination",
+          "label": "代理変数推論による構造的差別と監視の統合",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/proxy-inference-structural-discrimination.md",
+          "raw_targets": [
+            "proxy-inference-structural-discrimination"
+          ],
+          "display_labels": [
+            "proxy-inference-structural-discrimination"
+          ],
+          "mentions": [
+            {
+              "raw_target": "proxy-inference-structural-discrimination",
+              "label": "proxy-inference-structural-discrimination",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "proxy-inference-structural-discrimination"
+          ]
+        },
+        {
+          "id": "strategic-resource-concentration-and-power-asymmetry",
+          "label": "戦略資源の集中が生む権力の非対称性",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/strategic-resource-concentration-and-power-asymmetry.md",
+          "raw_targets": [
+            "strategic-resource-concentration-and-power-asymmetry"
+          ],
+          "display_labels": [
+            "strategic-resource-concentration-and-power-asymmetry"
+          ],
+          "mentions": [
+            {
+              "raw_target": "strategic-resource-concentration-and-power-asymmetry",
+              "label": "strategic-resource-concentration-and-power-asymmetry",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "strategic-resource-concentration-and-power-asymmetry"
+          ]
+        },
+        {
+          "id": "cognitive-biomarkers-and-privacy",
+          "label": "認知バイオマーカーとプライバシー保護",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/cognitive-biomarkers-and-privacy.md",
+          "raw_targets": [
+            "cognitive-biomarkers-and-privacy"
+          ],
+          "display_labels": [
+            "cognitive-biomarkers-and-privacy"
+          ],
+          "mentions": [
+            {
+              "raw_target": "cognitive-biomarkers-and-privacy",
+              "label": "cognitive-biomarkers-and-privacy",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "cognitive-biomarkers-and-privacy"
+          ]
+        }
+      ]
+    },
     "offloading-performance-skill-retention-tradeoff": {
       "id": "offloading-performance-skill-retention-tradeoff",
       "slug": "offloading-performance-skill-retention-tradeoff",
@@ -253608,6 +254162,251 @@
         }
       ]
     },
+    "oversight-asymmetry-formal-vs-substantive-capacity": {
+      "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+      "slug": "oversight-asymmetry-formal-vs-substantive-capacity",
+      "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "human-oversight-mechanisms",
+          "label": "人間による監視メカニズム",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/human-oversight-mechanisms.md",
+          "raw_targets": [
+            "human-oversight-mechanisms"
+          ],
+          "display_labels": [
+            "human-oversight-mechanisms"
+          ],
+          "mentions": [
+            {
+              "raw_target": "human-oversight-mechanisms",
+              "label": "human-oversight-mechanisms",
+              "section": "関連概念",
+              "line": 26,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "human-oversight-mechanisms"
+          ]
+        },
+        {
+          "id": "distributed-responsibility-and-answerability-anchoring",
+          "label": "分散システムにおける責任帰属と応答可能性の錨",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/distributed-responsibility-and-answerability-anchoring.md",
+          "raw_targets": [
+            "distributed-responsibility-and-answerability-anchoring"
+          ],
+          "display_labels": [
+            "distributed-responsibility-and-answerability-anchoring"
+          ],
+          "mentions": [
+            {
+              "raw_target": "distributed-responsibility-and-answerability-anchoring",
+              "label": "distributed-responsibility-and-answerability-anchoring",
+              "section": "関連概念",
+              "line": 26,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "distributed-responsibility-and-answerability-anchoring"
+          ]
+        },
+        {
+          "id": "judgment-residual-and-accountability-gap",
+          "label": "判断の残余と説明責任ギャップ",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/judgment-residual-and-accountability-gap.md",
+          "raw_targets": [
+            "judgment-residual-and-accountability-gap"
+          ],
+          "display_labels": [
+            "judgment-residual-and-accountability-gap"
+          ],
+          "mentions": [
+            {
+              "raw_target": "judgment-residual-and-accountability-gap",
+              "label": "judgment-residual-and-accountability-gap",
+              "section": "関連概念",
+              "line": 26,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "judgment-residual-and-accountability-gap"
+          ]
+        },
+        {
+          "id": "principle-to-practice-gap-and-layered-responsibility-allocation",
+          "label": "原則と実装の乖離と多層的責任配置",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/principle-to-practice-gap-and-layered-responsibility-allocation.md",
+          "raw_targets": [
+            "principle-to-practice-gap-and-layered-responsibility-allocation"
+          ],
+          "display_labels": [
+            "principle-to-practice-gap-and-layered-responsibility-allocation"
+          ],
+          "mentions": [
+            {
+              "raw_target": "principle-to-practice-gap-and-layered-responsibility-allocation",
+              "label": "principle-to-practice-gap-and-layered-responsibility-allocation",
+              "section": "関連概念",
+              "line": 26,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "principle-to-practice-gap-and-layered-responsibility-allocation"
+          ]
+        },
+        {
+          "id": "machine-speed-oversight-asymmetry",
+          "label": "機械速度と人間速度の統治非対称性",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/machine-speed-oversight-asymmetry.md",
+          "raw_targets": [
+            "machine-speed-oversight-asymmetry"
+          ],
+          "display_labels": [
+            "machine-speed-oversight-asymmetry"
+          ],
+          "mentions": [
+            {
+              "raw_target": "machine-speed-oversight-asymmetry",
+              "label": "machine-speed-oversight-asymmetry",
+              "section": "関連概念",
+              "line": 26,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "machine-speed-oversight-asymmetry"
+          ]
+        },
+        {
+          "id": "verification-capacity-versus-generation-speed-inversion",
+          "label": "生成速度が検証容量を超えたときの価値反転と媒介層の変容",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/verification-capacity-versus-generation-speed-inversion.md",
+          "raw_targets": [
+            "verification-capacity-versus-generation-speed-inversion"
+          ],
+          "display_labels": [
+            "verification-capacity-versus-generation-speed-inversion"
+          ],
+          "mentions": [
+            {
+              "raw_target": "verification-capacity-versus-generation-speed-inversion",
+              "label": "verification-capacity-versus-generation-speed-inversion",
+              "section": "関連概念",
+              "line": 26,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "verification-capacity-versus-generation-speed-inversion"
+          ]
+        },
+        {
+          "id": "capability-transparency-gap-and-trust-loss",
+          "label": "能力と透明性の乖離による信頼の喪失と証拠境界の喪失",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/capability-transparency-gap-and-trust-loss.md",
+          "raw_targets": [
+            "capability-transparency-gap-and-trust-loss"
+          ],
+          "display_labels": [
+            "capability-transparency-gap-and-trust-loss"
+          ],
+          "mentions": [
+            {
+              "raw_target": "capability-transparency-gap-and-trust-loss",
+              "label": "capability-transparency-gap-and-trust-loss",
+              "section": "関連概念",
+              "line": 26,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "capability-transparency-gap-and-trust-loss"
+          ]
+        },
+        {
+          "id": "verification-cost-and-trust-testing-of-automated-advisors",
+          "label": "自動化システムの検証コストと圧力試験による信頼判定",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/verification-cost-and-trust-testing-of-automated-advisors.md",
+          "raw_targets": [
+            "verification-cost-and-trust-testing-of-automated-advisors"
+          ],
+          "display_labels": [
+            "verification-cost-and-trust-testing-of-automated-advisors"
+          ],
+          "mentions": [
+            {
+              "raw_target": "verification-cost-and-trust-testing-of-automated-advisors",
+              "label": "verification-cost-and-trust-testing-of-automated-advisors",
+              "section": "関連概念",
+              "line": 26,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "verification-cost-and-trust-testing-of-automated-advisors"
+          ]
+        },
+        {
+          "id": "accountability-requires-ontological-conditions",
+          "label": "責任の帰属条件:判断・追跡可能性・承認",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/accountability-requires-ontological-conditions.md",
+          "raw_targets": [
+            "accountability-requires-ontological-conditions"
+          ],
+          "display_labels": [
+            "accountability-requires-ontological-conditions"
+          ],
+          "mentions": [
+            {
+              "raw_target": "accountability-requires-ontological-conditions",
+              "label": "accountability-requires-ontological-conditions",
+              "section": "関連概念",
+              "line": 26,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "accountability-requires-ontological-conditions"
+          ]
+        }
+      ]
+    },
     "paradox-management-of-competing-legitimacy-logics": {
       "id": "paradox-management-of-competing-legitimacy-logics",
       "slug": "paradox-management-of-competing-legitimacy-logics",
@@ -258800,6 +259599,22 @@
               "resolved_via": "slug"
             }
           ]
+        },
+        {
+          "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+          "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+          "mentions": [
+            {
+              "raw_target": "principle-to-practice-gap-and-layered-responsibility-allocation",
+              "label": "principle-to-practice-gap-and-layered-responsibility-allocation",
+              "section": "関連概念",
+              "line": 26,
+              "resolved_via": "slug"
+            }
+          ]
         }
       ],
       "outbound": [
@@ -259458,6 +260273,22 @@
               "resolved_via": "slug"
             }
           ]
+        },
+        {
+          "id": "source-cue-motivation-interaction-in-credibility-judgment",
+          "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+          "mentions": [
+            {
+              "raw_target": "prior-attitude-filtered-trust-formation",
+              "label": "prior-attitude-filtered-trust-formation",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ]
         }
       ],
       "outbound": [
@@ -259832,6 +260663,22 @@
           ]
         },
         {
+          "id": "observation-to-inference-regulatory-gap",
+          "label": "観察から推論への規制対象のずれ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+          "mentions": [
+            {
+              "raw_target": "privacy-assurance-mechanisms",
+              "label": "privacy-assurance-mechanisms",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "intelligent-financial-mitigation",
           "label": "財務インテリジェント化による資金調達制約緩和",
           "resolved": true,
@@ -260124,7 +260971,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/privacy-paradox-in-digital-age.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "observation-to-inference-regulatory-gap",
+          "label": "観察から推論への規制対象のずれ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+          "mentions": [
+            {
+              "raw_target": "privacy-paradox-in-digital-age",
+              "label": "privacy-paradox-in-digital-age",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": [
         {
           "id": "dangling:34d6fd45b757",
@@ -262707,6 +263571,22 @@
           "resolved": true,
           "weight": 1,
           "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+          "mentions": [
+            {
+              "raw_target": "proxy-inference-structural-discrimination",
+              "label": "proxy-inference-structural-discrimination",
+              "section": "関連概念",
+              "line": 25,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "observation-to-inference-regulatory-gap",
+          "label": "観察から推論への規制対象のずれ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/observation-to-inference-regulatory-gap.md",
           "mentions": [
             {
               "raw_target": "proxy-inference-structural-discrimination",
@@ -286771,6 +287651,22 @@
           ]
         },
         {
+          "id": "source-cue-motivation-interaction-in-credibility-judgment",
+          "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+          "mentions": [
+            {
+              "raw_target": "source-attribution-and-reliance-miscalibration",
+              "label": "source-attribution-and-reliance-miscalibration",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "threshold-phase-transition-in-technology-dependence",
           "label": "技術依存の閾値・相転移ダイナミクス",
           "resolved": true,
@@ -287130,6 +288026,251 @@
           "ambiguous": false,
           "candidates": [
             "choice-architecture-and-reliance-shaping"
+          ]
+        }
+      ]
+    },
+    "source-cue-motivation-interaction-in-credibility-judgment": {
+      "id": "source-cue-motivation-interaction-in-credibility-judgment",
+      "slug": "source-cue-motivation-interaction-in-credibility-judgment",
+      "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "cognitive-biases-in-ai",
+          "label": "AIにおける認知バイアス",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/cognitive-biases-in-ai.md",
+          "raw_targets": [
+            "cognitive-biases-in-ai"
+          ],
+          "display_labels": [
+            "cognitive-biases-in-ai"
+          ],
+          "mentions": [
+            {
+              "raw_target": "cognitive-biases-in-ai",
+              "label": "cognitive-biases-in-ai",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "cognitive-biases-in-ai"
+          ]
+        },
+        {
+          "id": "human-ai-trust",
+          "label": "AIへの信頼",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/human-ai-trust.md",
+          "raw_targets": [
+            "human-ai-trust"
+          ],
+          "display_labels": [
+            "human-ai-trust"
+          ],
+          "mentions": [
+            {
+              "raw_target": "human-ai-trust",
+              "label": "human-ai-trust",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "human-ai-trust"
+          ]
+        },
+        {
+          "id": "ai-deepfakes-misinformation-framing",
+          "label": "AIディープフェイクと偽情報フレーミング",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/ai-deepfakes-misinformation-framing.md",
+          "raw_targets": [
+            "ai-deepfakes-misinformation-framing"
+          ],
+          "display_labels": [
+            "ai-deepfakes-misinformation-framing"
+          ],
+          "mentions": [
+            {
+              "raw_target": "ai-deepfakes-misinformation-framing",
+              "label": "ai-deepfakes-misinformation-framing",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "ai-deepfakes-misinformation-framing"
+          ]
+        },
+        {
+          "id": "ai-disclosure-and-organizational-trust",
+          "label": "AI関与開示が組織の信頼性と応募意図に与える影響",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/ai-disclosure-and-organizational-trust.md",
+          "raw_targets": [
+            "ai-disclosure-and-organizational-trust"
+          ],
+          "display_labels": [
+            "ai-disclosure-and-organizational-trust"
+          ],
+          "mentions": [
+            {
+              "raw_target": "ai-disclosure-and-organizational-trust",
+              "label": "ai-disclosure-and-organizational-trust",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "ai-disclosure-and-organizational-trust"
+          ]
+        },
+        {
+          "id": "prior-attitude-filtered-trust-formation",
+          "label": "事前態度に濾過される信頼形成と透明性の非対応",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/prior-attitude-filtered-trust-formation.md",
+          "raw_targets": [
+            "prior-attitude-filtered-trust-formation"
+          ],
+          "display_labels": [
+            "prior-attitude-filtered-trust-formation"
+          ],
+          "mentions": [
+            {
+              "raw_target": "prior-attitude-filtered-trust-formation",
+              "label": "prior-attitude-filtered-trust-formation",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "prior-attitude-filtered-trust-formation"
+          ]
+        },
+        {
+          "id": "source-attribution-and-reliance-miscalibration",
+          "label": "情報源帰属バイアスと信頼較正の歪み",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/source-attribution-and-reliance-miscalibration.md",
+          "raw_targets": [
+            "source-attribution-and-reliance-miscalibration"
+          ],
+          "display_labels": [
+            "source-attribution-and-reliance-miscalibration"
+          ],
+          "mentions": [
+            {
+              "raw_target": "source-attribution-and-reliance-miscalibration",
+              "label": "source-attribution-and-reliance-miscalibration",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "source-attribution-and-reliance-miscalibration"
+          ]
+        },
+        {
+          "id": "verifiable-signal-erosion-and-artificial-credibility",
+          "label": "検証可能シグナルの消失と人工的信頼性の生成",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/verifiable-signal-erosion-and-artificial-credibility.md",
+          "raw_targets": [
+            "verifiable-signal-erosion-and-artificial-credibility"
+          ],
+          "display_labels": [
+            "verifiable-signal-erosion-and-artificial-credibility"
+          ],
+          "mentions": [
+            {
+              "raw_target": "verifiable-signal-erosion-and-artificial-credibility",
+              "label": "verifiable-signal-erosion-and-artificial-credibility",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "verifiable-signal-erosion-and-artificial-credibility"
+          ]
+        },
+        {
+          "id": "fluency-induced-trust-miscalibration",
+          "label": "流暢性による信頼キャリブレーションの歪みと迎合の罠",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/fluency-induced-trust-miscalibration.md",
+          "raw_targets": [
+            "fluency-induced-trust-miscalibration"
+          ],
+          "display_labels": [
+            "fluency-induced-trust-miscalibration"
+          ],
+          "mentions": [
+            {
+              "raw_target": "fluency-induced-trust-miscalibration",
+              "label": "fluency-induced-trust-miscalibration",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "fluency-induced-trust-miscalibration"
+          ]
+        },
+        {
+          "id": "trust-in-automation",
+          "label": "自動化への信頼",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/trust-in-automation.md",
+          "raw_targets": [
+            "trust-in-automation"
+          ],
+          "display_labels": [
+            "trust-in-automation"
+          ],
+          "mentions": [
+            {
+              "raw_target": "trust-in-automation",
+              "label": "trust-in-automation",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "trust-in-automation"
           ]
         }
       ]
@@ -290361,6 +291502,22 @@
               "label": "strategic-resource-concentration-and-power-asymmetry",
               "section": "関連コンセプト",
               "line": 87,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "observation-to-inference-regulatory-gap",
+          "label": "観察から推論への規制対象のずれ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+          "mentions": [
+            {
+              "raw_target": "strategic-resource-concentration-and-power-asymmetry",
+              "label": "strategic-resource-concentration-and-power-asymmetry",
+              "section": "関連概念",
+              "line": 25,
               "resolved_via": "slug"
             }
           ]
@@ -308274,6 +309431,22 @@
       "file": "concepts/trust-in-automation.md",
       "inbound": [
         {
+          "id": "source-cue-motivation-interaction-in-credibility-judgment",
+          "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+          "mentions": [
+            {
+              "raw_target": "trust-in-automation",
+              "label": "trust-in-automation",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "fluency-induced-trust-miscalibration",
           "label": "流暢性による信頼キャリブレーションの歪みと迎合の罠",
           "resolved": true,
@@ -312819,7 +313992,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/verifiable-signal-erosion-and-artificial-credibility.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "source-cue-motivation-interaction-in-credibility-judgment",
+          "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+          "mentions": [
+            {
+              "raw_target": "verifiable-signal-erosion-and-artificial-credibility",
+              "label": "verifiable-signal-erosion-and-artificial-credibility",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": [
         {
           "id": "ai-and-organizational-evaluation-in-llm-products",
@@ -313064,7 +314254,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/verification-capacity-versus-generation-speed-inversion.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+          "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+          "mentions": [
+            {
+              "raw_target": "verification-capacity-versus-generation-speed-inversion",
+              "label": "verification-capacity-versus-generation-speed-inversion",
+              "section": "関連概念",
+              "line": 26,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": [
         {
           "id": "human-verification-loop-bias-amplification",
@@ -313344,6 +314551,22 @@
               "label": "verification-cost-and-trust-testing-of-automated-advisors",
               "section": "関連コンセプト",
               "line": 62,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+          "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+          "mentions": [
+            {
+              "raw_target": "verification-cost-and-trust-testing-of-automated-advisors",
+              "label": "verification-cost-and-trust-testing-of-automated-advisors",
+              "section": "関連概念",
+              "line": 26,
               "resolved_via": "slug"
             }
           ]
@@ -316355,6 +317578,22 @@
             "resolved_via": "slug"
           }
         ]
+      },
+      {
+        "id": "observation-to-inference-regulatory-gap",
+        "label": "観察から推論への規制対象のずれ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+        "mentions": [
+          {
+            "raw_target": "access-driven-cumulative-concentration",
+            "label": "access-driven-cumulative-concentration",
+            "section": "関連概念",
+            "line": 25,
+            "resolved_via": "slug"
+          }
+        ]
       }
     ],
     "accountability-integration-tradeoff-and-institutional-compromise": [
@@ -316674,6 +317913,22 @@
             "label": "accountability-requires-ontological-conditions",
             "section": "関連コンセプト",
             "line": 53,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+        "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+        "mentions": [
+          {
+            "raw_target": "accountability-requires-ontological-conditions",
+            "label": "accountability-requires-ontological-conditions",
+            "section": "関連概念",
+            "line": 26,
             "resolved_via": "slug"
           }
         ]
@@ -322178,7 +323433,24 @@
       }
     ],
     "ai-deepfakes-media-framing": [],
-    "ai-deepfakes-misinformation-framing": [],
+    "ai-deepfakes-misinformation-framing": [
+      {
+        "id": "source-cue-motivation-interaction-in-credibility-judgment",
+        "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+        "mentions": [
+          {
+            "raw_target": "ai-deepfakes-misinformation-framing",
+            "label": "ai-deepfakes-misinformation-framing",
+            "section": "関連概念",
+            "line": 33,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "ai-dependency-and-academic-stress": [],
     "ai-developer-productivity": [],
     "ai-devsecops-cicd-security": [],
@@ -322266,6 +323538,22 @@
             "label": "ai-disclosure-and-organizational-trust",
             "section": "関連コンセプト",
             "line": 86,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "source-cue-motivation-interaction-in-credibility-judgment",
+        "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+        "mentions": [
+          {
+            "raw_target": "ai-disclosure-and-organizational-trust",
+            "label": "ai-disclosure-and-organizational-trust",
+            "section": "関連概念",
+            "line": 33,
             "resolved_via": "slug"
           }
         ]
@@ -322745,6 +324033,22 @@
       }
     ],
     "ai-ethics-consent-privacy": [
+      {
+        "id": "observation-to-inference-regulatory-gap",
+        "label": "観察から推論への規制対象のずれ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+        "mentions": [
+          {
+            "raw_target": "ai-ethics-consent-privacy",
+            "label": "ai-ethics-consent-privacy",
+            "section": "関連概念",
+            "line": 25,
+            "resolved_via": "slug"
+          }
+        ]
+      },
       {
         "id": "non-retroactive-consent-and-reciprocal-standing",
         "label": "選好変化下の同意の遡及不能性と相互的地位",
@@ -324651,6 +325955,22 @@
             "label": "ai-governance-and-regulation",
             "section": "関連コンセプト",
             "line": 76,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "observation-to-inference-regulatory-gap",
+        "label": "観察から推論への規制対象のずれ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+        "mentions": [
+          {
+            "raw_target": "ai-governance-and-regulation",
+            "label": "ai-governance-and-regulation",
+            "section": "関連概念",
+            "line": 25,
             "resolved_via": "slug"
           }
         ]
@@ -328258,6 +329578,22 @@
             "label": "algorithmic-transparency",
             "section": "関連概念",
             "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "observation-to-inference-regulatory-gap",
+        "label": "観察から推論への規制対象のずれ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+        "mentions": [
+          {
+            "raw_target": "algorithmic-transparency",
+            "label": "algorithmic-transparency",
+            "section": "関連概念",
+            "line": 25,
             "resolved_via": "slug"
           }
         ]
@@ -333587,6 +334923,22 @@
         ]
       },
       {
+        "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+        "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+        "mentions": [
+          {
+            "raw_target": "capability-transparency-gap-and-trust-loss",
+            "label": "capability-transparency-gap-and-trust-loss",
+            "section": "関連概念",
+            "line": 26,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "governance-gap-between-capability-scaling-and-accountability",
         "label": "能力拡大と責任・統治設計の乖離",
         "resolved": true,
@@ -334792,6 +336144,22 @@
     ],
     "cognitive-biases-in-ai": [
       {
+        "id": "source-cue-motivation-interaction-in-credibility-judgment",
+        "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+        "mentions": [
+          {
+            "raw_target": "cognitive-biases-in-ai",
+            "label": "cognitive-biases-in-ai",
+            "section": "関連概念",
+            "line": 33,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "fluency-persuasion-validity-decoupling",
         "label": "流暢性と妥当性の分離による判断埋め込み出力の認知再編",
         "resolved": true,
@@ -334844,6 +336212,22 @@
             "label": "認知バイオマーカーとプライバシー保護",
             "section": "関連コンセプト",
             "line": 63,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "observation-to-inference-regulatory-gap",
+        "label": "観察から推論への規制対象のずれ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+        "mentions": [
+          {
+            "raw_target": "cognitive-biomarkers-and-privacy",
+            "label": "cognitive-biomarkers-and-privacy",
+            "section": "関連概念",
+            "line": 25,
             "resolved_via": "slug"
           }
         ]
@@ -396237,6 +397621,22 @@
             "resolved_via": "slug"
           }
         ]
+      },
+      {
+        "id": "observation-to-inference-regulatory-gap",
+        "label": "観察から推論への規制対象のずれ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+        "mentions": [
+          {
+            "raw_target": "digital-privacy-location-data",
+            "label": "digital-privacy-location-data",
+            "section": "関連概念",
+            "line": 25,
+            "resolved_via": "slug"
+          }
+        ]
       }
     ],
     "digital-responsibility-paradoxes": [
@@ -397070,6 +398470,22 @@
             "label": "distributed-responsibility-and-answerability-anchoring",
             "section": "関連コンセプト",
             "line": 55,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+        "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+        "mentions": [
+          {
+            "raw_target": "distributed-responsibility-and-answerability-anchoring",
+            "label": "distributed-responsibility-and-answerability-anchoring",
+            "section": "関連概念",
+            "line": 26,
             "resolved_via": "slug"
           }
         ]
@@ -402672,6 +404088,7 @@
       }
     ],
     "fMRI-data-analysis": [],
+    "face-saving-resistance-and-mutual-respect-coconstruction": [],
     "fair-use-in-ai-training": [],
     "federated-learning": [
       {
@@ -403569,6 +404986,22 @@
             "label": "fluency-induced-trust-miscalibration",
             "section": "関連コンセプト",
             "line": 82,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "source-cue-motivation-interaction-in-credibility-judgment",
+        "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+        "mentions": [
+          {
+            "raw_target": "fluency-induced-trust-miscalibration",
+            "label": "fluency-induced-trust-miscalibration",
+            "section": "関連概念",
+            "line": 33,
             "resolved_via": "slug"
           }
         ]
@@ -408577,6 +410010,22 @@
         ]
       },
       {
+        "id": "source-cue-motivation-interaction-in-credibility-judgment",
+        "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+        "mentions": [
+          {
+            "raw_target": "human-ai-trust",
+            "label": "human-ai-trust",
+            "section": "関連概念",
+            "line": 33,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "simulated-reciprocity-attachment-and-trust-miscalibration",
         "label": "擬似的相互性による愛着形成と信頼の較正ずれ",
         "resolved": true,
@@ -409794,6 +411243,22 @@
             "label": "human-oversight-mechanisms",
             "section": "関連概念",
             "line": 44,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+        "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+        "mentions": [
+          {
+            "raw_target": "human-oversight-mechanisms",
+            "label": "human-oversight-mechanisms",
+            "section": "関連概念",
+            "line": 26,
             "resolved_via": "slug"
           }
         ]
@@ -412477,6 +413942,22 @@
         ]
       },
       {
+        "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+        "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+        "mentions": [
+          {
+            "raw_target": "judgment-residual-and-accountability-gap",
+            "label": "judgment-residual-and-accountability-gap",
+            "section": "関連概念",
+            "line": 26,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "recurrent-automation-deskilling-dilemma",
         "label": "自動化と脱スキル化の反復ジレンマ",
         "resolved": true,
@@ -414037,6 +415518,22 @@
             "label": "machine-speed-oversight-asymmetry",
             "section": "関連コンセプト",
             "line": 83,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+        "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+        "mentions": [
+          {
+            "raw_target": "machine-speed-oversight-asymmetry",
+            "label": "machine-speed-oversight-asymmetry",
+            "section": "関連概念",
+            "line": 26,
             "resolved_via": "slug"
           }
         ]
@@ -417146,6 +418643,7 @@
         ]
       }
     ],
+    "observation-to-inference-regulatory-gap": [],
     "offloading-performance-skill-retention-tradeoff": [
       {
         "id": "basic-psychological-needs-and-extrinsic-reward-crowding-out",
@@ -418533,6 +420031,7 @@
         ]
       }
     ],
+    "oversight-asymmetry-formal-vs-substantive-capacity": [],
     "paradox-management-of-competing-legitimacy-logics": [
       {
         "id": "global-standard-local-context-reconciliation",
@@ -419636,6 +421135,22 @@
             "resolved_via": "slug"
           }
         ]
+      },
+      {
+        "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+        "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+        "mentions": [
+          {
+            "raw_target": "principle-to-practice-gap-and-layered-responsibility-allocation",
+            "label": "principle-to-practice-gap-and-layered-responsibility-allocation",
+            "section": "関連概念",
+            "line": 26,
+            "resolved_via": "slug"
+          }
+        ]
       }
     ],
     "principles-to-practice-legitimacy-gap": [
@@ -419832,6 +421347,22 @@
             "resolved_via": "slug"
           }
         ]
+      },
+      {
+        "id": "source-cue-motivation-interaction-in-credibility-judgment",
+        "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+        "mentions": [
+          {
+            "raw_target": "prior-attitude-filtered-trust-formation",
+            "label": "prior-attitude-filtered-trust-formation",
+            "section": "関連概念",
+            "line": 33,
+            "resolved_via": "slug"
+          }
+        ]
       }
     ],
     "privacy-assurance-mechanisms": [
@@ -419884,6 +421415,22 @@
         ]
       },
       {
+        "id": "observation-to-inference-regulatory-gap",
+        "label": "観察から推論への規制対象のずれ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+        "mentions": [
+          {
+            "raw_target": "privacy-assurance-mechanisms",
+            "label": "privacy-assurance-mechanisms",
+            "section": "関連概念",
+            "line": 25,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "intelligent-financial-mitigation",
         "label": "財務インテリジェント化による資金調達制約緩和",
         "resolved": true,
@@ -419916,7 +421463,24 @@
         ]
       }
     ],
-    "privacy-paradox-in-digital-age": [],
+    "privacy-paradox-in-digital-age": [
+      {
+        "id": "observation-to-inference-regulatory-gap",
+        "label": "観察から推論への規制対象のずれ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+        "mentions": [
+          {
+            "raw_target": "privacy-paradox-in-digital-age",
+            "label": "privacy-paradox-in-digital-age",
+            "section": "関連概念",
+            "line": 25,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "privacy-proactivity-paradox": [],
     "process-bypassing-empowerment-paradox": [],
     "productive-struggle-preservation-in-assisted-learning": [
@@ -420278,6 +421842,22 @@
         "resolved": true,
         "weight": 1,
         "source_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+        "mentions": [
+          {
+            "raw_target": "proxy-inference-structural-discrimination",
+            "label": "proxy-inference-structural-discrimination",
+            "section": "関連概念",
+            "line": 25,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "observation-to-inference-regulatory-gap",
+        "label": "観察から推論への規制対象のずれ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/observation-to-inference-regulatory-gap.md",
         "mentions": [
           {
             "raw_target": "proxy-inference-structural-discrimination",
@@ -424524,6 +426104,22 @@
         ]
       },
       {
+        "id": "source-cue-motivation-interaction-in-credibility-judgment",
+        "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+        "mentions": [
+          {
+            "raw_target": "source-attribution-and-reliance-miscalibration",
+            "label": "source-attribution-and-reliance-miscalibration",
+            "section": "関連概念",
+            "line": 33,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "threshold-phase-transition-in-technology-dependence",
         "label": "技術依存の閾値・相転移ダイナミクス",
         "resolved": true,
@@ -424572,6 +426168,7 @@
         ]
       }
     ],
+    "source-cue-motivation-interaction-in-credibility-judgment": [],
     "species-distribution-modeling": [],
     "speed-accountability-tiered-control-for-autonomous-agents": [
       {
@@ -424924,6 +426521,22 @@
             "label": "strategic-resource-concentration-and-power-asymmetry",
             "section": "関連コンセプト",
             "line": 87,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "observation-to-inference-regulatory-gap",
+        "label": "観察から推論への規制対象のずれ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/observation-to-inference-regulatory-gap.md",
+        "mentions": [
+          {
+            "raw_target": "strategic-resource-concentration-and-power-asymmetry",
+            "label": "strategic-resource-concentration-and-power-asymmetry",
+            "section": "関連概念",
+            "line": 25,
             "resolved_via": "slug"
           }
         ]
@@ -428574,6 +430187,22 @@
     ],
     "trust-in-automation": [
       {
+        "id": "source-cue-motivation-interaction-in-credibility-judgment",
+        "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+        "mentions": [
+          {
+            "raw_target": "trust-in-automation",
+            "label": "trust-in-automation",
+            "section": "関連概念",
+            "line": 33,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "fluency-induced-trust-miscalibration",
         "label": "流暢性による信頼キャリブレーションの歪みと迎合の罠",
         "resolved": true,
@@ -429322,8 +430951,42 @@
         ]
       }
     ],
-    "verifiable-signal-erosion-and-artificial-credibility": [],
-    "verification-capacity-versus-generation-speed-inversion": [],
+    "verifiable-signal-erosion-and-artificial-credibility": [
+      {
+        "id": "source-cue-motivation-interaction-in-credibility-judgment",
+        "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+        "mentions": [
+          {
+            "raw_target": "verifiable-signal-erosion-and-artificial-credibility",
+            "label": "verifiable-signal-erosion-and-artificial-credibility",
+            "section": "関連概念",
+            "line": 33,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
+    "verification-capacity-versus-generation-speed-inversion": [
+      {
+        "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+        "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+        "mentions": [
+          {
+            "raw_target": "verification-capacity-versus-generation-speed-inversion",
+            "label": "verification-capacity-versus-generation-speed-inversion",
+            "section": "関連概念",
+            "line": 26,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "verification-cost-and-trust-testing-of-automated-advisors": [
       {
         "id": "trust-formation-via-institutional-bridging-of-asymmetry",
@@ -429385,6 +431048,22 @@
             "label": "verification-cost-and-trust-testing-of-automated-advisors",
             "section": "関連コンセプト",
             "line": 62,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "oversight-asymmetry-formal-vs-substantive-capacity",
+        "label": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/oversight-asymmetry-formal-vs-substantive-capacity.md",
+        "mentions": [
+          {
+            "raw_target": "verification-cost-and-trust-testing-of-automated-advisors",
+            "label": "verification-cost-and-trust-testing-of-automated-advisors",
+            "section": "関連概念",
+            "line": 26,
             "resolved_via": "slug"
           }
         ]

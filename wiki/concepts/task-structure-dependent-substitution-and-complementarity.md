@@ -81,3 +81,8 @@ AIの代替効果が地域・職業で不均等に現れることを認識し、
 
 **[4]** Wu, Leihong; Xu, Joshua; Dang, Oanh; Ball, Robert (2026). "Does generative AI mean the "end of history" for pharmacovigilance automation? towards a framework for the future of human-AI systems". *information_systems*
 - File: `raw/papers/information_systems/does-generative-ai-mean-the-end-of-history-for-pharmacovigilance-automation-towa.md`
+
+## 追加ソース（2026-11-17）
+
+* **タイトル**: Understanding Artificial Intelligence and the Future of Audit in Nigeria: Will AI Replace the Auditor? A Qualitative Phenomenological Inquiry (2026)
+  **ファイルパス**: `raw/papers/accounting/understanding-artificial-intelligence-and-the-future-of-audit-in-nigeria-will-ai.md`

@@ -3659,6 +3659,12 @@
   "title_en": "fMRI Data Analysis",
   "why": ""
  },
+ "face-saving-resistance-and-mutual-respect-coconstruction": {
+  "at": "2026-11-16T22:52:55+00:00",
+  "summary": "教室での生徒の反抗的行動を規律違反ではなく恥辱に対する面子保持戦略と読み替え、支配的統制を相互承認の関係へ転換するメカニズムを示す。",
+  "title_en": "Face-Saving Resistance and Co-Constructed Respect",
+  "why": "AIと人間の非対称な権力関係を統制ではなく相互承認として再構成する視点が、組織のガバナンス設計に示唆を与える。"
+ },
  "fair-use-in-ai-training": {
   "at": "2026-10-01T09:50:33+00:00",
   "summary": "AI学習用データの著作権侵害を巡り、米国は変容的利用としてフェアユースを柔軟に認める一方、ウズベキスタンは厳格な著作権制度のためAI開発に法的リスクが生じている。",
@@ -5819,6 +5825,12 @@
   "title_en": "Objective-Indexed Representation Separation",
   "why": "複数目標・利用者を扱うAIシステムでは、共有表現の酷使を避け目的別単位を合成可能にすることが汎化と制御性を支える。"
  },
+ "observation-to-inference-regulatory-gap": {
+  "at": "2026-11-16T22:52:55+00:00",
+  "summary": "センサー融合は個々に無害な信号から高次の推論を生成するが、既存法制度は記録のみを規制し推論自体を捕捉できない構造的ギャップがある。",
+  "title_en": "Observation-to-Inference Regulatory Gap",
+  "why": "推論量の増大をデータ量ではなく規制単位として扱わなければ、プライバシー保護の設計は実効性を失う。"
+ },
  "offloading-performance-skill-retention-tradeoff": {
   "at": "2026-10-01T09:58:56+00:00",
   "summary": "生成AIへの認知オフロードは短期的な成果を高める一方、依存が続くと批判的思考や認識的自律が遅れて低下するトレードオフを生む。",
@@ -6004,6 +6016,12 @@
   "summary": "主体は相手の信念・意図を推論し行動や神経活動を同期させることで、単独では到達できない探索空間へ共同で広がるという不変の原理である。",
   "title_en": "Other-Modeling and Inter-Agent Coupling",
   "why": "AIを単に参加者として加えるだけでは相補性は生まれず、他者モデルに基づく設計が協働の成否を分ける。"
+ },
+ "oversight-asymmetry-formal-vs-substantive-capacity": {
+  "at": "2026-11-16T22:52:55+00:00",
+  "summary": "AI支援システムの監督者は制度上最終責任を負う一方、検証に必要な専門知識・時間・権限を欠くことが多く、この責任と能力のずれは構造的に生じる。",
+  "title_en": "Oversight Asymmetry Between Formal and Substantive Capacity",
+  "why": "監督を要件化するほど形式的責任と実質的検証能力のギャップが固定化し、ガバナンス設計の前提を見直す必要がある。"
  },
  "paradox-management-of-competing-legitimacy-logics": {
   "at": "2026-10-01T09:59:32+00:00",
@@ -7120,6 +7138,12 @@
   "summary": "助言への信頼は内容の妥当性ではなく情報源の帰属や流暢さ・適合度に左右され、AI由来という理由だけで過小評価されたり、適合しすぎて過信される歪みが生じる。",
   "title_en": "Source Attribution and Reliance Miscalibration",
   "why": "AI導入組織は精度向上だけでなく、外部検証や失敗時のフォールバックを含む多層的な信頼性アーキテクチャを設計する必要がある。"
+ },
+ "source-cue-motivation-interaction-in-credibility-judgment": {
+  "at": "2026-11-16T22:52:55+00:00",
+  "summary": "AI生成物への信頼性判断は情報源ラベル単独でも分析的動機づけ単独でもなく、両者の相互作用として生成されるという二要因メカニズムを示す。",
+  "title_en": "Source Cue and Motivation Interaction in Credibility Judgment",
+  "why": "AI開示だけを信頼の操作変数とみなすと効果を見誤るため、ユーザーの動機づけや文脈を踏まえた設計検証が必要になる。"
  },
  "species-distribution-modeling": {
   "at": "2026-10-01T10:04:45+00:00",

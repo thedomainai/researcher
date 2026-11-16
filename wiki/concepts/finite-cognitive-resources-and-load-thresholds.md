@@ -67,3 +67,8 @@ Hanら (2026) は、外傷における従来の「致死的三徴」(出血、�
 2. Haibei Chen, Zhengyuan Qian, Xianglian Zhao (2026). "Empowerment or disempowerment? How generative AI consultation shapes the health decision-making among the new generation of older adults". File: `raw/papers/behavioral_economics/empowerment-or-disempowerment-how-generative-ai-consultation-shapes-the-health-d.md`
 3. Mahdi Roghanizad, Ellen Choi, Atefeh Mashatan, Ozgur Turetken (2026). "A tripartite account of phishing detection: the importance of glucose in supporting the algorithmic mind". File: `raw/papers/behavioral_economics/a-tripartite-account-of-phishing-detection-the-importance-of-glucose-in-supporti.md`
 4. Jonghee Han, Junepill Seok, Su Young Yoon, Jin-Uk Choi, Jin Suk Lee (2026). "From the lethal triad to the lethal diamond and beyond: An AI‐augmented perspective on modern hemostatic resuscitation". File: `raw/papers/behavioral_economics/from-the-lethal-triad-to-the-lethal-diamond-and-beyond-an-aiaugmented-perspectiv.md`
+
+## 追加ソース（2026-11-17）
+
+* **タイトル**: BEYOND TECHNOSTRESS AI Fatigue as a Cumulative Adaptation Burden in Education and Work (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/beyond-technostress-ai-fatigue-as-a-cumulative-adaptation-burden-in-education-an.md`

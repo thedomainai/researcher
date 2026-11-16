@@ -71,3 +71,8 @@ AIシステムの導入文脈が変わった時点で、その妥当性を再検
    - 著者: Abdullah Akpınar, Yuan Li, Ding Li
    - 年: 2026
    - ファイル: raw/papers/international_business/editorial-greening-urban-spaces-and-human-health-volume-iii.md
+
+## 追加ソース（2026-11-17）
+
+* **タイトル**: Human-AI collaborative generative AI for comfortable care: a doctor–patient–AI feedback loop for pre-operative distress and workforce shortages (2026)
+  **ファイルパス**: `raw/papers/accounting/human-ai-collaborative-generative-ai-for-comfortable-care-a-doctorpatientai-feed.md`

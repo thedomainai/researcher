@@ -26348,5 +26348,83 @@
     ],
     "domain": "economics",
     "compiled_at": "2026-11-16"
+  },
+  {
+    "slug": "source-cue-motivation-interaction-in-credibility-judgment",
+    "title_ja": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+    "title_en": "Source-Cue and Analytic-Motivation Interaction in Credibility Judgment",
+    "description": "信頼性の判断は情報源ラベル単独でも分析的能力単独でも決まらず、源泉帰属キューと効果的思考への動機づけ傾向の相互作用として生成される、対象を問わない二要因メカニズム。",
+    "mechanisms": [
+      "二重過程認知",
+      "動機づけられた推論",
+      "ヒューリスティック手がかり依存",
+      "信頼帰属"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/accounting/when-machines-mislead-trust-cognitive-processing-and-belief-in-ai-labeled-misinf.md"
+    ],
+    "domain": "accounting",
+    "compiled_at": "2026-11-17"
+  },
+  {
+    "slug": "oversight-asymmetry-formal-vs-substantive-capacity",
+    "title_ja": "監督の非対称性(形式的責任と実質的検証能力のギャップ)",
+    "title_en": "Oversight Asymmetry: Formal Responsibility vs Substantive Verification Capacity",
+    "description": "監督者・レビュアーが形式上の責任を負いながら、実際に検証するための知識・時間・権限を欠くことで生じる構造的矛盾で、システムの形式的要件と実質的能力のギャップから必然的に発生する。",
+    "mechanisms": [
+      "権限と能力のギャップ",
+      "責任の形式化と実質の分離",
+      "検証資源の不足による責任の空洞化"
+    ],
+    "related_sources": [
+      2
+    ],
+    "source_files": [
+      "raw/papers/accounting/oversight-asymmetry-in-ai-assisted-clinical-documentation-a-comparative-abductiv.md"
+    ],
+    "domain": "accounting",
+    "compiled_at": "2026-11-17"
+  },
+  {
+    "slug": "face-saving-resistance-and-mutual-respect-coconstruction",
+    "title_ja": "面子防衛的抵抗と相互承認の共構築",
+    "title_en": "Face-Saving Resistance and the Co-construction of Mutual Respect",
+    "description": "権力的支配関係において被支配者の反抗的行動を恥辱への戦略的な面子保持応答として再解釈し、支配から人道的な相互承認へ関係を転換するメカニズム",
+    "mechanisms": [
+      "面子喪失回避",
+      "行為の再帰的再解釈",
+      "スティグマの脱構築",
+      "相互承認の共同構築"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/anthropology/the-struggle-for-respect-in-urban-classrooms.md"
+    ],
+    "domain": "anthropology",
+    "compiled_at": "2026-11-17"
+  },
+  {
+    "slug": "observation-to-inference-regulatory-gap",
+    "title_ja": "観察から推論への規制対象のずれ",
+    "title_en": "Observation-to-Inference Regulatory Gap",
+    "description": "個々には無害な信号がセンサー融合により高次の推論を可能にし、既存の規制が記録・観察を対象とするために推論そのものの一極集中が制度的に捕捉されない構造的ギャップ",
+    "mechanisms": [
+      "多信号融合による推論的集約",
+      "推論権の一極集中",
+      "規制対象の記録から推論へのずれ"
+    ],
+    "related_sources": [
+      5
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/when-embodied-ai-infers-too-much.md"
+    ],
+    "domain": "cognitive_science",
+    "compiled_at": "2026-11-17"
   }
 ]

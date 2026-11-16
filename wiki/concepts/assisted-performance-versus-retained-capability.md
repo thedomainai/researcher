@@ -59,3 +59,8 @@ AI Nativeな設計にとって重要なのは、次の点である。
 
 - Influence Is Not Warrant: An Architecture-First Account of Human Semantic-Cognitive Intelligence in Human–AI Interaction(Yaoharee Lahtee、2026)
   File: raw/papers/systems_engineering/influence-is-not-warrant-an-architecture-first-account-of-human-semantic-cogniti.md
+
+## 追加ソース（2026-11-17）
+
+* **タイトル**: Critical thinking dispositions and perceived support-dependence discrepancy in GenAI-assisted learning: evidence from human–AI interaction pathways (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/critical-thinking-dispositions-and-perceived-support-dependence-discrepancy-in-g.md`

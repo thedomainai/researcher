@@ -72,3 +72,8 @@ Cho は、生成AIがあらゆる生成的学習戦略をオンデマンドで�
 5. Ingo Pribik, Alexander Felfernig (2026)「Digital nudging in software development: a review and research agenda」— `raw/papers/behavioral_economics/digital-nudging-in-software-development-a-review-and-research-agenda.md`
 6. Kaimao Sheng, Irene-Angelica Chounta (2026)「Beyond One-Size-Fits-All: Personalizing Computational Proxies of the Zone of Proximal Development Through Help-Seeking Behaviors」— `raw/papers/behavioral_economics/beyond-one-size-fits-all-personalizing-computational-proxies-of-the-zone-of-prox.md`
 7. SN Reddy, Farkhondeh Hassandoust, David Sundaram (2026)「AI-Enabled Human-Centric Approaches for Empowering Industrial Digital Immigrants: A Systematic Literature Review」— `raw/papers/behavioral_economics/ai-enabled-human-centric-approaches-for-empowering-industrial-digital-immigrants.md`
+
+## 追加ソース（2026-11-17）
+
+* **タイトル**: The hazard of fluency: a framework for governing AI liability in organizational decision-making (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/the-hazard-of-fluency-a-framework-for-governing-ai-liability-in-organizational-d.md`

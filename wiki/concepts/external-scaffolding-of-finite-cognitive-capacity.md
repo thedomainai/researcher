@@ -67,3 +67,8 @@
 7. Julian Geheeb, Marvin Julian Schwarz, Daniel Dyrda, Georg Groh (2026). *LLMs are the Ideal Candidate for Mixed-Initiative Game Design Pillar Workflows*. `raw/papers/neuroscience/llms-are-the-ideal-candidate-for-mixed-initiative-game-design-pillar-workflows.md`
 8. Min Ou, Hope Koch, Qin Weng (2026). *Thinking, Feeling, Becoming: A Relational Competency Framework for Human–AI Companionship at Work*. `raw/papers/neuroscience/thinking-feeling-becoming-a-relational-competency-framework-for-humanai-companio.md`
 9. Alan Dix (2026). *AI for Human-Computer Interaction*. `raw/papers/neuroscience/ai-for-human-computer-interaction.md`
+
+## 追加ソース（2026-11-17）
+
+* **タイトル**: The Cognitive Exoskeleton: Artificial Intelligence as Mechanical Load-Bearing for Human Thought (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/the-cognitive-exoskeleton-artificial-intelligence-as-mechanical-load-bearing-for.md`
