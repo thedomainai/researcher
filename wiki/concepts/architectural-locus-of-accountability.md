@@ -75,3 +75,8 @@ LAAF(Chaturvedi ら、2026)は PRISMA に従う系統的レビューである。
 3. Mochizuki, K. (2026). *From Orchestration to Integrated Judgment Optimization: A Boundary-First Architecture for Dynamic Teams, Version-Governed Structural Autonomy, and Human-Accountable AI*. File: raw/papers/human_ai_collaboration/from-orchestration-to-integrated-judgment-optimization-a-boundary-first-architec.md
 4. Fourie, W. (2026). *A three-dimensional typology of agency for advanced AI systems*. File: raw/papers/human_ai_collaboration/a-three-dimensional-typology-of-agency-for-advanced-ai-systems.md
 5. Chaturvedi, P., Ahmad, S., Nowroozi, E., Waqas, M., Loukas, G. (2026). *LAAF: A Layered Accountability Architecture Framework for LLM Applications*. File: raw/papers/human_ai_collaboration/laaf-a-layered-accountability-architecture-framework-for-llm-applications.md
+
+## 追加ソース（2026-11-18）
+
+* **タイトル**: Distinguishing artificial intelligence from robotic execution in total knee arthroplasty: a narrative review and evidence map (2026)
+  **ファイルパス**: `raw/papers/ai_governance/distinguishing-artificial-intelligence-from-robotic-execution-in-total-knee-arth.md`

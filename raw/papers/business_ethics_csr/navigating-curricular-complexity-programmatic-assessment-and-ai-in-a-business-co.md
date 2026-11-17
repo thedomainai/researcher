@@ -1,0 +1,22 @@
+---
+title: "Navigating curricular complexity: Programmatic assessment and AI in a business context"
+authors: "Lila Azouz, Bronwyn Gowty, Nicola Charwat"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "business_ethics_csr"
+fetched: "2026-11-18T07:31:18.040941"
+doi: "https://doi.org/10.65106/apubs.2026.3246"
+openalex_id: "https://openalex.org/W7234214640"
+source_api: "openalex"
+---
+
+# Navigating curricular complexity: Programmatic assessment and AI in a business context
+
+**著者**: Lila Azouz, Bronwyn Gowty, Nicola Charwat
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: 経営倫理・CSR
+
+## Abstract
+
+Traditional models of programmatic assessment are historically rooted in highly structured, linear disciplines such as medicine (Heeneman et al., 2015; Torre et al., 2021). Translating these principles to a diverse, modular Business and Economics faculty presents profound curricular, structural, and governance challenges. Business courses within Monash University operate within a flexible architecture designed to support highly personalized student pathways, where over 90% of students have unique pathways via diverse combinations of majors, minors, and electives. Consequently, units are highly interconnected—sometimes contributing to up to 20 distinct programs—so that an assessment alteration in one unit ripples across multiple independent degree structures. This structural friction is compounded by distributed governance split across separate academic departments, departmental Directors of Education (DOEs), Course Directors, and Chief Examiners. To navigate this complex landscape, the Senior Educational Designer and the Associate Dean of Learning and Teaching (ADLT) collaborated on a university-wide initiative entitled Programmatic Assessment and Artificial Intelligence Review (PAAIR) spurred by TEQSA requirements (Lodge et al., 2023). We adapted established theory around programmatic assessment to synthesize a tailored five-principle framework, designating “Collaborative and Transparent Culture” as Principle 1. To address modular friction, we drew on Dawson’s (2020) concept of programmatic assessment security, shifting the unit of analysis from hardening every individual, isolated module to strategically securing key programmatic assessment moments across the entire course. Cultivating this shared-accountability mindset was critical because curriculum reviews occurred by course, where a single unit could feed into multiple programs with diverse departmental oversight. It was difficult to have a unified, static “full picture” of a complete course at any one stage of a review, as some units may have been completed as part of other reviews, or they may be dual-coded with a postgraduate course, requiring complex cross-referencing across courses, departments, year levels, and campuses. To bridge this diagnostic gap, we collaborated with the faculty’s data analytics team to develop the PAAIR Dashboard in PowerBI. Serving as an interactive visual analytics platform, the dashboard empowers DOEs, Course Leaders, and Educational Designers to see beyond disciplinary silos, map competency coverage across shared pathways, monitor assessment distributions, and facilitate data-informed co-design conversations in real time. It helps flag structural gaps—such as when a core graduate competency is not assessed under secure conditions at least twice per year level—ensuring curriculum resilience across highly complex student pathways. At the launch of the project, we developed a comprehensive suite of guidelines to support Unit Learning Outcome (ULO) refinement, Course Learning Outcome (CLO) mapping, and balanced assessment design. These guidelines have been instrumental in improving our course designs by scaffolding competencies progressively and designing assessment tasks with and without generative AI (Lodge et al., 2023; Matheis & John, 2024). This dual approach balances the educative, values-driven framework of academic integrity with the adversarial, hardening requirements of assessment security (Dawson, 2020). As the initiative now enters the initial transition to Business-As-Usual (BAU) operations, we are actively developing a future governance strategy to manage subsequent curriculum changes sustainably. This Pecha Kucha presentation delivers a transparent roadmap and strategic recommendations for other modular higher education faculties seeking to operationalize programmatic assessment and AI review within highly complex, non-linear educational ecosystems.

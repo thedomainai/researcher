@@ -68,3 +68,8 @@ AI Nativeな設計は、資源間の成長率差を前提として組み込む�
 著者: Yi Jiang, Hamish Nicholson, Anastasia Ailamaki  
 年: 2026  
 ファイル: raw/papers/operations_management/cracks-in-the-memory-wall-data-systems-on-disaggregated-memory.md
+
+## 追加ソース（2026-11-18）
+
+* **タイトル**: The Thermodynamic and Financial Reality of AI Power Starvation: Rider's Bremsstrahlung Limit in Pulsed D-3He Fusion, Tokamak REBCO Supply-Chain Scaling, PJM/FERC Queue Bottlenecks, and Hyperscale Stranded-CapEx Risk (2026)
+  **ファイルパス**: `raw/papers/business_ethics_csr/the-thermodynamic-and-financial-reality-of-ai-power-starvation-riders-bremsstrah.md`

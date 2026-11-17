@@ -1,0 +1,22 @@
+---
+title: "Orchestrate: An AI-secure MarTech simulation for systems thinking and industry-ready capability"
+authors: "Nicholas Lekakis,  Jason Pallant, Jairus Bowne, Pete Fernandez"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "complexity_science"
+fetched: "2026-11-18T06:41:03.834991"
+doi: "https://doi.org/10.65106/apubs.2026.3228"
+openalex_id: "https://openalex.org/W7234404586"
+source_api: "openalex"
+---
+
+# Orchestrate: An AI-secure MarTech simulation for systems thinking and industry-ready capability
+
+**著者**: Nicholas Lekakis,  Jason Pallant, Jairus Bowne, Pete Fernandez
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: 複雑系科学
+
+## Abstract
+
+Marketing technology (MarTech) education has traditionally emphasised the acquisition of discrete platform skills, often resulting in fragmented, “tool-first” approaches that inadequately prepare graduates to manage complex MarTech ecosystems. At the same time, the rapid proliferation of generative artificial intelligence (GenAI) has intensified concerns about whether conventional assessment designs can validly evaluate higher-order capabilities such as judgement, strategic reasoning, and decision making (Corbin et al., 2025; Zeng et al., 2024). These converging challenges highlight an urgent need for Technology Enhanced Learning (TEL) innovations grounded in human-centred design that foster systems thinking and strategic decision making while providing authentic, AI-resilient assessment opportunities. This presentation introduces Orchestrate, a low-fidelity (LoFi) MarTech simulation designed to cultivate systems thinking and assess industry-ready capability development in undergraduate and postgraduate marketing programs. Developed in Microsoft Excel, a widely available and low-barrier technology, the simulation provides a scalable and accessible learning experience. Informed by industry practice, Orchestrate positions students as marketing leaders responsible for managing investments across an interconnected MarTech ecosystem. Piloted during Semester 1, 2026, with Bachelor of Commerce students undertaking the Marketing Technology major at RMIT University, student teams balanced competing priorities to optimise customer acquisition, retention, satisfaction, and revenue growth. Rather than learning isolated technologies, students allocated finite budgets across 12 capability areas aligned to the People, Process, Data, and Technology (PPDT) framework (Monshizada et al., 2023). The pedagogical design is underpinned by systems thinking theory, which emphasises understanding interdependencies, trade-offs, and emergent patterns within complex systems (York et al., 2019). The simulation makes relationships between MarTech capabilities explicit, demonstrating that sustainable organisational performance emerges from balancing people, process, data, and technological priorities rather than investing in individual tools. Authentic assessment principles further situate learning within realistic professional contexts that mirror contemporary marketing practice. A distinctive contribution of Orchestrate lies in its AI-resilient assessment design. Rather than relying on static written outputs that can readily be generated or enhanced by GenAI, assessment focuses on students’ situated decision making within the dynamic simulation environment. Teams must justify their evolving strategies, explain the consequences of their choices, and demonstrate alignment between investment decisions, course principles, and organisational performance outcomes. Because gameplay produces different conditions and outcomes for each team, the design reduces opportunities for inappropriate AI assistance while maintaining a focus on higher-order judgement and strategic reasoning. Early evidence from the Semester 1, 2026 pilot indicates strong student engagement and learning. Assessment submissions demonstrated sustained engagement with the simulation, while reflective responses showed strong understanding of course concepts and application of relevant theoretical frameworks to strategic decisions. Qualitative student experience survey feedback also identified Orchestrate as a key highlight of the course. These findings are indicative rather than the result of a formal research evaluation; a comprehensive Scholarship of Teaching and Learning (SoTL) study is now being developed, with an ethics application underway, to investigate the simulation’s impact on systems thinking, strategic decision making, student engagement, and learning outcomes.

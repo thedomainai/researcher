@@ -3527,6 +3527,12 @@
   "title_en": "Evidence Projection Model",
   "why": "多国間でAI規制対応を行う組織は、個別適合の重複構築を避け単一の実行証拠を転用できる設計が有効となる。"
  },
+ "evidence-provenance-coupling-and-illusory-independence": {
+  "at": "2026-11-17T22:58:46+00:00",
+  "summary": "AI生成コードとテストの一致は同一のコンテキストに起因する相関誤差の可能性があり、IORは出所と意味的根拠を分離記録して証拠の採用可能性を事後評価する。",
+  "title_en": "Evidence Provenance Coupling and Illusory Independence",
+  "why": "AIが実装と検証を同時に担う体制では、一致だけを正しさの証拠とせず出所の独立性を設計で確保する必要がある。"
+ },
  "evolutionary-economics-and-organizational-routines": {
   "at": "2026-10-01T09:49:46+00:00",
   "summary": "企業を最適化主体ではなく過去の経験から学習した組織ルーティンの集合体と捉え、環境適応と技術転換の動態を説明する理論である。",
@@ -5320,6 +5326,12 @@
   "summary": "規制下のAI意思決定の監査が検証不能になるのは実行の誤りではなく意味の不安定性に起因するため、決定時点の定義や分類規則をその決定自体に束縛して保存する必要があるとする原理である。",
   "title_en": "Meaning-Bound Decision Records",
   "why": "ポリシーや分類基準が頻繁に更新されるAI運用では、決定記録に意味のバージョンを同時固定しなければ説明責任を果たせない。"
+ },
+ "measurement-enabled-accountability-gap": {
+  "at": "2026-11-17T22:58:46+00:00",
+  "summary": "排出削減や生物多様性保全などの社会的コミットメントは、定量的に測定できなければ説明責任として機能せず、野心と証拠のギャップが構造的に生じる。",
+  "title_en": "Measurement-Enabled Accountability Gap",
+  "why": "AIを測定・検証基盤として位置づけることが、コミットメントの実行可能性と信頼構築を支える。"
  },
  "measurement-induced-behavioral-displacement": {
   "at": "2026-10-01T09:57:10+00:00",

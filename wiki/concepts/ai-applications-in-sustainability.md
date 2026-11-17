@@ -80,3 +80,8 @@ AIと地理空間技術の組み合わせは、自然保護区や世界遺産の
 1. Vu Thi Thanh Huyen, Dinh Thi Hai Hau, Nguyen Thi Thu Ha. *"INTERNATIONAL EXPERIENCE IN THE APPLICATION OF ARTIFICIAL INTELLIGENCE (AI) IN GREEN FINANCE DEVELOPMENT AND POLICY IMPLICATIONS FOR VIETNAM"* (2026). DOI: https://doi.org/10.18623/rvd.v23.5272
 
 2. Nayanajith J., T.M.S.P.K. Thennakoon, Ms A.W.G.N.M. Abeyrathna, K.D.P.P. Jayasinghe. *"Revolutionizing Sustainable Tourism Through Artificial Intelligence, Internet of Things, and Geospatial Technologies"* (2026). DOI: https://doi.org/10.1108/978-1-80686-627-420261010
+
+## 追加ソース（2026-11-18）
+
+* **タイトル**: Ai-Driven Data Analytics for Sustainable Resource Management Leveraging Artificial Intelligence to Optimize Energy, Water, Agricultural and Waste Systems (2026)
+  **ファイルパス**: `raw/papers/business_ethics_csr/ai-driven-data-analytics-for-sustainable-resource-management-leveraging-artifici.md`

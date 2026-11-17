@@ -60,3 +60,8 @@ AI Nativeな社会設計では、AIが交渉・助言・環境適応・意思決
 - Decisive Refutation of AI Personhood: The Logical Collapse of "Agency Risk" and "Attack Surface" — Hideo Kajino, 2026 (`raw/papers/law/decisive-refutation-of-ai-personhood-the-logical-collapse-of-agency-risk-and-att.md`)
 - Modular Legal Personhood for AI Use Cases: An Enterprise Systems Engineering Framework for Digital Transformation — Mayumi J. Okuno, Hiroshi G. Okuno, 2026 (`raw/papers/law/modular-legal-personhood-for-ai-use-cases-an-enterprise-systems-engineering-fram.md`)
 - Transformational Leadership in the Age of Artificial Intelligence: A Systematic Review and Research Agenda — Zhijiang Liu, Jacquline Tham, Ooi Boon Keat, 2026 (`raw/papers/leadership_ob/transformational-leadership-in-the-age-of-artificial-intelligence-a-systematic-r.md`)
+
+## 追加ソース（2026-11-18）
+
+* **タイトル**: Responsible AI in Academic Research: A Systematic Review of Ethical Principles, Challenges, and Future Directions (2026)
+  **ファイルパス**: `raw/papers/ai_governance/responsible-ai-in-academic-research-a-systematic-review-of-ethical-principles-ch.md`

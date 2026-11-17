@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-17T07:52:22.790121",
+  "generated_at": "2026-11-18T07:58:27.988466",
   "summary": {
-    "articles_scanned": 1333,
-    "nodes": 3603,
-    "resolved_nodes": 1333,
+    "articles_scanned": 1335,
+    "nodes": 3605,
+    "resolved_nodes": 1335,
     "unresolved_nodes": 2270,
-    "edges": 6622,
-    "resolved_edges": 3662,
+    "edges": 6632,
+    "resolved_edges": 3672,
     "unresolved_edges": 2960,
-    "link_mentions": 6920,
-    "valid_source_refs": 2217,
+    "link_mentions": 6930,
+    "valid_source_refs": 2224,
     "invalid_source_refs": 117,
-    "isolated_concepts": 93
+    "isolated_concepts": 92
   },
   "nodes": {
     "absorption-capacity-bottleneck-saturation": {
@@ -13677,7 +13677,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/ai-applications-in-sustainability.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "measurement-enabled-accountability-gap",
+          "label": "測定可能性が説明責任を成立させるギャップ構造",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/measurement-enabled-accountability-gap.md",
+          "mentions": [
+            {
+              "raw_target": "ai-applications-in-sustainability",
+              "label": "ai-applications-in-sustainability",
+              "section": "関連概念",
+              "line": 38,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": []
     },
     "ai-as-a-job-resource-and-psychological-capital": {
@@ -36390,6 +36407,22 @@
           ]
         },
         {
+          "id": "measurement-enabled-accountability-gap",
+          "label": "測定可能性が説明責任を成立させるギャップ構造",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/measurement-enabled-accountability-gap.md",
+          "mentions": [
+            {
+              "raw_target": "algorithmic-transparency",
+              "label": "algorithmic-transparency",
+              "section": "関連概念",
+              "line": 37,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "observation-to-inference-regulatory-gap",
           "label": "観察から推論への規制対象のずれ",
           "resolved": true,
@@ -47924,6 +47957,22 @@
               "label": "calibrated-multi-evidence-fusion",
               "section": "関連コンセプト",
               "line": 67,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "evidence-provenance-coupling-and-illusory-independence",
+          "label": "証拠の出所結合と見かけ上の独立性の崩壊",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/evidence-provenance-coupling-and-illusory-independence.md",
+          "mentions": [
+            {
+              "raw_target": "calibrated-multi-evidence-fusion",
+              "label": "calibrated-multi-evidence-fusion",
+              "section": "関連概念",
+              "line": 27,
               "resolved_via": "slug"
             }
           ]
@@ -157012,7 +157061,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/decision-time-evidence-binding.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "evidence-provenance-coupling-and-illusory-independence",
+          "label": "証拠の出所結合と見かけ上の独立性の崩壊",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/evidence-provenance-coupling-and-illusory-independence.md",
+          "mentions": [
+            {
+              "raw_target": "decision-time-evidence-binding",
+              "label": "decision-time-evidence-binding",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": [
         {
           "id": "ai-governance-and-risk-management",
@@ -177493,6 +177559,22 @@
       "file": "concepts/esg-financial-performance-link.md",
       "inbound": [
         {
+          "id": "measurement-enabled-accountability-gap",
+          "label": "測定可能性が説明責任を成立させるギャップ構造",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/measurement-enabled-accountability-gap.md",
+          "mentions": [
+            {
+              "raw_target": "esg-financial-performance-link",
+              "label": "esg-financial-performance-link",
+              "section": "関連概念",
+              "line": 36,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "causal-grounding-over-correlation",
           "label": "相関を超える因果的根拠づけ",
           "resolved": true,
@@ -179298,6 +179380,22 @@
           ]
         },
         {
+          "id": "measurement-enabled-accountability-gap",
+          "label": "測定可能性が説明責任を成立させるギャップ構造",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/measurement-enabled-accountability-gap.md",
+          "mentions": [
+            {
+              "raw_target": "evidence-bearing-decision-traceability",
+              "label": "evidence-bearing-decision-traceability",
+              "section": "関連概念",
+              "line": 39,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "causal-grounding-over-correlation",
           "label": "相関を超える因果的根拠づけ",
           "resolved": true,
@@ -180774,6 +180872,147 @@
           ],
           "ambiguous": false,
           "candidates": []
+        }
+      ]
+    },
+    "evidence-provenance-coupling-and-illusory-independence": {
+      "id": "evidence-provenance-coupling-and-illusory-independence",
+      "slug": "evidence-provenance-coupling-and-illusory-independence",
+      "label": "証拠の出所結合と見かけ上の独立性の崩壊",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/evidence-provenance-coupling-and-illusory-independence.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "calibrated-multi-evidence-fusion",
+          "label": "キャリブレーションされた多重エビデンス融合フレームワーク",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/calibrated-multi-evidence-fusion.md",
+          "raw_targets": [
+            "calibrated-multi-evidence-fusion"
+          ],
+          "display_labels": [
+            "calibrated-multi-evidence-fusion"
+          ],
+          "mentions": [
+            {
+              "raw_target": "calibrated-multi-evidence-fusion",
+              "label": "calibrated-multi-evidence-fusion",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "calibrated-multi-evidence-fusion"
+          ]
+        },
+        {
+          "id": "opacity-sycophancy-error-correction-closure",
+          "label": "不透明性と迎合による誤り訂正経路の遮断",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/opacity-sycophancy-error-correction-closure.md",
+          "raw_targets": [
+            "opacity-sycophancy-error-correction-closure"
+          ],
+          "display_labels": [
+            "opacity-sycophancy-error-correction-closure"
+          ],
+          "mentions": [
+            {
+              "raw_target": "opacity-sycophancy-error-correction-closure",
+              "label": "opacity-sycophancy-error-correction-closure",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "opacity-sycophancy-error-correction-closure"
+          ]
+        },
+        {
+          "id": "verification-diversity-and-evaluator-regress",
+          "label": "検証の多様性と評価者の無限後退",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/verification-diversity-and-evaluator-regress.md",
+          "raw_targets": [
+            "verification-diversity-and-evaluator-regress"
+          ],
+          "display_labels": [
+            "verification-diversity-and-evaluator-regress"
+          ],
+          "mentions": [
+            {
+              "raw_target": "verification-diversity-and-evaluator-regress",
+              "label": "verification-diversity-and-evaluator-regress",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "verification-diversity-and-evaluator-regress"
+          ]
+        },
+        {
+          "id": "decision-time-evidence-binding",
+          "label": "決定時点への証拠拘束と説明責任の遡及不能性",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/decision-time-evidence-binding.md",
+          "raw_targets": [
+            "decision-time-evidence-binding"
+          ],
+          "display_labels": [
+            "decision-time-evidence-binding"
+          ],
+          "mentions": [
+            {
+              "raw_target": "decision-time-evidence-binding",
+              "label": "decision-time-evidence-binding",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "decision-time-evidence-binding"
+          ]
+        },
+        {
+          "id": "fluent-output-capability-decoupling",
+          "label": "流暢な成果と内在的能力の乖離(支援の内在化阻害)",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/fluent-output-capability-decoupling.md",
+          "raw_targets": [
+            "fluent-output-capability-decoupling"
+          ],
+          "display_labels": [
+            "fluent-output-capability-decoupling"
+          ],
+          "mentions": [
+            {
+              "raw_target": "fluent-output-capability-decoupling",
+              "label": "fluent-output-capability-decoupling",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "fluent-output-capability-decoupling"
+          ]
         }
       ]
     },
@@ -190165,6 +190404,22 @@
               "label": "fluent-output-capability-decoupling",
               "section": "関連コンセプト",
               "line": 86,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "evidence-provenance-coupling-and-illusory-independence",
+          "label": "証拠の出所結合と見かけ上の独立性の崩壊",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/evidence-provenance-coupling-and-illusory-independence.md",
+          "mentions": [
+            {
+              "raw_target": "fluent-output-capability-decoupling",
+              "label": "fluent-output-capability-decoupling",
+              "section": "関連概念",
+              "line": 27,
               "resolved_via": "slug"
             }
           ]
@@ -233541,6 +233796,147 @@
         }
       ]
     },
+    "measurement-enabled-accountability-gap": {
+      "id": "measurement-enabled-accountability-gap",
+      "slug": "measurement-enabled-accountability-gap",
+      "label": "測定可能性が説明責任を成立させるギャップ構造",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/measurement-enabled-accountability-gap.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "esg-financial-performance-link",
+          "label": "ESGと企業財務パフォーマンスの相関性分析",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/esg-financial-performance-link.md",
+          "raw_targets": [
+            "esg-financial-performance-link"
+          ],
+          "display_labels": [
+            "esg-financial-performance-link"
+          ],
+          "mentions": [
+            {
+              "raw_target": "esg-financial-performance-link",
+              "label": "esg-financial-performance-link",
+              "section": "関連概念",
+              "line": 36,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "esg-financial-performance-link"
+          ]
+        },
+        {
+          "id": "algorithmic-transparency",
+          "label": "アルゴリズムの透明性",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/algorithmic-transparency.md",
+          "raw_targets": [
+            "algorithmic-transparency"
+          ],
+          "display_labels": [
+            "algorithmic-transparency"
+          ],
+          "mentions": [
+            {
+              "raw_target": "algorithmic-transparency",
+              "label": "algorithmic-transparency",
+              "section": "関連概念",
+              "line": 37,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "algorithmic-transparency"
+          ]
+        },
+        {
+          "id": "ai-applications-in-sustainability",
+          "label": "持続可能性分野へのAI応用",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/ai-applications-in-sustainability.md",
+          "raw_targets": [
+            "ai-applications-in-sustainability"
+          ],
+          "display_labels": [
+            "ai-applications-in-sustainability"
+          ],
+          "mentions": [
+            {
+              "raw_target": "ai-applications-in-sustainability",
+              "label": "ai-applications-in-sustainability",
+              "section": "関連概念",
+              "line": 38,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "ai-applications-in-sustainability"
+          ]
+        },
+        {
+          "id": "verifiable-carbon-information-impact",
+          "label": "検証可能な炭素情報が消費者行動に与える影響",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/verifiable-carbon-information-impact.md",
+          "raw_targets": [
+            "verifiable-carbon-information-impact"
+          ],
+          "display_labels": [
+            "verifiable-carbon-information-impact"
+          ],
+          "mentions": [
+            {
+              "raw_target": "verifiable-carbon-information-impact",
+              "label": "verifiable-carbon-information-impact",
+              "section": "関連概念",
+              "line": 35,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "verifiable-carbon-information-impact"
+          ]
+        },
+        {
+          "id": "evidence-bearing-decision-traceability",
+          "label": "証拠を伴う意思決定の追跡可能性",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/evidence-bearing-decision-traceability.md",
+          "raw_targets": [
+            "evidence-bearing-decision-traceability"
+          ],
+          "display_labels": [
+            "evidence-bearing-decision-traceability"
+          ],
+          "mentions": [
+            {
+              "raw_target": "evidence-bearing-decision-traceability",
+              "label": "evidence-bearing-decision-traceability",
+              "section": "関連概念",
+              "line": 39,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "evidence-bearing-decision-traceability"
+          ]
+        }
+      ]
+    },
     "measurement-induced-behavioral-displacement": {
       "id": "measurement-induced-behavioral-displacement",
       "slug": "measurement-induced-behavioral-displacement",
@@ -249113,6 +249509,22 @@
               "label": "opacity-sycophancy-error-correction-closure",
               "section": "関連コンセプト",
               "line": 67,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "evidence-provenance-coupling-and-illusory-independence",
+          "label": "証拠の出所結合と見かけ上の独立性の崩壊",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/evidence-provenance-coupling-and-illusory-independence.md",
+          "mentions": [
+            {
+              "raw_target": "opacity-sycophancy-error-correction-closure",
+              "label": "opacity-sycophancy-error-correction-closure",
+              "section": "関連概念",
+              "line": 27,
               "resolved_via": "slug"
             }
           ]
@@ -313724,6 +314136,22 @@
           ]
         },
         {
+          "id": "measurement-enabled-accountability-gap",
+          "label": "測定可能性が説明責任を成立させるギャップ構造",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/measurement-enabled-accountability-gap.md",
+          "mentions": [
+            {
+              "raw_target": "verifiable-carbon-information-impact",
+              "label": "verifiable-carbon-information-impact",
+              "section": "関連概念",
+              "line": 35,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "intelligent-financial-mitigation",
           "label": "財務インテリジェント化による資金調達制約緩和",
           "resolved": true,
@@ -314922,6 +315350,22 @@
               "label": "verification-diversity-and-evaluator-regress",
               "section": "関連コンセプト",
               "line": 57,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "evidence-provenance-coupling-and-illusory-independence",
+          "label": "証拠の出所結合と見かけ上の独立性の崩壊",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/evidence-provenance-coupling-and-illusory-independence.md",
+          "mentions": [
+            {
+              "raw_target": "verification-diversity-and-evaluator-regress",
+              "label": "verification-diversity-and-evaluator-regress",
+              "section": "関連概念",
+              "line": 27,
               "resolved_via": "slug"
             }
           ]
@@ -321777,7 +322221,24 @@
       }
     ],
     "ai-applications-and-impacts": [],
-    "ai-applications-in-sustainability": [],
+    "ai-applications-in-sustainability": [
+      {
+        "id": "measurement-enabled-accountability-gap",
+        "label": "測定可能性が説明責任を成立させるギャップ構造",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/measurement-enabled-accountability-gap.md",
+        "mentions": [
+          {
+            "raw_target": "ai-applications-in-sustainability",
+            "label": "ai-applications-in-sustainability",
+            "section": "関連概念",
+            "line": 38,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "ai-as-a-job-resource-and-psychological-capital": [
       {
         "id": "recursive-loops-and-efficiency-dividend-absorption",
@@ -329583,6 +330044,22 @@
         ]
       },
       {
+        "id": "measurement-enabled-accountability-gap",
+        "label": "測定可能性が説明責任を成立させるギャップ構造",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/measurement-enabled-accountability-gap.md",
+        "mentions": [
+          {
+            "raw_target": "algorithmic-transparency",
+            "label": "algorithmic-transparency",
+            "section": "関連概念",
+            "line": 37,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "observation-to-inference-regulatory-gap",
         "label": "観察から推論への規制対象のずれ",
         "resolved": true,
@@ -332638,6 +333115,22 @@
             "label": "calibrated-multi-evidence-fusion",
             "section": "関連コンセプト",
             "line": 67,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "evidence-provenance-coupling-and-illusory-independence",
+        "label": "証拠の出所結合と見かけ上の独立性の崩壊",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/evidence-provenance-coupling-and-illusory-independence.md",
+        "mentions": [
+          {
+            "raw_target": "calibrated-multi-evidence-fusion",
+            "label": "calibrated-multi-evidence-fusion",
+            "section": "関連概念",
+            "line": 27,
             "resolved_via": "slug"
           }
         ]
@@ -396761,7 +397254,24 @@
         ]
       }
     ],
-    "decision-time-evidence-binding": [],
+    "decision-time-evidence-binding": [
+      {
+        "id": "evidence-provenance-coupling-and-illusory-independence",
+        "label": "証拠の出所結合と見かけ上の独立性の崩壊",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/evidence-provenance-coupling-and-illusory-independence.md",
+        "mentions": [
+          {
+            "raw_target": "decision-time-evidence-binding",
+            "label": "decision-time-evidence-binding",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "decision-time-evidence-binding-and-reconstruction-limit": [
       {
         "id": "intermediary-dual-effect-and-critical-threshold-dominance",
@@ -401344,6 +401854,22 @@
     ],
     "esg-financial-performance-link": [
       {
+        "id": "measurement-enabled-accountability-gap",
+        "label": "測定可能性が説明責任を成立させるギャップ構造",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/measurement-enabled-accountability-gap.md",
+        "mentions": [
+          {
+            "raw_target": "esg-financial-performance-link",
+            "label": "esg-financial-performance-link",
+            "section": "関連概念",
+            "line": 36,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "causal-grounding-over-correlation",
         "label": "相関を超える因果的根拠づけ",
         "resolved": true,
@@ -401773,6 +402299,22 @@
             "label": "evidence-bearing-decision-traceability",
             "section": "関連コンセプト",
             "line": 45,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "measurement-enabled-accountability-gap",
+        "label": "測定可能性が説明責任を成立させるギャップ構造",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/measurement-enabled-accountability-gap.md",
+        "mentions": [
+          {
+            "raw_target": "evidence-bearing-decision-traceability",
+            "label": "evidence-bearing-decision-traceability",
+            "section": "関連概念",
+            "line": 39,
             "resolved_via": "slug"
           }
         ]
@@ -402237,6 +402779,7 @@
         ]
       }
     ],
+    "evidence-provenance-coupling-and-illusory-independence": [],
     "evolutionary-economics-and-organizational-routines": [
       {
         "id": "structural-origins-of-organizational-harm-and-power-framing",
@@ -405406,6 +405949,22 @@
             "label": "fluent-output-capability-decoupling",
             "section": "関連コンセプト",
             "line": 86,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "evidence-provenance-coupling-and-illusory-independence",
+        "label": "証拠の出所結合と見かけ上の独立性の崩壊",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/evidence-provenance-coupling-and-illusory-independence.md",
+        "mentions": [
+          {
+            "raw_target": "fluent-output-capability-decoupling",
+            "label": "fluent-output-capability-decoupling",
+            "section": "関連概念",
+            "line": 27,
             "resolved_via": "slug"
           }
         ]
@@ -415642,6 +416201,7 @@
         ]
       }
     ],
+    "measurement-enabled-accountability-gap": [],
     "measurement-induced-behavioral-displacement": [
       {
         "id": "front-loaded-cost-and-operational-gain-offset",
@@ -418745,6 +419305,22 @@
             "label": "opacity-sycophancy-error-correction-closure",
             "section": "関連コンセプト",
             "line": 67,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "evidence-provenance-coupling-and-illusory-independence",
+        "label": "証拠の出所結合と見かけ上の独立性の崩壊",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/evidence-provenance-coupling-and-illusory-independence.md",
+        "mentions": [
+          {
+            "raw_target": "opacity-sycophancy-error-correction-closure",
+            "label": "opacity-sycophancy-error-correction-closure",
+            "section": "関連概念",
+            "line": 27,
             "resolved_via": "slug"
           }
         ]
@@ -430919,6 +431495,22 @@
         ]
       },
       {
+        "id": "measurement-enabled-accountability-gap",
+        "label": "測定可能性が説明責任を成立させるギャップ構造",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/measurement-enabled-accountability-gap.md",
+        "mentions": [
+          {
+            "raw_target": "verifiable-carbon-information-impact",
+            "label": "verifiable-carbon-information-impact",
+            "section": "関連概念",
+            "line": 35,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "intelligent-financial-mitigation",
         "label": "財務インテリジェント化による資金調達制約緩和",
         "resolved": true,
@@ -431114,6 +431706,22 @@
             "label": "verification-diversity-and-evaluator-regress",
             "section": "関連コンセプト",
             "line": 57,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "evidence-provenance-coupling-and-illusory-independence",
+        "label": "証拠の出所結合と見かけ上の独立性の崩壊",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/evidence-provenance-coupling-and-illusory-independence.md",
+        "mentions": [
+          {
+            "raw_target": "verification-diversity-and-evaluator-regress",
+            "label": "verification-diversity-and-evaluator-regress",
+            "section": "関連概念",
+            "line": 27,
             "resolved_via": "slug"
           }
         ]

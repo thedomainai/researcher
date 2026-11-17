@@ -26426,5 +26426,44 @@
     ],
     "domain": "cognitive_science",
     "compiled_at": "2026-11-17"
+  },
+  {
+    "slug": "evidence-provenance-coupling-and-illusory-independence",
+    "title_ja": "証拠の出所結合と見かけ上の独立性の崩壊",
+    "title_en": "Evidence Provenance Coupling and Illusory Independence",
+    "description": "複数の検証経路が同一の理解・情報源に依拠している場合、表面上の合意は独立した裏付けではなく共通の誤解を反映するにすぎないという構造的問題。",
+    "mechanisms": [
+      "共通原因による相関誤差",
+      "証拠出所の分離不足",
+      "弱いオラクル問題",
+      "見かけ上の合意による過信"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/accounting/the-independent-oracle-receipt-an-evidence-dependence-audit-for-ai-generated-sof.md"
+    ],
+    "domain": "accounting",
+    "compiled_at": "2026-11-18"
+  },
+  {
+    "slug": "measurement-enabled-accountability-gap",
+    "title_ja": "測定可能性が説明責任を成立させるギャップ構造",
+    "title_en": "Measurement as a Precondition for Credible Accountability",
+    "description": "組織や制度が複雑な社会的コミットメント(排出削減・生物多様性保全など)を実行可能にするには、定量的測定とステークホルダーへの可視化が不可欠であり、測定能力の欠如がそのまま説明責任の空語化を招くという構造。",
+    "mechanisms": [
+      "測定可能性による説明責任の成立",
+      "野心と証拠のギャップ",
+      "可視化によるステークホルダー信頼構築"
+    ],
+    "related_sources": [
+      2
+    ],
+    "source_files": [
+      "raw/papers/business_ethics_csr/data-analytics-and-ai-in-esg-climate-change-and-sustainability-a-practitioners-h.md"
+    ],
+    "domain": "business_ethics_csr",
+    "compiled_at": "2026-11-18"
   }
 ]

@@ -71,3 +71,8 @@ AI Nativeな社会では、人間・AIエージェント・組織・プラット
    File: raw/papers/operations_research/strategic-game-theoretic-models-for-cybersecurity-integrating-ai-detection-and-d.md
 7. MOUFLON: multi-group modularity-based fairness-aware community detection — Georgios Panayiotou, Anand Mathew Muthukulam Simon, Matteo Magnani, Ece Calikus (2026)
    File: raw/papers/operations_research/mouflon-multi-group-modularity-based-fairness-aware-community-detection.md
+
+## 追加ソース（2026-11-18）
+
+* **タイトル**: Safer Content or Firmer Refusals? A Hybrid Perturbation Defense for Alignment under Harmful Fine-tuning (2026)
+  **ファイルパス**: `raw/papers/ai_governance/safer-content-or-firmer-refusals-a-hybrid-perturbation-defense-for-alignment-und.md`

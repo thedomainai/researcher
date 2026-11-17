@@ -574,6 +574,13 @@
       "papers/corporate_governance/explainable-artificial-intelligence-xai-concepts-taxonomies-opportunities-and-ch.md",
       "papers/operations_management/reinforcement-learning-a-survey.md",
       "papers/cognitive_science/situated-cognition-and-the-culture-of-learning.md"
+    ],
+    "2026-11-18": [
+      "papers/corporate_governance/explainable-artificial-intelligence-xai-concepts-taxonomies-opportunities-and-ch.md",
+      "papers/organization_science/dynamic-capabilities-and-strategic-management.md",
+      "papers/information_systems/the-wu-minn-human-connectome-project-an-overview.md",
+      "papers/batched-contextual-reinforcement-a-task-scaling-law-for-efficient-reasoning.md",
+      "papers/operations_research/resilience-and-stability-of-ecological-systems.md"
     ]
   }
 }

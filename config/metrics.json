@@ -404,6 +404,11 @@
     "Organic Search": 3
    },
    "pv": 3,
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   },
    "sessions": 3,
    "users": 3
   },
@@ -417,11 +422,12 @@
   },
   "2026-11-16": {
    "channels": {
-    "Organic Search": 2
+    "AI Assistant": 3,
+    "Organic Search": 4
    },
-   "pv": 2,
-   "sessions": 2,
-   "users": 2
+   "pv": 7,
+   "sessions": 7,
+   "users": 6
   }
  },
  "sitemaps": [
@@ -452,7 +458,15 @@
    3
   ],
   [
+   "/researcher/concepts/absorption-capacity-bottleneck-saturation/",
+   2
+  ],
+  [
    "/researcher/concepts/gene-set-variation-analysis/",
+   2
+  ],
+  [
+   "/researcher/concepts/mne-multiple-embeddedness/",
    2
   ],
   [
@@ -466,15 +480,7 @@
   [
    "/researcher/concepts/ai-enabled-leadership-agents/",
    1
-  ],
-  [
-   "/researcher/concepts/ai-generated-code-detection/",
-   1
-  ],
-  [
-   "/researcher/concepts/ai-in-science-communication/",
-   1
   ]
  ],
- "updated": "2026-11-16T16:06:21"
+ "updated": "2026-11-17T08:00:55"
 }
