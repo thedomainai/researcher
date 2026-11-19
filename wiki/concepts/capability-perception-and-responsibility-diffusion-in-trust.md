@@ -77,3 +77,8 @@ AIと批判的思考の関係を論じた研究は、AIが利用のされ方に�
    `raw/papers/complexity_science/the-beets-framework-for-responsible-artificial-intelligence.md`
 6. PSYCHOLOGICAL CHARACTERISTICS OF THE RELATIONSHIP BETWEEN ARTIFICIAL INTELLIGENCE AND CRITICAL THINKING — Mehrigul Abdurasulova (2026)
    `raw/papers/complexity_science/psychological-characteristics-of-the-relationship-between-artificial-intelligenc.md`
+
+## 追加ソース（2026-11-20）
+
+* **タイトル**: The psychological mechanisms by which algorithmic authority influences moral disengagement in Human-AI collaborative decision-making (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/the-psychological-mechanisms-by-which-algorithmic-authority-influences-moral-dis.md`

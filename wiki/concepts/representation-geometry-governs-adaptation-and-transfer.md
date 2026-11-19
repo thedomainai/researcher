@@ -79,3 +79,8 @@ Adorante らは、Expressive Leaky Memory ニューロンのリカレントネ�
    File: raw/papers/neuroscience/ai-driven-neural-surrogates-for-in-silico-design-of-cognitive-affective-neuromod.md
 5. Agnese Adorante, Aaron Spieler, Anna Levina (2026). "The Computational Value of Sensory-Aligned Receptive Fields Depends on Neuronal Expressivity"
    File: raw/papers/neuroscience/the-computational-value-of-sensory-aligned-receptive-fields-depends-on-neuronal-.md
+
+## 追加ソース（2026-11-20）
+
+* **タイトル**: Performance Evaluation of Ising and QUBO Variable Encodings in Boltzmann Machine Learning (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/performance-evaluation-of-ising-and-qubo-variable-encodings-in-boltzmann-machine.md`

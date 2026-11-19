@@ -431,6 +431,11 @@
     "Organic Search": 4
    },
    "pv": 7,
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   },
    "sessions": 7,
    "users": 6
   },
@@ -442,6 +447,14 @@
    "pv": 6,
    "sessions": 6,
    "users": 3
+  },
+  "2026-11-18": {
+   "channels": {
+    "Organic Search": 1
+   },
+   "pv": 1,
+   "sessions": 1,
+   "users": 0
   }
  },
  "sitemaps": [
@@ -464,11 +477,11 @@
    5
   ],
   [
-   "/graph/",
-   4
+   "/researcher/concepts/mne-multiple-embeddedness/",
+   5
   ],
   [
-   "/researcher/concepts/mne-multiple-embeddedness/",
+   "/graph/",
    4
   ],
   [
@@ -496,5 +509,5 @@
    1
   ]
  ],
- "updated": "2026-11-18T08:06:44"
+ "updated": "2026-11-19T09:43:31"
 }

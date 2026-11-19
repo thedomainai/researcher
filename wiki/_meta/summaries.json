@@ -5009,6 +5009,12 @@
   "title_en": "Granular Fallback vs. Minimalist Legal Codes",
   "why": "AI規制など新領域のルール設計でも、詳細化と執行コストの配分をどちら側に置くかが問われる。"
  },
+ "justification-recoverability-over-information-persistence": {
+  "at": "2026-11-19T21:16:41+00:00",
+  "summary": "AIが複数世代にわたり業務を引き継ぐ場では、記録が物理的に残ることと、その根拠や訂正を後続が回復できることは別問題であり、後者こそ連続性を支える。",
+  "title_en": "Justification Recoverability Over Information Persistence",
+  "why": "AIエージェントへの業務引き継ぎでは、記録の保存だけでなく訂正が下流まで伝播する仕組みを制度的に設計する必要がある。"
+ },
  "kerrigans-law": {
   "at": "2026-10-01T09:55:51+00:00",
   "summary": "遅延結合エージェント群では時間的同期が密度に依存しない一方、空間的自己組織化は臨界密度を超えた場合にのみ生じ、両者は独立に制御される。",
@@ -5729,6 +5735,12 @@
   "title_en": "Algorithmic Efficiency for Network Flow Problems",
   "why": ""
  },
+ "network-peripherality-induced-invisibilization": {
+  "at": "2026-11-19T21:16:41+00:00",
+  "summary": "社会的ネットワーク上で疎な位置に置かれた属性集団は、媒介的接続による実質的な関与があっても中心性指標に基づく分析では見落とされやすい。",
+  "title_en": "Network Peripherality-Induced Invisibilization",
+  "why": "関係データから重要アクターを検出するAIシステムは、属性相関的な構造的不可視化をそのまま自動化された判断に継承しかねない。"
+ },
  "neural-reward-circuitry-and-allostasis": {
   "at": "2026-10-01T09:58:51+00:00",
   "summary": "脳の報酬回路は快楽と動機づけを処理するが、慢性的な薬物やストレスは報酬の基準点を移動させるアロスタシスを招き依存症などの行動障害につながる。",
@@ -6335,6 +6347,12 @@
   "title_en": "Professional Duty Anchoring of Technology Integration",
   "why": "AI統治設計では新規制度より既存義務の拡張適用を優先し、立法ラグと制度構築コストを抑える判断が求められる。"
  },
+ "professional-jurisdiction-redistribution-under-technological-mediation": {
+  "at": "2026-11-19T21:16:41+00:00",
+  "summary": "LLM媒介型分析ツールの導入で専門職の権限は消滅せず、分析生産の現場から事後的な認証・監督という地点へ再配置される。",
+  "title_en": "Professional Jurisdiction Redistribution Under Technological Mediation",
+  "why": "AI導入時は専門職の権限がどこへ移動するかを明示的に設計し、事後認証に伴う責任の所在を定める必要がある。"
+ },
  "project-scheduling-methods": {
   "at": "2026-10-01T10:00:54+00:00",
   "summary": "プロジェクト・スケジューリング理論は、時間と資源の制約下でタスクを最適配置し、工期短縮やコスト管理を実現する数理的手法の体系である。",
@@ -6826,6 +6844,12 @@
   "summary": "モデル単体の能力向上だけでなく、訓練・展開パイプラインという実行環境(ハーネス)を改善する再帰ループこそが性能を左右する不変構造だと論じる。",
   "title_en": "Self-Improvement Loop and Deployment Harness",
   "why": "AIの統制対象をモデル内部から、訓練・展開システムという周辺構造へ移す必要があることを示す。"
+ },
+ "self-mined-data-and-epistemic-agency": {
+  "at": "2026-11-19T21:16:41+00:00",
+  "summary": "学習者が他者設計のデータでなく自ら収集したデータを扱うと、生産者であるという事実自体が認識的主体性とエンゲージメントを高める。",
+  "title_en": "Self-Mined Data and Epistemic Agency",
+  "why": "AI駆動の学習・労働環境では、利用者をデータの生産プロセスに関与させる設計が主体性向上を左右する構造要因となる。"
  },
  "self-monitoring-feedback-and-adaptive-plasticity": {
   "at": "2026-10-01T10:04:19+00:00",

@@ -91,3 +91,8 @@ Iyer (2026) は、AIが道徳的行為者になりうるかを論じ、自律的
    File: raw/papers/philosophy/place-label-nudges-how-place-attachment-shapes-recycling-choice.md
 6. Serap Keleş (2026). *Toward an internal moral purpose like normative governance function in artificial agency*.
    File: raw/papers/philosophy/toward-an-internal-moral-purpose-like-normative-governance-function-in-artificia.md
+
+## 追加ソース（2026-11-20）
+
+* **タイトル**: When AI Delegation Becomes Dependence: Administrative Judgment at Risk (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/when-ai-delegation-becomes-dependence-administrative-judgment-at-risk.md`

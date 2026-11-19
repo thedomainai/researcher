@@ -26542,5 +26542,81 @@
     ],
     "domain": "behavioral_economics",
     "compiled_at": "2026-11-19"
+  },
+  {
+    "slug": "self-mined-data-and-epistemic-agency",
+    "title_ja": "自己収集データによる認識的主体性の向上",
+    "title_en": "Self-Mined Data and Epistemic Agency",
+    "description": "学習者/行為者が自ら収集・生成したデータを扱うことで、外部設計のデータを扱う場合より当事者性・関連性・主体性が強まるという、入力の生産者性が主体性を規定する構造的メカニズム",
+    "mechanisms": [
+      "生産者性による当事者化",
+      "関連性を介した動機付け",
+      "構成的知識獲得"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/anthropology/integrating-student-mined-data-in-youth-computer-science-learning-an-investigati.md"
+    ],
+    "domain": "anthropology",
+    "compiled_at": "2026-11-20"
+  },
+  {
+    "slug": "network-peripherality-induced-invisibilization",
+    "title_ja": "ネットワーク周辺性による不可視化",
+    "title_en": "Network Peripherality and Social Invisibilization",
+    "description": "集団内のある属性を持つメンバーが相対的に疎な接続位置に置かれることで、実際の関与度に関わらず分析・対応から見落とされやすくなる構造的メカニズム",
+    "mechanisms": [
+      "ネットワーク周辺化",
+      "媒介接続による間接的可視性",
+      "属性相関的な構造的位置付け"
+    ],
+    "related_sources": [
+      2
+    ],
+    "source_files": [
+      "raw/papers/anthropology/proud-boys-invisible-women-gender-and-network-position-in-us-political-extremism.md"
+    ],
+    "domain": "anthropology",
+    "compiled_at": "2026-11-20"
+  },
+  {
+    "slug": "professional-jurisdiction-redistribution-under-technological-mediation",
+    "title_ja": "技術的媒介による専門職権限の再分配",
+    "title_en": "Professional Jurisdiction Redistribution under Technological Mediation",
+    "description": "新しい分析的媒介技術の導入は専門職の権限を消滅させるのではなく、生産から事後的な認証・監督へと管轄を再配置し、権限の正当性を異なる地点に再定着させるという構造的原理",
+    "mechanisms": [
+      "管轄の再配置",
+      "事後的正当化",
+      "権限の境界再設定"
+    ],
+    "related_sources": [
+      3
+    ],
+    "source_files": [
+      "raw/papers/anthropology/jurisdictional-settlements-in-llm-mediated-analytic-regimes.md"
+    ],
+    "domain": "anthropology",
+    "compiled_at": "2026-11-20"
+  },
+  {
+    "slug": "justification-recoverability-over-information-persistence",
+    "title_ja": "正当化根拠の回復可能性が情報の物理的存続に優先する",
+    "title_en": "Justification Recoverability Over Information Persistence",
+    "description": "制度・組織の連続性は記録が単に存続することではなく、後続の参加者がその正当化根拠を回復・検証・修正できることに依拠するという応用認識論の不変原理",
+    "mechanisms": [
+      "正当化根拠の回復可能性",
+      "記録の存続と意味的有効性の分離",
+      "訂正の伝播失敗"
+    ],
+    "related_sources": [
+      4
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/agentic-institutions-organisational-memory-correction-and-continuity-across-succ.md"
+    ],
+    "domain": "cognitive_science",
+    "compiled_at": "2026-11-20"
   }
 ]

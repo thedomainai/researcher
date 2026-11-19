@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-19T09:42:10.611029",
+  "generated_at": "2026-11-20T06:16:19.106751",
   "summary": {
-    "articles_scanned": 1339,
-    "nodes": 3609,
-    "resolved_nodes": 1339,
+    "articles_scanned": 1343,
+    "nodes": 3613,
+    "resolved_nodes": 1343,
     "unresolved_nodes": 2270,
-    "edges": 6644,
-    "resolved_edges": 3684,
+    "edges": 6651,
+    "resolved_edges": 3691,
     "unresolved_edges": 2960,
-    "link_mentions": 6943,
-    "valid_source_refs": 2237,
+    "link_mentions": 6950,
+    "valid_source_refs": 2247,
     "invalid_source_refs": 117,
-    "isolated_concepts": 94
+    "isolated_concepts": 97
   },
   "nodes": [
     {
@@ -10823,6 +10823,34 @@
       "degree": 5
     },
     {
+      "id": "network-peripherality-induced-invisibilization",
+      "slug": "network-peripherality-induced-invisibilization",
+      "label": "ネットワーク周辺性による不可視化",
+      "title": "ネットワーク周辺性による不可視化",
+      "title_ja": "ネットワーク周辺性による不可視化",
+      "title_en": "Network Peripherality and Social Invisibilization",
+      "tier": null,
+      "description": "集団内のある属性を持つメンバーが相対的に疎な接続位置に置かれることで、実際の関与度に関わらず分析・対応から見落とされやすくなる構造的メカニズム",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/network-peripherality-induced-invisibilization.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Network Peripherality and Social Invisibilization",
+        "network-peripherality-induced-invisibilization",
+        "ネットワーク周辺性による不可視化",
+        "ネットワーク周辺性による不可視化 (Network Peripherality and Social Invisibilization)",
+        "ネットワーク周辺性による不可視化(Network Peripherality and Social Invisibilization)",
+        "ネットワーク周辺性による不可視化（Network Peripherality and Social Invisibilization）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
+    },
+    {
       "id": "structure-constrained-dynamics-and-budgeted-intervention",
       "slug": "structure-constrained-dynamics-and-budgeted-intervention",
       "label": "ネットワーク構造が規定するダイナミクスと予算制約下の介入",
@@ -16108,9 +16136,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 11,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "value-based-decision-making",
@@ -17342,9 +17370,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 11,
+      "inbound_count": 12,
       "outbound_count": 10,
-      "degree": 21
+      "degree": 22
     },
     {
       "id": "institutions-and-economic-growth",
@@ -22245,9 +22273,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 15,
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "information-processing-load-and-decision-latency-matching",
@@ -22361,9 +22389,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 8,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "semantic-externalization-for-interpretive-convergence",
@@ -23379,9 +23407,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 3,
+      "inbound_count": 4,
       "outbound_count": 9,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "threshold-nonlinearity-in-technology-externalities",
@@ -23527,6 +23555,34 @@
       "inbound_count": 0,
       "outbound_count": 0,
       "degree": 0
+    },
+    {
+      "id": "professional-jurisdiction-redistribution-under-technological-mediation",
+      "slug": "professional-jurisdiction-redistribution-under-technological-mediation",
+      "label": "技術的媒介による専門職権限の再分配",
+      "title": "技術的媒介による専門職権限の再分配",
+      "title_ja": "技術的媒介による専門職権限の再分配",
+      "title_en": "Professional Jurisdiction Redistribution under Technological Mediation",
+      "tier": null,
+      "description": "新しい分析的媒介技術の導入は専門職の権限を消滅させるのではなく、生産から事後的な認証・監督へと管轄を再配置し、権限の正当性を異なる地点に再定着させるという構造的原理",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/professional-jurisdiction-redistribution-under-technological-mediation.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Professional Jurisdiction Redistribution under Technological Mediation",
+        "professional-jurisdiction-redistribution-under-technological-mediation",
+        "技術的媒介による専門職権限の再分配",
+        "技術的媒介による専門職権限の再分配 (Professional Jurisdiction Redistribution under Technological Mediation)",
+        "技術的媒介による専門職権限の再分配(Professional Jurisdiction Redistribution under Technological Mediation)",
+        "技術的媒介による専門職権限の再分配（Professional Jurisdiction Redistribution under Technological Mediation）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 7,
+      "degree": 7
     },
     {
       "id": "technical-success-value-realization-gap",
@@ -26505,6 +26561,34 @@
       "degree": 8
     },
     {
+      "id": "justification-recoverability-over-information-persistence",
+      "slug": "justification-recoverability-over-information-persistence",
+      "label": "正当化根拠の回復可能性が情報の物理的存続に優先する",
+      "title": "正当化根拠の回復可能性が情報の物理的存続に優先する",
+      "title_ja": "正当化根拠の回復可能性が情報の物理的存続に優先する",
+      "title_en": "Justification Recoverability Over Information Persistence",
+      "tier": null,
+      "description": "制度・組織の連続性は記録が単に存続することではなく、後続の参加者がその正当化根拠を回復・検証・修正できることに依拠するという応用認識論の不変原理",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/justification-recoverability-over-information-persistence.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Justification Recoverability Over Information Persistence",
+        "justification-recoverability-over-information-persistence",
+        "正当化根拠の回復可能性が情報の物理的存続に優先する",
+        "正当化根拠の回復可能性が情報の物理的存続に優先する (Justification Recoverability Over Information Persistence)",
+        "正当化根拠の回復可能性が情報の物理的存続に優先する(Justification Recoverability Over Information Persistence)",
+        "正当化根拠の回復可能性が情報の物理的存続に優先する（Justification Recoverability Over Information Persistence）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
+    },
+    {
       "id": "polite-fictions-in-historical-data-mining",
       "slug": "polite-fictions-in-historical-data-mining",
       "label": "歴史的データ分析における「お上品な虚構（遠回し表現）」の解読",
@@ -28879,9 +28963,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 8,
+      "inbound_count": 9,
       "outbound_count": 7,
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "epistemic-collapse-of-industrial-systems",
@@ -32371,6 +32455,34 @@
       "degree": 2
     },
     {
+      "id": "self-mined-data-and-epistemic-agency",
+      "slug": "self-mined-data-and-epistemic-agency",
+      "label": "自己収集データによる認識的主体性の向上",
+      "title": "自己収集データによる認識的主体性の向上",
+      "title_ja": "自己収集データによる認識的主体性の向上",
+      "title_en": "Self-Mined Data and Epistemic Agency",
+      "tier": null,
+      "description": "学習者/行為者が自ら収集・生成したデータを扱うことで、外部設計のデータを扱う場合より当事者性・関連性・主体性が強まるという、入力の生産者性が主体性を規定する構造的メカニズム",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/self-mined-data-and-epistemic-agency.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Self-Mined Data and Epistemic Agency",
+        "self-mined-data-and-epistemic-agency",
+        "自己収集データによる認識的主体性の向上",
+        "自己収集データによる認識的主体性の向上 (Self-Mined Data and Epistemic Agency)",
+        "自己収集データによる認識的主体性の向上(Self-Mined Data and Epistemic Agency)",
+        "自己収集データによる認識的主体性の向上（Self-Mined Data and Epistemic Agency）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
+    },
+    {
       "id": "self-reinforcing-instability-dynamics",
       "slug": "self-reinforcing-instability-dynamics",
       "label": "自己強化型不安定ダイナミクス",
@@ -33214,9 +33326,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 5,
+      "inbound_count": 6,
       "outbound_count": 8,
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "compensatory-adaptation-hidden-erosion",
@@ -244714,6 +244826,223 @@
       "ambiguous": false,
       "candidates": [
         "responsible-ai-in-judiciary"
+      ]
+    },
+    {
+      "id": "professional-jurisdiction-redistribution-under-technological-mediation->decision-rights-redistribution-under-information-processing-shift",
+      "source": "professional-jurisdiction-redistribution-under-technological-mediation",
+      "target": "decision-rights-redistribution-under-information-processing-shift",
+      "source_label": "技術的媒介による専門職権限の再分配",
+      "target_label": "情報処理の転換に伴う意思決定権の再配分",
+      "source_file": "concepts/professional-jurisdiction-redistribution-under-technological-mediation.md",
+      "target_file": "concepts/decision-rights-redistribution-under-information-processing-shift.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "decision-rights-redistribution-under-information-processing-shift"
+      ],
+      "display_labels": [
+        "decision-rights-redistribution-under-information-processing-shift"
+      ],
+      "mentions": [
+        {
+          "raw_target": "decision-rights-redistribution-under-information-processing-shift",
+          "label": "decision-rights-redistribution-under-information-processing-shift",
+          "section": "関連概念",
+          "line": 33,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "decision-rights-redistribution-under-information-processing-shift"
+      ]
+    },
+    {
+      "id": "professional-jurisdiction-redistribution-under-technological-mediation->discretion-relocation-to-design-parameters",
+      "source": "professional-jurisdiction-redistribution-under-technological-mediation",
+      "target": "discretion-relocation-to-design-parameters",
+      "source_label": "技術的媒介による専門職権限の再分配",
+      "target_label": "裁量の設計パラメータへの上流移転と説明責任の追跡不能化",
+      "source_file": "concepts/professional-jurisdiction-redistribution-under-technological-mediation.md",
+      "target_file": "concepts/discretion-relocation-to-design-parameters.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "discretion-relocation-to-design-parameters"
+      ],
+      "display_labels": [
+        "discretion-relocation-to-design-parameters"
+      ],
+      "mentions": [
+        {
+          "raw_target": "discretion-relocation-to-design-parameters",
+          "label": "discretion-relocation-to-design-parameters",
+          "section": "関連概念",
+          "line": 33,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "discretion-relocation-to-design-parameters"
+      ]
+    },
+    {
+      "id": "professional-jurisdiction-redistribution-under-technological-mediation->gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+      "source": "professional-jurisdiction-redistribution-under-technological-mediation",
+      "target": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+      "source_label": "技術的媒介による専門職権限の再分配",
+      "target_label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
+      "source_file": "concepts/professional-jurisdiction-redistribution-under-technological-mediation.md",
+      "target_file": "concepts/gatekeeper-to-catalyst-role-transformation-under-information-asymmetry.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry"
+      ],
+      "display_labels": [
+        "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry"
+      ],
+      "mentions": [
+        {
+          "raw_target": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+          "label": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
+          "section": "関連概念",
+          "line": 33,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry"
+      ]
+    },
+    {
+      "id": "professional-jurisdiction-redistribution-under-technological-mediation->judgment-residual-and-accountability-gap",
+      "source": "professional-jurisdiction-redistribution-under-technological-mediation",
+      "target": "judgment-residual-and-accountability-gap",
+      "source_label": "技術的媒介による専門職権限の再分配",
+      "target_label": "判断の残余と説明責任ギャップ",
+      "source_file": "concepts/professional-jurisdiction-redistribution-under-technological-mediation.md",
+      "target_file": "concepts/judgment-residual-and-accountability-gap.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "judgment-residual-and-accountability-gap"
+      ],
+      "display_labels": [
+        "judgment-residual-and-accountability-gap"
+      ],
+      "mentions": [
+        {
+          "raw_target": "judgment-residual-and-accountability-gap",
+          "label": "judgment-residual-and-accountability-gap",
+          "section": "関連概念",
+          "line": 33,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "judgment-residual-and-accountability-gap"
+      ]
+    },
+    {
+      "id": "professional-jurisdiction-redistribution-under-technological-mediation->role-shift-from-producer-to-curator-and-demand-decoupling",
+      "source": "professional-jurisdiction-redistribution-under-technological-mediation",
+      "target": "role-shift-from-producer-to-curator-and-demand-decoupling",
+      "source_label": "技術的媒介による専門職権限の再分配",
+      "target_label": "生産手段の機械化による主体役割の転換と人間の役割の切り離し",
+      "source_file": "concepts/professional-jurisdiction-redistribution-under-technological-mediation.md",
+      "target_file": "concepts/role-shift-from-producer-to-curator-and-demand-decoupling.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "role-shift-from-producer-to-curator-and-demand-decoupling"
+      ],
+      "display_labels": [
+        "role-shift-from-producer-to-curator-and-demand-decoupling"
+      ],
+      "mentions": [
+        {
+          "raw_target": "role-shift-from-producer-to-curator-and-demand-decoupling",
+          "label": "role-shift-from-producer-to-curator-and-demand-decoupling",
+          "section": "関連概念",
+          "line": 33,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "role-shift-from-producer-to-curator-and-demand-decoupling"
+      ]
+    },
+    {
+      "id": "professional-jurisdiction-redistribution-under-technological-mediation->technology-adoption-as-power-and-role-redistribution",
+      "source": "professional-jurisdiction-redistribution-under-technological-mediation",
+      "target": "technology-adoption-as-power-and-role-redistribution",
+      "source_label": "技術的媒介による専門職権限の再分配",
+      "target_label": "技術導入による権限・役割構造の再編",
+      "source_file": "concepts/professional-jurisdiction-redistribution-under-technological-mediation.md",
+      "target_file": "concepts/technology-adoption-as-power-and-role-redistribution.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "technology-adoption-as-power-and-role-redistribution"
+      ],
+      "display_labels": [
+        "technology-adoption-as-power-and-role-redistribution"
+      ],
+      "mentions": [
+        {
+          "raw_target": "technology-adoption-as-power-and-role-redistribution",
+          "label": "technology-adoption-as-power-and-role-redistribution",
+          "section": "関連概念",
+          "line": 33,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "technology-adoption-as-power-and-role-redistribution"
+      ]
+    },
+    {
+      "id": "professional-jurisdiction-redistribution-under-technological-mediation->value-shift-to-interpretation-and-judgment-residual",
+      "source": "professional-jurisdiction-redistribution-under-technological-mediation",
+      "target": "value-shift-to-interpretation-and-judgment-residual",
+      "source_label": "技術的媒介による専門職権限の再分配",
+      "target_label": "価値の重心の解釈・判断への移転と人間の残余",
+      "source_file": "concepts/professional-jurisdiction-redistribution-under-technological-mediation.md",
+      "target_file": "concepts/value-shift-to-interpretation-and-judgment-residual.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "value-shift-to-interpretation-and-judgment-residual"
+      ],
+      "display_labels": [
+        "value-shift-to-interpretation-and-judgment-residual"
+      ],
+      "mentions": [
+        {
+          "raw_target": "value-shift-to-interpretation-and-judgment-residual",
+          "label": "value-shift-to-interpretation-and-judgment-residual",
+          "section": "関連概念",
+          "line": 33,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "value-shift-to-interpretation-and-judgment-residual"
       ]
     },
     {

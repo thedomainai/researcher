@@ -100,3 +100,12 @@ Enríquezは、自動化とAIがタスクを再配分し責任ある判断の価
    File: raw/papers/cognitive_science/the-dark-side-of-generative-artificial-intelligence-in-personal-learning-a-cogni.md
 8. Javier Julián Enríquez (2026)「Assessing Critical Thinking and Ethics in Business Education: An Integrated Framework for Contemporary Labor Markets」
    File: raw/papers/business_ethics_csr/assessing-critical-thinking-and-ethics-in-business-education-an-integrated-frame.md
+
+## 追加ソース（2026-11-20）
+
+* **タイトル**: Metacognitive Reasoning in Energy Based Models Using Instance Based Learning Theory (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/metacognitive-reasoning-in-energy-based-models-using-instance-based-learning-the.md`
+* **タイトル**: Resource-adaptive theory-of-mind reasoning: Integrating dual-process mechanisms and recursive hierarchies from the perspective of bounded rationality (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/resource-adaptive-theory-of-mind-reasoning-integrating-dual-process-mechanisms-a.md`
+* **タイトル**: Metacognitive Prompt Engineering: A Human Centered Framework for Monitoring, Regulating, and Evaluating Cognition in Human–AI Interaction (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/metacognitive-prompt-engineering-a-human-centered-framework-for-monitoring-regul.md`
