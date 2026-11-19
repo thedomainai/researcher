@@ -26465,5 +26465,82 @@
     ],
     "domain": "business_ethics_csr",
     "compiled_at": "2026-11-18"
+  },
+  {
+    "slug": "eval-primitive-decomposition-for-agentic-benchmarks",
+    "title_ja": "エージェント評価の四層分離構造",
+    "title_en": "Four-Layer Primitive Decomposition for Agentic Evaluation",
+    "description": "エージェントの能力評価を、隔離された対象環境・難易度を決める情報入力・許可されるツール制約・測定指標という独立した四つの構成要素に分解して設計することで、再現可能かつ比較可能な評価を実現する構造的パターン",
+    "mechanisms": [
+      "関心の分離",
+      "難易度の段階的制御",
+      "サンドボックス化による隔離",
+      "測定指標の設計"
+    ],
+    "related_sources": [
+      2
+    ],
+    "source_files": [
+      "raw/articles/patterns-for-building-cybersecurity-evals.md"
+    ],
+    "domain": null,
+    "compiled_at": "2026-11-19"
+  },
+  {
+    "slug": "verdict-instability-under-threshold-binarization",
+    "title_ja": "閾値二値化による判定不安定性",
+    "title_en": "Verdict Instability under Threshold Binarization",
+    "description": "連続的で不確実な指標を合否のような二値判定に変換するガバナンス手続きは、再サンプリングや時点の違いにより判定が反転しうる構造的不安定性を内包する",
+    "mechanisms": [
+      "連続値から離散決定への変換損失",
+      "サンプリング誘発的な判定反転",
+      "不確実性の閾値での非線形拡大"
+    ],
+    "related_sources": [
+      8
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/vfr-audit-verdict-level-reliability-for-fairness-audits-in-hospital-length-of-st.md"
+    ],
+    "domain": "ai_governance",
+    "compiled_at": "2026-11-19"
+  },
+  {
+    "slug": "stage-concentration-bias-in-agentic-workflows",
+    "title_ja": "多段ワークフローにおける段階集中バイアス",
+    "title_en": "Stage Concentration Bias in Multi-Stage Agentic Workflows",
+    "description": "自律エージェント型システムは測定・評価が容易な特定段階(例: シグナル発見)に能力を集中させ、前後工程との統合やリスク管理などの困難な段階は未整備のまま残る構造的傾向。",
+    "mechanisms": [
+      "測定容易性バイアス",
+      "モジュール間統合コストの先送り",
+      "部分最適化による全体最適の欠落"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/agentic-quantitative-trading-a-survey-of-workflows-systems-and-evaluation.md"
+    ],
+    "domain": "behavioral_economics",
+    "compiled_at": "2026-11-19"
+  },
+  {
+    "slug": "legal-retrofitting-for-emergent-technology-accountability",
+    "title_ja": "新興技術への説明責任を実装する法的リフィット",
+    "title_en": "Legal Retrofitting for Emergent Technology Accountability",
+    "description": "新規制定法が未整備な段階で、既存の法制度・訴訟戦術を新興技術(自動意思決定等)に転用・再適用することで説明責任を実装する構造的パターン。",
+    "mechanisms": [
+      "既存制度の転用",
+      "利害関係者連携によるテコ入れ",
+      "法的先例の累積的構築"
+    ],
+    "related_sources": [
+      4
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/retrofitters-pragmatists-and-activists-public-interest-litigation-for-accountabl.md"
+    ],
+    "domain": "behavioral_economics",
+    "compiled_at": "2026-11-19"
   }
 ]

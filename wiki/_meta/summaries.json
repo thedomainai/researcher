@@ -3479,6 +3479,12 @@
   "title_en": "EU Archival Data Law Compliance",
   "why": "公文書データにAIを導入する組織は、GDPRの保護原則とオープンデータ・AI活用推進法の相反する要請を同時に満たす設計が必要になる。"
  },
+ "eval-primitive-decomposition-for-agentic-benchmarks": {
+  "at": "2026-11-19T00:42:55+00:00",
+  "summary": "AIエージェント評価は対象環境・情報入力・ツール制約・測定指標という四要素に分解すると、与える情報量で難易度を調整しつつ再現可能で比較可能な設計にできる。",
+  "title_en": "Four-Primitive Decomposition of Agentic Benchmarks",
+  "why": "自律的に動作範囲を広げるエージェントについて、何をどの条件で測っているかを分離できることが安全性判断の信頼性を支える。"
+ },
  "evaluating-agentic-ai-in-education": {
   "at": "2026-10-01T09:49:03+00:00",
   "summary": "教育分野のエージェンティックAI評価には従来のユーザビリティ中心の尺度では不十分で、認知・メタ認知・情動・行動・ガバナンスの5層を横断するMLE-Aモデルが提案された。",
@@ -5086,6 +5092,12 @@
   "summary": "逐次シミュレーション最適化を事前学習済みニューラルネットワークの直接予測に置き換え、学習時に計算コストを一括償却して推論コストを構造的に下げる設計原理である。",
   "title_en": "Amortization of Optimization Cost via Learned Models",
   "why": "AI意思決定システムの導入では、シミュレーション精度と推論速度のトレードオフを学習と推論の分離として設計する必要がある。"
+ },
+ "legal-retrofitting-for-emergent-technology-accountability": {
+  "at": "2026-11-19T00:42:55+00:00",
+  "summary": "AI規制の立法が遅れる中、既存の消費者保護法等の訴訟戦術を転用して自動意思決定への説明責任を実現する、豪州の公益訴訟分析が示す構造的パターン。",
+  "title_en": "Legal Retrofitting for Emergent Technology Accountability",
+  "why": "新規制定法を待たず既存法の適用可能性を初期段階から検討することが説明責任ガバナンスの実効性を左右する。"
  },
  "legal-sports-isomorphic-evolution": {
   "at": "2026-10-01T09:55:16+00:00",
@@ -7187,6 +7199,12 @@
   "title_en": "Stability-Plasticity Dilemma in Production",
   "why": "非定常データに対応するAI運用では、正則化・生成リプレイ・動的構造拡張などでこのトレードオフを制御する設計が求められる。"
  },
+ "stage-concentration-bias-in-agentic-workflows": {
+  "at": "2026-11-19T00:42:55+00:00",
+  "summary": "多段エージェント型ワークフローでは測定しやすいシグナル発見段階に開発が集中し、統合やリスク管理など測定困難な段階が未整備に留まる傾向がある。",
+  "title_en": "Stage Concentration Bias in Agentic Workflows",
+  "why": "測定指標の設計が開発資源の配分を決めるため、統合・リスク管理段階にも評価基準を意図的に用意する必要がある。"
+ },
  "staged-abstraction-and-recursive-self-improvement": {
   "at": "2026-10-01T10:06:12+00:00",
   "summary": "AIの知覚を段階的に記号化する構造と、モデルとハーネスを入れ子に改善するループは、いずれも失敗診断の精度とフィードバック源の限界に性能が規定される。",
@@ -7924,6 +7942,12 @@
   "summary": "ガベックスが2012年に示した可変的稀な災害モデルは、経済災害時の資産価値減少幅が時間変化すると仮定し株価の乱高下や予測可能性を厳密に解いた。",
   "title_en": "Variable Rare Disasters Model",
   "why": ""
+ },
+ "verdict-instability-under-threshold-binarization": {
+  "at": "2026-11-19T00:42:55+00:00",
+  "summary": "公平性等の連続指標を閾値で合否判定に変換する操作自体が不安定性を生み、閾値付近では再サンプリングで判定が反転しうることをVFR-Auditが示す。",
+  "title_en": "Verdict Instability Under Threshold Binarization",
+  "why": "合否ラベルだけでなく判定反転確率を併記し、閾値近傍の脆弱な合格を区別する監査設計が信頼性確保に必要となる。"
  },
  "verifiable-carbon-information-impact": {
   "at": "2026-10-01T10:08:55+00:00",

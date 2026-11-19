@@ -81,3 +81,8 @@ AI washingは、投資家の誘引や競争優位のために、商品・サー�
    File: raw/papers/behavioral_economics/beyond-privacy-calculus-public-acceptance-of-non-invasive-therapeutic-brain-comp.md
 7. Prompt Programming for Cultural Bias and Alignment of Large Language Models — Maksim Eren, Eric Michalak, Brian Cook, Johnny Seales Jr (2026)
    File: raw/papers/behavioral_economics/prompt-programming-for-cultural-bias-and-alignment-of-large-language-models.md
+
+## 追加ソース（2026-11-19）
+
+* **タイトル**: From Predictive Analytics to Decision Governance: An AI-Enabled Framework for Condition-Based Maintenance of Industrial Gas Turbines (2026)
+  **ファイルパス**: `raw/papers/behavioral_economics/from-predictive-analytics-to-decision-governance-an-ai-enabled-framework-for-con.md`

@@ -46,3 +46,8 @@
 
 - **タイトル**: SΔϕ-41 — Ethical Minimum: The Triadic Conditions of Transition (v1.0)
 - **ファイルパス**: `raw/SΔϕ-41_Ethical_Minimum_The_Triadic_Conditions_of_Transition_v1.0.md` （またはそれに準ずるアーカイブ内ソースファイル）
+
+## 追加ソース（2026-11-19）
+
+* **タイトル**: Ethical and Explainable AI for Cyberbullying Detection in Education (2026)
+  **ファイルパス**: `raw/papers/ai_governance/ethical-and-explainable-ai-for-cyberbullying-detection-in-education.md`

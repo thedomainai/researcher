@@ -417,6 +417,11 @@
     "Organic Search": 1
    },
    "pv": 1,
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   },
    "sessions": 1,
    "users": 1
   },
@@ -428,6 +433,15 @@
    "pv": 7,
    "sessions": 7,
    "users": 6
+  },
+  "2026-11-17": {
+   "channels": {
+    "AI Assistant": 1,
+    "Organic Search": 5
+   },
+   "pv": 6,
+   "sessions": 6,
+   "users": 3
   }
  },
  "sitemaps": [
@@ -446,27 +460,31 @@
    8
   ],
   [
+   "/researcher/",
+   5
+  ],
+  [
    "/graph/",
    4
   ],
   [
-   "/researcher/",
+   "/researcher/concepts/mne-multiple-embeddedness/",
    4
+  ],
+  [
+   "/researcher/concepts/absorption-capacity-bottleneck-saturation/",
+   3
   ],
   [
    "/researcher/concepts/nisq-quantum-computing/",
    3
   ],
   [
-   "/researcher/concepts/absorption-capacity-bottleneck-saturation/",
-   2
-  ],
-  [
    "/researcher/concepts/gene-set-variation-analysis/",
    2
   ],
   [
-   "/researcher/concepts/mne-multiple-embeddedness/",
+   "/researcher/concepts/political-corporate-social-responsibility/",
    2
   ],
   [
@@ -476,11 +494,7 @@
   [
    "/researcher/concepts/ai-avatars-and-self-extension/",
    1
-  ],
-  [
-   "/researcher/concepts/ai-enabled-leadership-agents/",
-   1
   ]
  ],
- "updated": "2026-11-17T08:00:55"
+ "updated": "2026-11-18T08:06:44"
 }

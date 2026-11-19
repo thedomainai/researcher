@@ -92,3 +92,8 @@ Eger氏らのサーベイは、LLMを用いた科学支援を五つのタスク�
    File: raw/papers/complexity_science/the-double-edged-mechanism-of-organizational-ai-adoption-on-employee-creativity.md
 2. Transforming Science with Large Language Models: A Survey on AI-assisted Scientific Discovery, Experimentation, Content Generation, and Evaluation — Steffen Eger, Cao Yong, Jennifer D'Souza, Andreas Geiger, Christian Greisinger (2026)
    File: raw/papers/complexity_science/transforming-science-with-large-language-models-a-survey-on-ai-assisted-scientif.md
+
+## 追加ソース（2026-11-19）
+
+* **タイトル**: Corporate Enclosure of the Latent Commons: Algorithmic Throttling, Cognitive Prosthetics, and the Exclusion of Neurodivergent Human Rights Defenders (2026)
+  **ファイルパス**: `raw/papers/ai_governance/corporate-enclosure-of-the-latent-commons-algorithmic-throttling-cognitive-prost.md`

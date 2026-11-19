@@ -83,3 +83,8 @@ Hanoi Towerzの論文は、法が意識の存在論を先に解決する必要�
    File: raw/papers/law/motivational-formation-reflective-endorsement-and-motivational-custody-in-c-clas.md
 6. From Public to Private: How Legitimacy Shape Organizational GenAI Adoption — Feng Xu, Zhenya Tang, Botong Xue (2026)
    File: raw/papers/law/from-public-to-private-how-legitimacy-shape-organizational-genai-adoption.md
+
+## 追加ソース（2026-11-19）
+
+* **タイトル**: Financial Inclusion and Institutional Resilience in AI-Driven Islamic Finance: A Contract-Based Risk Governance Framework (2026)
+  **ファイルパス**: `raw/papers/ai_governance/financial-inclusion-and-institutional-resilience-in-ai-driven-islamic-finance-a-.md`

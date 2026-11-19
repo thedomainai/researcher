@@ -55,3 +55,8 @@
 *   **Technology Acceptance Model 3 and a Research Agenda on Interventions**  
     Viswanath Venkatesh, Hillol Bala (2008)  
     パス: `raw/Technology Acceptance Model 3 and a Research Agenda on Interventions`
+
+## 追加ソース（2026-11-19）
+
+* **タイトル**: Human vs. Algorithmic Judgment: A Behavioral Experiment on how Retail Investors Respond to AI-Generated Portfolio Recommendations (2026)
+  **ファイルパス**: `raw/papers/behavioral_economics/human-vs-algorithmic-judgment-a-behavioral-experiment-on-how-retail-investors-re.md`

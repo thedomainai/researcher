@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-18T07:58:27.988466",
+  "generated_at": "2026-11-19T09:42:10.611029",
   "summary": {
-    "articles_scanned": 1335,
-    "nodes": 3605,
-    "resolved_nodes": 1335,
+    "articles_scanned": 1339,
+    "nodes": 3609,
+    "resolved_nodes": 1339,
     "unresolved_nodes": 2270,
-    "edges": 6632,
-    "resolved_edges": 3672,
+    "edges": 6644,
+    "resolved_edges": 3684,
     "unresolved_edges": 2960,
-    "link_mentions": 6930,
-    "valid_source_refs": 2224,
+    "link_mentions": 6943,
+    "valid_source_refs": 2237,
     "invalid_source_refs": 117,
-    "isolated_concepts": 92
+    "isolated_concepts": 94
   },
   "nodes": [
     {
@@ -2355,9 +2355,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 7,
+      "inbound_count": 8,
       "outbound_count": 5,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "ai-feedback-source-attribution-education",
@@ -2805,9 +2805,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 9,
+      "inbound_count": 10,
       "outbound_count": 5,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "non-executable-reference-structures",
@@ -5482,9 +5482,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 5,
+      "inbound_count": 6,
       "outbound_count": 5,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "algorithmic-dramaturgy",
@@ -5534,9 +5534,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 6,
+      "inbound_count": 7,
       "outbound_count": 1,
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "algorithm-auditing-and-bias",
@@ -6878,6 +6878,34 @@
       "inbound_count": 0,
       "outbound_count": 5,
       "degree": 5
+    },
+    {
+      "id": "eval-primitive-decomposition-for-agentic-benchmarks",
+      "slug": "eval-primitive-decomposition-for-agentic-benchmarks",
+      "label": "エージェント評価の四層分離構造",
+      "title": "エージェント評価の四層分離構造",
+      "title_ja": "エージェント評価の四層分離構造",
+      "title_en": "Four-Layer Primitive Decomposition for Agentic Evaluation",
+      "tier": null,
+      "description": "エージェントの能力評価を、隔離された対象環境・難易度を決める情報入力・許可されるツール制約・測定指標という独立した四つの構成要素に分解して設計することで、再現可能かつ比較可能な評価を実現する構造的パターン",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/eval-primitive-decomposition-for-agentic-benchmarks.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Four-Layer Primitive Decomposition for Agentic Evaluation",
+        "eval-primitive-decomposition-for-agentic-benchmarks",
+        "エージェント評価の四層分離構造",
+        "エージェント評価の四層分離構造 (Four-Layer Primitive Decomposition for Agentic Evaluation)",
+        "エージェント評価の四層分離構造(Four-Layer Primitive Decomposition for Agentic Evaluation)",
+        "エージェント評価の四層分離構造（Four-Layer Primitive Decomposition for Agentic Evaluation）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
     },
     {
       "id": "agent-driven-xops-architecture",
@@ -13583,9 +13611,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 3,
+      "inbound_count": 4,
       "outbound_count": 9,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "sequential-decision-making-under-uncertainty",
@@ -16050,9 +16078,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 8,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "value-shift-to-interpretation-and-judgment-residual",
@@ -18468,9 +18496,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 10,
+      "inbound_count": 11,
       "outbound_count": 8,
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "participatory-culture-media-literacy",
@@ -20095,6 +20123,34 @@
       "inbound_count": 2,
       "outbound_count": 10,
       "degree": 12
+    },
+    {
+      "id": "stage-concentration-bias-in-agentic-workflows",
+      "slug": "stage-concentration-bias-in-agentic-workflows",
+      "label": "多段ワークフローにおける段階集中バイアス",
+      "title": "多段ワークフローにおける段階集中バイアス",
+      "title_ja": "多段ワークフローにおける段階集中バイアス",
+      "title_en": "Stage Concentration Bias in Multi-Stage Agentic Workflows",
+      "tier": null,
+      "description": "自律エージェント型システムは測定・評価が容易な特定段階(例: シグナル発見)に能力を集中させ、前後工程との統合やリスク管理などの困難な段階は未整備のまま残る構造的傾向。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/stage-concentration-bias-in-agentic-workflows.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Stage Concentration Bias in Multi-Stage Agentic Workflows",
+        "stage-concentration-bias-in-agentic-workflows",
+        "多段ワークフローにおける段階集中バイアス",
+        "多段ワークフローにおける段階集中バイアス (Stage Concentration Bias in Multi-Stage Agentic Workflows)",
+        "多段ワークフローにおける段階集中バイアス(Stage Concentration Bias in Multi-Stage Agentic Workflows)",
+        "多段ワークフローにおける段階集中バイアス（Stage Concentration Bias in Multi-Stage Agentic Workflows）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
     },
     {
       "id": "multistage-transfer-bottleneck-and-evaluability",
@@ -21839,9 +21895,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 6,
+      "inbound_count": 7,
       "outbound_count": 10,
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "role-separated-layered-agent-architecture",
@@ -25137,6 +25193,34 @@
       "degree": 5
     },
     {
+      "id": "legal-retrofitting-for-emergent-technology-accountability",
+      "slug": "legal-retrofitting-for-emergent-technology-accountability",
+      "label": "新興技術への説明責任を実装する法的リフィット",
+      "title": "新興技術への説明責任を実装する法的リフィット",
+      "title_ja": "新興技術への説明責任を実装する法的リフィット",
+      "title_en": "Legal Retrofitting for Emergent Technology Accountability",
+      "tier": null,
+      "description": "新規制定法が未整備な段階で、既存の法制度・訴訟戦術を新興技術(自動意思決定等)に転用・再適用することで説明責任を実装する構造的パターン。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/legal-retrofitting-for-emergent-technology-accountability.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Legal Retrofitting for Emergent Technology Accountability",
+        "legal-retrofitting-for-emergent-technology-accountability",
+        "新興技術への説明責任を実装する法的リフィット",
+        "新興技術への説明責任を実装する法的リフィット (Legal Retrofitting for Emergent Technology Accountability)",
+        "新興技術への説明責任を実装する法的リフィット(Legal Retrofitting for Emergent Technology Accountability)",
+        "新興技術への説明責任を実装する法的リフィット（Legal Retrofitting for Emergent Technology Accountability）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
+    },
+    {
       "id": "regulative-responsibility-and-conscience-emergence-conditions",
       "slug": "regulative-responsibility-and-conscience-emergence-conditions",
       "label": "是正的責任と良心の出現条件の設計",
@@ -26793,9 +26877,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 5,
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "decision-tree-induction",
@@ -29494,9 +29578,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 6,
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "stochastic-volatility-models",
@@ -34021,9 +34105,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 11,
+      "inbound_count": 12,
       "outbound_count": 8,
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "evidence-generation-versus-pre-action-permission-separation",
@@ -36922,6 +37006,34 @@
       "degree": 5
     },
     {
+      "id": "verdict-instability-under-threshold-binarization",
+      "slug": "verdict-instability-under-threshold-binarization",
+      "label": "閾値二値化による判定不安定性",
+      "title": "閾値二値化による判定不安定性",
+      "title_ja": "閾値二値化による判定不安定性",
+      "title_en": "Verdict Instability under Threshold Binarization",
+      "tier": null,
+      "description": "連続的で不確実な指標を合否のような二値判定に変換するガバナンス手続きは、再サンプリングや時点の違いにより判定が反転しうる構造的不安定性を内包する",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/verdict-instability-under-threshold-binarization.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Verdict Instability under Threshold Binarization",
+        "verdict-instability-under-threshold-binarization",
+        "閾値二値化による判定不安定性",
+        "閾値二値化による判定不安定性 (Verdict Instability under Threshold Binarization)",
+        "閾値二値化による判定不安定性(Verdict Instability under Threshold Binarization)",
+        "閾値二値化による判定不安定性（Verdict Instability under Threshold Binarization）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 7,
+      "degree": 7
+    },
+    {
       "id": "defensive-explainability-and-navigational-friction",
       "slug": "defensive-explainability-and-navigational-friction",
       "label": "防御的説明性とナビゲーション摩擦",
@@ -37149,9 +37261,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 13,
+      "inbound_count": 14,
       "outbound_count": 6,
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "e-government-social-inclusion-paradox",
@@ -213527,6 +213639,168 @@
       ]
     },
     {
+      "id": "legal-retrofitting-for-emergent-technology-accountability->decision-time-evidence-binding",
+      "source": "legal-retrofitting-for-emergent-technology-accountability",
+      "target": "decision-time-evidence-binding",
+      "source_label": "新興技術への説明責任を実装する法的リフィット",
+      "target_label": "決定時点への証拠拘束と説明責任の遡及不能性",
+      "source_file": "concepts/legal-retrofitting-for-emergent-technology-accountability.md",
+      "target_file": "concepts/decision-time-evidence-binding.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "decision-time-evidence-binding"
+      ],
+      "display_labels": [
+        "decision-time-evidence-binding"
+      ],
+      "mentions": [
+        {
+          "raw_target": "decision-time-evidence-binding",
+          "label": "decision-time-evidence-binding",
+          "section": "AI Native な設計への示唆",
+          "line": 24,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "decision-time-evidence-binding"
+      ]
+    },
+    {
+      "id": "legal-retrofitting-for-emergent-technology-accountability->evidence-bearing-decision-traceability",
+      "source": "legal-retrofitting-for-emergent-technology-accountability",
+      "target": "evidence-bearing-decision-traceability",
+      "source_label": "新興技術への説明責任を実装する法的リフィット",
+      "target_label": "証拠を伴う意思決定の追跡可能性",
+      "source_file": "concepts/legal-retrofitting-for-emergent-technology-accountability.md",
+      "target_file": "concepts/evidence-bearing-decision-traceability.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 2,
+      "raw_targets": [
+        "evidence-bearing-decision-traceability"
+      ],
+      "display_labels": [
+        "evidence-bearing-decision-traceability"
+      ],
+      "mentions": [
+        {
+          "raw_target": "evidence-bearing-decision-traceability",
+          "label": "evidence-bearing-decision-traceability",
+          "section": "AI Native な設計への示唆",
+          "line": 24,
+          "resolved_via": "slug"
+        },
+        {
+          "raw_target": "evidence-bearing-decision-traceability",
+          "label": "evidence-bearing-decision-traceability",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "evidence-bearing-decision-traceability"
+      ]
+    },
+    {
+      "id": "legal-retrofitting-for-emergent-technology-accountability->formal-rule-shadow-labor-accountability-gap",
+      "source": "legal-retrofitting-for-emergent-technology-accountability",
+      "target": "formal-rule-shadow-labor-accountability-gap",
+      "source_label": "新興技術への説明責任を実装する法的リフィット",
+      "target_label": "形式的規則と不可視の実務のあいだの説明責任ギャップ",
+      "source_file": "concepts/legal-retrofitting-for-emergent-technology-accountability.md",
+      "target_file": "concepts/formal-rule-shadow-labor-accountability-gap.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "formal-rule-shadow-labor-accountability-gap"
+      ],
+      "display_labels": [
+        "formal-rule-shadow-labor-accountability-gap"
+      ],
+      "mentions": [
+        {
+          "raw_target": "formal-rule-shadow-labor-accountability-gap",
+          "label": "formal-rule-shadow-labor-accountability-gap",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "formal-rule-shadow-labor-accountability-gap"
+      ]
+    },
+    {
+      "id": "legal-retrofitting-for-emergent-technology-accountability->institutional-legitimacy-in-ai-enforcement",
+      "source": "legal-retrofitting-for-emergent-technology-accountability",
+      "target": "institutional-legitimacy-in-ai-enforcement",
+      "source_label": "新興技術への説明責任を実装する法的リフィット",
+      "target_label": "AI取締りにおける制度的正当性",
+      "source_file": "concepts/legal-retrofitting-for-emergent-technology-accountability.md",
+      "target_file": "concepts/institutional-legitimacy-in-ai-enforcement.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "institutional-legitimacy-in-ai-enforcement"
+      ],
+      "display_labels": [
+        "institutional-legitimacy-in-ai-enforcement"
+      ],
+      "mentions": [
+        {
+          "raw_target": "institutional-legitimacy-in-ai-enforcement",
+          "label": "institutional-legitimacy-in-ai-enforcement",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "institutional-legitimacy-in-ai-enforcement"
+      ]
+    },
+    {
+      "id": "legal-retrofitting-for-emergent-technology-accountability->principle-to-practice-gap-and-layered-responsibility-allocation",
+      "source": "legal-retrofitting-for-emergent-technology-accountability",
+      "target": "principle-to-practice-gap-and-layered-responsibility-allocation",
+      "source_label": "新興技術への説明責任を実装する法的リフィット",
+      "target_label": "原則と実装の乖離と多層的責任配置",
+      "source_file": "concepts/legal-retrofitting-for-emergent-technology-accountability.md",
+      "target_file": "concepts/principle-to-practice-gap-and-layered-responsibility-allocation.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "principle-to-practice-gap-and-layered-responsibility-allocation"
+      ],
+      "display_labels": [
+        "principle-to-practice-gap-and-layered-responsibility-allocation"
+      ],
+      "mentions": [
+        {
+          "raw_target": "principle-to-practice-gap-and-layered-responsibility-allocation",
+          "label": "principle-to-practice-gap-and-layered-responsibility-allocation",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "principle-to-practice-gap-and-layered-responsibility-allocation"
+      ]
+    },
+    {
       "id": "legal-sports-isomorphic-evolution->dangling:2437342017c6",
       "source": "legal-sports-isomorphic-evolution",
       "target": "dangling:2437342017c6",
@@ -291206,6 +291480,223 @@
       ],
       "ambiguous": false,
       "candidates": []
+    },
+    {
+      "id": "verdict-instability-under-threshold-binarization->aggregation-induced-information-loss",
+      "source": "verdict-instability-under-threshold-binarization",
+      "target": "aggregation-induced-information-loss",
+      "source_label": "閾値二値化による判定不安定性",
+      "target_label": "集約による情報損失と不一致の不可視化",
+      "source_file": "concepts/verdict-instability-under-threshold-binarization.md",
+      "target_file": "concepts/aggregation-induced-information-loss.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "aggregation-induced-information-loss"
+      ],
+      "display_labels": [
+        "aggregation-induced-information-loss"
+      ],
+      "mentions": [
+        {
+          "raw_target": "aggregation-induced-information-loss",
+          "label": "aggregation-induced-information-loss",
+          "section": "関連概念",
+          "line": 25,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "aggregation-induced-information-loss"
+      ]
+    },
+    {
+      "id": "verdict-instability-under-threshold-binarization->ai-bias-audits-and-red-teaming",
+      "source": "verdict-instability-under-threshold-binarization",
+      "target": "ai-bias-audits-and-red-teaming",
+      "source_label": "閾値二値化による判定不安定性",
+      "target_label": "AIバイアス監査とレッドチーム演習の統合",
+      "source_file": "concepts/verdict-instability-under-threshold-binarization.md",
+      "target_file": "concepts/ai-bias-audits-and-red-teaming.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "ai-bias-audits-and-red-teaming"
+      ],
+      "display_labels": [
+        "ai-bias-audits-and-red-teaming"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ai-bias-audits-and-red-teaming",
+          "label": "ai-bias-audits-and-red-teaming",
+          "section": "関連概念",
+          "line": 25,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-bias-audits-and-red-teaming"
+      ]
+    },
+    {
+      "id": "verdict-instability-under-threshold-binarization->algorithmic-black-box-auditing",
+      "source": "verdict-instability-under-threshold-binarization",
+      "target": "algorithmic-black-box-auditing",
+      "source_label": "閾値二値化による判定不安定性",
+      "target_label": "アルゴリズム意思決定における監査・説明責任の不確実性",
+      "source_file": "concepts/verdict-instability-under-threshold-binarization.md",
+      "target_file": "concepts/algorithmic-black-box-auditing.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "algorithmic-black-box-auditing"
+      ],
+      "display_labels": [
+        "algorithmic-black-box-auditing"
+      ],
+      "mentions": [
+        {
+          "raw_target": "algorithmic-black-box-auditing",
+          "label": "algorithmic-black-box-auditing",
+          "section": "関連概念",
+          "line": 25,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "algorithmic-black-box-auditing"
+      ]
+    },
+    {
+      "id": "verdict-instability-under-threshold-binarization->algorithmic-fairness-and-bias-detection",
+      "source": "verdict-instability-under-threshold-binarization",
+      "target": "algorithmic-fairness-and-bias-detection",
+      "source_label": "閾値二値化による判定不安定性",
+      "target_label": "アルゴリズム的公正性とバイアス検出",
+      "source_file": "concepts/verdict-instability-under-threshold-binarization.md",
+      "target_file": "concepts/algorithmic-fairness-and-bias-detection.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "algorithmic-fairness-and-bias-detection"
+      ],
+      "display_labels": [
+        "algorithmic-fairness-and-bias-detection"
+      ],
+      "mentions": [
+        {
+          "raw_target": "algorithmic-fairness-and-bias-detection",
+          "label": "algorithmic-fairness-and-bias-detection",
+          "section": "関連概念",
+          "line": 25,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "algorithmic-fairness-and-bias-detection"
+      ]
+    },
+    {
+      "id": "verdict-instability-under-threshold-binarization->certifiability-gap-of-probabilistic-systems",
+      "source": "verdict-instability-under-threshold-binarization",
+      "target": "certifiability-gap-of-probabilistic-systems",
+      "source_label": "閾値二値化による判定不安定性",
+      "target_label": "確率的システムの認証不能性と検証可能境界",
+      "source_file": "concepts/verdict-instability-under-threshold-binarization.md",
+      "target_file": "concepts/certifiability-gap-of-probabilistic-systems.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "certifiability-gap-of-probabilistic-systems"
+      ],
+      "display_labels": [
+        "certifiability-gap-of-probabilistic-systems"
+      ],
+      "mentions": [
+        {
+          "raw_target": "certifiability-gap-of-probabilistic-systems",
+          "label": "certifiability-gap-of-probabilistic-systems",
+          "section": "関連概念",
+          "line": 25,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "certifiability-gap-of-probabilistic-systems"
+      ]
+    },
+    {
+      "id": "verdict-instability-under-threshold-binarization->metric-reduction-of-worth-and-value-formalization-limit",
+      "source": "verdict-instability-under-threshold-binarization",
+      "target": "metric-reduction-of-worth-and-value-formalization-limit",
+      "source_label": "閾値二値化による判定不安定性",
+      "target_label": "価値の指標還元と形式化の限界",
+      "source_file": "concepts/verdict-instability-under-threshold-binarization.md",
+      "target_file": "concepts/metric-reduction-of-worth-and-value-formalization-limit.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "metric-reduction-of-worth-and-value-formalization-limit"
+      ],
+      "display_labels": [
+        "metric-reduction-of-worth-and-value-formalization-limit"
+      ],
+      "mentions": [
+        {
+          "raw_target": "metric-reduction-of-worth-and-value-formalization-limit",
+          "label": "metric-reduction-of-worth-and-value-formalization-limit",
+          "section": "関連概念",
+          "line": 25,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "metric-reduction-of-worth-and-value-formalization-limit"
+      ]
+    },
+    {
+      "id": "verdict-instability-under-threshold-binarization->uncertainty-quantification-and-common-measurement-for-trust",
+      "source": "verdict-instability-under-threshold-binarization",
+      "target": "uncertainty-quantification-and-common-measurement-for-trust",
+      "source_label": "閾値二値化による判定不安定性",
+      "target_label": "不確実性の定量化と共通尺度による信頼可能性の構築",
+      "source_file": "concepts/verdict-instability-under-threshold-binarization.md",
+      "target_file": "concepts/uncertainty-quantification-and-common-measurement-for-trust.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "uncertainty-quantification-and-common-measurement-for-trust"
+      ],
+      "display_labels": [
+        "uncertainty-quantification-and-common-measurement-for-trust"
+      ],
+      "mentions": [
+        {
+          "raw_target": "uncertainty-quantification-and-common-measurement-for-trust",
+          "label": "uncertainty-quantification-and-common-measurement-for-trust",
+          "section": "関連概念",
+          "line": 25,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "uncertainty-quantification-and-common-measurement-for-trust"
+      ]
     },
     {
       "id": "verifiable-carbon-information-impact->corporate-governance",

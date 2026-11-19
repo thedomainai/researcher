@@ -554,6 +554,15 @@
    "ai_ml"
   ]
  },
+ "eval-primitive-decomposition-for-agentic-benchmarks": {
+  "at": "2026-11-19T00:42:22+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "systems_engineering",
+   "operations_research"
+  ]
+ },
  "generative-ai-and-llms": {
   "at": "2026-10-01T05:11:04+00:00",
   "cluster": "ai",

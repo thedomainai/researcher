@@ -119,3 +119,10 @@ AI媒介層が存在する場合、各変換段階を明示する（「誰がど
 
 * **タイトル**: Getting Perspectives on Quality in the Age of AI (2026)
   **ファイルパス**: `raw/papers/human_ai_collaboration/getting-perspectives-on-quality-in-the-age-of-ai.md`
+
+## 追加ソース（2026-11-19）
+
+* **タイトル**: AI Engineer 2026 - Using LLMs to Secure Source Code (2026)
+  **ファイルパス**: `raw/articles/ai-engineer-2026---using-llms-to-secure-source-code.md`
+* **タイトル**: Using LLMs to Secure Source Code (2026)
+  **ファイルパス**: `raw/articles/using-llms-to-secure-source-code.md`

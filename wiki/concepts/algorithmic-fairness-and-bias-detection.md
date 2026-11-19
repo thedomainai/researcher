@@ -78,3 +78,8 @@ Patilら（2026）は、透明性と説明責任の確保に向けた**市民主
 3. **Citizen-Led AI Audit Platform for Transparency and Accountability in Automated Decision-Making**
    - 著者：Pradeep Arun Patil, Rutuja Sunil Jadhav, PM Jagtap, Kartik Dhanaji Thorat, Hrishikesh Patil（2026）
    - DOI：https://doi.org/10.65521/ijacect.v15i1.1711
+
+## 追加ソース（2026-11-19）
+
+* **タイトル**: An Explainable AI Framework for Bias Detection and Mitigation in Criminal Justice Systems (2026)
+  **ファイルパス**: `raw/papers/ai_governance/an-explainable-ai-framework-for-bias-detection-and-mitigation-in-criminal-justic.md`

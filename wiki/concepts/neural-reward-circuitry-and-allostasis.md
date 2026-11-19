@@ -48,3 +48,8 @@ Koob (2001) は、薬物依存症の本質を「報酬回路の失調（Dysregul
     *   ファイルパス: `raw/The Reward Circuit: Linking Primate Anatomy and Human Imaging`
 *   **Drug Addiction, Dysregulation of Reward, and Allostasis** (G F Koob, 2001)
     *   ファイルパス: `raw/Drug Addiction, Dysregulation of Reward, and Allostasis`
+
+## 追加ソース（2026-11-19）
+
+* **タイトル**: Screen use in children and adolescents: Developmental risks, benefits, and educational implications (2026)
+  **ファイルパス**: `raw/papers/behavioral_economics/screen-use-in-children-and-adolescents-developmental-risks-benefits-and-educatio.md`
