@@ -86,3 +86,13 @@ Coherence Compliance Vulnerability（CCV）は、大規模言語モデルにお�
 
 * **タイトル**: AI Safety Measures Are Advancing: The Policy–User Gap in Autonomous AI Governance and Operational Control (2026)
   **ファイルパス**: `raw/papers/organization_science/ai-safety-measures-are-advancing-the-policyuser-gap-in-autonomous-ai-governance-.md`
+
+## 追加ソース（2026-11-21）
+
+* **タイトル**: Combatting adversarial distillation (2026)
+  **ファイルパス**: `raw/articles/combatting-adversarial-distillation.md`
+
+## 追加ソース（2026-11-21）
+
+* **タイトル**: Agentic AI(SI) Cyber Crisis & Great-Power Alignment Agentic AI(SI) Cyber Cascades and the Mathematical Background of Great-Power Alignment Scenarios (2026)
+  **ファイルパス**: `raw/papers/ai_governance/agentic-aisi-cyber-crisis-great-power-alignment-agentic-aisi-cyber-cascades-and-.md`

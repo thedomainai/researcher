@@ -89,3 +89,8 @@ Principles of Good Governance in the Age of AI は、合法性・透明性・説
    `raw/papers/ai_governance/the-defensible-ai-framework-registry-definitions-and-relationships-for-the-gover.md`
 8. Principles of Good Governance in the Age of AI — Sanketh kumar, U. Roopa (2026)
    `raw/papers/ai_governance/principles-of-good-governance-in-the-age-of-ai.md`
+
+## 追加ソース（2026-11-21）
+
+* **タイトル**: EviMap: Evidence-Grounded Hierarchical Topic Maps for Exploring Unlabeled Corpora (2026)
+  **ファイルパス**: `raw/papers/business_ethics_csr/evimap-evidence-grounded-hierarchical-topic-maps-for-exploring-unlabeled-corpora.md`

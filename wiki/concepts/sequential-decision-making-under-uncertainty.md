@@ -97,3 +97,8 @@ Di Zhu による研究（2030）は、ホスピタリティおよび観光産業
    - 著者: Di Zhu（2030）
    - DOI: https://doi.org/10.7273/000007504
    - OpenAlex ID: https://openalex.org/W7116362194
+
+## 追加ソース（2026-11-21）
+
+* **タイトル**: Can AI help scientists identify promising drug candidates? (2026)
+  **ファイルパス**: `raw/articles/can-ai-help-scientists-identify-promising-drug-candidates.md`

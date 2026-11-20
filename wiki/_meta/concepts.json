@@ -26618,5 +26618,43 @@
     ],
     "domain": "cognitive_science",
     "compiled_at": "2026-11-20"
+  },
+  {
+    "slug": "identity-work-mediated-reconciliation-of-epistemic-regimes",
+    "title_ja": "アイデンティティ戦略的再配置による認識論的レジームの調整",
+    "title_en": "Identity-Work-Mediated Reconciliation of Epistemic Regimes",
+    "description": "異なる妥当性基準を持つ機関や主体が、アイデンティティの戦略的な再配置(役割の揺動)を通じて文脈依存的な妥当性基準を確立し、衝突する真理観を調整するメカニズム。",
+    "mechanisms": [
+      "アイデンティティ戦略的再配置",
+      "文脈依存的妥当性基準の確立",
+      "境界交渉"
+    ],
+    "related_sources": [
+      2
+    ],
+    "source_files": [
+      "raw/papers/business_ethics_csr/negotiating-truth-in-experiential-learning-partnerships-identity-work-and-role-f.md"
+    ],
+    "domain": "business_ethics_csr",
+    "compiled_at": "2026-11-21"
+  },
+  {
+    "slug": "technology-institution-substitution-limit-under-incentive-misalignment",
+    "title_ja": "利益不一致下での技術による制度代替の限界",
+    "title_en": "Technology-Institution Substitution Limit under Incentive Misalignment",
+    "description": "技術的インフラ(共有プロトコル等)は制度的空隙を完全には埋められず、関与者間の利益が不一致な場合、共有プロトコル自体が不安定化するという構造的制約。",
+    "mechanisms": [
+      "利益不一致による協調プロトコルの不安定化",
+      "制度的空隙の技術的代替の限界",
+      "インセンティブ整合性の欠如"
+    ],
+    "related_sources": [
+      4
+    ],
+    "source_files": [
+      "raw/papers/business_ethics_csr/institutional-substitute-or-complement-a-systematic-scoping-review-of-blockchain.md"
+    ],
+    "domain": "business_ethics_csr",
+    "compiled_at": "2026-11-21"
   }
 ]

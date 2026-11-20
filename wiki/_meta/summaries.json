@@ -4631,6 +4631,12 @@
   "title_en": "Identity-Driven Technology Rejection (The Esteem Trap)",
   "why": "AIシステムを普及させる組織は、機能的優位性の訴求だけでなく、ユーザーの既存アイデンティティを補強する導入設計が必要になる。"
  },
+ "identity-work-mediated-reconciliation-of-epistemic-regimes": {
+  "at": "2026-11-20T21:28:59+00:00",
+  "summary": "学術と企業が協働する際、参加者が専門家やファシリテーターなど役割を場面ごとに揺動させることで、固定基準ではなく文脈依存の妥当性基準を即興的に作り対立を調整する。",
+  "title_en": "Identity Work Mediated Reconciliation of Epistemic Regimes",
+  "why": "生成AIで学術知と実務知の分断が深まる中、単一の妥当性基準への収斂を前提にした設計は現実の協働実態と齟齬を起こしかねない。"
+ },
  "illiquidity-and-stock-returns": {
   "at": "2026-10-01T09:53:53+00:00",
   "summary": "非流動性の高い株式は取引コストの補償として高い期待収益率を要求され、アミフッドが考案した簡便な指標でこの関係が横断面・時系列双方で実証された。",
@@ -7618,6 +7624,12 @@
   "summary": "技術は社会の外部から作用するのではなく物質性・慣行・制度と共構成され、異種主体をつなぐ境界物として機能しつつ新たな境界や不均等も生む。",
   "title_en": "Technology-Institution Co-Constitution and Boundary Ambivalence",
   "why": "AI導入設計では、モデル性能だけでなく連携と分断を同時に生む境界の分布をインフラ・リテラシー格差とともに検討する必要がある。"
+ },
+ "technology-institution-substitution-limit-under-incentive-misalignment": {
+  "at": "2026-11-20T21:28:59+00:00",
+  "summary": "ブロックチェーンなどの協調プロトコルは制度の弱い地域でも信頼確保の代替になると期待されるが、参加者間の利益が不一致だと技術的完全性自体が外生的に崩れる。",
+  "title_en": "Technology Institution Substitution Limit Under Incentive Misalignment",
+  "why": "AIエージェント間の共有プロトコルを導入する前に、技術の改ざん防止性能だけでなく参加者のインセンティブ整合性を検証する必要がある。"
  },
  "technology-mediated-power-asymmetry-amplification": {
   "at": "2026-10-01T10:07:47+00:00",

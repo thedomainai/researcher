@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-20T06:16:19.106751",
+  "generated_at": "2026-11-21T06:28:48.510658",
   "summary": {
-    "articles_scanned": 1343,
-    "nodes": 3613,
-    "resolved_nodes": 1343,
+    "articles_scanned": 1345,
+    "nodes": 3615,
+    "resolved_nodes": 1345,
     "unresolved_nodes": 2270,
-    "edges": 6651,
-    "resolved_edges": 3691,
+    "edges": 6656,
+    "resolved_edges": 3696,
     "unresolved_edges": 2960,
-    "link_mentions": 6950,
-    "valid_source_refs": 2247,
+    "link_mentions": 6955,
+    "valid_source_refs": 2255,
     "invalid_source_refs": 117,
     "isolated_concepts": 97
   },
@@ -4995,6 +4995,34 @@
       "inbound_count": 0,
       "outbound_count": 4,
       "degree": 4
+    },
+    {
+      "id": "identity-work-mediated-reconciliation-of-epistemic-regimes",
+      "slug": "identity-work-mediated-reconciliation-of-epistemic-regimes",
+      "label": "アイデンティティ戦略的再配置による認識論的レジームの調整",
+      "title": "アイデンティティ戦略的再配置による認識論的レジームの調整",
+      "title_ja": "アイデンティティ戦略的再配置による認識論的レジームの調整",
+      "title_en": "Identity-Work-Mediated Reconciliation of Epistemic Regimes",
+      "tier": null,
+      "description": "異なる妥当性基準を持つ機関や主体が、アイデンティティの戦略的な再配置(役割の揺動)を通じて文脈依存的な妥当性基準を確立し、衝突する真理観を調整するメカニズム。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/identity-work-mediated-reconciliation-of-epistemic-regimes.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Identity-Work-Mediated Reconciliation of Epistemic Regimes",
+        "identity-work-mediated-reconciliation-of-epistemic-regimes",
+        "アイデンティティ戦略的再配置による認識論的レジームの調整",
+        "アイデンティティ戦略的再配置による認識論的レジームの調整 (Identity-Work-Mediated Reconciliation of Epistemic Regimes)",
+        "アイデンティティ戦略的再配置による認識論的レジームの調整(Identity-Work-Mediated Reconciliation of Epistemic Regimes)",
+        "アイデンティティ戦略的再配置による認識論的レジームの調整（Identity-Work-Mediated Reconciliation of Epistemic Regimes）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
     },
     {
       "id": "economic-growth-and-identity",
@@ -10292,9 +10320,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 5,
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "data-clustering",
@@ -17375,6 +17403,34 @@
       "degree": 22
     },
     {
+      "id": "technology-institution-substitution-limit-under-incentive-misalignment",
+      "slug": "technology-institution-substitution-limit-under-incentive-misalignment",
+      "label": "利益不一致下での技術による制度代替の限界",
+      "title": "利益不一致下での技術による制度代替の限界",
+      "title_ja": "利益不一致下での技術による制度代替の限界",
+      "title_en": "Technology-Institution Substitution Limit under Incentive Misalignment",
+      "tier": null,
+      "description": "技術的インフラ(共有プロトコル等)は制度的空隙を完全には埋められず、関与者間の利益が不一致な場合、共有プロトコル自体が不安定化するという構造的制約。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/technology-institution-substitution-limit-under-incentive-misalignment.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Technology-Institution Substitution Limit under Incentive Misalignment",
+        "technology-institution-substitution-limit-under-incentive-misalignment",
+        "利益不一致下での技術による制度代替の限界",
+        "利益不一致下での技術による制度代替の限界 (Technology-Institution Substitution Limit under Incentive Misalignment)",
+        "利益不一致下での技術による制度代替の限界(Technology-Institution Substitution Limit under Incentive Misalignment)",
+        "利益不一致下での技術による制度代替の限界（Technology-Institution Substitution Limit under Incentive Misalignment）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
+    },
+    {
       "id": "institutions-and-economic-growth",
       "slug": "institutions-and-economic-growth",
       "label": "制度と経済成長",
@@ -17484,9 +17540,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 0,
-      "degree": 0
+      "degree": 1
     },
     {
       "id": "institutional-readiness-gates-technology-diffusion",
@@ -20268,9 +20324,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 8,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "multiplexed-coding-for-aliasing-resolution",
@@ -21893,9 +21949,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 8,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "formal-rule-shadow-labor-accountability-gap",
@@ -37313,9 +37369,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 10,
+      "inbound_count": 11,
       "outbound_count": 8,
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "concentration-driven-systemic-risk-propagation",
@@ -281690,6 +281746,161 @@
       "ambiguous": false,
       "candidates": [
         "training-distribution-compression-and-epistemic-homogenization"
+      ]
+    },
+    {
+      "id": "technology-institution-substitution-limit-under-incentive-misalignment->coopetition-in-data-ecosystems",
+      "source": "technology-institution-substitution-limit-under-incentive-misalignment",
+      "target": "coopetition-in-data-ecosystems",
+      "source_label": "利益不一致下での技術による制度代替の限界",
+      "target_label": "データエコシステムにおける協調と競争（コープティション）",
+      "source_file": "concepts/technology-institution-substitution-limit-under-incentive-misalignment.md",
+      "target_file": "concepts/coopetition-in-data-ecosystems.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "coopetition-in-data-ecosystems"
+      ],
+      "display_labels": [
+        "coopetition-in-data-ecosystems"
+      ],
+      "mentions": [
+        {
+          "raw_target": "coopetition-in-data-ecosystems",
+          "label": "coopetition-in-data-ecosystems",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "coopetition-in-data-ecosystems"
+      ]
+    },
+    {
+      "id": "technology-institution-substitution-limit-under-incentive-misalignment->formalization-gap-amplifies-institutional-fragility",
+      "source": "technology-institution-substitution-limit-under-incentive-misalignment",
+      "target": "formalization-gap-amplifies-institutional-fragility",
+      "source_label": "利益不一致下での技術による制度代替の限界",
+      "target_label": "形式化と現実のギャップによる制度的脆弱性の増幅",
+      "source_file": "concepts/technology-institution-substitution-limit-under-incentive-misalignment.md",
+      "target_file": "concepts/formalization-gap-amplifies-institutional-fragility.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "formalization-gap-amplifies-institutional-fragility"
+      ],
+      "display_labels": [
+        "formalization-gap-amplifies-institutional-fragility"
+      ],
+      "mentions": [
+        {
+          "raw_target": "formalization-gap-amplifies-institutional-fragility",
+          "label": "formalization-gap-amplifies-institutional-fragility",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "formalization-gap-amplifies-institutional-fragility"
+      ]
+    },
+    {
+      "id": "technology-institution-substitution-limit-under-incentive-misalignment->incentive-compatible-control-of-hidden-agents",
+      "source": "technology-institution-substitution-limit-under-incentive-misalignment",
+      "target": "incentive-compatible-control-of-hidden-agents",
+      "source_label": "利益不一致下での技術による制度代替の限界",
+      "target_label": "隠れた能力・選好を持つ主体のインセンティブ整合的制御",
+      "source_file": "concepts/technology-institution-substitution-limit-under-incentive-misalignment.md",
+      "target_file": "concepts/incentive-compatible-control-of-hidden-agents.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "incentive-compatible-control-of-hidden-agents"
+      ],
+      "display_labels": [
+        "incentive-compatible-control-of-hidden-agents"
+      ],
+      "mentions": [
+        {
+          "raw_target": "incentive-compatible-control-of-hidden-agents",
+          "label": "incentive-compatible-control-of-hidden-agents",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "incentive-compatible-control-of-hidden-agents"
+      ]
+    },
+    {
+      "id": "technology-institution-substitution-limit-under-incentive-misalignment->institutional-axiom-incompatibility-and-adoption-friction",
+      "source": "technology-institution-substitution-limit-under-incentive-misalignment",
+      "target": "institutional-axiom-incompatibility-and-adoption-friction",
+      "source_label": "利益不一致下での技術による制度代替の限界",
+      "target_label": "制度的公理不整合による採用摩擦",
+      "source_file": "concepts/technology-institution-substitution-limit-under-incentive-misalignment.md",
+      "target_file": "concepts/institutional-axiom-incompatibility-and-adoption-friction.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "institutional-axiom-incompatibility-and-adoption-friction"
+      ],
+      "display_labels": [
+        "institutional-axiom-incompatibility-and-adoption-friction"
+      ],
+      "mentions": [
+        {
+          "raw_target": "institutional-axiom-incompatibility-and-adoption-friction",
+          "label": "institutional-axiom-incompatibility-and-adoption-friction",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "institutional-axiom-incompatibility-and-adoption-friction"
+      ]
+    },
+    {
+      "id": "technology-institution-substitution-limit-under-incentive-misalignment->multi-pressure-adoption-and-institutional-isomorphism",
+      "source": "technology-institution-substitution-limit-under-incentive-misalignment",
+      "target": "multi-pressure-adoption-and-institutional-isomorphism",
+      "source_label": "利益不一致下での技術による制度代替の限界",
+      "target_label": "多重圧力と制度的同型化による慣行採用",
+      "source_file": "concepts/technology-institution-substitution-limit-under-incentive-misalignment.md",
+      "target_file": "concepts/multi-pressure-adoption-and-institutional-isomorphism.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "multi-pressure-adoption-and-institutional-isomorphism"
+      ],
+      "display_labels": [
+        "multi-pressure-adoption-and-institutional-isomorphism"
+      ],
+      "mentions": [
+        {
+          "raw_target": "multi-pressure-adoption-and-institutional-isomorphism",
+          "label": "multi-pressure-adoption-and-institutional-isomorphism",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "multi-pressure-adoption-and-institutional-isomorphism"
       ]
     },
     {

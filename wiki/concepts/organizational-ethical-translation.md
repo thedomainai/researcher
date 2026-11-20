@@ -45,3 +45,8 @@ AIガバナンスは、静的なチェックリストの運用にとどまらず
 ## 参考ソース
 
 * Tamara Thuis (2026). "Organizing for AI ethics: From aspirations to practices of AI explainability, responsibility and governance" (raw/W7163471710)
+
+## 追加ソース（2026-11-21）
+
+* **タイトル**: Making Sustainability Investable: How Sophisticated Investors Domesticate ESG (2026)
+  **ファイルパス**: `raw/papers/business_ethics_csr/making-sustainability-investable-how-sophisticated-investors-domesticate-esg.md`

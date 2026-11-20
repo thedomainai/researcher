@@ -89,3 +89,8 @@ Obermeyer et al.（2019年）の研究も、商業アルゴリズムの提供企
 | [Ethical Implications and Accountability of Algorithms](https://doi.org/10.1007/s10551-018-3921-3) | Kirsten Martin | 2018 |
 | [GIGO and the Human Processor: A CHO Review](https://doi.org/10.5281/zenodo.19099778) | Kian Tik Go | 2026 |
 | [GIGO and the Human Processor: A Chief Humanity Officer Review](https://doi.org/10.5281/zenodo.19115919) | Kian Tik Go | 2026 |
+
+## 追加ソース（2026-11-21）
+
+* **タイトル**: Mitigating representation bias through constrained optimization (2026)
+  **ファイルパス**: `raw/papers/ai_governance/mitigating-representation-bias-through-constrained-optimization.md`
