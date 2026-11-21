@@ -602,6 +602,13 @@
       "papers/marketing/the-job-demandsresources-model-state-of-the-art.md",
       "papers/batched-contextual-reinforcement-a-task-scaling-law-for-efficient-reasoning.md",
       "papers/law/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations.md"
+    ],
+    "2026-11-22": [
+      "papers/history_of_technology/typology-of-sociotechnical-transition-pathways.md",
+      "papers/finance_corporate/gradient-based-learning-applied-to-document-recognition.md",
+      "papers/neuroscience/the-free-energy-principle-a-unified-brain-theory.md",
+      "papers/innovation_management/the-prisma-2020-statement-an-updated-guideline-for-reporting-systematic-reviews.md",
+      "papers/hci/mixed-initiative-interaction-and-robotic-systems.md"
     ]
   }
 }

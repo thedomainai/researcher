@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-21T06:28:48.510658",
+  "generated_at": "2026-11-22T06:12:54.876520",
   "summary": {
-    "articles_scanned": 1345,
-    "nodes": 3615,
-    "resolved_nodes": 1345,
+    "articles_scanned": 1346,
+    "nodes": 3616,
+    "resolved_nodes": 1346,
     "unresolved_nodes": 2270,
-    "edges": 6656,
-    "resolved_edges": 3696,
+    "edges": 6671,
+    "resolved_edges": 3711,
     "unresolved_edges": 2960,
-    "link_mentions": 6955,
-    "valid_source_refs": 2255,
+    "link_mentions": 6970,
+    "valid_source_refs": 2259,
     "invalid_source_refs": 117,
     "isolated_concepts": 97
   },
@@ -830,9 +830,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 0,
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "ai-business-process-transformation",
@@ -1227,9 +1227,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 5,
+      "inbound_count": 6,
       "outbound_count": 6,
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "ai-applications-and-impacts",
@@ -2677,9 +2677,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 7,
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "ai-ethics-governance",
@@ -2805,9 +2805,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 10,
+      "inbound_count": 11,
       "outbound_count": 5,
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "non-executable-reference-structures",
@@ -13179,9 +13179,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 1,
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "leveraged-buyouts-and-private-equity",
@@ -15338,9 +15338,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 8,
+      "inbound_count": 9,
       "outbound_count": 7,
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "human-ai-advice-taking-behavior",
@@ -15881,9 +15881,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 5,
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "corporate-ai-governance",
@@ -17517,6 +17517,36 @@
       "degree": 6
     },
     {
+      "id": "institutional-preparedness-as-layered-invariant-decomposition",
+      "slug": "institutional-preparedness-as-layered-invariant-decomposition",
+      "label": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "title": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "title_ja": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "title_en": "Institutional Preparedness as Layered Invariant Decomposition",
+      "tier": null,
+      "description": "組織がより自律的なAIシステムに対応する能力は、対象技術の性質に関わらず機能継続・主体性維持・社会正当性という3つの不変レベルに分解して評価できるという構造的原理。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/institutional-preparedness-as-layered-invariant-decomposition.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Institutional Preparedness as Layered Invariant Decomposition",
+        "institutional-preparedness-as-layered-invariant-decomposition",
+        "制度的備えの三層不変分解",
+        "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+        "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性) (Institutional Preparedness as Layered Invariant Decomposition)",
+        "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)(Institutional Preparedness as Layered Invariant Decomposition)",
+        "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)（Institutional Preparedness as Layered Invariant Decomposition）",
+        "機能継続・主体性維持・社会正当性"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 15,
+      "degree": 15
+    },
+    {
       "id": "institutional-axiom-incompatibility-and-adoption-friction",
       "slug": "institutional-axiom-incompatibility-and-adoption-friction",
       "label": "制度的公理不整合による採用摩擦",
@@ -17571,9 +17601,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 9,
+      "inbound_count": 10,
       "outbound_count": 9,
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "control-induced-disturbance-and-timing-of-intervention",
@@ -19890,9 +19920,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 4,
+      "inbound_count": 5,
       "outbound_count": 10,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "mne-multiple-embeddedness",
@@ -20054,9 +20084,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 6,
+      "inbound_count": 7,
       "outbound_count": 0,
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "multilayer-mismatch-as-breakdown-source",
@@ -30704,9 +30734,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 4,
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "organizational-innovation-and-creativity",
@@ -31904,9 +31934,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 27,
+      "inbound_count": 28,
       "outbound_count": 8,
-      "degree": 35
+      "degree": 36
     },
     {
       "id": "governance-gap-between-capability-scaling-and-accountability",
@@ -31934,9 +31964,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 18,
+      "inbound_count": 19,
       "outbound_count": 11,
-      "degree": 29
+      "degree": 30
     },
     {
       "id": "capability-perception-and-responsibility-diffusion-in-trust",
@@ -32838,9 +32868,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 12,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "evidence-obligation-and-ambiguity-retention-in-autonomous-systems",
@@ -33034,9 +33064,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 8,
+      "inbound_count": 9,
       "outbound_count": 9,
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "deterministic-boundary-gating-of-autonomous-effects",
@@ -206244,6 +206274,471 @@
       ],
       "ambiguous": false,
       "candidates": []
+    },
+    {
+      "id": "institutional-preparedness-as-layered-invariant-decomposition->ai-corporate-governance",
+      "source": "institutional-preparedness-as-layered-invariant-decomposition",
+      "target": "ai-corporate-governance",
+      "source_label": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "target_label": "AIによるコーポレートガバナンス",
+      "source_file": "concepts/institutional-preparedness-as-layered-invariant-decomposition.md",
+      "target_file": "concepts/ai-corporate-governance.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "ai-corporate-governance"
+      ],
+      "display_labels": [
+        "ai-corporate-governance"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ai-corporate-governance",
+          "label": "ai-corporate-governance",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-corporate-governance"
+      ]
+    },
+    {
+      "id": "institutional-preparedness-as-layered-invariant-decomposition->ai-ethics-and-governance",
+      "source": "institutional-preparedness-as-layered-invariant-decomposition",
+      "target": "ai-ethics-and-governance",
+      "source_label": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "target_label": "AI倫理とガバナンス",
+      "source_file": "concepts/institutional-preparedness-as-layered-invariant-decomposition.md",
+      "target_file": "concepts/ai-ethics-and-governance.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "ai-ethics-and-governance"
+      ],
+      "display_labels": [
+        "ai-ethics-and-governance"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ai-ethics-and-governance",
+          "label": "ai-ethics-and-governance",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-ethics-and-governance"
+      ]
+    },
+    {
+      "id": "institutional-preparedness-as-layered-invariant-decomposition->ai-safety-and-governance",
+      "source": "institutional-preparedness-as-layered-invariant-decomposition",
+      "target": "ai-safety-and-governance",
+      "source_label": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "target_label": "AIの安全性とガバナンス",
+      "source_file": "concepts/institutional-preparedness-as-layered-invariant-decomposition.md",
+      "target_file": "concepts/ai-safety-and-governance.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "ai-safety-and-governance"
+      ],
+      "display_labels": [
+        "ai-safety-and-governance"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ai-safety-and-governance",
+          "label": "ai-safety-and-governance",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-safety-and-governance"
+      ]
+    },
+    {
+      "id": "institutional-preparedness-as-layered-invariant-decomposition->autonomy-calibration-and-hierarchy-restructuring",
+      "source": "institutional-preparedness-as-layered-invariant-decomposition",
+      "target": "autonomy-calibration-and-hierarchy-restructuring",
+      "source_label": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "target_label": "自律度の較正と階層再編のトレードオフ",
+      "source_file": "concepts/institutional-preparedness-as-layered-invariant-decomposition.md",
+      "target_file": "concepts/autonomy-calibration-and-hierarchy-restructuring.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "autonomy-calibration-and-hierarchy-restructuring"
+      ],
+      "display_labels": [
+        "autonomy-calibration-and-hierarchy-restructuring"
+      ],
+      "mentions": [
+        {
+          "raw_target": "autonomy-calibration-and-hierarchy-restructuring",
+          "label": "autonomy-calibration-and-hierarchy-restructuring",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "autonomy-calibration-and-hierarchy-restructuring"
+      ]
+    },
+    {
+      "id": "institutional-preparedness-as-layered-invariant-decomposition->capability-outpacing-control-gap",
+      "source": "institutional-preparedness-as-layered-invariant-decomposition",
+      "target": "capability-outpacing-control-gap",
+      "source_label": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "target_label": "能力拡大が制御を上回るギャップ",
+      "source_file": "concepts/institutional-preparedness-as-layered-invariant-decomposition.md",
+      "target_file": "concepts/capability-outpacing-control-gap.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "capability-outpacing-control-gap"
+      ],
+      "display_labels": [
+        "capability-outpacing-control-gap"
+      ],
+      "mentions": [
+        {
+          "raw_target": "capability-outpacing-control-gap",
+          "label": "capability-outpacing-control-gap",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "capability-outpacing-control-gap"
+      ]
+    },
+    {
+      "id": "institutional-preparedness-as-layered-invariant-decomposition->corporate-social-responsibility-evolution",
+      "source": "institutional-preparedness-as-layered-invariant-decomposition",
+      "target": "corporate-social-responsibility-evolution",
+      "source_label": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "target_label": "企業の社会的責任（CSR）の歴史と進化",
+      "source_file": "concepts/institutional-preparedness-as-layered-invariant-decomposition.md",
+      "target_file": "concepts/corporate-social-responsibility-evolution.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "corporate-social-responsibility-evolution"
+      ],
+      "display_labels": [
+        "corporate-social-responsibility-evolution"
+      ],
+      "mentions": [
+        {
+          "raw_target": "corporate-social-responsibility-evolution",
+          "label": "corporate-social-responsibility-evolution",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "corporate-social-responsibility-evolution"
+      ]
+    },
+    {
+      "id": "institutional-preparedness-as-layered-invariant-decomposition->governance-gap-between-capability-scaling-and-accountability",
+      "source": "institutional-preparedness-as-layered-invariant-decomposition",
+      "target": "governance-gap-between-capability-scaling-and-accountability",
+      "source_label": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "target_label": "能力拡大と責任・統治設計の乖離",
+      "source_file": "concepts/institutional-preparedness-as-layered-invariant-decomposition.md",
+      "target_file": "concepts/governance-gap-between-capability-scaling-and-accountability.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "governance-gap-between-capability-scaling-and-accountability"
+      ],
+      "display_labels": [
+        "governance-gap-between-capability-scaling-and-accountability"
+      ],
+      "mentions": [
+        {
+          "raw_target": "governance-gap-between-capability-scaling-and-accountability",
+          "label": "governance-gap-between-capability-scaling-and-accountability",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "governance-gap-between-capability-scaling-and-accountability"
+      ]
+    },
+    {
+      "id": "institutional-preparedness-as-layered-invariant-decomposition->human-oversight-mechanisms",
+      "source": "institutional-preparedness-as-layered-invariant-decomposition",
+      "target": "human-oversight-mechanisms",
+      "source_label": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "target_label": "人間による監視メカニズム",
+      "source_file": "concepts/institutional-preparedness-as-layered-invariant-decomposition.md",
+      "target_file": "concepts/human-oversight-mechanisms.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "human-oversight-mechanisms"
+      ],
+      "display_labels": [
+        "human-oversight-mechanisms"
+      ],
+      "mentions": [
+        {
+          "raw_target": "human-oversight-mechanisms",
+          "label": "human-oversight-mechanisms",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "human-oversight-mechanisms"
+      ]
+    },
+    {
+      "id": "institutional-preparedness-as-layered-invariant-decomposition->institutional-legitimacy-in-ai-enforcement",
+      "source": "institutional-preparedness-as-layered-invariant-decomposition",
+      "target": "institutional-legitimacy-in-ai-enforcement",
+      "source_label": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "target_label": "AI取締りにおける制度的正当性",
+      "source_file": "concepts/institutional-preparedness-as-layered-invariant-decomposition.md",
+      "target_file": "concepts/institutional-legitimacy-in-ai-enforcement.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "institutional-legitimacy-in-ai-enforcement"
+      ],
+      "display_labels": [
+        "institutional-legitimacy-in-ai-enforcement"
+      ],
+      "mentions": [
+        {
+          "raw_target": "institutional-legitimacy-in-ai-enforcement",
+          "label": "institutional-legitimacy-in-ai-enforcement",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "institutional-legitimacy-in-ai-enforcement"
+      ]
+    },
+    {
+      "id": "institutional-preparedness-as-layered-invariant-decomposition->institutional-readiness-gates-technology-diffusion",
+      "source": "institutional-preparedness-as-layered-invariant-decomposition",
+      "target": "institutional-readiness-gates-technology-diffusion",
+      "source_label": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "target_label": "制度的成熟度が技術普及を規定する構造",
+      "source_file": "concepts/institutional-preparedness-as-layered-invariant-decomposition.md",
+      "target_file": "concepts/institutional-readiness-gates-technology-diffusion.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "institutional-readiness-gates-technology-diffusion"
+      ],
+      "display_labels": [
+        "institutional-readiness-gates-technology-diffusion"
+      ],
+      "mentions": [
+        {
+          "raw_target": "institutional-readiness-gates-technology-diffusion",
+          "label": "institutional-readiness-gates-technology-diffusion",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "institutional-readiness-gates-technology-diffusion"
+      ]
+    },
+    {
+      "id": "institutional-preparedness-as-layered-invariant-decomposition->multi-scale-governance-architecture",
+      "source": "institutional-preparedness-as-layered-invariant-decomposition",
+      "target": "multi-scale-governance-architecture",
+      "source_label": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "target_label": "多層ガバナンスアーキテクチャ",
+      "source_file": "concepts/institutional-preparedness-as-layered-invariant-decomposition.md",
+      "target_file": "concepts/multi-scale-governance-architecture.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "multi-scale-governance-architecture"
+      ],
+      "display_labels": [
+        "multi-scale-governance-architecture"
+      ],
+      "mentions": [
+        {
+          "raw_target": "multi-scale-governance-architecture",
+          "label": "multi-scale-governance-architecture",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "multi-scale-governance-architecture"
+      ]
+    },
+    {
+      "id": "institutional-preparedness-as-layered-invariant-decomposition->organizational-and-systems-resilience",
+      "source": "institutional-preparedness-as-layered-invariant-decomposition",
+      "target": "organizational-and-systems-resilience",
+      "source_label": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "target_label": "組織およびシステムのレジリエンス工学",
+      "source_file": "concepts/institutional-preparedness-as-layered-invariant-decomposition.md",
+      "target_file": "concepts/organizational-and-systems-resilience.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "organizational-and-systems-resilience"
+      ],
+      "display_labels": [
+        "organizational-and-systems-resilience"
+      ],
+      "mentions": [
+        {
+          "raw_target": "organizational-and-systems-resilience",
+          "label": "organizational-and-systems-resilience",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "organizational-and-systems-resilience"
+      ]
+    },
+    {
+      "id": "institutional-preparedness-as-layered-invariant-decomposition->pluralistic-legitimacy-and-trust-signaling",
+      "source": "institutional-preparedness-as-layered-invariant-decomposition",
+      "target": "pluralistic-legitimacy-and-trust-signaling",
+      "source_label": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "target_label": "多元的正当性と信頼シグナリングの構造",
+      "source_file": "concepts/institutional-preparedness-as-layered-invariant-decomposition.md",
+      "target_file": "concepts/pluralistic-legitimacy-and-trust-signaling.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "pluralistic-legitimacy-and-trust-signaling"
+      ],
+      "display_labels": [
+        "pluralistic-legitimacy-and-trust-signaling"
+      ],
+      "mentions": [
+        {
+          "raw_target": "pluralistic-legitimacy-and-trust-signaling",
+          "label": "pluralistic-legitimacy-and-trust-signaling",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "pluralistic-legitimacy-and-trust-signaling"
+      ]
+    },
+    {
+      "id": "institutional-preparedness-as-layered-invariant-decomposition->resilience-engineering",
+      "source": "institutional-preparedness-as-layered-invariant-decomposition",
+      "target": "resilience-engineering",
+      "source_label": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "target_label": "レジリエンスエンジニアリング",
+      "source_file": "concepts/institutional-preparedness-as-layered-invariant-decomposition.md",
+      "target_file": "concepts/resilience-engineering.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "resilience-engineering"
+      ],
+      "display_labels": [
+        "resilience-engineering"
+      ],
+      "mentions": [
+        {
+          "raw_target": "resilience-engineering",
+          "label": "resilience-engineering",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "resilience-engineering"
+      ]
+    },
+    {
+      "id": "institutional-preparedness-as-layered-invariant-decomposition->scale-invariant-tradeoffs-in-autonomous-systems",
+      "source": "institutional-preparedness-as-layered-invariant-decomposition",
+      "target": "scale-invariant-tradeoffs-in-autonomous-systems",
+      "source_label": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+      "target_label": "自律システムにおける規模不変のトレードオフ",
+      "source_file": "concepts/institutional-preparedness-as-layered-invariant-decomposition.md",
+      "target_file": "concepts/scale-invariant-tradeoffs-in-autonomous-systems.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "scale-invariant-tradeoffs-in-autonomous-systems"
+      ],
+      "display_labels": [
+        "scale-invariant-tradeoffs-in-autonomous-systems"
+      ],
+      "mentions": [
+        {
+          "raw_target": "scale-invariant-tradeoffs-in-autonomous-systems",
+          "label": "scale-invariant-tradeoffs-in-autonomous-systems",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "scale-invariant-tradeoffs-in-autonomous-systems"
+      ]
     },
     {
       "id": "institutional-prerequisites-for-conversion-of-productivity-into-social-benefit->absorptive-capacity-mediates-imitation-and-internalization",

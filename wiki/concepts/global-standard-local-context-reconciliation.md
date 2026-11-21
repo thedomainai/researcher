@@ -58,3 +58,8 @@ Land Governance Materiality Framework(LGMF)は、土地ガバナンスをESG成�
    File: raw/papers/corporate_governance/building-community-engaged-research-capacity-through-bidirectional-collaboration.md
 3. Corporate‐Community Land Governance for Peace: A Governance Materiality Framework for CSR, ESG, and Sustainable Agribusiness — Ifedayo Grace Malachi, Reza Eslamipoor (2026)
    File: raw/papers/corporate_governance/corporatecommunity-land-governance-for-peace-a-governance-materiality-framework-.md
+
+## 追加ソース（2026-11-22）
+
+* **タイトル**: Ethical for Whom: A Systematic Literature Review of Multicultural Perspectives on Responsible AI Values for the Global Majority (2026)
+  **ファイルパス**: `raw/papers/ai_governance/ethical-for-whom-a-systematic-literature-review-of-multicultural-perspectives-on.md`

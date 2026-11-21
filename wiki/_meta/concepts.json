@@ -26656,5 +26656,25 @@
     ],
     "domain": "business_ethics_csr",
     "compiled_at": "2026-11-21"
+  },
+  {
+    "slug": "institutional-preparedness-as-layered-invariant-decomposition",
+    "title_ja": "制度的備えの三層不変分解(機能継続・主体性維持・社会正当性)",
+    "title_en": "Institutional Preparedness as Layered Invariant Decomposition",
+    "description": "組織がより自律的なAIシステムに対応する能力は、対象技術の性質に関わらず機能継続・主体性維持・社会正当性という3つの不変レベルに分解して評価できるという構造的原理。",
+    "mechanisms": [
+      "階層的リスク分解",
+      "スケーラブルリスクと不連続リスクの区別",
+      "正当性の外部依存性",
+      "組織的回復力"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/business_ethics_csr/from-ai-adoption-to-institutional-preparedness-governing-enterprises-for-agi.md"
+    ],
+    "domain": "business_ethics_csr",
+    "compiled_at": "2026-11-22"
   }
 ]

@@ -4811,6 +4811,12 @@
   "title_en": "Institutional Legitimacy in AI Enforcement",
   "why": "AIによる自動意思決定を社会に実装する組織は、精度だけでなく透明性や異議申立手続きの整備で正当性を確保する必要がある。"
  },
+ "institutional-preparedness-as-layered-invariant-decomposition": {
+  "at": "2026-11-21T21:13:10+00:00",
+  "summary": "企業のAGI対応力は、個別技術の内容や進化速度に依存せず、機能継続・主体性維持・社会正当性という3つの不変レベルへの分解によって構造的に評価できる。",
+  "title_en": "Three-Layer Invariant Decomposition of Institutional Preparedness",
+  "why": "層ごとに評価指標とガバナンス責任を分けなければ、ある層での改善が他層の劣化を隠してしまう。"
+ },
  "institutional-prerequisites-for-conversion-of-productivity-into-social-benefit": {
   "at": "2026-10-01T09:54:52+00:00",
   "summary": "技術による生産性向上は潜在的余剰を生むにすぎず、複数の制度的条件の同時成立、資源への依存、更新速度の整合、初期集中・後期拡散の動学によって社会的便益への変換が決まる。",

@@ -84,3 +84,8 @@ FDA関連の医療機器開発を対象にLean・Agile・ハイブリッド手�
 
 * **タイトル**: Robotic Process Automation in Service-Oriented Supply Chains (2026)
   **ファイルパス**: `raw/papers/economics/robotic-process-automation-in-service-oriented-supply-chains.md`
+
+## 追加ソース（2026-11-22）
+
+* **タイトル**: From compliance to resilience: a functional framework for AI-enabled environmental governance (2026)
+  **ファイルパス**: `raw/papers/ai_governance/from-compliance-to-resilience-a-functional-framework-for-ai-enabled-environmenta.md`
