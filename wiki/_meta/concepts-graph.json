@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-22T06:12:54.876520",
+  "generated_at": "2026-11-23T06:09:47.295704",
   "summary": {
-    "articles_scanned": 1346,
-    "nodes": 3616,
-    "resolved_nodes": 1346,
+    "articles_scanned": 1347,
+    "nodes": 3617,
+    "resolved_nodes": 1347,
     "unresolved_nodes": 2270,
-    "edges": 6671,
-    "resolved_edges": 3711,
+    "edges": 6674,
+    "resolved_edges": 3714,
     "unresolved_edges": 2960,
-    "link_mentions": 6970,
-    "valid_source_refs": 2259,
+    "link_mentions": 6976,
+    "valid_source_refs": 2260,
     "invalid_source_refs": 117,
     "isolated_concepts": 97
   },
@@ -1227,9 +1227,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 6,
+      "inbound_count": 7,
       "outbound_count": 6,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "ai-applications-and-impacts",
@@ -1951,9 +1951,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 7,
+      "inbound_count": 8,
       "outbound_count": 4,
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "cultural-ethical-fit-ai-governance",
@@ -5223,9 +5223,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 3,
+      "inbound_count": 4,
       "outbound_count": 2,
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "avatar-microaggressions",
@@ -22392,6 +22392,36 @@
       "inbound_count": 2,
       "outbound_count": 9,
       "degree": 11
+    },
+    {
+      "id": "compression-as-intelligence-metric",
+      "slug": "compression-as-intelligence-metric",
+      "label": "情報圧縮能力としての知能(パープレキシティ指標)",
+      "title": "情報圧縮能力としての知能(パープレキシティ指標)",
+      "title_ja": "情報圧縮能力としての知能(パープレキシティ指標)",
+      "title_en": "Compression Ability as an Intelligence Metric",
+      "tier": null,
+      "description": "知能の進歩を、予測/圧縮器としての性能(パープレキシティ・交差エントロピー損失)という不変な指標で測定できるという構造的原理。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/compression-as-intelligence-metric.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Compression Ability as an Intelligence Metric",
+        "compression-as-intelligence-metric",
+        "パープレキシティ指標",
+        "情報圧縮能力としての知能",
+        "情報圧縮能力としての知能(パープレキシティ指標)",
+        "情報圧縮能力としての知能(パープレキシティ指標) (Compression Ability as an Intelligence Metric)",
+        "情報圧縮能力としての知能(パープレキシティ指標)(Compression Ability as an Intelligence Metric)",
+        "情報圧縮能力としての知能(パープレキシティ指標)（Compression Ability as an Intelligence Metric）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 3,
+      "degree": 3
     },
     {
       "id": "source-cue-motivation-interaction-in-credibility-judgment",
@@ -140521,6 +140551,120 @@
       ],
       "ambiguous": false,
       "candidates": []
+    },
+    {
+      "id": "compression-as-intelligence-metric->ai-governance-and-regulation",
+      "source": "compression-as-intelligence-metric",
+      "target": "ai-governance-and-regulation",
+      "source_label": "情報圧縮能力としての知能(パープレキシティ指標)",
+      "target_label": "AIガバナンスと規制",
+      "source_file": "concepts/compression-as-intelligence-metric.md",
+      "target_file": "concepts/ai-governance-and-regulation.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 2,
+      "raw_targets": [
+        "ai-governance-and-regulation"
+      ],
+      "display_labels": [
+        "ai-governance-and-regulation"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ai-governance-and-regulation",
+          "label": "ai-governance-and-regulation",
+          "section": "AI Native な設計への示唆",
+          "line": 23,
+          "resolved_via": "slug"
+        },
+        {
+          "raw_target": "ai-governance-and-regulation",
+          "label": "ai-governance-and-regulation",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-governance-and-regulation"
+      ]
+    },
+    {
+      "id": "compression-as-intelligence-metric->ai-safety-and-governance",
+      "source": "compression-as-intelligence-metric",
+      "target": "ai-safety-and-governance",
+      "source_label": "情報圧縮能力としての知能(パープレキシティ指標)",
+      "target_label": "AIの安全性とガバナンス",
+      "source_file": "concepts/compression-as-intelligence-metric.md",
+      "target_file": "concepts/ai-safety-and-governance.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 2,
+      "raw_targets": [
+        "ai-safety-and-governance"
+      ],
+      "display_labels": [
+        "ai-safety-and-governance"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ai-safety-and-governance",
+          "label": "ai-safety-and-governance",
+          "section": "AI Native な設計への示唆",
+          "line": 23,
+          "resolved_via": "slug"
+        },
+        {
+          "raw_target": "ai-safety-and-governance",
+          "label": "ai-safety-and-governance",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-safety-and-governance"
+      ]
+    },
+    {
+      "id": "compression-as-intelligence-metric->attention-mechanisms",
+      "source": "compression-as-intelligence-metric",
+      "target": "attention-mechanisms",
+      "source_label": "情報圧縮能力としての知能(パープレキシティ指標)",
+      "target_label": "アテンション機構の変種（Attention Mechanism Variants）",
+      "source_file": "concepts/compression-as-intelligence-metric.md",
+      "target_file": "concepts/attention-mechanisms.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 2,
+      "raw_targets": [
+        "attention-mechanisms"
+      ],
+      "display_labels": [
+        "attention-mechanisms"
+      ],
+      "mentions": [
+        {
+          "raw_target": "attention-mechanisms",
+          "label": "attention-mechanisms",
+          "section": "AI Native な設計への示唆",
+          "line": 22,
+          "resolved_via": "slug"
+        },
+        {
+          "raw_target": "attention-mechanisms",
+          "label": "attention-mechanisms",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "attention-mechanisms"
+      ]
     },
     {
       "id": "computational-governance-benchmarking->dangling:7c2d85656338",

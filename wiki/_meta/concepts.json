@@ -26676,5 +26676,24 @@
     ],
     "domain": "business_ethics_csr",
     "compiled_at": "2026-11-22"
+  },
+  {
+    "slug": "compression-as-intelligence-metric",
+    "title_ja": "情報圧縮能力としての知能(パープレキシティ指標)",
+    "title_en": "Compression Ability as an Intelligence Metric",
+    "description": "知能の進歩を、予測/圧縮器としての性能(パープレキシティ・交差エントロピー損失)という不変な指標で測定できるという構造的原理。",
+    "mechanisms": [
+      "情報圧縮による予測",
+      "スケーリング法則",
+      "符号化定理的等価性(予測=圧縮)"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/articles/perplexity-and-intelligence.md"
+    ],
+    "domain": null,
+    "compiled_at": "2026-11-23"
   }
 ]

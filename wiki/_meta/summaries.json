@@ -2249,6 +2249,12 @@
   "title_en": "Complex Systems and Computational Modeling",
   "why": "AIを安全性や制御系に組み込む際は、データバイアスやモデルドリフトなどのハザードへの対処とガバナンス設計が不可欠になる。"
  },
+ "compression-as-intelligence-metric": {
+  "at": "2026-11-22T21:10:07+00:00",
+  "summary": "AIの進歩は個別タスクの工学ではなく、予測と圧縮の等価性に基づくパープレキシティという単一指標で測れるという原理。",
+  "title_en": "Compression as Intelligence Metric",
+  "why": "組織は個別ベンチマークではなく圧縮性能という共通指標でモデル比較や安全基準づくりを行える。"
+ },
  "computational-governance-benchmarking": {
   "at": "2026-10-01T09:44:24+00:00",
   "summary": "国家・機関のガバナンス評価を、決定論的再現性・説明可能AI・モンテカルロ検証・来歴追跡を組み合わせたデータ駆動型フレームワークで定量化し監査可能にする。",

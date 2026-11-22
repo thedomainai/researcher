@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-22T06:12:54.876520",
+  "generated_at": "2026-11-23T06:09:47.295704",
   "summary": {
-    "articles_scanned": 1346,
-    "nodes": 3616,
-    "resolved_nodes": 1346,
+    "articles_scanned": 1347,
+    "nodes": 3617,
+    "resolved_nodes": 1347,
     "unresolved_nodes": 2270,
-    "edges": 6671,
-    "resolved_edges": 3711,
+    "edges": 6674,
+    "resolved_edges": 3714,
     "unresolved_edges": 2960,
-    "link_mentions": 6970,
-    "valid_source_refs": 2259,
+    "link_mentions": 6976,
+    "valid_source_refs": 2260,
     "invalid_source_refs": 117,
     "isolated_concepts": 97
   },
@@ -22389,6 +22389,29 @@
           ]
         },
         {
+          "id": "compression-as-intelligence-metric",
+          "label": "情報圧縮能力としての知能(パープレキシティ指標)",
+          "resolved": true,
+          "weight": 2,
+          "source_file": "concepts/compression-as-intelligence-metric.md",
+          "mentions": [
+            {
+              "raw_target": "ai-governance-and-regulation",
+              "label": "ai-governance-and-regulation",
+              "section": "AI Native な設計への示唆",
+              "line": 23,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "ai-governance-and-regulation",
+              "label": "ai-governance-and-regulation",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "context-engineering-cost-structure",
           "label": "文脈維持コストと再現性・自己制御の構造",
           "resolved": true,
@@ -32420,6 +32443,29 @@
           ]
         },
         {
+          "id": "compression-as-intelligence-metric",
+          "label": "情報圧縮能力としての知能(パープレキシティ指標)",
+          "resolved": true,
+          "weight": 2,
+          "source_file": "concepts/compression-as-intelligence-metric.md",
+          "mentions": [
+            {
+              "raw_target": "ai-safety-and-governance",
+              "label": "ai-safety-and-governance",
+              "section": "AI Native な設計への示唆",
+              "line": 23,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "ai-safety-and-governance",
+              "label": "ai-safety-and-governance",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "bias-embedding-and-safety-as-dynamic-process",
           "label": "訓練データ由来バイアスの埋め込みと動的安全ガバナンス",
           "resolved": true,
@@ -40038,6 +40084,29 @@
               "label": "attention-mechanisms",
               "section": "分野横断的な接続",
               "line": 50,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "compression-as-intelligence-metric",
+          "label": "情報圧縮能力としての知能(パープレキシティ指標)",
+          "resolved": true,
+          "weight": 2,
+          "source_file": "concepts/compression-as-intelligence-metric.md",
+          "mentions": [
+            {
+              "raw_target": "attention-mechanisms",
+              "label": "attention-mechanisms",
+              "section": "AI Native な設計への示唆",
+              "line": 22,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "attention-mechanisms",
+              "label": "attention-mechanisms",
+              "section": "関連概念",
+              "line": 29,
               "resolved_via": "slug"
             }
           ]
@@ -66053,6 +66122,116 @@
           ],
           "ambiguous": false,
           "candidates": []
+        }
+      ]
+    },
+    "compression-as-intelligence-metric": {
+      "id": "compression-as-intelligence-metric",
+      "slug": "compression-as-intelligence-metric",
+      "label": "情報圧縮能力としての知能(パープレキシティ指標)",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/compression-as-intelligence-metric.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "ai-safety-and-governance",
+          "label": "AIの安全性とガバナンス",
+          "resolved": true,
+          "weight": 2,
+          "target_file": "concepts/ai-safety-and-governance.md",
+          "raw_targets": [
+            "ai-safety-and-governance"
+          ],
+          "display_labels": [
+            "ai-safety-and-governance"
+          ],
+          "mentions": [
+            {
+              "raw_target": "ai-safety-and-governance",
+              "label": "ai-safety-and-governance",
+              "section": "AI Native な設計への示唆",
+              "line": 23,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "ai-safety-and-governance",
+              "label": "ai-safety-and-governance",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "ai-safety-and-governance"
+          ]
+        },
+        {
+          "id": "ai-governance-and-regulation",
+          "label": "AIガバナンスと規制",
+          "resolved": true,
+          "weight": 2,
+          "target_file": "concepts/ai-governance-and-regulation.md",
+          "raw_targets": [
+            "ai-governance-and-regulation"
+          ],
+          "display_labels": [
+            "ai-governance-and-regulation"
+          ],
+          "mentions": [
+            {
+              "raw_target": "ai-governance-and-regulation",
+              "label": "ai-governance-and-regulation",
+              "section": "AI Native な設計への示唆",
+              "line": 23,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "ai-governance-and-regulation",
+              "label": "ai-governance-and-regulation",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "ai-governance-and-regulation"
+          ]
+        },
+        {
+          "id": "attention-mechanisms",
+          "label": "アテンション機構の変種（Attention Mechanism Variants）",
+          "resolved": true,
+          "weight": 2,
+          "target_file": "concepts/attention-mechanisms.md",
+          "raw_targets": [
+            "attention-mechanisms"
+          ],
+          "display_labels": [
+            "attention-mechanisms"
+          ],
+          "mentions": [
+            {
+              "raw_target": "attention-mechanisms",
+              "label": "attention-mechanisms",
+              "section": "AI Native な設計への示唆",
+              "line": 22,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "attention-mechanisms",
+              "label": "attention-mechanisms",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "attention-mechanisms"
+          ]
         }
       ]
     },
@@ -328209,6 +328388,29 @@
         ]
       },
       {
+        "id": "compression-as-intelligence-metric",
+        "label": "情報圧縮能力としての知能(パープレキシティ指標)",
+        "resolved": true,
+        "weight": 2,
+        "source_file": "concepts/compression-as-intelligence-metric.md",
+        "mentions": [
+          {
+            "raw_target": "ai-governance-and-regulation",
+            "label": "ai-governance-and-regulation",
+            "section": "AI Native な設計への示唆",
+            "line": 23,
+            "resolved_via": "slug"
+          },
+          {
+            "raw_target": "ai-governance-and-regulation",
+            "label": "ai-governance-and-regulation",
+            "section": "関連概念",
+            "line": 29,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "context-engineering-cost-structure",
         "label": "文脈維持コストと再現性・自己制御の構造",
         "resolved": true,
@@ -330284,6 +330486,29 @@
             "label": "ai-safety-and-governance",
             "section": "関連概念",
             "line": 31,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "compression-as-intelligence-metric",
+        "label": "情報圧縮能力としての知能(パープレキシティ指標)",
+        "resolved": true,
+        "weight": 2,
+        "source_file": "concepts/compression-as-intelligence-metric.md",
+        "mentions": [
+          {
+            "raw_target": "ai-safety-and-governance",
+            "label": "ai-safety-and-governance",
+            "section": "AI Native な設計への示唆",
+            "line": 23,
+            "resolved_via": "slug"
+          },
+          {
+            "raw_target": "ai-safety-and-governance",
+            "label": "ai-safety-and-governance",
+            "section": "関連概念",
+            "line": 29,
             "resolved_via": "slug"
           }
         ]
@@ -332886,6 +333111,29 @@
             "label": "attention-mechanisms",
             "section": "分野横断的な接続",
             "line": 50,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "compression-as-intelligence-metric",
+        "label": "情報圧縮能力としての知能(パープレキシティ指標)",
+        "resolved": true,
+        "weight": 2,
+        "source_file": "concepts/compression-as-intelligence-metric.md",
+        "mentions": [
+          {
+            "raw_target": "attention-mechanisms",
+            "label": "attention-mechanisms",
+            "section": "AI Native な設計への示唆",
+            "line": 22,
+            "resolved_via": "slug"
+          },
+          {
+            "raw_target": "attention-mechanisms",
+            "label": "attention-mechanisms",
+            "section": "関連概念",
+            "line": 29,
             "resolved_via": "slug"
           }
         ]
@@ -341226,6 +341474,7 @@
         ]
       }
     ],
+    "compression-as-intelligence-metric": [],
     "computational-governance-benchmarking": [
       {
         "id": "computational-limits-forcing-decentralized-autonomy",

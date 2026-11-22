@@ -471,6 +471,11 @@
     "Organic Search": 4
    },
    "pv": 4,
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   },
    "sessions": 4,
    "users": 2
   },
@@ -479,6 +484,14 @@
     "Organic Search": 1
    },
    "pv": 1,
+   "sessions": 1,
+   "users": 1
+  },
+  "2026-11-21": {
+   "channels": {
+    "Organic Search": 2
+   },
+   "pv": 2,
    "sessions": 1,
    "users": 1
   }
@@ -523,17 +536,17 @@
    2
   ],
   [
+   "/researcher/concepts/optimal-economic-growth-theory/",
+   2
+  ],
+  [
    "/researcher/concepts/political-corporate-social-responsibility/",
    2
   ],
   [
    "/researcher/clusters/economics/",
    1
-  ],
-  [
-   "/researcher/concepts/ai-avatars-and-self-extension/",
-   1
   ]
  ],
- "updated": "2026-11-21T06:29:15"
+ "updated": "2026-11-22T06:13:25"
 }
