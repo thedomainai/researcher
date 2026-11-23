@@ -1469,6 +1469,12 @@
   "title_en": "Diminishing Returns of Anthropomorphism in AI Customer Service",
   "why": "AIチャットボット設計では人間らしさを増やすほど良いとは限らず、適度な社会的実在感と心理的距離の調整が購買意図を左右する。"
  },
+ "architectural-determinism-for-verifiable-accountability": {
+  "at": "2026-11-23T21:10:17+00:00",
+  "summary": "説明責任を自己申告や事後ログに頼らず、決定論的実行・暗号的状態連鎖・再現可能性単位の組み合わせでシステムの挙動を独立に検証可能にする設計原理である。",
+  "title_en": "Architectural Determinism for Verifiable Accountability",
+  "why": "監査・規制・信頼形成の基盤を、運用上の信頼ではなく計算的に検証可能な性質として設計に組み込む必要がある。"
+ },
  "architectural-locus-of-accountability": {
   "at": "2026-10-01T09:41:24+00:00",
   "summary": "AIをめぐる説明責任は事後の監視や制御ではなく、境界・モジュール性・層構造という設計上の選択によってあらかじめ固定される。",
@@ -2302,6 +2308,12 @@
   "summary": "ネットワーク複雑性が増すほど、処理を中枢に集中させるかエッジに分散させるかの選択がレイテンシ・帯域・制御可能性の代償を伴う構造的トレードオフとして鋭くなる。",
   "title_en": "Compute Locus Tradeoff Under Network Complexity",
   "why": "AIの配置設計は実装詳細ではなく性能・コスト・ガバナビリティを左右する前提条件として扱う必要がある。"
+ },
+ "concealment-cost-leaves-detectable-traces": {
+  "at": "2026-11-23T21:10:17+00:00",
+  "summary": "情報の意図的隠蔽は認知的負荷を伴い、その負荷が言語的トーンや統計的異常として痕跡を残すため、隠蔽を無痕跡化することは原理的に不可能である。",
+  "title_en": "Concealment Cost Leaves Detectable Traces",
+  "why": "AI監査・ガバナンス設計では、隠蔽を完全検知するのではなく言語層と数値層の複数シグナルを組み合わせて痕跡を蓄積的に捉える設計が有効である。"
  },
  "concentration-driven-systemic-risk-propagation": {
   "at": "2026-10-01T09:43:53+00:00",

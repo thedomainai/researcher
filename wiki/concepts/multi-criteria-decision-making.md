@@ -51,3 +51,8 @@ MCDMの基本思想である「複数の相反する目標や不確実性の考�
   * パス: `raw/Multiple_Criteria_Decision_Making_Multiattribute_Utility_Theory_The_Next_Ten_Years`
 * **The Impact of Demand Uncertainty on Consumer Subsidies for Green Technology Adoption** (2015)
   * パス: `raw/The_Impact_of_Demand_Uncertainty_on_Consumer_Subsidies_for_Green_Technology_Adoption`
+
+## 追加ソース（2026-11-24）
+
+* **タイトル**: Adaptive Balanced Entropy Weighting for Mitigating Criterion Weight Imbalance in Multi-Criteria Decision Making (2027)
+  **ファイルパス**: `raw/papers/accounting/adaptive-balanced-entropy-weighting-for-mitigating-criterion-weight-imbalance-in.md`

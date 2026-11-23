@@ -62,3 +62,8 @@
 
 * **タイトル**: Governance e Qualità nei Progetti AI: Metodologie, Metriche e Lessons Learned nell'Adozione Enterprise di Modelli LLM (2026)
   **ファイルパス**: `raw/papers/ai_governance/governance-e-qualità-nei-progetti-ai-metodologie-metriche-e-lessons-learned-nell.md`
+
+## 追加ソース（2026-11-24）
+
+* **タイトル**: BUILDING TRUST THROUGH QUALITY INFRASTRUCTURE: ACCREDITATION IN THE AGE OF ARTIFICIAL INTELLIGENCE (2026)
+  **ファイルパス**: `raw/papers/accounting/building-trust-through-quality-infrastructure-accreditation-in-the-age-of-artifi.md`

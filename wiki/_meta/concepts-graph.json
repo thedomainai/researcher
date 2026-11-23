@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-23T06:09:47.295704",
+  "generated_at": "2026-11-24T06:09:37.143774",
   "summary": {
-    "articles_scanned": 1347,
-    "nodes": 3617,
-    "resolved_nodes": 1347,
+    "articles_scanned": 1349,
+    "nodes": 3619,
+    "resolved_nodes": 1349,
     "unresolved_nodes": 2270,
-    "edges": 6674,
-    "resolved_edges": 3714,
+    "edges": 6685,
+    "resolved_edges": 3725,
     "unresolved_edges": 2960,
-    "link_mentions": 6976,
-    "valid_source_refs": 2260,
+    "link_mentions": 6987,
+    "valid_source_refs": 2265,
     "invalid_source_refs": 117,
     "isolated_concepts": 97
   },
@@ -2355,9 +2355,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 8,
+      "inbound_count": 9,
       "outbound_count": 5,
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "ai-feedback-source-attribution-education",
@@ -4321,9 +4321,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 5,
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "llm-alignment-trust-sycophancy",
@@ -5510,9 +5510,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 6,
+      "inbound_count": 7,
       "outbound_count": 5,
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "algorithmic-dramaturgy",
@@ -15961,9 +15961,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 7,
+      "inbound_count": 8,
       "outbound_count": 9,
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "companionship-as-a-service-affordance-ambiguity",
@@ -17662,9 +17662,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 9,
+      "inbound_count": 10,
       "outbound_count": 6,
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "constraint-driven-resilience-and-diversification",
@@ -22482,6 +22482,34 @@
       "degree": 18
     },
     {
+      "id": "concealment-cost-leaves-detectable-traces",
+      "slug": "concealment-cost-leaves-detectable-traces",
+      "label": "情報隠蔽の認知的コストと統計的痕跡の不変原理",
+      "title": "情報隠蔽の認知的コストと統計的痕跡の不変原理",
+      "title_ja": "情報隠蔽の認知的コストと統計的痕跡の不変原理",
+      "title_en": "Concealment Imposes Cognitive Cost and Leaves Detectable Traces",
+      "tier": null,
+      "description": "情報を意図的に隠蔽・歪曲する行為は認知的負荷を増大させ、その負荷は言語的・統計的パターンとして痕跡を残し検出可能になるという不変原理。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/concealment-cost-leaves-detectable-traces.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Concealment Imposes Cognitive Cost and Leaves Detectable Traces",
+        "concealment-cost-leaves-detectable-traces",
+        "情報隠蔽の認知的コストと統計的痕跡の不変原理",
+        "情報隠蔽の認知的コストと統計的痕跡の不変原理 (Concealment Imposes Cognitive Cost and Leaves Detectable Traces)",
+        "情報隠蔽の認知的コストと統計的痕跡の不変原理(Concealment Imposes Cognitive Cost and Leaves Detectable Traces)",
+        "情報隠蔽の認知的コストと統計的痕跡の不変原理（Concealment Imposes Cognitive Cost and Leaves Detectable Traces）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 6,
+      "degree": 6
+    },
+    {
       "id": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
       "slug": "gatekeeper-to-catalyst-role-transformation-under-information-asymmetry",
       "label": "情報非対称性下におけるゲートキーパーから触媒への役割転換",
@@ -25476,9 +25504,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 4,
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "tacit-knowledge-externalization-and-dynamic-capability-formation",
@@ -25802,9 +25830,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 8,
+      "inbound_count": 9,
       "outbound_count": 8,
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "unobserved-heterogeneity",
@@ -27129,9 +27157,37 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 0,
-      "degree": 2
+      "degree": 3
+    },
+    {
+      "id": "architectural-determinism-for-verifiable-accountability",
+      "slug": "architectural-determinism-for-verifiable-accountability",
+      "label": "決定論的アーキテクチャによる検証可能なアカウンタビリティ",
+      "title": "決定論的アーキテクチャによる検証可能なアカウンタビリティ",
+      "title_ja": "決定論的アーキテクチャによる検証可能なアカウンタビリティ",
+      "title_en": "Architectural Determinism for Verifiable Accountability",
+      "tier": null,
+      "description": "決定論的実行・形式検証・暗号的状態連鎖・再現可能性を組み合わせることで、システムの振る舞いを独立に検証可能にする構造的原理。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/architectural-determinism-for-verifiable-accountability.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Architectural Determinism for Verifiable Accountability",
+        "architectural-determinism-for-verifiable-accountability",
+        "決定論的アーキテクチャによる検証可能なアカウンタビリティ",
+        "決定論的アーキテクチャによる検証可能なアカウンタビリティ (Architectural Determinism for Verifiable Accountability)",
+        "決定論的アーキテクチャによる検証可能なアカウンタビリティ(Architectural Determinism for Verifiable Accountability)",
+        "決定論的アーキテクチャによる検証可能なアカウンタビリティ（Architectural Determinism for Verifiable Accountability）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
     },
     {
       "id": "control-invocation-before-decision-closure",
@@ -33412,9 +33468,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 14,
+      "inbound_count": 15,
       "outbound_count": 7,
-      "degree": 21
+      "degree": 22
     },
     {
       "id": "discretion-relocation-to-design-parameters",
@@ -34333,9 +34389,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 12,
+      "inbound_count": 13,
       "outbound_count": 8,
-      "degree": 20
+      "degree": 21
     },
     {
       "id": "evidence-generation-versus-pre-action-permission-separation",
@@ -35079,9 +35135,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 17,
+      "inbound_count": 18,
       "outbound_count": 1,
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "cognitive-limits-information-overload",
@@ -118465,6 +118521,161 @@
       "candidates": []
     },
     {
+      "id": "architectural-determinism-for-verifiable-accountability->constraint-anchored-validity-and-verifiable-boundaries",
+      "source": "architectural-determinism-for-verifiable-accountability",
+      "target": "constraint-anchored-validity-and-verifiable-boundaries",
+      "source_label": "決定論的アーキテクチャによる検証可能なアカウンタビリティ",
+      "target_label": "制約による妥当性の担保と検証可能な境界",
+      "source_file": "concepts/architectural-determinism-for-verifiable-accountability.md",
+      "target_file": "concepts/constraint-anchored-validity-and-verifiable-boundaries.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "constraint-anchored-validity-and-verifiable-boundaries"
+      ],
+      "display_labels": [
+        "constraint-anchored-validity-and-verifiable-boundaries"
+      ],
+      "mentions": [
+        {
+          "raw_target": "constraint-anchored-validity-and-verifiable-boundaries",
+          "label": "constraint-anchored-validity-and-verifiable-boundaries",
+          "section": "関連概念",
+          "line": 30,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "constraint-anchored-validity-and-verifiable-boundaries"
+      ]
+    },
+    {
+      "id": "architectural-determinism-for-verifiable-accountability->cryptographically-verifiable-research",
+      "source": "architectural-determinism-for-verifiable-accountability",
+      "target": "cryptographically-verifiable-research",
+      "source_label": "決定論的アーキテクチャによる検証可能なアカウンタビリティ",
+      "target_label": "暗号学的に検証可能な科学研究",
+      "source_file": "concepts/architectural-determinism-for-verifiable-accountability.md",
+      "target_file": "concepts/cryptographically-verifiable-research.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "cryptographically-verifiable-research"
+      ],
+      "display_labels": [
+        "cryptographically-verifiable-research"
+      ],
+      "mentions": [
+        {
+          "raw_target": "cryptographically-verifiable-research",
+          "label": "cryptographically-verifiable-research",
+          "section": "関連概念",
+          "line": 30,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "cryptographically-verifiable-research"
+      ]
+    },
+    {
+      "id": "architectural-determinism-for-verifiable-accountability->deterministic-vs-probabilistic-ai",
+      "source": "architectural-determinism-for-verifiable-accountability",
+      "target": "deterministic-vs-probabilistic-ai",
+      "source_label": "決定論的アーキテクチャによる検証可能なアカウンタビリティ",
+      "target_label": "決定論的AIと確率論的AIのパラダイム対比",
+      "source_file": "concepts/architectural-determinism-for-verifiable-accountability.md",
+      "target_file": "concepts/deterministic-vs-probabilistic-ai.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "deterministic-vs-probabilistic-ai"
+      ],
+      "display_labels": [
+        "deterministic-vs-probabilistic-ai"
+      ],
+      "mentions": [
+        {
+          "raw_target": "deterministic-vs-probabilistic-ai",
+          "label": "deterministic-vs-probabilistic-ai",
+          "section": "関連概念",
+          "line": 30,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "deterministic-vs-probabilistic-ai"
+      ]
+    },
+    {
+      "id": "architectural-determinism-for-verifiable-accountability->evidence-bearing-decision-traceability",
+      "source": "architectural-determinism-for-verifiable-accountability",
+      "target": "evidence-bearing-decision-traceability",
+      "source_label": "決定論的アーキテクチャによる検証可能なアカウンタビリティ",
+      "target_label": "証拠を伴う意思決定の追跡可能性",
+      "source_file": "concepts/architectural-determinism-for-verifiable-accountability.md",
+      "target_file": "concepts/evidence-bearing-decision-traceability.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "evidence-bearing-decision-traceability"
+      ],
+      "display_labels": [
+        "evidence-bearing-decision-traceability"
+      ],
+      "mentions": [
+        {
+          "raw_target": "evidence-bearing-decision-traceability",
+          "label": "evidence-bearing-decision-traceability",
+          "section": "関連概念",
+          "line": 30,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "evidence-bearing-decision-traceability"
+      ]
+    },
+    {
+      "id": "architectural-determinism-for-verifiable-accountability->structural-separation-of-verification-from-governed-system",
+      "source": "architectural-determinism-for-verifiable-accountability",
+      "target": "structural-separation-of-verification-from-governed-system",
+      "source_label": "決定論的アーキテクチャによる検証可能なアカウンタビリティ",
+      "target_label": "被統治系からの検証機構の構造的分離",
+      "source_file": "concepts/architectural-determinism-for-verifiable-accountability.md",
+      "target_file": "concepts/structural-separation-of-verification-from-governed-system.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "structural-separation-of-verification-from-governed-system"
+      ],
+      "display_labels": [
+        "structural-separation-of-verification-from-governed-system"
+      ],
+      "mentions": [
+        {
+          "raw_target": "structural-separation-of-verification-from-governed-system",
+          "label": "structural-separation-of-verification-from-governed-system",
+          "section": "関連概念",
+          "line": 30,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "structural-separation-of-verification-from-governed-system"
+      ]
+    },
+    {
       "id": "architectural-locus-of-accountability->accountability-requires-ontological-conditions",
       "source": "architectural-locus-of-accountability",
       "target": "accountability-requires-ontological-conditions",
@@ -141642,6 +141853,192 @@
       ],
       "ambiguous": false,
       "candidates": []
+    },
+    {
+      "id": "concealment-cost-leaves-detectable-traces->ai-bias-audits-and-red-teaming",
+      "source": "concealment-cost-leaves-detectable-traces",
+      "target": "ai-bias-audits-and-red-teaming",
+      "source_label": "情報隠蔽の認知的コストと統計的痕跡の不変原理",
+      "target_label": "AIバイアス監査とレッドチーム演習の統合",
+      "source_file": "concepts/concealment-cost-leaves-detectable-traces.md",
+      "target_file": "concepts/ai-bias-audits-and-red-teaming.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "ai-bias-audits-and-red-teaming"
+      ],
+      "display_labels": [
+        "ai-bias-audits-and-red-teaming"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ai-bias-audits-and-red-teaming",
+          "label": "ai-bias-audits-and-red-teaming",
+          "section": "関連概念",
+          "line": 33,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-bias-audits-and-red-teaming"
+      ]
+    },
+    {
+      "id": "concealment-cost-leaves-detectable-traces->ai-in-accounting",
+      "source": "concealment-cost-leaves-detectable-traces",
+      "target": "ai-in-accounting",
+      "source_label": "情報隠蔽の認知的コストと統計的痕跡の不変原理",
+      "target_label": "会計プロセスにおけるAI",
+      "source_file": "concepts/concealment-cost-leaves-detectable-traces.md",
+      "target_file": "concepts/ai-in-accounting.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "ai-in-accounting"
+      ],
+      "display_labels": [
+        "ai-in-accounting"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ai-in-accounting",
+          "label": "ai-in-accounting",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-in-accounting"
+      ]
+    },
+    {
+      "id": "concealment-cost-leaves-detectable-traces->algorithmic-black-box-auditing",
+      "source": "concealment-cost-leaves-detectable-traces",
+      "target": "algorithmic-black-box-auditing",
+      "source_label": "情報隠蔽の認知的コストと統計的痕跡の不変原理",
+      "target_label": "アルゴリズム意思決定における監査・説明責任の不確実性",
+      "source_file": "concepts/concealment-cost-leaves-detectable-traces.md",
+      "target_file": "concepts/algorithmic-black-box-auditing.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "algorithmic-black-box-auditing"
+      ],
+      "display_labels": [
+        "algorithmic-black-box-auditing"
+      ],
+      "mentions": [
+        {
+          "raw_target": "algorithmic-black-box-auditing",
+          "label": "algorithmic-black-box-auditing",
+          "section": "関連概念",
+          "line": 32,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "algorithmic-black-box-auditing"
+      ]
+    },
+    {
+      "id": "concealment-cost-leaves-detectable-traces->code-switching-as-bias-indicator",
+      "source": "concealment-cost-leaves-detectable-traces",
+      "target": "code-switching-as-bias-indicator",
+      "source_label": "情報隠蔽の認知的コストと統計的痕跡の不変原理",
+      "target_label": "LLMにおけるバイアス指標としてのコードスイッチング",
+      "source_file": "concepts/concealment-cost-leaves-detectable-traces.md",
+      "target_file": "concepts/code-switching-as-bias-indicator.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "code-switching-as-bias-indicator"
+      ],
+      "display_labels": [
+        "code-switching-as-bias-indicator"
+      ],
+      "mentions": [
+        {
+          "raw_target": "code-switching-as-bias-indicator",
+          "label": "code-switching-as-bias-indicator",
+          "section": "関連概念",
+          "line": 36,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "code-switching-as-bias-indicator"
+      ]
+    },
+    {
+      "id": "concealment-cost-leaves-detectable-traces->cognitive-load-theory",
+      "source": "concealment-cost-leaves-detectable-traces",
+      "target": "cognitive-load-theory",
+      "source_label": "情報隠蔽の認知的コストと統計的痕跡の不変原理",
+      "target_label": "認知負荷理論",
+      "source_file": "concepts/concealment-cost-leaves-detectable-traces.md",
+      "target_file": "concepts/cognitive-load-theory.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "cognitive-load-theory"
+      ],
+      "display_labels": [
+        "cognitive-load-theory"
+      ],
+      "mentions": [
+        {
+          "raw_target": "cognitive-load-theory",
+          "label": "cognitive-load-theory",
+          "section": "関連概念",
+          "line": 34,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "cognitive-load-theory"
+      ]
+    },
+    {
+      "id": "concealment-cost-leaves-detectable-traces->finite-cognitive-resources-and-load-thresholds",
+      "source": "concealment-cost-leaves-detectable-traces",
+      "target": "finite-cognitive-resources-and-load-thresholds",
+      "source_label": "情報隠蔽の認知的コストと統計的痕跡の不変原理",
+      "target_label": "有限資源と負荷閾値による非線形破綻",
+      "source_file": "concepts/concealment-cost-leaves-detectable-traces.md",
+      "target_file": "concepts/finite-cognitive-resources-and-load-thresholds.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "finite-cognitive-resources-and-load-thresholds"
+      ],
+      "display_labels": [
+        "finite-cognitive-resources-and-load-thresholds"
+      ],
+      "mentions": [
+        {
+          "raw_target": "finite-cognitive-resources-and-load-thresholds",
+          "label": "finite-cognitive-resources-and-load-thresholds",
+          "section": "関連概念",
+          "line": 35,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "finite-cognitive-resources-and-load-thresholds"
+      ]
     },
     {
       "id": "concentration-driven-systemic-risk-propagation->ai-driven-devsecops",

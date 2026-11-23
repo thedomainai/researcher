@@ -26695,5 +26695,43 @@
     ],
     "domain": null,
     "compiled_at": "2026-11-23"
+  },
+  {
+    "slug": "architectural-determinism-for-verifiable-accountability",
+    "title_ja": "決定論的アーキテクチャによる検証可能なアカウンタビリティ",
+    "title_en": "Architectural Determinism for Verifiable Accountability",
+    "description": "決定論的実行・形式検証・暗号的状態連鎖・再現可能性を組み合わせることで、システムの振る舞いを独立に検証可能にする構造的原理。",
+    "mechanisms": [
+      "決定論的実行",
+      "暗号的状態連鎖",
+      "再現可能性による独立検証"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/accounting/total-architectural-closure-a-unified-framework-for-deterministic-axiomatic-and-.md"
+    ],
+    "domain": "accounting",
+    "compiled_at": "2026-11-24"
+  },
+  {
+    "slug": "concealment-cost-leaves-detectable-traces",
+    "title_ja": "情報隠蔽の認知的コストと統計的痕跡の不変原理",
+    "title_en": "Concealment Imposes Cognitive Cost and Leaves Detectable Traces",
+    "description": "情報を意図的に隠蔽・歪曲する行為は認知的負荷を増大させ、その負荷は言語的・統計的パターンとして痕跡を残し検出可能になるという不変原理。",
+    "mechanisms": [
+      "認知的負荷の増大",
+      "言語的手がかりの漏出",
+      "統計的異常検知"
+    ],
+    "related_sources": [
+      2
+    ],
+    "source_files": [
+      "raw/papers/accounting/detection-of-fraud-in-financial-statements-based-on-managerial-tone-analysis-fin.md"
+    ],
+    "domain": "accounting",
+    "compiled_at": "2026-11-24"
   }
 ]

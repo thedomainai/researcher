@@ -41,3 +41,8 @@ Human, AI, and Organizational Performance(HAOP)フレームワークは、この
 
 * **タイトル**: Machine-Verifiable Legal Transactions and Quantum-Secure Cryptographic Agility for Trusted AI-Native 6G Digital Infrastructure (2026)
   **ファイルパス**: `raw/papers/psychology/machine-verifiable-legal-transactions-and-quantum-secure-cryptographic-agility-f.md`
+
+## 追加ソース（2026-11-24）
+
+* **タイトル**: When Does “Post-Call” Begin? An Availability Contract for Earnings-Call NLP Benchmarks (2026)
+  **ファイルパス**: `raw/papers/accounting/when-does-post-call-begin-an-availability-contract-for-earnings-call-nlp-benchma.md`
