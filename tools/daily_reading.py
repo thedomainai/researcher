@@ -78,6 +78,17 @@ def select_papers(entries, state, count=5, domain=None):
     if domain:
         candidates = [e for e in candidates if e.get("domain") == domain]
 
+    # 過去のリストに一度出した論文は、読了マークが無くても次からは出さない。
+    # 読了マークだけで除くと、マークを付けない運用では各分野の被引用上位が毎日選び直される
+    # (2026-11-24: 直近 14 日の延べ 70 本のうち、異なる論文は 31 本だった)。
+    # 未掲載の候補が尽きたら、掲載済みも含めて選び直す。
+    shown = set()
+    for files in state.get("daily_logs", {}).values():
+        shown.update(files)
+    fresh = [e for e in candidates if e.get("file", "") not in shown]
+    if fresh:
+        candidates = fresh
+
     if not candidates:
         return []
 
