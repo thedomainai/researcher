@@ -5,7 +5,7 @@
 pipeline_compile.py(Gemini 版)の Phase 1〜3 を、tier_classify_cli.py と同じ型で
 `claude -p` に載せ替えたもの。既存記事は上書きしない(増分専用)。
 
-処理(1 ラウンド = 同一分野の論文 BATCH 件):
+処理(1 ラウンド = 同一分野の論文を BATCH 件まで。--limit 件を分野ごとに束ねるので、分野が多い日はラウンド数が増える):
   Phase 1  概念抽出   : 論文の抜粋と既存 slug 一覧を渡し、最大 5 概念を JSON で受け取る(既定 sonnet)
   Phase 2  記事生成   : 新規概念ごとに日本語の記事を書く(既定 sonnet)。既存 slug に該当した論文は
                         既存記事の末尾に「追加ソース」節を追記するだけで LLM は呼ばない
@@ -205,7 +205,12 @@ def read_excerpt(entry, limit=EXCERPT_CHARS):
     return body[:limit] if body else None
 
 
-def pending_entries(index, domain=None):
+def pending_entries(index, domain=None, no_excerpt=None):
+    """未コンパイルの Tier 1/2 論文を返す。本文(抜粋)の無い論文は対象に入れず、no_excerpt に積む。
+
+    本文の無い論文は概念抽出にかけられず、試行回数も増えないので、対象に残すと
+    --limit の枠を毎回占め続ける(2026-11-24: 先頭 60 件のうち 12 件がこれだった)。
+    """
     out = []
     for e in index:
         if e.get("wiki_compiled") or e.get("tier") not in (1, 2):
@@ -216,11 +221,30 @@ def pending_entries(index, domain=None):
             continue
         if not os.path.exists(os.path.join(RAW, e["file"])):
             continue
+        if not read_excerpt(e):
+            if no_excerpt is not None:
+                no_excerpt.append(e)
+            continue
         out.append(e)
     # 採用されやすい順: 試行回数が少ない → 同じ分野をまとめる → Tier 1 優先 → 被引用数
     out.sort(key=lambda e: (int(e.get("wiki_compile_attempts", 0) or 0), e.get("domain") or "",
                             e.get("tier", 2), -int(e.get("citations", 0) or 0)))
     return out
+
+
+def make_batches(entries, size):
+    """並び順を保ったまま、同じ分野が続く範囲を size 件までの束に分ける。
+
+    先に size 件ずつ切ってから分野で絞ると、束の境目が分野の途中に来たときに
+    先頭の分野以外(最大 size-1 件)がその回は処理されない(2026-11-24: 60 件中 6 件)。
+    """
+    batches = []
+    for e in entries:
+        if batches and len(batches[-1]) < size and batches[-1][0].get("domain") == e.get("domain"):
+            batches[-1].append(e)
+        else:
+            batches.append([e])
+    return batches
 
 
 def format_sources(items, with_domain=True):
@@ -404,9 +428,12 @@ def main():
         return 0
 
     index = load_index()
-    pending = pending_entries(index, args.domain)
+    no_excerpt = []
+    pending = pending_entries(index, args.domain, no_excerpt)
     print("未コンパイル(Tier 1/2, 試行 %d 回未満): %d 件(今回 %d 件まで, 抽出=%s / 記事=%s)"
           % (MAX_ATTEMPTS, len(pending), args.limit, args.model_extract, args.model_write), flush=True)
+    if no_excerpt:
+        print("本文が無く対象から外した論文: %d 件" % len(no_excerpt), flush=True)
     if args.dry_run or not pending:
         return 0
     pending = pending[: args.limit]
@@ -433,11 +460,9 @@ def main():
     consecutive_failures = 0
     by_key = {(e["title"], e["file"]): e for e in index}
 
-    for start in range(0, len(pending), args.batch):
-        batch = pending[start:start + args.batch]
+    # 1 ラウンド = 同じ分野の論文を args.batch 件まで(抽出の質を保つため分野をまたがない)
+    for round_no, batch in enumerate(make_batches(pending, args.batch), 1):
         domain = batch[0].get("domain")
-        # 分野がまたがる端数は、先頭の分野に合わせて切る(抽出の質を保つ)
-        batch = [e for e in batch if e.get("domain") == domain] or batch
         items = []
         for e in batch:
             ex = read_excerpt(e)
@@ -445,7 +470,7 @@ def main():
                 items.append((len(items) + 1, e, ex))
         if not items:
             continue
-        print("\n--- ラウンド %d: %s %d 件" % (start // args.batch + 1, domain, len(items)), flush=True)
+        print("\n--- ラウンド %d: %s %d 件" % (round_no, domain, len(items)), flush=True)
 
         try:
             concepts, usage = extract_concepts(items, domain, slugs, args.model_extract, tally)
