@@ -94,3 +94,8 @@ AIが出力を生成する際、その流暢性を保ちながらも、「この
 **著者**: Guillaume Mariani  
 **年**: 2026  
 **ファイル**: raw/papers/evolutionary_biology/leadership-in-the-age-of-ai-introducing-file-the-five-intelligences-of-leadershi.md
+
+## 追加ソース（2026-11-26）
+
+* **タイトル**: Eclipsing Expertise: Linguistic Eloquence as a Catalyst for Cognitive Passivity in Generative AI Interactions (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/eclipsing-expertise-linguistic-eloquence-as-a-catalyst-for-cognitive-passivity-i.md`

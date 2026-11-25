@@ -74,3 +74,10 @@ Zhouらは、デジタルメンタルヘルスを高リスクな情報アクセ�
 
 * **タイトル**: OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents (2026)
   **ファイルパス**: `raw/papers/human_ai_collaboration/optimai-optimization-from-natural-language-using-llm-powered-ai-agents.md`
+
+## 追加ソース（2026-11-26）
+
+* **タイトル**: Beyond Agent Orchestration: A Universal Ecosystem of Proactive and Autonomous Collaboration Among Browsers, Applications, and AI Agents (2026)
+  **ファイルパス**: `raw/papers/complexity_science/beyond-agent-orchestration-a-universal-ecosystem-of-proactive-and-autonomous-col.md`
+* **タイトル**: A Task-Oriented Multi-Agent Framework for Complex Wearable Health Analysis (2026)
+  **ファイルパス**: `raw/papers/complexity_science/a-task-oriented-multi-agent-framework-for-complex-wearable-health-analysis.md`

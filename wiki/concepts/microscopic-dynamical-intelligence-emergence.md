@@ -54,3 +54,10 @@
 *   **著者:** Wei Yang
 *   **分野:** 組織科学 (Organization Science) / 人工知能
 *   **DOI:** https://doi.org/10.5281/zenodo.20016538
+
+## 追加ソース（2026-11-26）
+
+* **タイトル**: From Bellman to Boltzmann: Towards a Kinetic Theory of Controlled Emergence and Meta-Cognition (2026)
+  **ファイルパス**: `raw/papers/complexity_science/from-bellman-to-boltzmann-towards-a-kinetic-theory-of-controlled-emergence-and-m.md`
+* **タイトル**: The Cybernetic Turn: Generative AI as a Dynamical System of Meaning (2026)
+  **ファイルパス**: `raw/papers/complexity_science/the-cybernetic-turn-generative-ai-as-a-dynamical-system-of-meaning.md`

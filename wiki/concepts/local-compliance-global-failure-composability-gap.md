@@ -71,3 +71,8 @@ AI Nativeな社会設計では、多数の自律エージェントが融資、�
    `raw/papers/corporate_governance/who-speaks-for-the-affected-the-missing-stakeholder-problem-in-ai-policy-consult.md`
 7. Behavior is Not Enough: A Mechanism-Based Evaluation of Social Norm Emergence in LLM Societies — Rasika Muralidharan, Haewoon Kwak, Jisun An, 2026
    `raw/papers/complexity_science/behavior-is-not-enough-a-mechanism-based-evaluation-of-social-norm-emergence-in-.md`
+
+## 追加ソース（2026-11-26）
+
+* **タイトル**: Emergence-Driven Security of LLM Agents (2026)
+  **ファイルパス**: `raw/papers/complexity_science/emergence-driven-security-of-llm-agents.md`

@@ -82,3 +82,8 @@ Dissanayakeら(2026)は、がん治療のアドヒアランス失敗を個人の
 3. Rahul Ratnakar Wamanacharya, Bill Cron, Beomjin Choi (2026) "IT Workforce Resilience: AI Governance and Skill Readiness" — `raw/papers/organization_science/it-workforce-resilience-ai-governance-and-skill-readiness.md`
 4. Hafiz Mudassir Rehman, Sofiane Laradi, Sandra Moffett, Amina Elfekair (2026) "Knowledge Management and AI‐Driven Green Practices for Sustainable Performance" — `raw/papers/organization_science/knowledge-management-and-aidriven-green-practices-for-sustainable-performance.md`
 5. Marek Jabłoński (2026) "AI-driven organizational change: a competency-based framework for classifying AI integration trajectories" — `raw/papers/organization_science/ai-driven-organizational-change-a-competency-based-framework-for-classifying-ai-.md`
+
+## 追加ソース（2026-11-26）
+
+* **タイトル**: The AI Organizational Magnifier Theory: How AI Amplifies Structures, Standards, and Consequences in Organizational Talent Decisions (2026)
+  **ファイルパス**: `raw/papers/complexity_science/the-ai-organizational-magnifier-theory-how-ai-amplifies-structures-standards-and.md`

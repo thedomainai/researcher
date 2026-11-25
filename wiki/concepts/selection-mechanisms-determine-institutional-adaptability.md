@@ -94,3 +94,8 @@ AIは意思決定の自動化をもたらすが、「何を選ぶか」という
    - 著者: Ahmed M. Attia
    - 年: 2026
    - ファイル: raw/papers/operations_management/smart-supply-chains-industry-40-and-resilience-in-the-uae-food-and-beverage-sect.md
+
+## 追加ソース（2026-11-26）
+
+* **タイトル**: The emergence and evolution of a referential code in populations of bee-like agents (2026)
+  **ファイルパス**: `raw/papers/complexity_science/the-emergence-and-evolution-of-a-referential-code-in-populations-of-bee-like-age.md`

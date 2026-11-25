@@ -508,6 +508,11 @@
   "2026-11-22": {
    "channels": {},
    "pv": 0,
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   },
    "sessions": 1,
    "users": 0
   },
@@ -518,6 +523,14 @@
    "pv": 2,
    "sessions": 2,
    "users": 1
+  },
+  "2026-11-24": {
+   "channels": {
+    "Organic Search": 5
+   },
+   "pv": 5,
+   "sessions": 5,
+   "users": 4
   }
  },
  "sitemaps": [
@@ -556,6 +569,10 @@
    3
   ],
   [
+   "/researcher/concepts/cultural-dimensions-framework/",
+   2
+  ],
+  [
    "/researcher/concepts/feedback-loops-system-dynamics/",
    2
   ],
@@ -566,11 +583,7 @@
   [
    "/researcher/concepts/optimal-economic-growth-theory/",
    2
-  ],
-  [
-   "/researcher/concepts/political-corporate-social-responsibility/",
-   2
   ]
  ],
- "updated": "2026-11-24T06:10:32"
+ "updated": "2026-11-25T09:43:23"
 }

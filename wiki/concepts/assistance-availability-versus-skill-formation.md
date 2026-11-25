@@ -73,3 +73,8 @@ Wang ら(2026)は創造課題で、人間同士の協働と人間-AI協働を比
    File: raw/papers/human_ai_collaboration/how-ai-assistance-affects-human-skill-development-a-study-of-learning-with-logic.md
 6. Responsible AI-Augmented Judgment and Productive Cognitive Friction in Higher Education: The RABJ Study — Roberto Gómez Tobías (2026)
    File: raw/papers/human_ai_collaboration/responsible-ai-augmented-judgment-and-productive-cognitive-friction-in-higher-ed.md
+
+## 追加ソース（2026-11-26）
+
+* **タイトル**: Learning Cannot Be Delegated: Why the Division of Cognitive Work Between Learners and Generative AI Should Shift Over Time (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/learning-cannot-be-delegated-why-the-division-of-cognitive-work-between-learners.md`

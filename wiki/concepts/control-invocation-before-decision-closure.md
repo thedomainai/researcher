@@ -40,3 +40,8 @@
 
 * **タイトル**: Before Deliberation Closes: The Pre-Deliberation Horizon and Invocation Problem for Reflective Restraint — Final v1.0 (2026)
   **ファイルパス**: `raw/papers/ai_governance/before-deliberation-closes-the-pre-deliberation-horizon-and-invocation-problem-f.md`
+
+## 追加ソース（2026-11-26）
+
+* **タイトル**: Toward a Socratic Scaffolding design paradigm for diagnostic AI: A conceptual middleware framework (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/toward-a-socratic-scaffolding-design-paradigm-for-diagnostic-ai-a-conceptual-mid.md`

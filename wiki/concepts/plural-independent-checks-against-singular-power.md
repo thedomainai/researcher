@@ -89,3 +89,8 @@ Marciniakは、AI投資や計算基盤が少数の企業・国に集中してい
   **ファイルパス**: `raw/papers/ai_governance/topology-of-möbius-cognitive-cycles-the-architecture-of-decentralised-ai-immunit.md`
 * **タイトル**: A Governance Framework for AI (2026)
   **ファイルパス**: `raw/papers/ai_governance/a-governance-framework-for-ai.md`
+
+## 追加ソース（2026-11-26）
+
+* **タイトル**: Differential AI Orchestration as Governance Augmentation (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/differential-ai-orchestration-as-governance-augmentation.md`

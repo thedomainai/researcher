@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-25T09:41:30.402447",
+  "generated_at": "2026-11-26T06:28:02.977432",
   "summary": {
-    "articles_scanned": 1361,
-    "nodes": 3631,
-    "resolved_nodes": 1361,
+    "articles_scanned": 1366,
+    "nodes": 3636,
+    "resolved_nodes": 1366,
     "unresolved_nodes": 2270,
-    "edges": 6717,
-    "resolved_edges": 3757,
+    "edges": 6737,
+    "resolved_edges": 3777,
     "unresolved_edges": 2960,
-    "link_mentions": 7028,
-    "valid_source_refs": 2297,
+    "link_mentions": 7048,
+    "valid_source_refs": 2322,
     "invalid_source_refs": 117,
-    "isolated_concepts": 101
+    "isolated_concepts": 103
   },
   "nodes": [
     {
@@ -90,9 +90,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 5,
+      "inbound_count": 6,
       "outbound_count": 6,
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "ai-ml-methods",
@@ -2383,9 +2383,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 9,
+      "inbound_count": 10,
       "outbound_count": 5,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "ai-feedback-source-attribution-education",
@@ -5430,9 +5430,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 10,
+      "inbound_count": 11,
       "outbound_count": 2,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "algorithmic-innovation-paradox",
@@ -5566,9 +5566,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 7,
+      "inbound_count": 8,
       "outbound_count": 5,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "algorithmic-dramaturgy",
@@ -5618,9 +5618,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 7,
+      "inbound_count": 8,
       "outbound_count": 1,
-      "degree": 8
+      "degree": 9
     },
     {
       "id": "algorithm-auditing-and-bias",
@@ -10462,9 +10462,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 7,
+      "inbound_count": 8,
       "outbound_count": 10,
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "data-augmentation",
@@ -14035,9 +14035,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 6,
+      "inbound_count": 7,
       "outbound_count": 9,
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "computational-limits-forcing-decentralized-autonomy",
@@ -14390,6 +14390,34 @@
       "inbound_count": 2,
       "outbound_count": 4,
       "degree": 6
+    },
+    {
+      "id": "second-order-observation-recursive-governance",
+      "slug": "second-order-observation-recursive-governance",
+      "label": "二次観察による再帰的統制",
+      "title": "二次観察による再帰的統制",
+      "title_ja": "二次観察による再帰的統制",
+      "title_en": "Second-Order Observation and Recursive Governance",
+      "tier": null,
+      "description": "統制システムは対象を直接観察・制御するだけでなく、人間とアルゴリズムの双方の観察者がどのような区別（ディスティンクション）によって現実を構成しているかを観察し直す再帰的構造を持つことで、安定した自己参照的統制を成立させる。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/second-order-observation-recursive-governance.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Second-Order Observation and Recursive Governance",
+        "second-order-observation-recursive-governance",
+        "二次観察による再帰的統制",
+        "二次観察による再帰的統制 (Second-Order Observation and Recursive Governance)",
+        "二次観察による再帰的統制(Second-Order Observation and Recursive Governance)",
+        "二次観察による再帰的統制（Second-Order Observation and Recursive Governance）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
     },
     {
       "id": "ai-in-transportation-and-logistics",
@@ -15138,9 +15166,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 3,
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "human-ai-decision-rights",
@@ -15194,9 +15222,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 3,
+      "inbound_count": 4,
       "outbound_count": 4,
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "human-ai-interaction-hci",
@@ -15670,9 +15698,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 0,
-      "degree": 2
+      "degree": 3
     },
     {
       "id": "job-demands-resources-theory",
@@ -15815,9 +15843,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 3,
+      "inbound_count": 4,
       "outbound_count": 7,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "proxy-objective-exploitation-gap",
@@ -17219,6 +17247,34 @@
       "inbound_count": 1,
       "outbound_count": 5,
       "degree": 6
+    },
+    {
+      "id": "provenance-bounded-epistemic-collaboration",
+      "slug": "provenance-bounded-epistemic-collaboration",
+      "label": "出自追跡可能性に基づく認識論的協働",
+      "title": "出自追跡可能性に基づく認識論的協働",
+      "title_ja": "出自追跡可能性に基づく認識論的協働",
+      "title_en": "Provenance-Bounded Epistemic Collaboration",
+      "tier": null,
+      "description": "異種エージェント間の相互的な知的協働が成立するには、主張の出自追跡可能性と権威の明示的分離が不変条件となる構造",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/provenance-bounded-epistemic-collaboration.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Provenance-Bounded Epistemic Collaboration",
+        "provenance-bounded-epistemic-collaboration",
+        "出自追跡可能性に基づく認識論的協働",
+        "出自追跡可能性に基づく認識論的協働 (Provenance-Bounded Epistemic Collaboration)",
+        "出自追跡可能性に基づく認識論的協働(Provenance-Bounded Epistemic Collaboration)",
+        "出自追跡可能性に基づく認識論的協働（Provenance-Bounded Epistemic Collaboration）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 10,
+      "degree": 10
     },
     {
       "id": "provenance-independent-validity-and-trust-value-collapse",
@@ -18779,6 +18835,34 @@
       "degree": 0
     },
     {
+      "id": "counterfactual-causal-fairness-detection",
+      "slug": "counterfactual-causal-fairness-detection",
+      "label": "反事実的因果分析による構造的不公正検出",
+      "title": "反事実的因果分析による構造的不公正検出",
+      "title_ja": "反事実的因果分析による構造的不公正検出",
+      "title_en": "Counterfactual Causal Fairness Detection",
+      "tier": null,
+      "description": "保護属性に関する構造的不公正を、相関ではなく反事実的因果効果の分解によって検出し、計算と自然言語解釈の役割を分離することで健全性を保つ原理",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/counterfactual-causal-fairness-detection.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Counterfactual Causal Fairness Detection",
+        "counterfactual-causal-fairness-detection",
+        "反事実的因果分析による構造的不公正検出",
+        "反事実的因果分析による構造的不公正検出 (Counterfactual Causal Fairness Detection)",
+        "反事実的因果分析による構造的不公正検出(Counterfactual Causal Fairness Detection)",
+        "反事実的因果分析による構造的不公正検出（Counterfactual Causal Fairness Detection）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 10,
+      "degree": 10
+    },
+    {
       "id": "reflexive-hypothesis-testing-loop-and-adaptive-learning",
       "slug": "reflexive-hypothesis-testing-loop-and-adaptive-learning",
       "label": "反射的仮説検証ループと適応的学習・知識獲得",
@@ -19092,9 +19176,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 5,
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "synthetic-conversation-testing",
@@ -22179,9 +22263,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 4,
+      "inbound_count": 5,
       "outbound_count": 7,
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "role-shift-invalidating-measurement-and-cognitive-isolation",
@@ -26140,9 +26224,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 14,
+      "inbound_count": 15,
       "outbound_count": 11,
-      "degree": 25
+      "degree": 26
     },
     {
       "id": "ai-in-forest-management",
@@ -26896,9 +26980,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 0,
-      "degree": 0
+      "degree": 1
     },
     {
       "id": "polite-fictions-in-historical-data-mining",
@@ -27760,6 +27844,34 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
+    },
+    {
+      "id": "measurement-routine-as-value-construction-mechanism",
+      "slug": "measurement-routine-as-value-construction-mechanism",
+      "label": "測定ルーチンの反復による価値構築メカニズム",
+      "title": "測定ルーチンの反復による価値構築メカニズム",
+      "title_ja": "測定ルーチンの反復による価値構築メカニズム",
+      "title_en": "Measurement Routine Iteration as Value Construction Mechanism",
+      "tier": null,
+      "description": "不確定な技術的対象の価値は所与として発見されるのではなく、測定ルーチンの反復的な実装・交渉・ガバナンス統合を通じて社会技術的に構築される",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/measurement-routine-as-value-construction-mechanism.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Measurement Routine Iteration as Value Construction Mechanism",
+        "measurement-routine-as-value-construction-mechanism",
+        "測定ルーチンの反復による価値構築メカニズム",
+        "測定ルーチンの反復による価値構築メカニズム (Measurement Routine Iteration as Value Construction Mechanism)",
+        "測定ルーチンの反復による価値構築メカニズム(Measurement Routine Iteration as Value Construction Mechanism)",
+        "測定ルーチンの反復による価値構築メカニズム（Measurement Routine Iteration as Value Construction Mechanism）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
       "inbound_count": 0,
       "outbound_count": 0,
       "degree": 0
@@ -29750,9 +29862,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 3,
+      "inbound_count": 4,
       "outbound_count": 6,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "fungal-taxonomy-and-morphological-databases",
@@ -34611,9 +34723,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 5,
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "evidence-bearing-decision-traceability",
@@ -34676,6 +34788,34 @@
       "inbound_count": 1,
       "outbound_count": 8,
       "degree": 9
+    },
+    {
+      "id": "reputation-mediated-cooperation-phase-transition",
+      "slug": "reputation-mediated-cooperation-phase-transition",
+      "label": "評判媒介型協力の相転移",
+      "title": "評判媒介型協力の相転移",
+      "title_ja": "評判媒介型協力の相転移",
+      "title_en": "Reputation-Mediated Phase Transition in Cooperation",
+      "tier": null,
+      "description": "個体が評判を外部の報酬修飾因子ではなく自他の行動を解釈する社会的情報として内部化し学習することで、協力状態と裏切り状態の間に不連続な相転移が生じる構造的メカニズム。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/reputation-mediated-cooperation-phase-transition.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Reputation-Mediated Phase Transition in Cooperation",
+        "reputation-mediated-cooperation-phase-transition",
+        "評判媒介型協力の相転移",
+        "評判媒介型協力の相転移 (Reputation-Mediated Phase Transition in Cooperation)",
+        "評判媒介型協力の相転移(Reputation-Mediated Phase Transition in Cooperation)",
+        "評判媒介型協力の相転移（Reputation-Mediated Phase Transition in Cooperation）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
     },
     {
       "id": "poetic-mathematics",
@@ -34989,9 +35129,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 10,
+      "inbound_count": 11,
       "outbound_count": 12,
-      "degree": 22
+      "degree": 23
     },
     {
       "id": "cost-collapse-of-cognitive-effort-and-capacity-preservation-design",
@@ -35559,9 +35699,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 8,
+      "inbound_count": 9,
       "outbound_count": 8,
-      "degree": 16
+      "degree": 17
     },
     {
       "id": "error-correcting-feedback-and-staged-refinement",
@@ -35738,9 +35878,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 5,
+      "inbound_count": 6,
       "outbound_count": 14,
-      "degree": 19
+      "degree": 20
     },
     {
       "id": "accountability-integration-tradeoff-and-institutional-compromise",
@@ -148909,6 +149049,316 @@
       ]
     },
     {
+      "id": "counterfactual-causal-fairness-detection->ai-bias-audits-and-red-teaming",
+      "source": "counterfactual-causal-fairness-detection",
+      "target": "ai-bias-audits-and-red-teaming",
+      "source_label": "反事実的因果分析による構造的不公正検出",
+      "target_label": "AIバイアス監査とレッドチーム演習の統合",
+      "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+      "target_file": "concepts/ai-bias-audits-and-red-teaming.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "ai-bias-audits-and-red-teaming"
+      ],
+      "display_labels": [
+        "ai-bias-audits-and-red-teaming"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ai-bias-audits-and-red-teaming",
+          "label": "ai-bias-audits-and-red-teaming",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-bias-audits-and-red-teaming"
+      ]
+    },
+    {
+      "id": "counterfactual-causal-fairness-detection->algorithmic-bias-fairness",
+      "source": "counterfactual-causal-fairness-detection",
+      "target": "algorithmic-bias-fairness",
+      "source_label": "反事実的因果分析による構造的不公正検出",
+      "target_label": "アルゴリズムバイアスと公平性",
+      "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+      "target_file": "concepts/algorithmic-bias-fairness.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "algorithmic-bias-fairness"
+      ],
+      "display_labels": [
+        "algorithmic-bias-fairness"
+      ],
+      "mentions": [
+        {
+          "raw_target": "algorithmic-bias-fairness",
+          "label": "algorithmic-bias-fairness",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "algorithmic-bias-fairness"
+      ]
+    },
+    {
+      "id": "counterfactual-causal-fairness-detection->algorithmic-black-box-auditing",
+      "source": "counterfactual-causal-fairness-detection",
+      "target": "algorithmic-black-box-auditing",
+      "source_label": "反事実的因果分析による構造的不公正検出",
+      "target_label": "アルゴリズム意思決定における監査・説明責任の不確実性",
+      "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+      "target_file": "concepts/algorithmic-black-box-auditing.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "algorithmic-black-box-auditing"
+      ],
+      "display_labels": [
+        "algorithmic-black-box-auditing"
+      ],
+      "mentions": [
+        {
+          "raw_target": "algorithmic-black-box-auditing",
+          "label": "algorithmic-black-box-auditing",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "algorithmic-black-box-auditing"
+      ]
+    },
+    {
+      "id": "counterfactual-causal-fairness-detection->algorithmic-fairness-and-bias-detection",
+      "source": "counterfactual-causal-fairness-detection",
+      "target": "algorithmic-fairness-and-bias-detection",
+      "source_label": "反事実的因果分析による構造的不公正検出",
+      "target_label": "アルゴリズム的公正性とバイアス検出",
+      "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+      "target_file": "concepts/algorithmic-fairness-and-bias-detection.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "algorithmic-fairness-and-bias-detection"
+      ],
+      "display_labels": [
+        "algorithmic-fairness-and-bias-detection"
+      ],
+      "mentions": [
+        {
+          "raw_target": "algorithmic-fairness-and-bias-detection",
+          "label": "algorithmic-fairness-and-bias-detection",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "algorithmic-fairness-and-bias-detection"
+      ]
+    },
+    {
+      "id": "counterfactual-causal-fairness-detection->causal-grounding-over-correlation",
+      "source": "counterfactual-causal-fairness-detection",
+      "target": "causal-grounding-over-correlation",
+      "source_label": "反事実的因果分析による構造的不公正検出",
+      "target_label": "相関を超える因果的根拠づけ",
+      "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+      "target_file": "concepts/causal-grounding-over-correlation.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "causal-grounding-over-correlation"
+      ],
+      "display_labels": [
+        "causal-grounding-over-correlation"
+      ],
+      "mentions": [
+        {
+          "raw_target": "causal-grounding-over-correlation",
+          "label": "causal-grounding-over-correlation",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "causal-grounding-over-correlation"
+      ]
+    },
+    {
+      "id": "counterfactual-causal-fairness-detection->causal-inference-in-ai-ml",
+      "source": "counterfactual-causal-fairness-detection",
+      "target": "causal-inference-in-ai-ml",
+      "source_label": "反事実的因果分析による構造的不公正検出",
+      "target_label": "AI/MLにおける因果推論",
+      "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+      "target_file": "concepts/causal-inference-in-ai-ml.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "causal-inference-in-ai-ml"
+      ],
+      "display_labels": [
+        "causal-inference-in-ai-ml"
+      ],
+      "mentions": [
+        {
+          "raw_target": "causal-inference-in-ai-ml",
+          "label": "causal-inference-in-ai-ml",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "causal-inference-in-ai-ml"
+      ]
+    },
+    {
+      "id": "counterfactual-causal-fairness-detection->explainability-and-human-governed-decision-loops",
+      "source": "counterfactual-causal-fairness-detection",
+      "target": "explainability-and-human-governed-decision-loops",
+      "source_label": "反事実的因果分析による構造的不公正検出",
+      "target_label": "説明可能性と人間統制下の意思決定ループ",
+      "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+      "target_file": "concepts/explainability-and-human-governed-decision-loops.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "explainability-and-human-governed-decision-loops"
+      ],
+      "display_labels": [
+        "explainability-and-human-governed-decision-loops"
+      ],
+      "mentions": [
+        {
+          "raw_target": "explainability-and-human-governed-decision-loops",
+          "label": "explainability-and-human-governed-decision-loops",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "explainability-and-human-governed-decision-loops"
+      ]
+    },
+    {
+      "id": "counterfactual-causal-fairness-detection->proxy-inference-structural-discrimination",
+      "source": "counterfactual-causal-fairness-detection",
+      "target": "proxy-inference-structural-discrimination",
+      "source_label": "反事実的因果分析による構造的不公正検出",
+      "target_label": "代理変数推論による構造的差別と監視の統合",
+      "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+      "target_file": "concepts/proxy-inference-structural-discrimination.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "proxy-inference-structural-discrimination"
+      ],
+      "display_labels": [
+        "proxy-inference-structural-discrimination"
+      ],
+      "mentions": [
+        {
+          "raw_target": "proxy-inference-structural-discrimination",
+          "label": "proxy-inference-structural-discrimination",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "proxy-inference-structural-discrimination"
+      ]
+    },
+    {
+      "id": "counterfactual-causal-fairness-detection->structural-bias-from-data-and-hidden-information-constraints",
+      "source": "counterfactual-causal-fairness-detection",
+      "target": "structural-bias-from-data-and-hidden-information-constraints",
+      "source_label": "反事実的因果分析による構造的不公正検出",
+      "target_label": "データ分布と制約下で必然化する構造的バイアス",
+      "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+      "target_file": "concepts/structural-bias-from-data-and-hidden-information-constraints.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "structural-bias-from-data-and-hidden-information-constraints"
+      ],
+      "display_labels": [
+        "structural-bias-from-data-and-hidden-information-constraints"
+      ],
+      "mentions": [
+        {
+          "raw_target": "structural-bias-from-data-and-hidden-information-constraints",
+          "label": "structural-bias-from-data-and-hidden-information-constraints",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "structural-bias-from-data-and-hidden-information-constraints"
+      ]
+    },
+    {
+      "id": "counterfactual-causal-fairness-detection->synthetic-data-fairness-governance",
+      "source": "counterfactual-causal-fairness-detection",
+      "target": "synthetic-data-fairness-governance",
+      "source_label": "反事実的因果分析による構造的不公正検出",
+      "target_label": "合成データの公平性とガバナンス",
+      "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+      "target_file": "concepts/synthetic-data-fairness-governance.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "synthetic-data-fairness-governance"
+      ],
+      "display_labels": [
+        "synthetic-data-fairness-governance"
+      ],
+      "mentions": [
+        {
+          "raw_target": "synthetic-data-fairness-governance",
+          "label": "synthetic-data-fairness-governance",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "synthetic-data-fairness-governance"
+      ]
+    },
+    {
       "id": "coupled-viability-architecture->dangling:2578df296049",
       "source": "coupled-viability-architecture",
       "target": "dangling:2578df296049",
@@ -247795,6 +248245,316 @@
       "ambiguous": false,
       "candidates": [
         "human-ai-collaboration"
+      ]
+    },
+    {
+      "id": "provenance-bounded-epistemic-collaboration->authority-bounding-by-parallel-independent-layers",
+      "source": "provenance-bounded-epistemic-collaboration",
+      "target": "authority-bounding-by-parallel-independent-layers",
+      "source_label": "出自追跡可能性に基づく認識論的協働",
+      "target_label": "並列独立層による権限の有界化",
+      "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+      "target_file": "concepts/authority-bounding-by-parallel-independent-layers.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "authority-bounding-by-parallel-independent-layers"
+      ],
+      "display_labels": [
+        "authority-bounding-by-parallel-independent-layers"
+      ],
+      "mentions": [
+        {
+          "raw_target": "authority-bounding-by-parallel-independent-layers",
+          "label": "authority-bounding-by-parallel-independent-layers",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "authority-bounding-by-parallel-independent-layers"
+      ]
+    },
+    {
+      "id": "provenance-bounded-epistemic-collaboration->epistemic-agency-preservation-under-offloading",
+      "source": "provenance-bounded-epistemic-collaboration",
+      "target": "epistemic-agency-preservation-under-offloading",
+      "source_label": "出自追跡可能性に基づく認識論的協働",
+      "target_label": "認知オフロード下での認識的主体性の維持",
+      "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+      "target_file": "concepts/epistemic-agency-preservation-under-offloading.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "epistemic-agency-preservation-under-offloading"
+      ],
+      "display_labels": [
+        "epistemic-agency-preservation-under-offloading"
+      ],
+      "mentions": [
+        {
+          "raw_target": "epistemic-agency-preservation-under-offloading",
+          "label": "epistemic-agency-preservation-under-offloading",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "epistemic-agency-preservation-under-offloading"
+      ]
+    },
+    {
+      "id": "provenance-bounded-epistemic-collaboration->epistemic-responsibility-and-authorship-anchoring",
+      "source": "provenance-bounded-epistemic-collaboration",
+      "target": "epistemic-responsibility-and-authorship-anchoring",
+      "source_label": "出自追跡可能性に基づく認識論的協働",
+      "target_label": "認識論的責任・著者性の人間への固定",
+      "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+      "target_file": "concepts/epistemic-responsibility-and-authorship-anchoring.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "epistemic-responsibility-and-authorship-anchoring"
+      ],
+      "display_labels": [
+        "epistemic-responsibility-and-authorship-anchoring"
+      ],
+      "mentions": [
+        {
+          "raw_target": "epistemic-responsibility-and-authorship-anchoring",
+          "label": "epistemic-responsibility-and-authorship-anchoring",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "epistemic-responsibility-and-authorship-anchoring"
+      ]
+    },
+    {
+      "id": "provenance-bounded-epistemic-collaboration->evidence-grounded-role-separated-agent-coordination",
+      "source": "provenance-bounded-epistemic-collaboration",
+      "target": "evidence-grounded-role-separated-agent-coordination",
+      "source_label": "出自追跡可能性に基づく認識論的協働",
+      "target_label": "根拠中心・役割分離型のエージェント協調と検証の構造的分離",
+      "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+      "target_file": "concepts/evidence-grounded-role-separated-agent-coordination.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "evidence-grounded-role-separated-agent-coordination"
+      ],
+      "display_labels": [
+        "evidence-grounded-role-separated-agent-coordination"
+      ],
+      "mentions": [
+        {
+          "raw_target": "evidence-grounded-role-separated-agent-coordination",
+          "label": "evidence-grounded-role-separated-agent-coordination",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "evidence-grounded-role-separated-agent-coordination"
+      ]
+    },
+    {
+      "id": "provenance-bounded-epistemic-collaboration->evidence-provenance-coupling-and-illusory-independence",
+      "source": "provenance-bounded-epistemic-collaboration",
+      "target": "evidence-provenance-coupling-and-illusory-independence",
+      "source_label": "出自追跡可能性に基づく認識論的協働",
+      "target_label": "証拠の出所結合と見かけ上の独立性の崩壊",
+      "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+      "target_file": "concepts/evidence-provenance-coupling-and-illusory-independence.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "evidence-provenance-coupling-and-illusory-independence"
+      ],
+      "display_labels": [
+        "evidence-provenance-coupling-and-illusory-independence"
+      ],
+      "mentions": [
+        {
+          "raw_target": "evidence-provenance-coupling-and-illusory-independence",
+          "label": "evidence-provenance-coupling-and-illusory-independence",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "evidence-provenance-coupling-and-illusory-independence"
+      ]
+    },
+    {
+      "id": "provenance-bounded-epistemic-collaboration->human-ai-collaborative-cognition",
+      "source": "provenance-bounded-epistemic-collaboration",
+      "target": "human-ai-collaborative-cognition",
+      "source_label": "出自追跡可能性に基づく認識論的協働",
+      "target_label": "人間とAIの協調認知",
+      "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+      "target_file": "concepts/human-ai-collaborative-cognition.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "human-ai-collaborative-cognition"
+      ],
+      "display_labels": [
+        "human-ai-collaborative-cognition"
+      ],
+      "mentions": [
+        {
+          "raw_target": "human-ai-collaborative-cognition",
+          "label": "human-ai-collaborative-cognition",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "human-ai-collaborative-cognition"
+      ]
+    },
+    {
+      "id": "provenance-bounded-epistemic-collaboration->human-ai-common-ground",
+      "source": "provenance-bounded-epistemic-collaboration",
+      "target": "human-ai-common-ground",
+      "source_label": "出自追跡可能性に基づく認識論的協働",
+      "target_label": "人間とAIの相互インタラクションにおける共通基盤",
+      "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+      "target_file": "concepts/human-ai-common-ground.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "human-ai-common-ground"
+      ],
+      "display_labels": [
+        "human-ai-common-ground"
+      ],
+      "mentions": [
+        {
+          "raw_target": "human-ai-common-ground",
+          "label": "human-ai-common-ground",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "human-ai-common-ground"
+      ]
+    },
+    {
+      "id": "provenance-bounded-epistemic-collaboration->human-provenance-attribution-framework",
+      "source": "provenance-bounded-epistemic-collaboration",
+      "target": "human-provenance-attribution-framework",
+      "source_label": "出自追跡可能性に基づく認識論的協働",
+      "target_label": "人間起源の帰属・来歴管理フレームワーク",
+      "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+      "target_file": "concepts/human-provenance-attribution-framework.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "human-provenance-attribution-framework"
+      ],
+      "display_labels": [
+        "human-provenance-attribution-framework"
+      ],
+      "mentions": [
+        {
+          "raw_target": "human-provenance-attribution-framework",
+          "label": "human-provenance-attribution-framework",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "human-provenance-attribution-framework"
+      ]
+    },
+    {
+      "id": "provenance-bounded-epistemic-collaboration->justification-recoverability-over-information-persistence",
+      "source": "provenance-bounded-epistemic-collaboration",
+      "target": "justification-recoverability-over-information-persistence",
+      "source_label": "出自追跡可能性に基づく認識論的協働",
+      "target_label": "正当化根拠の回復可能性が情報の物理的存続に優先する",
+      "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+      "target_file": "concepts/justification-recoverability-over-information-persistence.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "justification-recoverability-over-information-persistence"
+      ],
+      "display_labels": [
+        "justification-recoverability-over-information-persistence"
+      ],
+      "mentions": [
+        {
+          "raw_target": "justification-recoverability-over-information-persistence",
+          "label": "justification-recoverability-over-information-persistence",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "justification-recoverability-over-information-persistence"
+      ]
+    },
+    {
+      "id": "provenance-bounded-epistemic-collaboration->role-separated-layered-agent-architecture",
+      "source": "provenance-bounded-epistemic-collaboration",
+      "target": "role-separated-layered-agent-architecture",
+      "source_label": "出自追跡可能性に基づく認識論的協働",
+      "target_label": "役割分離と階層化による分散システムの安全性・自律性",
+      "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+      "target_file": "concepts/role-separated-layered-agent-architecture.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "role-separated-layered-agent-architecture"
+      ],
+      "display_labels": [
+        "role-separated-layered-agent-architecture"
+      ],
+      "mentions": [
+        {
+          "raw_target": "role-separated-layered-agent-architecture",
+          "label": "role-separated-layered-agent-architecture",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "role-separated-layered-agent-architecture"
       ]
     },
     {

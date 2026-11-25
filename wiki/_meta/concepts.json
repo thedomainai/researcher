@@ -26963,5 +26963,103 @@
     ],
     "domain": "cognitive_science",
     "compiled_at": "2026-11-25"
+  },
+  {
+    "slug": "counterfactual-causal-fairness-detection",
+    "title_ja": "反事実的因果分析による構造的不公正検出",
+    "title_en": "Counterfactual Causal Fairness Detection",
+    "description": "保護属性に関する構造的不公正を、相関ではなく反事実的因果効果の分解によって検出し、計算と自然言語解釈の役割を分離することで健全性を保つ原理",
+    "mechanisms": [
+      "反事実的推論",
+      "因果効果の分解(直接・間接・疑似効果)",
+      "計算と解釈の役割分離",
+      "交絡・媒介変数の構造的制御"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/automatic-causal-fairness-analysis-with-llm-generated-reporting.md"
+    ],
+    "domain": "ai_governance",
+    "compiled_at": "2026-11-26"
+  },
+  {
+    "slug": "measurement-routine-as-value-construction-mechanism",
+    "title_ja": "測定ルーチンの反復による価値構築メカニズム",
+    "title_en": "Measurement Routine Iteration as Value Construction Mechanism",
+    "description": "不確定な技術的対象の価値は所与として発見されるのではなく、測定ルーチンの反復的な実装・交渉・ガバナンス統合を通じて社会技術的に構築される",
+    "mechanisms": [
+      "組織学習の反復サイクル",
+      "社会技術的構築",
+      "ステークホルダー間の交渉による意味付け",
+      "測定を通じた可視性の定義"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/business_ethics_csr/constructing-ai-value-benefit-measurement-routines-as-microfoundations-of-dynami.md"
+    ],
+    "domain": "business_ethics_csr",
+    "compiled_at": "2026-11-26"
+  },
+  {
+    "slug": "provenance-bounded-epistemic-collaboration",
+    "title_ja": "出自追跡可能性に基づく認識論的協働",
+    "title_en": "Provenance-Bounded Epistemic Collaboration",
+    "description": "異種エージェント間の相互的な知的協働が成立するには、主張の出自追跡可能性と権威の明示的分離が不変条件となる構造",
+    "mechanisms": [
+      "出自追跡可能性",
+      "権威の分離",
+      "棄却された分岐の保存"
+    ],
+    "related_sources": [
+      2
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/co-constructed-thinking-space-ccts-a-provenance-bounded-framework-for-humanai-re.md"
+    ],
+    "domain": "cognitive_science",
+    "compiled_at": "2026-11-26"
+  },
+  {
+    "slug": "second-order-observation-recursive-governance",
+    "title_ja": "二次観察による再帰的統制",
+    "title_en": "Second-Order Observation and Recursive Governance",
+    "description": "統制システムは対象を直接観察・制御するだけでなく、人間とアルゴリズムの双方の観察者がどのような区別（ディスティンクション）によって現実を構成しているかを観察し直す再帰的構造を持つことで、安定した自己参照的統制を成立させる。",
+    "mechanisms": [
+      "自己参照性",
+      "再帰的安定化",
+      "観察の観察(二次観察)"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/observing-the-observers-of-projects-reconceptualizing-the-pmo-through-a-von-foer.md"
+    ],
+    "domain": "complexity_science",
+    "compiled_at": "2026-11-26"
+  },
+  {
+    "slug": "reputation-mediated-cooperation-phase-transition",
+    "title_ja": "評判媒介型協力の相転移",
+    "title_en": "Reputation-Mediated Phase Transition in Cooperation",
+    "description": "個体が評判を外部の報酬修飾因子ではなく自他の行動を解釈する社会的情報として内部化し学習することで、協力状態と裏切り状態の間に不連続な相転移が生じる構造的メカニズム。",
+    "mechanisms": [
+      "社会的情報の内部化",
+      "強化学習による行動適応",
+      "臨界点での不連続相転移",
+      "局所クラスターの核形成と崩壊"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/complexity_science/emergence-of-cooperation-a-reputation-modulated-reinforcement-learning.md"
+    ],
+    "domain": "complexity_science",
+    "compiled_at": "2026-11-26"
   }
 ]

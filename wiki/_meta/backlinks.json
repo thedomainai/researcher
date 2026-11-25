@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-25T09:41:30.402447",
+  "generated_at": "2026-11-26T06:28:02.977432",
   "summary": {
-    "articles_scanned": 1361,
-    "nodes": 3631,
-    "resolved_nodes": 1361,
+    "articles_scanned": 1366,
+    "nodes": 3636,
+    "resolved_nodes": 1366,
     "unresolved_nodes": 2270,
-    "edges": 6717,
-    "resolved_edges": 3757,
+    "edges": 6737,
+    "resolved_edges": 3777,
     "unresolved_edges": 2960,
-    "link_mentions": 7028,
-    "valid_source_refs": 2297,
+    "link_mentions": 7048,
+    "valid_source_refs": 2322,
     "invalid_source_refs": 117,
-    "isolated_concepts": 101
+    "isolated_concepts": 103
   },
   "nodes": {
     "absorption-capacity-bottleneck-saturation": {
@@ -15373,6 +15373,22 @@
               "label": "ai-bias-audits-and-red-teaming",
               "section": "関連コンセプト",
               "line": 83,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "counterfactual-causal-fairness-detection",
+          "label": "反事実的因果分析による構造的不公正検出",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+          "mentions": [
+            {
+              "raw_target": "ai-bias-audits-and-red-teaming",
+              "label": "ai-bias-audits-and-red-teaming",
+              "section": "関連概念",
+              "line": 27,
               "resolved_via": "slug"
             }
           ]
@@ -35108,6 +35124,22 @@
           ]
         },
         {
+          "id": "counterfactual-causal-fairness-detection",
+          "label": "反事実的因果分析による構造的不公正検出",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+          "mentions": [
+            {
+              "raw_target": "algorithmic-bias-fairness",
+              "label": "algorithmic-bias-fairness",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "mediation-visibility-and-curation-bias-amplification",
           "label": "媒介・選択的可視化による評価とバイアスの増幅",
           "resolved": true,
@@ -35334,6 +35366,22 @@
               "label": "algorithmic-black-box-auditing",
               "section": "関連コンセプト",
               "line": 54,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "counterfactual-causal-fairness-detection",
+          "label": "反事実的因果分析による構造的不公正検出",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+          "mentions": [
+            {
+              "raw_target": "algorithmic-black-box-auditing",
+              "label": "algorithmic-black-box-auditing",
+              "section": "関連概念",
+              "line": 27,
               "resolved_via": "slug"
             }
           ]
@@ -35802,6 +35850,22 @@
               "label": "algorithmic-fairness-and-bias-detection",
               "section": "関連コンセプト",
               "line": 86,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "counterfactual-causal-fairness-detection",
+          "label": "反事実的因果分析による構造的不公正検出",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+          "mentions": [
+            {
+              "raw_target": "algorithmic-fairness-and-bias-detection",
+              "label": "algorithmic-fairness-and-bias-detection",
+              "section": "関連概念",
+              "line": 27,
               "resolved_via": "slug"
             }
           ]
@@ -40796,6 +40860,22 @@
       "kind": "concept",
       "file": "concepts/authority-bounding-by-parallel-independent-layers.md",
       "inbound": [
+        {
+          "id": "provenance-bounded-epistemic-collaboration",
+          "label": "出自追跡可能性に基づく認識論的協働",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+          "mentions": [
+            {
+              "raw_target": "authority-bounding-by-parallel-independent-layers",
+              "label": "authority-bounding-by-parallel-independent-layers",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        },
         {
           "id": "multilayer-mismatch-as-breakdown-source",
           "label": "多層的不整合としての協働破綻",
@@ -54551,6 +54631,22 @@
       "file": "concepts/causal-grounding-over-correlation.md",
       "inbound": [
         {
+          "id": "counterfactual-causal-fairness-detection",
+          "label": "反事実的因果分析による構造的不公正検出",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+          "mentions": [
+            {
+              "raw_target": "causal-grounding-over-correlation",
+              "label": "causal-grounding-over-correlation",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "necessary-condition-bottleneck-logic",
           "label": "必要条件ボトルネック論理と多層因果の可視化",
           "resolved": true,
@@ -54778,6 +54874,22 @@
               "label": "causal-inference-in-ai-ml",
               "section": "関連コンセプト",
               "line": 80,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "counterfactual-causal-fairness-detection",
+          "label": "反事実的因果分析による構造的不公正検出",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+          "mentions": [
+            {
+              "raw_target": "causal-inference-in-ai-ml",
+              "label": "causal-inference-in-ai-ml",
+              "section": "関連概念",
+              "line": 27,
               "resolved_via": "slug"
             }
           ]
@@ -77253,6 +77365,277 @@
           "ambiguous": false,
           "candidates": [
             "aggregation-induced-information-loss"
+          ]
+        }
+      ]
+    },
+    "counterfactual-causal-fairness-detection": {
+      "id": "counterfactual-causal-fairness-detection",
+      "slug": "counterfactual-causal-fairness-detection",
+      "label": "反事実的因果分析による構造的不公正検出",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/counterfactual-causal-fairness-detection.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "causal-inference-in-ai-ml",
+          "label": "AI/MLにおける因果推論",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/causal-inference-in-ai-ml.md",
+          "raw_targets": [
+            "causal-inference-in-ai-ml"
+          ],
+          "display_labels": [
+            "causal-inference-in-ai-ml"
+          ],
+          "mentions": [
+            {
+              "raw_target": "causal-inference-in-ai-ml",
+              "label": "causal-inference-in-ai-ml",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "causal-inference-in-ai-ml"
+          ]
+        },
+        {
+          "id": "ai-bias-audits-and-red-teaming",
+          "label": "AIバイアス監査とレッドチーム演習の統合",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/ai-bias-audits-and-red-teaming.md",
+          "raw_targets": [
+            "ai-bias-audits-and-red-teaming"
+          ],
+          "display_labels": [
+            "ai-bias-audits-and-red-teaming"
+          ],
+          "mentions": [
+            {
+              "raw_target": "ai-bias-audits-and-red-teaming",
+              "label": "ai-bias-audits-and-red-teaming",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "ai-bias-audits-and-red-teaming"
+          ]
+        },
+        {
+          "id": "algorithmic-bias-fairness",
+          "label": "アルゴリズムバイアスと公平性",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/algorithmic-bias-fairness.md",
+          "raw_targets": [
+            "algorithmic-bias-fairness"
+          ],
+          "display_labels": [
+            "algorithmic-bias-fairness"
+          ],
+          "mentions": [
+            {
+              "raw_target": "algorithmic-bias-fairness",
+              "label": "algorithmic-bias-fairness",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "algorithmic-bias-fairness"
+          ]
+        },
+        {
+          "id": "algorithmic-black-box-auditing",
+          "label": "アルゴリズム意思決定における監査・説明責任の不確実性",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/algorithmic-black-box-auditing.md",
+          "raw_targets": [
+            "algorithmic-black-box-auditing"
+          ],
+          "display_labels": [
+            "algorithmic-black-box-auditing"
+          ],
+          "mentions": [
+            {
+              "raw_target": "algorithmic-black-box-auditing",
+              "label": "algorithmic-black-box-auditing",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "algorithmic-black-box-auditing"
+          ]
+        },
+        {
+          "id": "algorithmic-fairness-and-bias-detection",
+          "label": "アルゴリズム的公正性とバイアス検出",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/algorithmic-fairness-and-bias-detection.md",
+          "raw_targets": [
+            "algorithmic-fairness-and-bias-detection"
+          ],
+          "display_labels": [
+            "algorithmic-fairness-and-bias-detection"
+          ],
+          "mentions": [
+            {
+              "raw_target": "algorithmic-fairness-and-bias-detection",
+              "label": "algorithmic-fairness-and-bias-detection",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "algorithmic-fairness-and-bias-detection"
+          ]
+        },
+        {
+          "id": "structural-bias-from-data-and-hidden-information-constraints",
+          "label": "データ分布と制約下で必然化する構造的バイアス",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/structural-bias-from-data-and-hidden-information-constraints.md",
+          "raw_targets": [
+            "structural-bias-from-data-and-hidden-information-constraints"
+          ],
+          "display_labels": [
+            "structural-bias-from-data-and-hidden-information-constraints"
+          ],
+          "mentions": [
+            {
+              "raw_target": "structural-bias-from-data-and-hidden-information-constraints",
+              "label": "structural-bias-from-data-and-hidden-information-constraints",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "structural-bias-from-data-and-hidden-information-constraints"
+          ]
+        },
+        {
+          "id": "proxy-inference-structural-discrimination",
+          "label": "代理変数推論による構造的差別と監視の統合",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/proxy-inference-structural-discrimination.md",
+          "raw_targets": [
+            "proxy-inference-structural-discrimination"
+          ],
+          "display_labels": [
+            "proxy-inference-structural-discrimination"
+          ],
+          "mentions": [
+            {
+              "raw_target": "proxy-inference-structural-discrimination",
+              "label": "proxy-inference-structural-discrimination",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "proxy-inference-structural-discrimination"
+          ]
+        },
+        {
+          "id": "synthetic-data-fairness-governance",
+          "label": "合成データの公平性とガバナンス",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/synthetic-data-fairness-governance.md",
+          "raw_targets": [
+            "synthetic-data-fairness-governance"
+          ],
+          "display_labels": [
+            "synthetic-data-fairness-governance"
+          ],
+          "mentions": [
+            {
+              "raw_target": "synthetic-data-fairness-governance",
+              "label": "synthetic-data-fairness-governance",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "synthetic-data-fairness-governance"
+          ]
+        },
+        {
+          "id": "causal-grounding-over-correlation",
+          "label": "相関を超える因果的根拠づけ",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/causal-grounding-over-correlation.md",
+          "raw_targets": [
+            "causal-grounding-over-correlation"
+          ],
+          "display_labels": [
+            "causal-grounding-over-correlation"
+          ],
+          "mentions": [
+            {
+              "raw_target": "causal-grounding-over-correlation",
+              "label": "causal-grounding-over-correlation",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "causal-grounding-over-correlation"
+          ]
+        },
+        {
+          "id": "explainability-and-human-governed-decision-loops",
+          "label": "説明可能性と人間統制下の意思決定ループ",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/explainability-and-human-governed-decision-loops.md",
+          "raw_targets": [
+            "explainability-and-human-governed-decision-loops"
+          ],
+          "display_labels": [
+            "explainability-and-human-governed-decision-loops"
+          ],
+          "mentions": [
+            {
+              "raw_target": "explainability-and-human-governed-decision-loops",
+              "label": "explainability-and-human-governed-decision-loops",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "explainability-and-human-governed-decision-loops"
           ]
         }
       ]
@@ -175238,6 +175621,22 @@
       "file": "concepts/epistemic-agency-preservation-under-offloading.md",
       "inbound": [
         {
+          "id": "provenance-bounded-epistemic-collaboration",
+          "label": "出自追跡可能性に基づく認識論的協働",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+          "mentions": [
+            {
+              "raw_target": "epistemic-agency-preservation-under-offloading",
+              "label": "epistemic-agency-preservation-under-offloading",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "moral-responsibility-anchoring-in-decision-agents",
           "label": "意思決定主体への責任の錨づけと分散の抑止",
           "resolved": true,
@@ -177878,6 +178277,22 @@
               "label": "epistemic-responsibility-and-authorship-anchoring",
               "section": "関連コンセプト",
               "line": 53,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "provenance-bounded-epistemic-collaboration",
+          "label": "出自追跡可能性に基づく認識論的協働",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+          "mentions": [
+            {
+              "raw_target": "epistemic-responsibility-and-authorship-anchoring",
+              "label": "epistemic-responsibility-and-authorship-anchoring",
+              "section": "関連概念",
+              "line": 27,
               "resolved_via": "slug"
             }
           ]
@@ -181198,6 +181613,22 @@
           ]
         },
         {
+          "id": "provenance-bounded-epistemic-collaboration",
+          "label": "出自追跡可能性に基づく認識論的協働",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+          "mentions": [
+            {
+              "raw_target": "evidence-grounded-role-separated-agent-coordination",
+              "label": "evidence-grounded-role-separated-agent-coordination",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "unobservable-control-and-emergent-collusion-limits",
           "label": "可観測性・制御の原理的限界と創発的暗黙協調のリスク",
           "resolved": true,
@@ -182141,7 +182572,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/evidence-provenance-coupling-and-illusory-independence.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "provenance-bounded-epistemic-collaboration",
+          "label": "出自追跡可能性に基づく認識論的協働",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+          "mentions": [
+            {
+              "raw_target": "evidence-provenance-coupling-and-illusory-independence",
+              "label": "evidence-provenance-coupling-and-illusory-independence",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": [
         {
           "id": "calibrated-multi-evidence-fusion",
@@ -183927,6 +184375,22 @@
               "label": "explainability-and-human-governed-decision-loops",
               "section": "関連コンセプト",
               "line": 73,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "counterfactual-causal-fairness-detection",
+          "label": "反事実的因果分析による構造的不公正検出",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+          "mentions": [
+            {
+              "raw_target": "explainability-and-human-governed-decision-loops",
+              "label": "explainability-and-human-governed-decision-loops",
+              "section": "関連概念",
+              "line": 27,
               "resolved_via": "slug"
             }
           ]
@@ -208075,6 +208539,22 @@
       "file": "concepts/human-ai-collaborative-cognition.md",
       "inbound": [
         {
+          "id": "provenance-bounded-epistemic-collaboration",
+          "label": "出自追跡可能性に基づく認識論的協働",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+          "mentions": [
+            {
+              "raw_target": "human-ai-collaborative-cognition",
+              "label": "human-ai-collaborative-cognition",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "cognitive-coupling-system-boundary",
           "label": "結合認知システムにおける能力のシステム境界帰属",
           "resolved": true,
@@ -208287,6 +208767,22 @@
       "kind": "concept",
       "file": "concepts/human-ai-common-ground.md",
       "inbound": [
+        {
+          "id": "provenance-bounded-epistemic-collaboration",
+          "label": "出自追跡可能性に基づく認識論的協働",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+          "mentions": [
+            {
+              "raw_target": "human-ai-common-ground",
+              "label": "human-ai-common-ground",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        },
         {
           "id": "role-asymmetry-projection-in-simulated-interaction",
           "label": "学習データの役割非対称性の射影と相互作用シミュレーションの妥当性",
@@ -213419,6 +213915,22 @@
       "kind": "concept",
       "file": "concepts/human-provenance-attribution-framework.md",
       "inbound": [
+        {
+          "id": "provenance-bounded-epistemic-collaboration",
+          "label": "出自追跡可能性に基づく認識論的協働",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+          "mentions": [
+            {
+              "raw_target": "human-provenance-attribution-framework",
+              "label": "human-provenance-attribution-framework",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        },
         {
           "id": "surface-substrate-divergence",
           "label": "宣言と実質の乖離と意図・原因の切り分け",
@@ -227697,7 +228209,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/justification-recoverability-over-information-persistence.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "provenance-bounded-epistemic-collaboration",
+          "label": "出自追跡可能性に基づく認識論的協働",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+          "mentions": [
+            {
+              "raw_target": "justification-recoverability-over-information-persistence",
+              "label": "justification-recoverability-over-information-persistence",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": []
     },
     "kerrigans-law": {
@@ -236943,6 +237472,16 @@
           "candidates": []
         }
       ]
+    },
+    "measurement-routine-as-value-construction-mechanism": {
+      "id": "measurement-routine-as-value-construction-mechanism",
+      "slug": "measurement-routine-as-value-construction-mechanism",
+      "label": "測定ルーチンの反復による価値構築メカニズム",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/measurement-routine-as-value-construction-mechanism.md",
+      "inbound": [],
+      "outbound": []
     },
     "mechanism-aligned-debiasing-intervention": {
       "id": "mechanism-aligned-debiasing-intervention",
@@ -266882,6 +267421,277 @@
       "inbound": [],
       "outbound": []
     },
+    "provenance-bounded-epistemic-collaboration": {
+      "id": "provenance-bounded-epistemic-collaboration",
+      "slug": "provenance-bounded-epistemic-collaboration",
+      "label": "出自追跡可能性に基づく認識論的協働",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/provenance-bounded-epistemic-collaboration.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "authority-bounding-by-parallel-independent-layers",
+          "label": "並列独立層による権限の有界化",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/authority-bounding-by-parallel-independent-layers.md",
+          "raw_targets": [
+            "authority-bounding-by-parallel-independent-layers"
+          ],
+          "display_labels": [
+            "authority-bounding-by-parallel-independent-layers"
+          ],
+          "mentions": [
+            {
+              "raw_target": "authority-bounding-by-parallel-independent-layers",
+              "label": "authority-bounding-by-parallel-independent-layers",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "authority-bounding-by-parallel-independent-layers"
+          ]
+        },
+        {
+          "id": "human-ai-collaborative-cognition",
+          "label": "人間とAIの協調認知",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/human-ai-collaborative-cognition.md",
+          "raw_targets": [
+            "human-ai-collaborative-cognition"
+          ],
+          "display_labels": [
+            "human-ai-collaborative-cognition"
+          ],
+          "mentions": [
+            {
+              "raw_target": "human-ai-collaborative-cognition",
+              "label": "human-ai-collaborative-cognition",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "human-ai-collaborative-cognition"
+          ]
+        },
+        {
+          "id": "human-ai-common-ground",
+          "label": "人間とAIの相互インタラクションにおける共通基盤",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/human-ai-common-ground.md",
+          "raw_targets": [
+            "human-ai-common-ground"
+          ],
+          "display_labels": [
+            "human-ai-common-ground"
+          ],
+          "mentions": [
+            {
+              "raw_target": "human-ai-common-ground",
+              "label": "human-ai-common-ground",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "human-ai-common-ground"
+          ]
+        },
+        {
+          "id": "human-provenance-attribution-framework",
+          "label": "人間起源の帰属・来歴管理フレームワーク",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/human-provenance-attribution-framework.md",
+          "raw_targets": [
+            "human-provenance-attribution-framework"
+          ],
+          "display_labels": [
+            "human-provenance-attribution-framework"
+          ],
+          "mentions": [
+            {
+              "raw_target": "human-provenance-attribution-framework",
+              "label": "human-provenance-attribution-framework",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "human-provenance-attribution-framework"
+          ]
+        },
+        {
+          "id": "role-separated-layered-agent-architecture",
+          "label": "役割分離と階層化による分散システムの安全性・自律性",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/role-separated-layered-agent-architecture.md",
+          "raw_targets": [
+            "role-separated-layered-agent-architecture"
+          ],
+          "display_labels": [
+            "role-separated-layered-agent-architecture"
+          ],
+          "mentions": [
+            {
+              "raw_target": "role-separated-layered-agent-architecture",
+              "label": "role-separated-layered-agent-architecture",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "role-separated-layered-agent-architecture"
+          ]
+        },
+        {
+          "id": "evidence-grounded-role-separated-agent-coordination",
+          "label": "根拠中心・役割分離型のエージェント協調と検証の構造的分離",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/evidence-grounded-role-separated-agent-coordination.md",
+          "raw_targets": [
+            "evidence-grounded-role-separated-agent-coordination"
+          ],
+          "display_labels": [
+            "evidence-grounded-role-separated-agent-coordination"
+          ],
+          "mentions": [
+            {
+              "raw_target": "evidence-grounded-role-separated-agent-coordination",
+              "label": "evidence-grounded-role-separated-agent-coordination",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "evidence-grounded-role-separated-agent-coordination"
+          ]
+        },
+        {
+          "id": "justification-recoverability-over-information-persistence",
+          "label": "正当化根拠の回復可能性が情報の物理的存続に優先する",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/justification-recoverability-over-information-persistence.md",
+          "raw_targets": [
+            "justification-recoverability-over-information-persistence"
+          ],
+          "display_labels": [
+            "justification-recoverability-over-information-persistence"
+          ],
+          "mentions": [
+            {
+              "raw_target": "justification-recoverability-over-information-persistence",
+              "label": "justification-recoverability-over-information-persistence",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "justification-recoverability-over-information-persistence"
+          ]
+        },
+        {
+          "id": "evidence-provenance-coupling-and-illusory-independence",
+          "label": "証拠の出所結合と見かけ上の独立性の崩壊",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/evidence-provenance-coupling-and-illusory-independence.md",
+          "raw_targets": [
+            "evidence-provenance-coupling-and-illusory-independence"
+          ],
+          "display_labels": [
+            "evidence-provenance-coupling-and-illusory-independence"
+          ],
+          "mentions": [
+            {
+              "raw_target": "evidence-provenance-coupling-and-illusory-independence",
+              "label": "evidence-provenance-coupling-and-illusory-independence",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "evidence-provenance-coupling-and-illusory-independence"
+          ]
+        },
+        {
+          "id": "epistemic-agency-preservation-under-offloading",
+          "label": "認知オフロード下での認識的主体性の維持",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/epistemic-agency-preservation-under-offloading.md",
+          "raw_targets": [
+            "epistemic-agency-preservation-under-offloading"
+          ],
+          "display_labels": [
+            "epistemic-agency-preservation-under-offloading"
+          ],
+          "mentions": [
+            {
+              "raw_target": "epistemic-agency-preservation-under-offloading",
+              "label": "epistemic-agency-preservation-under-offloading",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "epistemic-agency-preservation-under-offloading"
+          ]
+        },
+        {
+          "id": "epistemic-responsibility-and-authorship-anchoring",
+          "label": "認識論的責任・著者性の人間への固定",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/epistemic-responsibility-and-authorship-anchoring.md",
+          "raw_targets": [
+            "epistemic-responsibility-and-authorship-anchoring"
+          ],
+          "display_labels": [
+            "epistemic-responsibility-and-authorship-anchoring"
+          ],
+          "mentions": [
+            {
+              "raw_target": "epistemic-responsibility-and-authorship-anchoring",
+              "label": "epistemic-responsibility-and-authorship-anchoring",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "epistemic-responsibility-and-authorship-anchoring"
+          ]
+        }
+      ]
+    },
     "provenance-independent-validity-and-trust-value-collapse": {
       "id": "provenance-independent-validity-and-trust-value-collapse",
       "slug": "provenance-independent-validity-and-trust-value-collapse",
@@ -267206,6 +268016,22 @@
               "label": "proxy-inference-structural-discrimination",
               "section": "関連コンセプト",
               "line": 49,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "counterfactual-causal-fairness-detection",
+          "label": "反事実的因果分析による構造的不公正検出",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+          "mentions": [
+            {
+              "raw_target": "proxy-inference-structural-discrimination",
+              "label": "proxy-inference-structural-discrimination",
+              "section": "関連概念",
+              "line": 27,
               "resolved_via": "slug"
             }
           ]
@@ -274223,6 +275049,16 @@
         }
       ]
     },
+    "reputation-mediated-cooperation-phase-transition": {
+      "id": "reputation-mediated-cooperation-phase-transition",
+      "slug": "reputation-mediated-cooperation-phase-transition",
+      "label": "評判媒介型協力の相転移",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/reputation-mediated-cooperation-phase-transition.md",
+      "inbound": [],
+      "outbound": []
+    },
     "resilience-engineering": {
       "id": "resilience-engineering",
       "slug": "resilience-engineering",
@@ -278206,6 +279042,22 @@
       "file": "concepts/role-separated-layered-agent-architecture.md",
       "inbound": [
         {
+          "id": "provenance-bounded-epistemic-collaboration",
+          "label": "出自追跡可能性に基づく認識論的協働",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+          "mentions": [
+            {
+              "raw_target": "role-separated-layered-agent-architecture",
+              "label": "role-separated-layered-agent-architecture",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "evidence-grounded-role-separated-agent-coordination",
           "label": "根拠中心・役割分離型のエージェント協調と検証の構造的分離",
           "resolved": true,
@@ -281051,6 +281903,16 @@
           "candidates": []
         }
       ]
+    },
+    "second-order-observation-recursive-governance": {
+      "id": "second-order-observation-recursive-governance",
+      "slug": "second-order-observation-recursive-governance",
+      "label": "二次観察による再帰的統制",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/second-order-observation-recursive-governance.md",
+      "inbound": [],
+      "outbound": []
     },
     "selection-mechanisms-determine-institutional-adaptability": {
       "id": "selection-mechanisms-determine-institutional-adaptability",
@@ -296309,6 +297171,22 @@
       "file": "concepts/structural-bias-from-data-and-hidden-information-constraints.md",
       "inbound": [
         {
+          "id": "counterfactual-causal-fairness-detection",
+          "label": "反事実的因果分析による構造的不公正検出",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+          "mentions": [
+            {
+              "raw_target": "structural-bias-from-data-and-hidden-information-constraints",
+              "label": "structural-bias-from-data-and-hidden-information-constraints",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "mediation-visibility-and-curation-bias-amplification",
           "label": "媒介・選択的可視化による評価とバイアスの増幅",
           "resolved": true,
@@ -301815,6 +302693,22 @@
       "kind": "concept",
       "file": "concepts/synthetic-data-fairness-governance.md",
       "inbound": [
+        {
+          "id": "counterfactual-causal-fairness-detection",
+          "label": "反事実的因果分析による構造的不公正検出",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+          "mentions": [
+            {
+              "raw_target": "synthetic-data-fairness-governance",
+              "label": "synthetic-data-fairness-governance",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        },
         {
           "id": "representation-and-evaluation-validity-distortion",
           "label": "表現と評価の妥当性歪み",
@@ -326851,6 +327745,22 @@
         ]
       },
       {
+        "id": "counterfactual-causal-fairness-detection",
+        "label": "反事実的因果分析による構造的不公正検出",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+        "mentions": [
+          {
+            "raw_target": "ai-bias-audits-and-red-teaming",
+            "label": "ai-bias-audits-and-red-teaming",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "mediation-visibility-and-curation-bias-amplification",
         "label": "媒介・選択的可視化による評価とバイアスの増幅",
         "resolved": true,
@@ -333615,6 +334525,22 @@
         ]
       },
       {
+        "id": "counterfactual-causal-fairness-detection",
+        "label": "反事実的因果分析による構造的不公正検出",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+        "mentions": [
+          {
+            "raw_target": "algorithmic-bias-fairness",
+            "label": "algorithmic-bias-fairness",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "mediation-visibility-and-curation-bias-amplification",
         "label": "媒介・選択的可視化による評価とバイアスの増幅",
         "resolved": true,
@@ -333784,6 +334710,22 @@
         ]
       },
       {
+        "id": "counterfactual-causal-fairness-detection",
+        "label": "反事実的因果分析による構造的不公正検出",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+        "mentions": [
+          {
+            "raw_target": "algorithmic-black-box-auditing",
+            "label": "algorithmic-black-box-auditing",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "multi-actor-value-chain-liability-reallocation",
         "label": "多主体価値連鎖における責任配分の再構成",
         "resolved": true,
@@ -333879,6 +334821,22 @@
             "label": "algorithmic-fairness-and-bias-detection",
             "section": "関連コンセプト",
             "line": 86,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "counterfactual-causal-fairness-detection",
+        "label": "反事実的因果分析による構造的不公正検出",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+        "mentions": [
+          {
+            "raw_target": "algorithmic-fairness-and-bias-detection",
+            "label": "algorithmic-fairness-and-bias-detection",
+            "section": "関連概念",
+            "line": 27,
             "resolved_via": "slug"
           }
         ]
@@ -335372,6 +336330,22 @@
     ],
     "auditor-independence-and-earnings-quality": [],
     "authority-bounding-by-parallel-independent-layers": [
+      {
+        "id": "provenance-bounded-epistemic-collaboration",
+        "label": "出自追跡可能性に基づく認識論的協働",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+        "mentions": [
+          {
+            "raw_target": "authority-bounding-by-parallel-independent-layers",
+            "label": "authority-bounding-by-parallel-independent-layers",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
       {
         "id": "multilayer-mismatch-as-breakdown-source",
         "label": "多層的不整合としての協働破綻",
@@ -340199,6 +341173,22 @@
     ],
     "causal-grounding-over-correlation": [
       {
+        "id": "counterfactual-causal-fairness-detection",
+        "label": "反事実的因果分析による構造的不公正検出",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+        "mentions": [
+          {
+            "raw_target": "causal-grounding-over-correlation",
+            "label": "causal-grounding-over-correlation",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "necessary-condition-bottleneck-logic",
         "label": "必要条件ボトルネック論理と多層因果の可視化",
         "resolved": true,
@@ -340260,6 +341250,22 @@
             "label": "causal-inference-in-ai-ml",
             "section": "関連コンセプト",
             "line": 80,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "counterfactual-causal-fairness-detection",
+        "label": "反事実的因果分析による構造的不公正検出",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+        "mentions": [
+          {
+            "raw_target": "causal-inference-in-ai-ml",
+            "label": "causal-inference-in-ai-ml",
+            "section": "関連概念",
+            "line": 27,
             "resolved_via": "slug"
           }
         ]
@@ -347527,6 +348533,7 @@
         ]
       }
     ],
+    "counterfactual-causal-fairness-detection": [],
     "coupled-viability-architecture": [
       {
         "id": "architecture-level-value-preservation-and-social-harness",
@@ -405325,6 +406332,22 @@
     "epic-cognition-theory": [],
     "epistemic-agency-preservation-under-offloading": [
       {
+        "id": "provenance-bounded-epistemic-collaboration",
+        "label": "出自追跡可能性に基づく認識論的協働",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+        "mentions": [
+          {
+            "raw_target": "epistemic-agency-preservation-under-offloading",
+            "label": "epistemic-agency-preservation-under-offloading",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "moral-responsibility-anchoring-in-decision-agents",
         "label": "意思決定主体への責任の錨づけと分散の抑止",
         "resolved": true,
@@ -406367,6 +407390,22 @@
         ]
       },
       {
+        "id": "provenance-bounded-epistemic-collaboration",
+        "label": "出自追跡可能性に基づく認識論的協働",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+        "mentions": [
+          {
+            "raw_target": "epistemic-responsibility-and-authorship-anchoring",
+            "label": "epistemic-responsibility-and-authorship-anchoring",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "distributed-responsibility-and-answerability-anchoring",
         "label": "分散システムにおける責任帰属と応答可能性の錨",
         "resolved": true,
@@ -407251,6 +408290,22 @@
         ]
       },
       {
+        "id": "provenance-bounded-epistemic-collaboration",
+        "label": "出自追跡可能性に基づく認識論的協働",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+        "mentions": [
+          {
+            "raw_target": "evidence-grounded-role-separated-agent-coordination",
+            "label": "evidence-grounded-role-separated-agent-coordination",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "unobservable-control-and-emergent-collusion-limits",
         "label": "可観測性・制御の原理的限界と創発的暗黙協調のリスク",
         "resolved": true,
@@ -407603,7 +408658,24 @@
         ]
       }
     ],
-    "evidence-provenance-coupling-and-illusory-independence": [],
+    "evidence-provenance-coupling-and-illusory-independence": [
+      {
+        "id": "provenance-bounded-epistemic-collaboration",
+        "label": "出自追跡可能性に基づく認識論的協働",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+        "mentions": [
+          {
+            "raw_target": "evidence-provenance-coupling-and-illusory-independence",
+            "label": "evidence-provenance-coupling-and-illusory-independence",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "evolutionary-economics-and-organizational-routines": [
       {
         "id": "structural-origins-of-organizational-harm-and-power-framing",
@@ -407899,6 +408971,22 @@
             "label": "explainability-and-human-governed-decision-loops",
             "section": "関連コンセプト",
             "line": 73,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "counterfactual-causal-fairness-detection",
+        "label": "反事実的因果分析による構造的不公正検出",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+        "mentions": [
+          {
+            "raw_target": "explainability-and-human-governed-decision-loops",
+            "label": "explainability-and-human-governed-decision-loops",
+            "section": "関連概念",
+            "line": 27,
             "resolved_via": "slug"
           }
         ]
@@ -414409,6 +415497,22 @@
     ],
     "human-ai-collaborative-cognition": [
       {
+        "id": "provenance-bounded-epistemic-collaboration",
+        "label": "出自追跡可能性に基づく認識論的協働",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+        "mentions": [
+          {
+            "raw_target": "human-ai-collaborative-cognition",
+            "label": "human-ai-collaborative-cognition",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "cognitive-coupling-system-boundary",
         "label": "結合認知システムにおける能力のシステム境界帰属",
         "resolved": true,
@@ -414427,6 +415531,22 @@
     ],
     "human-ai-collaborative-forecasting": [],
     "human-ai-common-ground": [
+      {
+        "id": "provenance-bounded-epistemic-collaboration",
+        "label": "出自追跡可能性に基づく認識論的協働",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+        "mentions": [
+          {
+            "raw_target": "human-ai-common-ground",
+            "label": "human-ai-common-ground",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
       {
         "id": "role-asymmetry-projection-in-simulated-interaction",
         "label": "学習データの役割非対称性の射影と相互作用シミュレーションの妥当性",
@@ -416792,6 +417912,22 @@
       }
     ],
     "human-provenance-attribution-framework": [
+      {
+        "id": "provenance-bounded-epistemic-collaboration",
+        "label": "出自追跡可能性に基づく認識論的協働",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+        "mentions": [
+          {
+            "raw_target": "human-provenance-attribution-framework",
+            "label": "human-provenance-attribution-framework",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
       {
         "id": "surface-substrate-divergence",
         "label": "宣言と実質の乖離と意図・原因の切り分け",
@@ -419636,7 +420772,24 @@
       }
     ],
     "jurisprudence-code-styles": [],
-    "justification-recoverability-over-information-persistence": [],
+    "justification-recoverability-over-information-persistence": [
+      {
+        "id": "provenance-bounded-epistemic-collaboration",
+        "label": "出自追跡可能性に基づく認識論的協働",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+        "mentions": [
+          {
+            "raw_target": "justification-recoverability-over-information-persistence",
+            "label": "justification-recoverability-over-information-persistence",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "kerrigans-law": [],
     "knowledge-creation-and-firm-theory": [],
     "knowledge-economy-historical-origins": [
@@ -421390,6 +422543,7 @@
         ]
       }
     ],
+    "measurement-routine-as-value-construction-mechanism": [],
     "mechanism-aligned-debiasing-intervention": [],
     "mediated-access-to-capability-conversion": [
       {
@@ -427620,6 +428774,7 @@
     ],
     "prospect-guided-ai-adoption": [],
     "prospect-theory": [],
+    "provenance-bounded-epistemic-collaboration": [],
     "provenance-independent-validity-and-trust-value-collapse": [
       {
         "id": "perspective-fidelity-factual-validity-decoupling",
@@ -427651,6 +428806,22 @@
             "label": "proxy-inference-structural-discrimination",
             "section": "関連コンセプト",
             "line": 49,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "counterfactual-causal-fairness-detection",
+        "label": "反事実的因果分析による構造的不公正検出",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+        "mentions": [
+          {
+            "raw_target": "proxy-inference-structural-discrimination",
+            "label": "proxy-inference-structural-discrimination",
+            "section": "関連概念",
+            "line": 27,
             "resolved_via": "slug"
           }
         ]
@@ -428467,6 +429638,7 @@
       }
     ],
     "reproducibility-in-human-computer-interaction": [],
+    "reputation-mediated-cooperation-phase-transition": [],
     "resilience-engineering": [
       {
         "id": "institutional-preparedness-as-layered-invariant-decomposition",
@@ -429351,6 +430523,22 @@
     ],
     "role-separated-layered-agent-architecture": [
       {
+        "id": "provenance-bounded-epistemic-collaboration",
+        "label": "出自追跡可能性に基づく認識論的協働",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/provenance-bounded-epistemic-collaboration.md",
+        "mentions": [
+          {
+            "raw_target": "role-separated-layered-agent-architecture",
+            "label": "role-separated-layered-agent-architecture",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "evidence-grounded-role-separated-agent-coordination",
         "label": "根拠中心・役割分離型のエージェント協調と検証の構造的分離",
         "resolved": true,
@@ -429933,6 +431121,7 @@
       }
     ],
     "scoping-studies-methodology": [],
+    "second-order-observation-recursive-governance": [],
     "selection-mechanisms-determine-institutional-adaptability": [],
     "selective-noticing-and-context-relevance-filtering": [],
     "self-configuring-agentic-architecture": [
@@ -432591,6 +433780,22 @@
     ],
     "structural-bias-from-data-and-hidden-information-constraints": [
       {
+        "id": "counterfactual-causal-fairness-detection",
+        "label": "反事実的因果分析による構造的不公正検出",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+        "mentions": [
+          {
+            "raw_target": "structural-bias-from-data-and-hidden-information-constraints",
+            "label": "structural-bias-from-data-and-hidden-information-constraints",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "mediation-visibility-and-curation-bias-amplification",
         "label": "媒介・選択的可視化による評価とバイアスの増幅",
         "resolved": true,
@@ -433829,6 +435034,22 @@
     ],
     "synthetic-conversation-testing": [],
     "synthetic-data-fairness-governance": [
+      {
+        "id": "counterfactual-causal-fairness-detection",
+        "label": "反事実的因果分析による構造的不公正検出",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/counterfactual-causal-fairness-detection.md",
+        "mentions": [
+          {
+            "raw_target": "synthetic-data-fairness-governance",
+            "label": "synthetic-data-fairness-governance",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
       {
         "id": "representation-and-evaluation-validity-distortion",
         "label": "表現と評価の妥当性歪み",

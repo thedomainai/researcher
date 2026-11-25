@@ -2543,6 +2543,12 @@
   "title_en": "Costly Verification Allocation Tradeoff",
   "why": "AIが判断・検査を大量に担う時代は、検査の粒度と対象を制度設計として明示的に決める必要がある。"
  },
+ "counterfactual-causal-fairness-detection": {
+  "at": "2026-11-25T21:28:34+00:00",
+  "summary": "AI公正性の判定を相関ではなく反事実的因果分解に基づかせ、直接・間接・疑似効果を区別することで見せかけの公正・不公正を排除する。",
+  "title_en": "Counterfactual Causal Fairness Detection",
+  "why": "因果モデルの計算とLLMの説明生成を分離する設計が、公正性監査の説明責任を支える。"
+ },
  "coupled-viability-architecture": {
   "at": "2026-10-01T09:44:59+00:00",
   "summary": "結合生存性アーキテクチャは人間とAIを苦楽信号を共有する結合振動子とみなし、双方向の自己調整で両者の生存状態を動的に維持するフレームワークである。",
@@ -5441,6 +5447,12 @@
   "title_en": "Measurement Invariance",
   "why": "異なる国や文化圏でAI関連の意識調査を比較する際は、測定不変性を確認しなければ結果が誤って解釈される恐れがある。"
  },
+ "measurement-routine-as-value-construction-mechanism": {
+  "at": "2026-11-25T21:28:34+00:00",
+  "summary": "AIの価値はあらかじめ存在せず、測定ルーチンの反復実装と交渉を通じて組織内で事後的に構築されるプロセスである。",
+  "title_en": "Measurement Routines as Value Construction Mechanism",
+  "why": "価値測定の設計自体が組織の意思決定構造を形成するため、評価手法選定を単純な計測行為として扱えない。"
+ },
  "mechanism-aligned-debiasing-intervention": {
   "at": "2026-11-25T00:43:06+00:00",
   "summary": "認知バイアスの低減は汎用的な警告では効果が薄く、代表性・利用可能性・アンカリングなど個々の心理メカニズムに合わせて説明形式を選ぶことで効果が最大化される。",
@@ -6473,6 +6485,12 @@
   "title_en": "Prospect Theory",
   "why": ""
  },
+ "provenance-bounded-epistemic-collaboration": {
+  "at": "2026-11-25T21:28:34+00:00",
+  "summary": "人間とAIの協働は、主張の出自追跡と権威の分離、棄却された分岐の保存という構造的要件を満たして初めて成立すると定義する。",
+  "title_en": "Provenance-Bounded Epistemic Collaboration",
+  "why": "協働の成立を型として検査可能にすることで、過大な協働主張への自動的な歯止めを組織システムに組み込める。"
+ },
  "provenance-independent-validity-and-trust-value-collapse": {
   "at": "2026-10-01T10:00:54+00:00",
   "summary": "命題の妥当性は生成主体の属性でなく検証手続きで評価すべきだが、偽造と真正が識別不能になるとシグナル全体の信頼価値が崩壊する。",
@@ -6695,6 +6713,12 @@
   "title_en": "Reproducibility in Human-Computer Interaction",
   "why": "再現性が組織内で担保されない限り、研究知見の共有だけでは信頼性の向上につながらない。"
  },
+ "reputation-mediated-cooperation-phase-transition": {
+  "at": "2026-11-25T21:28:34+00:00",
+  "summary": "評判を外部報酬でなく社会的情報として内部化した学習が、裏切り誘惑の増大に伴い協力から裏切りへ不連続に転換する臨界現象を生む。",
+  "title_en": "Reputation-Mediated Cooperation Phase Transition",
+  "why": "協力崩壊が緩やかでなく臨界点で急変するため、インセンティブ非対称性の兆候監視が必要になる。"
+ },
  "resilience-engineering": {
   "at": "2026-10-01T10:03:04+00:00",
   "summary": "レジリエンスエンジニアリングは、事後対応的な従来の安全管理に代わり、想定外の事態にもロバスト性・柔軟性・学習能力などで動的に適応し続けるシステムを設計する工学的アプローチである。",
@@ -6898,6 +6922,12 @@
   "summary": "スコーピングスタディは特定の問いへの厳密検証ではなく、研究領域の全体像と知識のギャップを迅速に把握する方法論で、実施手順と報告基準が別個に整備されてきた。",
   "title_en": "Scoping Review Methodology",
   "why": ""
+ },
+ "second-order-observation-recursive-governance": {
+  "at": "2026-11-25T21:28:34+00:00",
+  "summary": "統制システムが対象を監視するだけでなく、人間とアルゴリズムの観察者自身がどう現実を区別しているかを再帰的に観察し直す構造を指す。",
+  "title_en": "Second-Order Observation Recursive Governance",
+  "why": "AIが統制主体に組み込まれる局面では、この再帰性の設計が統制の正統性と安定性を左右する。"
  },
  "selection-mechanisms-determine-institutional-adaptability": {
   "at": "2026-10-01T10:03:40+00:00",

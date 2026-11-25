@@ -77,3 +77,8 @@ Nagae(2026)は、意識・主観性の有無を「収束点」の有無として
    File: raw/papers/neuroscience/s-ai-worldmodel-regulated-canonicalization-of-the-world-model.md
 6. Nagae, M. (2026). *An AI Prompt for Strongly Inferring the Presence or Absence of Subjectivity III — A Provisional Consciousness-Assessment Tool Based on Convergence-Point Analysis Using Fifty Sample Entities —*.
    File: raw/papers/neuroscience/an-ai-prompt-for-strongly-inferring-the-presence-or-absence-of-subjectivity-iii-.md
+
+## 追加ソース（2026-11-26）
+
+* **タイトル**: Topology-Biased Resource Constraints Shape Synchronization Pathways in Hindmarsh-Rose Oscillator Networks (2026)
+  **ファイルパス**: `raw/papers/complexity_science/topology-biased-resource-constraints-shape-synchronization-pathways-in-hindmarsh.md`

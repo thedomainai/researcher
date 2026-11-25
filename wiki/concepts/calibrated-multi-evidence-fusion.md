@@ -52,3 +52,10 @@ LLMや分類器が提示する「確信度（Confidence）」を、実際の「�
 - **論文タイトル**: Calibrated Multi-Evidence Fusion Framework for Clinical Decision Support Systems
 - **著者**: Chaithanya Addakula, Sanaboina Dr. Chandra Sekhar (2026)
 - **ソースファイルパス**: `raw/Calibrated_Multi-Evidence_Fusion_Framework_for_Clinical_Decision_Support_Systems.json`（OpenAlex ID: `https://openalex.org/W7160494938`）
+
+## 追加ソース（2026-11-26）
+
+* **タイトル**: When machines advise and machines approve: a multi-signal trust-scoring framework for AI outputs in high-stakes decision systems (2026)
+  **ファイルパス**: `raw/papers/complexity_science/when-machines-advise-and-machines-approve-a-multi-signal-trust-scoring-framework.md`
+* **タイトル**: Candidate supply and answer selection shape the value of LLM judging in multi-agent systems (2026)
+  **ファイルパス**: `raw/papers/complexity_science/candidate-supply-and-answer-selection-shape-the-value-of-llm-judging-in-multi-ag.md`

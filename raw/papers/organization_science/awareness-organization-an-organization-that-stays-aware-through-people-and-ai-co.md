@@ -1,0 +1,22 @@
+---
+title: "Awareness Organization: An Organization That Stays Aware Through People and AI — Concept, Organizational Model, and the Awareness Matrix Toolkit"
+authors: "Akira Jirakankorn"
+year: 2026
+citations: 0
+paper_type: "primary"
+domain: "organization_science"
+fetched: "2026-11-26T06:02:01.200311"
+doi: "https://doi.org/10.5281/zenodo.24495636"
+openalex_id: "https://openalex.org/W7239443933"
+source_api: "openalex"
+---
+
+# Awareness Organization: An Organization That Stays Aware Through People and AI — Concept, Organizational Model, and the Awareness Matrix Toolkit
+
+**著者**: Akira Jirakankorn
+**年**: 2026 | **被引用数**: 0
+**タイプ**: primary | **分野**: 組織科学
+
+## Abstract
+
+Businesses today face uncertainty on several fronts at once, including artificial intelligence (AI), economic crises, and war. Survival depends on learning things quickly and adapting quickly, while workers bear growing pressure and accumulated stress that put their mental health at risk. People therefore need skills for understanding themselves and others, and emotional intelligence, so that they can withstand pressure and adapt while remaining happy. Traditional organizations gain clarity from documents, rules, approval steps, and hierarchy, so they learn things late and add to people's workload. If these are removed, work becomes faster but no one sees the whole picture. Organizations must therefore choose between being clear but slow to know and being fast but blind. This book poses three research questions. First, what does an organization that uses aware people and AI as its sources of awareness look like in each dimension of the organization, including people's happiness and mental health? Second, what tools make such an organization come about, and how should one choose how far and in what way to implement them? Third, how can this concept be tested, and what should be used to measure the results? The book is a conceptual, design-oriented study. It does not collect data from organizations to describe what exists. Instead, it starts from present opportunities and possibilities, following an eight-step design process grounded in design science. It surveys four areas of research, namely external pressures and uncertainty, the potential of AI, the people side, and organizational models, and then synthesizes them into ten design principles. The result of the synthesis is the Awareness Organization concept: an organization whose awareness comes from two sources. The first source is aware people, who are aware of their roles, communication, and what matters, including their own emotions and needs and those of the people they work with. The second is AI and systems that read from work already taking place, keeping work and information clear at all times without adding documents. Such an organization is therefore clear, able to adapt immediately, and populated by people who remain happy and energized. The book defines organizational awareness in measurable terms: the people who need to know see the important and necessary information, in a state as close to the present as possible, continuously, and ready to view when needed. It is measured by information speed, information freshness, and reach to the people who need to know. The book's model explains that awareness becomes quick action when a team has psychological safety and clear criteria, and summarizes this logic as six theoretical propositions. The organizational model is described through eighteen dimensions in six categories: direction, people, structure and decision-making, work systems and technology, continuity, and outcomes. It places happiness, mental health, and employee care mechanisms as part of organizational design rather than as a separate benefit. The Awareness Matrix toolkit has four quadrants, namely system-side problems, people-side problems, work opportunities, and team opportunities, and is used to bring such an organization about. Every dimension points to a cell or quadrant in this tool, together with a way of thinking about cost and value. All of the propositions remain conceptual and have not yet been tested with real organizations. The book therefore closes by proposing three ways to test them: multiple-organization case studies, design research applying the Awareness Matrix in real organizations, and a multi-organization questionnaire, together with core indicators and indicators for each quadrant. This record holds the book in Thai and in English. The English edition is a translation of the Thai edition.

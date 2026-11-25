@@ -82,3 +82,8 @@ AIと批判的思考の関係を論じた研究は、AIが利用のされ方に�
 
 * **タイトル**: The psychological mechanisms by which algorithmic authority influences moral disengagement in Human-AI collaborative decision-making (2026)
   **ファイルパス**: `raw/papers/cognitive_science/the-psychological-mechanisms-by-which-algorithmic-authority-influences-moral-dis.md`
+
+## 追加ソース（2026-11-26）
+
+* **タイトル**: Delegating Decisions, Avoiding Responsibility: The Ethical Risks of Organizational AI (2026)
+  **ファイルパス**: `raw/papers/complexity_science/delegating-decisions-avoiding-responsibility-the-ethical-risks-of-organizational.md`

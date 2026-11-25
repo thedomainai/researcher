@@ -86,3 +86,16 @@ HumbertMaturanaとFrancisco Varelaが提唱した**オートポイエーシス�
 2. **Behavioral hierarchy without a hierarchical brain** — Yaning Han, Quanying Liu, S. Q. Liu, Heping Cheng, Pengfei Wei (2026)
 3. **Re-emergence of Dominant Coordination Frames Following Global Collapse: Optimal Instability Windows, Modular Decomposition, and Scale-Invariant Selection in Multi-Agent Systems** — Bin Seol (2026)
 4. **Mental model of Non-linear prompting: Self-organization vs. Self-assembly nature of AI** — Tomaž Flegar (2026)
+
+## 追加ソース（2026-11-26）
+
+* **タイトル**: Self-organized mechanochemical instabilities drive the emergence of digit tissue morphogenesis (2026)
+  **ファイルパス**: `raw/papers/complexity_science/self-organized-mechanochemical-instabilities-drive-the-emergence-of-digit-tissue.md`
+* **タイトル**: Self-Organization of Adaptive Networks via Symmetry Breaking and 1D Discrete Consensus: A Coupled Model with Flux-Driven Conductance Evolution (2026)
+  **ファイルパス**: `raw/papers/complexity_science/self-organization-of-adaptive-networks-via-symmetry-breaking-and-1d-discrete-con.md`
+* **タイトル**: Deviations from global coupling in adaptive oscillator networks: a mean-field theory for the variance of coupling weights (2026)
+  **ファイルパス**: `raw/papers/complexity_science/deviations-from-global-coupling-in-adaptive-oscillator-networks-a-mean-field-the.md`
+* **タイトル**: Frequency bursts in adaptive delay-coupled oscillators (2026)
+  **ファイルパス**: `raw/papers/complexity_science/frequency-bursts-in-adaptive-delay-coupled-oscillators.md`
+* **タイトル**: Self-organizing Chimera States in Adaptive Networks (2026)
+  **ファイルパス**: `raw/papers/complexity_science/self-organizing-chimera-states-in-adaptive-networks.md`
