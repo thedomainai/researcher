@@ -460,6 +460,15 @@
    "ai_ml"
   ]
  },
+ "compression-as-intelligence-metric": {
+  "at": "2026-11-25T00:41:44+00:00",
+  "cluster": "ai",
+  "domains": [
+   "ai_ml",
+   "complexity_science",
+   "cognitive_science"
+  ]
+ },
  "conversational-agent-embodied-interaction": {
   "at": "2026-10-01T05:10:41+00:00",
   "cluster": "ai",

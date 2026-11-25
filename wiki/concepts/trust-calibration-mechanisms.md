@@ -77,3 +77,19 @@ Damschroder et al.（2009）の実装科学フレームワークに基づき、�
   **ファイルパス**: `raw/papers/organization_science/when-should-your-team-override-ai-a-trust-calibration-routine.md`
 * **タイトル**: From Intelligence to Delegation in Human-Agent Teams in Software Development (2026)
   **ファイルパス**: `raw/papers/organization_science/from-intelligence-to-delegation-in-human-agent-teams-in-software-development.md`
+
+## 追加ソース（2026-11-25）
+
+* **タイトル**: Beyond Rational Mediation: The Selective Behavioural Adoption Framework for AI Financial Tool Adoption (2026)
+  **ファイルパス**: `raw/papers/behavioral_economics/beyond-rational-mediation-the-selective-behavioural-adoption-framework-for-ai-fi.md`
+* **タイトル**: Trust on Trial: How AI Errors Reshape Human Confidence in Technology (2026)
+  **ファイルパス**: `raw/papers/behavioral_economics/trust-on-trial-how-ai-errors-reshape-human-confidence-in-technology.md`
+* **タイトル**: AI Behavioral Design: A Psychological Framework for Designing Human–AI Interaction Around User Behavior, Cognitive Processes, and Individual Differences (2026)
+  **ファイルパス**: `raw/papers/behavioral_economics/ai-behavioral-design-a-psychological-framework-for-designing-humanai-interaction.md`
+* **タイトル**: Designing LLM-Based Conversational Agents for Prosocial Decisions: The Roles of Warmth and Competence (2026)
+  **ファイルパス**: `raw/papers/behavioral_economics/designing-llm-based-conversational-agents-for-prosocial-decisions-the-roles-of-w.md`
+
+## 追加ソース（2026-11-25）
+
+* **タイトル**: Understanding Users’ Trust Calibration Journeys in Human-Generative AI Interaction (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/understanding-users-trust-calibration-journeys-in-human-generative-ai-interactio.md`

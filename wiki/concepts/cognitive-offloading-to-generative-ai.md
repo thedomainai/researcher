@@ -34,3 +34,8 @@ Jacopo Valentini氏とAurelio Ravarini氏による2026年の研究（『When Tru
 ## 参考ソース
 
 * Jacopo Valentini, Aurelio Ravarini (2026). "When Trust Reduces Critical Thinking: A Qualitative Study On How Social Presence Contributes To Cognitive Offloading Toward Generative Ai Chatbots In The Workplace." (raw/When Trust Reduces Critical Thinking: A Qualitative Study On How Social Presence Contributes To Cognitive Offloading Toward Generative Ai Chatbots In The Workplace)
+
+## 追加ソース（2026-11-25）
+
+* **タイトル**: Thinking with Chatbots: Cognitive Offloading in Human–GenAI Interaction at Work (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/thinking-with-chatbots-cognitive-offloading-in-humangenai-interaction-at-work.md`

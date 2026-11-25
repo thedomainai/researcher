@@ -26733,5 +26733,235 @@
     ],
     "domain": "accounting",
     "compiled_at": "2026-11-24"
+  },
+  {
+    "slug": "ai-system-population-as-governance-object",
+    "title_ja": "AIシステム集団としての統治対象",
+    "title_en": "AI System Population as a Governance Object",
+    "description": "単一システムを前提とする規制は、複数の派生版・設定・インスタンスからなるAIシステム集団を統治対象として捉えられず、集団の構成状態を形式的に表現・追跡する新たな統治単位が必要になる。",
+    "mechanisms": [
+      "集団としての同一性追跡",
+      "状態空間の幾何学的表現",
+      "単一対象規制の限界"
+    ],
+    "related_sources": [
+      12
+    ],
+    "source_files": [
+      "raw/papers/ai_governance/convex-ai-compositionality-and-the-governance-of-ai-system-populations.md"
+    ],
+    "domain": "ai_governance",
+    "compiled_at": "2026-11-25"
+  },
+  {
+    "slug": "staged-identity-adaptation-to-technological-change",
+    "title_ja": "技術変化への段階的アイデンティティ適応",
+    "title_en": "Staged Identity Adaptation to Technological Change",
+    "description": "新技術の普及に対して、対象者(専門職など)が固執・再スキル化・アップスキルの段階的経路を通じて専門的アイデンティティを再構成する普遍的適応メカニズム",
+    "mechanisms": [
+      "抵抗による固執",
+      "再スキル化による適応",
+      "既存優位性の再確認によるアップスキル"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/anthropology/who-am-i-when-using-ai-how-ai-influences-fashion-designer-identity.md"
+    ],
+    "domain": "anthropology",
+    "compiled_at": "2026-11-25"
+  },
+  {
+    "slug": "normative-rationality-constructs-governance-object",
+    "title_ja": "規範的合理性によるガバナンス対象の構成",
+    "title_en": "Normative Rationality Constructs the Governance Object",
+    "description": "同一の技術的人工物であっても、地域ごとの規範的・制度的合理性(関係的主体/保護対象/権利保持者など)と時間的志向性の違いにより、統治されるべき対象と優先される害が異なって構成される",
+    "mechanisms": [
+      "規範的合理性による対象の社会的構成",
+      "制度的正当性モデルの多様性",
+      "時間的志向性による規制様式の分岐"
+    ],
+    "related_sources": [
+      2
+    ],
+    "source_files": [
+      "raw/papers/anthropology/no-universal-patient-temporal-logics-of-harm-prevention-in-emotional-ai-healthca.md"
+    ],
+    "domain": "anthropology",
+    "compiled_at": "2026-11-25"
+  },
+  {
+    "slug": "institutional-capture-via-normative-framework-manipulation",
+    "title_ja": "規範的枠組み操作による制度捕獲",
+    "title_en": "Institutional Capture via Normative Framework Manipulation",
+    "description": "権力的アクターが制度の規範的・手続的枠組みそのものを操作し、本来は公正であるべき裁定機構を選別的保護・免責の手段へ転換する汎用的なレントシーキングメカニズム",
+    "mechanisms": [
+      "規範操作による制度的レントシーキング",
+      "法的空白の戦略的創出",
+      "選別的執行による免責の固定化"
+    ],
+    "related_sources": [
+      3
+    ],
+    "source_files": [
+      "raw/papers/anthropology/the-mechanics-of-the-touched-piece-in-state-capture-a-psychosociological-and-ant.md"
+    ],
+    "domain": "anthropology",
+    "compiled_at": "2026-11-25"
+  },
+  {
+    "slug": "empathy-as-cost-path-simulation",
+    "title_ja": "コストパス・シミュレーションとしての共感",
+    "title_en": "Empathy as Cost-Path Simulation and Re-entry",
+    "description": "共感を感情の同期ではなく、他者が負うコスト・制約・リスクの構造を推論し、その推論結果を自己の次の行動選択へ再取り込む操作的プロセスとして定義する構造原理。基体（人間/AI）に依存しない協調メカニズムの不変条件となる。",
+    "mechanisms": [
+      "他者コスト構造の推論",
+      "推論結果の自己行動への再帰",
+      "感情模倣と行動変容の分離"
+    ],
+    "related_sources": [
+      2
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/sδϕ-76-empathy-is-not-feeling-the-same-cost-path-simulation-otherness-and-re-ent.md"
+    ],
+    "domain": "behavioral_economics",
+    "compiled_at": "2026-11-25"
+  },
+  {
+    "slug": "event-time-confounding-in-continuous-process-intervention",
+    "title_ja": "連続プロセス介入における時間ゼロの内生性バイアス",
+    "title_en": "Endogenous Time-Zero Bias in Continuous Process Interventions",
+    "description": "観察者が継続中の行動・タスクエピソードの内部に介入やイベントの基準時点（time zero）を置くと、エピソード継続による活動上昇と真の介入効果が構造的に分離不能になるという、因果推論の不変的な識別限界。AGI時代の自動介入設計全般に適用される。",
+    "mechanisms": [
+      "内生的な基準時点設定",
+      "エピソード継続と処置効果の混同",
+      "単一サーフェス観測による識別不可能性"
+    ],
+    "related_sources": [
+      13
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/event-time-confounding-under-bursty-human-dynamics.md"
+    ],
+    "domain": "behavioral_economics",
+    "compiled_at": "2026-11-25"
+  },
+  {
+    "slug": "information-theoretic-security-safety-tradeoff",
+    "title_ja": "マルチモーダルシステムにおけるセキュリティ-セーフティの情報理論的トレードオフ",
+    "title_en": "Information-Theoretic Security-Safety Tradeoff in Multimodal Systems",
+    "description": "モデル内部でノイズ抑制・信号強化によって行う防御は適応的攻撃に対して効果が漸近的に減衰する一方、システムレベルで許可された情報流とエージェント行動を制約する防御は構造的に優位性を保つという、情報理論に基づく不変の非対称性。",
+    "mechanisms": [
+      "チャネル容量による情報流制約",
+      "適応的攻撃への漸近的劣化",
+      "モデル中心防御とシステム境界防御の非対称性"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/sok-the-security-safety-continuum-of-multimodal-foundation-models.md"
+    ],
+    "domain": "behavioral_economics",
+    "compiled_at": "2026-11-25"
+  },
+  {
+    "slug": "mechanism-aligned-debiasing-intervention",
+    "title_ja": "メカニズム整合的デバイアシング介入",
+    "title_en": "Mechanism-Aligned Debiasing Intervention",
+    "description": "認知バイアスを低減する介入は、バイアスを生む心理メカニズム（代表性・アンカリング・利用可能性など）に設計を合わせることで初めて効果を発揮する構造的原理",
+    "mechanisms": [
+      "代表性ヒューリスティック",
+      "利用可能性ヒューリスティック",
+      "アンカリング効果",
+      "介入設計とメカニズムの整合"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/algorithmic-antidotes-heuristic-aligned-explanations-for-debiasing-judgment.md"
+    ],
+    "domain": "behavioral_economics",
+    "compiled_at": "2026-11-25"
+  },
+  {
+    "slug": "identity-mediated-nudge-effect",
+    "title_ja": "アイデンティティ媒介型ナッジ効果",
+    "title_en": "Identity-Mediated Nudge Effect",
+    "description": "行動介入（ナッジ）の効果が直接の行動変容だけでなく、対象の自己アイデンティティ強化を経由して間接的に発現するという媒介構造",
+    "mechanisms": [
+      "自己アイデンティティの媒介",
+      "再帰的アイデンティティ形成",
+      "行動変容の二重経路"
+    ],
+    "related_sources": [
+      3
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/ai-based-lifestyle-nudges-and-sustainable-consumption-in-digital-marketplaces-th.md"
+    ],
+    "domain": "behavioral_economics",
+    "compiled_at": "2026-11-25"
+  },
+  {
+    "slug": "ecological-rationality-and-fast-and-frugal-heuristics",
+    "title_ja": "環境適合的合理性と簡潔なヒューリスティック",
+    "title_en": "Ecological Rationality and Fast-and-Frugal Heuristics",
+    "description": "不完全情報・時間制約下では、精緻な最適化モデルよりも環境構造に適合した簡潔な手がかりベースの決定ルールが頑健に機能するという適応原理",
+    "mechanisms": [
+      "不完全情報下の簡潔な意思決定ルール",
+      "環境構造への適応",
+      "逐次的検証と段階的エスカレーション"
+    ],
+    "related_sources": [
+      4
+    ],
+    "source_files": [
+      "raw/papers/behavioral_economics/heuristics-for-managing-rework-related-safety-risks-in-construction-an-ecologica.md"
+    ],
+    "domain": "behavioral_economics",
+    "compiled_at": "2026-11-25"
+  },
+  {
+    "slug": "collective-meta-intelligence",
+    "title_ja": "集合的メタ知性",
+    "title_en": "Collective Meta-Intelligence",
+    "description": "個人のメタ認知能力を集団の測定可能な特性(能力×志向=明晢性)として再定義し、人間とAIエージェントの協調学習ループを通じて制度変化への適応能力を構築する構造的原理。",
+    "mechanisms": [
+      "人間-機械協調学習ループ",
+      "集団特性の測定可能化",
+      "適応的再訓練インフラ",
+      "フィードバックによる集合知の蓄積"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/business_ethics_csr/adaptive-labor-infrastructure-for-ai-disruption-the-hybrid-agora-collective-meta.md"
+    ],
+    "domain": "business_ethics_csr",
+    "compiled_at": "2026-11-25"
+  },
+  {
+    "slug": "readout-discriminable-hypothesis-space",
+    "title_ja": "識別可能性に基づく仮説空間の境界化",
+    "title_en": "Readout-Discriminable Hypothesis Space Bounding",
+    "description": "有限な観測者が生成できる仮説は、問題表現の動的変動と出力レベルで識別可能な差異の範囲によって構造的に制約される",
+    "mechanisms": [
+      "有限合理性",
+      "識別可能性による情報圧縮",
+      "表現空間の動的再構成"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/cognitive_science/from-problem-to-hypothesis-dynamic-semantic-mobility-bounded-knowers-and-the-rea.md"
+    ],
+    "domain": "cognitive_science",
+    "compiled_at": "2026-11-25"
   }
 ]

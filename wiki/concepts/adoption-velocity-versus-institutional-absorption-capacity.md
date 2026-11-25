@@ -63,3 +63,8 @@ AI Nativeな社会設計にとってこの原理が重要なのは、AIの能力
 5. DBA Dr. Elie Mina (2026). "The Effect of Artificial Intelligence in Smart Cities on Foreign Direct Investment". File: raw/papers/international_business/the-effect-of-artificial-intelligence-in-smart-cities-on-foreign-direct-investme.md
 6. Mihael Markic, Sven Hennemann, Jens Poeppelbuss (2027). "Supplementary Material for 'Same Same, but Different: How Dedicated AI Leadership Roles Differentiate from Technology Leadership'". File: raw/papers/international_business/supplementary-material-for-same-same-but-different-how-dedicated-ai-leadership-r.md
 7. Ali Sadhik Shaik (2026). "India's AI Policy Vacuum: Between Digital Public Infrastructure Ambition and Governance Readiness". File: raw/papers/law/indias-ai-policy-vacuum-between-digital-public-infrastructure-ambition-and-gover.md
+
+## 追加ソース（2026-11-25）
+
+* **タイトル**: Beyond Fit: An Organizational Flux Theory of AI Governance (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/beyond-fit-an-organizational-flux-theory-of-ai-governance.md`

@@ -82,3 +82,10 @@ Marciniakは、AI投資や計算基盤が少数の企業・国に集中してい
 
 * **タイトル**: Transcending the Weberian Paradox: Fluid Institutions, Agentic Artificial Intelligence, and the Evolution of Post-Bureaucratic State Systems (2026)
   **ファイルパス**: `raw/papers/complexity_science/transcending-the-weberian-paradox-fluid-institutions-agentic-artificial-intellig.md`
+
+## 追加ソース（2026-11-25）
+
+* **タイトル**: Topology of Möbius Cognitive Cycles: The Architecture of Decentralised AI Immunity on a Trustless Substrate (2026)
+  **ファイルパス**: `raw/papers/ai_governance/topology-of-möbius-cognitive-cycles-the-architecture-of-decentralised-ai-immunit.md`
+* **タイトル**: A Governance Framework for AI (2026)
+  **ファイルパス**: `raw/papers/ai_governance/a-governance-framework-for-ai.md`

@@ -42,3 +42,8 @@ Martijn Vroegindeweij氏らの研究（2026年）は、オランダの18の放�
 
 * **タイトル**: Configuring Complexity: Pathways Towards Ai Implementation In Radiotherapy
 * **ファイルパス**: `raw/Configuring_Complexity_Pathways_Towards_Ai_Implementation_In_Radiotherapy`
+
+## 追加ソース（2026-11-25）
+
+* **タイトル**: Are hybrid-human-AI-systems a more humane and responsible version of AI? Empirical inquiries into the conundrums of value-by-design in language technology (2026)
+  **ファイルパス**: `raw/papers/anthropology/are-hybrid-human-ai-systems-a-more-humane-and-responsible-version-of-ai-empirica.md`

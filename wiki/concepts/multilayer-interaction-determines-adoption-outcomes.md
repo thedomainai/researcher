@@ -78,3 +78,8 @@ Pasharibuは、デジタル変革で価値創造目標を達成できない企�
 3. Grashoff, H., Bartelheimer, C. (2026). *Advancing AI Integration: Exploring Business Process Management Capabilities for AI-Driven Processes*. File: `raw/papers/business_ethics_csr/advancing-ai-integration-exploring-business-process-management-capabilities-for-.md`
 4. Tabaghdehi, S. A. H. (2026). *From Principles to Capability: Building Capacity for Responsible AI Adoption*. File: `raw/papers/business_ethics_csr/from-principles-to-capability-building-capacity-for-responsible-ai-adoption.md`
 5. Pasharibu, Y. (2026). *The role of engagement platforms in supporting B2B stakeholders' value creation*. File: `raw/papers/business_ethics_csr/the-role-of-engagement-platforms-in-supporting-b2b-stakeholders-value-creation.md`
+
+## 追加ソース（2026-11-25）
+
+* **タイトル**: AI Governance Systems in Southeast Asia: A Comparative Analysis of Indonesia and Malaysia (2026)
+  **ファイルパス**: `raw/papers/anthropology/ai-governance-systems-in-southeast-asia-a-comparative-analysis-of-indonesia-and-.md`

@@ -71,3 +71,8 @@ Al-Mugheed らの調査[5]では、ヨルダンのSNS利用者1,150件の有効�
 5. Al-Mugheed, Hatamleh (2026). *The influence of exposure to AI-generated social media content on verification intention: the mediating effect of trust and the moderating effect of AI literacy*. File: raw/papers/operations_research/the-influence-of-exposure-to-ai-generated-social-media-content-on-verification-i.md
 6. Senali (2026). *Extending the theory of planned behaviour to explain contract cheating in the age of generative AI: evidence from Australian higher education*. File: raw/papers/operations_research/extending-the-theory-of-planned-behaviour-to-explain-contract-cheating-in-the-ag.md
 7. Spoor, Plaat, Moerland (2026). *Evaluation Metrics for Safe Reinforcement Learning*. File: raw/papers/operations_research/evaluation-metrics-for-safe-reinforcement-learning.md
+
+## 追加ソース（2026-11-25）
+
+* **タイトル**: Artificial Epidemiology: A Decision-Theoretic Framework for Measuring AI-Induced Prevalence Divergence in Administrative Health Data (2026)
+  **ファイルパス**: `raw/papers/cognitive_science/artificial-epidemiology-a-decision-theoretic-framework-for-measuring-ai-induced-.md`

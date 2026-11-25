@@ -67,3 +67,12 @@
 
 * **タイトル**: BUILDING TRUST THROUGH QUALITY INFRASTRUCTURE: ACCREDITATION IN THE AGE OF ARTIFICIAL INTELLIGENCE (2026)
   **ファイルパス**: `raw/papers/accounting/building-trust-through-quality-infrastructure-accreditation-in-the-age-of-artifi.md`
+
+## 追加ソース（2026-11-25）
+
+* **タイトル**: The Catastrophe Experiment: Alignment can only be tested by the harm it is meant to prevent. Safety can be decided before it. (2026)
+  **ファイルパス**: `raw/papers/ai_governance/the-catastrophe-experiment-alignment-can-only-be-tested-by-the-harm-it-is-meant-.md`
+* **タイトル**: Alignment Is a Myth: Anthropomorphic Framing, Semantic Smoothing Exploits, and the Failure of Probabilistic Containment (2026)
+  **ファイルパス**: `raw/papers/ai_governance/alignment-is-a-myth-anthropomorphic-framing-semantic-smoothing-exploits-and-the-.md`
+* **タイトル**: Classification: Computer Systems Organization (Real-time systems, Fault-tolerant systems), Software Engineering (Formal methods, Program verification), Artificial Intelligence (AI Safety, Alignment, Multi-agent governance), Cyber-Physical Systems (CPS) (2026)
+  **ファイルパス**: `raw/papers/ai_governance/classification-computer-systems-organization-real-time-systems-fault-tolerant-sy.md`

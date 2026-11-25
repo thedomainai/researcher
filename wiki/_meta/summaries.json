@@ -1313,6 +1313,12 @@
   "title_en": "AI System Decommissioning",
   "why": "AI運用組織は配備後の解決不能なリスクに備え、廃棄・移行の手順とアカウンタビリティを事前に設計すべきである。"
  },
+ "ai-system-population-as-governance-object": {
+  "at": "2026-11-25T00:43:06+00:00",
+  "summary": "AI規制は単一システムを前提にするが、実際は派生版やインスタンスの集団として運用され、凸空間でその構成変化を追跡する統治単位が必要になる。",
+  "title_en": "AI System Population as a Governance Object",
+  "why": "AIガバナンスの設計者は、規制対象をシステム単位でなく、変化する集団として定義し直す必要がある。"
+ },
  "ai-technology-adoption-firms": {
   "at": "2026-10-01T09:40:52+00:00",
   "summary": "AIは単一技術でなく異質な技術群の集合であり、機械学習・テキストマイニング・自動化支援が汎用技術として企業間の相互依存的な導入を形作る。",
@@ -2164,6 +2170,12 @@
   "summary": "個人の多様な選好をいかに公平かつ合理的に社会的決定へ集計するかを、経済学・政治学・倫理学の視点から論じる学術領域である。",
   "title_en": "Collective Choice and Social Welfare",
   "why": ""
+ },
+ "collective-meta-intelligence": {
+  "at": "2026-11-25T00:43:06+00:00",
+  "summary": "個人のメタ認知能力を能力と志向という二軸の集団特性に再定義し、人間とAIの協調学習ループで制度変化への適応力を組織的に構築する概念である。",
+  "title_en": "Collective Meta-Intelligence",
+  "why": "AI導入組織にとっては、個人再訓練だけでなく人間とAIの協調学習の場そのものを設計対象とする必要がある。"
  },
  "collective-sensemaking-of-ai": {
   "at": "2026-10-01T09:43:59+00:00",
@@ -3155,6 +3167,12 @@
   "title_en": "Eclectic Paradigm and Firm-Specific Advantages",
   "why": ""
  },
+ "ecological-rationality-and-fast-and-frugal-heuristics": {
+  "at": "2026-11-25T00:43:06+00:00",
+  "summary": "不完全情報下では精緻な最適化モデルより環境構造に適合した簡潔なヒューリスティックの方が頑健に機能するという環境適合的合理性の原理を、建設業の安全管理事例で示す。",
+  "title_en": "Ecological Rationality and Fast-and-Frugal Heuristics",
+  "why": "AIが提示する精緻な確率モデルも、データの不整合性が高い現場では簡潔な判断ルールと併置する設計が望ましい。"
+ },
  "ecological-resilience-and-stability": {
   "at": "2026-10-01T09:47:55+00:00",
   "summary": "生態系のレジリエンスは平衡への回帰を重視する安定性とは異なり、撹乱下でも構造や関係性のパターンを維持し続ける能力を指す。",
@@ -3262,6 +3280,12 @@
   "summary": "新興国の低所得層市場での成長には、先進国モデルの単純な現地化ではなく、現地コミュニティとの共創による新しいビジネスモデル構築と汚職リスクへの対処が必要だ。",
   "title_en": "Reinventing Strategies for Emerging Markets",
   "why": ""
+ },
+ "empathy-as-cost-path-simulation": {
+  "at": "2026-11-25T00:43:06+00:00",
+  "summary": "共感を感情の同調ではなく、他者が負うコスト構造を推論し自己の行動選択に再取り込む操作的プロセスとして定義し、人間とAIに共通する協調メカニズムとして位置づける。",
+  "title_en": "Empathy as Cost-Path Simulation",
+  "why": "AIの評価は共感的トーンの出力ではなく、他者コスト推論が実際の行動変容に反映されているかで測るべきだ。"
  },
  "empirical-growth-robustness": {
   "at": "2026-10-01T09:48:04+00:00",
@@ -3508,6 +3532,12 @@
   "summary": "教育分野のエージェンティックAI評価には従来のユーザビリティ中心の尺度では不十分で、認知・メタ認知・情動・行動・ガバナンスの5層を横断するMLE-Aモデルが提案された。",
   "title_en": "Multi-Layer Evaluation Model for Agentic AI",
   "why": "教育AIを導入する組織は、学習成果だけでなく主体性の分散やガバナンスの透明性を含めた多層的な評価体制を整える必要がある。"
+ },
+ "event-time-confounding-in-continuous-process-intervention": {
+  "at": "2026-11-25T00:43:06+00:00",
+  "summary": "AIによる自律的介入の基準時点をユーザー行動ログ上のイベントに合わせると、イベント後の活動上昇が介入効果かタスク継続かを単一観測系列では識別できない構造的限界が生じる。",
+  "title_en": "Event-Time Confounding in Continuous Processes",
+  "why": "大規模自動介入の効果評価は、単一ログ系列だけでなく外生的基準点や既知ヌルとの比較を評価設計に組み込む必要がある。"
  },
  "evidence-based-management": {
   "at": "2026-10-01T09:49:03+00:00",
@@ -4649,6 +4679,12 @@
   "title_en": "Identity-Driven Technology Rejection (The Esteem Trap)",
   "why": "AIシステムを普及させる組織は、機能的優位性の訴求だけでなく、ユーザーの既存アイデンティティを補強する導入設計が必要になる。"
  },
+ "identity-mediated-nudge-effect": {
+  "at": "2026-11-25T00:43:06+00:00",
+  "summary": "AIナッジは行動を直接変えるだけでなく、対象者の自己アイデンティティを強化する経路を通じて間接的にも作用し、効果の約4割はこの媒介経路によるという二重経路構造を持つ。",
+  "title_en": "Identity-Mediated Nudge Effect",
+  "why": "AIナッジの評価を行動変化量だけに限定すると、介入が自己概念を再構成する深い経路を見落とす。"
+ },
  "identity-work-mediated-reconciliation-of-epistemic-regimes": {
   "at": "2026-11-20T21:28:59+00:00",
   "summary": "学術と企業が協働する際、参加者が専門家やファシリテーターなど役割を場面ごとに揺動させることで、固定基準ではなく文脈依存の妥当性基準を即興的に作り対立を調整する。",
@@ -4751,6 +4787,12 @@
   "title_en": "Information Processing Load and Decision Latency Matching",
   "why": "AI導入では処理能力の総量よりボトルネックの特定と課題要件への適合を設計の出発点にすべきである。"
  },
+ "information-theoretic-security-safety-tradeoff": {
+  "at": "2026-11-25T00:43:06+00:00",
+  "summary": "マルチモーダル基盤モデルでは、モデル内部のノイズ抑制による防御は適応的攻撃に対し効果が漸近的に減衰するが、システムが許可する情報流や行動範囲を制約する防御は安定した上限を維持する。",
+  "title_en": "Security-Safety Tradeoff in Multimodal Systems",
+  "why": "適応的攻撃を想定する環境では、防御予算をモデル内部の調整よりシステム境界の設計に重点配分すべきだ。"
+ },
  "informational-task-entropy": {
   "at": "2026-10-01T09:54:36+00:00",
   "summary": "情報タスクエントロピーは職務活動の多様性と非定型性を情報理論的に測る指標で、これが高い職種ほどAIによる代替速度が遅くなる。",
@@ -4816,6 +4858,12 @@
   "summary": "技術が機能的に実現可能でも採用主体の制度的・教義的公理と矛盾すれば、性能とは無関係に採用摩擦が生じることをイスラーム金融の事例が示す。",
   "title_en": "Institutional Axiom Incompatibility and Adoption Friction",
   "why": "AI導入計画には性能評価と並行して採用主体の規範的公理との整合性を検証するゲートを設けるべきだと示唆する。"
+ },
+ "institutional-capture-via-normative-framework-manipulation": {
+  "at": "2026-11-25T00:43:06+00:00",
+  "summary": "権力的アクターが制度のルール自体を事後的に書き換え、本来中立な裁定機構を特定集団への選別的保護装置へ変質させるメカニズムを、ルーマニア司法の超時効事例を通じて示す。",
+  "title_en": "Institutional Capture via Normative Framework Manipulation",
+  "why": "AIガバナンスでは、規範やルールそのものを変更できる権限の所在を可視化し、運用権限から分離する必要がある。"
  },
  "institutional-investors-and-corporate-behavior": {
   "at": "2026-10-01T09:54:52+00:00",
@@ -5393,6 +5441,12 @@
   "title_en": "Measurement Invariance",
   "why": "異なる国や文化圏でAI関連の意識調査を比較する際は、測定不変性を確認しなければ結果が誤って解釈される恐れがある。"
  },
+ "mechanism-aligned-debiasing-intervention": {
+  "at": "2026-11-25T00:43:06+00:00",
+  "summary": "認知バイアスの低減は汎用的な警告では効果が薄く、代表性・利用可能性・アンカリングなど個々の心理メカニズムに合わせて説明形式を選ぶことで効果が最大化される。",
+  "title_en": "Mechanism-Aligned Debiasing Intervention",
+  "why": "AI支援システムは誤りの原因となるヒューリスティックを識別し、それに応じた説明形式を動的に切り替える設計が有効だ。"
+ },
  "mediated-access-to-capability-conversion": {
   "at": "2026-10-01T09:57:10+00:00",
   "summary": "AIなどの技術へのアクセスは単独では能力に変わらず、教育・制度・評価スキルといった仲介層の厚みが、同じ技術から得られる成果の格差を生む構造的要因である。",
@@ -5878,6 +5932,12 @@
   "summary": "医療・介護テクノロジーの普及失敗は技術単体の問題ではなく7領域の複雑性の組み合わせから生じるとし、導入前後の評価軸を体系化したフレームワークである。",
   "title_en": "NASSS Framework",
   "why": "AI技術の医療・介護導入でも、採用者・組織・制度の複雑性を事前に評価することが失敗回避に資する。"
+ },
+ "normative-rationality-constructs-governance-object": {
+  "at": "2026-11-25T00:43:06+00:00",
+  "summary": "同一のケアロボットでも、地域の道徳人類学・正当性モデル・規制手段の違いによって保護すべき主体や優先される害が異なり、統治対象そのものが地域ごとに社会的に構成される。",
+  "title_en": "Normative Rationality Constructs the Governance Object",
+  "why": "グローバル展開するAIシステムは、単一の利用者像や害モデルを前提にせず地域の規範的合理性に応じて設計要件を変える必要がある。"
  },
  "novice-designers-ai-sensemaking": {
   "at": "2026-10-01T09:58:56+00:00",
@@ -6508,6 +6568,12 @@
   "summary": "RE-AIMは介入の効果だけでなく到達度・採用率・実施度・維持度を含む5次元で、プログラムが集団レベルで持つ実社会での影響を評価する枠組みである。",
   "title_en": "RE-AIM Evaluation Framework",
   "why": "AI介入の評価でも有効性だけでなく普及・定着・組織導入までを含めた多面的な評価軸が必要になる。"
+ },
+ "readout-discriminable-hypothesis-space": {
+  "at": "2026-11-25T00:41:51+00:00",
+  "summary": "仮説生成は問題表現の動的再構成可能性と出力レベルでの識別可能性という二つの制約の交差点で境界づけられると説く。",
+  "title_en": "Readout-Discriminable Hypothesis Space",
+  "why": "AI推論システムの仮説生成能力は内部表現の豊富さより出力解像度に左右されるため、それを設計変数として扱う必要がある。"
  },
  "recurrent-automation-deskilling-dilemma": {
   "at": "2026-10-01T10:01:58+00:00",
@@ -7264,6 +7330,12 @@
   "summary": "AIの知覚を段階的に記号化する構造と、モデルとハーネスを入れ子に改善するループは、いずれも失敗診断の精度とフィードバック源の限界に性能が規定される。",
   "title_en": "Staged Abstraction and Recursive Self-Improvement",
   "why": "自律性を段階的に拡張するには、改善ループの診断精度とフィードバック源の設計が自律化の上限を決めることを踏まえる必要がある。"
+ },
+ "staged-identity-adaptation-to-technological-change": {
+  "at": "2026-11-25T00:41:51+00:00",
+  "summary": "新技術の浸透に対し専門職は固執・再スキル化・アップスキルという三つの経路に分岐しながら職業的アイデンティティを段階的に再構成する。",
+  "title_en": "Staged Identity Adaptation to Technological Change",
+  "why": "画一的な導入戦略は分岐先を無視するため、固執層の脱スキル化リスク検知とアップスキル促進を含む複線的な支援設計が求められる。"
  },
  "standardized-selection-suppresses-diversity-and-context-fit": {
   "at": "2026-10-01T10:06:12+00:00",

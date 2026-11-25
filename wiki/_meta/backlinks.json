@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-24T06:09:37.143774",
+  "generated_at": "2026-11-25T09:41:30.402447",
   "summary": {
-    "articles_scanned": 1349,
-    "nodes": 3619,
-    "resolved_nodes": 1349,
+    "articles_scanned": 1361,
+    "nodes": 3631,
+    "resolved_nodes": 1361,
     "unresolved_nodes": 2270,
-    "edges": 6685,
-    "resolved_edges": 3725,
+    "edges": 6717,
+    "resolved_edges": 3757,
     "unresolved_edges": 2960,
-    "link_mentions": 6987,
-    "valid_source_refs": 2265,
+    "link_mentions": 7028,
+    "valid_source_refs": 2297,
     "invalid_source_refs": 117,
-    "isolated_concepts": 97
+    "isolated_concepts": 101
   },
   "nodes": {
     "absorption-capacity-bottleneck-saturation": {
@@ -11037,7 +11037,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/agi-governance-digital-nudging.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "identity-mediated-nudge-effect",
+          "label": "アイデンティティ媒介型ナッジ効果",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/identity-mediated-nudge-effect.md",
+          "mentions": [
+            {
+              "raw_target": "agi-governance-digital-nudging",
+              "label": "agi-governance-digital-nudging",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": []
     },
     "agi-governance-nudging": {
@@ -16785,6 +16802,29 @@
       "kind": "concept",
       "file": "concepts/ai-decision-support-systems.md",
       "inbound": [
+        {
+          "id": "mechanism-aligned-debiasing-intervention",
+          "label": "メカニズム整合的デバイアシング介入",
+          "resolved": true,
+          "weight": 2,
+          "source_file": "concepts/mechanism-aligned-debiasing-intervention.md",
+          "mentions": [
+            {
+              "raw_target": "ai-decision-support-systems",
+              "label": "ai-decision-support-systems",
+              "section": "AI Native な設計への示唆",
+              "line": 26,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "ai-decision-support-systems",
+              "label": "ai-decision-support-systems",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ]
+        },
         {
           "id": "human-ai-collaboration-decision-making",
           "label": "人間とAIの協調的意思決定",
@@ -33858,6 +33898,16 @@
         }
       ]
     },
+    "ai-system-population-as-governance-object": {
+      "id": "ai-system-population-as-governance-object",
+      "slug": "ai-system-population-as-governance-object",
+      "label": "AIシステム集団としての統治対象",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/ai-system-population-as-governance-object.md",
+      "inbound": [],
+      "outbound": []
+    },
     "ai-technology-adoption-firms": {
       "id": "ai-technology-adoption-firms",
       "slug": "ai-technology-adoption-firms",
@@ -37471,6 +37521,29 @@
           ]
         },
         {
+          "id": "institutional-capture-via-normative-framework-manipulation",
+          "label": "規範的枠組み操作による制度捕獲",
+          "resolved": true,
+          "weight": 2,
+          "source_file": "concepts/institutional-capture-via-normative-framework-manipulation.md",
+          "mentions": [
+            {
+              "raw_target": "architectural-locus-of-accountability",
+              "label": "architectural-locus-of-accountability",
+              "section": "AI Native な設計への示唆",
+              "line": 19,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "architectural-locus-of-accountability",
+              "label": "architectural-locus-of-accountability",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "accountability-integration-tradeoff-and-institutional-compromise",
           "label": "説明責任と情報統合のトレードオフ、および制度的妥協の再構成",
           "resolved": true,
@@ -37983,6 +38056,22 @@
       "kind": "concept",
       "file": "concepts/architecture-level-value-preservation-and-social-harness.md",
       "inbound": [
+        {
+          "id": "information-theoretic-security-safety-tradeoff",
+          "label": "マルチモーダルシステムにおけるセキュリティ-セーフティの情報理論的トレードオフ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/information-theoretic-security-safety-tradeoff.md",
+          "mentions": [
+            {
+              "raw_target": "architecture-level-value-preservation-and-social-harness",
+              "label": "architecture-level-value-preservation-and-social-harness",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ]
+        },
         {
           "id": "precondition-recorded-revalidation-of-long-running-decisions",
           "label": "事前条件の明示記録による長時間意思決定の選択的再検証",
@@ -40767,6 +40856,29 @@
               "label": "authority-bounding-by-parallel-independent-layers",
               "section": "関連コンセプト",
               "line": 48,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "institutional-capture-via-normative-framework-manipulation",
+          "label": "規範的枠組み操作による制度捕獲",
+          "resolved": true,
+          "weight": 2,
+          "source_file": "concepts/institutional-capture-via-normative-framework-manipulation.md",
+          "mentions": [
+            {
+              "raw_target": "authority-bounding-by-parallel-independent-layers",
+              "label": "authority-bounding-by-parallel-independent-layers",
+              "section": "AI Native な設計への示唆",
+              "line": 19,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "authority-bounding-by-parallel-independent-layers",
+              "label": "authority-bounding-by-parallel-independent-layers",
+              "section": "関連概念",
+              "line": 31,
               "resolved_via": "slug"
             }
           ]
@@ -44048,6 +44160,22 @@
       "kind": "concept",
       "file": "concepts/behavioral-biases-in-ai-fintech.md",
       "inbound": [
+        {
+          "id": "mechanism-aligned-debiasing-intervention",
+          "label": "メカニズム整合的デバイアシング介入",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/mechanism-aligned-debiasing-intervention.md",
+          "mentions": [
+            {
+              "raw_target": "behavioral-biases-in-ai-fintech",
+              "label": "behavioral-biases-in-ai-fintech",
+              "section": "関連概念",
+              "line": 35,
+              "resolved_via": "slug"
+            }
+          ]
+        },
         {
           "id": "decentralized-equilibrium-learning",
           "label": "不完全情報下における分散型一般化ナッシュ均衡学習",
@@ -47643,6 +47771,22 @@
       "file": "concepts/bounded-rationality-and-behavioral-economics.md",
       "inbound": [
         {
+          "id": "mechanism-aligned-debiasing-intervention",
+          "label": "メカニズム整合的デバイアシング介入",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/mechanism-aligned-debiasing-intervention.md",
+          "mentions": [
+            {
+              "raw_target": "bounded-rationality-and-behavioral-economics",
+              "label": "bounded-rationality-and-behavioral-economics",
+              "section": "関連概念",
+              "line": 36,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "decision-rights-redistribution-under-information-processing-shift",
           "label": "情報処理の転換に伴う意思決定権の再配分",
           "resolved": true,
@@ -47741,6 +47885,22 @@
               "label": "bounded-rationality-and-behavioral-economics",
               "section": "関連コンセプト",
               "line": 87,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "readout-discriminable-hypothesis-space",
+          "label": "識別可能性に基づく仮説空間の境界化",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/readout-discriminable-hypothesis-space.md",
+          "mentions": [
+            {
+              "raw_target": "bounded-rationality-and-behavioral-economics",
+              "label": "bounded-rationality-and-behavioral-economics",
+              "section": "関連概念",
+              "line": 27,
               "resolved_via": "slug"
             }
           ]
@@ -55240,6 +55400,22 @@
       "file": "concepts/choice-architecture-and-reliance-shaping.md",
       "inbound": [
         {
+          "id": "identity-mediated-nudge-effect",
+          "label": "アイデンティティ媒介型ナッジ効果",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/identity-mediated-nudge-effect.md",
+          "mentions": [
+            {
+              "raw_target": "choice-architecture-and-reliance-shaping",
+              "label": "choice-architecture-and-reliance-shaping",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "architecture-as-power-distribution-and-interface-standards",
           "label": "アーキテクチャによる権力配分と介面標準",
           "resolved": true,
@@ -55283,6 +55459,29 @@
               "label": "choice-architecture-and-reliance-shaping",
               "section": "関連コンセプト",
               "line": 40,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "mechanism-aligned-debiasing-intervention",
+          "label": "メカニズム整合的デバイアシング介入",
+          "resolved": true,
+          "weight": 2,
+          "source_file": "concepts/mechanism-aligned-debiasing-intervention.md",
+          "mentions": [
+            {
+              "raw_target": "choice-architecture-and-reliance-shaping",
+              "label": "choice-architecture-and-reliance-shaping",
+              "section": "AI Native な設計への示唆",
+              "line": 26,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "choice-architecture-and-reliance-shaping",
+              "label": "choice-architecture-and-reliance-shaping",
+              "section": "関連概念",
+              "line": 34,
               "resolved_via": "slug"
             }
           ]
@@ -57816,6 +58015,22 @@
           ]
         },
         {
+          "id": "mechanism-aligned-debiasing-intervention",
+          "label": "メカニズム整合的デバイアシング介入",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/mechanism-aligned-debiasing-intervention.md",
+          "mentions": [
+            {
+              "raw_target": "cognitive-bias-detection",
+              "label": "cognitive-bias-detection",
+              "section": "関連概念",
+              "line": 32,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "human-verification-loop-bias-amplification",
           "label": "人間による検証ループとバイアス増幅",
           "resolved": true,
@@ -57987,6 +58202,22 @@
       "kind": "concept",
       "file": "concepts/cognitive-biases-in-ai.md",
       "inbound": [
+        {
+          "id": "mechanism-aligned-debiasing-intervention",
+          "label": "メカニズム整合的デバイアシング介入",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/mechanism-aligned-debiasing-intervention.md",
+          "mentions": [
+            {
+              "raw_target": "cognitive-biases-in-ai",
+              "label": "cognitive-biases-in-ai",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ]
+        },
         {
           "id": "source-cue-motivation-interaction-in-credibility-judgment",
           "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
@@ -62843,6 +63074,16 @@
         }
       ]
     },
+    "collective-meta-intelligence": {
+      "id": "collective-meta-intelligence",
+      "slug": "collective-meta-intelligence",
+      "label": "集合的メタ知性",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/collective-meta-intelligence.md",
+      "inbound": [],
+      "outbound": []
+    },
     "collective-sensemaking-of-ai": {
       "id": "collective-sensemaking-of-ai",
       "slug": "collective-sensemaking-of-ai",
@@ -66353,7 +66594,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/compression-as-intelligence-metric.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "readout-discriminable-hypothesis-space",
+          "label": "識別可能性に基づく仮説空間の境界化",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/readout-discriminable-hypothesis-space.md",
+          "mentions": [
+            {
+              "raw_target": "compression-as-intelligence-metric",
+              "label": "compression-as-intelligence-metric",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": [
         {
           "id": "ai-safety-and-governance",
@@ -78500,6 +78758,22 @@
               "resolved_via": "slug"
             }
           ]
+        },
+        {
+          "id": "normative-rationality-constructs-governance-object",
+          "label": "規範的合理性によるガバナンス対象の構成",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/normative-rationality-constructs-governance-object.md",
+          "mentions": [
+            {
+              "raw_target": "cultural-context-adaptation-metrics",
+              "label": "cultural-context-adaptation-metrics",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ]
         }
       ],
       "outbound": [
@@ -78963,6 +79237,22 @@
               "label": "cultural-ethical-fit-ai-governance",
               "section": "関連コンセプト",
               "line": 46,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "normative-rationality-constructs-governance-object",
+          "label": "規範的合理性によるガバナンス対象の構成",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/normative-rationality-constructs-governance-object.md",
+          "mentions": [
+            {
+              "raw_target": "cultural-ethical-fit-ai-governance",
+              "label": "cultural-ethical-fit-ai-governance",
+              "section": "関連概念",
+              "line": 29,
               "resolved_via": "slug"
             }
           ]
@@ -161050,6 +161340,22 @@
       "file": "concepts/deterministic-boundary-gating-of-autonomous-effects.md",
       "inbound": [
         {
+          "id": "information-theoretic-security-safety-tradeoff",
+          "label": "マルチモーダルシステムにおけるセキュリティ-セーフティの情報理論的トレードオフ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/information-theoretic-security-safety-tradeoff.md",
+          "mentions": [
+            {
+              "raw_target": "deterministic-boundary-gating-of-autonomous-effects",
+              "label": "deterministic-boundary-gating-of-autonomous-effects",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "intermediary-dual-effect-and-critical-threshold-dominance",
           "label": "仲介構造の二重効果と臨界閾値での支配反転",
           "resolved": true,
@@ -163304,7 +163610,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/digital-nudging.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "identity-mediated-nudge-effect",
+          "label": "アイデンティティ媒介型ナッジ効果",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/identity-mediated-nudge-effect.md",
+          "mentions": [
+            {
+              "raw_target": "digital-nudging",
+              "label": "digital-nudging",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": []
     },
     "digital-platform-ecosystem-orchestration": {
@@ -169003,6 +169326,16 @@
         }
       ]
     },
+    "ecological-rationality-and-fast-and-frugal-heuristics": {
+      "id": "ecological-rationality-and-fast-and-frugal-heuristics",
+      "slug": "ecological-rationality-and-fast-and-frugal-heuristics",
+      "label": "環境適合的合理性と簡潔なヒューリスティック",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/ecological-rationality-and-fast-and-frugal-heuristics.md",
+      "inbound": [],
+      "outbound": []
+    },
     "ecological-resilience-and-stability": {
       "id": "ecological-resilience-and-stability",
       "slug": "ecological-resilience-and-stability",
@@ -171872,6 +172205,16 @@
           "candidates": []
         }
       ]
+    },
+    "empathy-as-cost-path-simulation": {
+      "id": "empathy-as-cost-path-simulation",
+      "slug": "empathy-as-cost-path-simulation",
+      "label": "コストパス・シミュレーションとしての共感",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/empathy-as-cost-path-simulation.md",
+      "inbound": [],
+      "outbound": []
     },
     "empirical-growth-robustness": {
       "id": "empirical-growth-robustness",
@@ -179822,6 +180165,16 @@
         }
       ]
     },
+    "event-time-confounding-in-continuous-process-intervention": {
+      "id": "event-time-confounding-in-continuous-process-intervention",
+      "slug": "event-time-confounding-in-continuous-process-intervention",
+      "label": "連続プロセス介入における時間ゼロの内生性バイアス",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/event-time-confounding-in-continuous-process-intervention.md",
+      "inbound": [],
+      "outbound": []
+    },
     "evidence-based-management": {
       "id": "evidence-based-management",
       "slug": "evidence-based-management",
@@ -185882,6 +186235,22 @@
           ]
         },
         {
+          "id": "readout-discriminable-hypothesis-space",
+          "label": "識別可能性に基づく仮説空間の境界化",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/readout-discriminable-hypothesis-space.md",
+          "mentions": [
+            {
+              "raw_target": "exploration-vs-exploitation",
+              "label": "exploration-vs-exploitation",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "adaptive-control-under-nonstationarity-and-exploration-exploitation-tension",
           "label": "非定常環境下の適応制御と探索-活用の緊張",
           "resolved": true,
@@ -189354,6 +189723,22 @@
               "label": "finite-cognitive-resources-and-load-thresholds",
               "section": "関連コンセプト",
               "line": 73,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "readout-discriminable-hypothesis-space",
+          "label": "識別可能性に基づく仮説空間の境界化",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/readout-discriminable-hypothesis-space.md",
+          "mentions": [
+            {
+              "raw_target": "finite-cognitive-resources-and-load-thresholds",
+              "label": "finite-cognitive-resources-and-load-thresholds",
+              "section": "関連概念",
+              "line": 27,
               "resolved_via": "slug"
             }
           ]
@@ -198987,6 +199372,22 @@
               "label": "global-standard-local-context-reconciliation",
               "section": "関連コンセプト",
               "line": 64,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "normative-rationality-constructs-governance-object",
+          "label": "規範的合理性によるガバナンス対象の構成",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/normative-rationality-constructs-governance-object.md",
+          "mentions": [
+            {
+              "raw_target": "global-standard-local-context-reconciliation",
+              "label": "global-standard-local-context-reconciliation",
+              "section": "関連概念",
+              "line": 29,
               "resolved_via": "slug"
             }
           ]
@@ -215145,6 +215546,121 @@
         }
       ]
     },
+    "identity-mediated-nudge-effect": {
+      "id": "identity-mediated-nudge-effect",
+      "slug": "identity-mediated-nudge-effect",
+      "label": "アイデンティティ媒介型ナッジ効果",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/identity-mediated-nudge-effect.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "digital-nudging",
+          "label": "デジタルナッジング",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/digital-nudging.md",
+          "raw_targets": [
+            "digital-nudging"
+          ],
+          "display_labels": [
+            "digital-nudging"
+          ],
+          "mentions": [
+            {
+              "raw_target": "digital-nudging",
+              "label": "digital-nudging",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "digital-nudging"
+          ]
+        },
+        {
+          "id": "agi-governance-digital-nudging",
+          "label": "デジタルナッジングによるAGIガバナンス",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/agi-governance-digital-nudging.md",
+          "raw_targets": [
+            "agi-governance-digital-nudging"
+          ],
+          "display_labels": [
+            "agi-governance-digital-nudging"
+          ],
+          "mentions": [
+            {
+              "raw_target": "agi-governance-digital-nudging",
+              "label": "agi-governance-digital-nudging",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "agi-governance-digital-nudging"
+          ]
+        },
+        {
+          "id": "self-determination-theory",
+          "label": "自己決定理論（Self-Determination Theory）",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/self-determination-theory.md",
+          "raw_targets": [
+            "self-determination-theory"
+          ],
+          "display_labels": [
+            "self-determination-theory"
+          ],
+          "mentions": [
+            {
+              "raw_target": "self-determination-theory",
+              "label": "self-determination-theory",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "self-determination-theory"
+          ]
+        },
+        {
+          "id": "choice-architecture-and-reliance-shaping",
+          "label": "選択アーキテクチャによる依存・信頼の形成",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/choice-architecture-and-reliance-shaping.md",
+          "raw_targets": [
+            "choice-architecture-and-reliance-shaping"
+          ],
+          "display_labels": [
+            "choice-architecture-and-reliance-shaping"
+          ],
+          "mentions": [
+            {
+              "raw_target": "choice-architecture-and-reliance-shaping",
+              "label": "choice-architecture-and-reliance-shaping",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "choice-architecture-and-reliance-shaping"
+          ]
+        }
+      ]
+    },
     "identity-work-mediated-reconciliation-of-epistemic-regimes": {
       "id": "identity-work-mediated-reconciliation-of-epistemic-regimes",
       "slug": "identity-work-mediated-reconciliation-of-epistemic-regimes",
@@ -218397,6 +218913,147 @@
         }
       ]
     },
+    "information-theoretic-security-safety-tradeoff": {
+      "id": "information-theoretic-security-safety-tradeoff",
+      "slug": "information-theoretic-security-safety-tradeoff",
+      "label": "マルチモーダルシステムにおけるセキュリティ-セーフティの情報理論的トレードオフ",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/information-theoretic-security-safety-tradeoff.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "architecture-level-value-preservation-and-social-harness",
+          "label": "アーキテクチャ層での価値保存と社会的ハーネス",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/architecture-level-value-preservation-and-social-harness.md",
+          "raw_targets": [
+            "architecture-level-value-preservation-and-social-harness"
+          ],
+          "display_labels": [
+            "architecture-level-value-preservation-and-social-harness"
+          ],
+          "mentions": [
+            {
+              "raw_target": "architecture-level-value-preservation-and-social-harness",
+              "label": "architecture-level-value-preservation-and-social-harness",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "architecture-level-value-preservation-and-social-harness"
+          ]
+        },
+        {
+          "id": "multimodal-large-language-models-mllm",
+          "label": "マルチモーダル大規模言語モデル (MLLM)",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/multimodal-large-language-models-mllm.md",
+          "raw_targets": [
+            "multimodal-large-language-models-mllm"
+          ],
+          "display_labels": [
+            "multimodal-large-language-models-mllm"
+          ],
+          "mentions": [
+            {
+              "raw_target": "multimodal-large-language-models-mllm",
+              "label": "multimodal-large-language-models-mllm",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "multimodal-large-language-models-mllm"
+          ]
+        },
+        {
+          "id": "runtime-authorization-control-points",
+          "label": "実行時認可と定量的制御点の設計",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/runtime-authorization-control-points.md",
+          "raw_targets": [
+            "runtime-authorization-control-points"
+          ],
+          "display_labels": [
+            "runtime-authorization-control-points"
+          ],
+          "mentions": [
+            {
+              "raw_target": "runtime-authorization-control-points",
+              "label": "runtime-authorization-control-points",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "runtime-authorization-control-points"
+          ]
+        },
+        {
+          "id": "deterministic-boundary-gating-of-autonomous-effects",
+          "label": "自律的決定と現実効果の間の決定論的境界ゲート",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/deterministic-boundary-gating-of-autonomous-effects.md",
+          "raw_targets": [
+            "deterministic-boundary-gating-of-autonomous-effects"
+          ],
+          "display_labels": [
+            "deterministic-boundary-gating-of-autonomous-effects"
+          ],
+          "mentions": [
+            {
+              "raw_target": "deterministic-boundary-gating-of-autonomous-effects",
+              "label": "deterministic-boundary-gating-of-autonomous-effects",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "deterministic-boundary-gating-of-autonomous-effects"
+          ]
+        },
+        {
+          "id": "structural-separation-of-verification-from-governed-system",
+          "label": "被統治系からの検証機構の構造的分離",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/structural-separation-of-verification-from-governed-system.md",
+          "raw_targets": [
+            "structural-separation-of-verification-from-governed-system"
+          ],
+          "display_labels": [
+            "structural-separation-of-verification-from-governed-system"
+          ],
+          "mentions": [
+            {
+              "raw_target": "structural-separation-of-verification-from-governed-system",
+              "label": "structural-separation-of-verification-from-governed-system",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "structural-separation-of-verification-from-governed-system"
+          ]
+        }
+      ]
+    },
     "informational-task-entropy": {
       "id": "informational-task-entropy",
       "slug": "informational-task-entropy",
@@ -220131,6 +220788,248 @@
       ],
       "outbound": []
     },
+    "institutional-capture-via-normative-framework-manipulation": {
+      "id": "institutional-capture-via-normative-framework-manipulation",
+      "slug": "institutional-capture-via-normative-framework-manipulation",
+      "label": "規範的枠組み操作による制度捕獲",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/institutional-capture-via-normative-framework-manipulation.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "architectural-locus-of-accountability",
+          "label": "アーキテクチャ配置による説明責任の構造的固定",
+          "resolved": true,
+          "weight": 2,
+          "target_file": "concepts/architectural-locus-of-accountability.md",
+          "raw_targets": [
+            "architectural-locus-of-accountability"
+          ],
+          "display_labels": [
+            "architectural-locus-of-accountability"
+          ],
+          "mentions": [
+            {
+              "raw_target": "architectural-locus-of-accountability",
+              "label": "architectural-locus-of-accountability",
+              "section": "AI Native な設計への示唆",
+              "line": 19,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "architectural-locus-of-accountability",
+              "label": "architectural-locus-of-accountability",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "architectural-locus-of-accountability"
+          ]
+        },
+        {
+          "id": "pre-irreversibility-authority-and-constraint-embedding",
+          "label": "不可逆化前の権限判断と制約の内部設計化",
+          "resolved": true,
+          "weight": 2,
+          "target_file": "concepts/pre-irreversibility-authority-and-constraint-embedding.md",
+          "raw_targets": [
+            "pre-irreversibility-authority-and-constraint-embedding"
+          ],
+          "display_labels": [
+            "pre-irreversibility-authority-and-constraint-embedding"
+          ],
+          "mentions": [
+            {
+              "raw_target": "pre-irreversibility-authority-and-constraint-embedding",
+              "label": "pre-irreversibility-authority-and-constraint-embedding",
+              "section": "AI Native な設計への示唆",
+              "line": 23,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "pre-irreversibility-authority-and-constraint-embedding",
+              "label": "pre-irreversibility-authority-and-constraint-embedding",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "pre-irreversibility-authority-and-constraint-embedding"
+          ]
+        },
+        {
+          "id": "temporal-erosion-of-procedural-legitimacy-under-opacity",
+          "label": "不透明性の累積露出による手続的正当性の時間的侵食",
+          "resolved": true,
+          "weight": 2,
+          "target_file": "concepts/temporal-erosion-of-procedural-legitimacy-under-opacity.md",
+          "raw_targets": [
+            "temporal-erosion-of-procedural-legitimacy-under-opacity"
+          ],
+          "display_labels": [
+            "temporal-erosion-of-procedural-legitimacy-under-opacity"
+          ],
+          "mentions": [
+            {
+              "raw_target": "temporal-erosion-of-procedural-legitimacy-under-opacity",
+              "label": "temporal-erosion-of-procedural-legitimacy-under-opacity",
+              "section": "AI Native な設計への示唆",
+              "line": 21,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "temporal-erosion-of-procedural-legitimacy-under-opacity",
+              "label": "temporal-erosion-of-procedural-legitimacy-under-opacity",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "temporal-erosion-of-procedural-legitimacy-under-opacity"
+          ]
+        },
+        {
+          "id": "authority-bounding-by-parallel-independent-layers",
+          "label": "並列独立層による権限の有界化",
+          "resolved": true,
+          "weight": 2,
+          "target_file": "concepts/authority-bounding-by-parallel-independent-layers.md",
+          "raw_targets": [
+            "authority-bounding-by-parallel-independent-layers"
+          ],
+          "display_labels": [
+            "authority-bounding-by-parallel-independent-layers"
+          ],
+          "mentions": [
+            {
+              "raw_target": "authority-bounding-by-parallel-independent-layers",
+              "label": "authority-bounding-by-parallel-independent-layers",
+              "section": "AI Native な設計への示唆",
+              "line": 19,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "authority-bounding-by-parallel-independent-layers",
+              "label": "authority-bounding-by-parallel-independent-layers",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "authority-bounding-by-parallel-independent-layers"
+          ]
+        },
+        {
+          "id": "structural-reproduction-of-bias-and-power-asymmetry-in-technology",
+          "label": "技術による偏りと権力非対称の構造的再生産",
+          "resolved": true,
+          "weight": 2,
+          "target_file": "concepts/structural-reproduction-of-bias-and-power-asymmetry-in-technology.md",
+          "raw_targets": [
+            "structural-reproduction-of-bias-and-power-asymmetry-in-technology"
+          ],
+          "display_labels": [
+            "structural-reproduction-of-bias-and-power-asymmetry-in-technology"
+          ],
+          "mentions": [
+            {
+              "raw_target": "structural-reproduction-of-bias-and-power-asymmetry-in-technology",
+              "label": "structural-reproduction-of-bias-and-power-asymmetry-in-technology",
+              "section": "AI Native な設計への示唆",
+              "line": 25,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "structural-reproduction-of-bias-and-power-asymmetry-in-technology",
+              "label": "structural-reproduction-of-bias-and-power-asymmetry-in-technology",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "structural-reproduction-of-bias-and-power-asymmetry-in-technology"
+          ]
+        },
+        {
+          "id": "structural-separation-of-verification-from-governed-system",
+          "label": "被統治系からの検証機構の構造的分離",
+          "resolved": true,
+          "weight": 2,
+          "target_file": "concepts/structural-separation-of-verification-from-governed-system.md",
+          "raw_targets": [
+            "structural-separation-of-verification-from-governed-system"
+          ],
+          "display_labels": [
+            "structural-separation-of-verification-from-governed-system"
+          ],
+          "mentions": [
+            {
+              "raw_target": "structural-separation-of-verification-from-governed-system",
+              "label": "structural-separation-of-verification-from-governed-system",
+              "section": "AI Native な設計への示唆",
+              "line": 27,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "structural-separation-of-verification-from-governed-system",
+              "label": "structural-separation-of-verification-from-governed-system",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "structural-separation-of-verification-from-governed-system"
+          ]
+        },
+        {
+          "id": "regulatory-fragmentation-and-institutional-incentive-drift",
+          "label": "規制の断片化と制度的インセンティブによる漂流",
+          "resolved": true,
+          "weight": 2,
+          "target_file": "concepts/regulatory-fragmentation-and-institutional-incentive-drift.md",
+          "raw_targets": [
+            "regulatory-fragmentation-and-institutional-incentive-drift"
+          ],
+          "display_labels": [
+            "regulatory-fragmentation-and-institutional-incentive-drift"
+          ],
+          "mentions": [
+            {
+              "raw_target": "regulatory-fragmentation-and-institutional-incentive-drift",
+              "label": "regulatory-fragmentation-and-institutional-incentive-drift",
+              "section": "AI Native な設計への示唆",
+              "line": 21,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "regulatory-fragmentation-and-institutional-incentive-drift",
+              "label": "regulatory-fragmentation-and-institutional-incentive-drift",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "regulatory-fragmentation-and-institutional-incentive-drift"
+          ]
+        }
+      ]
+    },
     "institutional-investors-and-corporate-behavior": {
       "id": "institutional-investors-and-corporate-behavior",
       "slug": "institutional-investors-and-corporate-behavior",
@@ -220461,6 +221360,22 @@
               "label": "institutional-legitimacy-in-ai-enforcement",
               "section": "関連コンセプト",
               "line": 85,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "normative-rationality-constructs-governance-object",
+          "label": "規範的合理性によるガバナンス対象の構成",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/normative-rationality-constructs-governance-object.md",
+          "mentions": [
+            {
+              "raw_target": "institutional-legitimacy-in-ai-enforcement",
+              "label": "institutional-legitimacy-in-ai-enforcement",
+              "section": "関連概念",
+              "line": 29,
               "resolved_via": "slug"
             }
           ]
@@ -236029,6 +236944,187 @@
         }
       ]
     },
+    "mechanism-aligned-debiasing-intervention": {
+      "id": "mechanism-aligned-debiasing-intervention",
+      "slug": "mechanism-aligned-debiasing-intervention",
+      "label": "メカニズム整合的デバイアシング介入",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/mechanism-aligned-debiasing-intervention.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "cognitive-biases-in-ai",
+          "label": "AIにおける認知バイアス",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/cognitive-biases-in-ai.md",
+          "raw_targets": [
+            "cognitive-biases-in-ai"
+          ],
+          "display_labels": [
+            "cognitive-biases-in-ai"
+          ],
+          "mentions": [
+            {
+              "raw_target": "cognitive-biases-in-ai",
+              "label": "cognitive-biases-in-ai",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "cognitive-biases-in-ai"
+          ]
+        },
+        {
+          "id": "ai-decision-support-systems",
+          "label": "AI意思決定支援システム",
+          "resolved": true,
+          "weight": 2,
+          "target_file": "concepts/ai-decision-support-systems.md",
+          "raw_targets": [
+            "ai-decision-support-systems"
+          ],
+          "display_labels": [
+            "ai-decision-support-systems"
+          ],
+          "mentions": [
+            {
+              "raw_target": "ai-decision-support-systems",
+              "label": "ai-decision-support-systems",
+              "section": "AI Native な設計への示唆",
+              "line": 26,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "ai-decision-support-systems",
+              "label": "ai-decision-support-systems",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "ai-decision-support-systems"
+          ]
+        },
+        {
+          "id": "behavioral-biases-in-ai-fintech",
+          "label": "AI駆動型フィンテックにおける投資家の意思決定自律性と行動バイアス",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/behavioral-biases-in-ai-fintech.md",
+          "raw_targets": [
+            "behavioral-biases-in-ai-fintech"
+          ],
+          "display_labels": [
+            "behavioral-biases-in-ai-fintech"
+          ],
+          "mentions": [
+            {
+              "raw_target": "behavioral-biases-in-ai-fintech",
+              "label": "behavioral-biases-in-ai-fintech",
+              "section": "関連概念",
+              "line": 35,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "behavioral-biases-in-ai-fintech"
+          ]
+        },
+        {
+          "id": "cognitive-bias-detection",
+          "label": "認知バイアス検出",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/cognitive-bias-detection.md",
+          "raw_targets": [
+            "cognitive-bias-detection"
+          ],
+          "display_labels": [
+            "cognitive-bias-detection"
+          ],
+          "mentions": [
+            {
+              "raw_target": "cognitive-bias-detection",
+              "label": "cognitive-bias-detection",
+              "section": "関連概念",
+              "line": 32,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "cognitive-bias-detection"
+          ]
+        },
+        {
+          "id": "choice-architecture-and-reliance-shaping",
+          "label": "選択アーキテクチャによる依存・信頼の形成",
+          "resolved": true,
+          "weight": 2,
+          "target_file": "concepts/choice-architecture-and-reliance-shaping.md",
+          "raw_targets": [
+            "choice-architecture-and-reliance-shaping"
+          ],
+          "display_labels": [
+            "choice-architecture-and-reliance-shaping"
+          ],
+          "mentions": [
+            {
+              "raw_target": "choice-architecture-and-reliance-shaping",
+              "label": "choice-architecture-and-reliance-shaping",
+              "section": "AI Native な設計への示唆",
+              "line": 26,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "choice-architecture-and-reliance-shaping",
+              "label": "choice-architecture-and-reliance-shaping",
+              "section": "関連概念",
+              "line": 34,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "choice-architecture-and-reliance-shaping"
+          ]
+        },
+        {
+          "id": "bounded-rationality-and-behavioral-economics",
+          "label": "限定合理性と意思決定モデル",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/bounded-rationality-and-behavioral-economics.md",
+          "raw_targets": [
+            "bounded-rationality-and-behavioral-economics"
+          ],
+          "display_labels": [
+            "bounded-rationality-and-behavioral-economics"
+          ],
+          "mentions": [
+            {
+              "raw_target": "bounded-rationality-and-behavioral-economics",
+              "label": "bounded-rationality-and-behavioral-economics",
+              "section": "関連概念",
+              "line": 36,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "bounded-rationality-and-behavioral-economics"
+          ]
+        }
+      ]
+    },
     "mediated-access-to-capability-conversion": {
       "id": "mediated-access-to-capability-conversion",
       "slug": "mediated-access-to-capability-conversion",
@@ -238026,6 +239122,22 @@
               "label": "metacognitive-allocation-under-finite-resources",
               "section": "関連コンセプト",
               "line": 79,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "readout-discriminable-hypothesis-space",
+          "label": "識別可能性に基づく仮説空間の境界化",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/readout-discriminable-hypothesis-space.md",
+          "mentions": [
+            {
+              "raw_target": "metacognitive-allocation-under-finite-resources",
+              "label": "metacognitive-allocation-under-finite-resources",
+              "section": "関連概念",
+              "line": 27,
               "resolved_via": "slug"
             }
           ]
@@ -246105,6 +247217,22 @@
       "file": "concepts/multimodal-large-language-models-mllm.md",
       "inbound": [
         {
+          "id": "information-theoretic-security-safety-tradeoff",
+          "label": "マルチモーダルシステムにおけるセキュリティ-セーフティの情報理論的トレードオフ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/information-theoretic-security-safety-tradeoff.md",
+          "mentions": [
+            {
+              "raw_target": "multimodal-large-language-models-mllm",
+              "label": "multimodal-large-language-models-mllm",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "steerable-visual-representations",
           "label": "操舵可能な視覚表現",
           "resolved": true,
@@ -249881,6 +251009,121 @@
           ],
           "ambiguous": false,
           "candidates": []
+        }
+      ]
+    },
+    "normative-rationality-constructs-governance-object": {
+      "id": "normative-rationality-constructs-governance-object",
+      "slug": "normative-rationality-constructs-governance-object",
+      "label": "規範的合理性によるガバナンス対象の構成",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/normative-rationality-constructs-governance-object.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "cultural-ethical-fit-ai-governance",
+          "label": "AIガバナンスにおける文化的・倫理的適合性",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/cultural-ethical-fit-ai-governance.md",
+          "raw_targets": [
+            "cultural-ethical-fit-ai-governance"
+          ],
+          "display_labels": [
+            "cultural-ethical-fit-ai-governance"
+          ],
+          "mentions": [
+            {
+              "raw_target": "cultural-ethical-fit-ai-governance",
+              "label": "cultural-ethical-fit-ai-governance",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "cultural-ethical-fit-ai-governance"
+          ]
+        },
+        {
+          "id": "institutional-legitimacy-in-ai-enforcement",
+          "label": "AI取締りにおける制度的正当性",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/institutional-legitimacy-in-ai-enforcement.md",
+          "raw_targets": [
+            "institutional-legitimacy-in-ai-enforcement"
+          ],
+          "display_labels": [
+            "institutional-legitimacy-in-ai-enforcement"
+          ],
+          "mentions": [
+            {
+              "raw_target": "institutional-legitimacy-in-ai-enforcement",
+              "label": "institutional-legitimacy-in-ai-enforcement",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "institutional-legitimacy-in-ai-enforcement"
+          ]
+        },
+        {
+          "id": "cultural-context-adaptation-metrics",
+          "label": "文化文脈適応指標",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/cultural-context-adaptation-metrics.md",
+          "raw_targets": [
+            "cultural-context-adaptation-metrics"
+          ],
+          "display_labels": [
+            "cultural-context-adaptation-metrics"
+          ],
+          "mentions": [
+            {
+              "raw_target": "cultural-context-adaptation-metrics",
+              "label": "cultural-context-adaptation-metrics",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "cultural-context-adaptation-metrics"
+          ]
+        },
+        {
+          "id": "global-standard-local-context-reconciliation",
+          "label": "普遍基準と局所文脈の調和および双方向知識交換",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/global-standard-local-context-reconciliation.md",
+          "raw_targets": [
+            "global-standard-local-context-reconciliation"
+          ],
+          "display_labels": [
+            "global-standard-local-context-reconciliation"
+          ],
+          "mentions": [
+            {
+              "raw_target": "global-standard-local-context-reconciliation",
+              "label": "global-standard-local-context-reconciliation",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "global-standard-local-context-reconciliation"
+          ]
         }
       ]
     },
@@ -260774,6 +262017,29 @@
           ]
         },
         {
+          "id": "institutional-capture-via-normative-framework-manipulation",
+          "label": "規範的枠組み操作による制度捕獲",
+          "resolved": true,
+          "weight": 2,
+          "source_file": "concepts/institutional-capture-via-normative-framework-manipulation.md",
+          "mentions": [
+            {
+              "raw_target": "pre-irreversibility-authority-and-constraint-embedding",
+              "label": "pre-irreversibility-authority-and-constraint-embedding",
+              "section": "AI Native な設計への示唆",
+              "line": 23,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "pre-irreversibility-authority-and-constraint-embedding",
+              "label": "pre-irreversibility-authority-and-constraint-embedding",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "evidence-generation-versus-pre-action-permission-separation",
           "label": "証拠生成と行為許可の分離(観測は執行ではない)",
           "resolved": true,
@@ -268178,6 +269444,173 @@
         }
       ]
     },
+    "readout-discriminable-hypothesis-space": {
+      "id": "readout-discriminable-hypothesis-space",
+      "slug": "readout-discriminable-hypothesis-space",
+      "label": "識別可能性に基づく仮説空間の境界化",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/readout-discriminable-hypothesis-space.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "compression-as-intelligence-metric",
+          "label": "情報圧縮能力としての知能(パープレキシティ指標)",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/compression-as-intelligence-metric.md",
+          "raw_targets": [
+            "compression-as-intelligence-metric"
+          ],
+          "display_labels": [
+            "compression-as-intelligence-metric"
+          ],
+          "mentions": [
+            {
+              "raw_target": "compression-as-intelligence-metric",
+              "label": "compression-as-intelligence-metric",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "compression-as-intelligence-metric"
+          ]
+        },
+        {
+          "id": "exploration-vs-exploitation",
+          "label": "探索と活用のトレードオフ",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/exploration-vs-exploitation.md",
+          "raw_targets": [
+            "exploration-vs-exploitation"
+          ],
+          "display_labels": [
+            "exploration-vs-exploitation"
+          ],
+          "mentions": [
+            {
+              "raw_target": "exploration-vs-exploitation",
+              "label": "exploration-vs-exploitation",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "exploration-vs-exploitation"
+          ]
+        },
+        {
+          "id": "metacognitive-allocation-under-finite-resources",
+          "label": "有限認知資源下のメタ認知的配分と外部化の代償",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/metacognitive-allocation-under-finite-resources.md",
+          "raw_targets": [
+            "metacognitive-allocation-under-finite-resources"
+          ],
+          "display_labels": [
+            "metacognitive-allocation-under-finite-resources"
+          ],
+          "mentions": [
+            {
+              "raw_target": "metacognitive-allocation-under-finite-resources",
+              "label": "metacognitive-allocation-under-finite-resources",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "metacognitive-allocation-under-finite-resources"
+          ]
+        },
+        {
+          "id": "finite-cognitive-resources-and-load-thresholds",
+          "label": "有限資源と負荷閾値による非線形破綻",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/finite-cognitive-resources-and-load-thresholds.md",
+          "raw_targets": [
+            "finite-cognitive-resources-and-load-thresholds"
+          ],
+          "display_labels": [
+            "finite-cognitive-resources-and-load-thresholds"
+          ],
+          "mentions": [
+            {
+              "raw_target": "finite-cognitive-resources-and-load-thresholds",
+              "label": "finite-cognitive-resources-and-load-thresholds",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "finite-cognitive-resources-and-load-thresholds"
+          ]
+        },
+        {
+          "id": "representation-geometry-governs-adaptation-and-transfer",
+          "label": "表現空間の幾何が適応・転移・制御可能性を規定する",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/representation-geometry-governs-adaptation-and-transfer.md",
+          "raw_targets": [
+            "representation-geometry-governs-adaptation-and-transfer"
+          ],
+          "display_labels": [
+            "representation-geometry-governs-adaptation-and-transfer"
+          ],
+          "mentions": [
+            {
+              "raw_target": "representation-geometry-governs-adaptation-and-transfer",
+              "label": "representation-geometry-governs-adaptation-and-transfer",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "representation-geometry-governs-adaptation-and-transfer"
+          ]
+        },
+        {
+          "id": "bounded-rationality-and-behavioral-economics",
+          "label": "限定合理性と意思決定モデル",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/bounded-rationality-and-behavioral-economics.md",
+          "raw_targets": [
+            "bounded-rationality-and-behavioral-economics"
+          ],
+          "display_labels": [
+            "bounded-rationality-and-behavioral-economics"
+          ],
+          "mentions": [
+            {
+              "raw_target": "bounded-rationality-and-behavioral-economics",
+              "label": "bounded-rationality-and-behavioral-economics",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "bounded-rationality-and-behavioral-economics"
+          ]
+        }
+      ]
+    },
     "recurrent-automation-deskilling-dilemma": {
       "id": "recurrent-automation-deskilling-dilemma",
       "slug": "recurrent-automation-deskilling-dilemma",
@@ -270489,7 +271922,31 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/regulatory-fragmentation-and-institutional-incentive-drift.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "institutional-capture-via-normative-framework-manipulation",
+          "label": "規範的枠組み操作による制度捕獲",
+          "resolved": true,
+          "weight": 2,
+          "source_file": "concepts/institutional-capture-via-normative-framework-manipulation.md",
+          "mentions": [
+            {
+              "raw_target": "regulatory-fragmentation-and-institutional-incentive-drift",
+              "label": "regulatory-fragmentation-and-institutional-incentive-drift",
+              "section": "AI Native な設計への示唆",
+              "line": 21,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "regulatory-fragmentation-and-institutional-incentive-drift",
+              "label": "regulatory-fragmentation-and-institutional-incentive-drift",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": [
         {
           "id": "institutional-legitimacy-in-ai-enforcement",
@@ -272427,6 +273884,22 @@
       "kind": "concept",
       "file": "concepts/representation-geometry-governs-adaptation-and-transfer.md",
       "inbound": [
+        {
+          "id": "readout-discriminable-hypothesis-space",
+          "label": "識別可能性に基づく仮説空間の境界化",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/readout-discriminable-hypothesis-space.md",
+          "mentions": [
+            {
+              "raw_target": "representation-geometry-governs-adaptation-and-transfer",
+              "label": "representation-geometry-governs-adaptation-and-transfer",
+              "section": "関連概念",
+              "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        },
         {
           "id": "memory-wall-resource-scaling-constraint",
           "label": "資源スケーリングの非対称が設計を規定するボトルネック",
@@ -277584,6 +279057,22 @@
       "file": "concepts/runtime-authorization-control-points.md",
       "inbound": [
         {
+          "id": "information-theoretic-security-safety-tradeoff",
+          "label": "マルチモーダルシステムにおけるセキュリティ-セーフティの情報理論的トレードオフ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/information-theoretic-security-safety-tradeoff.md",
+          "mentions": [
+            {
+              "raw_target": "runtime-authorization-control-points",
+              "label": "runtime-authorization-control-points",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "opacity-verification-gap",
           "label": "不透明性と検証可能性の非対称ギャップ",
           "resolved": true,
@@ -280174,6 +281663,22 @@
               "section": "関連概念",
               "line": 49,
               "resolved_via": "alias"
+            }
+          ]
+        },
+        {
+          "id": "identity-mediated-nudge-effect",
+          "label": "アイデンティティ媒介型ナッジ効果",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/identity-mediated-nudge-effect.md",
+          "mentions": [
+            {
+              "raw_target": "self-determination-theory",
+              "label": "self-determination-theory",
+              "section": "関連概念",
+              "line": 33,
+              "resolved_via": "slug"
             }
           ]
         },
@@ -291838,6 +293343,16 @@
         }
       ]
     },
+    "staged-identity-adaptation-to-technological-change": {
+      "id": "staged-identity-adaptation-to-technological-change",
+      "slug": "staged-identity-adaptation-to-technological-change",
+      "label": "技術変化への段階的アイデンティティ適応",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/staged-identity-adaptation-to-technological-change.md",
+      "inbound": [],
+      "outbound": []
+    },
     "standardized-selection-suppresses-diversity-and-context-fit": {
       "id": "standardized-selection-suppresses-diversity-and-context-fit",
       "slug": "standardized-selection-suppresses-diversity-and-context-fit",
@@ -296045,6 +297560,29 @@
               "resolved_via": "slug"
             }
           ]
+        },
+        {
+          "id": "institutional-capture-via-normative-framework-manipulation",
+          "label": "規範的枠組み操作による制度捕獲",
+          "resolved": true,
+          "weight": 2,
+          "source_file": "concepts/institutional-capture-via-normative-framework-manipulation.md",
+          "mentions": [
+            {
+              "raw_target": "structural-reproduction-of-bias-and-power-asymmetry-in-technology",
+              "label": "structural-reproduction-of-bias-and-power-asymmetry-in-technology",
+              "section": "AI Native な設計への示唆",
+              "line": 25,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "structural-reproduction-of-bias-and-power-asymmetry-in-technology",
+              "label": "structural-reproduction-of-bias-and-power-asymmetry-in-technology",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ]
         }
       ],
       "outbound": [
@@ -297092,6 +298630,22 @@
       "file": "concepts/structural-separation-of-verification-from-governed-system.md",
       "inbound": [
         {
+          "id": "information-theoretic-security-safety-tradeoff",
+          "label": "マルチモーダルシステムにおけるセキュリティ-セーフティの情報理論的トレードオフ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/information-theoretic-security-safety-tradeoff.md",
+          "mentions": [
+            {
+              "raw_target": "structural-separation-of-verification-from-governed-system",
+              "label": "structural-separation-of-verification-from-governed-system",
+              "section": "関連概念",
+              "line": 31,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "distributed-epistemic-commons-and-identity-separation",
           "label": "分散的知のコモンズと関係・同一性の分離",
           "resolved": true,
@@ -297316,6 +298870,29 @@
               "label": "structural-separation-of-verification-from-governed-system",
               "section": "関連コンセプト",
               "line": 52,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "institutional-capture-via-normative-framework-manipulation",
+          "label": "規範的枠組み操作による制度捕獲",
+          "resolved": true,
+          "weight": 2,
+          "source_file": "concepts/institutional-capture-via-normative-framework-manipulation.md",
+          "mentions": [
+            {
+              "raw_target": "structural-separation-of-verification-from-governed-system",
+              "label": "structural-separation-of-verification-from-governed-system",
+              "section": "AI Native な設計への示唆",
+              "line": 27,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "structural-separation-of-verification-from-governed-system",
+              "label": "structural-separation-of-verification-from-governed-system",
+              "section": "関連概念",
+              "line": 31,
               "resolved_via": "slug"
             }
           ]
@@ -306044,6 +307621,29 @@
               "label": "temporal-erosion-of-procedural-legitimacy-under-opacity",
               "section": "関連コンセプト",
               "line": 68,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "institutional-capture-via-normative-framework-manipulation",
+          "label": "規範的枠組み操作による制度捕獲",
+          "resolved": true,
+          "weight": 2,
+          "source_file": "concepts/institutional-capture-via-normative-framework-manipulation.md",
+          "mentions": [
+            {
+              "raw_target": "temporal-erosion-of-procedural-legitimacy-under-opacity",
+              "label": "temporal-erosion-of-procedural-legitimacy-under-opacity",
+              "section": "AI Native な設計への示唆",
+              "line": 21,
+              "resolved_via": "slug"
+            },
+            {
+              "raw_target": "temporal-erosion-of-procedural-legitimacy-under-opacity",
+              "label": "temporal-erosion-of-procedural-legitimacy-under-opacity",
+              "section": "関連概念",
+              "line": 31,
               "resolved_via": "slug"
             }
           ]
@@ -323881,7 +325481,24 @@
         ]
       }
     ],
-    "agi-governance-digital-nudging": [],
+    "agi-governance-digital-nudging": [
+      {
+        "id": "identity-mediated-nudge-effect",
+        "label": "アイデンティティ媒介型ナッジ効果",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/identity-mediated-nudge-effect.md",
+        "mentions": [
+          {
+            "raw_target": "agi-governance-digital-nudging",
+            "label": "agi-governance-digital-nudging",
+            "section": "関連概念",
+            "line": 33,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "agi-governance-nudging": [],
     "agi-governance-smart-nudging": [],
     "agri-food-nanotechnology": [],
@@ -326134,6 +327751,29 @@
       }
     ],
     "ai-decision-support-systems": [
+      {
+        "id": "mechanism-aligned-debiasing-intervention",
+        "label": "メカニズム整合的デバイアシング介入",
+        "resolved": true,
+        "weight": 2,
+        "source_file": "concepts/mechanism-aligned-debiasing-intervention.md",
+        "mentions": [
+          {
+            "raw_target": "ai-decision-support-systems",
+            "label": "ai-decision-support-systems",
+            "section": "AI Native な設計への示唆",
+            "line": 26,
+            "resolved_via": "slug"
+          },
+          {
+            "raw_target": "ai-decision-support-systems",
+            "label": "ai-decision-support-systems",
+            "section": "関連概念",
+            "line": 33,
+            "resolved_via": "slug"
+          }
+        ]
+      },
       {
         "id": "human-ai-collaboration-decision-making",
         "label": "人間とAIの協調的意思決定",
@@ -331299,6 +332939,7 @@
     "ai-subjectivity-formalism": [],
     "ai-supported-literature-review-agency": [],
     "ai-system-decommissioning": [],
+    "ai-system-population-as-governance-object": [],
     "ai-technology-adoption-firms": [
       {
         "id": "multilayer-interaction-determines-adoption-outcomes",
@@ -332918,6 +334559,29 @@
         ]
       },
       {
+        "id": "institutional-capture-via-normative-framework-manipulation",
+        "label": "規範的枠組み操作による制度捕獲",
+        "resolved": true,
+        "weight": 2,
+        "source_file": "concepts/institutional-capture-via-normative-framework-manipulation.md",
+        "mentions": [
+          {
+            "raw_target": "architectural-locus-of-accountability",
+            "label": "architectural-locus-of-accountability",
+            "section": "AI Native な設計への示唆",
+            "line": 19,
+            "resolved_via": "slug"
+          },
+          {
+            "raw_target": "architectural-locus-of-accountability",
+            "label": "architectural-locus-of-accountability",
+            "section": "関連概念",
+            "line": 31,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "accountability-integration-tradeoff-and-institutional-compromise",
         "label": "説明責任と情報統合のトレードオフ、および制度的妥協の再構成",
         "resolved": true,
@@ -333072,6 +334736,22 @@
       }
     ],
     "architecture-level-value-preservation-and-social-harness": [
+      {
+        "id": "information-theoretic-security-safety-tradeoff",
+        "label": "マルチモーダルシステムにおけるセキュリティ-セーフティの情報理論的トレードオフ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/information-theoretic-security-safety-tradeoff.md",
+        "mentions": [
+          {
+            "raw_target": "architecture-level-value-preservation-and-social-harness",
+            "label": "architecture-level-value-preservation-and-social-harness",
+            "section": "関連概念",
+            "line": 31,
+            "resolved_via": "slug"
+          }
+        ]
+      },
       {
         "id": "precondition-recorded-revalidation-of-long-running-decisions",
         "label": "事前条件の明示記録による長時間意思決定の選択的再検証",
@@ -333752,6 +335432,29 @@
             "label": "authority-bounding-by-parallel-independent-layers",
             "section": "関連コンセプト",
             "line": 48,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "institutional-capture-via-normative-framework-manipulation",
+        "label": "規範的枠組み操作による制度捕獲",
+        "resolved": true,
+        "weight": 2,
+        "source_file": "concepts/institutional-capture-via-normative-framework-manipulation.md",
+        "mentions": [
+          {
+            "raw_target": "authority-bounding-by-parallel-independent-layers",
+            "label": "authority-bounding-by-parallel-independent-layers",
+            "section": "AI Native な設計への示唆",
+            "line": 19,
+            "resolved_via": "slug"
+          },
+          {
+            "raw_target": "authority-bounding-by-parallel-independent-layers",
+            "label": "authority-bounding-by-parallel-independent-layers",
+            "section": "関連概念",
+            "line": 31,
             "resolved_via": "slug"
           }
         ]
@@ -334704,6 +336407,22 @@
     "behavior-grounded-ai-training": [],
     "behavioral-biases-in-ai-fintech": [
       {
+        "id": "mechanism-aligned-debiasing-intervention",
+        "label": "メカニズム整合的デバイアシング介入",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/mechanism-aligned-debiasing-intervention.md",
+        "mentions": [
+          {
+            "raw_target": "behavioral-biases-in-ai-fintech",
+            "label": "behavioral-biases-in-ai-fintech",
+            "section": "関連概念",
+            "line": 35,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "decentralized-equilibrium-learning",
         "label": "不完全情報下における分散型一般化ナッシュ均衡学習",
         "resolved": true,
@@ -335555,6 +337274,22 @@
     ],
     "bounded-rationality-and-behavioral-economics": [
       {
+        "id": "mechanism-aligned-debiasing-intervention",
+        "label": "メカニズム整合的デバイアシング介入",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/mechanism-aligned-debiasing-intervention.md",
+        "mentions": [
+          {
+            "raw_target": "bounded-rationality-and-behavioral-economics",
+            "label": "bounded-rationality-and-behavioral-economics",
+            "section": "関連概念",
+            "line": 36,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "decision-rights-redistribution-under-information-processing-shift",
         "label": "情報処理の転換に伴う意思決定権の再配分",
         "resolved": true,
@@ -335653,6 +337388,22 @@
             "label": "bounded-rationality-and-behavioral-economics",
             "section": "関連コンセプト",
             "line": 87,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "readout-discriminable-hypothesis-space",
+        "label": "識別可能性に基づく仮説空間の境界化",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/readout-discriminable-hypothesis-space.md",
+        "mentions": [
+          {
+            "raw_target": "bounded-rationality-and-behavioral-economics",
+            "label": "bounded-rationality-and-behavioral-economics",
+            "section": "関連概念",
+            "line": 27,
             "resolved_via": "slug"
           }
         ]
@@ -338672,6 +340423,22 @@
     ],
     "choice-architecture-and-reliance-shaping": [
       {
+        "id": "identity-mediated-nudge-effect",
+        "label": "アイデンティティ媒介型ナッジ効果",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/identity-mediated-nudge-effect.md",
+        "mentions": [
+          {
+            "raw_target": "choice-architecture-and-reliance-shaping",
+            "label": "choice-architecture-and-reliance-shaping",
+            "section": "関連概念",
+            "line": 33,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "architecture-as-power-distribution-and-interface-standards",
         "label": "アーキテクチャによる権力配分と介面標準",
         "resolved": true,
@@ -338715,6 +340482,29 @@
             "label": "choice-architecture-and-reliance-shaping",
             "section": "関連コンセプト",
             "line": 40,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "mechanism-aligned-debiasing-intervention",
+        "label": "メカニズム整合的デバイアシング介入",
+        "resolved": true,
+        "weight": 2,
+        "source_file": "concepts/mechanism-aligned-debiasing-intervention.md",
+        "mentions": [
+          {
+            "raw_target": "choice-architecture-and-reliance-shaping",
+            "label": "choice-architecture-and-reliance-shaping",
+            "section": "AI Native な設計への示唆",
+            "line": 26,
+            "resolved_via": "slug"
+          },
+          {
+            "raw_target": "choice-architecture-and-reliance-shaping",
+            "label": "choice-architecture-and-reliance-shaping",
+            "section": "関連概念",
+            "line": 34,
             "resolved_via": "slug"
           }
         ]
@@ -339300,6 +341090,22 @@
         ]
       },
       {
+        "id": "mechanism-aligned-debiasing-intervention",
+        "label": "メカニズム整合的デバイアシング介入",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/mechanism-aligned-debiasing-intervention.md",
+        "mentions": [
+          {
+            "raw_target": "cognitive-bias-detection",
+            "label": "cognitive-bias-detection",
+            "section": "関連概念",
+            "line": 32,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "human-verification-loop-bias-amplification",
         "label": "人間による検証ループとバイアス増幅",
         "resolved": true,
@@ -339365,6 +341171,22 @@
       }
     ],
     "cognitive-biases-in-ai": [
+      {
+        "id": "mechanism-aligned-debiasing-intervention",
+        "label": "メカニズム整合的デバイアシング介入",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/mechanism-aligned-debiasing-intervention.md",
+        "mentions": [
+          {
+            "raw_target": "cognitive-biases-in-ai",
+            "label": "cognitive-biases-in-ai",
+            "section": "関連概念",
+            "line": 31,
+            "resolved_via": "slug"
+          }
+        ]
+      },
       {
         "id": "source-cue-motivation-interaction-in-credibility-judgment",
         "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
@@ -341122,6 +342944,7 @@
         ]
       }
     ],
+    "collective-meta-intelligence": [],
     "collective-sensemaking-of-ai": [],
     "combinatorial-optimization-graphs": [
       {
@@ -342039,7 +343862,24 @@
         ]
       }
     ],
-    "compression-as-intelligence-metric": [],
+    "compression-as-intelligence-metric": [
+      {
+        "id": "readout-discriminable-hypothesis-space",
+        "label": "識別可能性に基づく仮説空間の境界化",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/readout-discriminable-hypothesis-space.md",
+        "mentions": [
+          {
+            "raw_target": "compression-as-intelligence-metric",
+            "label": "compression-as-intelligence-metric",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "computational-governance-benchmarking": [
       {
         "id": "computational-limits-forcing-decentralized-autonomy",
@@ -346082,6 +347922,22 @@
             "resolved_via": "slug"
           }
         ]
+      },
+      {
+        "id": "normative-rationality-constructs-governance-object",
+        "label": "規範的合理性によるガバナンス対象の構成",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/normative-rationality-constructs-governance-object.md",
+        "mentions": [
+          {
+            "raw_target": "cultural-context-adaptation-metrics",
+            "label": "cultural-context-adaptation-metrics",
+            "section": "関連概念",
+            "line": 29,
+            "resolved_via": "slug"
+          }
+        ]
       }
     ],
     "cultural-dimensions-framework": [],
@@ -346115,6 +347971,22 @@
             "label": "cultural-ethical-fit-ai-governance",
             "section": "関連コンセプト",
             "line": 46,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "normative-rationality-constructs-governance-object",
+        "label": "規範的合理性によるガバナンス対象の構成",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/normative-rationality-constructs-governance-object.md",
+        "mentions": [
+          {
+            "raw_target": "cultural-ethical-fit-ai-governance",
+            "label": "cultural-ethical-fit-ai-governance",
+            "section": "関連概念",
+            "line": 29,
             "resolved_via": "slug"
           }
         ]
@@ -400550,6 +402422,22 @@
     ],
     "deterministic-boundary-gating-of-autonomous-effects": [
       {
+        "id": "information-theoretic-security-safety-tradeoff",
+        "label": "マルチモーダルシステムにおけるセキュリティ-セーフティの情報理論的トレードオフ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/information-theoretic-security-safety-tradeoff.md",
+        "mentions": [
+          {
+            "raw_target": "deterministic-boundary-gating-of-autonomous-effects",
+            "label": "deterministic-boundary-gating-of-autonomous-effects",
+            "section": "関連概念",
+            "line": 31,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "intermediary-dual-effect-and-critical-threshold-dominance",
         "label": "仲介構造の二重効果と臨界閾値での支配反転",
         "resolved": true,
@@ -400955,7 +402843,24 @@
         ]
       }
     ],
-    "digital-nudging": [],
+    "digital-nudging": [
+      {
+        "id": "identity-mediated-nudge-effect",
+        "label": "アイデンティティ媒介型ナッジ効果",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/identity-mediated-nudge-effect.md",
+        "mentions": [
+          {
+            "raw_target": "digital-nudging",
+            "label": "digital-nudging",
+            "section": "関連概念",
+            "line": 33,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "digital-platform-ecosystem-orchestration": [
       {
         "id": "sequential-chain-to-parallel-ecosystem-restructuring",
@@ -402307,6 +404212,7 @@
         ]
       }
     ],
+    "ecological-rationality-and-fast-and-frugal-heuristics": [],
     "ecological-resilience-and-stability": [
       {
         "id": "energy-landscape-attractor-memory",
@@ -403077,6 +404983,7 @@
       }
     ],
     "emerging-market-strategies": [],
+    "empathy-as-cost-path-simulation": [],
     "empirical-growth-robustness": [],
     "energy-landscape-attractor-memory": [
       {
@@ -404979,6 +406886,7 @@
     "eu-archival-data-law-compliance": [],
     "eval-primitive-decomposition-for-agentic-benchmarks": [],
     "evaluating-agentic-ai-in-education": [],
+    "event-time-confounding-in-continuous-process-intervention": [],
     "evidence-based-management": [
       {
         "id": "situated-evidence-over-decontextualized-benchmarks",
@@ -407157,6 +409065,22 @@
         ]
       },
       {
+        "id": "readout-discriminable-hypothesis-space",
+        "label": "識別可能性に基づく仮説空間の境界化",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/readout-discriminable-hypothesis-space.md",
+        "mentions": [
+          {
+            "raw_target": "exploration-vs-exploitation",
+            "label": "exploration-vs-exploitation",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "adaptive-control-under-nonstationarity-and-exploration-exploitation-tension",
         "label": "非定常環境下の適応制御と探索-活用の緊張",
         "resolved": true,
@@ -408216,6 +410140,22 @@
             "label": "finite-cognitive-resources-and-load-thresholds",
             "section": "関連コンセプト",
             "line": 73,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "readout-discriminable-hypothesis-space",
+        "label": "識別可能性に基づく仮説空間の境界化",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/readout-discriminable-hypothesis-space.md",
+        "mentions": [
+          {
+            "raw_target": "finite-cognitive-resources-and-load-thresholds",
+            "label": "finite-cognitive-resources-and-load-thresholds",
+            "section": "関連概念",
+            "line": 27,
             "resolved_via": "slug"
           }
         ]
@@ -410012,6 +411952,22 @@
             "label": "global-standard-local-context-reconciliation",
             "section": "関連コンセプト",
             "line": 64,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "normative-rationality-constructs-governance-object",
+        "label": "規範的合理性によるガバナンス対象の構成",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/normative-rationality-constructs-governance-object.md",
+        "mentions": [
+          {
+            "raw_target": "global-standard-local-context-reconciliation",
+            "label": "global-standard-local-context-reconciliation",
+            "section": "関連概念",
+            "line": 29,
             "resolved_via": "slug"
           }
         ]
@@ -415260,6 +417216,7 @@
         ]
       }
     ],
+    "identity-mediated-nudge-effect": [],
     "identity-work-mediated-reconciliation-of-epistemic-regimes": [],
     "illiquidity-and-stock-returns": [],
     "immigrant-ell-transition-american-school": [],
@@ -415981,6 +417938,7 @@
         ]
       }
     ],
+    "information-theoretic-security-safety-tradeoff": [],
     "informational-task-entropy": [
       {
         "id": "task-standardizability-determines-substitution-boundary",
@@ -416231,6 +418189,7 @@
         ]
       }
     ],
+    "institutional-capture-via-normative-framework-manipulation": [],
     "institutional-investors-and-corporate-behavior": [
       {
         "id": "multi-layer-independent-control-and-institutional-durability",
@@ -416422,6 +418381,22 @@
             "label": "institutional-legitimacy-in-ai-enforcement",
             "section": "関連コンセプト",
             "line": 85,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "normative-rationality-constructs-governance-object",
+        "label": "規範的合理性によるガバナンス対象の構成",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/normative-rationality-constructs-governance-object.md",
+        "mentions": [
+          {
+            "raw_target": "institutional-legitimacy-in-ai-enforcement",
+            "label": "institutional-legitimacy-in-ai-enforcement",
+            "section": "関連概念",
+            "line": 29,
             "resolved_via": "slug"
           }
         ]
@@ -419415,6 +421390,7 @@
         ]
       }
     ],
+    "mechanism-aligned-debiasing-intervention": [],
     "mediated-access-to-capability-conversion": [
       {
         "id": "conversion-factor-gated-capability-realization",
@@ -419802,6 +421778,22 @@
             "label": "metacognitive-allocation-under-finite-resources",
             "section": "関連コンセプト",
             "line": 79,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "readout-discriminable-hypothesis-space",
+        "label": "識別可能性に基づく仮説空間の境界化",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/readout-discriminable-hypothesis-space.md",
+        "mentions": [
+          {
+            "raw_target": "metacognitive-allocation-under-finite-resources",
+            "label": "metacognitive-allocation-under-finite-resources",
+            "section": "関連概念",
+            "line": 27,
             "resolved_via": "slug"
           }
         ]
@@ -421856,6 +423848,22 @@
     "multimodal-ai-explainability": [],
     "multimodal-large-language-models-mllm": [
       {
+        "id": "information-theoretic-security-safety-tradeoff",
+        "label": "マルチモーダルシステムにおけるセキュリティ-セーフティの情報理論的トレードオフ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/information-theoretic-security-safety-tradeoff.md",
+        "mentions": [
+          {
+            "raw_target": "multimodal-large-language-models-mllm",
+            "label": "multimodal-large-language-models-mllm",
+            "section": "関連概念",
+            "line": 31,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "steerable-visual-representations",
         "label": "操舵可能な視覚表現",
         "resolved": true,
@@ -422330,6 +424338,7 @@
     "non-retroactive-consent-and-reciprocal-standing": [],
     "non-self-escalation-principle": [],
     "nonadoption-and-abandonment-framework": [],
+    "normative-rationality-constructs-governance-object": [],
     "novice-designers-ai-sensemaking": [],
     "objective-indexed-representation-separation": [
       {
@@ -424523,6 +426532,29 @@
         ]
       },
       {
+        "id": "institutional-capture-via-normative-framework-manipulation",
+        "label": "規範的枠組み操作による制度捕獲",
+        "resolved": true,
+        "weight": 2,
+        "source_file": "concepts/institutional-capture-via-normative-framework-manipulation.md",
+        "mentions": [
+          {
+            "raw_target": "pre-irreversibility-authority-and-constraint-embedding",
+            "label": "pre-irreversibility-authority-and-constraint-embedding",
+            "section": "AI Native な設計への示唆",
+            "line": 23,
+            "resolved_via": "slug"
+          },
+          {
+            "raw_target": "pre-irreversibility-authority-and-constraint-embedding",
+            "label": "pre-irreversibility-authority-and-constraint-embedding",
+            "section": "関連概念",
+            "line": 31,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "evidence-generation-versus-pre-action-permission-separation",
         "label": "証拠生成と行為許可の分離(観測は執行ではない)",
         "resolved": true,
@@ -425803,6 +427835,7 @@
     "queering-sex-robots": [],
     "racial-disparities-incarceration": [],
     "re-aim-framework": [],
+    "readout-discriminable-hypothesis-space": [],
     "recurrent-automation-deskilling-dilemma": [
       {
         "id": "narrative-mediated-technology-institutionalization",
@@ -426056,7 +428089,31 @@
         ]
       }
     ],
-    "regulatory-fragmentation-and-institutional-incentive-drift": [],
+    "regulatory-fragmentation-and-institutional-incentive-drift": [
+      {
+        "id": "institutional-capture-via-normative-framework-manipulation",
+        "label": "規範的枠組み操作による制度捕獲",
+        "resolved": true,
+        "weight": 2,
+        "source_file": "concepts/institutional-capture-via-normative-framework-manipulation.md",
+        "mentions": [
+          {
+            "raw_target": "regulatory-fragmentation-and-institutional-incentive-drift",
+            "label": "regulatory-fragmentation-and-institutional-incentive-drift",
+            "section": "AI Native な設計への示唆",
+            "line": 21,
+            "resolved_via": "slug"
+          },
+          {
+            "raw_target": "regulatory-fragmentation-and-institutional-incentive-drift",
+            "label": "regulatory-fragmentation-and-institutional-incentive-drift",
+            "section": "関連概念",
+            "line": 31,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "regulatory-intermediary-uncertainty": [
       {
         "id": "irreversibility-option-timing-under-uncertainty",
@@ -426360,6 +428417,22 @@
       }
     ],
     "representation-geometry-governs-adaptation-and-transfer": [
+      {
+        "id": "readout-discriminable-hypothesis-space",
+        "label": "識別可能性に基づく仮説空間の境界化",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/readout-discriminable-hypothesis-space.md",
+        "mentions": [
+          {
+            "raw_target": "representation-geometry-governs-adaptation-and-transfer",
+            "label": "representation-geometry-governs-adaptation-and-transfer",
+            "section": "関連概念",
+            "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
       {
         "id": "memory-wall-resource-scaling-constraint",
         "label": "資源スケーリングの非対称が設計を規定するボトルネック",
@@ -427492,6 +429565,22 @@
     "rumination-response-styles": [],
     "runtime-authorization-control-points": [
       {
+        "id": "information-theoretic-security-safety-tradeoff",
+        "label": "マルチモーダルシステムにおけるセキュリティ-セーフティの情報理論的トレードオフ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/information-theoretic-security-safety-tradeoff.md",
+        "mentions": [
+          {
+            "raw_target": "runtime-authorization-control-points",
+            "label": "runtime-authorization-control-points",
+            "section": "関連概念",
+            "line": 31,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "opacity-verification-gap",
         "label": "不透明性と検証可能性の非対称ギャップ",
         "resolved": true,
@@ -427894,6 +429983,22 @@
             "section": "関連概念",
             "line": 49,
             "resolved_via": "alias"
+          }
+        ]
+      },
+      {
+        "id": "identity-mediated-nudge-effect",
+        "label": "アイデンティティ媒介型ナッジ効果",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/identity-mediated-nudge-effect.md",
+        "mentions": [
+          {
+            "raw_target": "self-determination-theory",
+            "label": "self-determination-theory",
+            "section": "関連概念",
+            "line": 33,
+            "resolved_via": "slug"
           }
         ]
       },
@@ -430184,6 +432289,7 @@
         ]
       }
     ],
+    "staged-identity-adaptation-to-technological-change": [],
     "standardized-selection-suppresses-diversity-and-context-fit": [],
     "statistical-analysis-in-medical-research": [],
     "statistical-decision-making-in-medical-research": [],
@@ -430682,6 +432788,29 @@
             "resolved_via": "slug"
           }
         ]
+      },
+      {
+        "id": "institutional-capture-via-normative-framework-manipulation",
+        "label": "規範的枠組み操作による制度捕獲",
+        "resolved": true,
+        "weight": 2,
+        "source_file": "concepts/institutional-capture-via-normative-framework-manipulation.md",
+        "mentions": [
+          {
+            "raw_target": "structural-reproduction-of-bias-and-power-asymmetry-in-technology",
+            "label": "structural-reproduction-of-bias-and-power-asymmetry-in-technology",
+            "section": "AI Native な設計への示唆",
+            "line": 25,
+            "resolved_via": "slug"
+          },
+          {
+            "raw_target": "structural-reproduction-of-bias-and-power-asymmetry-in-technology",
+            "label": "structural-reproduction-of-bias-and-power-asymmetry-in-technology",
+            "section": "関連概念",
+            "line": 31,
+            "resolved_via": "slug"
+          }
+        ]
       }
     ],
     "structural-risk-from-objective-access-coupling": [],
@@ -430871,6 +433000,22 @@
       }
     ],
     "structural-separation-of-verification-from-governed-system": [
+      {
+        "id": "information-theoretic-security-safety-tradeoff",
+        "label": "マルチモーダルシステムにおけるセキュリティ-セーフティの情報理論的トレードオフ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/information-theoretic-security-safety-tradeoff.md",
+        "mentions": [
+          {
+            "raw_target": "structural-separation-of-verification-from-governed-system",
+            "label": "structural-separation-of-verification-from-governed-system",
+            "section": "関連概念",
+            "line": 31,
+            "resolved_via": "slug"
+          }
+        ]
+      },
       {
         "id": "distributed-epistemic-commons-and-identity-separation",
         "label": "分散的知のコモンズと関係・同一性の分離",
@@ -431096,6 +433241,29 @@
             "label": "structural-separation-of-verification-from-governed-system",
             "section": "関連コンセプト",
             "line": 52,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "institutional-capture-via-normative-framework-manipulation",
+        "label": "規範的枠組み操作による制度捕獲",
+        "resolved": true,
+        "weight": 2,
+        "source_file": "concepts/institutional-capture-via-normative-framework-manipulation.md",
+        "mentions": [
+          {
+            "raw_target": "structural-separation-of-verification-from-governed-system",
+            "label": "structural-separation-of-verification-from-governed-system",
+            "section": "AI Native な設計への示唆",
+            "line": 27,
+            "resolved_via": "slug"
+          },
+          {
+            "raw_target": "structural-separation-of-verification-from-governed-system",
+            "label": "structural-separation-of-verification-from-governed-system",
+            "section": "関連概念",
+            "line": 31,
             "resolved_via": "slug"
           }
         ]
@@ -432844,6 +435012,29 @@
             "label": "temporal-erosion-of-procedural-legitimacy-under-opacity",
             "section": "関連コンセプト",
             "line": 68,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "institutional-capture-via-normative-framework-manipulation",
+        "label": "規範的枠組み操作による制度捕獲",
+        "resolved": true,
+        "weight": 2,
+        "source_file": "concepts/institutional-capture-via-normative-framework-manipulation.md",
+        "mentions": [
+          {
+            "raw_target": "temporal-erosion-of-procedural-legitimacy-under-opacity",
+            "label": "temporal-erosion-of-procedural-legitimacy-under-opacity",
+            "section": "AI Native な設計への示唆",
+            "line": 21,
+            "resolved_via": "slug"
+          },
+          {
+            "raw_target": "temporal-erosion-of-procedural-legitimacy-under-opacity",
+            "label": "temporal-erosion-of-procedural-legitimacy-under-opacity",
+            "section": "関連概念",
+            "line": 31,
             "resolved_via": "slug"
           }
         ]

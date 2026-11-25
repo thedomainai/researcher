@@ -497,6 +497,11 @@
     "Organic Search": 2
    },
    "pv": 2,
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   },
    "sessions": 1,
    "users": 1
   },
@@ -505,6 +510,14 @@
    "pv": 0,
    "sessions": 1,
    "users": 0
+  },
+  "2026-11-23": {
+   "channels": {
+    "Organic Search": 2
+   },
+   "pv": 2,
+   "sessions": 2,
+   "users": 1
   }
  },
  "sitemaps": [
@@ -524,7 +537,7 @@
   ],
   [
    "/researcher/concepts/mne-multiple-embeddedness/",
-   7
+   8
   ],
   [
    "/researcher/",
@@ -543,6 +556,10 @@
    3
   ],
   [
+   "/researcher/concepts/feedback-loops-system-dynamics/",
+   2
+  ],
+  [
    "/researcher/concepts/gene-set-variation-analysis/",
    2
   ],
@@ -553,11 +570,7 @@
   [
    "/researcher/concepts/political-corporate-social-responsibility/",
    2
-  ],
-  [
-   "/researcher/clusters/economics/",
-   1
   ]
  ],
- "updated": "2026-11-23T06:10:21"
+ "updated": "2026-11-24T06:10:32"
 }

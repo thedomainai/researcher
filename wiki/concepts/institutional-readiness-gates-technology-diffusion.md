@@ -102,3 +102,8 @@ NexusForumのロードマップは、AI・HPC・クラウド・エッジなど�
 
 * **タイトル**: Organizational AI Readiness Maturity Model (AIRMM): A Conceptual Framework Bridging AI Readiness and Maturity Perspectives (2026)
   **ファイルパス**: `raw/papers/leadership_ob/organizational-ai-readiness-maturity-model-airmm-a-conceptual-framework-bridging.md`
+
+## 追加ソース（2026-11-25）
+
+* **タイトル**: Institutional Readiness before Artificial Intelligence: A Governance Framework for AI-Assisted Judicial Reform in Pakistan (2026)
+  **ファイルパス**: `raw/papers/ai_governance/institutional-readiness-before-artificial-intelligence-a-governance-framework-fo.md`

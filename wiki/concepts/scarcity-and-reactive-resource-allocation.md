@@ -78,3 +78,8 @@ AI Nativeな社会設計にとってこの原理が重要なのは、次の理�
 2. Scheduling Without Foresight: Reactive, Observation-Based Runtime Scheduling Systems for Unpredictable Workloads — Jianru Ding, 2026 — `raw/papers/complexity_science/scheduling-without-foresight-reactive-observation-based-runtime-scheduling-syste.md`
 3. Agentic Task Allocation for Heterogeneous Multi-Robot Systems: A Hybrid LLM and Local Search Approach — H M Zhang, Shengkang Chen, Ziyi Xia, Huan Yin, Fumin Zhang, 2026 — `raw/papers/complexity_science/agentic-task-allocation-for-heterogeneous-multi-robot-systems-a-hybrid-llm-and-l.md`
 4. Management Talks – Part 3: Artificial Intelligence, Human Adaptability, and the Future of Decision-Making — Partha Majumdar, 2026 — `raw/papers/complexity_science/management-talks-part-3-artificial-intelligence-human-adaptability-and-the-futur.md`
+
+## 追加ソース（2026-11-25）
+
+* **タイトル**: "If the poultry dies, we die". Antibiotic Decision Making Under Uncertainty - A mixed-methods study of Poultry Farmers in Nepal (2026)
+  **ファイルパス**: `raw/papers/accounting/if-the-poultry-dies-we-die-antibiotic-decision-making-under-uncertainty---a-mixe.md`

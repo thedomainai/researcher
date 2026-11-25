@@ -66,3 +66,8 @@ Dietvorst ら（2018）は、アルゴリズム忌避を軽減する効果的な
 2. Dietvorst, B. J., Simmons, J., & Massey, C. (2018). *Overcoming Algorithm Aversion: People Will Use Imperfect Algorithms If They Can (Even Slightly) Modify Them.*
 3. Fu, H., & Cao, F. (2026). *Beyond technical performance: Preliminary findings on algorithm aversion in digital library environments.* DOI: https://doi.org/10.47989/ir31iconf64275
 4. Le Lec, F., & Ishmukhametova, E. (2026). *An Experimental Investigation of Algorithm Delegation for Choice Tasks.*
+
+## 追加ソース（2026-11-25）
+
+* **タイトル**: AI-assisted Decision-making and Consumers' Trust in AI Recommendations (2026)
+  **ファイルパス**: `raw/papers/behavioral_economics/ai-assisted-decision-making-and-consumers-trust-in-ai-recommendations.md`

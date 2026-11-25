@@ -77,3 +77,8 @@ Trindade ら (2026) はブラジルの都市自治体の循環経済移行を、
 - Zornitsa Yordanova, Hamed Nozari (2026). "Augmented Decision-Making in Venture Capital: Integrating Digital Twins and AI-Based Market Intelligence". File: raw/papers/entrepreneurship/augmented-decision-making-in-venture-capital-integrating-digital-twins-and-ai-ba.md
 - Frank Ambore Bruce, Alex Ambore Bruce, Christiana Celestine (2026). "Innovation-Driven Entrepreneurship in the Digital Economy: A Conceptual Synthesis, Theoretical Framework, and Research Agenda". File: raw/papers/entrepreneurship/innovation-driven-entrepreneurship-in-the-digital-economy-a-conceptual-synthesis.md
 - Marcone Ambrósio Trindade, Alair Ferreira de Freitas, Wellington Alves, Alan Ferreira de Freitas (2026). "Circular Economy Transition in Brazil: The Power of Institutional Entrepreneurship of Local Governments". File: raw/papers/entrepreneurship/circular-economy-transition-in-brazil-the-power-of-institutional-entrepreneurshi.md
+
+## 追加ソース（2026-11-25）
+
+* **タイトル**: The precautionary principle and justified risk aversion (2026)
+  **ファイルパス**: `raw/papers/behavioral_economics/the-precautionary-principle-and-justified-risk-aversion.md`
