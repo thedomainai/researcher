@@ -55,3 +55,7 @@ site/
 
 # 実行ログ(ローカルのパス等を含むため公開しない)
 logs/
+
+# Anthropic research posts: full text is third-party content (repo is public). Index only is tracked.
+feeds/anthropic_research/posts/
+feeds/anthropic_research/.lock
