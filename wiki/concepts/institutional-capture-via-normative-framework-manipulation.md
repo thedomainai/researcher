@@ -34,3 +34,8 @@
 
 * **タイトル**: The Mechanics of the "Touched Piece" in State Capture: A Psychosociological and Anthropological Analysis of Impunity in White-Collar Crime in Romania (2026)
   **ファイルパス**: `raw/papers/anthropology/the-mechanics-of-the-touched-piece-in-state-capture-a-psychosociological-and-ant.md`
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: Purpose Capture: How Corporate Purpose Is Controlled by the Very Actors It Was Intended to Constrain (2026)
+  **ファイルパス**: `raw/papers/corporate_governance/purpose-capture-how-corporate-purpose-is-controlled-by-the-very-actors-it-was-in.md`

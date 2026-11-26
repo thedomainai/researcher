@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-26T06:28:02.977432",
+  "generated_at": "2026-11-27T06:44:43.036028",
   "summary": {
-    "articles_scanned": 1366,
-    "nodes": 3636,
-    "resolved_nodes": 1366,
+    "articles_scanned": 1382,
+    "nodes": 3652,
+    "resolved_nodes": 1382,
     "unresolved_nodes": 2270,
-    "edges": 6737,
-    "resolved_edges": 3777,
+    "edges": 6796,
+    "resolved_edges": 3836,
     "unresolved_edges": 2960,
-    "link_mentions": 7048,
-    "valid_source_refs": 2322,
+    "link_mentions": 7107,
+    "valid_source_refs": 2360,
     "invalid_source_refs": 117,
-    "isolated_concepts": 103
+    "isolated_concepts": 107
   },
   "nodes": [
     {
@@ -2838,6 +2838,34 @@
       "degree": 17
     },
     {
+      "id": "authority-and-responsibility-renegotiation-under-ai-mediation",
+      "slug": "authority-and-responsibility-renegotiation-under-ai-mediation",
+      "label": "AI媒介下における権威と責任の再交渉",
+      "title": "AI媒介下における権威と責任の再交渉",
+      "title_ja": "AI媒介下における権威と責任の再交渉",
+      "title_en": "Authority and Responsibility Renegotiation under AI Mediation",
+      "tier": null,
+      "description": "人間同士の制度的前例が確立していたやり取りにAIが介入すると、権威の所在・信頼の基盤・認識的責任の帰属が再構築を強制される構造的変化",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/authority-and-responsibility-renegotiation-under-ai-mediation.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "AI媒介下における権威と責任の再交渉",
+        "AI媒介下における権威と責任の再交渉 (Authority and Responsibility Renegotiation under AI Mediation)",
+        "AI媒介下における権威と責任の再交渉(Authority and Responsibility Renegotiation under AI Mediation)",
+        "AI媒介下における権威と責任の再交渉（Authority and Responsibility Renegotiation under AI Mediation）",
+        "Authority and Responsibility Renegotiation under AI Mediation",
+        "authority-and-responsibility-renegotiation-under-ai-mediation"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 12,
+      "degree": 12
+    },
+    {
       "id": "non-executable-reference-structures",
       "slug": "non-executable-reference-structures",
       "label": "AI媒介環境における非実行型参照構造",
@@ -3549,9 +3577,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 23,
+      "inbound_count": 24,
       "outbound_count": 1,
-      "degree": 24
+      "degree": 25
     },
     {
       "id": "ai-economy-and-societal-impact",
@@ -5048,9 +5076,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 4,
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "identity-work-mediated-reconciliation-of-epistemic-regimes",
@@ -5228,9 +5256,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 9,
+      "inbound_count": 10,
       "outbound_count": 6,
-      "degree": 15
+      "degree": 16
     },
     {
       "id": "actor-network-theory-social-assembly",
@@ -5778,9 +5806,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 4,
       "outbound_count": 5,
-      "degree": 6
+      "degree": 9
     },
     {
       "id": "knowledge-spillover-theory-of-entrepreneurship",
@@ -5834,9 +5862,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 3,
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "entrepreneurial-orientation",
@@ -5864,9 +5892,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 5,
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "entrepreneurship-education",
@@ -5892,9 +5920,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 4,
       "outbound_count": 4,
-      "degree": 6
+      "degree": 8
     },
     {
       "id": "entrepreneurship-education-impact",
@@ -5920,9 +5948,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 2,
       "outbound_count": 4,
-      "degree": 4
+      "degree": 6
     },
     {
       "id": "architecture-as-power-distribution-and-interface-standards",
@@ -7268,6 +7296,34 @@
       "degree": 5
     },
     {
+      "id": "governance-reinforcement-recursive-interpretation-lock-in",
+      "slug": "governance-reinforcement-recursive-interpretation-lock-in",
+      "label": "ガバナンスの反復的関与による解釈の再帰的固定化",
+      "title": "ガバナンスの反復的関与による解釈の再帰的固定化",
+      "title_ja": "ガバナンスの反復的関与による解釈の再帰的固定化",
+      "title_en": "Governance Reinforcement and Recursive Interpretation Lock-in",
+      "tier": null,
+      "description": "同一の制度的圧力に晒された組織でも、ガバナンスの注意・インセンティブ・資源配分が反復的に同じ戦略解釈を強化することで、解釈が再帰的に安定化し、組織間で異なる軌跡へ分岐していく構造。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/governance-reinforcement-recursive-interpretation-lock-in.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Governance Reinforcement and Recursive Interpretation Lock-in",
+        "governance-reinforcement-recursive-interpretation-lock-in",
+        "ガバナンスの反復的関与による解釈の再帰的固定化",
+        "ガバナンスの反復的関与による解釈の再帰的固定化 (Governance Reinforcement and Recursive Interpretation Lock-in)",
+        "ガバナンスの反復的関与による解釈の再帰的固定化(Governance Reinforcement and Recursive Interpretation Lock-in)",
+        "ガバナンスの反復的関与による解釈の再帰的固定化（Governance Reinforcement and Recursive Interpretation Lock-in）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 5,
+      "degree": 5
+    },
+    {
       "id": "agentic-automation-with-guardrails",
       "slug": "agentic-automation-with-guardrails",
       "label": "ガードレールを備えたエージェント型業務自動化",
@@ -8129,9 +8185,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 5,
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "corporate-finance",
@@ -8390,9 +8446,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 4,
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "capability-as-system-boundary-property-and-composed-intelligence",
@@ -8633,9 +8689,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 3,
+      "inbound_count": 5,
       "outbound_count": 0,
-      "degree": 3
+      "degree": 5
     },
     {
       "id": "scoping-studies-methodology",
@@ -9097,9 +9153,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 8,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "task-structure-dependent-substitution-and-complementarity",
@@ -9660,9 +9716,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 4,
+      "inbound_count": 5,
       "outbound_count": 0,
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "digital-transformation",
@@ -13034,9 +13090,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 3,
-      "degree": 4
+      "degree": 5
     },
     {
       "id": "metaverse-social-interactions",
@@ -13605,6 +13661,34 @@
       "degree": 11
     },
     {
+      "id": "invisible-pedagogy-implicit-agency-modeling",
+      "slug": "invisible-pedagogy-implicit-agency-modeling",
+      "label": "不可視の教育による行為主体性の暗黙的モデリング",
+      "title": "不可視の教育による行為主体性の暗黙的モデリング",
+      "title_ja": "不可視の教育による行為主体性の暗黙的モデリング",
+      "title_en": "Invisible Pedagogy and Implicit Modeling of Agency",
+      "tier": null,
+      "description": "明示的知識伝達とは別に、言語パターン・談話構造が暗黙的に特定の行為主体的態度を学習者に内在化させる文化的伝達メカニズム",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/invisible-pedagogy-implicit-agency-modeling.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Invisible Pedagogy and Implicit Modeling of Agency",
+        "invisible-pedagogy-implicit-agency-modeling",
+        "不可視の教育による行為主体性の暗黙的モデリング",
+        "不可視の教育による行為主体性の暗黙的モデリング (Invisible Pedagogy and Implicit Modeling of Agency)",
+        "不可視の教育による行為主体性の暗黙的モデリング(Invisible Pedagogy and Implicit Modeling of Agency)",
+        "不可視の教育による行為主体性の暗黙的モデリング（Invisible Pedagogy and Implicit Modeling of Agency）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 7,
+      "degree": 7
+    },
+    {
       "id": "pre-irreversibility-authority-and-constraint-embedding",
       "slug": "pre-irreversibility-authority-and-constraint-embedding",
       "label": "不可逆化前の権限判断と制約の内部設計化",
@@ -14098,6 +14182,34 @@
       "degree": 5
     },
     {
+      "id": "core-periphery-substitution-resilience",
+      "slug": "core-periphery-substitution-resilience",
+      "label": "中心-周辺構造における代替への耐性差",
+      "title": "中心-周辺構造における代替への耐性差",
+      "title_ja": "中心-周辺構造における代替への耐性差",
+      "title_en": "Core-Periphery Differential Resilience to Substitution",
+      "tier": null,
+      "description": "低コストな代替手段(AI等)が出現した際、コミュニティ内の中心的メンバーと周辺的メンバーで参加・貢献パターンへの影響が非対称に現れる社会構造的メカニズム",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/core-periphery-substitution-resilience.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Core-Periphery Differential Resilience to Substitution",
+        "core-periphery-substitution-resilience",
+        "中心-周辺構造における代替への耐性差",
+        "中心-周辺構造における代替への耐性差 (Core-Periphery Differential Resilience to Substitution)",
+        "中心-周辺構造における代替への耐性差(Core-Periphery Differential Resilience to Substitution)",
+        "中心-周辺構造における代替への耐性差（Core-Periphery Differential Resilience to Substitution）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
+    },
+    {
       "id": "self-generated-environment-coformation-loop",
       "slug": "self-generated-environment-coformation-loop",
       "label": "主体と環境の相互構築による共形成ループ",
@@ -14153,9 +14265,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 5,
+      "inbound_count": 6,
       "outbound_count": 9,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "responsible-control-anchor-under-agentic-autonomy",
@@ -14818,9 +14930,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 5,
+      "inbound_count": 6,
       "outbound_count": 5,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "human-ai-teaming-and-collaboration",
@@ -15194,9 +15306,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 4,
+      "inbound_count": 5,
       "outbound_count": 5,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "human-ai-common-ground",
@@ -16073,9 +16185,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 1,
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "enterprise-systems-diversity",
@@ -16332,9 +16444,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 11,
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "value-based-decision-making",
@@ -17088,9 +17200,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 5,
+      "inbound_count": 6,
       "outbound_count": 9,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "hierarchical-recursive-verification-and-accountability",
@@ -17332,9 +17444,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 3,
+      "inbound_count": 4,
       "outbound_count": 10,
-      "degree": 13
+      "degree": 14
     },
     {
       "id": "decentralized-coordination-and-power-concentration",
@@ -17594,9 +17706,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 12,
+      "inbound_count": 13,
       "outbound_count": 10,
-      "degree": 22
+      "degree": 23
     },
     {
       "id": "technology-institution-substitution-limit-under-incentive-misalignment",
@@ -17680,9 +17792,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 9,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "institution-economic-growth",
@@ -17766,9 +17878,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 0,
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "institutional-readiness-gates-technology-diffusion",
@@ -17950,9 +18062,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 10,
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "emergent-governance-networks",
@@ -18951,6 +19063,34 @@
       "degree": 4
     },
     {
+      "id": "receiver-side-signal-decoding-determines-effectiveness",
+      "slug": "receiver-side-signal-decoding-determines-effectiveness",
+      "label": "受信者側の解読能力が信号の有効性を決定する構造",
+      "title": "受信者側の解読能力が信号の有効性を決定する構造",
+      "title_ja": "受信者側の解読能力が信号の有効性を決定する構造",
+      "title_en": "Receiver-Side Decoding Capacity Determines Signal Effectiveness",
+      "tier": null,
+      "description": "情報非対称下での信号の有効性は送信者の信号設計だけでなく、受信者の認知能力・アイデンティティ・合理性による解読プロセスに依存する構造的メカニズム",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/receiver-side-signal-decoding-determines-effectiveness.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Receiver-Side Decoding Capacity Determines Signal Effectiveness",
+        "receiver-side-signal-decoding-determines-effectiveness",
+        "受信者側の解読能力が信号の有効性を決定する構造",
+        "受信者側の解読能力が信号の有効性を決定する構造 (Receiver-Side Decoding Capacity Determines Signal Effectiveness)",
+        "受信者側の解読能力が信号の有効性を決定する構造(Receiver-Side Decoding Capacity Determines Signal Effectiveness)",
+        "受信者側の解読能力が信号の有効性を決定する構造（Receiver-Side Decoding Capacity Determines Signal Effectiveness）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 7,
+      "degree": 7
+    },
+    {
       "id": "epic-cognition-theory",
       "slug": "epic-cognition-theory",
       "label": "叙事詩認知理論",
@@ -19858,9 +19998,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 7,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "ai-in-surgical-digital-transformation",
@@ -21668,9 +21808,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 0,
-      "degree": 0
+      "degree": 1
     },
     {
       "id": "small-group-dynamics",
@@ -22526,6 +22666,34 @@
       "degree": 6
     },
     {
+      "id": "information-intermediary-adverse-selection-tradeoff",
+      "slug": "information-intermediary-adverse-selection-tradeoff",
+      "label": "情報仲介者における逆選択と価格発見のトレードオフ",
+      "title": "情報仲介者における逆選択と価格発見のトレードオフ",
+      "title_ja": "情報仲介者における逆選択と価格発見のトレードオフ",
+      "title_en": "Information Intermediary's Adverse Selection vs Price Discovery Trade-off",
+      "tier": null,
+      "description": "情報を媒介する仲介者は、系全体の情報量増加に伴い逆選択コストと価格発見利益の間で非単調なトレードオフに晴らされ、最適行動が規定される構造的メカニズム。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/information-intermediary-adverse-selection-tradeoff.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Information Intermediary's Adverse Selection vs Price Discovery Trade-off",
+        "information-intermediary-adverse-selection-tradeoff",
+        "情報仲介者における逆選択と価格発見のトレードオフ",
+        "情報仲介者における逆選択と価格発見のトレードオフ (Information Intermediary's Adverse Selection vs Price Discovery Trade-off)",
+        "情報仲介者における逆選択と価格発見のトレードオフ(Information Intermediary's Adverse Selection vs Price Discovery Trade-off)",
+        "情報仲介者における逆選択と価格発見のトレードオフ（Information Intermediary's Adverse Selection vs Price Discovery Trade-off）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
+    },
+    {
       "id": "hierarchical-decomposition-under-information-limits",
       "slug": "hierarchical-decomposition-under-information-limits",
       "label": "情報処理の根本制約が導く階層分解と資源配分",
@@ -22671,9 +22839,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 9,
-      "degree": 9
+      "degree": 10
     },
     {
       "id": "source-attribution-and-reliance-miscalibration",
@@ -23079,9 +23247,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 4,
+      "inbound_count": 5,
       "outbound_count": 10,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "decision-time-evidence-binding-and-reconstruction-limit",
@@ -23455,9 +23623,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 5,
+      "inbound_count": 6,
       "outbound_count": 9,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "co-constitution-of-technology-and-social-meaning-across-arenas",
@@ -23520,6 +23688,34 @@
       "degree": 16
     },
     {
+      "id": "technology-barrier-reduction-and-entrant-composition-shift",
+      "slug": "technology-barrier-reduction-and-entrant-composition-shift",
+      "label": "技術による参入障壁低減と参入者構成の系統的変化",
+      "title": "技術による参入障壁低減と参入者構成の系統的変化",
+      "title_ja": "技術による参入障壁低減と参入者構成の系統的変化",
+      "title_en": "Technology-Driven Barrier Reduction and Entrant Composition Shift",
+      "tier": null,
+      "description": "新技術が既存の参入障壁(資本・チーム規模・情報コスト)を低減すると、参入者層の特性が系統的に変化し、能力依存的に拡張と同質化・判断力喪失のリスクが同時発生する構造。異なる技術・時代でも再現されるパターン",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/technology-barrier-reduction-and-entrant-composition-shift.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Technology-Driven Barrier Reduction and Entrant Composition Shift",
+        "technology-barrier-reduction-and-entrant-composition-shift",
+        "技術による参入障壁低減と参入者構成の系統的変化",
+        "技術による参入障壁低減と参入者構成の系統的変化 (Technology-Driven Barrier Reduction and Entrant Composition Shift)",
+        "技術による参入障壁低減と参入者構成の系統的変化(Technology-Driven Barrier Reduction and Entrant Composition Shift)",
+        "技術による参入障壁低減と参入者構成の系統的変化（Technology-Driven Barrier Reduction and Entrant Composition Shift）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 4,
+      "degree": 4
+    },
+    {
       "id": "technology-mediated-power-asymmetry-amplification",
       "slug": "technology-mediated-power-asymmetry-amplification",
       "label": "技術による既存の力の不均衡の媒介・増幅",
@@ -23575,9 +23771,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 5,
+      "inbound_count": 6,
       "outbound_count": 12,
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "capability-realization-organizational-bottleneck",
@@ -23976,9 +24172,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 7,
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "technical-success-value-realization-gap",
@@ -24682,9 +24878,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 3,
+      "inbound_count": 4,
       "outbound_count": 9,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "productive-struggle-preservation-in-assisted-learning",
@@ -24832,9 +25028,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 8,
+      "inbound_count": 9,
       "outbound_count": 9,
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "government-ai-trust-and-privacy",
@@ -24924,6 +25120,34 @@
       "inbound_count": 0,
       "outbound_count": 4,
       "degree": 4
+    },
+    {
+      "id": "supervision-signal-type-determines-learning-strategy",
+      "slug": "supervision-signal-type-determines-learning-strategy",
+      "label": "教師信号の種類が学習戦略を決定する原理",
+      "title": "教師信号の種類が学習戦略を決定する原理",
+      "title_ja": "教師信号の種類が学習戦略を決定する原理",
+      "title_en": "Supervision Signal Type Determines Learning Strategy",
+      "tier": null,
+      "description": "明示的フィードバックが得られない段階では比較批評による学習、実行結果という経験的フィードバックが得られる段階では結果ベース学習というように、利用可能な教師信号の性質に応じて異なる学習メカニズムを適用することで、モデル自体の再学習なしに継続的改善を実現できる構造。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/supervision-signal-type-determines-learning-strategy.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Supervision Signal Type Determines Learning Strategy",
+        "supervision-signal-type-determines-learning-strategy",
+        "教師信号の種類が学習戦略を決定する原理",
+        "教師信号の種類が学習戦略を決定する原理 (Supervision Signal Type Determines Learning Strategy)",
+        "教師信号の種類が学習戦略を決定する原理(Supervision Signal Type Determines Learning Strategy)",
+        "教師信号の種類が学習戦略を決定する原理（Supervision Signal Type Determines Learning Strategy）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
     },
     {
       "id": "ai-decision-support-in-education",
@@ -25256,9 +25480,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 4,
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "cultural-intelligence-hybridization",
@@ -26488,9 +26712,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 9,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "verification-to-authority-conversion-gap",
@@ -26552,6 +26776,34 @@
       "inbound_count": 1,
       "outbound_count": 6,
       "degree": 7
+    },
+    {
+      "id": "performance-based-legitimacy-and-technological-disruption",
+      "slug": "performance-based-legitimacy-and-technological-disruption",
+      "label": "業績正当性と技術的破壊の相互作用",
+      "title": "業績正当性と技術的破壊の相互作用",
+      "title_ja": "業績正当性と技術的破壊の相互作用",
+      "title_en": "Performance-Based Legitimacy Under Technological Disruption",
+      "tier": null,
+      "description": "経済的業績に依拠する統治の正当性は、技術導入が雇用・所得構造を破壊して業績基盤自体を損なうとき構造的に不安定化する",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/performance-based-legitimacy-and-technological-disruption.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Performance-Based Legitimacy Under Technological Disruption",
+        "performance-based-legitimacy-and-technological-disruption",
+        "業績正当性と技術的破壊の相互作用",
+        "業績正当性と技術的破壊の相互作用 (Performance-Based Legitimacy Under Technological Disruption)",
+        "業績正当性と技術的破壊の相互作用(Performance-Based Legitimacy Under Technological Disruption)",
+        "業績正当性と技術的破壊の相互作用（Performance-Based Legitimacy Under Technological Disruption）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
     },
     {
       "id": "human-ai-interaction-extreme-environments",
@@ -26865,9 +27117,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 8,
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "scoped-trust-and-automatic-deference-asymmetry",
@@ -28467,9 +28719,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 0,
-      "degree": 0
+      "degree": 1
     },
     {
       "id": "biomedical-discoveries-and-drug-development",
@@ -29168,6 +29420,34 @@
       "degree": 5
     },
     {
+      "id": "generative-intermediation-and-value-capture-centralization",
+      "slug": "generative-intermediation-and-value-capture-centralization",
+      "label": "生成的仲介による価値捕獲の中心化",
+      "title": "生成的仲介による価値捕獲の中心化",
+      "title_ja": "生成的仲介による価値捕獲の中心化",
+      "title_en": "Generative Intermediation and the Centralization of Value Capture",
+      "tier": null,
+      "description": "情報仲介の形態が参照型→キュレーション型→生成型へ進化するにつれ、情報流通が追跡可能な源泉から合成パターンへ、経済的価値の流れがトラフィック再分配から中心化された捕獲へと再編される構造変化。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/generative-intermediation-and-value-capture-centralization.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Generative Intermediation and the Centralization of Value Capture",
+        "generative-intermediation-and-value-capture-centralization",
+        "生成的仲介による価値捕獲の中心化",
+        "生成的仲介による価値捕獲の中心化 (Generative Intermediation and the Centralization of Value Capture)",
+        "生成的仲介による価値捕獲の中心化(Generative Intermediation and the Centralization of Value Capture)",
+        "生成的仲介による価値捕獲の中心化（Generative Intermediation and the Centralization of Value Capture）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
+    },
+    {
       "id": "generative-conversational-ai",
       "slug": "generative-conversational-ai",
       "label": "生成的会話AI",
@@ -29354,9 +29634,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 4,
+      "inbound_count": 5,
       "outbound_count": 10,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "institutional-prerequisites-for-conversion-of-productivity-into-social-benefit",
@@ -29807,6 +30087,34 @@
       "inbound_count": 5,
       "outbound_count": 9,
       "degree": 14
+    },
+    {
+      "id": "relative-price-driven-factor-substitution",
+      "slug": "relative-price-driven-factor-substitution",
+      "label": "相対価格駆動の生産要素代替",
+      "title": "相対価格駆動の生産要素代替",
+      "title_ja": "相対価格駆動の生産要素代替",
+      "title_en": "Relative-Price-Driven Factor Substitution",
+      "tier": null,
+      "description": "資本・労働・エネルギー・原材料などの生産要素間の代替は各要素の相対価格変動に応じて進行し、要素間の代替弾力性の大小が産業構造の変化を規定する",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/relative-price-driven-factor-substitution.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Relative-Price-Driven Factor Substitution",
+        "relative-price-driven-factor-substitution",
+        "相対価格駆動の生産要素代替",
+        "相対価格駆動の生産要素代替 (Relative-Price-Driven Factor Substitution)",
+        "相対価格駆動の生産要素代替(Relative-Price-Driven Factor Substitution)",
+        "相対価格駆動の生産要素代替（Relative-Price-Driven Factor Substitution）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 1,
+      "degree": 1
     },
     {
       "id": "complementary-performance",
@@ -31275,6 +31583,34 @@
       "degree": 9
     },
     {
+      "id": "cohesive-faction-veto-threshold",
+      "slug": "cohesive-faction-veto-threshold",
+      "label": "組織化された少数派による拒否点形成",
+      "title": "組織化された少数派による拒否点形成",
+      "title_ja": "組織化された少数派による拒否点形成",
+      "title_en": "Cohesive Minority Faction as a Veto Point",
+      "tier": null,
+      "description": "制度的な権力分散(議席の断片化)そのものではなく、反対勢力が規律を保って結束し拒否行動を組織化できるかどうかという集合行動能力の有無が、意思決定システム全体の機能停止を引き起こす臨界条件となる構造。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/cohesive-faction-veto-threshold.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Cohesive Minority Faction as a Veto Point",
+        "cohesive-faction-veto-threshold",
+        "組織化された少数派による拒否点形成",
+        "組織化された少数派による拒否点形成 (Cohesive Minority Faction as a Veto Point)",
+        "組織化された少数派による拒否点形成(Cohesive Minority Faction as a Veto Point)",
+        "組織化された少数派による拒否点形成（Cohesive Minority Faction as a Veto Point）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
+    },
+    {
       "id": "organizational-change",
       "slug": "organizational-change",
       "label": "組織変革",
@@ -31741,9 +32077,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 0,
-      "degree": 1
+      "degree": 2
     },
     {
       "id": "multistability-and-tipping-in-coupled-networks",
@@ -31771,9 +32107,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 6,
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "coupling-amplified-failure-and-legitimacy-gaps",
@@ -32212,6 +32548,34 @@
       "degree": 5
     },
     {
+      "id": "intra-occupational-polarization",
+      "slug": "intra-occupational-polarization",
+      "label": "職業内二極化",
+      "title": "職業内二極化",
+      "title_ja": "職業内二極化",
+      "title_en": "Intra-Occupational Polarization",
+      "tier": null,
+      "description": "自動化技術の導入により同一職業カテゴリの内部が高スキルの解釈的役割と低スキルの手続的役割に分裂し、後者は構造的な技能侵食に晒される",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/intra-occupational-polarization.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Intra-Occupational Polarization",
+        "intra-occupational-polarization",
+        "職業内二極化",
+        "職業内二極化 (Intra-Occupational Polarization)",
+        "職業内二極化(Intra-Occupational Polarization)",
+        "職業内二極化（Intra-Occupational Polarization）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 8,
+      "degree": 8
+    },
+    {
       "id": "capability-transparency-gap-and-trust-loss",
       "slug": "capability-transparency-gap-and-trust-loss",
       "label": "能力と透明性の乖離による信頼の喪失と証拠境界の喪失",
@@ -32617,9 +32981,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 0,
-      "degree": 0
+      "degree": 1
     },
     {
       "id": "biological-clinical-guidelines",
@@ -32648,6 +33012,34 @@
       "inbound_count": 0,
       "outbound_count": 5,
       "degree": 5
+    },
+    {
+      "id": "critical-transition-early-warning-via-network-markers",
+      "slug": "critical-transition-early-warning-via-network-markers",
+      "label": "臨界転移の早期警告ネットワークマーカー",
+      "title": "臨界転移の早期警告ネットワークマーカー",
+      "title_ja": "臨界転移の早期警告ネットワークマーカー",
+      "title_en": "Dynamical Network Markers for Critical Transition Early Warning",
+      "tier": null,
+      "description": "多数の相互作用要素からなる高次元系では、臨界転移(相転移)の直前に特定のサブグループ内で変動・相関が急増するパターンが前兆として検出可能であるという構造的原理。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/critical-transition-early-warning-via-network-markers.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Dynamical Network Markers for Critical Transition Early Warning",
+        "critical-transition-early-warning-via-network-markers",
+        "臨界転移の早期警告ネットワークマーカー",
+        "臨界転移の早期警告ネットワークマーカー (Dynamical Network Markers for Critical Transition Early Warning)",
+        "臨界転移の早期警告ネットワークマーカー(Dynamical Network Markers for Critical Transition Early Warning)",
+        "臨界転移の早期警告ネットワークマーカー（Dynamical Network Markers for Critical Transition Early Warning）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 8,
+      "degree": 8
     },
     {
       "id": "affect-and-fairness-in-automated-code-review",
@@ -32732,9 +33124,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 2,
+      "inbound_count": 3,
       "outbound_count": 10,
-      "degree": 12
+      "degree": 13
     },
     {
       "id": "trust-in-automation",
@@ -33458,9 +33850,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 9,
+      "inbound_count": 10,
       "outbound_count": 9,
-      "degree": 18
+      "degree": 19
     },
     {
       "id": "deterministic-boundary-gating-of-autonomous-effects",
@@ -33866,9 +34258,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 6,
+      "inbound_count": 7,
       "outbound_count": 8,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "organizational-unlearning-in-product-rollover",
@@ -34095,9 +34487,9 @@
       ],
       "article_exists": true,
       "metadata_source": "article",
-      "inbound_count": 5,
+      "inbound_count": 6,
       "outbound_count": 0,
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "complex-systems-and-computational-modeling",
@@ -34328,9 +34720,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 7,
-      "degree": 7
+      "degree": 8
     },
     {
       "id": "perspective-fidelity-factual-validity-decoupling",
@@ -35038,9 +35430,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 3,
+      "inbound_count": 4,
       "outbound_count": 8,
-      "degree": 11
+      "degree": 12
     },
     {
       "id": "cognitive-infrastructure-and-recursive-tech-production",
@@ -35699,9 +36091,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 9,
+      "inbound_count": 10,
       "outbound_count": 8,
-      "degree": 17
+      "degree": 18
     },
     {
       "id": "error-correcting-feedback-and-staged-refinement",
@@ -36235,6 +36627,34 @@
       "degree": 8
     },
     {
+      "id": "intention-action-gap-under-resource-legitimacy-constraints",
+      "slug": "intention-action-gap-under-resource-legitimacy-constraints",
+      "label": "資源・ネットワーク・正当性制約下での意図-行動ギャップ",
+      "title": "資源・ネットワーク・正当性制約下での意図-行動ギャップ",
+      "title_ja": "資源・ネットワーク・正当性制約下での意図-行動ギャップ",
+      "title_en": "Intention-Action Gap Under Resource, Network, and Legitimacy Constraints",
+      "tier": null,
+      "description": "行動への強い意図を持つ主体が実際の行動に移れない現象は、資金・ネットワーク・制度的正当性という構造的制約へのアクセス不足に起因し、教育や技術的介入はこの制約を部分的に緩和するが新たな依存を生む",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/intention-action-gap-under-resource-legitimacy-constraints.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Intention-Action Gap Under Resource, Network, and Legitimacy Constraints",
+        "intention-action-gap-under-resource-legitimacy-constraints",
+        "資源・ネットワーク・正当性制約下での意図-行動ギャップ",
+        "資源・ネットワーク・正当性制約下での意図-行動ギャップ (Intention-Action Gap Under Resource, Network, and Legitimacy Constraints)",
+        "資源・ネットワーク・正当性制約下での意図-行動ギャップ(Intention-Action Gap Under Resource, Network, and Legitimacy Constraints)",
+        "資源・ネットワーク・正当性制約下での意図-行動ギャップ（Intention-Action Gap Under Resource, Network, and Legitimacy Constraints）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 7,
+      "degree": 7
+    },
+    {
       "id": "cooperation-under-constraint-and-guidance",
       "slug": "cooperation-under-constraint-and-guidance",
       "label": "資源制約・ガイダンス下での協力の進化と安全性保証",
@@ -36316,9 +36736,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 0,
+      "inbound_count": 1,
       "outbound_count": 5,
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "entrepreneurial-digilantism",
@@ -36741,6 +37161,34 @@
       "degree": 0
     },
     {
+      "id": "progress-state-dependent-dynamic-resource-allocation",
+      "slug": "progress-state-dependent-dynamic-resource-allocation",
+      "label": "進捗状態依存の動的資源配分",
+      "title": "進捗状態依存の動的資源配分",
+      "title_ja": "進捗状態依存の動的資源配分",
+      "title_en": "Progress-State-Dependent Dynamic Resource Allocation",
+      "tier": null,
+      "description": "多段階タスクにおいて各ステップで残タスクの難易度・進捗傾向・コスト制約が変化するため、タスク開始時の一括判断ではなく進捗状態を継続的に評価しながら資源(エージェント・計算量)を動的に再配分する必要があるという構造的制約。",
+      "related_domains": [],
+      "key_sources": [],
+      "file": "concepts/progress-state-dependent-dynamic-resource-allocation.md",
+      "kind": "concept",
+      "resolved": true,
+      "aliases": [
+        "Progress-State-Dependent Dynamic Resource Allocation",
+        "progress-state-dependent-dynamic-resource-allocation",
+        "進捗状態依存の動的資源配分",
+        "進捗状態依存の動的資源配分 (Progress-State-Dependent Dynamic Resource Allocation)",
+        "進捗状態依存の動的資源配分(Progress-State-Dependent Dynamic Resource Allocation)",
+        "進捗状態依存の動的資源配分（Progress-State-Dependent Dynamic Resource Allocation）"
+      ],
+      "article_exists": true,
+      "metadata_source": "concepts.json",
+      "inbound_count": 0,
+      "outbound_count": 0,
+      "degree": 0
+    },
+    {
       "id": "alternative-metrics-of-progress",
       "slug": "alternative-metrics-of-progress",
       "label": "進歩の代替測定指標",
@@ -37063,9 +37511,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 6,
+      "inbound_count": 7,
       "outbound_count": 8,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "selection-mechanisms-determine-institutional-adaptability",
@@ -37500,9 +37948,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 1,
+      "inbound_count": 2,
       "outbound_count": 4,
-      "degree": 5
+      "degree": 6
     },
     {
       "id": "financial-development-and-economic-growth",
@@ -37817,9 +38265,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 9,
+      "inbound_count": 10,
       "outbound_count": 5,
-      "degree": 14
+      "degree": 15
     },
     {
       "id": "bounded-diversity-adaptive-feedback-collectives",
@@ -37963,9 +38411,9 @@
       ],
       "article_exists": true,
       "metadata_source": "concepts.json",
-      "inbound_count": 14,
+      "inbound_count": 15,
       "outbound_count": 8,
-      "degree": 22
+      "degree": 23
     },
     {
       "id": "collective-meta-intelligence",
@@ -121915,6 +122363,378 @@
       "candidates": []
     },
     {
+      "id": "authority-and-responsibility-renegotiation-under-ai-mediation->ai-decision-authority-restructuring",
+      "source": "authority-and-responsibility-renegotiation-under-ai-mediation",
+      "target": "ai-decision-authority-restructuring",
+      "source_label": "AI媒介下における権威と責任の再交渉",
+      "target_label": "AI組み込みによる意思決定権限の再構成",
+      "source_file": "concepts/authority-and-responsibility-renegotiation-under-ai-mediation.md",
+      "target_file": "concepts/ai-decision-authority-restructuring.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "ai-decision-authority-restructuring"
+      ],
+      "display_labels": [
+        "ai-decision-authority-restructuring"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ai-decision-authority-restructuring",
+          "label": "ai-decision-authority-restructuring",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-decision-authority-restructuring"
+      ]
+    },
+    {
+      "id": "authority-and-responsibility-renegotiation-under-ai-mediation->autonomy-calibration-and-hierarchy-restructuring",
+      "source": "authority-and-responsibility-renegotiation-under-ai-mediation",
+      "target": "autonomy-calibration-and-hierarchy-restructuring",
+      "source_label": "AI媒介下における権威と責任の再交渉",
+      "target_label": "自律度の較正と階層再編のトレードオフ",
+      "source_file": "concepts/authority-and-responsibility-renegotiation-under-ai-mediation.md",
+      "target_file": "concepts/autonomy-calibration-and-hierarchy-restructuring.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "autonomy-calibration-and-hierarchy-restructuring"
+      ],
+      "display_labels": [
+        "autonomy-calibration-and-hierarchy-restructuring"
+      ],
+      "mentions": [
+        {
+          "raw_target": "autonomy-calibration-and-hierarchy-restructuring",
+          "label": "autonomy-calibration-and-hierarchy-restructuring",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "autonomy-calibration-and-hierarchy-restructuring"
+      ]
+    },
+    {
+      "id": "authority-and-responsibility-renegotiation-under-ai-mediation->clinical-ai-governance",
+      "source": "authority-and-responsibility-renegotiation-under-ai-mediation",
+      "target": "clinical-ai-governance",
+      "source_label": "AI媒介下における権威と責任の再交渉",
+      "target_label": "臨床AIガバナンス",
+      "source_file": "concepts/authority-and-responsibility-renegotiation-under-ai-mediation.md",
+      "target_file": "concepts/clinical-ai-governance.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "clinical-ai-governance"
+      ],
+      "display_labels": [
+        "clinical-ai-governance"
+      ],
+      "mentions": [
+        {
+          "raw_target": "clinical-ai-governance",
+          "label": "clinical-ai-governance",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "clinical-ai-governance"
+      ]
+    },
+    {
+      "id": "authority-and-responsibility-renegotiation-under-ai-mediation->distributed-responsibility-and-answerability-anchoring",
+      "source": "authority-and-responsibility-renegotiation-under-ai-mediation",
+      "target": "distributed-responsibility-and-answerability-anchoring",
+      "source_label": "AI媒介下における権威と責任の再交渉",
+      "target_label": "分散システムにおける責任帰属と応答可能性の錨",
+      "source_file": "concepts/authority-and-responsibility-renegotiation-under-ai-mediation.md",
+      "target_file": "concepts/distributed-responsibility-and-answerability-anchoring.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "distributed-responsibility-and-answerability-anchoring"
+      ],
+      "display_labels": [
+        "distributed-responsibility-and-answerability-anchoring"
+      ],
+      "mentions": [
+        {
+          "raw_target": "distributed-responsibility-and-answerability-anchoring",
+          "label": "distributed-responsibility-and-answerability-anchoring",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "distributed-responsibility-and-answerability-anchoring"
+      ]
+    },
+    {
+      "id": "authority-and-responsibility-renegotiation-under-ai-mediation->epistemic-responsibility-and-authorship-anchoring",
+      "source": "authority-and-responsibility-renegotiation-under-ai-mediation",
+      "target": "epistemic-responsibility-and-authorship-anchoring",
+      "source_label": "AI媒介下における権威と責任の再交渉",
+      "target_label": "認識論的責任・著者性の人間への固定",
+      "source_file": "concepts/authority-and-responsibility-renegotiation-under-ai-mediation.md",
+      "target_file": "concepts/epistemic-responsibility-and-authorship-anchoring.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "epistemic-responsibility-and-authorship-anchoring"
+      ],
+      "display_labels": [
+        "epistemic-responsibility-and-authorship-anchoring"
+      ],
+      "mentions": [
+        {
+          "raw_target": "epistemic-responsibility-and-authorship-anchoring",
+          "label": "epistemic-responsibility-and-authorship-anchoring",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "epistemic-responsibility-and-authorship-anchoring"
+      ]
+    },
+    {
+      "id": "authority-and-responsibility-renegotiation-under-ai-mediation->functional-attribution-of-intent-to-accountable-principals",
+      "source": "authority-and-responsibility-renegotiation-under-ai-mediation",
+      "target": "functional-attribution-of-intent-to-accountable-principals",
+      "source_label": "AI媒介下における権威と責任の再交渉",
+      "target_label": "機能的意図帰属と責任主体への遡及構造",
+      "source_file": "concepts/authority-and-responsibility-renegotiation-under-ai-mediation.md",
+      "target_file": "concepts/functional-attribution-of-intent-to-accountable-principals.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "functional-attribution-of-intent-to-accountable-principals"
+      ],
+      "display_labels": [
+        "functional-attribution-of-intent-to-accountable-principals"
+      ],
+      "mentions": [
+        {
+          "raw_target": "functional-attribution-of-intent-to-accountable-principals",
+          "label": "functional-attribution-of-intent-to-accountable-principals",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "functional-attribution-of-intent-to-accountable-principals"
+      ]
+    },
+    {
+      "id": "authority-and-responsibility-renegotiation-under-ai-mediation->human-ai-decision-rights",
+      "source": "authority-and-responsibility-renegotiation-under-ai-mediation",
+      "target": "human-ai-decision-rights",
+      "source_label": "AI媒介下における権威と責任の再交渉",
+      "target_label": "人間とAIの意思決定権限モデル",
+      "source_file": "concepts/authority-and-responsibility-renegotiation-under-ai-mediation.md",
+      "target_file": "concepts/human-ai-decision-rights.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "human-ai-decision-rights"
+      ],
+      "display_labels": [
+        "human-ai-decision-rights"
+      ],
+      "mentions": [
+        {
+          "raw_target": "human-ai-decision-rights",
+          "label": "human-ai-decision-rights",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "human-ai-decision-rights"
+      ]
+    },
+    {
+      "id": "authority-and-responsibility-renegotiation-under-ai-mediation->institutional-axiom-incompatibility-and-adoption-friction",
+      "source": "authority-and-responsibility-renegotiation-under-ai-mediation",
+      "target": "institutional-axiom-incompatibility-and-adoption-friction",
+      "source_label": "AI媒介下における権威と責任の再交渉",
+      "target_label": "制度的公理不整合による採用摩擦",
+      "source_file": "concepts/authority-and-responsibility-renegotiation-under-ai-mediation.md",
+      "target_file": "concepts/institutional-axiom-incompatibility-and-adoption-friction.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "institutional-axiom-incompatibility-and-adoption-friction"
+      ],
+      "display_labels": [
+        "institutional-axiom-incompatibility-and-adoption-friction"
+      ],
+      "mentions": [
+        {
+          "raw_target": "institutional-axiom-incompatibility-and-adoption-friction",
+          "label": "institutional-axiom-incompatibility-and-adoption-friction",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "institutional-axiom-incompatibility-and-adoption-friction"
+      ]
+    },
+    {
+      "id": "authority-and-responsibility-renegotiation-under-ai-mediation->judgment-residual-and-accountability-gap",
+      "source": "authority-and-responsibility-renegotiation-under-ai-mediation",
+      "target": "judgment-residual-and-accountability-gap",
+      "source_label": "AI媒介下における権威と責任の再交渉",
+      "target_label": "判断の残余と説明責任ギャップ",
+      "source_file": "concepts/authority-and-responsibility-renegotiation-under-ai-mediation.md",
+      "target_file": "concepts/judgment-residual-and-accountability-gap.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "judgment-residual-and-accountability-gap"
+      ],
+      "display_labels": [
+        "judgment-residual-and-accountability-gap"
+      ],
+      "mentions": [
+        {
+          "raw_target": "judgment-residual-and-accountability-gap",
+          "label": "judgment-residual-and-accountability-gap",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "judgment-residual-and-accountability-gap"
+      ]
+    },
+    {
+      "id": "authority-and-responsibility-renegotiation-under-ai-mediation->moral-responsibility-anchoring-in-decision-agents",
+      "source": "authority-and-responsibility-renegotiation-under-ai-mediation",
+      "target": "moral-responsibility-anchoring-in-decision-agents",
+      "source_label": "AI媒介下における権威と責任の再交渉",
+      "target_label": "意思決定主体への責任の錨づけと分散の抑止",
+      "source_file": "concepts/authority-and-responsibility-renegotiation-under-ai-mediation.md",
+      "target_file": "concepts/moral-responsibility-anchoring-in-decision-agents.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "moral-responsibility-anchoring-in-decision-agents"
+      ],
+      "display_labels": [
+        "moral-responsibility-anchoring-in-decision-agents"
+      ],
+      "mentions": [
+        {
+          "raw_target": "moral-responsibility-anchoring-in-decision-agents",
+          "label": "moral-responsibility-anchoring-in-decision-agents",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "moral-responsibility-anchoring-in-decision-agents"
+      ]
+    },
+    {
+      "id": "authority-and-responsibility-renegotiation-under-ai-mediation->professional-jurisdiction-redistribution-under-technological-mediation",
+      "source": "authority-and-responsibility-renegotiation-under-ai-mediation",
+      "target": "professional-jurisdiction-redistribution-under-technological-mediation",
+      "source_label": "AI媒介下における権威と責任の再交渉",
+      "target_label": "技術的媒介による専門職権限の再分配",
+      "source_file": "concepts/authority-and-responsibility-renegotiation-under-ai-mediation.md",
+      "target_file": "concepts/professional-jurisdiction-redistribution-under-technological-mediation.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "professional-jurisdiction-redistribution-under-technological-mediation"
+      ],
+      "display_labels": [
+        "professional-jurisdiction-redistribution-under-technological-mediation"
+      ],
+      "mentions": [
+        {
+          "raw_target": "professional-jurisdiction-redistribution-under-technological-mediation",
+          "label": "professional-jurisdiction-redistribution-under-technological-mediation",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "professional-jurisdiction-redistribution-under-technological-mediation"
+      ]
+    },
+    {
+      "id": "authority-and-responsibility-renegotiation-under-ai-mediation->trust-formation-via-institutional-bridging-of-asymmetry",
+      "source": "authority-and-responsibility-renegotiation-under-ai-mediation",
+      "target": "trust-formation-via-institutional-bridging-of-asymmetry",
+      "source_label": "AI媒介下における権威と責任の再交渉",
+      "target_label": "制度による情報非対称性の橋渡しと二重経路の信頼形成",
+      "source_file": "concepts/authority-and-responsibility-renegotiation-under-ai-mediation.md",
+      "target_file": "concepts/trust-formation-via-institutional-bridging-of-asymmetry.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "trust-formation-via-institutional-bridging-of-asymmetry"
+      ],
+      "display_labels": [
+        "trust-formation-via-institutional-bridging-of-asymmetry"
+      ],
+      "mentions": [
+        {
+          "raw_target": "trust-formation-via-institutional-bridging-of-asymmetry",
+          "label": "trust-formation-via-institutional-bridging-of-asymmetry",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "trust-formation-via-institutional-bridging-of-asymmetry"
+      ]
+    },
+    {
       "id": "authority-bounding-by-parallel-independent-layers->ai-decision-authority-restructuring",
       "source": "authority-bounding-by-parallel-independent-layers",
       "target": "ai-decision-authority-restructuring",
@@ -150236,6 +151056,254 @@
       "ambiguous": false,
       "candidates": [
         "social-infrastructure-and-growth"
+      ]
+    },
+    {
+      "id": "critical-transition-early-warning-via-network-markers->complex-network-dynamics",
+      "source": "critical-transition-early-warning-via-network-markers",
+      "target": "complex-network-dynamics",
+      "source_label": "臨界転移の早期警告ネットワークマーカー",
+      "target_label": "複雑ネットワークのダイナミクス",
+      "source_file": "concepts/critical-transition-early-warning-via-network-markers.md",
+      "target_file": "concepts/complex-network-dynamics.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "complex-network-dynamics"
+      ],
+      "display_labels": [
+        "complex-network-dynamics"
+      ],
+      "mentions": [
+        {
+          "raw_target": "complex-network-dynamics",
+          "label": "complex-network-dynamics",
+          "section": "関連概念",
+          "line": 26,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "complex-network-dynamics"
+      ]
+    },
+    {
+      "id": "critical-transition-early-warning-via-network-markers->concentration-driven-systemic-risk-propagation",
+      "source": "critical-transition-early-warning-via-network-markers",
+      "target": "concentration-driven-systemic-risk-propagation",
+      "source_label": "臨界転移の早期警告ネットワークマーカー",
+      "target_label": "集中と単一障害点によるシステミックリスクの非線形伝播",
+      "source_file": "concepts/critical-transition-early-warning-via-network-markers.md",
+      "target_file": "concepts/concentration-driven-systemic-risk-propagation.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "concentration-driven-systemic-risk-propagation"
+      ],
+      "display_labels": [
+        "concentration-driven-systemic-risk-propagation"
+      ],
+      "mentions": [
+        {
+          "raw_target": "concentration-driven-systemic-risk-propagation",
+          "label": "concentration-driven-systemic-risk-propagation",
+          "section": "関連概念",
+          "line": 26,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "concentration-driven-systemic-risk-propagation"
+      ]
+    },
+    {
+      "id": "critical-transition-early-warning-via-network-markers->derivative-based-early-warning-threshold-governance",
+      "source": "critical-transition-early-warning-via-network-markers",
+      "target": "derivative-based-early-warning-threshold-governance",
+      "source_label": "臨界転移の早期警告ネットワークマーカー",
+      "target_label": "導関数ベース早期警告閾値ガバナンス",
+      "source_file": "concepts/critical-transition-early-warning-via-network-markers.md",
+      "target_file": "concepts/derivative-based-early-warning-threshold-governance.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "derivative-based-early-warning-threshold-governance"
+      ],
+      "display_labels": [
+        "derivative-based-early-warning-threshold-governance"
+      ],
+      "mentions": [
+        {
+          "raw_target": "derivative-based-early-warning-threshold-governance",
+          "label": "derivative-based-early-warning-threshold-governance",
+          "section": "関連概念",
+          "line": 26,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "derivative-based-early-warning-threshold-governance"
+      ]
+    },
+    {
+      "id": "critical-transition-early-warning-via-network-markers->financial-market-equilibrium",
+      "source": "critical-transition-early-warning-via-network-markers",
+      "target": "financial-market-equilibrium",
+      "source_label": "臨界転移の早期警告ネットワークマーカー",
+      "target_label": "金融市場均衡",
+      "source_file": "concepts/critical-transition-early-warning-via-network-markers.md",
+      "target_file": "concepts/financial-market-equilibrium.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "financial-market-equilibrium"
+      ],
+      "display_labels": [
+        "financial-market-equilibrium"
+      ],
+      "mentions": [
+        {
+          "raw_target": "financial-market-equilibrium",
+          "label": "financial-market-equilibrium",
+          "section": "関連概念",
+          "line": 26,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "financial-market-equilibrium"
+      ]
+    },
+    {
+      "id": "critical-transition-early-warning-via-network-markers->metastable-basin-dynamics",
+      "source": "critical-transition-early-warning-via-network-markers",
+      "target": "metastable-basin-dynamics",
+      "source_label": "臨界転移の早期警告ネットワークマーカー",
+      "target_label": "メタステーブル・ベイスン・ダイナミクス",
+      "source_file": "concepts/critical-transition-early-warning-via-network-markers.md",
+      "target_file": "concepts/metastable-basin-dynamics.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "metastable-basin-dynamics"
+      ],
+      "display_labels": [
+        "metastable-basin-dynamics"
+      ],
+      "mentions": [
+        {
+          "raw_target": "metastable-basin-dynamics",
+          "label": "metastable-basin-dynamics",
+          "section": "関連概念",
+          "line": 26,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "metastable-basin-dynamics"
+      ]
+    },
+    {
+      "id": "critical-transition-early-warning-via-network-markers->multistability-and-tipping-in-coupled-networks",
+      "source": "critical-transition-early-warning-via-network-markers",
+      "target": "multistability-and-tipping-in-coupled-networks",
+      "source_label": "臨界転移の早期警告ネットワークマーカー",
+      "target_label": "結合ネットワークの多安定性・転移点と低次元縮約",
+      "source_file": "concepts/critical-transition-early-warning-via-network-markers.md",
+      "target_file": "concepts/multistability-and-tipping-in-coupled-networks.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "multistability-and-tipping-in-coupled-networks"
+      ],
+      "display_labels": [
+        "multistability-and-tipping-in-coupled-networks"
+      ],
+      "mentions": [
+        {
+          "raw_target": "multistability-and-tipping-in-coupled-networks",
+          "label": "multistability-and-tipping-in-coupled-networks",
+          "section": "関連概念",
+          "line": 26,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "multistability-and-tipping-in-coupled-networks"
+      ]
+    },
+    {
+      "id": "critical-transition-early-warning-via-network-markers->recursive-feedback-criticality-threshold",
+      "source": "critical-transition-early-warning-via-network-markers",
+      "target": "recursive-feedback-criticality-threshold",
+      "source_label": "臨界転移の早期警告ネットワークマーカー",
+      "target_label": "再帰的フィードバックの臨界閾値と自己増幅",
+      "source_file": "concepts/critical-transition-early-warning-via-network-markers.md",
+      "target_file": "concepts/recursive-feedback-criticality-threshold.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "recursive-feedback-criticality-threshold"
+      ],
+      "display_labels": [
+        "recursive-feedback-criticality-threshold"
+      ],
+      "mentions": [
+        {
+          "raw_target": "recursive-feedback-criticality-threshold",
+          "label": "recursive-feedback-criticality-threshold",
+          "section": "関連概念",
+          "line": 26,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "recursive-feedback-criticality-threshold"
+      ]
+    },
+    {
+      "id": "critical-transition-early-warning-via-network-markers->systemic-risk",
+      "source": "critical-transition-early-warning-via-network-markers",
+      "target": "systemic-risk",
+      "source_label": "臨界転移の早期警告ネットワークマーカー",
+      "target_label": "システミックリスク",
+      "source_file": "concepts/critical-transition-early-warning-via-network-markers.md",
+      "target_file": "concepts/systemic-risk.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "systemic-risk"
+      ],
+      "display_labels": [
+        "systemic-risk"
+      ],
+      "mentions": [
+        {
+          "raw_target": "systemic-risk",
+          "label": "systemic-risk",
+          "section": "関連概念",
+          "line": 26,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "systemic-risk"
       ]
     },
     {
@@ -191924,6 +192992,161 @@
       ]
     },
     {
+      "id": "governance-reinforcement-recursive-interpretation-lock-in->ai-ml-in-corporate-governance",
+      "source": "governance-reinforcement-recursive-interpretation-lock-in",
+      "target": "ai-ml-in-corporate-governance",
+      "source_label": "ガバナンスの反復的関与による解釈の再帰的固定化",
+      "target_label": "コーポレートガバナンスにおけるAI/ML",
+      "source_file": "concepts/governance-reinforcement-recursive-interpretation-lock-in.md",
+      "target_file": "concepts/ai-ml-in-corporate-governance.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "ai-ml-in-corporate-governance"
+      ],
+      "display_labels": [
+        "ai-ml-in-corporate-governance"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ai-ml-in-corporate-governance",
+          "label": "ai-ml-in-corporate-governance",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ai-ml-in-corporate-governance"
+      ]
+    },
+    {
+      "id": "governance-reinforcement-recursive-interpretation-lock-in->corporate-ai-governance",
+      "source": "governance-reinforcement-recursive-interpretation-lock-in",
+      "target": "corporate-ai-governance",
+      "source_label": "ガバナンスの反復的関与による解釈の再帰的固定化",
+      "target_label": "企業主導のAIガバナンス",
+      "source_file": "concepts/governance-reinforcement-recursive-interpretation-lock-in.md",
+      "target_file": "concepts/corporate-ai-governance.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "corporate-ai-governance"
+      ],
+      "display_labels": [
+        "corporate-ai-governance"
+      ],
+      "mentions": [
+        {
+          "raw_target": "corporate-ai-governance",
+          "label": "corporate-ai-governance",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "corporate-ai-governance"
+      ]
+    },
+    {
+      "id": "governance-reinforcement-recursive-interpretation-lock-in->imprinting-and-historical-trace-conditioned-adoption",
+      "source": "governance-reinforcement-recursive-interpretation-lock-in",
+      "target": "imprinting-and-historical-trace-conditioned-adoption",
+      "source_label": "ガバナンスの反復的関与による解釈の再帰的固定化",
+      "target_label": "刻印と履歴痕跡による後続の制約・アクセス条件の形成",
+      "source_file": "concepts/governance-reinforcement-recursive-interpretation-lock-in.md",
+      "target_file": "concepts/imprinting-and-historical-trace-conditioned-adoption.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "imprinting-and-historical-trace-conditioned-adoption"
+      ],
+      "display_labels": [
+        "imprinting-and-historical-trace-conditioned-adoption"
+      ],
+      "mentions": [
+        {
+          "raw_target": "imprinting-and-historical-trace-conditioned-adoption",
+          "label": "imprinting-and-historical-trace-conditioned-adoption",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "imprinting-and-historical-trace-conditioned-adoption"
+      ]
+    },
+    {
+      "id": "governance-reinforcement-recursive-interpretation-lock-in->institutional-capture-via-normative-framework-manipulation",
+      "source": "governance-reinforcement-recursive-interpretation-lock-in",
+      "target": "institutional-capture-via-normative-framework-manipulation",
+      "source_label": "ガバナンスの反復的関与による解釈の再帰的固定化",
+      "target_label": "規範的枠組み操作による制度捕獲",
+      "source_file": "concepts/governance-reinforcement-recursive-interpretation-lock-in.md",
+      "target_file": "concepts/institutional-capture-via-normative-framework-manipulation.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "institutional-capture-via-normative-framework-manipulation"
+      ],
+      "display_labels": [
+        "institutional-capture-via-normative-framework-manipulation"
+      ],
+      "mentions": [
+        {
+          "raw_target": "institutional-capture-via-normative-framework-manipulation",
+          "label": "institutional-capture-via-normative-framework-manipulation",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "institutional-capture-via-normative-framework-manipulation"
+      ]
+    },
+    {
+      "id": "governance-reinforcement-recursive-interpretation-lock-in->path-dependence-increasing-returns",
+      "source": "governance-reinforcement-recursive-interpretation-lock-in",
+      "target": "path-dependence-increasing-returns",
+      "source_label": "ガバナンスの反復的関与による解釈の再帰的固定化",
+      "target_label": "経路依存性と収穫逓増",
+      "source_file": "concepts/governance-reinforcement-recursive-interpretation-lock-in.md",
+      "target_file": "concepts/path-dependence-increasing-returns.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "path-dependence-increasing-returns"
+      ],
+      "display_labels": [
+        "path-dependence-increasing-returns"
+      ],
+      "mentions": [
+        {
+          "raw_target": "path-dependence-increasing-returns",
+          "label": "path-dependence-increasing-returns",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "path-dependence-increasing-returns"
+      ]
+    },
+    {
       "id": "governance-rigidity-flexibility-paradox->absorption-capacity-bottleneck-saturation",
       "source": "governance-rigidity-flexibility-paradox",
       "target": "absorption-capacity-bottleneck-saturation",
@@ -210192,6 +211415,223 @@
       "candidates": []
     },
     {
+      "id": "intention-action-gap-under-resource-legitimacy-constraints->adaptive-capacity-inequality-and-effective-rights-liquidity",
+      "source": "intention-action-gap-under-resource-legitimacy-constraints",
+      "target": "adaptive-capacity-inequality-and-effective-rights-liquidity",
+      "source_label": "資源・ネットワーク・正当性制約下での意図-行動ギャップ",
+      "target_label": "適応能力の不平等と権利の実効化能力",
+      "source_file": "concepts/intention-action-gap-under-resource-legitimacy-constraints.md",
+      "target_file": "concepts/adaptive-capacity-inequality-and-effective-rights-liquidity.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "adaptive-capacity-inequality-and-effective-rights-liquidity"
+      ],
+      "display_labels": [
+        "adaptive-capacity-inequality-and-effective-rights-liquidity"
+      ],
+      "mentions": [
+        {
+          "raw_target": "adaptive-capacity-inequality-and-effective-rights-liquidity",
+          "label": "adaptive-capacity-inequality-and-effective-rights-liquidity",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "adaptive-capacity-inequality-and-effective-rights-liquidity"
+      ]
+    },
+    {
+      "id": "intention-action-gap-under-resource-legitimacy-constraints->conversion-factor-gated-capability-realization",
+      "source": "intention-action-gap-under-resource-legitimacy-constraints",
+      "target": "conversion-factor-gated-capability-realization",
+      "source_label": "資源・ネットワーク・正当性制約下での意図-行動ギャップ",
+      "target_label": "変換因子による能力実現の門番構造",
+      "source_file": "concepts/intention-action-gap-under-resource-legitimacy-constraints.md",
+      "target_file": "concepts/conversion-factor-gated-capability-realization.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "conversion-factor-gated-capability-realization"
+      ],
+      "display_labels": [
+        "conversion-factor-gated-capability-realization"
+      ],
+      "mentions": [
+        {
+          "raw_target": "conversion-factor-gated-capability-realization",
+          "label": "conversion-factor-gated-capability-realization",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "conversion-factor-gated-capability-realization"
+      ]
+    },
+    {
+      "id": "intention-action-gap-under-resource-legitimacy-constraints->entrepreneurial-ecosystems",
+      "source": "intention-action-gap-under-resource-legitimacy-constraints",
+      "target": "entrepreneurial-ecosystems",
+      "source_label": "資源・ネットワーク・正当性制約下での意図-行動ギャップ",
+      "target_label": "アントレプレナーシップ・エコシステム",
+      "source_file": "concepts/intention-action-gap-under-resource-legitimacy-constraints.md",
+      "target_file": "concepts/entrepreneurial-ecosystems.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "entrepreneurial-ecosystems"
+      ],
+      "display_labels": [
+        "entrepreneurial-ecosystems"
+      ],
+      "mentions": [
+        {
+          "raw_target": "entrepreneurial-ecosystems",
+          "label": "entrepreneurial-ecosystems",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "entrepreneurial-ecosystems"
+      ]
+    },
+    {
+      "id": "intention-action-gap-under-resource-legitimacy-constraints->entrepreneurial-opportunities",
+      "source": "intention-action-gap-under-resource-legitimacy-constraints",
+      "target": "entrepreneurial-opportunities",
+      "source_label": "資源・ネットワーク・正当性制約下での意図-行動ギャップ",
+      "target_label": "アントレプレナーシップの機会",
+      "source_file": "concepts/intention-action-gap-under-resource-legitimacy-constraints.md",
+      "target_file": "concepts/entrepreneurial-opportunities.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "entrepreneurial-opportunities"
+      ],
+      "display_labels": [
+        "entrepreneurial-opportunities"
+      ],
+      "mentions": [
+        {
+          "raw_target": "entrepreneurial-opportunities",
+          "label": "entrepreneurial-opportunities",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "entrepreneurial-opportunities"
+      ]
+    },
+    {
+      "id": "intention-action-gap-under-resource-legitimacy-constraints->entrepreneurship-education",
+      "source": "intention-action-gap-under-resource-legitimacy-constraints",
+      "target": "entrepreneurship-education",
+      "source_label": "資源・ネットワーク・正当性制約下での意図-行動ギャップ",
+      "target_label": "アントレプレナーシップ教育",
+      "source_file": "concepts/intention-action-gap-under-resource-legitimacy-constraints.md",
+      "target_file": "concepts/entrepreneurship-education.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "entrepreneurship-education"
+      ],
+      "display_labels": [
+        "entrepreneurship-education"
+      ],
+      "mentions": [
+        {
+          "raw_target": "entrepreneurship-education",
+          "label": "entrepreneurship-education",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "entrepreneurship-education"
+      ]
+    },
+    {
+      "id": "intention-action-gap-under-resource-legitimacy-constraints->entrepreneurship-education-impact",
+      "source": "intention-action-gap-under-resource-legitimacy-constraints",
+      "target": "entrepreneurship-education-impact",
+      "source_label": "資源・ネットワーク・正当性制約下での意図-行動ギャップ",
+      "target_label": "アントレプレナーシップ教育の影響",
+      "source_file": "concepts/intention-action-gap-under-resource-legitimacy-constraints.md",
+      "target_file": "concepts/entrepreneurship-education-impact.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "entrepreneurship-education-impact"
+      ],
+      "display_labels": [
+        "entrepreneurship-education-impact"
+      ],
+      "mentions": [
+        {
+          "raw_target": "entrepreneurship-education-impact",
+          "label": "entrepreneurship-education-impact",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "entrepreneurship-education-impact"
+      ]
+    },
+    {
+      "id": "intention-action-gap-under-resource-legitimacy-constraints->support-induced-skill-substitution-loop",
+      "source": "intention-action-gap-under-resource-legitimacy-constraints",
+      "target": "support-induced-skill-substitution-loop",
+      "source_label": "資源・ネットワーク・正当性制約下での意図-行動ギャップ",
+      "target_label": "支援代替による能力形成機会の喪失ループ",
+      "source_file": "concepts/intention-action-gap-under-resource-legitimacy-constraints.md",
+      "target_file": "concepts/support-induced-skill-substitution-loop.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "support-induced-skill-substitution-loop"
+      ],
+      "display_labels": [
+        "support-induced-skill-substitution-loop"
+      ],
+      "mentions": [
+        {
+          "raw_target": "support-induced-skill-substitution-loop",
+          "label": "support-induced-skill-substitution-loop",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "support-induced-skill-substitution-loop"
+      ]
+    },
+    {
       "id": "interaction-awareness->coding-agents",
       "source": "interaction-awareness",
       "target": "coding-agents",
@@ -211865,6 +213305,254 @@
       "candidates": []
     },
     {
+      "id": "intra-occupational-polarization->assistance-mediated-capability-erosion-and-homogenization",
+      "source": "intra-occupational-polarization",
+      "target": "assistance-mediated-capability-erosion-and-homogenization",
+      "source_label": "職業内二極化",
+      "target_label": "支援による能力侵食と多様性の画一化",
+      "source_file": "concepts/intra-occupational-polarization.md",
+      "target_file": "concepts/assistance-mediated-capability-erosion-and-homogenization.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "assistance-mediated-capability-erosion-and-homogenization"
+      ],
+      "display_labels": [
+        "assistance-mediated-capability-erosion-and-homogenization"
+      ],
+      "mentions": [
+        {
+          "raw_target": "assistance-mediated-capability-erosion-and-homogenization",
+          "label": "assistance-mediated-capability-erosion-and-homogenization",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "assistance-mediated-capability-erosion-and-homogenization"
+      ]
+    },
+    {
+      "id": "intra-occupational-polarization->hidden-skill-erosion-under-cognitive-infrastructure-dependence",
+      "source": "intra-occupational-polarization",
+      "target": "hidden-skill-erosion-under-cognitive-infrastructure-dependence",
+      "source_label": "職業内二極化",
+      "target_label": "認知インフラ依存下での潜在的な能力侵食",
+      "source_file": "concepts/intra-occupational-polarization.md",
+      "target_file": "concepts/hidden-skill-erosion-under-cognitive-infrastructure-dependence.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "hidden-skill-erosion-under-cognitive-infrastructure-dependence"
+      ],
+      "display_labels": [
+        "hidden-skill-erosion-under-cognitive-infrastructure-dependence"
+      ],
+      "mentions": [
+        {
+          "raw_target": "hidden-skill-erosion-under-cognitive-infrastructure-dependence",
+          "label": "hidden-skill-erosion-under-cognitive-infrastructure-dependence",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "hidden-skill-erosion-under-cognitive-infrastructure-dependence"
+      ]
+    },
+    {
+      "id": "intra-occupational-polarization->org-design-determines-technology-realization",
+      "source": "intra-occupational-polarization",
+      "target": "org-design-determines-technology-realization",
+      "source_label": "職業内二極化",
+      "target_label": "技術の価値実現は組織設計が決める",
+      "source_file": "concepts/intra-occupational-polarization.md",
+      "target_file": "concepts/org-design-determines-technology-realization.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "org-design-determines-technology-realization"
+      ],
+      "display_labels": [
+        "org-design-determines-technology-realization"
+      ],
+      "mentions": [
+        {
+          "raw_target": "org-design-determines-technology-realization",
+          "label": "org-design-determines-technology-realization",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "org-design-determines-technology-realization"
+      ]
+    },
+    {
+      "id": "intra-occupational-polarization->productivity-gain-concentration-and-task-boundary-shift",
+      "source": "intra-occupational-polarization",
+      "target": "productivity-gain-concentration-and-task-boundary-shift",
+      "source_label": "職業内二極化",
+      "target_label": "生産性利得の集中とタスク境界の移動",
+      "source_file": "concepts/intra-occupational-polarization.md",
+      "target_file": "concepts/productivity-gain-concentration-and-task-boundary-shift.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "productivity-gain-concentration-and-task-boundary-shift"
+      ],
+      "display_labels": [
+        "productivity-gain-concentration-and-task-boundary-shift"
+      ],
+      "mentions": [
+        {
+          "raw_target": "productivity-gain-concentration-and-task-boundary-shift",
+          "label": "productivity-gain-concentration-and-task-boundary-shift",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "productivity-gain-concentration-and-task-boundary-shift"
+      ]
+    },
+    {
+      "id": "intra-occupational-polarization->recurrent-automation-deskilling-dilemma",
+      "source": "intra-occupational-polarization",
+      "target": "recurrent-automation-deskilling-dilemma",
+      "source_label": "職業内二極化",
+      "target_label": "自動化と脱スキル化の反復ジレンマ",
+      "source_file": "concepts/intra-occupational-polarization.md",
+      "target_file": "concepts/recurrent-automation-deskilling-dilemma.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "recurrent-automation-deskilling-dilemma"
+      ],
+      "display_labels": [
+        "recurrent-automation-deskilling-dilemma"
+      ],
+      "mentions": [
+        {
+          "raw_target": "recurrent-automation-deskilling-dilemma",
+          "label": "recurrent-automation-deskilling-dilemma",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "recurrent-automation-deskilling-dilemma"
+      ]
+    },
+    {
+      "id": "intra-occupational-polarization->skill-biased-technological-change",
+      "source": "intra-occupational-polarization",
+      "target": "skill-biased-technological-change",
+      "source_label": "職業内二極化",
+      "target_label": "スキル偏向型技術変化",
+      "source_file": "concepts/intra-occupational-polarization.md",
+      "target_file": "concepts/skill-biased-technological-change.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "skill-biased-technological-change"
+      ],
+      "display_labels": [
+        "skill-biased-technological-change"
+      ],
+      "mentions": [
+        {
+          "raw_target": "skill-biased-technological-change",
+          "label": "skill-biased-technological-change",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "skill-biased-technological-change"
+      ]
+    },
+    {
+      "id": "intra-occupational-polarization->task-codifiability-determines-automation-outcomes",
+      "source": "intra-occupational-polarization",
+      "target": "task-codifiability-determines-automation-outcomes",
+      "source_label": "職業内二極化",
+      "target_label": "タスクの形式化可能性が自動化の帰結と分配を決める",
+      "source_file": "concepts/intra-occupational-polarization.md",
+      "target_file": "concepts/task-codifiability-determines-automation-outcomes.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "task-codifiability-determines-automation-outcomes"
+      ],
+      "display_labels": [
+        "task-codifiability-determines-automation-outcomes"
+      ],
+      "mentions": [
+        {
+          "raw_target": "task-codifiability-determines-automation-outcomes",
+          "label": "task-codifiability-determines-automation-outcomes",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "task-codifiability-determines-automation-outcomes"
+      ]
+    },
+    {
+      "id": "intra-occupational-polarization->value-shift-to-interpretation-and-judgment-residual",
+      "source": "intra-occupational-polarization",
+      "target": "value-shift-to-interpretation-and-judgment-residual",
+      "source_label": "職業内二極化",
+      "target_label": "価値の重心の解釈・判断への移転と人間の残余",
+      "source_file": "concepts/intra-occupational-polarization.md",
+      "target_file": "concepts/value-shift-to-interpretation-and-judgment-residual.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "value-shift-to-interpretation-and-judgment-residual"
+      ],
+      "display_labels": [
+        "value-shift-to-interpretation-and-judgment-residual"
+      ],
+      "mentions": [
+        {
+          "raw_target": "value-shift-to-interpretation-and-judgment-residual",
+          "label": "value-shift-to-interpretation-and-judgment-residual",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "value-shift-to-interpretation-and-judgment-residual"
+      ]
+    },
+    {
       "id": "intrinsic-connectivity-networks->dangling:1ffe538b3563",
       "source": "intrinsic-connectivity-networks",
       "target": "dangling:1ffe538b3563",
@@ -212153,6 +213841,223 @@
       ],
       "ambiguous": false,
       "candidates": []
+    },
+    {
+      "id": "invisible-pedagogy-implicit-agency-modeling->agency-as-context-and-interaction-design-outcome",
+      "source": "invisible-pedagogy-implicit-agency-modeling",
+      "target": "agency-as-context-and-interaction-design-outcome",
+      "source_label": "不可視の教育による行為主体性の暗黙的モデリング",
+      "target_label": "主体性は内的属性ではなく相互作用設計で決まる",
+      "source_file": "concepts/invisible-pedagogy-implicit-agency-modeling.md",
+      "target_file": "concepts/agency-as-context-and-interaction-design-outcome.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "agency-as-context-and-interaction-design-outcome"
+      ],
+      "display_labels": [
+        "agency-as-context-and-interaction-design-outcome"
+      ],
+      "mentions": [
+        {
+          "raw_target": "agency-as-context-and-interaction-design-outcome",
+          "label": "agency-as-context-and-interaction-design-outcome",
+          "section": "関連概念",
+          "line": 36,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "agency-as-context-and-interaction-design-outcome"
+      ]
+    },
+    {
+      "id": "invisible-pedagogy-implicit-agency-modeling->cultural-evolution",
+      "source": "invisible-pedagogy-implicit-agency-modeling",
+      "target": "cultural-evolution",
+      "source_label": "不可視の教育による行為主体性の暗黙的モデリング",
+      "target_label": "文化的進化論",
+      "source_file": "concepts/invisible-pedagogy-implicit-agency-modeling.md",
+      "target_file": "concepts/cultural-evolution.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "cultural-evolution"
+      ],
+      "display_labels": [
+        "cultural-evolution"
+      ],
+      "mentions": [
+        {
+          "raw_target": "cultural-evolution",
+          "label": "cultural-evolution",
+          "section": "関連概念",
+          "line": 35,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "cultural-evolution"
+      ]
+    },
+    {
+      "id": "invisible-pedagogy-implicit-agency-modeling->entrepreneurial-orientation",
+      "source": "invisible-pedagogy-implicit-agency-modeling",
+      "target": "entrepreneurial-orientation",
+      "source_label": "不可視の教育による行為主体性の暗黙的モデリング",
+      "target_label": "アントレプレナーシップ指向",
+      "source_file": "concepts/invisible-pedagogy-implicit-agency-modeling.md",
+      "target_file": "concepts/entrepreneurial-orientation.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "entrepreneurial-orientation"
+      ],
+      "display_labels": [
+        "entrepreneurial-orientation"
+      ],
+      "mentions": [
+        {
+          "raw_target": "entrepreneurial-orientation",
+          "label": "entrepreneurial-orientation",
+          "section": "関連概念",
+          "line": 33,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "entrepreneurial-orientation"
+      ]
+    },
+    {
+      "id": "invisible-pedagogy-implicit-agency-modeling->entrepreneurial-personality-traits",
+      "source": "invisible-pedagogy-implicit-agency-modeling",
+      "target": "entrepreneurial-personality-traits",
+      "source_label": "不可視の教育による行為主体性の暗黙的モデリング",
+      "target_label": "起業家の人格特性",
+      "source_file": "concepts/invisible-pedagogy-implicit-agency-modeling.md",
+      "target_file": "concepts/entrepreneurial-personality-traits.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "entrepreneurial-personality-traits"
+      ],
+      "display_labels": [
+        "entrepreneurial-personality-traits"
+      ],
+      "mentions": [
+        {
+          "raw_target": "entrepreneurial-personality-traits",
+          "label": "entrepreneurial-personality-traits",
+          "section": "関連概念",
+          "line": 34,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "entrepreneurial-personality-traits"
+      ]
+    },
+    {
+      "id": "invisible-pedagogy-implicit-agency-modeling->entrepreneurship-education",
+      "source": "invisible-pedagogy-implicit-agency-modeling",
+      "target": "entrepreneurship-education",
+      "source_label": "不可視の教育による行為主体性の暗黙的モデリング",
+      "target_label": "アントレプレナーシップ教育",
+      "source_file": "concepts/invisible-pedagogy-implicit-agency-modeling.md",
+      "target_file": "concepts/entrepreneurship-education.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "entrepreneurship-education"
+      ],
+      "display_labels": [
+        "entrepreneurship-education"
+      ],
+      "mentions": [
+        {
+          "raw_target": "entrepreneurship-education",
+          "label": "entrepreneurship-education",
+          "section": "関連概念",
+          "line": 31,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "entrepreneurship-education"
+      ]
+    },
+    {
+      "id": "invisible-pedagogy-implicit-agency-modeling->entrepreneurship-education-impact",
+      "source": "invisible-pedagogy-implicit-agency-modeling",
+      "target": "entrepreneurship-education-impact",
+      "source_label": "不可視の教育による行為主体性の暗黙的モデリング",
+      "target_label": "アントレプレナーシップ教育の影響",
+      "source_file": "concepts/invisible-pedagogy-implicit-agency-modeling.md",
+      "target_file": "concepts/entrepreneurship-education-impact.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "entrepreneurship-education-impact"
+      ],
+      "display_labels": [
+        "entrepreneurship-education-impact"
+      ],
+      "mentions": [
+        {
+          "raw_target": "entrepreneurship-education-impact",
+          "label": "entrepreneurship-education-impact",
+          "section": "関連概念",
+          "line": 32,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "entrepreneurship-education-impact"
+      ]
+    },
+    {
+      "id": "invisible-pedagogy-implicit-agency-modeling->human-ai-agency-configuration",
+      "source": "invisible-pedagogy-implicit-agency-modeling",
+      "target": "human-ai-agency-configuration",
+      "source_label": "不可視の教育による行為主体性の暗黙的モデリング",
+      "target_label": "人間とAIのエージェンシー構成",
+      "source_file": "concepts/invisible-pedagogy-implicit-agency-modeling.md",
+      "target_file": "concepts/human-ai-agency-configuration.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "human-ai-agency-configuration"
+      ],
+      "display_labels": [
+        "human-ai-agency-configuration"
+      ],
+      "mentions": [
+        {
+          "raw_target": "human-ai-agency-configuration",
+          "label": "human-ai-agency-configuration",
+          "section": "関連概念",
+          "line": 37,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "human-ai-agency-configuration"
+      ]
     },
     {
       "id": "irreversibility-option-timing-under-uncertainty->control-induced-disturbance-and-timing-of-intervention",
@@ -251353,6 +253258,223 @@
       ]
     },
     {
+      "id": "receiver-side-signal-decoding-determines-effectiveness->bounded-rationality-and-behavioral-economics",
+      "source": "receiver-side-signal-decoding-determines-effectiveness",
+      "target": "bounded-rationality-and-behavioral-economics",
+      "source_label": "受信者側の解読能力が信号の有効性を決定する構造",
+      "target_label": "限定合理性と意思決定モデル",
+      "source_file": "concepts/receiver-side-signal-decoding-determines-effectiveness.md",
+      "target_file": "concepts/bounded-rationality-and-behavioral-economics.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "bounded-rationality-and-behavioral-economics"
+      ],
+      "display_labels": [
+        "bounded-rationality-and-behavioral-economics"
+      ],
+      "mentions": [
+        {
+          "raw_target": "bounded-rationality-and-behavioral-economics",
+          "label": "bounded-rationality-and-behavioral-economics",
+          "section": "関連概念",
+          "line": 34,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "bounded-rationality-and-behavioral-economics"
+      ]
+    },
+    {
+      "id": "receiver-side-signal-decoding-determines-effectiveness->complementary-information-and-epistemic-asymmetry",
+      "source": "receiver-side-signal-decoding-determines-effectiveness",
+      "target": "complementary-information-and-epistemic-asymmetry",
+      "source_label": "受信者側の解読能力が信号の有効性を決定する構造",
+      "target_label": "補完的情報構造と認識論的非対称性",
+      "source_file": "concepts/receiver-side-signal-decoding-determines-effectiveness.md",
+      "target_file": "concepts/complementary-information-and-epistemic-asymmetry.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "complementary-information-and-epistemic-asymmetry"
+      ],
+      "display_labels": [
+        "complementary-information-and-epistemic-asymmetry"
+      ],
+      "mentions": [
+        {
+          "raw_target": "complementary-information-and-epistemic-asymmetry",
+          "label": "complementary-information-and-epistemic-asymmetry",
+          "section": "関連概念",
+          "line": 38,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "complementary-information-and-epistemic-asymmetry"
+      ]
+    },
+    {
+      "id": "receiver-side-signal-decoding-determines-effectiveness->ecological-rationality-and-fast-and-frugal-heuristics",
+      "source": "receiver-side-signal-decoding-determines-effectiveness",
+      "target": "ecological-rationality-and-fast-and-frugal-heuristics",
+      "source_label": "受信者側の解読能力が信号の有効性を決定する構造",
+      "target_label": "環境適合的合理性と簡潔なヒューリスティック",
+      "source_file": "concepts/receiver-side-signal-decoding-determines-effectiveness.md",
+      "target_file": "concepts/ecological-rationality-and-fast-and-frugal-heuristics.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "ecological-rationality-and-fast-and-frugal-heuristics"
+      ],
+      "display_labels": [
+        "ecological-rationality-and-fast-and-frugal-heuristics"
+      ],
+      "mentions": [
+        {
+          "raw_target": "ecological-rationality-and-fast-and-frugal-heuristics",
+          "label": "ecological-rationality-and-fast-and-frugal-heuristics",
+          "section": "関連概念",
+          "line": 35,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "ecological-rationality-and-fast-and-frugal-heuristics"
+      ]
+    },
+    {
+      "id": "receiver-side-signal-decoding-determines-effectiveness->entrepreneurial-opportunities",
+      "source": "receiver-side-signal-decoding-determines-effectiveness",
+      "target": "entrepreneurial-opportunities",
+      "source_label": "受信者側の解読能力が信号の有効性を決定する構造",
+      "target_label": "アントレプレナーシップの機会",
+      "source_file": "concepts/receiver-side-signal-decoding-determines-effectiveness.md",
+      "target_file": "concepts/entrepreneurial-opportunities.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "entrepreneurial-opportunities"
+      ],
+      "display_labels": [
+        "entrepreneurial-opportunities"
+      ],
+      "mentions": [
+        {
+          "raw_target": "entrepreneurial-opportunities",
+          "label": "entrepreneurial-opportunities",
+          "section": "関連概念",
+          "line": 33,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "entrepreneurial-opportunities"
+      ]
+    },
+    {
+      "id": "receiver-side-signal-decoding-determines-effectiveness->identity-mediated-nudge-effect",
+      "source": "receiver-side-signal-decoding-determines-effectiveness",
+      "target": "identity-mediated-nudge-effect",
+      "source_label": "受信者側の解読能力が信号の有効性を決定する構造",
+      "target_label": "アイデンティティ媒介型ナッジ効果",
+      "source_file": "concepts/receiver-side-signal-decoding-determines-effectiveness.md",
+      "target_file": "concepts/identity-mediated-nudge-effect.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "identity-mediated-nudge-effect"
+      ],
+      "display_labels": [
+        "identity-mediated-nudge-effect"
+      ],
+      "mentions": [
+        {
+          "raw_target": "identity-mediated-nudge-effect",
+          "label": "identity-mediated-nudge-effect",
+          "section": "関連概念",
+          "line": 37,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "identity-mediated-nudge-effect"
+      ]
+    },
+    {
+      "id": "receiver-side-signal-decoding-determines-effectiveness->source-cue-motivation-interaction-in-credibility-judgment",
+      "source": "receiver-side-signal-decoding-determines-effectiveness",
+      "target": "source-cue-motivation-interaction-in-credibility-judgment",
+      "source_label": "受信者側の解読能力が信号の有効性を決定する構造",
+      "target_label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
+      "source_file": "concepts/receiver-side-signal-decoding-determines-effectiveness.md",
+      "target_file": "concepts/source-cue-motivation-interaction-in-credibility-judgment.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "source-cue-motivation-interaction-in-credibility-judgment"
+      ],
+      "display_labels": [
+        "source-cue-motivation-interaction-in-credibility-judgment"
+      ],
+      "mentions": [
+        {
+          "raw_target": "source-cue-motivation-interaction-in-credibility-judgment",
+          "label": "source-cue-motivation-interaction-in-credibility-judgment",
+          "section": "関連概念",
+          "line": 36,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "source-cue-motivation-interaction-in-credibility-judgment"
+      ]
+    },
+    {
+      "id": "receiver-side-signal-decoding-determines-effectiveness->verifiable-signal-erosion-and-artificial-credibility",
+      "source": "receiver-side-signal-decoding-determines-effectiveness",
+      "target": "verifiable-signal-erosion-and-artificial-credibility",
+      "source_label": "受信者側の解読能力が信号の有効性を決定する構造",
+      "target_label": "検証可能シグナルの消失と人工的信頼性の生成",
+      "source_file": "concepts/receiver-side-signal-decoding-determines-effectiveness.md",
+      "target_file": "concepts/verifiable-signal-erosion-and-artificial-credibility.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "verifiable-signal-erosion-and-artificial-credibility"
+      ],
+      "display_labels": [
+        "verifiable-signal-erosion-and-artificial-credibility"
+      ],
+      "mentions": [
+        {
+          "raw_target": "verifiable-signal-erosion-and-artificial-credibility",
+          "label": "verifiable-signal-erosion-and-artificial-credibility",
+          "section": "関連概念",
+          "line": 39,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "verifiable-signal-erosion-and-artificial-credibility"
+      ]
+    },
+    {
       "id": "recurrent-automation-deskilling-dilemma->ai-automation-labor-market",
       "source": "recurrent-automation-deskilling-dilemma",
       "target": "ai-automation-labor-market",
@@ -254675,6 +256797,37 @@
       ],
       "ambiguous": false,
       "candidates": []
+    },
+    {
+      "id": "relative-price-driven-factor-substitution->skill-biased-technological-change",
+      "source": "relative-price-driven-factor-substitution",
+      "target": "skill-biased-technological-change",
+      "source_label": "相対価格駆動の生産要素代替",
+      "target_label": "スキル偏向型技術変化",
+      "source_file": "concepts/relative-price-driven-factor-substitution.md",
+      "target_file": "concepts/skill-biased-technological-change.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "skill-biased-technological-change"
+      ],
+      "display_labels": [
+        "skill-biased-technological-change"
+      ],
+      "mentions": [
+        {
+          "raw_target": "skill-biased-technological-change",
+          "label": "skill-biased-technological-change",
+          "section": "関連概念",
+          "line": 29,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "skill-biased-technological-change"
+      ]
     },
     {
       "id": "reliance-calibration-between-aversion-and-overtrust->ai-ethics-trust-transparency",
@@ -284654,6 +286807,130 @@
       "ambiguous": false,
       "candidates": [
         "institutional-readiness-gates-technology-diffusion"
+      ]
+    },
+    {
+      "id": "technology-barrier-reduction-and-entrant-composition-shift->access-driven-cumulative-concentration",
+      "source": "technology-barrier-reduction-and-entrant-composition-shift",
+      "target": "access-driven-cumulative-concentration",
+      "source_label": "技術による参入障壁低減と参入者構成の系統的変化",
+      "target_label": "アクセス格差による累積的集中と排除",
+      "source_file": "concepts/technology-barrier-reduction-and-entrant-composition-shift.md",
+      "target_file": "concepts/access-driven-cumulative-concentration.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "access-driven-cumulative-concentration"
+      ],
+      "display_labels": [
+        "access-driven-cumulative-concentration"
+      ],
+      "mentions": [
+        {
+          "raw_target": "access-driven-cumulative-concentration",
+          "label": "access-driven-cumulative-concentration",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "access-driven-cumulative-concentration"
+      ]
+    },
+    {
+      "id": "technology-barrier-reduction-and-entrant-composition-shift->digital-divide-and-ai-adoption",
+      "source": "technology-barrier-reduction-and-entrant-composition-shift",
+      "target": "digital-divide-and-ai-adoption",
+      "source_label": "技術による参入障壁低減と参入者構成の系統的変化",
+      "target_label": "デジタルデバイドとAI導入格差",
+      "source_file": "concepts/technology-barrier-reduction-and-entrant-composition-shift.md",
+      "target_file": "concepts/digital-divide-and-ai-adoption.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "digital-divide-and-ai-adoption"
+      ],
+      "display_labels": [
+        "digital-divide-and-ai-adoption"
+      ],
+      "mentions": [
+        {
+          "raw_target": "digital-divide-and-ai-adoption",
+          "label": "digital-divide-and-ai-adoption",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "digital-divide-and-ai-adoption"
+      ]
+    },
+    {
+      "id": "technology-barrier-reduction-and-entrant-composition-shift->entrepreneurial-opportunities",
+      "source": "technology-barrier-reduction-and-entrant-composition-shift",
+      "target": "entrepreneurial-opportunities",
+      "source_label": "技術による参入障壁低減と参入者構成の系統的変化",
+      "target_label": "アントレプレナーシップの機会",
+      "source_file": "concepts/technology-barrier-reduction-and-entrant-composition-shift.md",
+      "target_file": "concepts/entrepreneurial-opportunities.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "entrepreneurial-opportunities"
+      ],
+      "display_labels": [
+        "entrepreneurial-opportunities"
+      ],
+      "mentions": [
+        {
+          "raw_target": "entrepreneurial-opportunities",
+          "label": "entrepreneurial-opportunities",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "entrepreneurial-opportunities"
+      ]
+    },
+    {
+      "id": "technology-barrier-reduction-and-entrant-composition-shift->technology-institution-co-constitution-and-boundary-ambivalence",
+      "source": "technology-barrier-reduction-and-entrant-composition-shift",
+      "target": "technology-institution-co-constitution-and-boundary-ambivalence",
+      "source_label": "技術による参入障壁低減と参入者構成の系統的変化",
+      "target_label": "技術と制度・社会の共構成および境界の両価性",
+      "source_file": "concepts/technology-barrier-reduction-and-entrant-composition-shift.md",
+      "target_file": "concepts/technology-institution-co-constitution-and-boundary-ambivalence.md",
+      "relation": "wikilink",
+      "resolved": true,
+      "weight": 1,
+      "raw_targets": [
+        "technology-institution-co-constitution-and-boundary-ambivalence"
+      ],
+      "display_labels": [
+        "technology-institution-co-constitution-and-boundary-ambivalence"
+      ],
+      "mentions": [
+        {
+          "raw_target": "technology-institution-co-constitution-and-boundary-ambivalence",
+          "label": "technology-institution-co-constitution-and-boundary-ambivalence",
+          "section": "関連概念",
+          "line": 27,
+          "resolved_via": "slug"
+        }
+      ],
+      "ambiguous": false,
+      "candidates": [
+        "technology-institution-co-constitution-and-boundary-ambivalence"
       ]
     },
     {

@@ -72,3 +72,8 @@ AI Nativeな社会設計では、意思決定と実行が人間・AI・組織・
    File: raw/papers/law/mitigating-ai-privacy-risks-in-latin-america-identity-infrastructure-institution.md
 6. Samar Singh (2026)「Algorithmic Oversight: Caremark's Fiduciary Framework Applied to Artificial Intelligence」
    File: raw/papers/law/algorithmic-oversight-caremarks-fiduciary-framework-applied-to-artificial-intell.md
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: Tripartite Accountability in AI-Driven Workforce Displacement: A Stakeholder and Legal Perspective (2026)
+  **ファイルパス**: `raw/papers/corporate_governance/tripartite-accountability-in-ai-driven-workforce-displacement-a-stakeholder-and-.md`

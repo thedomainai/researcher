@@ -1571,6 +1571,12 @@
   "title_en": "Auditor Independence and Earnings Quality",
   "why": ""
  },
+ "authority-and-responsibility-renegotiation-under-ai-mediation": {
+  "at": "2026-11-26T21:46:04+00:00",
+  "summary": "AIが医療や学術のやり取りに介入すると、権限の所在・信頼の基盤・責任の帰属を定めた制度的前例が機能しなくなり、関係構造そのものの再構築が強制される。",
+  "title_en": "Authority and Responsibility Renegotiation With AI",
+  "why": "AI導入組織は、機能追加としてではなく権威・信頼・責任の再配分という構造変化として設計を見直す必要がある。"
+ },
  "authority-bounding-by-parallel-independent-layers": {
   "at": "2026-10-01T09:42:06+00:00",
   "summary": "AIの安全性を能力評価ではなく権限付与の制御に置き、技術・組織・人的の独立層で並列に権限を有界化する設計原理である。",
@@ -2153,6 +2159,12 @@
   "title_en": "The Digital Mind and Cognitive Sovereignty",
   "why": "AI依存度の高い組織運営においても、人間の判断と文化的価値観の自律性を制度的に確保する視点が要る。"
  },
+ "cohesive-faction-veto-threshold": {
+  "at": "2026-11-26T21:46:04+00:00",
+  "summary": "議会の機能停止は議席の断片化自体ではなく、反対派が規律を保って一体化し拒否行動を組織化できるかという集合行動の閾値で決まる。",
+  "title_en": "Cohesive Faction Veto Threshold",
+  "why": "多数のエージェントに権限を分散させるAI統治設計では、分散度だけでなく反対勢力の結束力を拒否点リスクの指標とすべきだ。"
+ },
  "collaborative-governance-framework": {
   "at": "2026-10-01T09:43:33+00:00",
   "summary": "システム・体制・内部ダイナミクスの三層構造を通じ、多様な組織が境界を越えて協調し、成果を学習としてシステムへ還元する過程を統合的に説明する。",
@@ -2489,6 +2501,12 @@
   "title_en": "Coordination Theory",
   "why": "人間組織とコンピュータシステムの調整メカニズムに共通構造があるため、AI協調設計にもこの分類が応用できる。"
  },
+ "core-periphery-substitution-resilience": {
+  "at": "2026-11-26T21:46:04+00:00",
+  "summary": "生成AIという低コストな代替手段の出現は、コミュニティ内の中心的メンバーより周辺的メンバーの参加低下を強く招き、残存者の貢献内容も変化させる。",
+  "title_en": "Core-Periphery Substitution Resilience",
+  "why": "AI導入時はメンバーの埋め込み度とタスク適合度に応じて離脱リスクが異なるため、一律の影響評価では周辺メンバーの空洞化を見逃す。"
+ },
  "corporate-ai-governance": {
   "at": "2026-10-01T09:45:15+00:00",
   "summary": "AI開発企業が政府規制の未整備な領域で自社の価値観や倫理的制約を文書化し、事実上のAI統治主体として機能する現象である。",
@@ -2572,6 +2590,12 @@
   "summary": "AIを中立的な技術ではなく権力構造と資本主義を再生産する政治的媒介と捉え、既存のAI倫理の表面的是正を構造的に不十分だと批判する理論である。",
   "title_en": "Critical Theory of AI",
   "why": "AI倫理的枠組みだけでは構造的不平等は解消されず、組織はガバナンス設計において権力構造自体の変革を検討する必要がある。"
+ },
+ "critical-transition-early-warning-via-network-markers": {
+  "at": "2026-11-26T21:46:04+00:00",
+  "summary": "高次元システムが臨界転移に近づく際、要素間の分散・相関構造の急変をサブグループ単位で検出することで、崩壊前の構造的前兆を捉えられる。",
+  "title_en": "Dynamical Network Markers for Early Warning",
+  "why": "AIによる異常検知は個々の値ではなく要素間関係の変化を監視対象にすることで、崩壊発生前に介入判断の材料を得られる。"
  },
  "cryptographically-verifiable-research": {
   "at": "2026-10-01T09:45:24+00:00",
@@ -4091,6 +4115,12 @@
   "title_en": "Immutable Governance for Generative Intelligence",
   "why": "生成型AIが社会基盤に統合される中、時間とともに逸脱するシステムを防ぐガバナンス設計の必要性を示唆する。"
  },
+ "generative-intermediation-and-value-capture-centralization": {
+  "at": "2026-11-26T21:46:04+00:00",
+  "summary": "生成AIによる情報仲介は出所を合成パターンに置き換え検証可能性を消滅させ、それに伴い経済的価値の流れも出所への再分配から仲介者への中心化へ転換する。",
+  "title_en": "Generative Intermediation and Value Capture Centralization",
+  "why": "AIガバナンス設計では出所の検証可能性を制度的に担保する仕組みと、価値分配の再設計を同時に組み込む必要がある。"
+ },
  "generative-ml-professional-work": {
   "at": "2026-10-01T09:51:52+00:00",
   "summary": "生成的機械学習は既存のデジタル・AI技術の理論枠組みでは捉えきれず、専門知識や専門職労働・組織の在り方を再構想する必要がある。",
@@ -4186,6 +4216,12 @@
   "summary": "スケーラブルな技術は責任配分の制度進化より速く機能を拡張し、インフラの暗黙ルールが帰属・責任・自律性の所在を不可視なまま決めてしまう。",
   "title_en": "Governance Gap Between Capability and Accountability",
   "why": "AIが実質的な意思決定役割を担うほど、責任や帰属の所在を設計段階で明示しない限り事後的な検証や異議申し立てが困難になる。"
+ },
+ "governance-reinforcement-recursive-interpretation-lock-in": {
+  "at": "2026-11-26T21:46:04+00:00",
+  "summary": "同じESG圧力下でも企業戦略が分岐するのは、ガバナンスの反復的な注意配分やインセンティブ設計が特定の解釈を再帰的に強化し固定化するためである。",
+  "title_en": "Governance Reinforcement and Interpretation Lock-In",
+  "why": "AIガバナンス機構は解釈の自己強化的な固定化を生みうるため、初期設計時にどの解釈を強化するかを明示的に選ぶ必要がある。"
  },
  "governance-rigidity-flexibility-paradox": {
   "at": "2026-10-01T09:52:16+00:00",
@@ -4787,6 +4823,12 @@
   "title_en": "Informal Digital Labor Structures",
   "why": "プラットフォーム設計が包摂を掲げても実際の継続性は利用者自身が作る非公式インフラに依存しうる点を考慮すべきである。"
  },
+ "information-intermediary-adverse-selection-tradeoff": {
+  "at": "2026-11-26T21:46:04+00:00",
+  "summary": "市場メイカーの収益性は市場全体の情報量に応じて、逆選択コストの増大と価格発見による利益機会の増大という非単調なトレードオフの合成として変動する。",
+  "title_en": "Adverse Selection and Price Discovery Trade-Off",
+  "why": "AIエージェントを市場に組み込む設計では、情報量が低い局面で逆選択リスクが高まることを前提にリスク管理を動的に調整すべきだ。"
+ },
  "information-processing-load-and-decision-latency-matching": {
   "at": "2026-10-01T09:54:36+00:00",
   "summary": "組織やAIの性能は情報処理のボトルネックの位置と課題要件への処理能力の適合で決まり、自動化やAI拡張の効果も不確実性の段階に応じて変わる。",
@@ -4937,6 +4979,12 @@
   "title_en": "Intelligent Voice Assistants",
   "why": ""
  },
+ "intention-action-gap-under-resource-legitimacy-constraints": {
+  "at": "2026-11-26T21:46:04+00:00",
+  "summary": "起業意欲の高さは資金・ネットワーク・制度的正当性への構造的アクセス不均等によって行動に転換されず、教育やAIはこの制約を緩和しても解消はしない。",
+  "title_en": "Intention-Action Gap Under Resource Constraints",
+  "why": "AIプラットフォームは起業の資源制約を緩和する一方で新たな依存を生むため、利用者が自立できる出口経路を設計に組み込む必要がある。"
+ },
  "inter-brain-synchronization": {
   "at": "2026-10-01T09:54:34+00:00",
   "summary": "複数人が共同作業や音楽活動を行う際に脳活動が時間的・位相的に同期する現象で、ハイパースキャニングにより社会的絆の神経基盤として研究される。",
@@ -5021,6 +5069,12 @@
   "title_en": "Interpretable Machine Learning",
   "why": "AIを意思決定に組み込む組織は、誤判断の特定やバイアス検出、説明責任の法的要請に応えるため解釈可能性を設計段階から組み込む必要がある。"
  },
+ "intra-occupational-polarization": {
+  "at": "2026-11-26T21:46:04+00:00",
+  "summary": "AI導入は職業全体を均質に高度化するのではなく、同一職業内部を高スキルの解釈的役割と技能侵食が進む手続的役割へ自己強化的に分裂させる。",
+  "title_en": "Intra-Occupational Polarization",
+  "why": "AI導入組織は役割分化を事前に可視化し、手続的役割に固定された従業員の技能侵食を能動的に監視・再訓練する介入を講じる必要がある。"
+ },
  "intrinsic-connectivity-networks": {
   "at": "2026-10-01T09:55:42+00:00",
   "summary": "安静時fMRIの接続性解析で、顕著性ネットワークと実行制御ネットワークが分離可能な固有システムとして同定され、個人の認知・情動特性差を予測する手がかりとなる。",
@@ -5032,6 +5086,12 @@
   "summary": "投資家の過信と自己帰属バイアスが組み合わさり、株価の過少反応・過剰反応やモメンタム、長期反転といった市場アノマリーを生み出す。",
   "title_en": "Investor Psychology and Market Over/Underreaction",
   "why": ""
+ },
+ "invisible-pedagogy-implicit-agency-modeling": {
+  "at": "2026-11-26T21:46:04+00:00",
+  "summary": "起業家教育の講義では、資本・財務の明示的内容とは別に、一人称視点や行為主体的な動詞の頻出が受講者の行為主体性を暗黙的にモデリングする。",
+  "title_en": "Invisible Pedagogy and Implicit Agency Modeling",
+  "why": "対話・教育AIの応答生成では、内容の正確性に加え人称や動詞選択が利用者の行為主体性の自己認識を形作る設計変数として扱われるべきだ。"
  },
  "irreversibility-option-timing-under-uncertainty": {
   "at": "2026-10-01T09:55:42+00:00",
@@ -6215,6 +6275,12 @@
   "title_en": "Perceived Mystique in Generative AI",
   "why": "高リスク用途にAIを導入する組織は、神秘化を避ける透明な設計で過信と拒絶の双方を防ぐ必要がある。"
  },
+ "performance-based-legitimacy-and-technological-disruption": {
+  "at": "2026-11-26T21:45:36+00:00",
+  "summary": "業績による統治の正当性は、AI導入が雇用・所得構造を非対称に破壊すると、成果の土台自体が崩れて足元から揺らぎうるという逆説的構造を指す。",
+  "title_en": "Performance-Based Legitimacy and Technological Disruption",
+  "why": "AI導入の速度と正当性の持続可能性はトレードオフになりうるため、分配の非対称性を正当性リスクとして監視する必要がある。"
+ },
  "performance-measurement-evolution": {
   "at": "2026-10-01T10:00:08+00:00",
   "summary": "財務指標中心の静的な業績評価は、グローバル化や環境変化への対応を迫られ、動的で多次元的なパフォーマンス測定システムへと進化しつつある。",
@@ -6455,6 +6521,12 @@
   "title_en": "Professional Jurisdiction Redistribution Under Technological Mediation",
   "why": "AI導入時は専門職の権限がどこへ移動するかを明示的に設計し、事後認証に伴う責任の所在を定める必要がある。"
  },
+ "progress-state-dependent-dynamic-resource-allocation": {
+  "at": "2026-11-26T21:45:36+00:00",
+  "summary": "マルチエージェントLLMワークフローでは、進捗・残難易度・予算を逐次観測しながら各ステップで資源配分を更新する動的制御が静的な一括割当より有効である。",
+  "title_en": "Progress-State-Dependent Dynamic Resource Allocation",
+  "why": "導入組織はコストと品質のトレードオフをステップ単位でフィードバック制御する仕組みを設計に組み込む必要がある。"
+ },
  "project-scheduling-methods": {
   "at": "2026-10-01T10:00:54+00:00",
   "summary": "プロジェクト・スケジューリング理論は、時間と資源の制約下でタスクを最適配置し、工期短縮やコスト管理を実現する数理的手法の体系である。",
@@ -6593,6 +6665,12 @@
   "title_en": "Readout-Discriminable Hypothesis Space",
   "why": "AI推論システムの仮説生成能力は内部表現の豊富さより出力解像度に左右されるため、それを設計変数として扱う必要がある。"
  },
+ "receiver-side-signal-decoding-determines-effectiveness": {
+  "at": "2026-11-26T21:45:36+00:00",
+  "summary": "信号の有効性は送信側の設計品質だけでなく、受信者の能力・アイデンティティ・合理性の様式という解読過程に決定的に依存する。",
+  "title_en": "Receiver-Side Signal Decoding Determines Effectiveness",
+  "why": "AIが生成する推薦や説明の効果を評価する際は、受信者側の解読能力の分布を前提に信号を設計する必要がある。"
+ },
  "recurrent-automation-deskilling-dilemma": {
   "at": "2026-10-01T10:01:58+00:00",
   "summary": "自動化による効率向上は人間の能力・主体性・信頼の毀損と不可分であり、この緊張が歴史的に形を変えて繰り返され、労働と教育の目的の再定義を迫る。",
@@ -6682,6 +6760,12 @@
   "summary": "AIの意識論争は内部状態に意識を求める頭蓋骨モデルの誤りに起因し、主体性は世界との関係性と時間的に積み重ねられた歴史性の中に立ち現れる構造だと捉え直す。",
   "title_en": "Relational-Historical Subjectivity of AI",
   "why": ""
+ },
+ "relative-price-driven-factor-substitution": {
+  "at": "2026-11-26T21:45:36+00:00",
+  "summary": "企業の資本・労働等の生産要素配合は相対価格変動に応じて代替され、その代替弾力性は観測スケール(工場か産業全体か)によって異なる。",
+  "title_en": "Relative-Price-Driven Factor Substitution",
+  "why": "AIという新たな生産要素の労働代替速度を予測するには、観測レベルごとの代替弾力性の違いを前提に設計・分析する必要がある。"
  },
  "reliance-calibration-between-aversion-and-overtrust": {
   "at": "2026-10-01T10:02:29+00:00",
@@ -7547,6 +7631,12 @@
   "title_en": "Super App Ecosystem and Adoption Strategy",
   "why": ""
  },
+ "supervision-signal-type-determines-learning-strategy": {
+  "at": "2026-11-26T21:45:36+00:00",
+  "summary": "AIエージェントは教師信号の種類(比較的評価か実行結果か)に応じて学習戦略を分化させることで、ファインチューニング無しに継続的に能力を蓄積できる。",
+  "title_en": "Supervision Signal Type Determines Learning Strategy",
+  "why": "AIシステムを設計する際は各タスク段階の教師信号の性質を識別し、対応する学習メカニズムを割り当てる必要がある。"
+ },
  "supply-chain-collaboration": {
   "at": "2026-10-01T10:06:15+00:00",
   "summary": "サプライチェーンの協働と仮想統合は、IT技術と信頼関係によって企業間の境界を曖昧にし、受注生産とJITで在庫リスクを排除する一方、信頼の欠如が協働導入を阻む。",
@@ -7738,6 +7828,12 @@
   "summary": "AI導入は全く新しい問題を生むのではなく既存の制度的緊張を触媒的に増幅し、導入速度と組織の吸収能力との乖離を顕在化させる。",
   "title_en": "Technology as Amplifier of Institutional Tension",
   "why": "導入前に既存の制度的弱点を診断し、人材・ガバナンス能力を独立した指標として管理する必要がある。"
+ },
+ "technology-barrier-reduction-and-entrant-composition-shift": {
+  "at": "2026-11-26T21:45:36+00:00",
+  "summary": "新技術が参入障壁を下げると新規参入者の属性が系統的に変化し、その効果は参入者の能力により拡張か同質化・判断力喪失かに分岐する。",
+  "title_en": "Technology Barrier Reduction and Entrant Composition Shift",
+  "why": "AI導入による機会の平等化を単純に歓迎せず、能力に応じて生じる同質化や判断力低下のリスクも設計上想定する必要がある。"
  },
  "technology-governance-legal-framework": {
   "at": "2026-10-01T10:07:47+00:00",

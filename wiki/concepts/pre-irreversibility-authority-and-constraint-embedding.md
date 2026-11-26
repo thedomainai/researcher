@@ -79,3 +79,8 @@ ESGを「コミュニケーション活動」ではなく「制度的アーキ�
 
 * **タイトル**: Pre-Irreversibility Safety for Advanced AI: Distributed Irreversible Authority, Timely Refusal, and Human-Revisable Development (2026)
   **ファイルパス**: `raw/papers/ai_governance/pre-irreversibility-safety-for-advanced-ai-distributed-irreversible-authority-ti.md`
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: Risk-Aware Reranking for Agentic Tool Retrieval (2026)
+  **ファイルパス**: `raw/papers/evolutionary_biology/risk-aware-reranking-for-agentic-tool-retrieval.md`

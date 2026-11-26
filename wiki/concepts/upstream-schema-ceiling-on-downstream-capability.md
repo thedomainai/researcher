@@ -71,3 +71,8 @@ Angara、Yellapuの糖尿病予測研究(BRFSS2015)では、反事実説明LICE�
 
 * **タイトル**: Building Trust in AI for Project Controls: A Governance-Embedded Data Engineering Framework (2026)
   **ファイルパス**: `raw/papers/ai_governance/building-trust-in-ai-for-project-controls-a-governance-embedded-data-engineering.md`
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: The representational bottleneck in rehabilitation AI: from human-cognitive proxies to pathway-based clinical representations (2026)
+  **ファイルパス**: `raw/papers/corporate_governance/the-representational-bottleneck-in-rehabilitation-ai-from-human-cognitive-proxie.md`

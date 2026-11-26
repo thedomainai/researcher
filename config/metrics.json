@@ -521,6 +521,11 @@
     "Organic Search": 2
    },
    "pv": 2,
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   },
    "sessions": 2,
    "users": 1
   },
@@ -531,6 +536,14 @@
    "pv": 5,
    "sessions": 5,
    "users": 4
+  },
+  "2026-11-25": {
+   "channels": {
+    "Organic Search": 1
+   },
+   "pv": 1,
+   "sessions": 1,
+   "users": 1
   }
  },
  "sitemaps": [
@@ -573,17 +586,17 @@
    2
   ],
   [
+   "/researcher/concepts/ecological-resilience-and-stability/",
+   2
+  ],
+  [
    "/researcher/concepts/feedback-loops-system-dynamics/",
    2
   ],
   [
    "/researcher/concepts/gene-set-variation-analysis/",
    2
-  ],
-  [
-   "/researcher/concepts/optimal-economic-growth-theory/",
-   2
   ]
  ],
- "updated": "2026-11-25T09:43:23"
+ "updated": "2026-11-26T06:28:50"
 }

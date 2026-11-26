@@ -1,0 +1,28 @@
+---
+title: "Around the circular law"
+authors: "Charles Bordenave, Djalil Chafaï"
+year: 2012
+citations: 284
+paper_type: "primary"
+domain: "mathematical_physics"
+domain_label: "数理物理学"
+source_api: "openalex"
+fetched: "2026-11-26T14:07:33.042202"
+doi: "10.1214/11-ps183"
+openalex_id: "W1647197104"
+semantic_scholar_id: ""
+arxiv_id: ""
+url: "https://doi.org/10.1214/11-ps183"
+tier: 2
+explore_depth: 1
+---
+
+# Around the circular law
+
+**著者**: Charles Bordenave, Djalil Chafaï
+**年**: 2012 | **被引用数**: 284
+**タイプ**: primary | **分野**: 数理物理学
+
+## Abstract
+
+These expository notes are centered around the circular law theorem, which states that the empirical spectral distribution of a n×n random matrix with i.i.d. entries of variance 1/n tends to the uniform law on the unit disc of the complex plane as the dimension n tends to infinity. This phenomenon is the non-Hermitian counterpart of the semi circular limit for Wigner random Hermitian matrices, and the quarter circular limit for Marchenko-Pastur random covariance matrices. We present a proof in a Gaussian case, due to Silverstein, based on a formula by Ginibre, and a proof of the universal case by revisiting the approach of Tao and Vu, based on the Hermitization of Girko, the logarithmic potential, and the control of the small singular values. Beyond the finite variance model, we also consider the case where the entries have heavy tails, by using the objective method of Aldous and Steele borrowed from randomized combinatorial optimization. The limiting law is then no longer the circular law and is related to the Poisson weighted infinite tree. We provide a weak control of the smallest singular value under weak assumptions, using asymptotic geometric analysis tools. We also develop a quaternionic Cauchy-Stieltjes transform borrowed from the Physics literature.

@@ -70,3 +70,13 @@ AI Nativeな社会設計において、この原理が重要な理由は二つ�
 8. Beyond the FinTech proxy: the AI evidence gap and ESG intelligence divide in global banking: a scoping review — Mohammed R. M. Salem, Norazah Mohd Suki, Abdul Hafizh Mohd Azam (2026) — `raw/papers/business_ethics_csr/beyond-the-fintech-proxy-the-ai-evidence-gap-and-esg-intelligence-divide-in-glob.md`
 9. Challenges, paradoxes and lessons for inclusive AI governance: an interdisciplinary analysis of corporate initiatives — Makuochi S. Nkwo, Muhammad Adamu, Francis Brako, Chinasa T. Okolo, Rita Orji (2026) — `raw/papers/business_ethics_csr/challenges-paradoxes-and-lessons-for-inclusive-ai-governance-an-interdisciplinar.md`
 10. AI with Integrity — Dimitrios Sargiotis (2026) — `raw/papers/business_ethics_csr/ai-with-integrity.md`
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: Mind the Gap: Policy vs Reality in Post-Quantum TLS Deployment (2026)
+  **ファイルパス**: `raw/papers/evolutionary_biology/mind-the-gap-policy-vs-reality-in-post-quantum-tls-deployment.md`
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: AI washing in corporate finance: conceptual foundations, measurement, economic consequences and future directions (2026)
+  **ファイルパス**: `raw/papers/finance_corporate/ai-washing-in-corporate-finance-conceptual-foundations-measurement-economic-cons.md`

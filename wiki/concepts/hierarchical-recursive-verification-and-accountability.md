@@ -75,3 +75,8 @@ Inston(2026)は、共有所有(copossession)の理論が、私的所有の絶対
 3. Muhammad Usama Islam, M Saiful Bari, Foluso Ayeni, Sena Okuboyejo (2026) "The Pandemic of AI Agents: A Recursive Stewardship Framework" — `raw/papers/philosophy/the-pandemic-of-ai-agents-a-recursive-stewardship-framework.md`
 4. Kevin Inston (2026) "The Politics of Copossession of the World" — `raw/papers/philosophy/the-politics-of-copossession-of-the-world.md`
 5. Northon Salomao de Oliveira (2026) "The End of the Norm" — `raw/papers/philosophy/the-end-of-the-norm.md`
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: Generative Review Process (GRP) v1.0: An Auditable Methodology for Human–AI Co-Creation, Critical Review, and Publication Decision-Making (2026)
+  **ファイルパス**: `raw/papers/hci/generative-review-process-grp-v10-an-auditable-methodology-for-humanai-co-creati.md`

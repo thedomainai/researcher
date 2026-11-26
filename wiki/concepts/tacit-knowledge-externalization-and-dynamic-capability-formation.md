@@ -96,3 +96,8 @@ AIは単なる作業者ではなく「知識メディア」として位置付け
    - 著者: Iryna Parasii-Verhunenko, Kostiantyn Bezverkhyi, Vasyl Derii, Олександр Гарнага, Valentyna Khodzytska
    - 年: 2026
    - ファイルパス: raw/papers/organization_science/the-anti-corruption-ecosystem-in-ensuring-the-states-economic-security-the-evolu.md
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: Making migration-embedded learning visible for inclusive entrepreneurship education (2026)
+  **ファイルパス**: `raw/papers/entrepreneurship/making-migration-embedded-learning-visible-for-inclusive-entrepreneurship-educat.md`

@@ -59,3 +59,8 @@ Horvitzの混合イニシアティブシステムの原理に従い、AIシス�
 - Sweller, J. "Cognitive Load Theory, Learning Difficulty, and Instructional Design" - raw/papers/cognitive_science/cognitive-load-theory-learning-difficulty-and-instructional-design.md
 - Becker, J., et al. "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity" - raw/papers/human_ai_collaboration/measuring-the-impact-of-early-2025-ai-on-experienced-open-source-developer-produ.md
 - Paradis, E., et al. "How Much Does AI Impact Development Speed?" - raw/papers/human_ai_collaboration/how-much-does-ai-impact-development-speed-an-enterprise-based-randomized-control.md
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: Toward Collaborative AI: A Framework for the Transition from Autonomous Agents to Adaptive Human-AI Partners (2026)
+  **ファイルパス**: `raw/papers/hci/toward-collaborative-ai-a-framework-for-the-transition-from-autonomous-agents-to.md`

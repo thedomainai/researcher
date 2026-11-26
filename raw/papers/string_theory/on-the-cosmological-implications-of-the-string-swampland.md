@@ -1,0 +1,28 @@
+---
+title: "On the cosmological implications of the string Swampland"
+authors: "Prateek Agrawal, Georges Obied, Paul Joseph Steinhardt, Cumrun Vafa"
+year: 2018
+citations: 639
+paper_type: "primary"
+domain: "string_theory"
+domain_label: "超ひも理論・量子重力"
+source_api: "openalex"
+fetched: "2026-11-26T14:02:49.382961"
+doi: "10.1016/j.physletb.2018.07.040"
+openalex_id: "W2810921023"
+semantic_scholar_id: ""
+arxiv_id: ""
+url: "https://doi.org/10.1016/j.physletb.2018.07.040"
+tier: 2
+explore_depth: 1
+---
+
+# On the cosmological implications of the string Swampland
+
+**著者**: Prateek Agrawal, Georges Obied, Paul Joseph Steinhardt, Cumrun Vafa
+**年**: 2018 | **被引用数**: 639
+**タイプ**: primary | **分野**: 超ひも理論・量子重力
+
+## Abstract
+
+We study constraints imposed by two proposed string Swampland criteria on cosmology. These criteria involve an upper bound on the range traversed by scalar fields as well as a lower bound on |∇ϕV|/V when V>0. We find that inflationary models are generically in tension with these two criteria. Applying these same criteria to dark energy in the present epoch, we find that specific quintessence models can satisfy these bounds and, at the same time, satisfy current observational constraints. Assuming the two Swampland criteria are valid, we argue that the universe will undergo a phase transition within a few Hubble times. These criteria sharpen the motivation for future measurements of the tensor-to-scalar ratio r and the dark energy equation of state w, and for tests of the equivalence principle for dark matter.

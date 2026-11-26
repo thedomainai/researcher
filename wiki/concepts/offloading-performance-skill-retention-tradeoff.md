@@ -85,3 +85,8 @@
    File: raw/papers/psychology/thinking-with-ai-or-thinking-less-a-narrative-review-of-generative-ai-dependence.md
 7. Between perceived competence and artificial intelligence: academic self-efficacy profiles in university students with motor disabilities — Raquel Suriá-Martínez, Fernando García-Castillo, Carmen López-Sánchez, José A. García del Castillo (2026)
    File: raw/papers/psychology/between-perceived-competence-and-artificial-intelligence-academic-self-efficacy-.md
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: BEYOND PRODUCTIVITY Artificial Intelligence, Human Capability Formation, and a Systemic Framework for Evaluating Automation As a Conceptual Framework Grounded in Eudaimonia (2026)
+  **ファイルパス**: `raw/papers/economics/beyond-productivity-artificial-intelligence-human-capability-formation-and-a-sys.md`

@@ -1,0 +1,28 @@
+---
+title: "Binary Black Hole Mergers in the First Advanced LIGO Observing Run"
+authors: "B. P. Abbott, R. Abbott, T. D. Abbott, M. R. Abernathy, F. Acernese (+95)"
+year: 2016
+citations: 1899
+paper_type: "primary"
+domain: "relativity"
+domain_label: "相対性理論・重力"
+source_api: "openalex"
+fetched: "2026-11-26T13:56:10.499814"
+doi: "10.1103/physrevx.6.041015"
+openalex_id: "W2423333910"
+semantic_scholar_id: ""
+arxiv_id: ""
+url: "https://doi.org/10.1103/physrevx.6.041015"
+tier: 2
+explore_depth: 1
+---
+
+# Binary Black Hole Mergers in the First Advanced LIGO Observing Run
+
+**著者**: B. P. Abbott, R. Abbott, T. D. Abbott, M. R. Abernathy, F. Acernese (+95)
+**年**: 2016 | **被引用数**: 1899
+**タイプ**: primary | **分野**: 相対性理論・重力
+
+## Abstract
+
+The first observational run of the Advanced LIGO detectors, from September 12, 2015 to January 19, 2016, saw the first detections of gravitational waves from binary black hole mergers. In this paper, we present full results from a search for binary black hole merger signals with total masses up to 100 M ⊙ and detailed implications from our observations of these systems. Our search, based on general-relativistic models of gravitational-wave signals from binary black hole systems, unambiguously identified two signals, GW150914 and GW151226, with a significance of greater than 5 σ over the observing period. It also identified a third possible signal, LVT151012, with substantially lower significance and with an 87% probability of being of astrophysical origin. We provide detailed estimates of the parameters of the observed systems. Both GW150914 and GW151226 provide an unprecedented opportunity to study the two-body motion of a compact-object binary in the large velocity, highly nonlinear regime. We do not observe any deviations from general relativity, and we place improved empirical bounds on several high-order post-Newtonian coefficients. From our observations, we infer stellar-mass binary black hole merger rates lying in the range 9 – 240 Gpc − 3 yr − 1. These observations are beginning to inform astrophysical predictions of binary black hole formation rates and indicate that future observing runs of the Advanced detector network will yield many more gravitational-wave detections. Published by the American Physical Society 2016

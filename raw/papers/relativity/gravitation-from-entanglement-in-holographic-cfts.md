@@ -1,0 +1,28 @@
+---
+title: "Gravitation from entanglement in holographic CFTs"
+authors: "Thomas Faulkner, Monica Guica, Thomas Hartman, Robert C. Myers, Mark Van Raamsdonk"
+year: 2014
+citations: 667
+paper_type: "primary"
+domain: "relativity"
+domain_label: "相対性理論・重力"
+source_api: "openalex"
+fetched: "2026-11-26T13:56:07.391892"
+doi: "10.1007/jhep03(2014)051"
+openalex_id: "W2102970467"
+semantic_scholar_id: ""
+arxiv_id: ""
+url: "https://doi.org/10.1007/jhep03(2014)051"
+tier: 2
+explore_depth: 1
+---
+
+# Gravitation from entanglement in holographic CFTs
+
+**著者**: Thomas Faulkner, Monica Guica, Thomas Hartman, Robert C. Myers, Mark Van Raamsdonk
+**年**: 2014 | **被引用数**: 667
+**タイプ**: primary | **分野**: 相対性理論・重力
+
+## Abstract
+
+Entanglement entropy obeys a ‘first law’, an exact quantum generalization of the ordinary first law of thermodynamics. In any CFT with a semiclassical holographic dual, this first law has an interpretation in the dual gravitational theory as a constraint on the spacetimes dual to CFT states. For small perturbations around the CFT vacuum state, we show that the set of such constraints for all ball-shaped spatial regions in the CFT is exactly equivalent to the requirement that the dual geometry satisfy the gravitational equations of motion, linearized about pure AdS. For theories with entanglement entropy computed by the Ryu-Takayanagi formula S = $ \mathcal{A} $ /(4G N), we obtain the linearized Einstein equations. For theories in which the vacuum entanglement entropy for a ball is computed by more general Wald functionals, we obtain the linearized equations for the associated higher-curvature theories. Using the first law, we also derive the holographic dictionary for the stress tensor, given the holographic formula for entanglement entropy. This method provides a simple alternative to holographic renormalization for computing the stress tensor expectation value in arbitrary higher derivative gravitational theories.

@@ -1,0 +1,28 @@
+---
+title: "Encyclopædia Inflationaris"
+authors: "Jérôme Martin, Christophe Ringeval, Vincent Vennin"
+year: 2014
+citations: 1230
+paper_type: "primary"
+domain: "cosmology_astrophysics"
+domain_label: "宇宙論・宇宙物理"
+source_api: "openalex"
+fetched: "2026-11-26T13:57:50.489071"
+doi: "10.1016/j.dark.2014.01.003"
+openalex_id: "W4205715914"
+semantic_scholar_id: ""
+arxiv_id: ""
+url: "https://doi.org/10.1016/j.dark.2014.01.003"
+tier: 2
+explore_depth: 1
+---
+
+# Encyclopædia Inflationaris
+
+**著者**: Jérôme Martin, Christophe Ringeval, Vincent Vennin
+**年**: 2014 | **被引用数**: 1230
+**タイプ**: primary | **分野**: 宇宙論・宇宙物理
+
+## Abstract
+
+The current flow of high accuracy astrophysical data, among which are the Cosmic Microwave Background (CMB) measurements by the Planck satellite, offers an unprecedented opportunity to constrain the inflationary theory. This is however a challenging project given the size of the inflationary landscape which contains hundreds of different scenarios. Given that there is currently no observational evidence for primordial non-Gaussianities, isocurvature perturbations or any other non-minimal extension of the inflationary paradigm, a reasonable approach is to consider the simplest models first, namely the slow-roll single field models with minimal kinetic terms. This still leaves us with a very populated landscape, the exploration of which requires new and efficient strategies. It has been customary to tackle this problem by means of approximate model independent methods while a more ambitious alternative is to study the inflationary scenarios one by one. We have developed the new publicly available runtime library ASPIC 1 1 http://cp3.irmp.ucl.ac.be/~ringeval/aspic.html . to implement this last approach. The ASPIC code provides all routines needed to quickly derive reheating consistent observable predictions within this class of scenarios. ASPIC has been designed as an evolutive code which presently supports 74 different models, a number that may be compared with three or four representing the present state of the art. In this paper, for each of the ASPIC models, we present and collect new results in a systematic manner, thereby constituting the first Encyclopædia Inflationaris . Finally, we discuss how this procedure and ASPIC could be used to determine the best model of inflation by means of Bayesian inference.

@@ -1,0 +1,28 @@
+---
+title: "50 Years of quantum chromodynamics: Introduction and Review"
+authors: "Franz Gross, E. Klempt, Stanley J. Brodsky, Andrzej J. Buras, Volker Burkert (+90)"
+year: 2023
+citations: 409
+paper_type: "primary"
+domain: "particle_physics_qft"
+domain_label: "素粒子・場の量子論"
+source_api: "openalex"
+fetched: "2026-11-26T13:59:36.870718"
+doi: "10.1140/epjc/s10052-023-11949-2"
+openalex_id: "W4312108281"
+semantic_scholar_id: ""
+arxiv_id: ""
+url: "https://doi.org/10.1140/epjc/s10052-023-11949-2"
+tier: 2
+explore_depth: 0
+---
+
+# 50 Years of quantum chromodynamics: Introduction and Review
+
+**著者**: Franz Gross, E. Klempt, Stanley J. Brodsky, Andrzej J. Buras, Volker Burkert (+90)
+**年**: 2023 | **被引用数**: 409
+**タイプ**: primary | **分野**: 素粒子・場の量子論
+
+## Abstract
+
+Quantum Chromodynamics, the theory of quarks and gluons, whose interactions can be described by a local SU(3) gauge symmetry with charges called “color quantum numbers”, is reviewed; the goal of this review is to provide advanced Ph.D. students a comprehensive handbook, helpful for their research. When QCD was “discovered” 50 years ago, the idea that quarks could exist, but not be observed, left most physicists unconvinced. Then, with the discovery of charmonium in 1974 and the explanation of its excited states using the Cornell potential, consisting of the sum of a Coulomb-like attraction and a long range linear confining potential, the theory was suddenly widely accepted. This paradigm shift is now referred to as the November revolution. It had been anticipated by the observation of scaling in deep inelastic scattering, and was followed by the discovery of gluons in three-jet events. The parameters of QCD include the running coupling constant, $$\alpha _s(Q^2)$$ α s (Q 2), that varies with the energy scale $$Q^2$$ Q 2 characterising the interaction, and six quark masses. QCD cannot be solved analytically, at least not yet, and the large value of $$\alpha _s$$ α s at low momentum transfers limits perturbative calculations to the high-energy region where $$Q^2\gg \varLambda _{{\textrm{QCD}}} ^2\simeq $$ Q 2 ≫ Λ QCD 2 ≃ (250 MeV) $$^2$$ 2. Lattice QCD (LQCD), numerical calculations on a discretized space-time lattice, is discussed in detail, the dynamics of the QCD vacuum is visualized, and the expected spectra of mesons and baryons are displayed. Progress in lattice calculations of the structure of nucleons and of quantities related to the phase diagram of dense and hot (or cold) hadronic matter are reviewed. Methods and examples of how to calculate hadronic corrections to weak matrix elements on a lattice are outlined. The wide variety of analytical approximations currently in use, and the accuracy of these approximations, are reviewed. These methods range from the Bethe–Salpeter, Dyson–Schwinger coupled relativistic equations, which are formulated in both Minkowski or Euclidean spaces, to expansions of multi-quark states in a set of basis functions using light-front coordinates, to the AdS/QCD method that imbeds 4-dimensional QCD in a 5-dimensional deSitter space, allowing confinement and spontaneous chiral symmetry breaking to be described in a novel way. Models that assume the number of colors is very large, i.e. make use of the large $$N_c$$ N c -limit, give unique insights. Many other techniques that are tailored to specific problems, such as perturbative expansions for high energy scattering or approximate calculations using the operator product expansion are discussed. The very powerful effective field theory techniques that are successful for low energy nuclear systems (chiral effective theory), or for non-relativistic systems involving heavy quarks, or the treatment of gluon exchanges between energetic, collinear partons encountered in jets, are discussed. The spectroscopy of mesons and baryons has played an important historical role in the development of QCD. The famous X,Y,Z states – and the discovery of pentaquarks – have revolutionized hadron spectroscopy; their status and interpretation are reviewed as well as recent progress in the identification of glueballs and hybrids in light-meson spectroscopy. These exotic states add to the spectrum of expected $$q{{\bar{q}}}$$ q q ¯ mesons and qqq baryons. The progress in understanding excitations of light and heavy baryons is discussed. The nucleon as the lightest baryon is discussed extensively, its form factors, its partonic structure and the status of the attempt to determine a three-dimensional picture of the parton distribution. An experimental program to study the phase diagram of QCD at high temperature and density started with fixed target experiments in various laboratories in the second half of the 1980s, and then, in this century, with colliders. QCD thermodynamics at high temperature became accessible to LQCD, and numerical results on chiral and deconfinement transitions and properties of the deconfined and chirally restored form of strongly interacting matter, called the Quark–Gluon Plasma (QGP), have become very precise by now. These results can now be confronted with experimental data that are sensitive to the nature of the phase transition. There is clear evidence that the QGP phase is created. This phase of QCD matter can already be characterized by some properties that indicate, within a temperature range of a few times the pseudocritical temperature, the medium behaves like a near ideal liquid. Experimental observables are presented that demonstrate deconfinement. High and ultrahigh density QCD matter at moderate and low temperatures shows interesting features and new phases that are of astrophys

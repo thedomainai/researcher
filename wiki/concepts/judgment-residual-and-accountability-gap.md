@@ -74,3 +74,8 @@ Birherらは、SFを、軍事自動化・人間による統制の侵食・責任
   **ファイルパス**: `raw/papers/law/machines-may-detect-officers-must-decide-algorithmic-assistance-and-the-limits-o.md`
 * **タイトル**: Who Is Responsible When AI Shapes Corporate Decisions? Director Duties and Corporate Accountability under Indian Company Law (2026)
   **ファイルパス**: `raw/papers/law/who-is-responsible-when-ai-shapes-corporate-decisions-director-duties-and-corpor.md`
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: AI-Driven Corporate Decision-Making and Directors' Fiduciary Duties: Can an Algorithm Replace the Boardroom? (2026)
+  **ファイルパス**: `raw/papers/corporate_governance/ai-driven-corporate-decision-making-and-directors-fiduciary-duties-can-an-algori.md`

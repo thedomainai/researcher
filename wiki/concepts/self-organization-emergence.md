@@ -99,3 +99,8 @@ HumbertMaturanaとFrancisco Varelaが提唱した**オートポイエーシス�
   **ファイルパス**: `raw/papers/complexity_science/frequency-bursts-in-adaptive-delay-coupled-oscillators.md`
 * **タイトル**: Self-organizing Chimera States in Adaptive Networks (2026)
   **ファイルパス**: `raw/papers/complexity_science/self-organizing-chimera-states-in-adaptive-networks.md`
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: The Internet as a Proto‑AI Ecosystem: Present‑Day Drift, Emergence, and Early Multi‑Agent Behaviour (2026)
+  **ファイルパス**: `raw/papers/complexity_science/the-internet-as-a-protoai-ecosystem-presentday-drift-emergence-and-early-multiag.md`

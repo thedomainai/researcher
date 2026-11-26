@@ -77,3 +77,8 @@ Rettová の著作は、アフリカ哲学におけるスワヒリ語、ショ�
    File: raw/papers/evolutionary_biology/spatially-constrained-virtual-physical-coupling-in-info-epidemic-coevolution-an-.md
 5. Rettová, A. (2026). *The Nonhuman in African Philosophy (Edition 1)*.
    File: raw/papers/evolutionary_biology/the-nonhuman-in-african-philosophy-edition-1.md
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: DefaultGNN: A Dual-Perspective GNN Framework for Predicting Corporate Default from Buyer-Seller Transaction Networks (2026)
+  **ファイルパス**: `raw/papers/finance_corporate/defaultgnn-a-dual-perspective-gnn-framework-for-predicting-corporate-default-fro.md`

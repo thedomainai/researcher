@@ -90,3 +90,8 @@ Feroz (2026) の別稿は、効率や速度を重視する研究傾向の中で�
    `raw/papers/information_systems/a-study-on-the-mechanism-and-ways-to-improve-new-quality-productivity-of-enterpr.md`
 9. Generative AI and digital transformation in organizational roadmaps: employee value perceptions and knowledge sharing — Mai Nguyen, Nhâm Phong Tuân, Danish Mehraj, Jehan Lardhi, Adrienn Dernóczi-Polyák (2026)
    `raw/papers/information_systems/generative-ai-and-digital-transformation-in-organizational-roadmaps-employee-val.md`
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: Manufacturing and Artificial Intelligence: Plenty of Robots, Few Plants Using AI, and the Question of Organisational Readiness (2026)
+  **ファイルパス**: `raw/papers/economics/manufacturing-and-artificial-intelligence-plenty-of-robots-few-plants-using-ai-a.md`

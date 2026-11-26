@@ -48,3 +48,8 @@ fuzzy-set Qualitative Comparative Analysis（fsQCA：ファジィ集合定性的
 
 * **ソースタイトル**: Cybersecurity Readiness: Configurational Pathways To Internalizing Cybersecurity Training
 * **ファイルパス**: `raw/Cybersecurity Readiness: Configurational Pathways To Internalizing Cybersecurity Training`
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: Training the Governed Agent: AI-Status Narratives, Self-Conception, and the Perceived Legitimacy of Human Control (2026)
+  **ファイルパス**: `raw/papers/evolutionary_biology/training-the-governed-agent-ai-status-narratives-self-conception-and-the-perceiv.md`

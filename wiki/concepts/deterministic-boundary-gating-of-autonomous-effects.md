@@ -56,3 +56,8 @@ AI Nativeな社会では、意思決定や行動の多くがエージェント�
 3. Smriti Bhadoriya (2026) "Investigating AI/ML Models that Learn the Preferences and Constraints of Human Decision-Makers to Develop Interactive or Tools that Suggest Optimized Solutions While Allowing for Human Override and Incorporating Expert Judgment" — `raw/papers/hci/investigating-aiml-models-that-learn-the-preferences-and-constraints-of-human-de.md`
 4. Renkai Ma, Ruyuan Wan, Xuan Lu, Fan Yang, Chen Chen (2026) "Value-Sensitive Delegation in Everyday AI Agent Use: Evidence from OpenClaw" — `raw/papers/hci/value-sensitive-delegation-in-everyday-ai-agent-use-evidence-from-openclaw.md`
 5. Taha Khan (2026) "Sustainable Human-AI Collaboration: A Human-Centered Institutional Design for AI-Mediated Institutions Version 3" — `raw/papers/hci/sustainable-human-ai-collaboration-a-human-centered-institutional-design-for-ai-.md`
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: A Prescriptive Design Framework for CRM-Integrated Agentic AI in Hospital Patient Services: Design Science Development and Empirical Proof-of-Concept Evaluation (2026)
+  **ファイルパス**: `raw/papers/hci/a-prescriptive-design-framework-for-crm-integrated-agentic-ai-in-hospital-patien.md`

@@ -66,3 +66,8 @@ Sharma(2026)は、完全自動化に対する標準的な反論、すなわち�
    File: raw/papers/human_ai_collaboration/the-aura-in-the-machine-genealogy-and-the-status-of-the-work-of-art-in-the-gener.md
 2. Sahil Sharma (2026). "Growth Without Us: Machine Consumers, Corporate Circularity, and the Decoupling of GDP from Humanity after AGI".
    File: raw/papers/human_ai_collaboration/growth-without-us-machine-consumers-corporate-circularity-and-the-decoupling-of-.md
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: From Producing to Validating: How AI Is Deskilling Freelancers (2026)
+  **ファイルパス**: `raw/papers/hci/from-producing-to-validating-how-ai-is-deskilling-freelancers.md`

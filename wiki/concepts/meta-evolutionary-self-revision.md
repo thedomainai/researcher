@@ -33,3 +33,8 @@
 
 * **タイトル**: THE EVOLVING BACKEND OF REALITY Meta-Rules, Effective Laws, Recursive Constraints, and the Evolution of Generative Order (2026)
   **ファイルパス**: `raw/papers/complexity_science/the-evolving-backend-of-reality-meta-rules-effective-laws-recursive-constraints-.md`
+
+## 追加ソース（2026-11-27）
+
+* **タイトル**: TRI-COUPLING SYSTEM EVOLUTION THEORY II: COUPLING NETWORKS, META-COUPLING & ADAPTIVE RESEARCH ECOLOGIES AT THE LIMIT Multi-Coupling Topologies, Cross-Coupling Dynamics, Network Mutation, Evidence Propagation, Distributed Stewardship, Human-AI Coevolution, Failure Containment, and Successor Handoff (2026)
+  **ファイルパス**: `raw/papers/evolutionary_biology/tri-coupling-system-evolution-theory-ii-coupling-networks-meta-coupling-adaptive.md`
