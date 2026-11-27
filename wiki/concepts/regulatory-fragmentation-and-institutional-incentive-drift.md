@@ -105,3 +105,14 @@ AI時代のガバナンスにおいて、一国の規制がグローバルなデ
 5. **Can artificial intelligence be the answer to green development? evidence from China's artificial intelligence innovation and development pilot zones**
    - 著者: Chuanbo Zhou, Hansha Gu, Zhusan Yang | 年: 2026
    - File: `raw/papers/international_business/can-artificial-intelligence-be-the-answer-to-green-development-evidence-from-chi.md`
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: AI-driven liability assessment framework for autonomous systems integrating machine learning with EU and Indian regulatory models (2026)
+  **ファイルパス**: `raw/papers/hci/ai-driven-liability-assessment-framework-for-autonomous-systems-integrating-mach.md`
+* **タイトル**: Global AI and Agentic AI Governance Landscape: An Integrated Reference Map — A Review for Practitioners, Regulators and Policy Makers (2026)
+  **ファイルパス**: `raw/papers/hci/global-ai-and-agentic-ai-governance-landscape-an-integrated-reference-map-a-revi.md`
+* **タイトル**: A Global Comparison of Schemas, Transparency, and Interoperability in Public-Sector AI Registers and Inventories (2026)
+  **ファイルパス**: `raw/papers/hci/a-global-comparison-of-schemas-transparency-and-interoperability-in-public-secto.md`
+* **タイトル**: Gaming Together on Discord: Teen Gamer's Cross-Platform Practices (2026)
+  **ファイルパス**: `raw/papers/hci/gaming-together-on-discord-teen-gamers-cross-platform-practices.md`

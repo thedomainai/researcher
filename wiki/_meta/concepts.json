@@ -27379,5 +27379,82 @@
     ],
     "domain": "hci",
     "compiled_at": "2026-11-27"
+  },
+  {
+    "slug": "digital-subjectivation-and-counter-conduct",
+    "title_ja": "デジタル主体化と対抗的振る舞い",
+    "title_en": "Digital Subjectivation and Counter-Conduct",
+    "description": "権力による規格化・統制を受けつつも、主体は拒絶・再解釈を通じた抵抗の余地を構造的に常に保持する",
+    "mechanisms": [
+      "主体化メカニズム",
+      "権力関係の内在的不安定性",
+      "対抗的振る舞い(counter-conduct)"
+    ],
+    "related_sources": [
+      2
+    ],
+    "source_files": [
+      "raw/papers/history_of_technology/the-digital-subject-powers-of-digital-order-counter-conduct-and-neo-luddism.md"
+    ],
+    "domain": "history_of_technology",
+    "compiled_at": "2026-11-28"
+  },
+  {
+    "slug": "authorship-legitimation-deficit",
+    "title_ja": "著作者性正当化の欠損",
+    "title_en": "Authorship Legitimation Deficit",
+    "description": "努力を伴わない所有・権威・責任の主張は経験的・貢献的根拠と一致せず、委譲的制作全般に共通する正当性欠損を生む",
+    "mechanisms": [
+      "努力と帰属の結合(労働ネクサス)",
+      "経験的根拠と制度的承認の不一致",
+      "役割相対的な正当性評価"
+    ],
+    "related_sources": [
+      4
+    ],
+    "source_files": [
+      "raw/papers/history_of_technology/owning-what-one-did-not-make-psychological-ownership-agency-and-the-authorship-l.md"
+    ],
+    "domain": "history_of_technology",
+    "compiled_at": "2026-11-28"
+  },
+  {
+    "slug": "transitional-inequality-entrenchment",
+    "title_ja": "過渡的不均等の構造的固定化",
+    "title_en": "Transitional Imbalance Hardening into Structural Inequality",
+    "description": "発展過程で生じる一時的な不均等が、制度的障壁や市場の不完全性により恒久的な格差として固定化される",
+    "mechanisms": [
+      "制度的障壁による機会制約",
+      "トンネル効果による不満の遅延",
+      "エリートによる政治制度の捕獲"
+    ],
+    "related_sources": [
+      8
+    ],
+    "source_files": [
+      "raw/papers/history_of_technology/inequality-matters-for-development.md"
+    ],
+    "domain": "history_of_technology",
+    "compiled_at": "2026-11-28"
+  },
+  {
+    "slug": "ai-mediated-coordination-trust-tradeoff",
+    "title_ja": "AI媒介による協調効率と人間的信頼の構造的トレードオフ",
+    "title_en": "AI-Mediated Coordination vs. Human Trust Trade-off",
+    "description": "AIによる媒介はタスクレビューや非同期調整を効率化する一方、直接的な人間間コミュニケーションの希薄化を通じて心理的安全性・社会的結合・批判的議論を侵食する構造的トレードオフ。",
+    "mechanisms": [
+      "媒介化による直接接触の減少",
+      "心理的安全性の低下",
+      "非同期化によるタスク分業最適化",
+      "効率と信頼の二重最適化不能性"
+    ],
+    "related_sources": [
+      1
+    ],
+    "source_files": [
+      "raw/papers/human_resource_management/exploring-the-role-of-ai-in-hybrid-work-within-software-engineering.md"
+    ],
+    "domain": "human_resource_management",
+    "compiled_at": "2026-11-28"
   }
 ]

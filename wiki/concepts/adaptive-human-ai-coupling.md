@@ -64,3 +64,8 @@ Horvitzの混合イニシアティブシステムの原理に従い、AIシス�
 
 * **タイトル**: Toward Collaborative AI: A Framework for the Transition from Autonomous Agents to Adaptive Human-AI Partners (2026)
   **ファイルパス**: `raw/papers/hci/toward-collaborative-ai-a-framework-for-the-transition-from-autonomous-agents-to.md`
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: GNU Octave Implementation of LQG-Based Human–Machine Teaming for Adaptive Closed-Loop Supply Chain Optimization under Uncertainty (2026)
+  **ファイルパス**: `raw/papers/human_ai_collaboration/gnu-octave-implementation-of-lqg-based-humanmachine-teaming-for-adaptive-closed-.md`

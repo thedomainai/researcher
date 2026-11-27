@@ -95,3 +95,8 @@ Feroz (2026) の別稿は、効率や速度を重視する研究傾向の中で�
 
 * **タイトル**: Manufacturing and Artificial Intelligence: Plenty of Robots, Few Plants Using AI, and the Question of Organisational Readiness (2026)
   **ファイルパス**: `raw/papers/economics/manufacturing-and-artificial-intelligence-plenty-of-robots-few-plants-using-ai-a.md`
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: From AI Readiness to Knowledge Capability: Competency Models for Generative AI Implementation (2026)
+  **ファイルパス**: `raw/papers/human_ai_collaboration/from-ai-readiness-to-knowledge-capability-competency-models-for-generative-ai-im.md`

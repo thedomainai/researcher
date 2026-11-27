@@ -534,6 +534,11 @@
     "Organic Search": 5
    },
    "pv": 5,
+   "sc": {
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   },
    "sessions": 5,
    "users": 4
   },
@@ -544,6 +549,14 @@
    "pv": 1,
    "sessions": 1,
    "users": 1
+  },
+  "2026-11-26": {
+   "channels": {
+    "Organic Search": 6
+   },
+   "pv": 6,
+   "sessions": 8,
+   "users": 6
   }
  },
  "sitemaps": [
@@ -574,11 +587,11 @@
    4
   ],
   [
-   "/researcher/concepts/absorption-capacity-bottleneck-saturation/",
-   3
+   "/researcher/concepts/nisq-quantum-computing/",
+   4
   ],
   [
-   "/researcher/concepts/nisq-quantum-computing/",
+   "/researcher/concepts/absorption-capacity-bottleneck-saturation/",
    3
   ],
   [
@@ -598,5 +611,5 @@
    2
   ]
  ],
- "updated": "2026-11-26T06:28:50"
+ "updated": "2026-11-27T06:46:24"
 }

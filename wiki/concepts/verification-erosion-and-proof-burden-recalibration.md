@@ -83,3 +83,10 @@ Gospodinov (2026) によれば、EUのデジタル化に伴う民事責任領域
 - 著者: Muhammad Majdi, Muhammad Haramain, Abd. Hayyi Akrom
 - 年: 2026
 - ファイル: raw/papers/religious_studies/artificial-intellegence-and-techno-religion-reframing-tawhid-and-maqasid-al-shar.md
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: Verification Substitution through Affirmation and Qualification: The Self-Contradiction of AI Governance (2026)
+  **ファイルパス**: `raw/papers/hci/verification-substitution-through-affirmation-and-qualification-the-self-contrad.md`
+* **タイトル**: Who Does What in AI Auditing? Designing Human-AI Collaboration for Auditing Generative AI (2026)
+  **ファイルパス**: `raw/papers/hci/who-does-what-in-ai-auditing-designing-human-ai-collaboration-for-auditing-gener.md`

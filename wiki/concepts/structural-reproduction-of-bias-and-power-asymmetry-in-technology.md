@@ -81,3 +81,10 @@ AIとサイバーフィジカルシステムの収束の中で、人間行動を
 6. Shekh Abdullah-Al-Musa Ahmed, Nik Zulkarnaen Khidzir (2026)「Trends in AI and Social Engineering for Cyber-Physical Systems」 — `raw/papers/sociology/trends-in-ai-and-social-engineering-for-cyber-physical-systems.md`
 7. Yifan Peng (2026)「Oil, light, gift, and trust: a comparative analysis of metaphor relating to human biomedical data」 — `raw/papers/sociology/oil-light-gift-and-trust-a-comparative-analysis-of-metaphor-relating-to-human-bi.md`
 8. Adrian Schmidt, Alexandre Artaud, Arsev Umur Aydınoğlu, Astrid Bötticher, Rodrigo Araiza Bravo ほか (2026)「Current and Future Directions for Responsible Quantum Technologies: A ResQT Community Perspective」 — `raw/papers/sociology/current-and-future-directions-for-responsible-quantum-technologies-a-resqt-commu.md`
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: GenAI as Data in Anti‐Racist Linguistic Research: Risks and Possibilities in AI as a Raciolinguistic Infrastructure (2026)
+  **ファイルパス**: `raw/papers/history_of_technology/genai-as-data-in-antiracist-linguistic-research-risks-and-possibilities-in-ai-as.md`
+* **タイトル**: Colonial mediations and sovereign possibilities: a synthesis-derived decolonial heuristic layered equity framework for equitable generative AI integration in K-12 and higher education (2026)
+  **ファイルパス**: `raw/papers/history_of_technology/colonial-mediations-and-sovereign-possibilities-a-synthesis-derived-decolonial-h.md`

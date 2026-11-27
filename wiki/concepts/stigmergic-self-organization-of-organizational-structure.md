@@ -81,3 +81,8 @@ Zhangの**τ-TCPN**(timed, typed, controlled-emergence Petri-net)は、現代の
    File: raw/papers/complexity_science/busma-a-bus-communication-substrate-for-multi-agent-systems.md
 5. Social Laws for Multi-agent Coordination in Stochastic Environments(Rolando Fernandez, Caleb Probine, Tyler Lee, Jeffrey Chen, Erez Karpas, 2026)
    File: raw/papers/complexity_science/social-laws-for-multi-agent-coordination-in-stochastic-environments.md
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: SwarmWorld: Stigmergic technological evolution in societies of language-model agents (2026)
+  **ファイルパス**: `raw/papers/human_ai_collaboration/swarmworld-stigmergic-technological-evolution-in-societies-of-language-model-age.md`

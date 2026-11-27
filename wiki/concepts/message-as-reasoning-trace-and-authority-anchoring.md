@@ -72,3 +72,8 @@ AI Nativeな設計では、構文的に正しいメッセージが幻覚を伝�
    `raw/papers/complexity_science/trust-aware-adaptive-disclosure-for-inference-privacy-preservation-in-multi-agen.md`
 6. Artificial Intelligence as the Nervous System of Cyberspace: A Conceptual Model of Agentic Centrality and the Reflexivity of Cybersecurity — Luiz Fernando Moraes Silva (2026)
    `raw/papers/complexity_science/artificial-intelligence-as-the-nervous-system-of-cyberspace-a-conceptual-model-o.md`
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: When AI Shapes Learning: Decision Authority and Accountability in AI-Augmented Consulting (2026)
+  **ファイルパス**: `raw/papers/human_ai_collaboration/when-ai-shapes-learning-decision-authority-and-accountability-in-ai-augmented-co.md`

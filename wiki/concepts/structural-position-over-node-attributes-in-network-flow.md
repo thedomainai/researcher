@@ -82,3 +82,8 @@ Rettová の著作は、アフリカ哲学におけるスワヒリ語、ショ�
 
 * **タイトル**: DefaultGNN: A Dual-Perspective GNN Framework for Predicting Corporate Default from Buyer-Seller Transaction Networks (2026)
   **ファイルパス**: `raw/papers/finance_corporate/defaultgnn-a-dual-perspective-gnn-framework-for-predicting-corporate-default-fro.md`
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: Small-world Networks of Agents Brainstorm AI Risks to Support Ideation (2026)
+  **ファイルパス**: `raw/papers/human_ai_collaboration/small-world-networks-of-agents-brainstorm-ai-risks-to-support-ideation.md`

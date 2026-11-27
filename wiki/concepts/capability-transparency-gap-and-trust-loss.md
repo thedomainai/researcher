@@ -115,3 +115,16 @@ Al Helal(2026)は、乳房画像診断AIが高い予測性能を達成しても�
    File: raw/papers/behavioral_economics/maintain-preference-for-autonomous-system-or-human-controlled-system-the-influen.md
 5. Duong Dang, Laura Havinen, Tomi Pasanen, Juho-Pekka Mäkipää (2026). *Dual-Process Model of Consumer Responses to Deceptive Patterns in E-Commerce*.
    File: raw/papers/behavioral_economics/dual-process-model-of-consumer-responses-to-deceptive-patterns-in-e-commerce.md
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: Explainable AI in Critical Systems: Techniques, Trust and Challenges (2026)
+  **ファイルパス**: `raw/papers/hci/explainable-ai-in-critical-systems-techniques-trust-and-challenges.md`
+* **タイトル**: Exploring clinician interpretability of AI decision support systems for surgical anatomy recognition (2026)
+  **ファイルパス**: `raw/papers/hci/exploring-clinician-interpretability-of-ai-decision-support-systems-for-surgical.md`
+* **タイトル**: Human Factors in AI-Enabled Decision Support for Industry 4.0/5.0: A Scoping Review of Technical and Empirical Validation (2026)
+  **ファイルパス**: `raw/papers/hci/human-factors-in-ai-enabled-decision-support-for-industry-4050-a-scoping-review-.md`
+* **タイトル**: Human-Centered Design of AI Decision Support: Algorithmic Vigilance and the Role of AI Literacy (2026)
+  **ファイルパス**: `raw/papers/hci/human-centered-design-of-ai-decision-support-algorithmic-vigilance-and-the-role-.md`
+* **タイトル**: The Performance-Explainability Trade-Off in AI-Assisted Accounting Fraud Detection (2026)
+  **ファイルパス**: `raw/papers/hci/the-performance-explainability-trade-off-in-ai-assisted-accounting-fraud-detecti.md`

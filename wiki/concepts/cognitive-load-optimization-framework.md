@@ -61,3 +61,10 @@ AI Native設計において、この枠組みは極めて重要である。従�
 HCI関連：
 - raw/papers/hci/guidelines-for-human-ai-interaction.md
 - raw/papers/hci/principles-of-mixed-initiative-user-interfaces.md
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: Decision-Centric Energy Operations: Integrating Edge Intelligence, Operational Digital Twins, Industrial Work Surfaces, and Agentic AI (2026)
+  **ファイルパス**: `raw/papers/hci/decision-centric-energy-operations-integrating-edge-intelligence-operational-dig.md`
+* **タイトル**: AI-guided human-in-the-loop inverse design of high performance engineering structures (2026)
+  **ファイルパス**: `raw/papers/hci/ai-guided-human-in-the-loop-inverse-design-of-high-performance-engineering-struc.md`

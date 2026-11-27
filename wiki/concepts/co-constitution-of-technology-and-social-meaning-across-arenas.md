@@ -70,3 +70,8 @@ AI Nativeな社会設計にとって重要なのは、次の点である。
   `raw/papers/sociology/layered-intelligence-theory-in-the-logic-of-reality-a-process-logical-case-for-d.md`
 - Artificial Intelligence and the Dynamics of Social Relationships in Modern Society: A Sociological Perspective — Deepa SV (2026)
   `raw/papers/sociology/artificial-intelligence-and-the-dynamics-of-social-relationships-in-modern-socie.md`
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: From motorized projectors to generative AI: cultural conflicts over labor automation in Hollywood (2026)
+  **ファイルパス**: `raw/papers/history_of_technology/from-motorized-projectors-to-generative-ai-cultural-conflicts-over-labor-automat.md`

@@ -51,3 +51,8 @@ AIを搭載した意思決定支援システムはこれらの課題を解決し
 
 * **タイトル**: Graduated Autonomy for Artificial Intelligence Agents in Human Capital Management: A Systematic Review and a Consequence-Calibrated Governance Framework (2026)
   **ファイルパス**: `raw/papers/ai_governance/graduated-autonomy-for-artificial-intelligence-agents-in-human-capital-managemen.md`
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: From Executor to Partner: A Regulated Learning Framework for Human–Generative AI Collaboration in Systematic Reviews (2026)
+  **ファイルパス**: `raw/papers/human_ai_collaboration/from-executor-to-partner-a-regulated-learning-framework-for-humangenerative-ai-c.md`

@@ -109,3 +109,8 @@ Enríquezは、自動化とAIがタスクを再配分し責任ある判断の価
   **ファイルパス**: `raw/papers/cognitive_science/resource-adaptive-theory-of-mind-reasoning-integrating-dual-process-mechanisms-a.md`
 * **タイトル**: Metacognitive Prompt Engineering: A Human Centered Framework for Monitoring, Regulating, and Evaluating Cognition in Human–AI Interaction (2026)
   **ファイルパス**: `raw/papers/cognitive_science/metacognitive-prompt-engineering-a-human-centered-framework-for-monitoring-regul.md`
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: Metacognitive disengagement and knowledge innovation quality in human–AI collaboration: the mediating role of cognitive offloading and the moderating roles of task complexity and AI literacy (2026)
+  **ファイルパス**: `raw/papers/human_ai_collaboration/metacognitive-disengagement-and-knowledge-innovation-quality-in-humanai-collabor.md`

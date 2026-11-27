@@ -75,3 +75,8 @@ AI Nativeな社会設計にとって、この原理が重要な理由は次の�
 6. Muhammad Ali, Muhammad Khizar Saleem, Azra Soomro, Ali Ghulam (2026). "China's AI Strategy and Its Implications for Global Governance". File: `raw/papers/corporate_governance/chinas-ai-strategy-and-its-implications-for-global-governance.md`
 7. Irina Ibragimova (2026). "Health Governance Review Volume 31, Issue 3: Evidence synthesis for health governance". File: `raw/papers/corporate_governance/health-governance-review-volume-31-issue-3-evidence-synthesis-for-health-governa.md`
 8. Charles Igoinfama, Simeon G. Nenbee, Waribugo Sylva, Thomas Chinye Okoisama (2026). "Board Diversity and Organisational Resilience of Oil and Gas Servicing Companies in Nigeria: A Theoretical Perspective". File: `raw/papers/corporate_governance/board-diversity-and-organisational-resilience-of-oil-and-gas-servicing-companies.md`
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: Navigating Renewable Energy Tensions Through Agentic Human–AI Collaboration (2026)
+  **ファイルパス**: `raw/papers/human_ai_collaboration/navigating-renewable-energy-tensions-through-agentic-humanai-collaboration.md`

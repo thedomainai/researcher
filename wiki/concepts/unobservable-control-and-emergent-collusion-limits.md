@@ -79,3 +79,8 @@ Edet(2026)は、AIが分析・統合・生成・推奨を担うほど、人間�
    File: raw/papers/complexity_science/ai-washing-as-a-knowledge-governance-failure-in-organizations.md
 5. The Human Intelligence Imperative: Human Cognitive Agency in the Age of Artificial Intelligence — Life Edet, 2026
    File: raw/papers/complexity_science/the-human-intelligence-imperative-human-cognitive-agency-in-the-age-of-artificia.md
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: Emergent Collusion in Long-Horizon LLM Agent Interaction (2026)
+  **ファイルパス**: `raw/papers/human_ai_collaboration/emergent-collusion-in-long-horizon-llm-agent-interaction.md`

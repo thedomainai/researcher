@@ -39,3 +39,8 @@ Alexander Hars（2000年）の研究では、科学分野における知識イ�
 
 *   Alexander Hars (2000). "Web Based Knowledge Infrastructures for the Sciences: An Adaptive Document." *Communications of the Association for Information Systems* (CAIS), Vol. 4, Article 1.
     *   raw/ファイルパス: `raw/W83525556.json` （OpenAlex ID: W83525556）
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: AI-Driven Research Data Management (2026)
+  **ファイルパス**: `raw/papers/human_resource_management/ai-driven-research-data-management.md`

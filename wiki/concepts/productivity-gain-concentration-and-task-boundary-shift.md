@@ -65,3 +65,8 @@
    File: raw/papers/economics/reconstructing-comparative-advantage-in-international-trade-in-services-in-the-e.md
 5. Chen, H., Tang, Z. (2026). *A Review of the Impact of Artificial Intelligence on the Labour Market*.
    File: raw/papers/economics/a-review-of-the-impact-of-artificial-intelligence-on-the-labour-market.md
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: Who Controls the Gains from Workplace AI? Time, Targets and Pay (2026)
+  **ファイルパス**: `raw/papers/human_ai_collaboration/who-controls-the-gains-from-workplace-ai-time-targets-and-pay.md`

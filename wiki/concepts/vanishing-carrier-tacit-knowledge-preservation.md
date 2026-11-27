@@ -74,3 +74,8 @@ Project LINGXIの枠組みは、この問題に対して多層的な対応を提
 - 著者: Jiatong Liu, Shuoyang Zheng
 - 年: 2026
 - ファイル: raw/papers/neuroscience/exploring-ai-audio-models-in-soundwalking-with-broader-audiences.md
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: Omanization Long-Term Sustainability: Building Internal Technical Experts (2026)
+  **ファイルパス**: `raw/papers/human_resource_management/omanization-long-term-sustainability-building-internal-technical-experts.md`

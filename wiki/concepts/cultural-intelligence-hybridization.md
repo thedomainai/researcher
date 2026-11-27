@@ -64,3 +64,8 @@ cognitive_load_theoryとの関連では、文化的情報処理の認知負荷�
 - "Rethinking hybridity: From hybrid systems to assemblages" - Griessl, L., Bareither, C., & Vepřek, L. H. (2026)
 - "EXPANDEDINTELLIGENCE- A Research Programme on Human-AIRelations, Civilisational Change" - Xausa Bosak, B. (2026)
 - "Anthropological Phase Shifts and the Evolution of Human Intelligence" - Matta, D. (2026)
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: Cultural Intelligence and Employee Performance in Chinese Multinationals: The Mediating Roles of Psychological Safety and Knowledge Sharing (2026)
+  **ファイルパス**: `raw/papers/human_resource_management/cultural-intelligence-and-employee-performance-in-chinese-multinationals-the-med.md`

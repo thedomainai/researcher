@@ -61,3 +61,10 @@ CaaSプラットフォームの普及に伴い、サービス提供者（労働�
 *   **タイトル**: Leidensdruck, Affordance Ambiguity, And Power Shifts In Companionship-As-A-Service Platforms (2026)
 *   **著者**: Eduard Buzila, Raffaele Ciriello
 *   **ファイルパス**: `raw/Leidensdruck, Affordance Ambiguity, And Power Shifts In Companionship-As-A-Service Platforms`
+
+## 追加ソース（2026-11-28）
+
+* **タイトル**: When Machines Become Friends: Evaluating the Impact of AI Companions on Human Well-being in the Digital Age (2026)
+  **ファイルパス**: `raw/papers/hci/when-machines-become-friends-evaluating-the-impact-of-ai-companions-on-human-wel.md`
+* **タイトル**: Why the User Rages: A User-Centered Study on Conversational AI Models' Defensive Communication Behaviors and Their Effects (2026)
+  **ファイルパス**: `raw/papers/hci/why-the-user-rages-a-user-centered-study-on-conversational-ai-models-defensive-c.md`

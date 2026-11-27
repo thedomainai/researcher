@@ -1163,6 +1163,12 @@
   "title_en": "AI Literacy in Healthcare",
   "why": "医療AIを導入する組織は透明性確保・ガバナンス構築・継続的学習という役割分担を制度化する必要がある。"
  },
+ "ai-mediated-coordination-trust-tradeoff": {
+  "at": "2026-11-27T23:36:33+00:00",
+  "summary": "AIによるタスクレビューや非同期調整の支援は分散チームの効率を高める一方、人間同士の直接接触を減らし心理的安全性や批判的議論の質を損なう構造的トレードオフを生む。",
+  "title_en": "AI-Mediated Coordination Trust Tradeoff",
+  "why": "効率性指標だけで評価するとチームの信頼基盤を損なうリスクを見落とす恐れがある。"
+ },
  "ai-medical-image-diagnosis": {
   "at": "2026-10-01T09:40:26+00:00",
   "summary": "深層学習を用いたAIはMRI画像から脳腫瘍などの異常組織を高速かつ安定した精度で検出し、医師の診断を補助する役割を担う。",
@@ -1588,6 +1594,12 @@
   "summary": "AIエージェントの信頼はアクセス認可と行為認可を分離し、改ざん耐性ある実行前アーティファクトで第三者が事後に判断を再構成できることに依存する。",
   "title_en": "Authorization Artifacts and Independent Reconstructability",
   "why": "規制業務にエージェントを導入する組織は、接続の正しさだけでなく各出力のポリシー適合を独立検証可能な形で記録する必要がある。"
+ },
+ "authorship-legitimation-deficit": {
+  "at": "2026-11-27T23:36:33+00:00",
+  "summary": "生成AI協働では、宣言された著作者性と実際の経験・貢献の根拠が食い違うと正当性の欠損が生じ、これは人間同士の委譲的制作にも共通する構造的問題だ。",
+  "title_en": "Authorship Legitimation Deficit",
+  "why": "AI協働での役割や責任の表示は、実際の貢献根拠と整合させて設計する必要がある。"
  },
  "automation-augmentation-paradox": {
   "at": "2026-10-01T09:42:06+00:00",
@@ -3028,6 +3040,12 @@
   "summary": "デジタル・ソーシャル・リーディングは、プラットフォーム上で読者が協働的に解釈を共有し、読書を個人的行為から共同体的実践へと変える新しい文学受容形態である。",
   "title_en": "Digital Social Reading",
   "why": ""
+ },
+ "digital-subjectivation-and-counter-conduct": {
+  "at": "2026-11-27T23:36:33+00:00",
+  "summary": "デジタル秩序は主体を計算可能・統制可能な存在へと規格化するが、その権力関係自体が内在的に不安定なため、主体は常に拒絶・抵抗・再解釈という対抗的振る舞いの余地を保持する。",
+  "title_en": "Digital Subjectivation and Counter-Conduct",
+  "why": "AIシステムによる行動統制の設計は完全な順守を前提にできず、逸脱や再解釈を想定した設計が必要になる。"
  },
  "digital-sustainability-and-green-innovation": {
   "at": "2026-10-01T09:49:54+00:00",
@@ -7990,6 +8008,12 @@
   "summary": "統合失調症や自閉スペクトラム症など異なる精神疾患に共通する予測符号化の異常を横断的に検討し、診断を超えた治療標的を探る枠組みである。",
   "title_en": "Transdiagnostic Neuropsychiatry via Predictive Coding",
   "why": ""
+ },
+ "transitional-inequality-entrenchment": {
+  "at": "2026-11-27T23:36:33+00:00",
+  "summary": "経済発展に伴う過渡的な格差は本来構造転換の推進力だが、制度的障壁やトンネル効果、エリートによる政治捕獲が重なると恒久的な不平等へ固定化する。",
+  "title_en": "Transitional Inequality Entrenchment",
+  "why": "AI導入初期の能力・アクセスの不均等を放置すると、恒久的な格差や権力集中を招く恐れがある。"
  },
  "transnational-solution": {
   "at": "2026-10-01T10:07:46+00:00",

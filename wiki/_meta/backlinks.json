@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-27T06:44:43.036028",
+  "generated_at": "2026-11-28T08:36:05.731488",
   "summary": {
-    "articles_scanned": 1382,
-    "nodes": 3652,
-    "resolved_nodes": 1382,
+    "articles_scanned": 1386,
+    "nodes": 3656,
+    "resolved_nodes": 1386,
     "unresolved_nodes": 2270,
-    "edges": 6796,
-    "resolved_edges": 3836,
+    "edges": 6812,
+    "resolved_edges": 3852,
     "unresolved_edges": 2960,
-    "link_mentions": 7107,
-    "valid_source_refs": 2360,
+    "link_mentions": 7123,
+    "valid_source_refs": 2396,
     "invalid_source_refs": 117,
     "isolated_concepts": 107
   },
@@ -1949,6 +1949,22 @@
               "label": "access-driven-cumulative-concentration",
               "section": "関連概念",
               "line": 25,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "transitional-inequality-entrenchment",
+          "label": "過渡的不均等の構造的固定化",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/transitional-inequality-entrenchment.md",
+          "mentions": [
+            {
+              "raw_target": "access-driven-cumulative-concentration",
+              "label": "access-driven-cumulative-concentration",
+              "section": "関連概念",
+              "line": 29,
               "resolved_via": "slug"
             }
           ]
@@ -13247,7 +13263,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/ai-anthropomorphism-and-identity.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "authorship-legitimation-deficit",
+          "label": "著作者性正当化の欠損",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/authorship-legitimation-deficit.md",
+          "mentions": [
+            {
+              "raw_target": "ai-anthropomorphism-and-identity",
+              "label": "ai-anthropomorphism-and-identity",
+              "section": "関連概念",
+              "line": 35,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": [
         {
           "id": "dangling:3d69b9950526",
@@ -14727,7 +14760,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/ai-augmented-leadership.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "ai-mediated-coordination-trust-tradeoff",
+          "label": "AI媒介による協調効率と人間的信頼の構造的トレードオフ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/ai-mediated-coordination-trust-tradeoff.md",
+          "mentions": [
+            {
+              "raw_target": "ai-augmented-leadership",
+              "label": "ai-augmented-leadership",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": [
         {
           "id": "dangling:cc0bbf839519",
@@ -31117,6 +31167,173 @@
         }
       ]
     },
+    "ai-mediated-coordination-trust-tradeoff": {
+      "id": "ai-mediated-coordination-trust-tradeoff",
+      "slug": "ai-mediated-coordination-trust-tradeoff",
+      "label": "AI媒介による協調効率と人間的信頼の構造的トレードオフ",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/ai-mediated-coordination-trust-tradeoff.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "ai-augmented-leadership",
+          "label": "AI拡張リーダーシップ",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/ai-augmented-leadership.md",
+          "raw_targets": [
+            "ai-augmented-leadership"
+          ],
+          "display_labels": [
+            "ai-augmented-leadership"
+          ],
+          "mentions": [
+            {
+              "raw_target": "ai-augmented-leadership",
+              "label": "ai-augmented-leadership",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "ai-augmented-leadership"
+          ]
+        },
+        {
+          "id": "global-virtual-teams",
+          "label": "グローバル・バーチャル・チーム",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/global-virtual-teams.md",
+          "raw_targets": [
+            "global-virtual-teams"
+          ],
+          "display_labels": [
+            "global-virtual-teams"
+          ],
+          "mentions": [
+            {
+              "raw_target": "global-virtual-teams",
+              "label": "global-virtual-teams",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "global-virtual-teams"
+          ]
+        },
+        {
+          "id": "human-ai-collaboration",
+          "label": "人間とAIの協働",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/human-ai-collaboration.md",
+          "raw_targets": [
+            "human-ai-collaboration"
+          ],
+          "display_labels": [
+            "human-ai-collaboration"
+          ],
+          "mentions": [
+            {
+              "raw_target": "human-ai-collaboration",
+              "label": "human-ai-collaboration",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "human-ai-collaboration"
+          ]
+        },
+        {
+          "id": "psychological-safety-and-novelty-fear-adoption-friction",
+          "label": "新奇性由来の恐れと心理的安全性による導入摩擦",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/psychological-safety-and-novelty-fear-adoption-friction.md",
+          "raw_targets": [
+            "psychological-safety-and-novelty-fear-adoption-friction"
+          ],
+          "display_labels": [
+            "psychological-safety-and-novelty-fear-adoption-friction"
+          ],
+          "mentions": [
+            {
+              "raw_target": "psychological-safety-and-novelty-fear-adoption-friction",
+              "label": "psychological-safety-and-novelty-fear-adoption-friction",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "psychological-safety-and-novelty-fear-adoption-friction"
+          ]
+        },
+        {
+          "id": "complementarity-and-task-allocation-determine-collaboration-outcomes",
+          "label": "能力補完・タスク配分・組織支援による協働成果の決定",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/complementarity-and-task-allocation-determine-collaboration-outcomes.md",
+          "raw_targets": [
+            "complementarity-and-task-allocation-determine-collaboration-outcomes"
+          ],
+          "display_labels": [
+            "complementarity-and-task-allocation-determine-collaboration-outcomes"
+          ],
+          "mentions": [
+            {
+              "raw_target": "complementarity-and-task-allocation-determine-collaboration-outcomes",
+              "label": "complementarity-and-task-allocation-determine-collaboration-outcomes",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "complementarity-and-task-allocation-determine-collaboration-outcomes"
+          ]
+        },
+        {
+          "id": "trust-in-automation",
+          "label": "自動化への信頼",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/trust-in-automation.md",
+          "raw_targets": [
+            "trust-in-automation"
+          ],
+          "display_labels": [
+            "trust-in-automation"
+          ],
+          "mentions": [
+            {
+              "raw_target": "trust-in-automation",
+              "label": "trust-in-automation",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "trust-in-automation"
+          ]
+        }
+      ]
+    },
     "ai-medical-image-diagnosis": {
       "id": "ai-medical-image-diagnosis",
       "slug": "ai-medical-image-diagnosis",
@@ -41967,6 +42184,147 @@
           "ambiguous": false,
           "candidates": [
             "multi-layer-independent-control-and-institutional-durability"
+          ]
+        }
+      ]
+    },
+    "authorship-legitimation-deficit": {
+      "id": "authorship-legitimation-deficit",
+      "slug": "authorship-legitimation-deficit",
+      "label": "著作者性正当化の欠損",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/authorship-legitimation-deficit.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "ai-anthropomorphism-and-identity",
+          "label": "AI擬人化とユーザーアイデンティティ",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/ai-anthropomorphism-and-identity.md",
+          "raw_targets": [
+            "ai-anthropomorphism-and-identity"
+          ],
+          "display_labels": [
+            "ai-anthropomorphism-and-identity"
+          ],
+          "mentions": [
+            {
+              "raw_target": "ai-anthropomorphism-and-identity",
+              "label": "ai-anthropomorphism-and-identity",
+              "section": "関連概念",
+              "line": 35,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "ai-anthropomorphism-and-identity"
+          ]
+        },
+        {
+          "id": "human-ai-co-creative-judgment",
+          "label": "人間とAIの共同創造における意思決定フレームワーク",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/human-ai-co-creative-judgment.md",
+          "raw_targets": [
+            "human-ai-co-creative-judgment"
+          ],
+          "display_labels": [
+            "human-ai-co-creative-judgment"
+          ],
+          "mentions": [
+            {
+              "raw_target": "human-ai-co-creative-judgment",
+              "label": "human-ai-co-creative-judgment",
+              "section": "関連概念",
+              "line": 35,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "human-ai-co-creative-judgment"
+          ]
+        },
+        {
+          "id": "functional-attribution-of-intent-to-accountable-principals",
+          "label": "機能的意図帰属と責任主体への遡及構造",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/functional-attribution-of-intent-to-accountable-principals.md",
+          "raw_targets": [
+            "functional-attribution-of-intent-to-accountable-principals"
+          ],
+          "display_labels": [
+            "functional-attribution-of-intent-to-accountable-principals"
+          ],
+          "mentions": [
+            {
+              "raw_target": "functional-attribution-of-intent-to-accountable-principals",
+              "label": "functional-attribution-of-intent-to-accountable-principals",
+              "section": "関連概念",
+              "line": 35,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "functional-attribution-of-intent-to-accountable-principals"
+          ]
+        },
+        {
+          "id": "generative-ai-intellectual-property",
+          "label": "生成AIと知的財産権",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/generative-ai-intellectual-property.md",
+          "raw_targets": [
+            "generative-ai-intellectual-property"
+          ],
+          "display_labels": [
+            "generative-ai-intellectual-property"
+          ],
+          "mentions": [
+            {
+              "raw_target": "generative-ai-intellectual-property",
+              "label": "generative-ai-intellectual-property",
+              "section": "関連概念",
+              "line": 35,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "generative-ai-intellectual-property"
+          ]
+        },
+        {
+          "id": "epistemic-responsibility-and-authorship-anchoring",
+          "label": "認識論的責任・著者性の人間への固定",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/epistemic-responsibility-and-authorship-anchoring.md",
+          "raw_targets": [
+            "epistemic-responsibility-and-authorship-anchoring"
+          ],
+          "display_labels": [
+            "epistemic-responsibility-and-authorship-anchoring"
+          ],
+          "mentions": [
+            {
+              "raw_target": "epistemic-responsibility-and-authorship-anchoring",
+              "label": "epistemic-responsibility-and-authorship-anchoring",
+              "section": "関連概念",
+              "line": 35,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "epistemic-responsibility-and-authorship-anchoring"
           ]
         }
       ]
@@ -65734,6 +66092,22 @@
       "kind": "concept",
       "file": "concepts/complementarity-and-task-allocation-determine-collaboration-outcomes.md",
       "inbound": [
+        {
+          "id": "ai-mediated-coordination-trust-tradeoff",
+          "label": "AI媒介による協調効率と人間的信頼の構造的トレードオフ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/ai-mediated-coordination-trust-tradeoff.md",
+          "mentions": [
+            {
+              "raw_target": "complementarity-and-task-allocation-determine-collaboration-outcomes",
+              "label": "complementarity-and-task-allocation-determine-collaboration-outcomes",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ]
+        },
         {
           "id": "basic-psychological-needs-and-extrinsic-reward-crowding-out",
           "label": "基本的心理欲求の充足と外的報酬による内発的動機の侵食",
@@ -161974,6 +162348,22 @@
       "file": "concepts/democracy-and-wealth-inequality.md",
       "inbound": [
         {
+          "id": "transitional-inequality-entrenchment",
+          "label": "過渡的不均等の構造的固定化",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/transitional-inequality-entrenchment.md",
+          "mentions": [
+            {
+              "raw_target": "democracy-and-wealth-inequality",
+              "label": "democracy-and-wealth-inequality",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
           "id": "adaptive-capacity-inequality-and-effective-rights-liquidity",
           "label": "適応能力の不平等と権利の実効化能力",
           "resolved": true,
@@ -165322,6 +165712,16 @@
           "candidates": []
         }
       ]
+    },
+    "digital-subjectivation-and-counter-conduct": {
+      "id": "digital-subjectivation-and-counter-conduct",
+      "slug": "digital-subjectivation-and-counter-conduct",
+      "label": "デジタル主体化と対抗的振る舞い",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/digital-subjectivation-and-counter-conduct.md",
+      "inbound": [],
+      "outbound": []
     },
     "digital-sustainability-and-green-innovation": {
       "id": "digital-sustainability-and-green-innovation",
@@ -179413,6 +179813,22 @@
               "label": "epistemic-responsibility-and-authorship-anchoring",
               "section": "AI Nativeな設計への示唆",
               "line": 43,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "authorship-legitimation-deficit",
+          "label": "著作者性正当化の欠損",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/authorship-legitimation-deficit.md",
+          "mentions": [
+            {
+              "raw_target": "epistemic-responsibility-and-authorship-anchoring",
+              "label": "epistemic-responsibility-and-authorship-anchoring",
+              "section": "関連概念",
+              "line": 35,
               "resolved_via": "slug"
             }
           ]
@@ -195137,6 +195553,22 @@
               "resolved_via": "slug"
             }
           ]
+        },
+        {
+          "id": "authorship-legitimation-deficit",
+          "label": "著作者性正当化の欠損",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/authorship-legitimation-deficit.md",
+          "mentions": [
+            {
+              "raw_target": "functional-attribution-of-intent-to-accountable-principals",
+              "label": "functional-attribution-of-intent-to-accountable-principals",
+              "section": "関連概念",
+              "line": 35,
+              "resolved_via": "slug"
+            }
+          ]
         }
       ],
       "outbound": [
@@ -198914,7 +199346,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/generative-ai-intellectual-property.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "authorship-legitimation-deficit",
+          "label": "著作者性正当化の欠損",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/authorship-legitimation-deficit.md",
+          "mentions": [
+            {
+              "raw_target": "generative-ai-intellectual-property",
+              "label": "generative-ai-intellectual-property",
+              "section": "関連概念",
+              "line": 35,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": []
     },
     "generative-ai-limitations-in-software-engineering": {
@@ -201192,7 +201641,24 @@
       "resolved": true,
       "kind": "concept",
       "file": "concepts/global-virtual-teams.md",
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "ai-mediated-coordination-trust-tradeoff",
+          "label": "AI媒介による協調効率と人間的信頼の構造的トレードオフ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/ai-mediated-coordination-trust-tradeoff.md",
+          "mentions": [
+            {
+              "raw_target": "global-virtual-teams",
+              "label": "global-virtual-teams",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ]
+        }
+      ],
       "outbound": [
         {
           "id": "dangling:d60b97c40c83",
@@ -207668,6 +208134,22 @@
               "resolved_via": "slug"
             }
           ]
+        },
+        {
+          "id": "authorship-legitimation-deficit",
+          "label": "著作者性正当化の欠損",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/authorship-legitimation-deficit.md",
+          "mentions": [
+            {
+              "raw_target": "human-ai-co-creative-judgment",
+              "label": "human-ai-co-creative-judgment",
+              "section": "関連概念",
+              "line": 35,
+              "resolved_via": "slug"
+            }
+          ]
         }
       ],
       "outbound": [
@@ -208286,6 +208768,22 @@
               "label": "人間-AI協働（Human-AI Collaboration）",
               "section": "関連概念",
               "line": 47,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "ai-mediated-coordination-trust-tradeoff",
+          "label": "AI媒介による協調効率と人間的信頼の構造的トレードオフ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/ai-mediated-coordination-trust-tradeoff.md",
+          "mentions": [
+            {
+              "raw_target": "human-ai-collaboration",
+              "label": "human-ai-collaboration",
+              "section": "関連概念",
+              "line": 29,
               "resolved_via": "slug"
             }
           ]
@@ -222659,6 +223157,22 @@
               "label": "institutional-capture-via-normative-framework-manipulation",
               "section": "関連概念",
               "line": 27,
+              "resolved_via": "slug"
+            }
+          ]
+        },
+        {
+          "id": "transitional-inequality-entrenchment",
+          "label": "過渡的不均等の構造的固定化",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/transitional-inequality-entrenchment.md",
+          "mentions": [
+            {
+              "raw_target": "institutional-capture-via-normative-framework-manipulation",
+              "label": "institutional-capture-via-normative-framework-manipulation",
+              "section": "関連概念",
+              "line": 29,
               "resolved_via": "slug"
             }
           ]
@@ -248212,6 +248726,22 @@
               "resolved_via": "slug"
             }
           ]
+        },
+        {
+          "id": "transitional-inequality-entrenchment",
+          "label": "過渡的不均等の構造的固定化",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/transitional-inequality-entrenchment.md",
+          "mentions": [
+            {
+              "raw_target": "multilayer-capital-inequality-in-technology-diffusion",
+              "label": "multilayer-capital-inequality-in-technology-diffusion",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ]
         }
       ],
       "outbound": [
@@ -260975,6 +261505,22 @@
               "resolved_via": "slug"
             }
           ]
+        },
+        {
+          "id": "transitional-inequality-entrenchment",
+          "label": "過渡的不均等の構造的固定化",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/transitional-inequality-entrenchment.md",
+          "mentions": [
+            {
+              "raw_target": "path-dependence-increasing-returns",
+              "label": "path-dependence-increasing-returns",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ]
         }
       ],
       "outbound": []
@@ -270930,6 +271476,22 @@
       "kind": "concept",
       "file": "concepts/psychological-safety-and-novelty-fear-adoption-friction.md",
       "inbound": [
+        {
+          "id": "ai-mediated-coordination-trust-tradeoff",
+          "label": "AI媒介による協調効率と人間的信頼の構造的トレードオフ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/ai-mediated-coordination-trust-tradeoff.md",
+          "mentions": [
+            {
+              "raw_target": "psychological-safety-and-novelty-fear-adoption-friction",
+              "label": "psychological-safety-and-novelty-fear-adoption-friction",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ]
+        },
         {
           "id": "basic-psychological-needs-and-extrinsic-reward-crowding-out",
           "label": "基本的心理欲求の充足と外的報酬による内発的動機の侵食",
@@ -314372,6 +314934,147 @@
       "inbound": [],
       "outbound": []
     },
+    "transitional-inequality-entrenchment": {
+      "id": "transitional-inequality-entrenchment",
+      "slug": "transitional-inequality-entrenchment",
+      "label": "過渡的不均等の構造的固定化",
+      "resolved": true,
+      "kind": "concept",
+      "file": "concepts/transitional-inequality-entrenchment.md",
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "access-driven-cumulative-concentration",
+          "label": "アクセス格差による累積的集中と排除",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/access-driven-cumulative-concentration.md",
+          "raw_targets": [
+            "access-driven-cumulative-concentration"
+          ],
+          "display_labels": [
+            "access-driven-cumulative-concentration"
+          ],
+          "mentions": [
+            {
+              "raw_target": "access-driven-cumulative-concentration",
+              "label": "access-driven-cumulative-concentration",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "access-driven-cumulative-concentration"
+          ]
+        },
+        {
+          "id": "multilayer-capital-inequality-in-technology-diffusion",
+          "label": "技術普及における多層的資本不均等",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/multilayer-capital-inequality-in-technology-diffusion.md",
+          "raw_targets": [
+            "multilayer-capital-inequality-in-technology-diffusion"
+          ],
+          "display_labels": [
+            "multilayer-capital-inequality-in-technology-diffusion"
+          ],
+          "mentions": [
+            {
+              "raw_target": "multilayer-capital-inequality-in-technology-diffusion",
+              "label": "multilayer-capital-inequality-in-technology-diffusion",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "multilayer-capital-inequality-in-technology-diffusion"
+          ]
+        },
+        {
+          "id": "democracy-and-wealth-inequality",
+          "label": "民主主義における富の不平等と政治的摩擦",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/democracy-and-wealth-inequality.md",
+          "raw_targets": [
+            "democracy-and-wealth-inequality"
+          ],
+          "display_labels": [
+            "democracy-and-wealth-inequality"
+          ],
+          "mentions": [
+            {
+              "raw_target": "democracy-and-wealth-inequality",
+              "label": "democracy-and-wealth-inequality",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "democracy-and-wealth-inequality"
+          ]
+        },
+        {
+          "id": "path-dependence-increasing-returns",
+          "label": "経路依存性と収穫逓増",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/path-dependence-increasing-returns.md",
+          "raw_targets": [
+            "path-dependence-increasing-returns"
+          ],
+          "display_labels": [
+            "path-dependence-increasing-returns"
+          ],
+          "mentions": [
+            {
+              "raw_target": "path-dependence-increasing-returns",
+              "label": "path-dependence-increasing-returns",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "path-dependence-increasing-returns"
+          ]
+        },
+        {
+          "id": "institutional-capture-via-normative-framework-manipulation",
+          "label": "規範的枠組み操作による制度捕獲",
+          "resolved": true,
+          "weight": 1,
+          "target_file": "concepts/institutional-capture-via-normative-framework-manipulation.md",
+          "raw_targets": [
+            "institutional-capture-via-normative-framework-manipulation"
+          ],
+          "display_labels": [
+            "institutional-capture-via-normative-framework-manipulation"
+          ],
+          "mentions": [
+            {
+              "raw_target": "institutional-capture-via-normative-framework-manipulation",
+              "label": "institutional-capture-via-normative-framework-manipulation",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ],
+          "ambiguous": false,
+          "candidates": [
+            "institutional-capture-via-normative-framework-manipulation"
+          ]
+        }
+      ]
+    },
     "transnational-solution": {
       "id": "transnational-solution",
       "slug": "transnational-solution",
@@ -317171,6 +317874,22 @@
       "kind": "concept",
       "file": "concepts/trust-in-automation.md",
       "inbound": [
+        {
+          "id": "ai-mediated-coordination-trust-tradeoff",
+          "label": "AI媒介による協調効率と人間的信頼の構造的トレードオフ",
+          "resolved": true,
+          "weight": 1,
+          "source_file": "concepts/ai-mediated-coordination-trust-tradeoff.md",
+          "mentions": [
+            {
+              "raw_target": "trust-in-automation",
+              "label": "trust-in-automation",
+              "section": "関連概念",
+              "line": 29,
+              "resolved_via": "slug"
+            }
+          ]
+        },
         {
           "id": "source-cue-motivation-interaction-in-credibility-judgment",
           "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
@@ -325640,6 +326359,22 @@
             "resolved_via": "slug"
           }
         ]
+      },
+      {
+        "id": "transitional-inequality-entrenchment",
+        "label": "過渡的不均等の構造的固定化",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/transitional-inequality-entrenchment.md",
+        "mentions": [
+          {
+            "raw_target": "access-driven-cumulative-concentration",
+            "label": "access-driven-cumulative-concentration",
+            "section": "関連概念",
+            "line": 29,
+            "resolved_via": "slug"
+          }
+        ]
       }
     ],
     "accountability-integration-tradeoff-and-institutional-compromise": [
@@ -329868,7 +330603,24 @@
       }
     ],
     "ai-anthropomorphism-advice-taking": [],
-    "ai-anthropomorphism-and-identity": [],
+    "ai-anthropomorphism-and-identity": [
+      {
+        "id": "authorship-legitimation-deficit",
+        "label": "著作者性正当化の欠損",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/authorship-legitimation-deficit.md",
+        "mentions": [
+          {
+            "raw_target": "ai-anthropomorphism-and-identity",
+            "label": "ai-anthropomorphism-and-identity",
+            "section": "関連概念",
+            "line": 35,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "ai-anthropomorphism-journey": [
       {
         "id": "trust-formation-via-institutional-bridging-of-asymmetry",
@@ -330296,7 +331048,24 @@
         ]
       }
     ],
-    "ai-augmented-leadership": [],
+    "ai-augmented-leadership": [
+      {
+        "id": "ai-mediated-coordination-trust-tradeoff",
+        "label": "AI媒介による協調効率と人間的信頼の構造的トレードオフ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/ai-mediated-coordination-trust-tradeoff.md",
+        "mentions": [
+          {
+            "raw_target": "ai-augmented-leadership",
+            "label": "ai-augmented-leadership",
+            "section": "関連概念",
+            "line": 29,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "ai-augmented-orchestration": [
       {
         "id": "human-continuity-and-orchestration-role",
@@ -335873,6 +336642,7 @@
     ],
     "ai-literacy-and-orientation": [],
     "ai-literacy-in-healthcare": [],
+    "ai-mediated-coordination-trust-tradeoff": [],
     "ai-medical-image-diagnosis": [],
     "ai-mental-health-emotional-support": [
       {
@@ -339325,6 +340095,7 @@
         ]
       }
     ],
+    "authorship-legitimation-deficit": [],
     "automation-augmentation-paradox": [
       {
         "id": "task-codifiability-determines-automation-outcomes",
@@ -347171,6 +347942,22 @@
     ],
     "competitive-forces-and-strategy": [],
     "complementarity-and-task-allocation-determine-collaboration-outcomes": [
+      {
+        "id": "ai-mediated-coordination-trust-tradeoff",
+        "label": "AI媒介による協調効率と人間的信頼の構造的トレードオフ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/ai-mediated-coordination-trust-tradeoff.md",
+        "mentions": [
+          {
+            "raw_target": "complementarity-and-task-allocation-determine-collaboration-outcomes",
+            "label": "complementarity-and-task-allocation-determine-collaboration-outcomes",
+            "section": "関連概念",
+            "line": 29,
+            "resolved_via": "slug"
+          }
+        ]
+      },
       {
         "id": "basic-psychological-needs-and-extrinsic-reward-crowding-out",
         "label": "基本的心理欲求の充足と外的報酬による内発的動機の侵食",
@@ -406263,6 +407050,22 @@
     "dementia-and-alzheimers-biomarkers": [],
     "democracy-and-wealth-inequality": [
       {
+        "id": "transitional-inequality-entrenchment",
+        "label": "過渡的不均等の構造的固定化",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/transitional-inequality-entrenchment.md",
+        "mentions": [
+          {
+            "raw_target": "democracy-and-wealth-inequality",
+            "label": "democracy-and-wealth-inequality",
+            "section": "関連概念",
+            "line": 29,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
         "id": "adaptive-capacity-inequality-and-effective-rights-liquidity",
         "label": "適応能力の不平等と権利の実効化能力",
         "resolved": true,
@@ -406894,6 +407697,7 @@
       }
     ],
     "digital-social-reading": [],
+    "digital-subjectivation-and-counter-conduct": [],
     "digital-sustainability-and-green-innovation": [],
     "digital-sustainability-coordination": [],
     "digital-transformation": [
@@ -410621,6 +411425,22 @@
             "label": "epistemic-responsibility-and-authorship-anchoring",
             "section": "AI Nativeな設計への示唆",
             "line": 43,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "authorship-legitimation-deficit",
+        "label": "著作者性正当化の欠損",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/authorship-legitimation-deficit.md",
+        "mentions": [
+          {
+            "raw_target": "epistemic-responsibility-and-authorship-anchoring",
+            "label": "epistemic-responsibility-and-authorship-anchoring",
+            "section": "関連概念",
+            "line": 35,
             "resolved_via": "slug"
           }
         ]
@@ -415480,6 +416300,22 @@
             "resolved_via": "slug"
           }
         ]
+      },
+      {
+        "id": "authorship-legitimation-deficit",
+        "label": "著作者性正当化の欠損",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/authorship-legitimation-deficit.md",
+        "mentions": [
+          {
+            "raw_target": "functional-attribution-of-intent-to-accountable-principals",
+            "label": "functional-attribution-of-intent-to-accountable-principals",
+            "section": "関連概念",
+            "line": 35,
+            "resolved_via": "slug"
+          }
+        ]
       }
     ],
     "fungal-taxonomy-and-morphological-databases": [],
@@ -415878,7 +416714,24 @@
     "generative-ai-in-curriculum-design": [],
     "generative-ai-in-education": [],
     "generative-ai-in-medical-communication-training": [],
-    "generative-ai-intellectual-property": [],
+    "generative-ai-intellectual-property": [
+      {
+        "id": "authorship-legitimation-deficit",
+        "label": "著作者性正当化の欠損",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/authorship-legitimation-deficit.md",
+        "mentions": [
+          {
+            "raw_target": "generative-ai-intellectual-property",
+            "label": "generative-ai-intellectual-property",
+            "section": "関連概念",
+            "line": 35,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "generative-ai-limitations-in-software-engineering": [
       {
         "id": "decentralized-equilibrium-learning",
@@ -416243,7 +417096,24 @@
         ]
       }
     ],
-    "global-virtual-teams": [],
+    "global-virtual-teams": [
+      {
+        "id": "ai-mediated-coordination-trust-tradeoff",
+        "label": "AI媒介による協調効率と人間的信頼の構造的トレードオフ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/ai-mediated-coordination-trust-tradeoff.md",
+        "mentions": [
+          {
+            "raw_target": "global-virtual-teams",
+            "label": "global-virtual-teams",
+            "section": "関連概念",
+            "line": 29,
+            "resolved_via": "slug"
+          }
+        ]
+      }
+    ],
     "global_urban_agenda": [],
     "governance-cost-dominated-intelligence-roi": [
       {
@@ -417658,6 +418528,22 @@
             "resolved_via": "slug"
           }
         ]
+      },
+      {
+        "id": "authorship-legitimation-deficit",
+        "label": "著作者性正当化の欠損",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/authorship-legitimation-deficit.md",
+        "mentions": [
+          {
+            "raw_target": "human-ai-co-creative-judgment",
+            "label": "human-ai-co-creative-judgment",
+            "section": "関連概念",
+            "line": 35,
+            "resolved_via": "slug"
+          }
+        ]
       }
     ],
     "human-ai-coevolution": [],
@@ -417933,6 +418819,22 @@
             "label": "人間-AI協働（Human-AI Collaboration）",
             "section": "関連概念",
             "line": 47,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "ai-mediated-coordination-trust-tradeoff",
+        "label": "AI媒介による協調効率と人間的信頼の構造的トレードオフ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/ai-mediated-coordination-trust-tradeoff.md",
+        "mentions": [
+          {
+            "raw_target": "human-ai-collaboration",
+            "label": "human-ai-collaboration",
+            "section": "関連概念",
+            "line": 29,
             "resolved_via": "slug"
           }
         ]
@@ -422619,6 +423521,22 @@
             "label": "institutional-capture-via-normative-framework-manipulation",
             "section": "関連概念",
             "line": 27,
+            "resolved_via": "slug"
+          }
+        ]
+      },
+      {
+        "id": "transitional-inequality-entrenchment",
+        "label": "過渡的不均等の構造的固定化",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/transitional-inequality-entrenchment.md",
+        "mentions": [
+          {
+            "raw_target": "institutional-capture-via-normative-framework-manipulation",
+            "label": "institutional-capture-via-normative-framework-manipulation",
+            "section": "関連概念",
+            "line": 29,
             "resolved_via": "slug"
           }
         ]
@@ -428108,6 +429026,22 @@
             "resolved_via": "slug"
           }
         ]
+      },
+      {
+        "id": "transitional-inequality-entrenchment",
+        "label": "過渡的不均等の構造的固定化",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/transitional-inequality-entrenchment.md",
+        "mentions": [
+          {
+            "raw_target": "multilayer-capital-inequality-in-technology-diffusion",
+            "label": "multilayer-capital-inequality-in-technology-diffusion",
+            "section": "関連概念",
+            "line": 29,
+            "resolved_via": "slug"
+          }
+        ]
       }
     ],
     "multilayer-interaction-determines-adoption-outcomes": [
@@ -430416,6 +431350,22 @@
             "resolved_via": "slug"
           }
         ]
+      },
+      {
+        "id": "transitional-inequality-entrenchment",
+        "label": "過渡的不均等の構造的固定化",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/transitional-inequality-entrenchment.md",
+        "mentions": [
+          {
+            "raw_target": "path-dependence-increasing-returns",
+            "label": "path-dependence-increasing-returns",
+            "section": "関連概念",
+            "line": 29,
+            "resolved_via": "slug"
+          }
+        ]
       }
     ],
     "path-dependent-ai-evolution": [],
@@ -432360,6 +433310,22 @@
       }
     ],
     "psychological-safety-and-novelty-fear-adoption-friction": [
+      {
+        "id": "ai-mediated-coordination-trust-tradeoff",
+        "label": "AI媒介による協調効率と人間的信頼の構造的トレードオフ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/ai-mediated-coordination-trust-tradeoff.md",
+        "mentions": [
+          {
+            "raw_target": "psychological-safety-and-novelty-fear-adoption-friction",
+            "label": "psychological-safety-and-novelty-fear-adoption-friction",
+            "section": "関連概念",
+            "line": 29,
+            "resolved_via": "slug"
+          }
+        ]
+      },
       {
         "id": "basic-psychological-needs-and-extrinsic-reward-crowding-out",
         "label": "基本的心理欲求の充足と外的報酬による内発的動機の侵食",
@@ -440229,6 +441195,7 @@
     ],
     "transactional-distance-in-online-learning": [],
     "transdiagnostic-neuropsychiatry": [],
+    "transitional-inequality-entrenchment": [],
     "transnational-solution": [],
     "transparency-monitoring-trust-erosion-cycle": [
       {
@@ -441066,6 +442033,22 @@
       }
     ],
     "trust-in-automation": [
+      {
+        "id": "ai-mediated-coordination-trust-tradeoff",
+        "label": "AI媒介による協調効率と人間的信頼の構造的トレードオフ",
+        "resolved": true,
+        "weight": 1,
+        "source_file": "concepts/ai-mediated-coordination-trust-tradeoff.md",
+        "mentions": [
+          {
+            "raw_target": "trust-in-automation",
+            "label": "trust-in-automation",
+            "section": "関連概念",
+            "line": 29,
+            "resolved_via": "slug"
+          }
+        ]
+      },
       {
         "id": "source-cue-motivation-interaction-in-credibility-judgment",
         "label": "情報源ラベルと分析的動機づけの相互作用による信頼判定",
