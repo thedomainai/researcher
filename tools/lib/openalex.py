@@ -1,5 +1,6 @@
 """OpenAlex API client for paper fetching."""
 
+import os
 from datetime import datetime
 from typing import Dict, List, Optional
 
@@ -24,6 +25,8 @@ class OpenAlexClient:
         # type: (RateLimiter, str) -> None
         self.rl = rate_limiter
         self.mailto = mailto
+        # キー無しは 1 日約 100 検索で、深探索の起点探しだけで尽きる。あれば必ず付ける。
+        self.api_key = os.environ.get("OPENALEX_API_KEY", "")
 
     def _request(self, url, params=None):
         # type: (str, Optional[Dict]) -> Optional[Dict]
@@ -32,6 +35,8 @@ class OpenAlexClient:
         if params is None:
             params = {}
         params["mailto"] = self.mailto
+        if self.api_key:
+            params["api_key"] = self.api_key
         try:
             r = httpx.get(url, params=params, timeout=30)
             if r.status_code == 200:
@@ -43,16 +48,21 @@ class OpenAlexClient:
             print("      OpenAlex error: %s" % e)
             return None
 
-    def search(self, query, since=None, per_page=5, sort="relevance_score:desc"):
-        # type: (str, Optional[str], int, str) -> List[Dict]
+    def search(self, query, since=None, per_page=5, sort="relevance_score:desc", extra_filter=""):
+        # type: (str, Optional[str], int, str, str) -> List[Dict]
         """Search for papers by keyword."""
         params = {
             "search": query,
             "per_page": per_page,
             "sort": sort,
         }  # type: Dict
+        filters = []
         if since:
-            params["filter"] = "from_publication_date:%s" % since
+            filters.append("from_publication_date:%s" % since)
+        if extra_filter:
+            filters.append(extra_filter)
+        if filters:
+            params["filter"] = ",".join(filters)
         data = self._request(OA_BASE + "/works", params)
         if data:
             return data.get("results", [])
@@ -79,8 +89,8 @@ class OpenAlexClient:
             url = "%s/works/%s" % (OA_BASE, work_id)
         return self._request(url)
 
-    def get_cited_by(self, work_id, min_citations=0, per_page=25):
-        # type: (str, int, int) -> List[Dict]
+    def get_cited_by(self, work_id, min_citations=0, per_page=25, extra_filter=""):
+        # type: (str, int, int, str) -> List[Dict]
         """Get papers that cite the given work, sorted by citation count."""
         oa_id = normalize_openalex_id(work_id)
         if not oa_id:
@@ -93,6 +103,8 @@ class OpenAlexClient:
         }  # type: Dict
         if min_citations > 0:
             params["filter"] += ",cited_by_count:>%d" % min_citations
+        if extra_filter:
+            params["filter"] += "," + extra_filter
 
         data = self._request(OA_BASE + "/works", params)
         if data:

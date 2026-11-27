@@ -70,6 +70,8 @@ FAILED_QUERIES = {}
 # 設計: 各分野のキーワードは「AI×その分野」の交差点を狙う。
 # OpenAlexではキーワード自体が検索クエリになるので、
 # キーワードにAI/技術の文脈を含めることでノイズを防ぐ。
+PHYSICS_OA_FILTER = "primary_location.source.type:journal,type:article|review"
+
 DOMAINS = {
     "neuroscience": {
         "label": "脳科学",
@@ -418,6 +420,155 @@ DOMAINS = {
         ],
     },
 
+    # ===== 物理学 =====
+    # 分野の定義(範囲・境界)は config/sources.yaml の research_domains と physics_scope が正本。
+    # ここだけは「AI×その分野」の交差点を狙わない。物理そのものの研究成果・総説を取る。
+    # OpenAlex の新着には Zenodo 等への自己投稿(査読なしの自称理論)が多く混ざるので、
+    # openalex_filter で学術誌の論文・総説に限る。プレプリントは arxiv_queries の経路で取る。
+    "quantum_mechanics": {
+        "openalex_filter": PHYSICS_OA_FILTER,
+        "label": "量子力学・量子情報",
+        "search_queries": [
+            "quantum foundations measurement problem",
+            "quantum entanglement Bell nonlocality experiment",
+            "quantum decoherence quantum-to-classical transition",
+            "quantum information theory review",
+            "quantum thermodynamics review",
+            "quantum error correction fault tolerance",
+        ],
+        "arxiv_queries": [
+            ("quant-ph", "review"),
+            ("quant-ph", "foundations"),
+        ],
+    },
+    "relativity": {
+        "openalex_filter": PHYSICS_OA_FILTER,
+        "label": "相対性理論・重力",
+        "search_queries": [
+            "tests of general relativity",
+            "gravitational waves observation black hole merger",
+            "black hole thermodynamics",
+            "modified gravity constraints",
+            "spacetime causal structure singularity",
+        ],
+        "arxiv_queries": [
+            ("gr-qc", "review"),
+            ("gr-qc", "gravitational waves"),
+        ],
+    },
+    "cosmology_astrophysics": {
+        "openalex_filter": PHYSICS_OA_FILTER,
+        "label": "宇宙論・宇宙物理",
+        "search_queries": [
+            "cosmic microwave background cosmological parameters",
+            "dark matter review",
+            "dark energy observational constraints",
+            "inflation early universe",
+            "Hubble tension",
+            "large-scale structure galaxy survey cosmology",
+        ],
+        "arxiv_queries": [
+            ("astro-ph.CO", "review"),
+            ("astro-ph.CO", "cosmological constraints"),
+        ],
+    },
+    "particle_physics_qft": {
+        "openalex_filter": PHYSICS_OA_FILTER,
+        "label": "素粒子・場の量子論",
+        "search_queries": [
+            "Standard Model precision tests",
+            "Higgs boson measurements",
+            "neutrino oscillation mass",
+            "quantum field theory review",
+            "physics beyond the Standard Model searches",
+            "quantum chromodynamics review",
+        ],
+        "arxiv_queries": [
+            ("hep-ph", "review"),
+            ("hep-ex", "measurement"),
+        ],
+    },
+    "string_theory": {
+        "openalex_filter": PHYSICS_OA_FILTER,
+        "label": "超ひも理論・量子重力",
+        "search_queries": [
+            "string theory",
+            "AdS/CFT holographic duality",
+            "quantum gravity review",
+            "swampland string landscape",
+            "black hole information paradox",
+            "holographic entanglement entropy",
+        ],
+        "arxiv_queries": [
+            ("hep-th", "string theory"),
+            ("hep-th", "holography"),
+        ],
+    },
+    "statistical_physics": {
+        "openalex_filter": PHYSICS_OA_FILTER,
+        "label": "統計力学・熱力学",
+        "search_queries": [
+            "nonequilibrium statistical mechanics",
+            "stochastic thermodynamics fluctuation theorem",
+            "thermodynamics of information Landauer",
+            "phase transitions critical phenomena",
+            "entropy production irreversibility",
+            "thermodynamic uncertainty relation",
+        ],
+        "arxiv_queries": [
+            ("cond-mat.stat-mech", "review"),
+            ("cond-mat.stat-mech", "entropy production"),
+        ],
+    },
+    "condensed_matter": {
+        "openalex_filter": PHYSICS_OA_FILTER,
+        "label": "物性物理",
+        "search_queries": [
+            "superconductivity mechanism",
+            "topological phases of matter",
+            "strongly correlated electrons",
+            "quantum many-body physics review",
+            "quantum phase transition",
+            "emergent phenomena quantum materials",
+        ],
+        "arxiv_queries": [
+            ("cond-mat.str-el", "review"),
+            ("cond-mat.supr-con", "review"),
+        ],
+    },
+    "mathematical_physics": {
+        "openalex_filter": PHYSICS_OA_FILTER,
+        "label": "数理物理学",
+        "search_queries": [
+            "mathematical physics rigorous proof",
+            "renormalization group",
+            "integrable systems exact solution",
+            "topological quantum field theory",
+            "conformal field theory",
+            "random matrix theory universality",
+        ],
+        "arxiv_queries": [
+            ("math-ph", "review"),
+            ("math-ph", "rigorous"),
+        ],
+    },
+    "computational_physics": {
+        "openalex_filter": PHYSICS_OA_FILTER,
+        "label": "計算物理学",
+        "search_queries": [
+            "quantum Monte Carlo method",
+            "tensor network algorithm quantum many-body",
+            "neural network quantum states",
+            "sign problem Monte Carlo",
+            "quantum simulation algorithm Hamiltonian",
+            "density functional theory exchange-correlation functional",
+        ],
+        "arxiv_queries": [
+            ("physics.comp-ph", "algorithm"),
+            ("physics.comp-ph", "Monte Carlo"),
+        ],
+    },
+
 }
 
 
@@ -534,6 +685,9 @@ def fetch_openalex(domain, config, since, existing_hashes, dry_run=False):
     results = []
     queries = config.get("search_queries", [])
 
+    # 分野ごとの追加フィルタ(任意)。物理では査読のない自己投稿を外すために使う。
+    extra_filter = config.get("openalex_filter", "")
+
     for query in queries:
         RUN_STATS["openalex_queries"] += 1
         # 前回失敗したクエリは、その時点の開始日から取り直す。
@@ -541,7 +695,8 @@ def fetch_openalex(domain, config, since, existing_hashes, dry_run=False):
         try:
             params = {
                 "search": query,
-                "filter": f"from_publication_date:{query_since}",
+                "filter": f"from_publication_date:{query_since}"
+                          + (("," + extra_filter) if extra_filter else ""),
                 "sort": "relevance_score:desc",
                 "per_page": 3,
                 "mailto": OA_MAILTO,

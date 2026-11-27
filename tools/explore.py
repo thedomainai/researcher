@@ -103,16 +103,55 @@ def resolve_seeds_from_ids(oa, seed_str):
     return seeds
 
 
+def field_filter(field_ids):
+    # type: (List[int]) -> str
+    """OpenAlex の分野(field)で絞るフィルタ文字列。指定が無ければ空。"""
+    if not field_ids:
+        return ""
+    return "primary_topic.field.id:" + "|".join(str(i) for i in field_ids)
+
+
+def field_ok(work, field_ids):
+    # type: (Dict, List[int]) -> bool
+    """work の第一分野が field_ids に入っているか。指定が無ければ常に真。"""
+    if not field_ids:
+        return True
+    fid = (((work.get("primary_topic") or {}).get("field") or {}).get("id") or "").rsplit("/", 1)[-1]
+    return fid in set(str(i) for i in field_ids)
+
+
 def resolve_seeds_from_queries(oa, domain_config):
     # type: (OpenAlexClient, Dict) -> List[Dict]
     """Search for seed papers using sources.yaml queries."""
+    # openalex_field_ids がある分野(物理)は、総説の起点を分野で絞る。被引用数順の検索は
+    # 分野外の高被引用論文を拾いやすい。名指しの古典(seminal)は絞らない。
+    #
+    # さらに、openalex_field_ids がある分野では並び順を関連度に変える。被引用数順は、クエリの語が
+    # 本文に少し出るだけの超高被引用論文(分野外のソフトウェア論文など)を先頭に出す。
+    # 関連度順に被引用数の下限を付けて、「主題に合い、かつよく引かれている」ものを起点にする。
+    field_ids = domain_config.get("openalex_field_ids") or []
+    sr_filter = field_filter(field_ids)
+    if field_ids:
+        floor = "cited_by_count:>%d" % int(domain_config.get("min_citations", 100))
+        seed_sort = "relevance_score:desc"
+        seminal_filter = floor
+        sr_filter = sr_filter + "," + floor
+        seminal_n = 3
+    else:
+        seed_sort = "cited_by_count:desc"
+        seminal_filter = ""
+        seminal_n = 3
     seeds = []
     seen_ids = set()  # type: Set[str]
     queries = domain_config.get("semantic_scholar_queries", {})
 
     # Seminal papers first (most important)
     for q in queries.get("seminal", []):
-        results = oa.search(q, per_page=3, sort="cited_by_count:desc")
+        results = oa.search(q, per_page=seminal_n, sort=seed_sort, extra_filter=seminal_filter)
+        if field_ids and results:
+            # 名指しの古典は、関連度の上位 3 件のうち最も引かれている 1 件を採る
+            # (関連度 1 位は、古典を論じた後年の論文になりやすい)。
+            results = [max(results, key=lambda w: w.get("cited_by_count", 0) or 0)]
         for work in results:
             oa_id = normalize_openalex_id(work.get("id", ""))
             if oa_id in seen_ids:
@@ -125,7 +164,7 @@ def resolve_seeds_from_queries(oa, domain_config):
 
     # Systematic reviews (high-quality evidence)
     for q in queries.get("systematic_reviews", []):
-        results = oa.search(q, per_page=2, sort="cited_by_count:desc")
+        results = oa.search(q, per_page=2, sort=seed_sort, extra_filter=sr_filter)
         for work in results:
             oa_id = normalize_openalex_id(work.get("id", ""))
             if oa_id in seen_ids:
@@ -143,8 +182,8 @@ def resolve_seeds_from_queries(oa, domain_config):
 # BFS引用展開
 # ============================================================
 def run_bfs_expansion(oa, store, seeds, domain, domain_label, min_cit,
-                      max_depth, limit, dry_run):
-    # type: (OpenAlexClient, PaperStore, List[Dict], str, str, int, int, int, bool) -> tuple
+                      max_depth, limit, dry_run, field_ids=None):
+    # type: (OpenAlexClient, PaperStore, List[Dict], str, str, int, int, int, bool, Optional[List[int]]) -> tuple
     """BFS citation expansion from seed papers.
 
     Returns (saved_papers, visited_ids, stats).
@@ -157,6 +196,7 @@ def run_bfs_expansion(oa, store, seeds, domain, domain_label, min_cit,
         "saved": 0,
         "skipped_dup": 0,
         "skipped_low_cit": 0,
+        "skipped_field": 0,
         "by_depth": {},
         "by_type": {},
     }  # type: Dict
@@ -191,6 +231,12 @@ def run_bfs_expansion(oa, store, seeds, domain, domain_label, min_cit,
 
         title = (work.get("title") or "").replace("\n", " ")
         citations = work.get("cited_by_count", 0) or 0
+
+        # 分野の絞り込み(起点は絞らない)。引用をたどると、化学・材料・生物など
+        # 分野外の高被引用論文へ流れるので、展開先だけ第一分野で止める。
+        if depth > 0 and not field_ok(work, field_ids or []):
+            stats["skipped_field"] += 1
+            continue
 
         # Citation threshold by depth
         if depth > 0:
@@ -229,7 +275,8 @@ def run_bfs_expansion(oa, store, seeds, domain, domain_label, min_cit,
             # Cited-by: papers citing this work (high-citation first)
             cited_by_threshold = int(min_cit * 0.3)
             cited_by_works = oa.get_cited_by(
-                work_id, min_citations=cited_by_threshold, per_page=20)
+                work_id, min_citations=cited_by_threshold, per_page=20,
+                extra_filter=field_filter(field_ids or []))
             for cb_work in cited_by_works:
                 cb_id = normalize_openalex_id(cb_work.get("id", ""))
                 if cb_id and cb_id not in visited:
@@ -381,6 +428,9 @@ def run_explore(args):
 
     if args.seeds:
         seeds = resolve_seeds_from_ids(oa, args.seeds)
+    elif domain_config.get("seed_openalex_ids"):
+        # 起点が設定に確定済みの分野は、検索し直さずにその ID から始める(結果が再現する)。
+        seeds = resolve_seeds_from_ids(oa, ",".join(domain_config["seed_openalex_ids"]))
     else:
         seeds = resolve_seeds_from_queries(oa, domain_config)
 
@@ -394,6 +444,7 @@ def run_explore(args):
     saved, visited, stats = run_bfs_expansion(
         oa, store, seeds, domain, label, min_cit,
         args.depth, args.limit, args.dry_run,
+        field_ids=domain_config.get("openalex_field_ids") or [],
     )
 
     # Merge with previous state

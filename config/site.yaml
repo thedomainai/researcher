@@ -28,7 +28,7 @@ analytics:
   # Cloudflare Web Analytics のビーコントークン。空なら出さない。
   cloudflare_beacon_token: ""
 
-# 38 分野を 6 つの領域クラスターに束ねる。X アカウントもこの単位で持つ。
+# 44 分野を 6 つの領域クラスターに束ねる。X アカウントもこの単位で持つ。
 # domains の先頭ほど代表性が高い。記事の所属クラスターは、記事の第一分野が属するクラスター。
 clusters:
   - key: cognition
@@ -59,7 +59,7 @@ clusters:
     short: "複雑系"
     label: "複雑系・システム・進化"
     tagline: "人と AI の系はどんな創発を起こすか"
-    domains: [complexity_science, systems_engineering, evolutionary_biology]
+    domains: [complexity_science, systems_engineering, evolutionary_biology, quantum_mechanics, relativity, cosmology_astrophysics, particle_physics_qft, string_theory, statistical_physics, condensed_matter, mathematical_physics, computational_physics]
     x_handle: ""
   - key: ai
     short: "AI ガバナンス"

@@ -36,6 +36,7 @@ MODEL = "haiku"
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # tools/ を import パスに入れる
 from lib.claude_cli import AuthError, call_claude as _call_claude  # noqa: E402
+from lib.domains import physics_domains  # noqa: E402
 
 SYSTEM_PROMPT = (
     "あなたは研究論文の品質評価者です。与えられた論文を3つのテストで評価し、"
@@ -53,6 +54,36 @@ CRITERIA = """以下の各論文について、AI nativeな社会・組織・シ
 - Tier 1(不変原理): 3テスト全てを満たす
 - Tier 2(消滅制約の分析): テスト2で「消滅する制約」に依拠するが、その制約の構造的分析として価値がある
 - Tier 3(スキップ): 条件依存的な現象記述または手法レベルの最適化
+
+論文:
+{papers}
+
+各論文について次の JSON 配列だけを返してください(JSON 以外は出力しない):
+[{{"n": 1, "tier": 1, "reasoning": "判定理由", "key_insight": "核心的知見の1行要約"}}]"""
+
+
+# 物理の分野(config/sources.yaml で field: "physics")だけに使う基準。
+# 定義の正本は config/sources.yaml の tier_classification.physics。
+# 上の基準は観測結果や個別理論の進展を Tier 3 に落とすので、物理では研究結果そのものを Tier 2 に入れる。
+PHYSICS_CRITERIA = """以下の各論文は物理学の論文です。物理学の研究知識ベースに記事として残す価値を評価してください。
+AI や組織への応用に役立つかどうかでは判断しません。
+
+分類:
+- Tier 1(基礎法則・原理的な制約): 自然の基礎法則、または情報・計算・因果・エントロピーに関わる原理的な制約を、
+  仕組み(なぜそうなるか)とともに示している。基礎的な理論の結果、原理を直接確かめた実験・観測、分野全体を整理した総説が当たる
+- Tier 2(重要な研究結果): 分野の理解を前に進める観測・実験の結果、複数の実験・観測を合わせた統合解析、
+  個別理論の進展、特定の主題の総説
+- Tier 3(スキップ): 次のいずれか
+  - 装置・解析手法・数値計算の小さな改良で、物理の理解を変えないもの
+  - 材料・素子の性能向上や応用が主題のもの
+  - 特定の系の個別計算で、一般的な結論を持たないもの
+  - 物理学の論文ではないもの
+  - 主流の物理学と整合しない自称の新理論、検証の方法を示さない主張
+
+Tier 1 は絞る。教科書に載る水準の法則・原理そのものを示す結果、それを初めて、または決定的に確かめた結果、
+分野全体を整理した総説に限る。個別の模型の解析、個別の観測・実験の新しい測定値、既存の理論の検証の精度を上げた結果は、
+質が高くても Tier 2 にする。Tier 1 と Tier 2 で迷ったら Tier 2 にする。
+実験で検証されていない理論の候補(超ひも理論など)は、それだけを理由に Tier 3 にしない。
 
 論文:
 {papers}
@@ -131,8 +162,13 @@ def main():
     errors = 0
     done = 0
     consecutive_failures = 0
-    for i in range(0, len(needs), BATCH):
-        batch = [e for e in needs[i:i + BATCH]]
+    # 物理の分野は基準が違うので、バッチを分ける(1 回の呼び出しに 2 つの基準を混ぜない)。
+    physics = physics_domains()
+    groups = [(CRITERIA, [e for e in needs if e.get("domain") not in physics]),
+              (PHYSICS_CRITERIA, [e for e in needs if e.get("domain") in physics])]
+    batches = [(criteria, group[j:j + BATCH]) for criteria, group in groups for j in range(0, len(group), BATCH)]
+    for bi, (criteria, batch) in enumerate(batches):
+        i = bi * BATCH
         items = []
         for e in batch:
             ex = read_excerpt(e)
@@ -142,7 +178,7 @@ def main():
             continue
         papers = "\n\n".join("### [%d] %s\n%s" % (k, e["title"], ex[:1500]) for k, e, ex in listed)
         try:
-            text = call_claude(CRITERIA.format(papers=papers))
+            text = call_claude(criteria.format(papers=papers))
             results = parse_batch(text, len(items))
         except AuthError as e:
             print("認証エラー: %s\n`claude setup-token` でトークンを発行し直し、キーチェーンに入れてから再実行してください(手順は tools/lib/claude_cli.py)。" % str(e)[:200], flush=True)
@@ -173,7 +209,8 @@ def main():
                     break
             counts[res["tier"]] += 1
             done += 1
-            label = {1: "不変原理", 2: "設計原理", 3: "スキップ"}[res["tier"]]
+            label = ({1: "基礎法則", 2: "研究結果", 3: "スキップ"} if criteria is PHYSICS_CRITERIA
+                     else {1: "不変原理", 2: "設計原理", 3: "スキップ"})[res["tier"]]
             print("  [%d/%d] Tier %d (%s): %s" % (i + k, len(needs), res["tier"], label, e["title"][:60]), flush=True)
         _write_back(index)  # バッチごとに書き戻す(途中で止まっても成果が残る)
 

@@ -44,6 +44,15 @@ tier_classification:
       - "経験則的な数値（管理スパン等）のみを報告"
       - "再現困難な単一実験の結果報告"
 
+  # 物理の分野(research_domains で field: "physics" のもの)だけに使う基準(2026-11-26)。
+  # 上の基準は「AI 時代の設計に通じるか」で仕分けるため、物理の観測結果や個別理論の進展が
+  # Tier 3 に落ちる。物理では研究結果そのものも記事にするので、基準を分ける。
+  # 判定の指示文は tools/tier_classify_cli.py の PHYSICS_CRITERIA。
+  physics:
+    tier1: "基礎法則・原理的な制約。自然の基礎法則、または情報・計算・因果・エントロピーに関わる原理的な制約を、仕組みとともに示す。個別の模型の解析や個別の測定値は、質が高くても Tier 2"
+    tier2: "重要な研究結果。分野の理解を前に進める観測・実験の結果、統合解析、個別理論の進展、総説"
+    tier3: "スキップ。装置・解析手法・数値計算の小さな改良、材料や素子の性能向上、一般的な結論の無い個別計算、分野外、主流の物理と整合しない自称理論"
+
 # ---------------------------------------------------------------------------
 # 論文タイプフィルタ
 # ---------------------------------------------------------------------------
@@ -58,6 +67,36 @@ paper_type_filter:
     - "case_study_single"
     - "tool_benchmark"
     - "incremental_improvement"
+
+# ---------------------------------------------------------------------------
+# 物理の範囲(2026-11-26)
+# ---------------------------------------------------------------------------
+# 分母は PhySH(米国物理学会の分類)の 17 分野と arXiv の物理系カテゴリ。
+# 17 分野のそれぞれが、どの分野で受けるか、対象外かを physh_map に書く。
+physics_scope:
+  purpose: "物理そのものを理解することと、情報・計算・因果・エントロピーというAI 時代にも変わらない制約の根拠を物理から得ること(2026-11-26 仮置き)"
+  axis_rule: "分野は「対象」(何を調べるか)で切る。数理物理学と計算物理学だけは「方法」の分野で、特定の対象について物理的な結論を出す論文は対象の分野に置き、方法そのもの(定理・証明・アルゴリズム・計算量)が成果の論文だけを方法の分野に置く"
+  sources:
+    - "https://physh.org/browse (分野 17)"
+    - "https://arxiv.org/category_taxonomy"
+  physh_map:
+    - {discipline: "Quantum Information, Science & Technology", handled_by: "quantum_mechanics", note: ""}
+    - {discipline: "Gravitation, Cosmology & Astrophysics", handled_by: "relativity, cosmology_astrophysics", note: ""}
+    - {discipline: "Particles & Fields", handled_by: "particle_physics_qft, string_theory", note: ""}
+    - {discipline: "Statistical Physics & Thermodynamics", handled_by: "statistical_physics", note: ""}
+    - {discipline: "Condensed Matter, Materials & Applied Physics", handled_by: "condensed_matter", note: "材料開発・デバイス応用は対象外"}
+    - {discipline: "Nonlinear Dynamics", handled_by: "complexity_science", note: "既存の複雑系科学で受ける"}
+    - {discipline: "Networks", handled_by: "complexity_science", note: "既存の複雑系科学で受ける"}
+    - {discipline: "Interdisciplinary Physics", handled_by: "complexity_science", note: "既存の複雑系科学で受ける"}
+    - {discipline: "Atomic, Molecular & Optical", handled_by: "対象外", note: "量子論の基礎に関わる実験は quantum_mechanics で拾う"}
+    - {discipline: "Nuclear Physics", handled_by: "対象外", note: "基礎法則より個別の核種・反応の記述が中心"}
+    - {discipline: "Fluid Dynamics", handled_by: "対象外", note: "古典物理の応用が中心"}
+    - {discipline: "Plasma Physics", handled_by: "対象外", note: "古典物理の応用が中心"}
+    - {discipline: "Polymers & Soft Matter", handled_by: "対象外", note: "個別の物質系の記述が中心"}
+    - {discipline: "Physics of Living Systems", handled_by: "対象外", note: "生物側の既存分野に近い"}
+    - {discipline: "Accelerators & Beams", handled_by: "対象外", note: "装置の技術"}
+    - {discipline: "Energy Science & Technology", handled_by: "対象外", note: "応用技術"}
+    - {discipline: "Physics Education Research", handled_by: "対象外", note: "教育研究"}
 
 # ---------------------------------------------------------------------------
 # 分野別検索クエリ
@@ -124,6 +163,400 @@ research_domains:
         - "Kauffman origins of order"
     min_citations: 150
     priority: "critical"
+
+  # ===== 物理学 =====
+  # 範囲・軸・対象外の分野は、このファイルの physics_scope に書いてある。
+  # 各分野の scope_includes / scope_excludes / boundary_rule が分野の定義で、クエリはそこから引く。
+
+  quantum_mechanics:
+    label: "量子力学・量子情報"
+    field: "physics"
+    axis: "対象"
+    core_question: "極小の世界で、情報・測定・因果はどんな法則に従うか"
+    scope_includes:
+      - "量子論の基礎(測定・解釈・非局所性)"
+      - "量子もつれとデコヒーレンス"
+      - "量子情報・量子計算・量子誤り訂正"
+      - "量子熱力学"
+      - "開放量子系"
+    scope_excludes:
+      - "場の量子論は particle_physics_qft"
+      - "物質としての量子多体系は condensed_matter"
+      - "重力の量子化は string_theory"
+      - "量子化学などの計算手法は computational_physics"
+    boundary_rule: "量子ビット・測定・もつれなど量子論そのものが主題なら当分野。量子論を使って特定の物質・粒子を調べる論文は、その対象の分野に置く"
+    paper_types: ["総説", "統合解析(複数の実験・観測を合わせた解析)", "基礎的な理論の結果", "観測・実験の結果"]
+    arxiv_categories: ["quant-ph"]
+    physh_disciplines: ["Quantum Information, Science & Technology"]
+    openalex_field_ids: [31]  # 深探索で引用をたどる範囲(31 物理・天文, 26 数学)
+    # 深探索の起点(2026-11-26 に確定)。下のクエリを関連度順で引いた結果から分野外を除き、
+    # 古典論文は題名で引き直した。これがあれば explore はクエリではなくこの ID から始める。
+    seed_openalex_ids: [W2135830616, W2741582595, W2125303188, W2026796483, W2014306526, W2138203529, W3023478445, W3037737784, W2089895737, W3038010021, W1885112299, W2050035613, W2048737323, W4211058570, W2087826472, W2054112569, W2151773880, W3098165131, W3037464230, W1984021697, W4301287831, W2055993996, W2049471987]
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "quantum entanglement review"
+        - "decoherence quantum-to-classical transition review"
+        - "quantum measurement problem interpretations review"
+        - "Bell nonlocality review"
+        - "quantum information theory review"
+        - "quantum thermodynamics review"
+        - "quantum error correction review"
+      seminal:
+        - "Bell Einstein Podolsky Rosen paradox"
+        - "Einstein Podolsky Rosen quantum mechanical description physical reality complete"
+        - "Zurek decoherence einselection quantum origins of the classical"
+        - "Everett relative state formulation quantum mechanics"
+        - "Aspect experimental test Bell inequalities time-varying analyzers"
+        - "Wootters Zurek single quantum cannot be cloned"
+        - "Shor polynomial-time algorithms prime factorization quantum computer"
+    min_citations: 300
+    priority: "high"
+
+  relativity:
+    label: "相対性理論・重力"
+    field: "physics"
+    axis: "対象"
+    core_question: "時空・重力・因果の構造は、何を可能にし何を禁じるか"
+    scope_includes:
+      - "特殊相対性理論と一般相対性理論"
+      - "重力波"
+      - "ブラックホール(古典論と熱力学)"
+      - "一般相対性理論の検証"
+      - "修正重力理論"
+      - "時空の因果構造と特異点"
+    scope_excludes:
+      - "宇宙全体の進化と観測は cosmology_astrophysics"
+      - "重力の量子化・ホログラフィー・ブラックホールの情報問題は string_theory"
+    boundary_rule: "重力・時空の法則が主題なら当分野。宇宙の歴史や構成(暗黒物質・暗黒エネルギーの観測)が主題なら宇宙論・宇宙物理に置く"
+    paper_types: ["総説", "統合解析(複数の実験・観測を合わせた解析)", "基礎的な理論の結果", "観測・実験の結果"]
+    arxiv_categories: ["gr-qc"]
+    physh_disciplines: ["Gravitation, Cosmology & Astrophysics"]
+    openalex_field_ids: [31]  # 深探索で引用をたどる範囲(31 物理・天文, 26 数学)
+    # 深探索の起点(2026-11-26 に確定)。下のクエリを関連度順で引いた結果から分野外を除き、
+    # 古典論文は題名で引き直した。これがあれば explore はクエリではなくこの ID から始める。
+    seed_openalex_ids: [W2130491267, W2252795400, W2052723426, W2166436681, W4246028735, W3094118413, W2033083595, W2105316626, W2081528567, W2066208708, W2900909462, W2004188331, W2096804551, W2103931654, W4212778442, W1643885856, W2090386790, W2146478425, W2052045615]
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "confrontation between general relativity and experiment review"
+        - "gravitational waves detection review"
+        - "black hole thermodynamics review"
+        - "modified gravity review"
+        - "numerical relativity binary black hole review"
+        - "causal structure spacetime singularity theorems review"
+      seminal:
+        - "Hawking particle creation by black holes"
+        - "Bekenstein black holes and entropy"
+        - "Penrose gravitational collapse space-time singularities"
+        - "Abbott observation of gravitational waves binary black hole merger"
+        - "Jacobson thermodynamics of spacetime Einstein equation of state"
+        - "Will confrontation between general relativity and experiment"
+    min_citations: 300
+    priority: "high"
+
+  cosmology_astrophysics:
+    label: "宇宙論・宇宙物理"
+    field: "physics"
+    axis: "対象"
+    core_question: "宇宙は何からできていて、どう始まり、どう進化してきたか"
+    scope_includes:
+      - "宇宙の膨張・初期宇宙・インフレーション"
+      - "宇宙背景放射"
+      - "暗黒物質と暗黒エネルギー"
+      - "宇宙の大規模構造"
+      - "高エネルギー天体現象(中性子星・超新星)"
+      - "銀河と恒星の形成"
+    scope_excludes:
+      - "重力・時空の法則そのものは relativity"
+      - "惑星科学・太陽系は対象外"
+      - "観測装置の技術は対象外"
+    boundary_rule: "宇宙の歴史・構成・天体が主題なら当分野。同じ観測でも、重力理論の検証が主題なら相対性理論・重力に置く"
+    paper_types: ["総説", "統合解析(複数の実験・観測を合わせた解析)", "基礎的な理論の結果", "観測・実験の結果"]
+    arxiv_categories: ["astro-ph.CO", "astro-ph.HE", "astro-ph.GA"]
+    physh_disciplines: ["Gravitation, Cosmology & Astrophysics"]
+    openalex_field_ids: [31]  # 深探索で引用をたどる範囲(31 物理・天文, 26 数学)
+    # 深探索の起点(2026-11-26 に確定)。下のクエリを関連度順で引いた結果から分野外を除き、
+    # 古典論文は題名で引き直した。これがあれば explore はクエリではなくこの ID から始める。
+    seed_openalex_ids: [W4288079944, W2073832139, W2134251287, W2001369144, W2060003036, W2056173066, W2056278505, W2123864481, W2102639000, W2082637753, W2073603601, W2131279590, W3038026342, W3040162270, W3135850969, W4323046120, W2030392256, W2057015950, W2209563422, W3160228685, W1997756830]
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "cosmic microwave background review"
+        - "dark matter evidence candidates review"
+        - "dark energy cosmological constant review"
+        - "inflationary cosmology review"
+        - "Hubble tension review"
+        - "large-scale structure of the universe review"
+        - "neutron stars equation of state review"
+      seminal:
+        - "Planck 2018 results cosmological parameters"
+        - "Riess observational evidence supernovae accelerating universe cosmological constant"
+        - "Perlmutter measurements of omega and lambda from 42 high-redshift supernovae"
+        - "Guth inflationary universe possible solution horizon flatness problems"
+        - "Penzias Wilson measurement of excess antenna temperature"
+        - "Navarro Frenk White universal density profile hierarchical clustering"
+        - "Weinberg cosmological constant problem"
+    min_citations: 300
+    priority: "medium"
+
+  particle_physics_qft:
+    label: "素粒子・場の量子論"
+    field: "physics"
+    axis: "対象"
+    core_question: "物質と力の最小の構成要素は何で、どんな対称性に従うか"
+    scope_includes:
+      - "標準模型"
+      - "場の量子論(ゲージ理論・繰り込み)"
+      - "加速器実験の結果(ヒッグス粒子など)"
+      - "ニュートリノ"
+      - "標準模型を超える理論"
+      - "量子色力学と格子計算の物理結果"
+    scope_excludes:
+      - "弦理論・ホログラフィーは string_theory"
+      - "原子核は対象外"
+      - "場の理論の数学的な厳密化は mathematical_physics"
+      - "格子計算のアルゴリズムは computational_physics"
+    boundary_rule: "素粒子と、その記述に使う場の量子論が主題なら当分野。重力まで含めた統一理論の候補は超ひも理論・量子重力に置く"
+    paper_types: ["総説", "統合解析(複数の実験・観測を合わせた解析)", "基礎的な理論の結果", "観測・実験の結果"]
+    arxiv_categories: ["hep-ph", "hep-ex", "hep-lat", "hep-th"]
+    physh_disciplines: ["Particles & Fields"]
+    openalex_field_ids: [31]  # 深探索で引用をたどる範囲(31 物理・天文, 26 数学)
+    # 深探索の起点(2026-11-26 に確定)。下のクエリを関連度順で引いた結果から分野外を除き、
+    # 古典論文は題名で引き直した。これがあれば explore はクエリではなくこの ID から始める。
+    seed_openalex_ids: [W2070151728, W1996413343, W2125707848, W2045472496, W1858542512, W2899140785, W2170598467, W2107320399, W2036766184, W2055360787, W2045756911, W1987790882, W2124162503, W1969561958, W4312108281, W2056059849, W2893676010, W2137044010, W4401211033, W2169090745]
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "Standard Model precision tests review"
+        - "Higgs boson properties review"
+        - "neutrino oscillations mass review"
+        - "physics beyond the Standard Model review"
+        - "quantum chromodynamics review"
+        - "effective field theory review"
+        - "review of particle physics"
+      seminal:
+        - "Weinberg a model of leptons"
+        - "Higgs broken symmetries and the masses of gauge bosons"
+        - "'t Hooft Veltman regularization and renormalization of gauge fields"
+        - "Gross Wilczek ultraviolet behavior of non-abelian gauge theories"
+        - "ATLAS observation of a new particle search Standard Model Higgs boson"
+        - "Kobayashi Maskawa CP violation renormalizable theory of weak interaction"
+        - "Particle Data Group review of particle physics"
+    min_citations: 300
+    priority: "medium"
+
+  string_theory:
+    label: "超ひも理論・量子重力"
+    field: "physics"
+    axis: "対象"
+    core_question: "重力と量子論を統一する理論の候補は、何を予言し、どこまで検証できるか"
+    scope_includes:
+      - "超ひも理論・M 理論"
+      - "AdS/CFT 対応とホログラフィー原理"
+      - "ループ量子重力など他の量子重力の理論"
+      - "ブラックホールの情報問題とエントロピーの微視的な起源"
+      - "スワンプランド"
+    scope_excludes:
+      - "一般相対性理論の古典的な結果は relativity"
+      - "弦理論を使わない場の量子論は particle_physics_qft"
+      - "共形場理論などの数学的な構造は mathematical_physics"
+    boundary_rule: "重力の量子化、または弦理論が主題なら当分野。実験で検証されていない理論の候補を扱う分野である点を、記事でも明記する"
+    paper_types: ["総説", "基礎的な理論の結果"]
+    arxiv_categories: ["hep-th", "gr-qc"]
+    physh_disciplines: ["Particles & Fields", "Gravitation, Cosmology & Astrophysics"]
+    openalex_field_ids: [31]  # 深探索で引用をたどる範囲(31 物理・天文, 26 数学)
+    # 深探索の起点(2026-11-26 に確定)。下のクエリを関連度順で引いた結果から分野外を除き、
+    # 古典論文は題名で引き直した。これがあれば explore はクエリではなくこの ID から始める。
+    seed_openalex_ids: [W2166248051, W1889142700, W2084722249, W2130491267, W2102970467, W2141586044, W2158033100, W2150658758, W2138895846, W2117687584, W2950973027, W2107240173, W2039547309, W1965001977, W2975503246, W3133774117, W1981478452, W2921754837, W2765324624, W2135615569, W2119121379, W3101241494, W2143668844]
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "string theory review"
+        - "AdS/CFT correspondence review"
+        - "large N field theories string theory and gravity"
+        - "quantum gravity approaches review"
+        - "loop quantum gravity review"
+        - "swampland conjectures review"
+        - "black hole information paradox review"
+        - "holographic entanglement entropy review"
+      seminal:
+        - "Maldacena large N limit superconformal field theories supergravity"
+        - "Witten anti de Sitter space and holography"
+        - "Polchinski Dirichlet branes Ramond-Ramond charges"
+        - "Strominger Vafa microscopic origin Bekenstein-Hawking entropy"
+        - "Ryu Takayanagi holographic derivation entanglement entropy"
+        - "Susskind world as a hologram"
+        - "'t Hooft dimensional reduction in quantum gravity"
+    min_citations: 300
+    priority: "medium"
+
+  statistical_physics:
+    label: "統計力学・熱力学"
+    field: "physics"
+    axis: "対象"
+    core_question: "多数の要素の集まりは、なぜ不可逆に振る舞い、秩序の維持に何を払うか"
+    scope_includes:
+      - "熱力学の法則とエントロピー"
+      - "平衡・非平衡の統計力学"
+      - "相転移と臨界現象"
+      - "ゆらぎの定理と確率的熱力学"
+      - "情報熱力学(ランダウアーの原理・マクスウェルの悪魔)"
+    scope_excludes:
+      - "量子系の熱力学は quantum_mechanics"
+      - "特定の物質の相は condensed_matter"
+      - "社会・生態系への応用と自己組織化は complexity_science"
+      - "相転移の厳密解は mathematical_physics"
+    boundary_rule: "物質の種類によらない熱・統計の法則が主題なら当分野。特定の物質で起きる現象は物性物理に置く"
+    paper_types: ["総説", "統合解析(複数の実験・観測を合わせた解析)", "基礎的な理論の結果", "観測・実験の結果"]
+    arxiv_categories: ["cond-mat.stat-mech"]
+    physh_disciplines: ["Statistical Physics & Thermodynamics"]
+    openalex_field_ids: [31, 26]  # 深探索で引用をたどる範囲(31 物理・天文, 26 数学)
+    # 深探索の起点(2026-11-26 に確定)。下のクエリを関連度順で引いた結果から分野外を除き、
+    # 古典論文は題名で引き直した。これがあれば explore はクエリではなくこの ID から始める。
+    seed_openalex_ids: [W2019493938, W2021820673, W1999333609, W1972633005, W2102277728, W2030046989, W3098165131, W2734099036, W3037353872, W1972252033, W2071214852, W3104349330, W2056080528, W2587067606, W2142809461, W2902940391, W2094545983, W4231976181, W2752591129, W2149801992, W4233798822, W2032558547, W2149158279]
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "stochastic thermodynamics review"
+        - "fluctuation theorems review"
+        - "thermodynamics of information review"
+        - "nonequilibrium statistical mechanics review"
+        - "phase transitions critical phenomena review"
+        - "thermodynamic uncertainty relations review"
+        - "active matter statistical physics review"
+      seminal:
+        - "Jarzynski nonequilibrium equality for free energy differences"
+        - "Crooks entropy production fluctuation theorem nonequilibrium work relation"
+        - "Landauer irreversibility and heat generation in the computing process"
+        - "Jaynes information theory and statistical mechanics"
+        - "Seifert stochastic thermodynamics fluctuation theorems and molecular machines"
+        - "Kadanoff scaling laws for Ising models near Tc"
+        - "Bennett thermodynamics of computation a review"
+    min_citations: 300
+    priority: "high"
+
+  condensed_matter:
+    label: "物性物理"
+    field: "physics"
+    axis: "対象"
+    core_question: "多数の粒子が集まると、個々の粒子に無い性質がなぜ現れるか"
+    scope_includes:
+      - "超伝導"
+      - "磁性"
+      - "トポロジカル物質"
+      - "強相関電子系"
+      - "量子多体系"
+      - "冷却原子気体"
+    scope_excludes:
+      - "材料開発・デバイス応用は対象外"
+      - "高分子・ソフトマターは対象外"
+      - "物質によらない熱・統計の法則は statistical_physics"
+      - "量子計算の素子としての議論は quantum_mechanics"
+    boundary_rule: "特定の物質や物質群で現れる性質とその仕組みが主題なら当分野。性能向上や製造法が主題の論文は取らない"
+    paper_types: ["総説", "統合解析(複数の実験・観測を合わせた解析)", "基礎的な理論の結果", "観測・実験の結果"]
+    arxiv_categories: ["cond-mat.str-el", "cond-mat.supr-con", "cond-mat.mes-hall", "cond-mat.quant-gas"]
+    physh_disciplines: ["Condensed Matter, Materials & Applied Physics"]
+    openalex_field_ids: [31]  # 深探索で引用をたどる範囲(31 物理・天文, 26 数学)
+    # 深探索の起点(2026-11-26 に確定)。下のクエリを関連度順で引いた結果から分野外を除き、
+    # 古典論文は題名で引き直した。これがあれば explore はクエリではなくこの ID から始める。
+    seed_openalex_ids: [W3037850448, W1965850850, W4380625319, W2102074887, W2093699506, W2086860422, W3037497244, W2056744609, W2020332193, W2243981467, W1998363466, W2067360645, W2757497522, W2168516666, W2256298911, W2999151170, W2914454605, W2767545053, W2752346050, W3038223759, W2018259456, W2014437371, W2264002775, W1963826472, W2037807652]
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "unconventional superconductivity review"
+        - "topological insulators and superconductors review"
+        - "strongly correlated electron systems review"
+        - "quantum phase transitions review"
+        - "quantum spin liquids review"
+        - "many-body localization review"
+        - "ultracold atoms quantum simulation review"
+      seminal:
+        - "Anderson more is different"
+        - "Bardeen Cooper Schrieffer theory of superconductivity"
+        - "Anderson absence of diffusion in certain random lattices"
+        - "Laughlin anomalous quantum Hall effect incompressible quantum fluid"
+        - "Hasan Kane colloquium topological insulators"
+        - "Thouless Kohmoto quantized Hall conductance two-dimensional periodic potential"
+        - "Kosterlitz Thouless ordering metastability phase transitions two-dimensional systems"
+    min_citations: 300
+    priority: "medium"
+
+  mathematical_physics:
+    label: "数理物理学"
+    field: "physics"
+    axis: "方法"
+    core_question: "物理法則はどんな数学的構造を持ち、どこまで厳密に導けるか"
+    scope_includes:
+      - "物理理論の数学的に厳密な定式化と証明"
+      - "可積分系と厳密解"
+      - "ランダム行列理論"
+      - "位相的場の理論・共形場理論の数学的な構造"
+      - "繰り込み群の数学"
+      - "対称性と保存則"
+    scope_excludes:
+      - "物理的な結論が主題の論文は対象の分野"
+    boundary_rule: "定理・証明・数学的な構造が主な成果なら当分野。同じ手法でも、特定の物理系について物理的な結論を出す論文は対象の分野に置く"
+    paper_types: ["総説", "方法の基礎的な結果(定理・アルゴリズム・計算量)"]
+    arxiv_categories: ["math-ph", "nlin.SI"]
+    physh_disciplines: []
+    openalex_field_ids: [31, 26]  # 深探索で引用をたどる範囲(31 物理・天文, 26 数学)
+    # 深探索の起点(2026-11-26 に確定)。下のクエリを関連度順で引いた結果から分野外を除き、
+    # 古典論文は題名で引き直した。これがあれば explore はクエリではなくこの ID から始める。
+    seed_openalex_ids: [W2052810501, W1971017979, W2138044972, W2069840277, W2083523039, W1985459475, W2117687584, W2822188753, W602904462, W1963596092, W2070886143, W4403656619, W2161091926, W2150094752, W21223778, W1596635759, W1972633005, W2232347689, W2074670256, W2007185418, W2009930506, W2042690899]
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "renormalization group critical phenomena review"
+        - "integrable systems review"
+        - "random matrix theory review"
+        - "topological quantum field theory review"
+        - "conformal field theory review"
+        - "gauge theory geometry topology review"
+        - "rigorous statistical mechanics phase transitions review"
+      seminal:
+        - "Wilson renormalization group critical phenomena Kondo problem"
+        - "Yang Mills conservation of isotopic spin gauge invariance"
+        - "Onsager crystal statistics two-dimensional model order-disorder transition"
+        - "Witten quantum field theory and the Jones polynomial"
+        - "Belavin Polyakov Zamolodchikov infinite conformal symmetry two-dimensional quantum field theory"
+        - "Wigner unreasonable effectiveness of mathematics in the natural sciences"
+        - "Noether invariant variation problems"
+    min_citations: 300
+    priority: "medium"
+
+  computational_physics:
+    label: "計算物理学"
+    field: "physics"
+    axis: "方法"
+    core_question: "計算で自然をどこまで再現でき、計算量の限界はどこにあるか"
+    scope_includes:
+      - "シミュレーションの手法(モンテカルロ・分子動力学・密度汎関数・テンソルネットワーク)"
+      - "計算量の限界(符号問題など)"
+      - "機械学習による物理計算"
+      - "量子コンピュータによる物理のシミュレーション"
+    scope_excludes:
+      - "計算で得た物理の結果が主題の論文は対象の分野"
+      - "工学の数値解析(流体・材料設計)は対象外"
+    boundary_rule: "アルゴリズム・精度・計算量が主な成果なら当分野。計算は手段で、物理の結果が主題の論文は対象の分野に置く"
+    paper_types: ["総説", "方法の基礎的な結果(定理・アルゴリズム・計算量)"]
+    arxiv_categories: ["physics.comp-ph"]
+    physh_disciplines: []
+    openalex_field_ids: [31]  # 深探索で引用をたどる範囲(31 物理・天文, 26 数学)
+    # 深探索の起点(2026-11-26 に確定)。下のクエリを関連度順で引いた結果から分野外を除き、
+    # 古典論文は題名で引き直した。これがあれば explore はクエリではなくこの ID から始める。
+    seed_openalex_ids: [W4416990272, W2230728100, W2154815292, W2006569455, W2419175238, W2149739919, W2115658383, W2010492822, W2122816100, W1974755878, W566546129, W1982899292, W2151724421, W2017474131, W2056760934, W2037768897, W2046001409, W2179731956, W2172949211]
+    semantic_scholar_queries:
+      systematic_reviews:
+        - "quantum Monte Carlo methods review"
+        - "tensor network density matrix renormalization group review"
+        - "density functional theory exchange-correlation functionals review"
+        - "molecular dynamics simulation methods review"
+        - "lattice field theory algorithms review"
+        - "machine learning and the physical sciences review"
+        - "sign problem quantum Monte Carlo computational complexity"
+      seminal:
+        - "Metropolis equation of state calculations by fast computing machines"
+        - "Kohn Sham self-consistent equations exchange correlation effects"
+        - "White density matrix formulation for quantum renormalization groups"
+        - "Car Parrinello unified approach molecular dynamics density-functional theory"
+        - "Feynman simulating physics with computers"
+        - "Wilson confinement of quarks"
+        - "Carleo Troyer solving the quantum many-body problem with artificial neural networks"
+    min_citations: 300
+    priority: "medium"
 
   # ===== 人間科学 =====
 

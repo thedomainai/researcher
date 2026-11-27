@@ -44,6 +44,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # tools/
 from lib.claude_cli import AuthError, UsageTally, call_claude, strip_code_fence  # noqa: E402
 from lib.knowledge_graph import load_concept_graph_inputs, resolve_target  # noqa: E402
+from lib.domains import physics_domains  # noqa: E402
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw")
@@ -68,6 +69,9 @@ DOMAIN_LABELS = {
     "neuroscience": "脳科学", "operations_research": "オペレーションズ・リサーチ", "organization_science": "組織科学",
     "law": "法学", "philosophy": "哲学", "religious_studies": "宗教学", "economics": "経済学",
     "political_science": "政治学", "sociology": "社会学", "education": "教育学", "history": "歴史学",
+    "quantum_mechanics": "量子力学・量子情報", "relativity": "相対性理論・重力", "cosmology_astrophysics": "宇宙論・宇宙物理",
+    "particle_physics_qft": "素粒子・場の量子論", "string_theory": "超ひも理論・量子重力", "statistical_physics": "統計力学・熱力学",
+    "condensed_matter": "物性物理", "mathematical_physics": "数理物理学", "computational_physics": "計算物理学",
 }
 
 EXTRACT_SYSTEM = (
@@ -151,6 +155,71 @@ WRITE_PROMPT = """以下のソースに基づいて、「{title_ja} ({title_en})
   **ファイルパス**: `<File: の値>`)
 
 日本語で、技術的に正確だが読みやすく、1500〜2500 字程度で書いてください。"""
+
+
+# ------------------------------------------------------------
+# 物理の分野(config/sources.yaml で field: "physics")向けの指示文
+# ------------------------------------------------------------
+# 上の指示文は、どの概念も「AI Native な設計への示唆」に結び付ける。物理では研究結果そのものを
+# 記事にするので、その部分だけを差し替える。差し替える断片が上の指示文から消えたら、起動時に止まる。
+_PHYSICS_SWAPS = {
+    "extract_system": [(
+        "あなたはAI Nativeな社会・組織・システム設計の研究知識ベースを編集するナレッジエンジニアです。",
+        "あなたは物理学の研究知識ベースを編集するナレッジエンジニアです。",
+    )],
+    "extract_prompt": [(
+        '- 1 コンセプトは、対象(人間/AI/組織/技術)を入れ替えても成立する構造的原理・メカニズムを中心に立てる',
+        "- 1 コンセプトは、物理の法則・原理・現象、またはそれを確かめた観測・実験の結果を中心に立てる。"
+        "AI や組織への応用に引き寄せない",
+    ), (
+        '  例: "情報の非対称性", "有限合理性", "予測誤差による学習", "フィードバックループ", "経路依存性"',
+        '  例: "対称性の自発的な破れ", "繰り込み", "量子もつれ", "ゆらぎと散逸", "ホログラフィー"',
+    )],
+    "write_system": [(
+        'あなたはAI Nativeな社会・組織・システム設計を扱う研究 wiki のテクニカルライターです。',
+        "あなたは物理学を扱う研究 wiki のテクニカルライターです。物理を専門としない読者が読めるように、"
+        "数式に頼らず、専門用語は初出で 1 文の説明を添えます。",
+    ), (
+        '- ソースに無い主張・数値・著者名を作らない。ソースが述べていないことは書かない',
+        '- ソースに無い主張・数値・著者名を作らない。ソースが述べていないことは書かない' + "\n"
+        "- 実験・観測で確かめられたことと、理論の候補・未検証の仮説を、文の上で区別して書く",
+    )],
+    "write_prompt": [(
+        '(冒頭に 2〜4 文で、この概念が何か・なぜ AI Native な設計に重要かを述べる)',
+        "(冒頭に 2〜4 文で、この概念が何か・物理学でなぜ重要かを述べる)",
+    ), (
+        '## AI Native な設計への示唆\n(具体的な設計原理・指針として 3〜5 点)',
+        "## 意義と未解決の問い\n(この結果が何を確かめ、何がまだ分かっていないかを 3〜5 点。"
+        "情報・計算・因果・エントロピーの制約に関わる場合は、その関わりを 1 点として述べる)",
+    )],
+}
+
+
+def _swap(text, pairs):
+    for old, new in pairs:
+        if old not in text:
+            raise RuntimeError("物理向けの指示文の差し替え元が見つかりません: %s" % old[:40])
+        text = text.replace(old, new)
+    return text
+
+
+# EXTRACT_PROMPT / WRITE_PROMPT は str.format に通すので、差し替え後の文に波括弧は使わない。
+PHYSICS_PROMPTS = None
+
+
+def prompts_for(domain):
+    """(extract_system, extract_prompt, write_system, write_prompt) を分野に応じて返す。"""
+    global PHYSICS_PROMPTS
+    if domain not in physics_domains():
+        return EXTRACT_SYSTEM, EXTRACT_PROMPT, WRITE_SYSTEM, WRITE_PROMPT
+    if PHYSICS_PROMPTS is None:
+        PHYSICS_PROMPTS = (
+            _swap(EXTRACT_SYSTEM, _PHYSICS_SWAPS["extract_system"]),
+            _swap(EXTRACT_PROMPT, _PHYSICS_SWAPS["extract_prompt"]),
+            _swap(WRITE_SYSTEM, _PHYSICS_SWAPS["write_system"]),
+            _swap(WRITE_PROMPT, _PHYSICS_SWAPS["write_prompt"]),
+        )
+    return PHYSICS_PROMPTS
 
 
 # ============================================================
@@ -312,13 +381,14 @@ def parse_concepts(text, n_sources, known_slugs):
 
 
 def extract_concepts(items, domain, slugs, model, tally):
-    prompt = EXTRACT_PROMPT.format(
+    extract_system, extract_prompt, _, _ = prompts_for(domain)
+    prompt = extract_prompt.format(
         domain_label=DOMAIN_LABELS.get(domain, domain or "未分類"),
         sources=format_sources(items, with_domain=False),
         existing_slugs=", ".join(slugs),
         max_concepts=CONCEPTS_PER_BATCH,
     )
-    text, usage = call_claude(prompt, EXTRACT_SYSTEM, model=model)
+    text, usage = call_claude(prompt, extract_system, model=model)
     tally.add(usage)
     return parse_concepts(text, len(items), set(slugs)), usage
 
@@ -327,14 +397,15 @@ def extract_concepts(items, domain, slugs, model, tally):
 # Phase 2: 記事生成と検証
 # ============================================================
 def write_article(concept, items, domain, slugs, model, tally):
-    prompt = WRITE_PROMPT.format(
+    _, _, write_system, write_prompt = prompts_for(domain)
+    prompt = write_prompt.format(
         title_ja=concept["title_ja"], title_en=concept["title_en"],
         description=concept["description"] or "(説明なし)",
         mechanisms=", ".join(concept["mechanisms"]) or "(未抽出)",
         domain_label=DOMAIN_LABELS.get(domain, domain or "未分類"),
         sources=format_sources(items, with_domain=False),
     )
-    system = WRITE_SYSTEM.format(existing_slugs=", ".join(slugs))
+    system = write_system.format(existing_slugs=", ".join(slugs))
     text, usage = call_claude(prompt, system, model=model)
     tally.add(usage)
     return strip_code_fence(text) if text.strip().startswith("```") else text.strip(), usage
